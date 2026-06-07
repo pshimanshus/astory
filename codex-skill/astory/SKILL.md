@@ -74,20 +74,21 @@ Every run follows this state order:
 9. `GENERATE_STORY_CONCEPT`
 10. `DECIDE_SLIDE_COUNT`
 11. `GENERATE_SLIDE_BEATS`
-12. `SELECT_AND_ORDER_SLIDES`
-13. `CREATE_CHARACTER_BIBLE`
-14. `CREATE_STYLE_BIBLE`
-15. `CREATE_PROMPT_PACK`
-16. `PRE_GENERATION_EVAL`
-17. `HITL_PROMPT_LOCK`
-18. `LOAD_REFERENCE_IMAGES_IN_CONTEXT`
-19. `GENERATE_IMAGES_WITH_IMAGEGEN`
-20. `IMAGE_QUALITY_EVAL`
-21. `RETRY_OR_REVISE_IF_NEEDED`
-22. `FINAL_QA`
-23. `EXPORT_AND_PACKAGE`
-24. `WRITE_REPORTS`
-25. `COMPLETE_OR_BLOCKED`
+12. `GENERATE_SCENE_OPTIONS`
+13. `SELECT_AND_ORDER_SLIDES`
+14. `CREATE_CHARACTER_BIBLE`
+15. `CREATE_STYLE_BIBLE`
+16. `CREATE_PROMPT_PACK`
+17. `PRE_GENERATION_EVAL`
+18. `HITL_PROMPT_LOCK`
+19. `LOAD_REFERENCE_IMAGES_IN_CONTEXT`
+20. `GENERATE_IMAGES_WITH_IMAGEGEN`
+21. `IMAGE_QUALITY_EVAL`
+22. `RETRY_OR_REVISE_IF_NEEDED`
+23. `FINAL_QA`
+24. `EXPORT_AND_PACKAGE`
+25. `WRITE_REPORTS`
+26. `COMPLETE_OR_BLOCKED`
 
 Append a JSON line to `logs/trace.jsonl` at every state using `templates/logs/trace_event.jsonl`.
 
@@ -139,7 +140,16 @@ Outputs:
 - `planning/story_concept.json`
 - `planning/slide_count_decision.md`
 - `planning/slide_beat_map.json`
+- `planning/scene_options.json`
+- `planning/selected_scenes.json`
 - `debates/story_room/story_debate.md`
+
+Scene protocol:
+1. Generate multiple viable visual treatments per slide before prompt writing.
+2. For each slide, include at least 3 scene options unless the story logic makes alternatives impossible.
+3. Score options on scene-text proof, identity preservation, visual freshness, phone-screen readability, wardrobe continuity, and style fit.
+4. Select the scene that best proves the exact on-image text while keeping faces natural and reference-driven.
+5. Save rejected scene reasons so future revisions can avoid repeating weak visual choices.
 
 ### Prompt QA Room
 

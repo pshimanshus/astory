@@ -14,3 +14,5 @@
 - Copied identity references from `astoryoftwo-analysis/config/references/identity/` into V2: Aachu, Zuv, together, and `_dossier`.
 - Removed copied `.DS_Store` metadata files and added `.gitignore`.
 - Updated setup status: identity references ready; style references still pending.
+- Copied approved `observational-intimacy-premium` style references into V2: 8 slide references plus contact sheet.
+- Updated setup status to ready for final `/astory` runs, with runtime requirement that selected references be made visible to Codex before imagegen.

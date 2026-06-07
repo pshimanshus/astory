@@ -1,0 +1,34 @@
+{
+  "run_id": "{{run_id}}",
+  "source_scene_options": "planning/scene_options.json",
+  "selection_status": "ready|needs_revision|blocked",
+  "slides": [
+    {
+      "slide_number": 1,
+      "selected_scene_option_id": "1A",
+      "selection_reason": "{{why_this_scene_wins}}",
+      "final_scene_summary": "{{final_scene}}",
+      "exact_on_image_text": "{{exact_text}}",
+      "locked_visual_proof": "{{proof_that_scene_matches_text}}",
+      "locked_text_placement": "{{text_placement}}",
+      "locked_identity_references": [],
+      "locked_style_references": [],
+      "locked_wardrobe": "{{wardrobe}}",
+      "locked_props": [],
+      "rejected_options": [
+        {
+          "scene_option_id": "1B",
+          "reason_rejected": "{{reason}}",
+          "reuse_warning": "{{what_to_avoid_in_revisions}}"
+        }
+      ],
+      "open_risks": [],
+      "prompt_builder_notes": "{{notes_for_prompt_architect}}"
+    }
+  ],
+  "hitl_summary": {
+    "creator_decision": "approved|revise|blocked|pending",
+    "creator_notes": "{{notes}}",
+    "approved_at": "{{timestamp}}"
+  }
+}

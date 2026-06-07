@@ -2,7 +2,7 @@
 
 Last checked: `2026-06-07`
 
-Status: `partially_ready`
+Status: `ready`
 
 ## Skill Install
 
@@ -17,12 +17,12 @@ Status: `partially_ready`
 - `references/identity/zuv/`: 14 image files found
 - `references/identity/together/`: 21 couple/together image files found
 - `references/identity/_dossier/`: identity dossier, preflight, and contact sheet found
-- `references/style/`: no style image files found yet
+- `references/style/observational-intimacy-premium/`: 9 approved style image files found, including contact sheet
 - `references/text-style/`: rules present
 - `references/brand/`: rules present
 
 ## Gate Decision
 
-Planning, idea debate, story design, prompt drafting, evals, traces, and reports are allowed.
+Planning, idea debate, story design, prompt drafting, evals, traces, reports, and final image generation are allowed.
 
-Identity references are now available for Aachu, Zuv, and together/couple context. Final publishable image generation still needs approved style reference images or a creator-approved style-lock bundle in `references/style/`.
+Identity references are available for Aachu, Zuv, and together/couple context. Approved style references are available in `references/style/observational-intimacy-premium/`. During a real `/astory` imagegen run, selected identity and style references still must be made visible to Codex before the final generation call.

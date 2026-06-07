@@ -1,0 +1,40 @@
+{
+  "run_id": "{{run_id}}",
+  "source_slide_beat_map": "planning/slide_beat_map.json",
+  "minimum_options_per_slide": 3,
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "{{exact_text}}",
+      "story_role": "{{setup|escalation|payoff}}",
+      "options": [
+        {
+          "scene_option_id": "1A",
+          "scene_summary": "{{visual_scene}}",
+          "environment": "{{environment}}",
+          "character_action": "{{action}}",
+          "body_language": "{{body_language}}",
+          "eye_line": "{{eye_line}}",
+          "props": [],
+          "wardrobe_anchors": [],
+          "identity_references_needed": [],
+          "style_references_needed": [],
+          "scene_logic_proof": "{{how_this_visually_proves_the_text}}",
+          "text_placement_plan": "{{upper_middle_negative_space_plan}}",
+          "phone_readability_notes": "{{readability_notes}}",
+          "risk_flags": [],
+          "scores": {
+            "scene_text_proof": 0,
+            "identity_preservation": 0,
+            "visual_freshness": 0,
+            "phone_readability": 0,
+            "wardrobe_continuity": 0,
+            "style_fit": 0,
+            "overall": 0
+          },
+          "reviewer_notes": "{{notes}}"
+        }
+      ]
+    }
+  ]
+}

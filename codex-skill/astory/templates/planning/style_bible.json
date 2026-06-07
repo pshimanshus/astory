@@ -1,0 +1,14 @@
+{
+  "run_id": "{{run_id}}",
+  "style_status": "ready|blocked",
+  "reference_paths": [],
+  "illustration_style": "premium hand-drawn romantic watercolor-and-ink editorial illustration",
+  "palette": ["neutral warm ivory/off-white", "muted denim blue", "soft navy", "faded sage", "peach blush"],
+  "paper_rule": "neutral ivory/off-white, not yellow, mustard, sepia, parchment, beige/tan, coffee-stained, or heavy cream",
+  "line_quality": "fine ink and pencil linework with natural variation",
+  "background_style": "soft minimal environment fading into paper",
+  "texture": "visible paper grain, watercolor blooms, dry-brush texture",
+  "text_style": "readable hand-drawn charcoal typography baked into the image",
+  "brandmark_rule": "tiny low-contrast handwritten @a.storyof.two bottom-right",
+  "negative_style_rules": []
+}

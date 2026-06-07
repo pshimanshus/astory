@@ -1,0 +1,22 @@
+{
+  "run_id": "{{run_id}}",
+  "threshold": 4.0,
+  "scores": {
+    "story_coherence": 0,
+    "slide_count_fit": 0,
+    "scene_selection_quality": 0,
+    "visual_clarity": 0,
+    "prompt_clarity": 0,
+    "character_consistency_potential": 0,
+    "style_consistency_potential": 0,
+    "text_readability_potential": 0,
+    "brand_fit": 0,
+    "publishability": 0,
+    "risk_of_generic_output": 0,
+    "risk_of_visual_failure": 0,
+    "overall": 0
+  },
+  "status": "pass|revise|block",
+  "required_revisions": [],
+  "failure_codes": []
+}

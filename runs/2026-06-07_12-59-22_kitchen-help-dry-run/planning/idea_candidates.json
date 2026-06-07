@@ -1,0 +1,58 @@
+{
+  "run_id": "2026-06-07_12-59-22_kitchen-help-dry-run",
+  "idea_mode": "specific",
+  "candidate_count": 9,
+  "clusters": [
+    {
+      "cluster_id": "cluster_onion",
+      "titles": ["The One Onion Project", "One Pyaaz, Seven Bartans", "The Onion Department"],
+      "representative_title": "One Pyaaz, Seven Bartans",
+      "agent_support": ["Relatability Ethnographer", "Shareability Strategist", "Visual Story Director"],
+      "average_overall_score": 4.65,
+      "summary": "He volunteers to chop one onion with full confidence and somehow uses half the kitchen.",
+      "strengths": ["clearest 3-second hook", "low visual complexity", "strong comment potential", "warm non-mean domestic truth"],
+      "risks": ["can become gender-stereotype content if her expression is contemptuous", "hug-at-stove payoff may create pose/anatomy risk"]
+    },
+    {
+      "cluster_id": "cluster_tadka",
+      "titles": ["One Tadka, Full Kitchen"],
+      "representative_title": "One Tadka, Full Kitchen",
+      "agent_support": ["Visual Story Director"],
+      "average_overall_score": 4.9,
+      "summary": "He does one tiny tadka and the kitchen looks like dinner hosted a festival.",
+      "strengths": ["strong Indian kitchen specificity", "excellent prop world", "high visual proof"],
+      "risks": ["prompt overload", "oil-splatter/anatomy clutter risk", "less consensus across agents"]
+    },
+    {
+      "cluster_id": "cluster_questions",
+      "titles": ["Help Came With Questions", "The Help Desk Husband"],
+      "representative_title": "The Help Desk Husband",
+      "agent_support": ["Relatability Ethnographer", "Shareability Strategist"],
+      "average_overall_score": 4.54,
+      "summary": "He comes to help but asks so many questions that she becomes the kitchen command center.",
+      "strengths": ["high mental-load relatability", "comment-friendly"],
+      "risks": ["more likely to become wife-as-manager stereotype", "less visually fresh"]
+    },
+    {
+      "cluster_id": "cluster_cleanup",
+      "titles": ["Dishwasher Energy, Indian Kitchen Edition", "Dishes Done, Kitchen Undone"],
+      "representative_title": "Dishes Done, Kitchen Undone",
+      "agent_support": ["Relatability Ethnographer", "Visual Story Director"],
+      "average_overall_score": 4.44,
+      "summary": "He cleans or washes dishes proudly but leaves a second mess behind.",
+      "strengths": ["real domestic truth", "strong cleanup payoff"],
+      "risks": ["wet surfaces and mess can look ugly", "less tied to original kitchen-help chopping/cooking idea"]
+    },
+    {
+      "cluster_id": "cluster_moral_support",
+      "titles": ["His Signature Dish: Moral Support"],
+      "representative_title": "His Signature Dish: Moral Support",
+      "agent_support": ["Shareability Strategist"],
+      "average_overall_score": 4.49,
+      "summary": "He helps by tasting, commenting, adjusting the flame, and lovingly standing in the way.",
+      "strengths": ["warmest emotional angle", "brand fit"],
+      "risks": ["less clear extra-work proof", "can become too soft to comment on"]
+    }
+  ],
+  "all_candidate_ids": ["RE_01", "RE_02", "RE_03", "SS_01", "SS_02", "SS_03", "VSD_01", "VSD_02", "VSD_03"]
+}

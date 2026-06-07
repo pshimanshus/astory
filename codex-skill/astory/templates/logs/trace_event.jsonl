@@ -1,0 +1,1 @@
+{"run_id":"{{run_id}}","timestamp":"{{iso_timestamp}}","state":"{{state}}","input_summary":"{{input_summary}}","output_paths":[],"score":null,"decision":"{{decision}}","failure":null,"next_state":"{{next_state}}"}

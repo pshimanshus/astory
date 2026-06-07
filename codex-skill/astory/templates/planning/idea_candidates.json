@@ -1,0 +1,37 @@
+{
+  "run_id": "{{run_id}}",
+  "idea_mode": "specific|theme|auto",
+  "candidate_count": 0,
+  "candidates": [
+    {
+      "idea_id": "idea_001",
+      "source_agent": "{{agent_name}}",
+      "title": "{{title}}",
+      "one_line_concept": "{{concept}}",
+      "emotional_truth": "{{truth}}",
+      "humor_angle": "{{humor}}",
+      "relatable_trigger": "{{trigger}}",
+      "likely_audience_reaction": "{{reaction}}",
+      "visual_potential": "{{visual_potential}}",
+      "why_people_may_share": "{{share_reason}}",
+      "why_people_may_comment": "{{comment_reason}}",
+      "risk_of_being_generic": "{{risk}}",
+      "suggested_text_hook": "{{hook}}",
+      "suggested_slide_arc": "{{arc}}",
+      "scores": {
+        "relatability": 0,
+        "shareability": 0,
+        "comment_potential": 0,
+        "visual_clarity": 0,
+        "emotional_truth": 0,
+        "humor_warmth_balance": 0,
+        "freshness": 0,
+        "brand_fit": 0,
+        "simplicity": 0,
+        "carousel_payoff": 0,
+        "overall": 0
+      },
+      "execution_difficulty_score": 0
+    }
+  ]
+}

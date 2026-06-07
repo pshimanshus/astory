@@ -1,0 +1,50 @@
+{
+  "agent_role": "Relatability Ethnographer",
+  "candidates": [
+    {
+      "idea_id": "RE_01",
+      "title": "Help Came With Questions",
+      "one_line_concept": "He enters the kitchen to help with dinner, but every two minutes she has to pause her own work to find the peeler, explain the masala box, rescue the tadka, and still smile because he is genuinely trying.",
+      "emotional_truth": "Sometimes love looks like extra work you secretly do not mind, because the intention is soft even when the execution is loud.",
+      "humor_angle": "His helpfulness has onboarding requirements.",
+      "relatable_trigger": "The partner who says, \"Tell me what to do,\" while you are already doing four things.",
+      "visual_evidence": "Open masala dabba, coriander stems scattered, wet counter, half-cut onions, him holding three wrong spoons, her amused tired face near the stove.",
+      "risk_of_being_generic": "Medium, unless the kitchen questions are very specific and observational.",
+      "suggested_text_hook": "He came to help. I became kitchen manager.",
+      "suggested_slide_arc": ["He proudly enters: \"I'll help.\"", "First question: \"Where is the peeler?\"", "Second question: \"This is jeera or ajwain?\"", "Now she is cooking plus supervising.", "They eat late, laughing over slightly dramatic dal."],
+      "scores": {"relatability": 4.7, "shareability": 4.5, "comment_potential": 4.6, "visual_clarity": 4.8, "emotional_truth": 4.5, "humor_warmth_balance": 4.6, "freshness": 4.1, "brand_fit": 4.5, "simplicity": 4.8, "carousel_payoff": 4.4, "overall": 4.55}
+    },
+    {
+      "idea_id": "RE_02",
+      "title": "The One Onion Project",
+      "one_line_concept": "He volunteers to chop one onion and somehow uses two knives, three bowls, the big chopping board, half the counter, and asks if onions are supposed to look \"rustic.\"",
+      "emotional_truth": "The comedy is not that he cannot help; it is that his sincere little contribution arrives with full production value.",
+      "humor_angle": "One small task becomes an event.",
+      "relatable_trigger": "When someone helps with one thing but leaves behind a whole second thing.",
+      "visual_evidence": "One unevenly chopped onion, three bowls for no reason, onion skins on the floor, him looking proud, her looking at the counter like it has betrayed her.",
+      "risk_of_being_generic": "Low, because the one-onion specificity keeps it lived-in.",
+      "suggested_text_hook": "He chopped one onion. The kitchen needed recovery time.",
+      "suggested_slide_arc": ["She asks for one chopped onion.", "He takes the job very seriously.", "The onion is done, technically.", "The counter tells a longer story.", "She uses the onion anyway and kisses his shoulder."],
+      "scores": {"relatability": 4.8, "shareability": 4.6, "comment_potential": 4.7, "visual_clarity": 4.9, "emotional_truth": 4.4, "humor_warmth_balance": 4.8, "freshness": 4.5, "brand_fit": 4.7, "simplicity": 4.9, "carousel_payoff": 4.7, "overall": 4.73}
+    },
+    {
+      "idea_id": "RE_03",
+      "title": "Dishwasher Energy, Indian Kitchen Edition",
+      "one_line_concept": "He cleans while she cooks, but he puts the pressure cooker lid in the wrong place, washes the spoon she still needs, and proudly wipes the counter around the mess instead of the mess.",
+      "emotional_truth": "Domestic teamwork is often less perfect coordination and more two people gently negotiating each other's systems.",
+      "humor_angle": "He is helping, but his timing is beautifully inconvenient.",
+      "relatable_trigger": "When your partner cleans the exact thing you were still using.",
+      "visual_evidence": "Missing karchi, wet stove corner, pressure cooker lid on dining chair, soap foam on a needed bowl, her searching mid-tadka, him glowing with pride.",
+      "risk_of_being_generic": "Medium-low; needs precise Indian kitchen props to avoid becoming a generic chore joke.",
+      "suggested_text_hook": "He cleaned the kitchen while I was still using it.",
+      "suggested_slide_arc": ["He says, \"I'll clean as you cook.\"", "She reaches for the spoon. Gone.", "She reaches for the cooker lid. Also gone.", "He has made everything shiny except the active mess.", "They find their rhythm by the last roti."],
+      "scores": {"relatability": 4.5, "shareability": 4.3, "comment_potential": 4.4, "visual_clarity": 4.5, "emotional_truth": 4.6, "humor_warmth_balance": 4.7, "freshness": 4.4, "brand_fit": 4.6, "simplicity": 4.4, "carousel_payoff": 4.3, "overall": 4.47}
+    }
+  ],
+  "top_pick": {
+    "idea_id": "RE_02",
+    "why": "It preserves the core idea with the cleanest, funniest proof: one onion creating an entire aftermath. It is specific, visual, warm, and avoids turning the husband into a stereotype because his effort is sincere and contained."
+  },
+  "rejected_patterns": ["Husband as helpless man-child.", "Wife as permanently annoyed mother figure.", "Generic line: \"Marriage is teamwork.\"", "Punchline built on insulting his cooking ability.", "Over-polished captions that sound like relationship advice.", "Messy kitchen chaos with no tender payoff."],
+  "risk_notes": ["Keep the joke on the tiny domestic mismatch, not on gender competence.", "Show her amused affection, not contempt.", "Use exact Indian kitchen details.", "Let him be earnest and proud so the warmth survives the mess.", "Avoid making the mess too disgusting."]
+}

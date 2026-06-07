@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-06-07_12-59-22_kitchen-help-dry-run",
+  "raw_input": "Husband helps in kitchen but creates more work.",
+  "idea_mode": "specific",
+  "core_idea": "A husband says he is helping in the kitchen, but his version of help creates extra work for his wife.",
+  "tone": "warm funny relatable intimate premium",
+  "relationship_dynamic": "everyday husband-wife teasing with affection underneath",
+  "target_audience": "Indian millennial and Gen Z couples who recognize domestic micro-chaos",
+  "desired_feeling": "soft laughter, recognition, and tenderness",
+  "must_include": [
+    "the user's core kitchen-help idea",
+    "gentle humor without mean gender stereotyping",
+    "visual proof of extra work"
+  ],
+  "must_avoid": [
+    "generic husband-bashing",
+    "quote-card energy",
+    "too much text",
+    "final imagegen before identity/style references are available"
+  ],
+  "platform": "instagram",
+  "requested_surface": "post_4x5",
+  "initial_slide_count_preference": "story_led",
+  "output_format": "planning_only_dry_run"
+}

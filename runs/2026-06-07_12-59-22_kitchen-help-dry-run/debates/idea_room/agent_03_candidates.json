@@ -1,0 +1,59 @@
+{
+  "agent_role": "Visual Story Director",
+  "candidates": [
+    {
+      "idea_id": "VSD_01",
+      "title": "One Tadka, Full Kitchen",
+      "one_line_concept": "He helps with one tiny tadka and somehow the whole kitchen looks like dinner hosted a festival.",
+      "emotional_truth": "Some help creates extra work, but the intention is so sweet you cannot fully complain.",
+      "humor_angle": "Tiny task, dramatic aftermath.",
+      "relatable_trigger": "Spice dabba open, oil splatter, five spoons used for one dal.",
+      "visual_potential": "Very strong: stove, kadhai, dal pot, spice box, splattered counter, sink full of steel utensils, wife half-amused in foreground.",
+      "suggested_text_hook": "He said, 'I'll just do the tadka.'",
+      "suggested_slide_arc": ["Offer to help", "Confident tadka entry", "Kitchen chaos grows", "She quietly repairs it", "They eat together anyway"],
+      "suggested_slide_1_moment": "Wife cooking calmly with upper text space; husband enters holding a ladle like a serious chef.",
+      "suggested_payoff_moment": "They sit close with dal-rice while the messy kitchen glows behind them; she smiles, he looks proud.",
+      "execution_difficulty_score": 2,
+      "failure_risks": ["PROMPT_OVERLOAD if too many utensils are specified", "SCENE_LOGIC_CONTRADICTION if mess appears before he starts"],
+      "scores": {"relatability": 5, "shareability": 5, "comment_potential": 5, "visual_clarity": 5, "emotional_truth": 5, "humor_warmth_balance": 5, "freshness": 4, "brand_fit": 5, "simplicity": 5, "carousel_payoff": 5, "overall": 4.9}
+    },
+    {
+      "idea_id": "VSD_02",
+      "title": "The Onion Department",
+      "one_line_concept": "He volunteers to cut onions and turns it into a full emotional and logistical event.",
+      "emotional_truth": "Love is sometimes watching someone suffer through the task they proudly chose.",
+      "humor_angle": "Heroic self-importance over one onion.",
+      "relatable_trigger": "Onion tears, peels everywhere, wrong knife, extra bowls, dramatic wiping of eyes.",
+      "visual_potential": "Strong close domestic staging; fewer props than tadka, clear faces and natural poses.",
+      "suggested_text_hook": "He took one onion. And three bowls.",
+      "suggested_slide_arc": ["He volunteers", "He prepares like a chef", "Onion tears begin", "She finishes the rest", "He claims teamwork"],
+      "suggested_slide_1_moment": "He carefully selects an onion while she watches with fond suspicion.",
+      "suggested_payoff_moment": "He hugs her from behind while she cooks; onion peels still on the counter.",
+      "execution_difficulty_score": 1,
+      "failure_risks": ["TOO_FEW_SLIDES if stretched beyond the joke", "ANATOMY_FAILURE if hug-at-stove pose is overcomplicated"],
+      "scores": {"relatability": 5, "shareability": 4, "comment_potential": 4, "visual_clarity": 5, "emotional_truth": 4, "humor_warmth_balance": 5, "freshness": 4, "brand_fit": 5, "simplicity": 5, "carousel_payoff": 4, "overall": 4.5}
+    },
+    {
+      "idea_id": "VSD_03",
+      "title": "Dishes Done, Kitchen Undone",
+      "one_line_concept": "He proudly washes the dishes, but leaves the counter, sink, floor, and wife with round two.",
+      "emotional_truth": "The invisible part of housework is often the part nobody counts.",
+      "humor_angle": "He celebrates finishing while the actual cleanup is still everywhere.",
+      "relatable_trigger": "Wet steel plates, soap foam, puddles, food bits in sink, misplaced utensils.",
+      "visual_potential": "Good visual proof, especially with before-after contrast and a proud husband holding one clean plate.",
+      "suggested_text_hook": "He said, 'I did the dishes.'",
+      "suggested_slide_arc": ["He offers cleanup", "Foamy heroic dishwashing", "He exits proud", "She sees the second mess", "She laughs and pulls him back"],
+      "suggested_slide_1_moment": "Post-dinner kitchen; he rolls up sleeves while she looks relieved.",
+      "suggested_payoff_moment": "She hands him a cloth, they clean together shoulder-to-shoulder.",
+      "execution_difficulty_score": 2,
+      "failure_risks": ["SCENE_LOGIC_CONTRADICTION if clean dishes and messy sink are unclear", "PROMPT_OVERLOAD with too many wet reflective surfaces"],
+      "scores": {"relatability": 5, "shareability": 4, "comment_potential": 5, "visual_clarity": 4, "emotional_truth": 5, "humor_warmth_balance": 4, "freshness": 4, "brand_fit": 4, "simplicity": 4, "carousel_payoff": 5, "overall": 4.4}
+    }
+  ],
+  "top_pick": {
+    "idea_id": "VSD_01",
+    "reason": "Best balance of Indian kitchen specificity, instant visual proof, warm humor, prop clarity, and a tender payoff."
+  },
+  "visual_risks": ["Keep kitchen mess readable but not ugly.", "Avoid crowded countertops that compete with handwritten text space.", "Stage the couple lower/middle-lower with generous upper negative space.", "Use 4-5 clear props max per slide."],
+  "slide_count_hints": {"VSD_01": "5 slides ideal; 4 loses escalation, 6 may over-explain.", "VSD_02": "4 slides ideal; simple joke with intimate payoff.", "VSD_03": "5 slides ideal; needs setup, false completion, reveal, repair, payoff."}
+}

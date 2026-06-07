@@ -1,0 +1,16 @@
+{
+  "run_id": "{{run_id}}",
+  "raw_input": "{{raw_user_input}}",
+  "idea_mode": "specific|theme|auto",
+  "core_idea": "{{core_idea}}",
+  "tone": "{{tone}}",
+  "relationship_dynamic": "{{relationship_dynamic}}",
+  "target_audience": "{{target_audience}}",
+  "desired_feeling": "{{desired_feeling}}",
+  "must_include": [],
+  "must_avoid": [],
+  "platform": "instagram",
+  "requested_surface": "post_4x5|story_9x16|both",
+  "initial_slide_count_preference": "story_led",
+  "output_format": "native_images_with_run_artifacts"
+}

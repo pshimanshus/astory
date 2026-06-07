@@ -1,0 +1,13 @@
+{
+  "run_id": "{{run_id}}",
+  "title": "{{title}}",
+  "one_line_summary": "{{summary}}",
+  "emotional_hook": "{{hook}}",
+  "setup": "{{setup}}",
+  "escalation": "{{escalation}}",
+  "payoff": "{{payoff}}",
+  "relationship_truth": "{{truth}}",
+  "why_people_will_share": "{{share_reason}}",
+  "risk_of_being_generic": "{{risk}}",
+  "stronger_angle_suggestions": []
+}

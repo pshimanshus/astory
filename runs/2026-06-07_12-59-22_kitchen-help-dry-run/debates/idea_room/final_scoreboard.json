@@ -1,0 +1,65 @@
+{
+  "run_id": "2026-06-07_12-59-22_kitchen-help-dry-run",
+  "threshold": 4.0,
+  "survivors": [
+    {
+      "idea_id": "cluster_onion",
+      "title": "One Pyaaz, Seven Bartans",
+      "scores": {
+        "relatability": 4.9,
+        "shareability": 4.8,
+        "comment_potential": 4.8,
+        "visual_clarity": 4.9,
+        "emotional_truth": 4.4,
+        "humor_warmth_balance": 4.7,
+        "freshness": 4.5,
+        "brand_fit": 4.7,
+        "simplicity": 4.9,
+        "carousel_payoff": 4.7,
+        "overall": 4.72
+      },
+      "debate_notes": "Selected by consensus. Best balance of 3-second hook, visual proof, warmth, low prompt risk, and share/comment potential.",
+      "selection_status": "selected"
+    },
+    {
+      "idea_id": "cluster_tadka",
+      "title": "One Tadka, Full Kitchen",
+      "scores": {
+        "relatability": 5,
+        "shareability": 5,
+        "comment_potential": 5,
+        "visual_clarity": 5,
+        "emotional_truth": 5,
+        "humor_warmth_balance": 5,
+        "freshness": 4,
+        "brand_fit": 5,
+        "simplicity": 5,
+        "carousel_payoff": 5,
+        "overall": 4.9
+      },
+      "debate_notes": "Highest single-agent score, but less cross-agent consensus and higher prompt-overload risk.",
+      "selection_status": "rejected_alternate"
+    },
+    {
+      "idea_id": "cluster_questions",
+      "title": "The Help Desk Husband",
+      "scores": {
+        "relatability": 4.8,
+        "shareability": 4.6,
+        "comment_potential": 4.7,
+        "visual_clarity": 4.4,
+        "emotional_truth": 4.5,
+        "humor_warmth_balance": 4.6,
+        "freshness": 4.1,
+        "brand_fit": 4.5,
+        "simplicity": 4.7,
+        "carousel_payoff": 4.4,
+        "overall": 4.53
+      },
+      "debate_notes": "Strong but more likely to become wife-as-manager content.",
+      "selection_status": "rejected"
+    }
+  ],
+  "second_round_required": false,
+  "selected_idea_id": "cluster_onion"
+}

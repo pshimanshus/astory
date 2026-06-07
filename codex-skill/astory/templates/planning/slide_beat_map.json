@@ -1,0 +1,22 @@
+{
+  "run_id": "{{run_id}}",
+  "slide_count": 0,
+  "slides": [
+    {
+      "slide_number": 1,
+      "story_role": "{{setup|escalation|payoff}}",
+      "exact_on_image_text": "{{exact_text}}",
+      "visual_scene": "{{scene}}",
+      "character_action": "{{action}}",
+      "emotional_expression": "{{expression}}",
+      "environment": "{{environment}}",
+      "props": [],
+      "wardrobe": "{{wardrobe}}",
+      "identity_references_needed": [],
+      "style_references_needed": [],
+      "scene_logic_proof": "{{proof}}",
+      "risks": [],
+      "fallback_revision": "{{revision}}"
+    }
+  ]
+}

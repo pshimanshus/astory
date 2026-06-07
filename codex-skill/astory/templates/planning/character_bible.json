@@ -1,0 +1,27 @@
+{
+  "run_id": "{{run_id}}",
+  "identity_status": "ready|blocked",
+  "aachu": {
+    "reference_paths": [],
+    "face_anchors": [],
+    "hair_anchors": [],
+    "skin_tone_anchor": "{{description}}",
+    "wardrobe_anchors": [],
+    "do_not_change": []
+  },
+  "zuv": {
+    "reference_paths": [],
+    "face_anchors": [],
+    "hair_beard_anchors": [],
+    "skin_tone_anchor": "{{description}}",
+    "wardrobe_anchors": [],
+    "do_not_change": []
+  },
+  "together": {
+    "reference_paths": [],
+    "relationship_energy": "{{description}}",
+    "body_language_anchors": []
+  },
+  "new_people_policy": "request references before recurring or identity-important side characters",
+  "continuity_rules": []
+}

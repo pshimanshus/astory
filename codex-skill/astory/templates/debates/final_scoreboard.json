@@ -1,0 +1,27 @@
+{
+  "run_id": "{{run_id}}",
+  "threshold": 4.0,
+  "survivors": [
+    {
+      "idea_id": "{{idea_id}}",
+      "title": "{{title}}",
+      "scores": {
+        "relatability": 0,
+        "shareability": 0,
+        "comment_potential": 0,
+        "visual_clarity": 0,
+        "emotional_truth": 0,
+        "humor_warmth_balance": 0,
+        "freshness": 0,
+        "brand_fit": 0,
+        "simplicity": 0,
+        "carousel_payoff": 0,
+        "overall": 0
+      },
+      "debate_notes": "{{notes}}",
+      "selection_status": "selected|rejected|repair_needed"
+    }
+  ],
+  "second_round_required": false,
+  "selected_idea_id": "{{idea_id}}"
+}

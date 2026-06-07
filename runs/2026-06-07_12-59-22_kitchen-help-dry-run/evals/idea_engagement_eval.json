@@ -1,0 +1,21 @@
+{
+  "run_id": "2026-06-07_12-59-22_kitchen-help-dry-run",
+  "selected_idea_id": "cluster_onion",
+  "score_threshold": 4.0,
+  "scores": {
+    "relatability": 4.9,
+    "shareability": 4.8,
+    "comment_potential": 4.8,
+    "visual_clarity": 4.9,
+    "emotional_truth": 4.4,
+    "humor_warmth_balance": 4.7,
+    "freshness": 4.5,
+    "brand_fit": 4.7,
+    "simplicity": 4.9,
+    "carousel_payoff": 4.7,
+    "overall": 4.72
+  },
+  "selection_allowed": true,
+  "second_round_required": false,
+  "notes": "Selected idea crosses threshold and preserves the user's original kitchen-help premise. HITL approval is still required before story and slide-count planning."
+}

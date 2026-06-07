@@ -1,0 +1,21 @@
+{
+  "run_id": "{{run_id}}",
+  "selected_idea_id": "{{idea_id}}",
+  "score_threshold": 4.0,
+  "scores": {
+    "relatability": 0,
+    "shareability": 0,
+    "comment_potential": 0,
+    "visual_clarity": 0,
+    "emotional_truth": 0,
+    "humor_warmth_balance": 0,
+    "freshness": 0,
+    "brand_fit": 0,
+    "simplicity": 0,
+    "carousel_payoff": 0,
+    "overall": 0
+  },
+  "selection_allowed": false,
+  "second_round_required": false,
+  "notes": "{{notes}}"
+}

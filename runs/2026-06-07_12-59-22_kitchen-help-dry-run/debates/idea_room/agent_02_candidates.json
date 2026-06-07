@@ -1,0 +1,53 @@
+{
+  "agent_role": "Shareability Strategist",
+  "candidates": [
+    {
+      "idea_id": "SS_01",
+      "title": "The Help Desk Husband",
+      "one_line_concept": "He enters the kitchen to help, then asks so many tiny questions that she becomes the kitchen GPS.",
+      "emotional_truth": "Sometimes love shows up with good intentions, but the mental load still follows her.",
+      "humor_angle": "Every helpful act begins with, 'Where is...?'",
+      "relatable_trigger": "The husband who wants to help but cannot find the salt in his own house.",
+      "likely_audience_reaction": "This is us. He is sweet, but please learn one drawer.",
+      "why_people_may_share": "Easy partner-tag for couples where one person is the kitchen command center.",
+      "why_people_may_comment": "People will list the funniest things their partner cannot find.",
+      "suggested_text_hook": "He said, 'I'll help.' Then asked 17 questions.",
+      "suggested_slide_arc": ["He proudly ties an apron.", "She says, 'Just get the jeera.'", "He opens every cabinet except the right one.", "She is cooking and answering like a helpline.", "Final beat: he washes dishes without asking; she softens."],
+      "scores": {"relatability": 4.8, "shareability": 4.6, "comment_potential": 4.7, "visual_clarity": 4.4, "emotional_truth": 4.5, "humor_warmth_balance": 4.6, "freshness": 4.1, "brand_fit": 4.5, "simplicity": 4.7, "carousel_payoff": 4.4, "overall": 4.53}
+    },
+    {
+      "idea_id": "SS_02",
+      "title": "One Pyaaz, Seven Bartans",
+      "one_line_concept": "He chops one onion with full MasterChef confidence and somehow uses half the kitchen.",
+      "emotional_truth": "Domestic love is laughing at the mess without dismissing the effort.",
+      "humor_angle": "The scale of destruction is wildly larger than the task.",
+      "relatable_trigger": "Partners who help with one step but leave a full cleanup episode behind.",
+      "likely_audience_reaction": "Guilty. Also why is this exactly my husband?",
+      "why_people_may_share": "It is specific enough to feel personal and broad enough for couple tags, family groups, and married friends.",
+      "why_people_may_comment": "People will compare the one-task messes their partners create.",
+      "suggested_text_hook": "He chopped one pyaaz. The kitchen needed recovery time.",
+      "suggested_slide_arc": ["She asks him to chop one onion.", "He gets serious: board, knife, three bowls, towel, extra plate.", "Counter slowly becomes chaos.", "He presents the chopped onion like a trophy.", "She smiles at him, then points to the sink."],
+      "scores": {"relatability": 4.9, "shareability": 4.8, "comment_potential": 4.8, "visual_clarity": 4.9, "emotional_truth": 4.4, "humor_warmth_balance": 4.7, "freshness": 4.5, "brand_fit": 4.6, "simplicity": 4.9, "carousel_payoff": 4.7, "overall": 4.72}
+    },
+    {
+      "idea_id": "SS_03",
+      "title": "His Signature Dish: Moral Support",
+      "one_line_concept": "He helps by tasting, giving commentary, adjusting the flame, and standing very lovingly in the way.",
+      "emotional_truth": "Sometimes companionship is inefficient, but still quietly comforting.",
+      "humor_angle": "He contributes opinions, appetite, and one suspiciously timed hug.",
+      "relatable_trigger": "The partner who turns cooking into a two-person activity without doing the main work.",
+      "likely_audience_reaction": "Annoying but cute. Unfortunately, I love this version.",
+      "why_people_may_share": "Feels more intimate than complaint-based content, so it is saveable and sendable.",
+      "why_people_may_comment": "People will debate whether moral support counts as kitchen help.",
+      "suggested_text_hook": "He came to help. Became live commentary.",
+      "suggested_slide_arc": ["She is making dinner alone.", "He walks in with confidence and a spoon.", "He tastes, suggests salt, blocks the drawer.", "She gives him one look; he grins.", "Final beat: he feeds her the first bite and quietly cleans the counter."],
+      "scores": {"relatability": 4.5, "shareability": 4.2, "comment_potential": 4.4, "visual_clarity": 4.3, "emotional_truth": 4.7, "humor_warmth_balance": 4.8, "freshness": 4.3, "brand_fit": 4.8, "simplicity": 4.4, "carousel_payoff": 4.5, "overall": 4.49}
+    }
+  ],
+  "top_pick": {
+    "idea_id": "SS_02",
+    "reason": "It has the strongest 3-second hook, cleanest visual proof, broadest couple relatability, and a built-in comment prompt without making the husband look cruel or useless."
+  },
+  "engagement_rationale": "SS_02 should drive shares because it is hyper-specific, visual, and instantly taggable: one small kitchen task becoming a full cleanup story.",
+  "distribution_risks": ["Avoid making the wife look like a scolding parent.", "Keep the mess premium and warm.", "Keep the joke on the situation, not male incompetence.", "Avoid meme-caption energy."]
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "{{run_id}}",
+  "selected_idea_id": "{{idea_id}}",
+  "final_title": "{{title}}",
+  "final_concept": "{{concept}}",
+  "emotional_truth": "{{truth}}",
+  "humor_angle": "{{humor}}",
+  "why_this_will_work": "{{why}}",
+  "expected_audience_reaction": "{{reaction}}",
+  "why_people_may_share": "{{share_reason}}",
+  "why_people_may_comment": "{{comment_reason}}",
+  "visual_story_arc": "{{arc}}",
+  "risks": [],
+  "how_to_make_it_less_generic": "{{repair_note}}",
+  "final_idea_score": 0,
+  "hitl_status": "pending|approved|revision_requested"
+}

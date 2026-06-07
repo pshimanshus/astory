@@ -1,0 +1,24 @@
+{
+  "run_id": "{{run_id}}",
+  "slide_number": 0,
+  "candidate_path": "{{path}}",
+  "threshold": 3.8,
+  "scores": {
+    "identity_match": 0,
+    "face_consistency_across_slides": 0,
+    "style_consistency": 0,
+    "text_readability": 0,
+    "exact_text_preservation": 0,
+    "brandmark_presence": 0,
+    "neutral_ivory_paper": 0,
+    "scene_logic": 0,
+    "pose_anatomy": 0,
+    "composition": 0,
+    "publishability": 0,
+    "overall": 0
+  },
+  "status": "accept|retry|block",
+  "hard_failures": [],
+  "retry_prompt_delta": "{{targeted_delta}}",
+  "failure_codes": []
+}

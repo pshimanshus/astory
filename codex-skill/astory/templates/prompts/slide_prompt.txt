@@ -1,0 +1,50 @@
+USE CASE:
+illustration-story
+
+ASSET TYPE:
+Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram {{surface}} illustration in native {{aspect_ratio}} composition.
+
+REFERENCE IMAGE ROLES:
+Identity references control faces, hair, skin tone, age, expressions, posture, wardrobe anchors, and relationship energy. Style references control watercolor-and-ink finish, paper tone, composition, text style, and palette.
+
+PRIMARY REQUEST:
+Create slide {{slide_number}} of {{slide_count}} for the same recurring A Story of Two couple.
+
+ON-IMAGE TEXT:
+{{exact_on_image_text}}
+
+TEXT PLACEMENT / TYPOGRAPHY:
+Readable, polished, hand-drawn charcoal typography integrated into upper-middle negative space. Preserve exact wording, spelling, punctuation, capitalization, and line breaks.
+
+SCENE:
+{{scene}}
+
+POSE / BODY LANGUAGE:
+{{pose}}
+
+WARDROBE:
+{{wardrobe}}
+
+PROPS:
+{{props}}
+
+BACKGROUND:
+{{background}}
+
+EMOTION:
+{{emotion}}
+
+IDENTITY LOCK:
+Preserve the actual Aachu/Zuv faces from the selected identity references. Identity preservation is more important than decorative style. Do not create new faces, merge faces, change ethnicity, alter age, change skin tone, change facial proportions, or over-beautify.
+
+STYLE LOCK:
+Premium hand-drawn romantic editorial watercolor-and-ink illustration on neutral warm ivory/off-white paper with visible grain, fine ink/pencil linework, transparent watercolor blooms, tactile clothing and prop detail, soft faded edges, and no generic AI watercolor or quote-card design.
+
+BRANDMARK:
+Include tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork.
+
+SCENE LOGIC:
+{{scene_logic_proof}}
+
+AVOID:
+{{negative_constraints}}

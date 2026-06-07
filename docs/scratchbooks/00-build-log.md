@@ -11,3 +11,6 @@
 - Ran a planning-only idea-room dry run at `runs/2026-06-07_12-59-22_kitchen-help-dry-run/`.
 - Spawned three idea agents and selected `One Pyaaz, Seven Bartans` with score `4.72 / 5`.
 - Verified dry-run JSON/JSONL artifacts and both source/installed skill packages.
+- Copied identity references from `astoryoftwo-analysis/config/references/identity/` into V2: Aachu, Zuv, together, and `_dossier`.
+- Removed copied `.DS_Store` metadata files and added `.gitignore`.
+- Updated setup status: identity references ready; style references still pending.

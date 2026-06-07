@@ -2,7 +2,7 @@
 
 Last checked: `2026-06-07`
 
-Status: `blocked`
+Status: `partially_ready`
 
 ## Skill Install
 
@@ -13,9 +13,10 @@ Status: `blocked`
 
 ## Checked Folders
 
-- `references/identity/aachu/`: no identity image files found yet
-- `references/identity/zuv/`: no identity image files found yet
-- `references/identity/together/`: optional but recommended references missing
+- `references/identity/aachu/`: 12 image files found
+- `references/identity/zuv/`: 14 image files found
+- `references/identity/together/`: 21 couple/together image files found
+- `references/identity/_dossier/`: identity dossier, preflight, and contact sheet found
 - `references/style/`: no style image files found yet
 - `references/text-style/`: rules present
 - `references/brand/`: rules present
@@ -24,4 +25,4 @@ Status: `blocked`
 
 Planning, idea debate, story design, prompt drafting, evals, traces, and reports are allowed.
 
-Final image generation is blocked until actual Aachu and Zuv identity references are added and can be made visible to Codex. Style references are also needed before a final publishable image run.
+Identity references are now available for Aachu, Zuv, and together/couple context. Final publishable image generation still needs approved style reference images or a creator-approved style-lock bundle in `references/style/`.

@@ -47,12 +47,38 @@ audited at folder level + `runs/` excluded (run artifacts, not source).
 | SKILL.md ↔ templates linkage | — | Only ~8 templates are named explicitly in SKILL.md; the other ~39 rely on glob + convention | tighten | (Track A) add a one-line note that the Outputs lists map to `templates/<area>/<same-name>` |
 
 ## scripts/ — brain modules + top-level scripts
+Every brain module maps to a CLI subcommand or is a dependency of one, and every
+script has a referencing test (verified). No dead modules.
+
 | File | Stated purpose | Observed reality | Verdict | Action |
 | --- | --- | --- | --- | --- |
+| `astory_brain/models.py` (129) | Dataclasses for brain types | Clean; `test_astory_brain_models.py` | keep | none |
+| `astory_brain/source_scan.py` (146) | Scan + hash canonical markdown sources | Used by indexer; tested via indexer | keep | none |
+| `astory_brain/indexer.py` (191) | `index` subcommand — build chunks/links/sources/pages jsonl | Live; dedicated test | keep | none |
+| `astory_brain/graph.py` (81) | Link graph over chunks | Used by retrieval; tested | keep | none |
+| `astory_brain/retrieval.py` (203) | `recall` ranking | Live; dedicated test | keep | none |
+| `astory_brain/synthesis.py` (84) | Synthesize recall into a result object | Live (`recall`); dedicated test | keep | none |
+| `astory_brain/eval.py` (60) | `eval` — retrieval eval vs `tests/fixtures/brain/qrels.json` | Live; tested | keep | none |
+| `astory_brain/lint.py` (217) | `lint` — brain page structure/citation checks | Live; dedicated test | keep | none |
+| `astory_brain/learning.py` (378) | `learn` — extract report, write claim candidates + ledger | Live; dedicated test | keep | none |
+| `astory_brain/policy.py` (30) | Load autopilot policy JSON | Live (`learn`/`autopilot`); tested | keep | none |
+| `astory_brain/promotion.py` (46) | Claim promotion rules | Live; tested | keep | none |
+| `astory_brain/claim_store.py` (222) | `claims list/decide` — claim queue store | Live; tested via autopilot | keep | none |
+| `astory_brain/autopilot.py` (198) | `autopilot` — auto-apply low-risk claims | Live; dedicated test | keep | none |
+| `astory_brain/page_store.py` (85) | Read/write compiled brain pages | Used by learning/promotion; dedicated test | keep | none |
+| `astory_brain_cli.py` (398) | CLI entrypoint (index/recall/lint/eval/learn/autopilot/claims/doctor) | Clean dispatch; tested | keep | none |
+| `prepare_imagegen_reference_context.py` (552) | Per-run reference manifest + Binder V2 | **Live** — referenced by SKILL.md, master-prompt, imagegen-contract; dedicated test | keep | none |
+| `astory_repo_qa.py` (1609) | Repo-level run QA checks + bounded loop | Live and central; but **very large** for one file | tighten | Note only: consider splitting workflow-detection / checks / loop / reporting into modules if it grows again. Do not split now without need |
+| `local_identity_pipeline.py` (2301) | Dry-run proof builder for local identity generation | **Orphaned from the live workflow** — not referenced by SKILL.md, AGENTS.md, README, or RUNBOOK; only by two plan docs. Has a test, so not dead. Largest file in the repo | tighten | Decide its fate: either wire it into the workflow, or move/label it as a retained proof-of-concept so future agents don't assume it's live |
 
 ## tests/
 | File | Stated purpose | Observed reality | Verdict | Action |
 | --- | --- | --- | --- | --- |
+| `tests/test_astory_brain_*.py` (8 files) | Guard each brain module (models, indexer, retrieval, synthesis, learning, lint, page_store, autopilot) | One dedicated test per module; all pass | keep | none |
+| `tests/test_astory_repo_qa.py` | Guard workflow classification + QA loop/blocker behavior | Guards the 1609-line QA script; passes | keep | none |
+| `tests/test_imagegen_reference_context.py` | Guard run-aware reference selection + load-plan invariants | Guards the live binder script; passes | keep | none |
+| `tests/test_local_identity_pipeline.py` | Guard the local identity pipeline | Keeps the orphaned 2301-line script green — coverage exists, but for a script the workflow doesn't call | keep | Revisit if the pipeline is retired (Action above) |
+| `tests/fixtures/brain/qrels.json` | Retrieval eval gold set | Used by `eval`; current | keep | none |
 
 ## docs/ — plans, sprints, scratchbooks, system design
 | File | Stated purpose | Observed reality | Verdict | Action |

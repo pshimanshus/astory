@@ -1,0 +1,40 @@
+{
+  "iterations": [
+    {
+      "blocking_findings": [
+        {
+          "failure_code": "IMAGE_QA_MISSING",
+          "id": "image_qa_blocks_final_package",
+          "summary": "Imagegen was attempted but Image QA is missing."
+        },
+        {
+          "failure_code": "HITL_ORDER_BEFORE_IMAGEGEN_MISSING",
+          "id": "hitl_order_before_imagegen",
+          "summary": "Idea, story, and prompt locks are recorded before image generation."
+        }
+      ],
+      "iteration": 1,
+      "overall_status": "blocked"
+    },
+    {
+      "blocking_findings": [
+        {
+          "failure_code": "IMAGE_QA_MISSING",
+          "id": "image_qa_blocks_final_package",
+          "summary": "Imagegen was attempted but Image QA is missing."
+        },
+        {
+          "failure_code": "HITL_ORDER_BEFORE_IMAGEGEN_MISSING",
+          "id": "hitl_order_before_imagegen",
+          "summary": "Idea, story, and prompt locks are recorded before image generation."
+        }
+      ],
+      "iteration": 2,
+      "overall_status": "blocked"
+    }
+  ],
+  "max_iterations": 2,
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "schema_version": "1.0",
+  "status": "blocked"
+}

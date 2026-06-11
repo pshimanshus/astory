@@ -1,0 +1,42 @@
+{
+  "selected": "Heart Rent Notice",
+  "minimum_required_overall_score": 4.0,
+  "candidates": [
+    {
+      "title": "Heart Rent Notice",
+      "overall_score": 4.7,
+      "relatability": 5,
+      "shareability": 5,
+      "visual_clarity": 5,
+      "brand_fit": 5,
+      "identity_safety": 4,
+      "text_hook": 5,
+      "risk_adjustment": -0.3,
+      "selection_status": "selected"
+    },
+    {
+      "title": "Security Deposit",
+      "overall_score": 4.0,
+      "relatability": 4,
+      "shareability": 4,
+      "visual_clarity": 4,
+      "brand_fit": 4,
+      "identity_safety": 4,
+      "text_hook": 4,
+      "risk_adjustment": 0,
+      "selection_status": "rejected"
+    },
+    {
+      "title": "Receipt At The Door",
+      "overall_score": 3.7,
+      "relatability": 4,
+      "shareability": 4,
+      "visual_clarity": 4,
+      "brand_fit": 4,
+      "identity_safety": 3,
+      "text_hook": 4,
+      "risk_adjustment": -0.3,
+      "selection_status": "rejected"
+    }
+  ]
+}

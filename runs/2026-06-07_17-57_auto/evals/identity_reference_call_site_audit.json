@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.2",
+  "run_id": "2026-06-07_17-57_auto",
+  "created_at": "2026-06-10T22:54:28+05:30",
+  "status": "pass",
+  "purpose": "Full repo identity/reference wiring audit for role-based Aachu/Zuv generation, including the local ComfyUI workflow.",
+  "scope": {
+    "files_seen_count": 72912,
+    "text_files_scanned_count": 163,
+    "identity_mention_files_count": 87,
+    "vendor_or_cache_exclusions": [
+      ".git",
+      "runs/2026-06-07_17-57_auto/local-tools"
+    ],
+    "audit_outputs_excluded_from_self_scan": [
+      "runs/2026-06-07_17-57_auto/evals/identity_reference_call_site_audit.json",
+      "runs/2026-06-07_17-57_auto/evals/identity_reference_call_site_audit_report.md",
+      "runs/2026-06-07_17-57_auto/evals/identity_reference_full_repo_audit.json",
+      "runs/2026-06-07_17-57_auto/evals/identity_reference_full_repo_audit_report.md"
+    ]
+  },
+  "active_findings": [],
+  "checks": {
+    "legacy_or_vague_reference_patterns": {
+      "status": "pass",
+      "matches": [],
+      "exact_pattern_strings_omitted_from_this_report": true
+    },
+    "required_folders": {
+      "missing": []
+    },
+    "contact_sheets": {
+      "missing": []
+    },
+    "selected_manifest": {
+      "path": "runs/2026-06-07_17-57_auto/references-used/selected_references.json",
+      "selected_path_count": 71,
+      "missing_paths": []
+    },
+    "dossier": {
+      "path": "references/identity/_dossier/identity-dossier.json",
+      "status": "READY_WITH_ROLE_BASED_REFERENCES",
+      "schema_version": "2.0",
+      "imported_reference_count": 53,
+      "role_counts": {
+        "face_anchor": 19,
+        "formal_secondary": 4,
+        "place": 5,
+        "reaction": 8,
+        "smile": 5,
+        "together_body_language": 2,
+        "together_scene": 1,
+        "wardrobe": 9
+      },
+      "face_anchor_counts": {
+        "aachu": 11,
+        "zuv": 8
+      },
+      "role_errors": [],
+      "sha_errors": [],
+      "default_face_anchor_errors": [],
+      "deprecated_duplicate_role_overlap_count": 14,
+      "active_cross_role_duplicate_hashes": 0
+    },
+    "prompts": {
+      "slide_prompt_count": 10,
+      "errors": []
+    },
+    "local_workflow": {
+      "path": "runs/2026-06-07_17-57_auto/local-workflows/identity-proof-comfyui.json",
+      "errors": []
+    },
+    "local_proof": {
+      "path": "runs/2026-06-07_17-57_auto/evals/local_identity_reference_proof.json",
+      "status": "dry_run_pass_pending_creator_execution_approval",
+      "role_based_reference_library_status": "pass",
+      "proof_errors": []
+    },
+    "local_discovery": {
+      "path": "runs/2026-06-07_17-57_auto/evals/local_identity_stack_discovery.json",
+      "status": "blocked",
+      "failure_codes": [
+        "COMFYUI_DEPS_MISSING"
+      ],
+      "errors": []
+    }
+  },
+  "current_sources_of_truth": {
+    "identity_dossier": "references/identity/_dossier/identity-dossier.json",
+    "identity_generation_preflight": "references/identity/_dossier/identity-generation-preflight.md",
+    "selected_references": "runs/2026-06-07_17-57_auto/references-used/selected_references.json",
+    "local_identity_reference_proof": "runs/2026-06-07_17-57_auto/evals/local_identity_reference_proof.json",
+    "local_workflow": "runs/2026-06-07_17-57_auto/local-workflows/identity-proof-comfyui.json"
+  },
+  "current_default_face_inputs": {
+    "aachu_default_close_anchors": [
+      "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg"
+    ],
+    "zuv_default_close_anchors": [
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+      "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+    ]
+  },
+  "role_library_summary": {
+    "status": "pass",
+    "face_anchor_counts": {
+      "aachu": 11,
+      "zuv": 8
+    },
+    "role_reference_input_count": 53,
+    "required_min_face_anchors_per_subject": 4,
+    "deprecated_duplicate_role_overlap_count": 14,
+    "active_cross_role_duplicate_hashes": 0
+  }
+}

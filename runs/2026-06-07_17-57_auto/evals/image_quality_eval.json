@@ -1,0 +1,257 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "status": "superseded_by_creator_rejection",
+  "superseded_by": "runs/2026-06-07_17-57_auto/evals/image_quality_creator_rejection.json",
+  "superseded_reason": "Creator rejected the current generated image set for identity drift and shawl continuity contradiction after this initial Image QA pass.",
+  "threshold": 3.8,
+  "reviewed_at": "2026-06-07T20:28:27+05:30",
+  "candidate_count": 8,
+  "accepted_candidate_count": 6,
+  "retry_candidate_count": 2,
+  "blocked_candidate_count": 0,
+  "aggregate_scores": {
+    "identity_match": 3.9,
+    "face_consistency_across_slides": 4.2,
+    "style_consistency": 4.4,
+    "text_readability": 4.6,
+    "exact_text_preservation": 4.0,
+    "brandmark_presence_and_exactness": 3.2,
+    "neutral_ivory_paper": 4.6,
+    "scene_logic": 4.5,
+    "pose_anatomy": 4.2,
+    "composition": 4.4,
+    "publishability": 3.7,
+    "overall": 3.9
+  },
+  "hard_failures": [
+    {
+      "slide_number": 2,
+      "surface": "instagram_post",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_02_post_4x5_attempt_01_candidate.png",
+      "failure_code": "TEXT_NOT_EXACT",
+      "description": "Bottom-right brandmark appears malformed as @a.storyuf.two instead of @a.storyof.two.",
+      "required_action": "Retry native 4:5 post only with exact brandmark delta."
+    },
+    {
+      "slide_number": 4,
+      "surface": "instagram_post",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_04_post_4x5_attempt_01_candidate.png",
+      "failure_code": "TEXT_NOT_EXACT",
+      "description": "Bottom-right brandmark appears malformed as @a.storyofl.two instead of @a.storyof.two.",
+      "required_action": "Retry native 4:5 post only with exact brandmark delta."
+    }
+  ],
+  "assets": [
+    {
+      "slide_number": 1,
+      "surface": "instagram_post",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_01_post_4x5_attempt_03_candidate.png",
+      "dimensions": {
+        "width": 1122,
+        "height": 1402,
+        "ratio": "4:5"
+      },
+      "scores": {
+        "identity_match": 4.0,
+        "style_consistency": 4.4,
+        "text_readability": 4.7,
+        "exact_text_preservation": 4.7,
+        "brandmark_presence": 4.4,
+        "scene_logic": 4.7,
+        "pose_anatomy": 4.2,
+        "composition": 4.5,
+        "overall": 4.4
+      },
+      "status": "accept",
+      "hard_failures": [],
+      "failure_codes": []
+    },
+    {
+      "slide_number": 1,
+      "surface": "story_reel",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_01_story_9x16_attempt_01_candidate.png",
+      "dimensions": {
+        "width": 941,
+        "height": 1672,
+        "ratio": "9:16"
+      },
+      "scores": {
+        "identity_match": 4.0,
+        "style_consistency": 4.4,
+        "text_readability": 4.7,
+        "exact_text_preservation": 4.7,
+        "brandmark_presence": 4.4,
+        "scene_logic": 4.7,
+        "pose_anatomy": 4.2,
+        "composition": 4.5,
+        "overall": 4.4
+      },
+      "status": "accept",
+      "hard_failures": [],
+      "failure_codes": []
+    },
+    {
+      "slide_number": 2,
+      "surface": "instagram_post",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_02_post_4x5_attempt_01_candidate.png",
+      "dimensions": {
+        "width": 1122,
+        "height": 1402,
+        "ratio": "4:5"
+      },
+      "scores": {
+        "identity_match": 3.9,
+        "style_consistency": 4.4,
+        "text_readability": 4.5,
+        "exact_text_preservation": 3.6,
+        "brandmark_presence": 1.0,
+        "scene_logic": 4.5,
+        "pose_anatomy": 4.1,
+        "composition": 4.3,
+        "overall": 3.6
+      },
+      "status": "retry",
+      "hard_failures": [
+        "Brandmark is present but malformed."
+      ],
+      "failure_codes": [
+        "TEXT_NOT_EXACT"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "surface": "story_reel",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_02_story_9x16_attempt_01_candidate.png",
+      "dimensions": {
+        "width": 941,
+        "height": 1672,
+        "ratio": "9:16"
+      },
+      "scores": {
+        "identity_match": 3.9,
+        "style_consistency": 4.4,
+        "text_readability": 4.5,
+        "exact_text_preservation": 4.2,
+        "brandmark_presence": 4.4,
+        "scene_logic": 4.5,
+        "pose_anatomy": 4.1,
+        "composition": 4.3,
+        "overall": 4.3
+      },
+      "status": "accept",
+      "hard_failures": [],
+      "failure_codes": []
+    },
+    {
+      "slide_number": 3,
+      "surface": "instagram_post",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_03_post_4x5_attempt_01_candidate.png",
+      "dimensions": {
+        "width": 1122,
+        "height": 1402,
+        "ratio": "4:5"
+      },
+      "scores": {
+        "identity_match": 3.9,
+        "style_consistency": 4.5,
+        "text_readability": 4.7,
+        "exact_text_preservation": 4.7,
+        "brandmark_presence": 4.4,
+        "scene_logic": 4.7,
+        "pose_anatomy": 4.3,
+        "composition": 4.5,
+        "overall": 4.5
+      },
+      "status": "accept",
+      "hard_failures": [],
+      "failure_codes": []
+    },
+    {
+      "slide_number": 3,
+      "surface": "story_reel",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_03_story_9x16_attempt_01_candidate.png",
+      "dimensions": {
+        "width": 941,
+        "height": 1672,
+        "ratio": "9:16"
+      },
+      "scores": {
+        "identity_match": 3.9,
+        "style_consistency": 4.5,
+        "text_readability": 4.7,
+        "exact_text_preservation": 4.7,
+        "brandmark_presence": 4.4,
+        "scene_logic": 4.7,
+        "pose_anatomy": 4.3,
+        "composition": 4.5,
+        "overall": 4.5
+      },
+      "status": "accept",
+      "hard_failures": [],
+      "failure_codes": []
+    },
+    {
+      "slide_number": 4,
+      "surface": "instagram_post",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_04_post_4x5_attempt_01_candidate.png",
+      "dimensions": {
+        "width": 1122,
+        "height": 1402,
+        "ratio": "4:5"
+      },
+      "scores": {
+        "identity_match": 3.9,
+        "style_consistency": 4.4,
+        "text_readability": 4.6,
+        "exact_text_preservation": 3.6,
+        "brandmark_presence": 1.0,
+        "scene_logic": 4.6,
+        "pose_anatomy": 4.2,
+        "composition": 4.4,
+        "overall": 3.6
+      },
+      "status": "retry",
+      "hard_failures": [
+        "Brandmark is present but malformed."
+      ],
+      "failure_codes": [
+        "TEXT_NOT_EXACT"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "surface": "story_reel",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_04_story_9x16_attempt_01_candidate.png",
+      "dimensions": {
+        "width": 941,
+        "height": 1672,
+        "ratio": "9:16"
+      },
+      "scores": {
+        "identity_match": 3.9,
+        "style_consistency": 4.4,
+        "text_readability": 4.6,
+        "exact_text_preservation": 4.7,
+        "brandmark_presence": 4.4,
+        "scene_logic": 4.6,
+        "pose_anatomy": 4.2,
+        "composition": 4.4,
+        "overall": 4.4
+      },
+      "status": "accept",
+      "hard_failures": [],
+      "failure_codes": []
+    }
+  ],
+  "retry_prompt_delta": "Retry only slide_02_post_4x5 and slide_04_post_4x5. Preserve the scene, characters, wardrobe, story text, neutral ivory paper, and native 4:5 composition. Render the tiny bottom-right handle exactly as @a.storyof.two, using simple handwritten lowercase letters. Do not invent, shorten, replace, or add extra letters.",
+  "next_state": "RETRY_OR_REVISE_IF_NEEDED",
+  "hitl_gate": {
+    "gate": "IMAGE_QA",
+    "status": "pending_creator_decision",
+    "creator_options": [
+      "approve image retries",
+      "revise image direction",
+      "accept risk manually"
+    ]
+  }
+}

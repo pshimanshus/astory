@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-07_17-57_auto",
+  "created_at": "2026-06-11T09:48:08+05:30",
+  "mode": "local_open_weight_stack_discovery",
+  "status": "ready_for_creator_execution_approval",
+  "workflow_id": "option_b_sdxl_instantid_pulid_ipadapter",
+  "recommended_model_stack": {
+    "label": "Option B: SDXL + InstantID/PuLID/IP-Adapter via ComfyUI",
+    "engine": "ComfyUI local server",
+    "primary_models": [
+      "SDXL",
+      "InstantID",
+      "PuLID",
+      "IP-Adapter"
+    ],
+    "identity_method": "explicit face-ID conditioning from local image inputs",
+    "why_consider": "Most targeted zero-shot identity path for Aachu/Zuv because face crops can drive identity separately from style references.",
+    "risk": "Two-person identity often needs region control, masked generation, or separate passes; quality depends on local nodes and model weights."
+  },
+  "zero_openai_api": true,
+  "paid_cloud_api": false,
+  "heavy_downloads_run": false,
+  "model_execution_run": false,
+  "comfyui": {
+    "available": true,
+    "executable": null,
+    "existing_roots": [
+      "runs/2026-06-07_17-57_auto/local-tools/ComfyUI"
+    ],
+    "server_url": "http://127.0.0.1:8188",
+    "server_available": false,
+    "server_stats_observed": false
+  },
+  "python_dependencies": {
+    "status": "found",
+    "required_modules": [
+      "torch",
+      "aiohttp",
+      "safetensors",
+      "transformers"
+    ],
+    "present_modules": [
+      "torch",
+      "aiohttp",
+      "safetensors",
+      "transformers"
+    ],
+    "missing_modules": [],
+    "probe": {
+      "method": "comfyui_venv",
+      "python": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-07_17-57_auto/local-tools/ComfyUI/.venv/bin/python",
+      "error": null
+    }
+  },
+  "workflow": {
+    "status": "found",
+    "path": "runs/2026-06-07_17-57_auto/local-workflows/identity-proof-comfyui.json",
+    "exists": true
+  },
+  "model_inventory": {
+    "status": "found",
+    "minimum_status": "found",
+    "optional_status": "missing",
+    "missing_minimum_roles": [],
+    "roots_checked": [
+      "runs/2026-06-07_17-57_auto/local-models",
+      "/Users/himanshusharma/.cache/huggingface/hub",
+      "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models"
+    ],
+    "minimum_required_models": {
+      "sdxl_base_checkpoint": {
+        "status": "found",
+        "match_type": "exact_path_or_keyword",
+        "target_paths": [
+          "checkpoints/sd_xl_base_1.0.safetensors"
+        ],
+        "keywords": [
+          "sdxl",
+          "sd_xl",
+          "xl_base",
+          "xl-base"
+        ],
+        "candidates": [
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/checkpoints/sd_xl_base_1.0.safetensors"
+        ]
+      },
+      "instantid_ip_adapter": {
+        "status": "found",
+        "match_type": "exact_path_or_keyword",
+        "target_paths": [
+          "instantid/ip-adapter.bin"
+        ],
+        "keywords": [
+          "ip-adapter",
+          "instantid",
+          "instant-id",
+          "instant_id"
+        ],
+        "candidates": [
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/instantid/ip-adapter.bin"
+        ]
+      },
+      "instantid_controlnet": {
+        "status": "found",
+        "match_type": "exact_path_or_keyword",
+        "target_paths": [
+          "controlnet/instantid-controlnet.safetensors"
+        ],
+        "keywords": [
+          "instantid-controlnet",
+          "instantid",
+          "instant-id",
+          "instant_id"
+        ],
+        "candidates": [
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/controlnet/instantid-controlnet.safetensors"
+        ]
+      },
+      "insightface_antelopev2": {
+        "status": "found",
+        "match_type": "required_file_set",
+        "candidates": [
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/genderage.onnx",
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/2d106det.onnx",
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/1k3d68.onnx",
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/glintr100.onnx",
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/scrfd_10g_bnkps.onnx"
+        ]
+      }
+    },
+    "addon_models": {
+      "pulid_sdxl_model": {
+        "status": "missing",
+        "match_type": "exact_path_or_keyword",
+        "target_paths": [
+          "pulid/ip-adapter_pulid_sdxl_fp16.safetensors"
+        ],
+        "keywords": [
+          "pulid",
+          "pu-lid"
+        ],
+        "candidates": []
+      },
+      "clip_vision_vit_h": {
+        "status": "missing",
+        "match_type": "exact_path_or_keyword",
+        "target_paths": [
+          "clip_vision/CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+        ],
+        "keywords": [
+          "clip-vit-h",
+          "vit-h",
+          "clip_vision"
+        ],
+        "candidates": []
+      },
+      "ipadapter_plus_face_sdxl": {
+        "status": "missing",
+        "match_type": "exact_path_or_keyword",
+        "target_paths": [
+          "ipadapter/ip-adapter-plus-face_sdxl_vit-h.safetensors"
+        ],
+        "keywords": [
+          "ip-adapter-plus-face",
+          "ipadapter-plus-face",
+          "face_sdxl"
+        ],
+        "candidates": []
+      }
+    },
+    "required_models": {
+      "sdxl": {
+        "status": "found",
+        "keywords": [
+          "sdxl",
+          "xl_base"
+        ],
+        "candidates": [
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/checkpoints/sd_xl_base_1.0.safetensors"
+        ]
+      },
+      "instantid": {
+        "status": "found",
+        "keywords": [
+          "instantid",
+          "instant-id",
+          "instant_id"
+        ],
+        "candidates": [
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/controlnet/instantid-controlnet.safetensors",
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/instantid/ip-adapter.bin"
+        ]
+      },
+      "pulid": {
+        "status": "missing",
+        "keywords": [
+          "pulid",
+          "pu-lid"
+        ],
+        "candidates": []
+      },
+      "ip_adapter": {
+        "status": "found",
+        "keywords": [
+          "ip-adapter",
+          "ipadapter",
+          "ip_adapter"
+        ],
+        "candidates": [
+          "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/instantid/ip-adapter.bin"
+        ]
+      }
+    }
+  },
+  "failure_codes": [],
+  "final_decision": {
+    "status": "pending_creator_model_execution_approval",
+    "failure_codes": [],
+    "reason": "ComfyUI, a local workflow file, and required model candidates are present. Model execution is still gated on creator approval and identity QA.",
+    "next_gate": "HITL_LOCAL_MODEL_EXECUTION_APPROVAL"
+  }
+}

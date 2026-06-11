@@ -1,0 +1,65 @@
+USE CASE:
+illustration-story
+
+ASSET TYPE:
+Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram post illustration in native 4:5 portrait composition.
+
+REFERENCE IMAGE ROLES:
+face identity refs control only Aachu/Zuv faces, hair, brows, beard, skin tone, age, and face structure. Expression refs support smiles/reactions only. Together refs support body language, height/scale, closeness, and posture. wardrobe/place/formal references never control face identity; they are optional support only. Style references control watercolor-and-ink finish, paper tone, text style, and palette.
+
+Selected role-based references to load as actual image inputs before imagegen:
+- Dossier: references/identity/_dossier/identity-dossier.json
+- Preflight: references/identity/_dossier/identity-generation-preflight.md
+- Run load plan: runs/2026-06-10_22-22_heart-rent/evals/imagegen_reference_load_plan.json
+- Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg
+- Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg
+- Together/body-language support: references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg, references/identity/together/face-and-body-language/together-cabin-hug-01.jpg
+- Style support: references/style/observational-intimacy-premium/contact-sheet.png, references/style/observational-intimacy-premium/slide-01.png, references/style/observational-intimacy-premium/slide-02.png
+
+Generation hard gate: do not generate from text descriptions or file paths alone; manual user attachments are not required for repo-local references, but Codex must load every image in the run load plan with view_image before imagegen and the active generation path must use the loaded local image context.
+
+PRIMARY REQUEST:
+Create slide 1 of 1 for the same recurring A Story of Two couple. Aachu is asking Zuv to pay rent for living in her heart. Aachu must be the active asker. Zuv must be the beloved person receiving the playful rent demand.
+
+ON-IMAGE TEXT:
+pay rent for living in
+my heart
+
+TEXT PLACEMENT / TYPOGRAPHY:
+Place the exact two-line text in airy upper-middle negative space. Render it as readable, polished, warm charcoal hand-drawn typography baked naturally into the illustration. Preserve exact lowercase wording and line break. Do not add punctuation or extra words.
+
+SCENE:
+A cozy everyday interior rendered softly, with Aachu lower-left or lower-middle holding a small open wallet or handwritten rent note toward Zuv. Zuv stands or sits lower-right/lower-middle facing her, sheepishly smiling, one hand over his chest and/or offering a tiny paper heart as payment. A subtle heart-shaped cushion or wall nook motif behind them quietly reinforces that he lives in her heart. The prop should be small and charming, not oversized.
+
+POSE / BODY LANGUAGE:
+Aachu leans slightly toward Zuv with mock-serious affection, eyebrows playful, hand extended with the tiny wallet or rent note. Zuv keeps his body open toward her, smiles warmly, shoulders relaxed, caught in a sweet private joke. Keep their faces separated and fully visible to avoid face merge.
+
+WARDROBE:
+Aachu wears a casual cozy everyday top or soft sweater in off-white, muted blush, or gentle neutral tones. Zuv wears a casual everyday shirt or sweater in soft navy, muted denim, or warm neutral tones. No formal wedding clothes.
+
+PROPS:
+Aachu's small open wallet or handwritten rent note; Zuv's tiny paper heart or hand-over-heart gesture; subtle heart-shaped cushion or wall nook motif. Keep all props secondary to faces and relationship.
+
+BACKGROUND:
+Minimal cozy home interior fading into neutral off-white paper, with soft furniture hints, gentle shadows, paper grain, and watercolor blooms. Leave generous upper-middle empty space for text.
+
+EMOTION:
+Playful, romantic, tender, lightly mischievous, intimate, warm, premium, everyday couple humor.
+
+IDENTITY LOCK:
+Preserve the actual Aachu and Zuv faces from the selected role-based face-anchor image inputs above. Identity preservation is more important than decorative style. Do not create new faces, merge faces, change ethnicity, alter age, change skin tone, change facial proportions, remove Zuv's beard/mustache, change hairlines, or over-beautify.
+
+STYLE LOCK:
+Premium hand-drawn romantic editorial watercolor-and-ink illustration on neutral warm ivory/off-white paper with visible grain, fine ink/pencil linework, transparent watercolor blooms, tactile clothing and prop detail, soft faded edges, delicate crosshatching, and no generic AI watercolor or quote-card design.
+
+PAPER TONE RULE:
+Neutral off-white/ivory paper only. Avoid yellow, mustard, sepia, parchment, beige/tan dominance, coffee-stained, heavy cream, harsh contrast, or glossy digital finish.
+
+BRANDMARK:
+Include tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork.
+
+SCENE LOGIC:
+The image must visually prove that Aachu is asking Zuv to pay rent for living in her heart. The wallet/rent note belongs to Aachu. Zuv is the affectionate tenant and responds with a chest gesture or tiny heart payment.
+
+AVOID:
+Do not reverse the roles. Do not show Zuv asking Aachu. Do not include a dog. Do not copy the puppy photo literally. Do not use platform UI artifacts, extra text, random letters, speech bubbles, social icons, or watermarks. Do not make the scene look like a quote card. Do not allow bad anatomy, unreadable text, missing brandmark, or face drift.

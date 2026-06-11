@@ -1,0 +1,44 @@
+{
+  "slide": 1,
+  "options": [
+    {
+      "id": "scene_01",
+      "title": "Aachu The Heart Landlady",
+      "description": "Aachu sits or stands lower-left, extending a tiny open wallet or handwritten rent note toward Zuv. Zuv stands lower-right, sheepishly smiling with one hand over his chest and a small paper heart in the other hand. A subtle heart-shaped cushion or wall nook sits behind them.",
+      "scene_text_proof": 5,
+      "identity_preservation": 4,
+      "visual_freshness": 5,
+      "phone_readability": 5,
+      "wardrobe_continuity": 4,
+      "style_fit": 5,
+      "risk": "Wallet can become too literal if oversized.",
+      "status": "selected"
+    },
+    {
+      "id": "scene_02",
+      "title": "Rent Receipt On The Sofa",
+      "description": "Aachu sits on a sofa with a tiny receipt book, Zuv sits beside her pretending to check empty pockets, both amused.",
+      "scene_text_proof": 4,
+      "identity_preservation": 4,
+      "visual_freshness": 4,
+      "phone_readability": 5,
+      "wardrobe_continuity": 4,
+      "style_fit": 5,
+      "risk": "The action may read as money, not heart-rent.",
+      "status": "rejected"
+    },
+    {
+      "id": "scene_03",
+      "title": "Heart Doorway Tenant",
+      "description": "Aachu stands at a symbolic heart-shaped doorway giving Zuv a playful rent notice as he steps inside.",
+      "scene_text_proof": 5,
+      "identity_preservation": 3,
+      "visual_freshness": 4,
+      "phone_readability": 4,
+      "wardrobe_continuity": 3,
+      "style_fit": 4,
+      "risk": "Too surreal and may look less observational.",
+      "status": "rejected"
+    }
+  ]
+}

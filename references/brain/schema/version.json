@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "compatible_cli_min": 1,
+  "canonical_root": "references/brain/pages",
+  "derived_roots": [
+    "references/brain/index",
+    "references/brain/reports"
+  ]
+}

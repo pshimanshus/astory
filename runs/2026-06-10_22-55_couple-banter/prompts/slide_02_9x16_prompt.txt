@@ -1,0 +1,86 @@
+USE CASE:
+illustration-story
+
+ASSET TYPE:
+Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Reels/Stories illustration in native 9:16 portrait composition. Generate separately from the 4:5 version; do not crop or extend a post image.
+
+REFERENCE IMAGE ROLES:
+The current request screenshots under `runs/2026-06-10_22-55_couple-banter/input/` control only the exact text, meme emotion, and composition essence. Do not copy animal subjects, Instagram UI, counters, handles, buttons, screenshot crop, or meme typography.
+face identity refs control only Aachu/Zuv faces, hair, brows, beard, skin tone, age, and face structure. Expression refs support smiles/reactions only. Together refs support body language, height/scale, closeness, and posture. wardrobe/place/formal references never control face identity; they are optional support only. Style references control watercolor-and-ink finish, paper tone, text style, and palette.
+
+Selected role-based references to load as actual image inputs before imagegen:
+- Dossier: references/identity/_dossier/identity-dossier.json
+- Preflight: references/identity/_dossier/identity-generation-preflight.md
+- Run load plan: runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_load_plan.json
+- Current source: runs/2026-06-10_22-55_couple-banter/input/source_02_annoy-you.jpeg
+- Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg
+- Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg
+- Together/body-language support: references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg, references/identity/together/face-and-body-language/together-cabin-hug-01.jpg
+- Style support: references/style/observational-intimacy-premium/contact-sheet.png, references/style/observational-intimacy-premium/slide-01.png, references/style/observational-intimacy-premium/slide-02.png
+
+Generation hard gate: do not generate from text descriptions or file paths alone; manual user attachments are not required for repo-local references, but Codex must load every image in the run load plan with view_image before imagegen and the active generation path must use the loaded local image context.
+
+REFERENCE HARD GATE:
+Use the same selected local Aachu/Zuv face anchors, together/body-language refs, and observational-intimacy-premium style refs as the matching 4:5 prompt. Do not generate this 9:16 version from text alone or by extending/cropping the 4:5 image.
+
+PRIMARY REQUEST:
+Create standalone illustration 2 of 2 for the same recurring A Story of Two couple in native 9:16. Aachu proudly presents herself as Zuv's favorite affectionate annoyance.
+
+SHAREABILITY HOOK:
+The image should read in the first half-second as "your life needs my chaos": proud innocent Aachu, fondly interrupted Zuv, handmade heart prop, and a funny affectionate contrast between his quiet moment and her playful entrance. The scene itself must prove the joke before the viewer finishes reading the text.
+
+ON-IMAGE TEXT:
+imagine how boring your life
+would be if you didn't have
+me to annoy you
+
+TEXT PLACEMENT / TYPOGRAPHY:
+Place the exact three-line text in airy upper-middle negative space with extra 9:16 breathing room. Render readable warm charcoal handwritten typography baked into the paper. Preserve exact wording, apostrophe, and line breaks.
+
+TEXT STYLE GUARD:
+Do not use bold white meme-caption text, black outline text, drop shadow text, sticker text, digital overlay type, or screenshot-style typography. The lettering must match the approved small human charcoal handwritten A Story style.
+
+SCENE:
+A tall cozy room composition, framed close enough that faces, handmade heart, and text are readable at phone size. Aachu bursts gently into Zuv's quiet space and peeks through or holds a handmade dusty coral paper heart off-center in the middle-lower frame, interrupting him. Zuv sits or leans nearby with a book, phone, laptop, or tea paused, pretending to be bothered but smiling warmly.
+
+POSE / BODY LANGUAGE:
+Aachu is mischievous and proud, leaning into his space with the heart prop and bright innocent eyes. Zuv turns toward her with a fond raised-eyebrow half-smile or laugh, body open, paused mid-activity in gentle surrender. Keep faces clear, separate, natural, and reference-driven.
+
+WARDROBE:
+Aachu in soft casual top or kurta with small jewelry. Zuv in soft navy, white, or muted denim casual shirt.
+
+PROPS:
+Handmade dusty coral paper heart with uneven scissor edges, soft paper folds, tiny tape marks, a slight crease, and visible finger grip; paused book/phone/tea/laptop; optional tiny non-readable heart stickers or paper scraps.
+
+HEART PROP RULE:
+The dusty coral heart must be a handmade paper object held within the scene, with visible cut-paper imperfection and soft watercolor texture. It must not become a giant flat graphic, poster sign, logo shape, or text container. The room, Zuv's paused activity, both faces, and affectionate body language must remain more important than the heart.
+
+BACKGROUND:
+Vertical warm home interior with soft cushions, plant, desk/couch hint, off-white paper grain, and faded watercolor edges. Keep upper-middle text space uncluttered.
+
+EMOTION:
+Proudly annoying, affectionate, funny, warm, self-aware, loved.
+
+CONTROLLED CHAOS:
+Include tiny lived-in chaos details only as secondary accents: one shifted cushion, scarf corner, slipper, paused cup, paper scrap, or small non-readable heart sticker. Keep the chaos intimate and premium, never loud meme-poster, never cluttered, and no extra readable text.
+
+IDENTITY LOCK:
+Use visible Aachu and Zuv face-anchor references for identity. Do not invent, merge, genericize, over-beautify, or change their faces, hair, skin tone, age, or Zuv's beard/mustache.
+
+STYLE LOCK:
+Premium A Story of Two watercolor-and-ink, neutral ivory/off-white paper, fine linework, transparent watercolor, tactile clothing, delicate crosshatching, soft faded edges, not quote-card.
+
+STYLE HARDENER:
+Match the approved observational-intimacy-premium references: quiet lived-in couple moment, real illustrated room context, lower/middle-lower figures, generous off-white paper breathing space, small human charcoal lettering, fine pencil/ink detail, transparent watercolor washes, and muted denim/navy/dusty-coral/faded-sage accents. Keep the image intimate and observational, not loud, theatrical, meme-like, poster-like, or decorative.
+
+PAPER TONE RULE:
+Neutral off-white/ivory only. No yellow, parchment, sepia, tan dominance, heavy cream, harsh contrast, or glossy digital finish.
+
+PAPER TONE HARDENER:
+The paper must read clean neutral ivory/off-white, unaged and non-yellow. Use warm camel/tan only as tiny object or wood accents, never as the dominant background wash. No golden glow, antique wash, coffee stain, parchment texture, sepia filter, mustard cast, or beige monochrome palette.
+
+BRANDMARK:
+Tiny low-contrast handwritten @a.storyof.two at bottom-right.
+
+AVOID:
+No animals, no Instagram UI, no extra text, no speech bubbles, no social icons, no genuine irritation, no unreadable text, no missing brandmark, no bad anatomy, no face drift.

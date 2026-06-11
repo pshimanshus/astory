@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-07_17-57_auto",
+  "created_at": "2026-06-11T09:48:08+05:30",
+  "mode": "local_identity_execution_readiness",
+  "status": "blocked",
+  "workflow_id": "option_b_sdxl_instantid_pulid_ipadapter",
+  "zero_openai_api": true,
+  "paid_cloud_api": false,
+  "heavy_downloads_run": false,
+  "model_execution_run": false,
+  "workflow": {
+    "path": "runs/2026-06-07_17-57_auto/local-workflows/identity-proof-comfyui.json",
+    "exists": true,
+    "sha256": "3594810dbd688f10d6ff3977a6ff97180663e0ed616d4215fbaff6f78d8f1fd3"
+  },
+  "discovery_status": "ready_for_creator_execution_approval",
+  "copied_reference_inputs": {
+    "status": "pass",
+    "input_dir": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/input/astory_identity_proof",
+    "required_roles": [
+      "aachu_face_anchor",
+      "together_pose_context",
+      "zuv_face_anchor"
+    ],
+    "missing_roles": [],
+    "inputs": [
+      {
+        "role": "aachu_face_anchor",
+        "path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/input/astory_identity_proof/aachu_face_anchor.jpg",
+        "status": "pass",
+        "size_bytes": 333406,
+        "sha256": "5de7bf34c52d0fd7f59e216343c974c643d2f7bac4b50676ede85b61605fcf5d",
+        "expected_sha256": "5de7bf34c52d0fd7f59e216343c974c643d2f7bac4b50676ede85b61605fcf5d"
+      },
+      {
+        "role": "zuv_face_anchor",
+        "path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/input/astory_identity_proof/zuv_face_anchor.jpg",
+        "status": "pass",
+        "size_bytes": 84385,
+        "sha256": "43d0e147563b55237b79646684945044a12a0f9152f7fbd3b12ea3a74bb7f3f8",
+        "expected_sha256": "43d0e147563b55237b79646684945044a12a0f9152f7fbd3b12ea3a74bb7f3f8"
+      },
+      {
+        "role": "together_pose_context",
+        "path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/input/astory_identity_proof/together_pose_context.jpg",
+        "status": "pass",
+        "size_bytes": 157542,
+        "sha256": "86757dcf414e8a857cbfb2d3215e7a85fb7cec1bfaf8c79c6c9cb782bc08f7fe",
+        "expected_sha256": "86757dcf414e8a857cbfb2d3215e7a85fb7cec1bfaf8c79c6c9cb782bc08f7fe"
+      }
+    ],
+    "failure_codes": []
+  },
+  "workflow_binding": {
+    "status": "pass",
+    "path": "runs/2026-06-07_17-57_auto/local-workflows/identity-proof-comfyui.json",
+    "load_images": [
+      "astory_identity_proof/aachu_face_anchor.jpg",
+      "astory_identity_proof/together_pose_context.jpg",
+      "astory_identity_proof/zuv_face_anchor.jpg"
+    ],
+    "missing_load_images": [],
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "apply_instantid_node_count": 2,
+    "failure_codes": []
+  },
+  "hardware_status": {
+    "mps_available": false,
+    "mps_built": true,
+    "cuda_available": false,
+    "effective_execution_device": "cpu"
+  },
+  "previous_execution": {
+    "report_path": "runs/2026-06-07_17-57_auto/evals/local_identity_execution_report.json",
+    "status": "blocked",
+    "failure_code": "LOCAL_CPU_EXECUTION_STALLED",
+    "identity_proof_generated": false,
+    "final_artwork_generated": false,
+    "attempt_count": 2,
+    "attempts": [
+      {
+        "prompt_id": "75b8aae3-f73c-45bd-8172-035377c0ec3c",
+        "resolution": "1280x960",
+        "steps": 18,
+        "status": "interrupted_blocked",
+        "observed_runtime_seconds": 365.74,
+        "observed_progress": "0/18",
+        "output_image": null
+      },
+      {
+        "prompt_id": "b804bbd6-a3e8-4926-8660-025195a5441a",
+        "resolution": "640x480",
+        "steps": 4,
+        "status": "interrupted_blocked",
+        "observed_runtime_seconds": 522.26,
+        "observed_progress": "0/4",
+        "output_image": null
+      }
+    ]
+  },
+  "failure_codes": [
+    "LOCAL_CPU_EXECUTION_STALLED"
+  ],
+  "non_final_identity_proof_allowed": false,
+  "final_carousel_generation_allowed": false,
+  "final_decision": {
+    "status": "blocked",
+    "failure_codes": [
+      "LOCAL_CPU_EXECUTION_STALLED"
+    ],
+    "reason": "Local identity execution is not ready: LOCAL_CPU_EXECUTION_STALLED.",
+    "next_gate": "HITL_LOCAL_EXECUTION_READINESS_REPAIR"
+  }
+}

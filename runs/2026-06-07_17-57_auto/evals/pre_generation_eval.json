@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "threshold": 4.0,
+  "scores": {
+    "story_coherence": 4.8,
+    "slide_count_fit": 4.8,
+    "scene_selection_quality": 4.7,
+    "visual_clarity": 4.6,
+    "prompt_clarity": 4.5,
+    "character_consistency_potential": 4.4,
+    "style_consistency_potential": 4.5,
+    "text_readability_potential": 4.4,
+    "brand_fit": 4.8,
+    "publishability": 4.3,
+    "risk_of_generic_output": 4.2,
+    "risk_of_visual_failure": 4.1,
+    "overall": 4.52
+  },
+  "status": "pass",
+  "required_revisions": [],
+  "failure_codes": [],
+  "watchlist": [
+    "IDENTITY_REFERENCE_MISSING",
+    "IDENTITY_DRIFT",
+    "FACE_MERGE",
+    "ANATOMY_FAILURE",
+    "TEXT_UNREADABLE",
+    "TEXT_NOT_EXACT",
+    "BRANDMARK_MISSING",
+    "YELLOW_PAPER_CAST",
+    "STYLE_DRIFT"
+  ],
+  "imagegen_blockers_after_prompt_lock": [
+    {
+      "failure_code": "IDENTITY_REFERENCE_MISSING",
+      "stage": "LOAD_REFERENCE_IMAGES_IN_CONTEXT",
+      "severity": "hard_gate",
+      "status": "pending",
+      "prevention_note": "Before imagegen, selected local identity/style references must be loaded visibly with view_image. This is expected because the state machine loads references after prompt approval."
+    }
+  ]
+}

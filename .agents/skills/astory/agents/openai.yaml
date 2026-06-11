@@ -1,0 +1,7 @@
+interface:
+  display_name: "A Story Agent"
+  short_description: "Full A Story carousel workflow and prompt production"
+  default_prompt: "Use /astory to run the full A Story of Two workflow, including idea, story, prompt, image QA, and packaging gates."
+
+policy:
+  allow_implicit_invocation: true

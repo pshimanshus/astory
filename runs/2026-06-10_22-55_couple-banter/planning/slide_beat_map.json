@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "beats": [
+    {
+      "slide": 1,
+      "asset": "illustration_01",
+      "exact_text": "me if you don't watch the\nvideos I send you.",
+      "beat": "Aachu catches Zuv not watching the videos she sent and traps him in a soft cuddle squeeze until he laughs and opens the phone.",
+      "emotion": "mock offended, affectionate, funny"
+    },
+    {
+      "slide": 2,
+      "asset": "illustration_02",
+      "exact_text": "imagine how boring your life\nwould be if you didn't have\nme to annoy you",
+      "beat": "Aachu interrupts Zuv's quiet moment with a handmade heart prop, proudly presenting herself as his necessary daily chaos.",
+      "emotion": "proudly annoying, tender, amused"
+    }
+  ]
+}

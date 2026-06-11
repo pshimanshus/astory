@@ -1,0 +1,45 @@
+{
+  "agent_role": "Relatability Ethnographer",
+  "candidates": [
+    {
+      "title": "Heart Rent Notice",
+      "one_line_concept": "Aachu lovingly demands rent from Zuv because he has been living in her heart for too long.",
+      "emotional_truth": "Couples tease each other for being emotionally permanent fixtures in each other's lives.",
+      "relatable_trigger": "The mock-serious demand people make when affection has become routine.",
+      "visual_evidence": "Aachu holds a tiny open wallet or handwritten rent note while Zuv smiles, caught and adored.",
+      "risk_of_being_generic": "low",
+      "relatability": 5,
+      "emotional_truth_score": 5,
+      "specificity": 4,
+      "warmth": 5,
+      "everyday_visual_evidence": 4,
+      "brand_fit": 5,
+      "risk_of_stereotype_reversal_score": 5
+    },
+    {
+      "title": "Security Deposit",
+      "one_line_concept": "Aachu asks Zuv for a security deposit before he takes permanent residence in her heart.",
+      "emotional_truth": "A playful way of admitting commitment without becoming too sincere.",
+      "relatable_trigger": "Couples joking about rent, bills, and emotional labor.",
+      "visual_evidence": "A tiny receipt book and Zuv pretending to search his pockets.",
+      "risk_of_being_generic": "medium",
+      "relatability": 4,
+      "emotional_truth_score": 4,
+      "specificity": 4,
+      "warmth": 4,
+      "everyday_visual_evidence": 4,
+      "brand_fit": 4,
+      "risk_of_stereotype_reversal_score": 4
+    }
+  ],
+  "top_pick": "Heart Rent Notice",
+  "rejected_patterns": [
+    "Zuv asking Aachu, because the creator corrected the direction.",
+    "A literal landlord/renter setup, because it becomes too staged.",
+    "A quote-card-only illustration, because it loses lived-in couple behavior."
+  ],
+  "risk_notes": [
+    "Keep Aachu's expression playful, not scolding.",
+    "Keep Zuv delighted, not embarrassed or diminished."
+  ]
+}

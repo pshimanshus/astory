@@ -1,0 +1,42 @@
+USE CASE:
+illustration-story
+
+ASSET TYPE:
+Revised premium @a.storyof.two standalone Instagram post illustration, strict native 4:5 portrait composition.
+
+REVISION REASON:
+The previous export failed creator Image QA: Aachu looked older and too round-faced, both faces drifted puffy, Aachu was visually secondary, and the scene felt decorative instead of proud chaotic couple banter.
+
+PRIMARY REQUEST:
+Create a revised standalone illustration for the source text:
+
+imagine how boring your life
+would be if you didn't have
+me to annoy you
+
+TEXT:
+Place the exact three-line text in clean upper negative space as small warm-charcoal handwritten A Story lettering. Preserve wording, apostrophe, lowercase, and line breaks exactly. No bold meme text, no white outline text, no drop shadow, no speech bubble, no extra words.
+
+SCENE COMPOSITION:
+Strong photobomb/interruption scene. Aachu is the clear owner of the joke, closer to camera on the front-left or center-left, fully visible and young-looking, shoulders and hands visible, proudly holding a handmade dusty-coral paper heart frame around her own face. The heart must be crooked, tactile, cut by hand, with tape/crease/scissor-edge imperfections and a few tiny doodled hearts, but it must not cover her eyes, nose, mouth, cheeks, jawline, chin, hairline, or hands. Zuv sits/leans to the right, not blocking her, interrupted mid-reading or mid-chai with any laptop/book kept small and secondary, turning toward her with a fond side-eye laugh. Keep both faces large and separated, readable at thumbnail size.
+
+VISUAL HOOK:
+The joke must land before reading the caption: Aachu is the lovable chaos engine invading his calm moment; Zuv's body leans slightly away but his face smiles toward her. The heart prop is silly and shameless, not decorative.
+
+IDENTITY LOCK:
+Preserve Aachu and Zuv as the same specific couple from the visible identity references, not generic Indian couple characters. Aachu is a young adult with a fresh natural oval/soft-heart face, long black hair, expressive almond eyes, neat brows, small straight nose, soft lips, and playful proud expression. Do not age her up, widen her face, add puffy cheeks, heavy under-chin, jowls, tired eyes, or matronly softness. Keep at least 80 percent of Aachu's face visible and identity-auditable at phone size. Zuv has thick dark wavy hair, strong brows, expressive eyes, short beard/moustache, and a naturally defined non-puffy face. Do not enlarge or round his head or cheeks. Do not merge faces or make either person generic.
+
+WARDROBE / PROPS:
+Aachu wears a simple off-white or muted blush casual shirt/kurta with tiny jewelry and loose long hair. Zuv wears a soft navy, white, or muted denim casual shirt. Include only essential props: handmade dusty-coral heart frame, paused book/laptop/chai, one tiny paper scrap or heart doodle. Background minimal: clean warm wall, desk/sofa edge, one small plant maximum.
+
+THUMBNAIL RULE:
+At phone thumbnail size the viewer must read three things in one second: Aachu's shameless interruption, Zuv's fond disbelief, and the exact meme text. Aachu's face must be equal-first or first in hierarchy and never smaller than Zuv's by more than 10 percent.
+
+STYLE LOCK:
+Premium hand-drawn romantic editorial watercolor-and-ink illustration on clean neutral ivory/off-white paper. Fine pencil/ink linework, transparent watercolor washes, tactile fabric and paper detail, delicate crosshatching, soft faded edges, muted navy/denim/dusty coral/faded sage accents. Match the observational-intimacy-premium A Story style: designed, airy, intimate, not generic AI watercolor.
+
+HARD NEGATIVES:
+No dog, no animals, no Instagram UI, no screenshot crop, no meme-caption typography. Do not make Aachu hidden behind the heart, behind Zuv, tiny, cropped, old-looking, puffy, tired, or visually secondary. Do not make Zuv generic or over-rounded. Do not make the scene calm, stiff, decorative, romantic-only, or quote-card-like. Do not clutter the room. Do not use yellow parchment, sepia, beige/tan dominance, glossy digital finish, photorealism, anime, or generic poster design.
+
+BRANDMARK:
+Tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork.

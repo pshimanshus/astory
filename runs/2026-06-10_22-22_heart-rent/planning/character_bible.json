@@ -1,0 +1,92 @@
+{
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "identity_status": "ready_pending_visual_load_before_imagegen",
+  "aachu": {
+    "role_in_scene": "playful asker; she asks Zuv to pay rent for living in her heart",
+    "reference_paths": [
+      "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg"
+    ],
+    "face_anchors": [
+      "large expressive dark eyes",
+      "active natural brows",
+      "soft oval/round face structure",
+      "fuller lips",
+      "warm fair-medium skin tone"
+    ],
+    "hair_anchors": [
+      "long dark hair",
+      "natural volume",
+      "soft face-framing shape"
+    ],
+    "skin_tone_anchor": "warm fair-medium skin tone from the role-based Aachu face-anchor inputs listed in reference_paths",
+    "wardrobe_anchors": [
+      "casual cozy everyday outfit",
+      "simple top or soft sweater",
+      "no formal bridal styling"
+    ],
+    "expression": "mock-serious but visibly affectionate and playful",
+    "do_not_change": [
+      "do not make her stern or angry",
+      "do not over-beautify into a generic woman",
+      "do not change face shape, eye shape, brows, lips, hair color, or skin tone"
+    ]
+  },
+  "zuv": {
+    "role_in_scene": "beloved tenant; he receives Aachu's playful rent demand",
+    "reference_paths": [
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+      "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+    ],
+    "face_anchors": [
+      "thick dark brows",
+      "warm brown skin tone",
+      "rounded/oval masculine face structure",
+      "recognizable nose and jawline",
+      "natural eyes from references"
+    ],
+    "hair_beard_anchors": [
+      "thick dark wavy hair with visible volume",
+      "trimmed beard",
+      "trimmed mustache"
+    ],
+    "skin_tone_anchor": "warm brown skin tone from the role-based Zuv face-anchor inputs listed in reference_paths",
+    "wardrobe_anchors": [
+      "casual everyday shirt or sweater",
+      "quiet neutral or muted denim/navy tones",
+      "no formal wedding styling"
+    ],
+    "expression": "sheepish, amused, warm, caught in the sweetest way",
+    "do_not_change": [
+      "do not remove beard or mustache",
+      "do not change hair volume or hairline",
+      "do not over-beautify into a generic man",
+      "do not change face shape, skin tone, brows, or facial proportions"
+    ]
+  },
+  "together": {
+    "reference_paths": [
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+    ],
+    "relationship_energy": "soft teasing, everyday couple intimacy, visually close but with enough facial separation to avoid face merge",
+    "body_language_anchors": [
+      "Aachu directs the joke toward Zuv",
+      "Zuv receives it with affectionate surrender",
+      "both faces visible and distinct",
+      "no overlapping faces"
+    ]
+  },
+  "new_people_policy": "No new people in this illustration.",
+  "continuity_rules": [
+    "Aachu is the asker.",
+    "Zuv is the one living in Aachu's heart.",
+    "The wallet or rent note belongs in Aachu's hand.",
+    "The heart payment or chest gesture belongs to Zuv.",
+    "Faces stay reference-driven before style details."
+  ]
+}

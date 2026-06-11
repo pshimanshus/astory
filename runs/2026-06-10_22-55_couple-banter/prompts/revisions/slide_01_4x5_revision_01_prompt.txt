@@ -1,0 +1,41 @@
+USE CASE:
+illustration-story
+
+ASSET TYPE:
+Revised premium @a.storyof.two standalone Instagram post illustration, strict native 4:5 portrait composition.
+
+REVISION REASON:
+The previous export failed creator Image QA: Aachu looked older and too round-faced, both faces drifted puffy, Aachu was buried into the sofa, the scene felt static/cozy instead of funny chaotic couple banter, and the composition was not shareable enough.
+
+PRIMARY REQUEST:
+Create a revised standalone illustration for the source text:
+
+me if you don't watch the
+videos I send you.
+
+TEXT:
+Place the exact two-line text in clean upper negative space as small warm-charcoal handwritten A Story lettering. Preserve wording, apostrophe, period, lowercase, and line break exactly. No bold meme text, no white outline text, no drop shadow, no speech bubble, no extra words.
+
+SCENE COMPOSITION:
+Tight waist-up playful ambush with large readable faces and a clear meme-like diagonal silhouette. Zuv sits on the sofa edge or floor cushion slightly forward, lower-right/center, holding his phone toward camera with obvious unwatched video cards. Aachu is fully visible, not hidden: place her upper-left/center, behind and slightly above Zuv's left shoulder, one knee or hand braced on the sofa edge as she leans into the frame with torso visible from waist/chest up. Her entire face is unobstructed: eyes, nose, mouth, jaw, hairline, and at least one shoulder/arm readable. Aachu's arms or a loose blue-red scarf loop loosely around Zuv's shoulders like a comic "you cannot escape" wrap only, never neck, never pain. Zuv laughs in caught-surrender mode and raises his other hand in a funny "okay okay, I will watch" gesture.
+
+VISUAL HOOK:
+The joke must land before reading the caption: Aachu has a mock-serious "I warned you" expression, young and mischievous; Zuv looks amused, half-squished by affection, and caught. The body language should feel like private couple banter, chaotic but safe.
+
+IDENTITY LOCK:
+Preserve Aachu and Zuv as the same specific couple from the visible identity references, not generic Indian couple characters. Aachu is a young adult with a fresh natural oval/soft-heart face, long black hair, expressive almond eyes, neat brows, small straight nose, soft lips, and playful lively expression. Do not age her up, widen her face, add puffy cheeks, heavy under-chin, jowls, tired eyes, or matronly softness. Keep at least 80 percent of Aachu's face visible and identity-auditable at phone size. Zuv has thick dark wavy hair, strong brows, expressive eyes, short beard/moustache, and a naturally defined non-puffy face. Do not enlarge or round his head or cheeks. Do not merge faces or make either person generic.
+
+WARDROBE / PROPS:
+Aachu wears a simple off-white casual shirt/kurta with tiny jewelry and loose long hair. Zuv wears a soft navy or muted denim casual shirt. Include only essential props: phone with sent-video cues, loose scarf/dupatta, one rumpled cushion or throw edge, one chai cup near edge. Background minimal: clean warm wall, sofa or bed edge below them, one small plant maximum.
+
+THUMBNAIL RULE:
+At phone thumbnail size the viewer must read three things in one second: Aachu's playful attack, Zuv's amused surrender, and the exact meme text. Aachu's face must be equal-first in hierarchy and never smaller than Zuv's by more than 10 percent.
+
+STYLE LOCK:
+Premium hand-drawn romantic editorial watercolor-and-ink illustration on clean neutral ivory/off-white paper. Fine pencil/ink linework, transparent watercolor washes, tactile fabric detail, delicate crosshatching, soft faded edges, muted navy/denim/dusty coral/faded sage accents. Match the observational-intimacy-premium A Story style: designed, airy, intimate, not generic AI watercolor.
+
+HARD NEGATIVES:
+No animals, no Instagram UI, no screenshot crop, no meme-caption typography. Do not make Aachu hidden in the sofa, stuffed behind Zuv, tiny, cropped, old-looking, puffy, tired, or less clear than Zuv. Do not make the pose calm, stiff, decorative, angry, scary, violent, or genuinely choking. Do not clutter the room. Do not use yellow parchment, sepia, beige/tan dominance, glossy digital finish, photorealism, anime, or quote-card design.
+
+BRANDMARK:
+Tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork.

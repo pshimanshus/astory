@@ -1,0 +1,166 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "selection_status": "selected_for_generation_with_role_based_reference_library",
+  "visibility_status": "requires_actual_local_binary_image_inputs_not_prompt_only",
+  "visibility_note": "The selected run bundle now points at the role-based identity dossier. Final Aachu/Zuv artwork remains blocked unless the active generation path passes these local files as actual image inputs.",
+  "loaded_at": "2026-06-08T09:07:54+05:30",
+  "identity_references": {
+    "aachu": [
+      "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg"
+    ],
+    "zuv": [
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+      "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+    ],
+    "together": [
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+    ]
+  },
+  "style_references": [
+    "references/style/observational-intimacy-premium/contact-sheet.png",
+    "references/style/observational-intimacy-premium/slide-01.png",
+    "references/style/observational-intimacy-premium/slide-02.png",
+    "references/style/observational-intimacy-premium/slide-03.png",
+    "references/style/observational-intimacy-premium/slide-04.png",
+    "references/style/observational-intimacy-premium/slide-05.png",
+    "references/style/observational-intimacy-premium/slide-06.png",
+    "references/style/observational-intimacy-premium/slide-07.png",
+    "references/style/observational-intimacy-premium/slide-08.png"
+  ],
+  "text_style_reference": "references/text-style/README.md",
+  "brand_reference": "references/brand/README.md",
+  "post_image_qa_note": {
+    "recorded_at": "2026-06-08T09:07:54+05:30",
+    "status": "role_based_reference_library_selected_after_identity_drift",
+    "strategy_path": "runs/2026-06-07_17-57_auto/references-used/reference_delivery_strategy.md"
+  },
+  "identity_dossier": "references/identity/_dossier/identity-dossier.json",
+  "identity_generation_preflight": "references/identity/_dossier/identity-generation-preflight.md",
+  "role_contact_sheets": [
+    "references/identity/_dossier/identity-face-contact-sheet.jpg",
+    "references/identity/_dossier/identity-expressions-contact-sheet.jpg",
+    "references/identity/_dossier/together-contact-sheet.jpg",
+    "references/identity/_dossier/wardrobe-contact-sheet.jpg",
+    "references/identity/_dossier/places-contact-sheet.jpg"
+  ],
+  "role_based_identity_references": {
+    "face_identity": {
+      "aachu_default_close_anchors": [
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg"
+      ],
+      "zuv_default_close_anchors": [
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+      ],
+      "aachu_all_face_anchors": [
+        "references/identity/aachu/face/aachu-face-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-tan-smile-01.jpg",
+        "references/identity/aachu/face/aachu-face-home-black-01.jpg"
+      ],
+      "zuv_all_face_anchors": [
+        "references/identity/zuv/face/zuv-face-crop-balcony-laugh-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-formal-side-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-patterned-side-01.jpg"
+      ],
+      "optional_angle_support": [
+        "references/identity/aachu/face/aachu-face-crop-tan-smile-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-laugh-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-formal-side-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-patterned-side-01.jpg"
+      ]
+    },
+    "expression_support": {
+      "aachu_smiles": [
+        "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg"
+      ],
+      "aachu_reactions": [
+        "references/identity/aachu/reactions/aachu-reaction-bedroom-glance-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-cafe-wide-eyed-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-car-black-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-kitchen-tea-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-pizza-chin-hand-01.jpg"
+      ],
+      "zuv_smiles": [
+        "references/identity/zuv/smiles/zuv-smile-balcony-laugh-01.jpg",
+        "references/identity/zuv/smiles/zuv-smile-dinner-close-01.jpg"
+      ],
+      "zuv_reactions": [
+        "references/identity/zuv/reactions/zuv-reaction-blue-shirt-glasses-01.jpg",
+        "references/identity/zuv/reactions/zuv-reaction-gym-mirror-01.jpg"
+      ]
+    },
+    "together_support": [
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-table-distance-01.jpg"
+    ],
+    "formal_secondary_only": [
+      "references/identity/together/formal-secondary/aachu-bridal-ceremony-01.jpg",
+      "references/identity/together/formal-secondary/aachu-bridal-family-01.jpg",
+      "references/identity/together/formal-secondary/together-formal-close-profile-01.jpg",
+      "references/identity/together/formal-secondary/together-formal-full-01.jpg"
+    ],
+    "wardrobe_support": [
+      "references/wardrobe/aachu/aachu-wardrobe-cafe-grey-jacket-01.jpg",
+      "references/wardrobe/aachu/aachu-wardrobe-red-traditional-mountain-01.jpg",
+      "references/wardrobe/aachu/aachu-wardrobe-white-restaurant-top-01.jpg",
+      "references/wardrobe/zuv/zuv-wardrobe-black-formal-indoors-01.jpg",
+      "references/wardrobe/zuv/zuv-wardrobe-black-tee-full-01.jpg",
+      "references/wardrobe/zuv/zuv-wardrobe-patterned-black-shirt-01.jpg",
+      "references/wardrobe/zuv/zuv-wardrobe-plaid-mirror-01.jpg",
+      "references/wardrobe/zuv/zuv-wardrobe-striped-balcony-01.jpg",
+      "references/wardrobe/zuv/zuv-wardrobe-white-ethnic-01.jpg"
+    ],
+    "place_support": [
+      "references/places/place-cafe-pizza-hands-01.jpg",
+      "references/places/place-home-sofa-floral-01.jpg",
+      "references/places/place-mountain-balcony-blue-sky-01.jpg",
+      "references/places/place-mountain-field-zuv-scale-01.jpg",
+      "references/places/place-mountain-trail-cloudy-01.jpg"
+    ]
+  },
+  "selected_generation_bundle": [
+    "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+    "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+    "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+    "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+    "references/identity/zuv/smiles/zuv-smile-dinner-close-01.jpg",
+    "references/identity/zuv/smiles/zuv-smile-balcony-laugh-01.jpg",
+    "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+    "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+  ],
+  "legacy_reference_note": "Legacy flat portrait/face files remain in the repo for compatibility and historical failed-proof evidence, but are superseded by role folders and the dossier for all new generation."
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "timestamp": "2026-06-11T00:08:54+05:30",
+  "status": "failed_creator_image_qa_revision_required",
+  "creator_rejection": {
+    "timestamp": "2026-06-11T08:51:20+05:30",
+    "summary": "Creator rejected the selected exports. Faces were only close but too fat/round-faced; Aachu looked old, unclear, and stuffed into the sofa; visual composition, scene setting, identity match, fun banter, and couple energy were not satisfactory.",
+    "required_revision": [
+      "Aachu must be clearly visible, youthful, expressive, and not buried in furniture or props.",
+      "Both faces must preserve natural non-puffy structure from identity anchors and avoid older/generic drift.",
+      "Composition must carry fun chaotic couple energy and a stronger shareable hook.",
+      "Rejected exports must not be used for final package."
+    ]
+  },
+  "threshold": 3.8,
+  "selected_exports": [
+    {
+      "surface": "slide_01_4x5",
+      "candidate_path": "runs/2026-06-10_22-55_couple-banter/images/slide_01_4x5_attempt_02_candidate.png",
+      "export_path": "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
+      "dimensions": "1122x1402",
+      "attempt": 2,
+      "status": "rejected_by_creator_image_qa",
+      "scores": {
+        "identity_match": 4.55,
+        "face_consistency_across_slides": 4.55,
+        "style_consistency": 4.8,
+        "text_readability": 4.9,
+        "exact_text_preservation": 5.0,
+        "brandmark_presence": 5.0,
+        "neutral_ivory_paper": 4.65,
+        "scene_logic": 4.8,
+        "pose_anatomy": 4.5,
+        "composition": 4.8,
+        "publishability": 4.75,
+        "overall": 4.76
+      },
+      "hard_failures": [],
+      "failure_codes": []
+    },
+    {
+      "surface": "slide_01_9x16",
+      "candidate_path": "runs/2026-06-10_22-55_couple-banter/images/slide_01_9x16_attempt_01_candidate.png",
+      "export_path": "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png",
+      "dimensions": "941x1672",
+      "attempt": 1,
+      "status": "rejected_by_creator_image_qa",
+      "scores": {
+        "identity_match": 4.55,
+        "face_consistency_across_slides": 4.55,
+        "style_consistency": 4.8,
+        "text_readability": 4.9,
+        "exact_text_preservation": 5.0,
+        "brandmark_presence": 5.0,
+        "neutral_ivory_paper": 4.65,
+        "scene_logic": 4.8,
+        "pose_anatomy": 4.5,
+        "composition": 4.75,
+        "publishability": 4.75,
+        "overall": 4.75
+      },
+      "hard_failures": [],
+      "failure_codes": []
+    },
+    {
+      "surface": "slide_02_4x5",
+      "candidate_path": "runs/2026-06-10_22-55_couple-banter/images/slide_02_4x5_attempt_01_candidate.png",
+      "export_path": "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
+      "dimensions": "1122x1402",
+      "attempt": 1,
+      "status": "rejected_by_creator_image_qa",
+      "scores": {
+        "identity_match": 4.55,
+        "face_consistency_across_slides": 4.55,
+        "style_consistency": 4.8,
+        "text_readability": 4.9,
+        "exact_text_preservation": 5.0,
+        "brandmark_presence": 5.0,
+        "neutral_ivory_paper": 4.6,
+        "scene_logic": 4.75,
+        "pose_anatomy": 4.55,
+        "composition": 4.75,
+        "publishability": 4.75,
+        "overall": 4.74
+      },
+      "hard_failures": [],
+      "failure_codes": []
+    },
+    {
+      "surface": "slide_02_9x16",
+      "candidate_path": "runs/2026-06-10_22-55_couple-banter/images/slide_02_9x16_attempt_01_candidate.png",
+      "export_path": "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
+      "dimensions": "941x1672",
+      "attempt": 1,
+      "status": "rejected_by_creator_image_qa",
+      "scores": {
+        "identity_match": 4.55,
+        "face_consistency_across_slides": 4.55,
+        "style_consistency": 4.8,
+        "text_readability": 4.9,
+        "exact_text_preservation": 5.0,
+        "brandmark_presence": 5.0,
+        "neutral_ivory_paper": 4.6,
+        "scene_logic": 4.8,
+        "pose_anatomy": 4.55,
+        "composition": 4.8,
+        "publishability": 4.8,
+        "overall": 4.76
+      },
+      "hard_failures": [],
+      "failure_codes": []
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "surface": "slide_01_4x5",
+      "candidate_path": "runs/2026-06-10_22-55_couple-banter/images/slide_01_4x5_attempt_01_candidate.png",
+      "dimensions": "1003x1568",
+      "attempt": 1,
+      "status": "retry",
+      "hard_failures": [
+        "Generated too tall for native 4:5 post surface."
+      ],
+      "failure_codes": [
+        "ASPECT_RATIO_MISMATCH"
+      ],
+      "retry_prompt_delta": "Regenerate slide 01 as a strict native 4:5 Instagram post canvas, not 9:16, while preserving the successful scene, exact text, phone evidence, and style."
+    }
+  ],
+  "overall_score": 2.1,
+  "automated_score_superseded": 4.75,
+  "imagegen_mode": "built_in_image_gen",
+  "creator_image_qa_required": true,
+  "final_package_ready": false
+}

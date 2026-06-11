@@ -1,88 +1,109 @@
 # Identity Generation Preflight
-# @a.storyof.two — read this before every image generation run
 
-last_updated: 2026-05-31
+Last updated: `2026-06-08`
 
----
+Read this before every A Story of Two image generation run.
 
 ## Hard Rule
 
-Do not generate or accept a slide if Aachu or Zuv look like generic illustrated
-people. Face structure is the first requirement — before style, text, props,
-or background. **No generation from text descriptions alone. Photos must be attached.**
+Do not generate final Aachu/Zuv artwork from text-only identity descriptions.
+Face-visible slides require actual image inputs from the face folders plus any
+scene-specific support references.
 
----
+## Reference Roles
 
-## Attach These 4 Files To Every Generation Call
+Use references by role, not by filename beauty.
 
-| File | Subject | Why |
-|------|---------|-----|
-| `config/references/identity/aachu/portrait-02.jpg` | Aachu solo | Best solo — natural daylight, face large and clear, full warm smile |
-| `config/references/identity/together/together-18.jpg` | Both | Best overall — couch selfie, both faces close, Zuv curls + beard clear |
-| `config/references/identity/together/together-19.jpg` | Both | Beach hut selfie, both close, different lighting context |
-| `config/references/identity/together/together-21.jpg` | Both | Domestic hug, Aachu very clear, intimate natural moment |
+| Role | Folders | Allowed to control | Never controls |
+|------|---------|--------------------|----------------|
+| Face identity | `references/identity/aachu/face/`, `references/identity/zuv/face/` | face structure, eyes, brows, hair, skin tone, beard | wardrobe, place, formal mood |
+| Smiles/reactions | `references/identity/*/smiles/`, `references/identity/*/reactions/` | expression, emotion, gesture | primary face identity |
+| Together | `references/identity/together/face-and-body-language/` | closeness, height, body scale, posture | solo face identity |
+| Formal secondary | `references/identity/together/formal-secondary/` | wedding/formal context only | everyday default identity |
+| Wardrobe | `references/wardrobe/` | clothes, jewelry, accessories, props | face identity |
+| Places | `references/places/` | memory setting, layout, light, atmosphere | face identity |
 
-Label them in the prompt as "identity reference for the woman (Aachu)" and
-"identity reference for the man (Zuv)".
+## Contact Sheets
 
-**Note on Zuv:** There is currently no close-up solo portrait of Zuv in this library.
-The together shots above are the best Zuv identity anchors. The couch selfie
-(together-18.jpg) is the single most important file to attach for Zuv's face.
+Use these contact sheets to pick the right reference type:
 
-Contact sheet (to pick alternate options):
-`config/references/identity/_dossier/identity-face-contact-sheet.jpg`
-Note: contact sheet IDs (ID01-ID45) map to pre-rename filenames — use as visual reference
-only, not for path lookup. Update `identity-dossier.json` → `selected_generation_bundle` directly.
+- `references/identity/_dossier/identity-face-contact-sheet.jpg`
+- `references/identity/_dossier/identity-expressions-contact-sheet.jpg`
+- `references/identity/_dossier/together-contact-sheet.jpg`
+- `references/identity/_dossier/wardrobe-contact-sheet.jpg`
+- `references/identity/_dossier/places-contact-sheet.jpg`
 
-Full character descriptions: `../README.md`.
+The face contact sheet must contain only clean portrait/face anchors. Scenery,
+cloth folds, tiny faces, sunglasses, UI screenshots, and blurred partial people
+must not appear there.
 
----
+## Default Face Identity Selection
 
-## Face Non-Negotiables (hard reject if any fail)
+For any face-visible generation, load:
 
-**Aachu must have:**
-- Large expressive dark eyes — her primary anchor
-- Long dark wavy hair — thick, dark, correct silhouette
-- Soft oval face, warm medium-brown skin
-- Playful expressiveness — not placid or model-generic
+- the 4 default Aachu close face anchors from `selected_generation_recipe.face_visible_default.default_aachu_close_face_anchors`
+- the 4 default Zuv close face anchors from `selected_generation_recipe.face_visible_default.default_zuv_close_face_anchors`
+- 1-2 together/body-language references when both appear in the same slide
 
-**Zuv must have:**
-- Thick dark curly hair — curls visible, not straightened
-- Short natural stubble beard — always present
-- Warm dark almond-shaped eyes with kind, patient gaze
-- Warm medium-brown skin, relaxed masculine structure
+Then add only the support refs the scene needs:
 
----
+- optional face-angle support only when the composition needs a side/profile/laughing angle
+- smiles/reactions for exact expression
+- wardrobe refs for specific clothing or accessories
+- place refs for a real memory setting
+- formal-secondary refs only for a formal/wedding story
 
-## Generation Procedure
+## Non-Negotiables
 
-1. Load `identity-face-contact-sheet.jpg` into image context
-2. Attach the 4 identity references above
-3. Start the prompt with the face non-negotiables
-4. Generate one slide at a time — never batch all slides in one call
-5. Check each output against photos before proceeding to the next slide
-6. **If Aachu wrong:** pick 2-4 stronger Aachu options from contact sheet → rebuild bundle → regenerate from slide 1
-7. **If Zuv wrong:** pick 1-2 stronger Zuv options → rebuild → regenerate from slide 1
-8. Only after faces pass: check typography, brandmark, storyboard match
+**Aachu must preserve:**
 
----
+- long dark hair with natural volume
+- large expressive dark eyes and active brows
+- soft oval/round face structure
+- warm fair-medium skin tone
+- fuller lips and readable playful expression
+- petite/slightly smaller presence relative to Zuv
 
-## Slides With Hidden Faces
+**Zuv must preserve:**
 
-Do not drop the selected identity bundle from final carousel generation just
-because a slide hides faces. The package and handoff must still carry the
-selected identity image inputs so wardrobe, hands, jewelry, body scale, and
-relationship continuity stay anchored.
+- thick dark wavy hair with visible volume
+- thick dark brows
+- warm brown skin tone
+- trimmed beard and mustache
+- rounded/oval masculine face structure
+- medium-tall broader build relative to Aachu
 
-For object-only, detail, over-shoulder, or scene-only slides, QA should not
-claim face preservation from the image itself. Instead verify that the slide
-does not invent new faces or bodies, and that any visible clothing, hands,
-jewelry, or recurring personal details match the selected identity bundle or
-current-request identity photos.
+## Hard Rejects
 
----
+Reject or block the run if:
 
-## Acceptance Standard
+- face identity is prompt-only
+- wardrobe/place/formal refs are used as primary face refs
+- sunglasses images are used for eye identity
+- a formal/wedding image drives an everyday scene
+- Aachu or Zuv becomes generic, over-beautified, face-merged, or unrecognizable
+- the active generation path cannot pass actual image references as image inputs
 
-**A stranger who knows Aachu and Zuv should recognize both people before reading the text.**
-A beautiful scene with wrong faces = fail. Regenerate.
+## Known Legacy False Positives
+
+Do not trust automated face-count metadata from the old contact sheet. It marked
+several non-face images as face-bearing references, including scenery, cloth
+folds, architecture crops, and partial blurred shots. The refreshed
+`identity-dossier.json` records those IDs under `deprecated_legacy_false_positives`.
+
+## Procedure
+
+1. Open `identity-dossier.json`.
+2. Choose face refs first from `selected_generation_recipe.face_visible_default`.
+3. Choose optional expression/together/wardrobe/place refs only when the slide
+   needs that role.
+4. Run `python3 scripts/prepare_imagegen_reference_context.py --run-id <run_id>`
+   so the run gets `references-used/selected_references.json` and
+   `evals/imagegen_reference_load_plan.json`.
+5. Make every image in `view_image_queue` visible to Codex with `view_image`;
+   the creator does not need to attach repo-local identity/style images manually.
+6. Write `evals/imagegen_reference_visibility_proof.json` before calling
+   imagegen.
+7. Generate one identity proof before final carousel slides if the generation
+   path has recently failed identity matching.
+8. QA faces before style, typography, props, or packaging.

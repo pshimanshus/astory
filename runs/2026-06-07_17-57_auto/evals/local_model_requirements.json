@@ -1,0 +1,159 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "created_at": "2026-06-08T09:05:00+05:30",
+  "status": "execution_blocked_cpu_stalled",
+  "zero_openai_api": true,
+  "paid_cloud_api": false,
+  "local_stack": {
+    "comfyui_root": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI",
+    "venv_python": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/.venv/bin/python",
+    "custom_nodes": [
+      "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus",
+      "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/custom_nodes/ComfyUI_InstantID",
+      "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/custom_nodes/PuLID_ComfyUI"
+    ]
+  },
+  "minimum_instantid_identity_proof_models": [
+    {
+      "role": "sdxl_base_checkpoint",
+      "status": "downloaded",
+      "target_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/checkpoints/sd_xl_base_1.0.safetensors",
+      "source_repo": "stabilityai/stable-diffusion-xl-base-1.0",
+      "source_file": "sd_xl_base_1.0.safetensors",
+      "source_note": "Downloaded with Hugging Face Hub CLI into the run-local ComfyUI checkpoints folder.",
+      "size_observed": "6.5G",
+      "sha256": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b"
+    },
+    {
+      "role": "instantid_ip_adapter",
+      "status": "downloaded",
+      "target_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/instantid/ip-adapter.bin",
+      "source_url": "https://huggingface.co/InstantX/InstantID/resolve/main/ip-adapter.bin?download=true",
+      "size_observed": "1.6G",
+      "sha256": "02b3618e36d803784166660520098089a81388e61a93ef8002aa79a5b1c546e1"
+    },
+    {
+      "role": "instantid_controlnet",
+      "status": "downloaded",
+      "target_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/controlnet/instantid-controlnet.safetensors",
+      "source_url": "https://huggingface.co/InstantX/InstantID/resolve/main/ControlNetModel/diffusion_pytorch_model.safetensors?download=true",
+      "size_observed": "2.3G",
+      "sha256": "c8127be9f174101ebdafee9964d856b49b634435cf6daa396d3f593cf0bbbb05"
+    },
+    {
+      "role": "insightface_antelopev2",
+      "status": "downloaded",
+      "target_dir": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2",
+      "source_note": "Required by InstantID and PuLID; README points to MonsterMMORPG/tools or linked archive.",
+      "archive_path": "runs/2026-06-07_17-57_auto/local-tools/downloads/antelopev2.zip",
+      "archive_size_observed": "353M",
+      "archive_sha256": "8e182f14fc6e80b3bfa375b33eb6cff7ee05d8ef7633e738d1c89021dcf0c5c5",
+      "extracted_size_observed": "408M",
+      "files": [
+        {
+          "path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/genderage.onnx",
+          "sha256": "4fde69b1c810857b88c64a335084f1c3fe8f01246c9a191b48c7bb756d6652fb"
+        },
+        {
+          "path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/2d106det.onnx",
+          "sha256": "f001b856447c413801ef5c42091ed0cd516fcd21f2d6b79635b1e733a7109dbf"
+        },
+        {
+          "path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/1k3d68.onnx",
+          "sha256": "df5c06b8a0c12e422b2ed8947b8869faa4105387f199c477af038aa01f9a45cc"
+        },
+        {
+          "path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/glintr100.onnx",
+          "sha256": "4ab1d6435d639628a6f3e5008dd4f929edf4c4124b1a7169e1048f9fef534cdf"
+        },
+        {
+          "path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/insightface/models/antelopev2/scrfd_10g_bnkps.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91"
+        }
+      ]
+    }
+  ],
+  "pulid_addon_models": [
+    {
+      "role": "pulid_sdxl_model",
+      "status": "pending",
+      "target_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/pulid/ip-adapter_pulid_sdxl_fp16.safetensors",
+      "source_url": "https://huggingface.co/huchenlei/ipadapter_pulid/resolve/main/ip-adapter_pulid_sdxl_fp16.safetensors?download=true"
+    }
+  ],
+  "ipadapter_addon_models": [
+    {
+      "role": "clip_vision_vit_h",
+      "status": "pending",
+      "target_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/clip_vision/CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors",
+      "source_url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors"
+    },
+    {
+      "role": "ipadapter_plus_face_sdxl",
+      "status": "pending",
+      "target_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/models/ipadapter/ip-adapter-plus-face_sdxl_vit-h.safetensors",
+      "source_url": "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors"
+    }
+  ],
+  "workflow": {
+    "role": "non_final_identity_proof_workflow",
+    "status": "created",
+    "path": "runs/2026-06-07_17-57_auto/local-workflows/identity-proof-comfyui.json",
+    "format": "ComfyUI API prompt JSON",
+    "sha256": "3594810dbd688f10d6ff3977a6ff97180663e0ed616d4215fbaff6f78d8f1fd3"
+  },
+  "workflow_inputs": [
+    {
+      "role": "aachu_face_anchor",
+      "source_path": "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+      "comfyui_input_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/input/astory_identity_proof/aachu_face_anchor.jpg",
+      "sha256": "5de7bf34c52d0fd7f59e216343c974c643d2f7bac4b50676ede85b61605fcf5d"
+    },
+    {
+      "role": "zuv_face_anchor",
+      "source_path": "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+      "comfyui_input_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/input/astory_identity_proof/zuv_face_anchor.jpg",
+      "sha256": "43d0e147563b55237b79646684945044a12a0f9152f7fbd3b12ea3a74bb7f3f8"
+    },
+    {
+      "role": "together_pose_context",
+      "source_path": "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "comfyui_input_path": "runs/2026-06-07_17-57_auto/local-tools/ComfyUI/input/astory_identity_proof/together_pose_context.jpg",
+      "sha256": "86757dcf414e8a857cbfb2d3215e7a85fb7cec1bfaf8c79c6c9cb782bc08f7fe"
+    }
+  ],
+  "current_blockers": [
+    {
+      "code": "LOCAL_CPU_EXECUTION_STALLED",
+      "details": "Two non-final proof executions were queued through ComfyUI and manually interrupted after they remained at 0 sampler steps for several minutes on CPU-only execution."
+    }
+  ],
+  "execution_attempts": [
+    {
+      "prompt_id": "75b8aae3-f73c-45bd-8172-035377c0ec3c",
+      "resolution": "1280x960",
+      "steps": 18,
+      "status": "interrupted_blocked",
+      "observed_runtime_seconds": 365.74,
+      "observed_progress": "0/18",
+      "output_image": null
+    },
+    {
+      "prompt_id": "b804bbd6-a3e8-4926-8660-025195a5441a",
+      "resolution": "640x480",
+      "steps": 4,
+      "status": "interrupted_blocked",
+      "observed_runtime_seconds": 522.26,
+      "observed_progress": "0/4",
+      "output_image": null
+    }
+  ],
+  "hardware_status": {
+    "mps_available": false,
+    "mps_built": true,
+    "cuda_available": false,
+    "effective_execution_device": "cpu"
+  },
+  "next_gate": "HITL_LOCAL_ACCELERATION_OR_MODEL_CHANGE_APPROVAL",
+  "guardrail": "Do not generate final carousel slides until one non-final identity proof image passes creator face-match review."
+}

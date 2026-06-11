@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "page_types": [
+    "character",
+    "relationship",
+    "style",
+    "prompt_pattern",
+    "run_lesson",
+    "failure_mode",
+    "reference",
+    "procedure"
+  ],
+  "roles": [
+    "aachu",
+    "zuv",
+    "together",
+    "style",
+    "wardrobe",
+    "place",
+    "brand",
+    "text"
+  ],
+  "source_kinds": [
+    "approval",
+    "prompt",
+    "eval",
+    "reference",
+    "skill_reference",
+    "compiled_page",
+    "retro",
+    "trace"
+  ]
+}

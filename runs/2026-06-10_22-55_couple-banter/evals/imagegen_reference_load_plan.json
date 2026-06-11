@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "created_at": "2026-06-11T09:54:00+05:30",
+  "status": "ready_to_load_with_view_image",
+  "source_dossier": "references/identity/_dossier/identity-dossier.json",
+  "source_preflight": "references/identity/_dossier/identity-generation-preflight.md",
+  "manual_user_attachments_required": false,
+  "prompt_only_allowed": false,
+  "required_before_imagegen": [
+    "Codex must call view_image for every path in view_image_queue in the current conversation before final imagegen.",
+    "If any queued image cannot be read, stop and mark IDENTITY_REFERENCE_MISSING.",
+    "If the active generation path cannot use the loaded image context, stop instead of generating final Aachu/Zuv artwork."
+  ],
+  "reference_groups": {
+    "current_request": [
+      {
+        "path": "runs/2026-06-10_22-55_couple-banter/input/source_01_video-watch.jpeg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-10_22-55_couple-banter/input/source_01_video-watch.jpeg",
+        "role": "current_request",
+        "subject": "current_request",
+        "dossier_role": null,
+        "quality": "style",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 720,
+        "height": 1600,
+        "size_bytes": 86034,
+        "sha256": "ecfb10041e057bc6b7c625062f7d7934e3ee4d7b2b1c1d385ce0571f726c0407",
+        "do_not_use_for": []
+      },
+      {
+        "path": "runs/2026-06-10_22-55_couple-banter/input/source_02_annoy-you.jpeg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-10_22-55_couple-banter/input/source_02_annoy-you.jpeg",
+        "role": "current_request",
+        "subject": "current_request",
+        "dossier_role": null,
+        "quality": "style",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 720,
+        "height": 1600,
+        "size_bytes": 78861,
+        "sha256": "6c445ce88e00c120c7a471c969f7397b437efa526fd81f24580146ffca5cdd77",
+        "do_not_use_for": []
+      }
+    ],
+    "aachu_face_identity": [
+      {
+        "path": "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "dossier_role": "face_anchor",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1320,
+        "height": 1440,
+        "size_bytes": 333406,
+        "sha256": "5de7bf34c52d0fd7f59e216343c974c643d2f7bac4b50676ede85b61605fcf5d",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "place_reference"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "dossier_role": "face_anchor",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1730,
+        "height": 1820,
+        "size_bytes": 891096,
+        "sha256": "70edc1e0795fc36a7a380c3e0a77d9ed5b46c2efda8b11c6ded3e0066bc5cc2c",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "background_default"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "dossier_role": "face_anchor",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1680,
+        "height": 1800,
+        "size_bytes": 376135,
+        "sha256": "0d42f196b01aeb95b11d863feb36c7b4cbacfa0723f027f75ca272d42a4ea67c",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "place_reference"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "dossier_role": "face_anchor",
+        "quality": "support",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1480,
+        "height": 1700,
+        "size_bytes": 585585,
+        "sha256": "5fbce7ddb3c0fbc53a9e92c0dcc32a3988762c95ac7b54e50907262c8bb9c58c",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "place_reference",
+          "prop_reference"
+        ]
+      }
+    ],
+    "zuv_face_identity": [
+      {
+        "path": "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "dossier_role": "face_anchor",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 480,
+        "height": 480,
+        "size_bytes": 84385,
+        "sha256": "43d0e147563b55237b79646684945044a12a0f9152f7fbd3b12ea3a74bb7f3f8",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "smile_expression"
+        ]
+      },
+      {
+        "path": "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "dossier_role": "face_anchor",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 355,
+        "height": 360,
+        "size_bytes": 49896,
+        "sha256": "53388d76cb1c48ac83900bcf984f934967a793a7525cbfe96a7b9eaad6e80c96",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "place_reference"
+        ]
+      },
+      {
+        "path": "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "dossier_role": "face_anchor",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 480,
+        "height": 480,
+        "size_bytes": 83556,
+        "sha256": "e8d36169b631031e09a74ce565793b3407754e7d8ef5707d610f734f0b6dbdc4",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "smile_expression"
+        ]
+      },
+      {
+        "path": "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "dossier_role": "face_anchor",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 420,
+        "height": 480,
+        "size_bytes": 73046,
+        "sha256": "9841e823f486e5d0c1baece63178256e76aa1f5047e367c6dbcf6a98e0458479",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "place_reference"
+        ]
+      }
+    ],
+    "expression_support": [
+      {
+        "path": "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+        "role": "expression_support",
+        "subject": "aachu",
+        "dossier_role": "smile",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1198431,
+        "sha256": "8fa213dd0480fd1b49c839f4e51769af8c0e65b1586b6715ccab9f0729acfaa1",
+        "do_not_use_for": [
+          "face_identity_primary",
+          "face_identity"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+        "role": "expression_support",
+        "subject": "aachu",
+        "dossier_role": "smile",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1183741,
+        "sha256": "658b6e718d61a0c1f6c4f46f5f6dc551d27bc11a2aedb2442e7ce2bbdf3903b3",
+        "do_not_use_for": [
+          "wardrobe_default",
+          "face_identity"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+        "role": "expression_support",
+        "subject": "aachu",
+        "dossier_role": "smile",
+        "quality": "support",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1365598,
+        "sha256": "f2c18700eaf1f03dd07824818973648c005446f789a9016984661da8ce5ff49d",
+        "do_not_use_for": [
+          "face_identity_primary",
+          "face_identity"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+        "role": "expression_support",
+        "subject": "aachu",
+        "dossier_role": "reaction",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 750,
+        "height": 1317,
+        "size_bytes": 132957,
+        "sha256": "24af7e74f280666dbe4525dc5b7782d2242fc9e0f0d91a2598d5c9e7c154ac42",
+        "do_not_use_for": [
+          "face_identity_primary",
+          "face_identity"
+        ]
+      }
+    ],
+    "together_body_language": [
+      {
+        "path": "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+        "role": "together_body_language",
+        "subject": "together",
+        "dossier_role": "together_body_language",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 858,
+        "height": 1280,
+        "size_bytes": 157542,
+        "sha256": "86757dcf414e8a857cbfb2d3215e7a85fb7cec1bfaf8c79c6c9cb782bc08f7fe",
+        "do_not_use_for": [
+          "primary_face_identity",
+          "face_identity"
+        ]
+      },
+      {
+        "path": "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+        "role": "together_body_language",
+        "subject": "together",
+        "dossier_role": "together_body_language",
+        "quality": "primary",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 2316,
+        "height": 3088,
+        "size_bytes": 658160,
+        "sha256": "3a156a35d760a69e496b5b0f0c22ede0e59907f7cfb444ec39f08472b1ea9e09",
+        "do_not_use_for": [
+          "primary_face_identity",
+          "face_identity"
+        ]
+      }
+    ],
+    "style": [
+      {
+        "path": "references/style/observational-intimacy-premium/contact-sheet.png",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/style/observational-intimacy-premium/contact-sheet.png",
+        "role": "style",
+        "subject": "style",
+        "dossier_role": null,
+        "quality": "style",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 976,
+        "height": 888,
+        "size_bytes": 1418421,
+        "sha256": "3fdc6819a2ae3707473e7006a77ad9fd95b846c8ce61aeb2e5724d4ec2ee7b05",
+        "do_not_use_for": []
+      },
+      {
+        "path": "references/style/observational-intimacy-premium/slide-01.png",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/style/observational-intimacy-premium/slide-01.png",
+        "role": "style",
+        "subject": "style",
+        "dossier_role": null,
+        "quality": "style",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 977,
+        "height": 1610,
+        "size_bytes": 2705632,
+        "sha256": "0f3ca21892cdee67eabd0acc57093758475973ec7fcea13ab582c62382367c7f",
+        "do_not_use_for": []
+      },
+      {
+        "path": "references/style/observational-intimacy-premium/slide-02.png",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/style/observational-intimacy-premium/slide-02.png",
+        "role": "style",
+        "subject": "style",
+        "dossier_role": null,
+        "quality": "style",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 977,
+        "height": 1610,
+        "size_bytes": 2540873,
+        "sha256": "7fcf94b8897db82d7cf7bcb9beb57eb683257f8a2c493a6c2ce4f849a8fd28c4",
+        "do_not_use_for": []
+      }
+    ]
+  },
+  "text_and_brand_references": [
+    {
+      "path": "references/text-style/README.md",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/text-style/README.md",
+      "role": "text_or_brand_rule",
+      "input_kind": "local_text_file",
+      "size_bytes": 312,
+      "sha256": "74412e3accc5964f3238ed40d862a1eec42953341f19cd3a1b579babd4ba759f"
+    },
+    {
+      "path": "references/brand/README.md",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/brand/README.md",
+      "role": "text_or_brand_rule",
+      "input_kind": "local_text_file",
+      "size_bytes": 311,
+      "sha256": "4bcc0fe5f915ab46271ae887b1d15c5c4dd0caec3a41443777782a7ecf43715c"
+    },
+    {
+      "path": ".agents/skills/astory/references/house-style-contract.md",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/.agents/skills/astory/references/house-style-contract.md",
+      "role": "text_or_brand_rule",
+      "input_kind": "local_text_file",
+      "size_bytes": 2572,
+      "sha256": "225d8b7760f99519acfb0bf9a137bf29cf7ce3c32c91769e97dde1ee9938bd73"
+    },
+    {
+      "path": ".agents/skills/astory/references/imagegen-contract.md",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/.agents/skills/astory/references/imagegen-contract.md",
+      "role": "text_or_brand_rule",
+      "input_kind": "local_text_file",
+      "size_bytes": 1755,
+      "sha256": "d69acbcaeca354f3a846ccbb0ac4d1e8516c4d4a2b3037c6a95d23fe451d0f05"
+    }
+  ],
+  "view_image_queue": [
+    "runs/2026-06-10_22-55_couple-banter/input/source_01_video-watch.jpeg",
+    "runs/2026-06-10_22-55_couple-banter/input/source_02_annoy-you.jpeg",
+    "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+    "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+    "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+    "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+    "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+    "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+    "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+    "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+    "references/style/observational-intimacy-premium/contact-sheet.png",
+    "references/style/observational-intimacy-premium/slide-01.png",
+    "references/style/observational-intimacy-premium/slide-02.png"
+  ],
+  "view_image_queue_count": 19,
+  "load_state": {
+    "loaded_in_current_conversation": false,
+    "proof_required": true,
+    "proof_artifact": "runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_visibility_proof.json"
+  }
+}

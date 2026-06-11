@@ -1,0 +1,211 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "source_scene_options": "planning/scene_options.json",
+  "selection_status": "ready",
+  "slides": [
+    {
+      "slide_number": 1,
+      "selected_scene_option_id": "1A",
+      "selection_reason": "Creator Image QA feedback showed that revealing the shawl on slide 1 creates continuity confusion with slide 2. Revised lock keeps the doorway and noticing beat but hides the shawl until slide 3.",
+      "final_scene_summary": "Doorway threshold at evening; Aachu lower-middle in the breeze, Zuv nearby at the side noticing without interrupting. No shawl visible yet.",
+      "exact_on_image_text": "He answered the sentence\nI didn't say out loud.",
+      "locked_visual_proof": "Zuv's quiet attention answers the emotional setup without revealing the object before the reveal slide.",
+      "locked_text_placement": "Upper-middle clean wall or dusk wash; couple lower/middle-lower.",
+      "locked_identity_references": [
+        "Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "Together/body-language support: references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg, references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+      ],
+      "locked_style_references": [
+        "house style",
+        "text style"
+      ],
+      "locked_wardrobe": "Reference-consistent casual evening clothing; no visible shawl on slide 1.",
+      "locked_props": [
+        "doorway",
+        "moving curtain or breeze cue"
+      ],
+      "rejected_options": [
+        {
+          "scene_option_id": "1B",
+          "reason_rejected": "More cinematic terrace framing, but risks generic romance staging and busier text background.",
+          "reuse_warning": "Avoid making the first slide look like a stock sunset couple scene."
+        },
+        {
+          "scene_option_id": "1C",
+          "reason_rejected": "Too indirect because the shawl is placed on a chair rather than carried as active care.",
+          "reuse_warning": "Do not weaken the visual proof of Zuv answering before she asks."
+        }
+      ],
+      "open_risks": [
+        "TEXT_UNREADABLE",
+        "GENERIC_IDEA"
+      ],
+      "prompt_builder_notes": "Revised after creator Image QA feedback. Prompt work must keep slide 1 shawl-free so slide 3 is the first visible reveal.",
+      "reference_manifest": "runs/2026-06-07_17-57_auto/references-used/selected_references.json"
+    },
+    {
+      "slide_number": 2,
+      "selected_scene_option_id": "2A",
+      "selection_reason": "It keeps Aachu self-possessed and funny while making the breeze readable.",
+      "final_scene_summary": "Aachu at the doorway with hair or dupatta moving in the breeze, maintaining a small brave smile while Zuv notices nearby.",
+      "exact_on_image_text": "I was doing\nmy very convincing\n\"I'm fine\" act.",
+      "locked_visual_proof": "Her composed posture and tiny brave smile make the 'I'm fine' act legible without helplessness.",
+      "locked_text_placement": "Upper-middle clean wall or dusk wash; couple lower/middle-lower.",
+      "locked_identity_references": [
+        "Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+      ],
+      "locked_style_references": [
+        "house style",
+        "text style"
+      ],
+      "locked_wardrobe": "Same outfits as slide 1; Aachu not yet wearing the shawl.",
+      "locked_props": [
+        "doorway",
+        "breeze cue"
+      ],
+      "rejected_options": [
+        {
+          "scene_option_id": "2B",
+          "reason_rejected": "The visible shiver made the need too obvious and could make Aachu seem helpless.",
+          "reuse_warning": "Avoid dramatic cold body language."
+        },
+        {
+          "scene_option_id": "2C",
+          "reason_rejected": "The direct couple exchange is charming but reveals too much of Zuv's knowing before slide 3.",
+          "reuse_warning": "Do not spend the escalation before the reveal slide."
+        }
+      ],
+      "open_risks": [
+        "TEXT_UNREADABLE",
+        "SCENE_LOGIC_CONTRADICTION"
+      ],
+      "prompt_builder_notes": "No prompt writing yet. Later prompt work should show denial as subtle composure, not suffering.",
+      "reference_manifest": "runs/2026-06-07_17-57_auto/references-used/selected_references.json"
+    },
+    {
+      "slide_number": 3,
+      "selected_scene_option_id": "3A",
+      "selection_reason": "It is the cleanest visual proof of the idea: Zuv acts without making Aachu confess or staging himself as a hero.",
+      "final_scene_summary": "Zuv offers the folded shawl at a natural distance; Aachu turns toward him with a small softened, amused expression.",
+      "exact_on_image_text": "He didn't ask me\nto admit it.\nHe just brought\nthe shawl.",
+      "locked_visual_proof": "The folded shawl is offered simply, proving action without performance.",
+      "locked_text_placement": "Upper-middle clean wash; couple lower/middle-lower.",
+      "locked_identity_references": [
+        "Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "Together/body-language support: references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg, references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+      ],
+      "locked_style_references": [
+        "house style",
+        "text style"
+      ],
+      "locked_wardrobe": "Same outfits; shawl in hands, not wrapped.",
+      "locked_props": [
+        "folded shawl"
+      ],
+      "rejected_options": [
+        {
+          "scene_option_id": "3B",
+          "reason_rejected": "Draping the shawl over her shoulders risks anatomy problems and perfect-boyfriend fantasy.",
+          "reuse_warning": "Avoid wrapping, tugging, crossed arms, or complex fabric."
+        },
+        {
+          "scene_option_id": "3C",
+          "reason_rejected": "Placing the shawl nearby is too indirect for the reveal and weakens the emotional exchange.",
+          "reuse_warning": "Keep Zuv's care visible and active, but quiet."
+        }
+      ],
+      "open_risks": [
+        "ANATOMY_FAILURE",
+        "GENERIC_IDEA"
+      ],
+      "prompt_builder_notes": "No prompt writing yet. Later prompt work should keep hands simple and visible.",
+      "reference_manifest": "runs/2026-06-07_17-57_auto/references-used/selected_references.json"
+    },
+    {
+      "slide_number": 4,
+      "selected_scene_option_id": "4A",
+      "selection_reason": "It anchors the relationship truth in the physical shawl, preventing a generic quote-card ending.",
+      "final_scene_summary": "Aachu sits or stands with the shawl resting simply over her shoulders; Zuv stays close beside her, quiet and ordinary.",
+      "exact_on_image_text": "Being noticed felt\nwarmer than the shawl.",
+      "locked_visual_proof": "Aachu is physically warmed by the shawl while emotionally warmed by being noticed.",
+      "locked_text_placement": "Upper-middle clean negative space; bottom-right reserved for tiny low-contrast brandmark during final art.",
+      "locked_identity_references": [
+        "Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "Together/body-language support: references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg, references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+      ],
+      "locked_style_references": [
+        "house style",
+        "text style",
+        "brand rules"
+      ],
+      "locked_wardrobe": "Same outfits; shawl resting simply over Aachu's shoulders or across her lap.",
+      "locked_props": [
+        "shawl",
+        "doorway or terrace edge"
+      ],
+      "rejected_options": [
+        {
+          "scene_option_id": "4B",
+          "reason_rejected": "Sharing the shawl around both bodies risks complex wrapping and a more generic cozy-couple image.",
+          "reuse_warning": "Avoid tangled shared-fabric poses."
+        },
+        {
+          "scene_option_id": "4C",
+          "reason_rejected": "Holding the folded shawl is readable, but less physically warm than resting under it.",
+          "reuse_warning": "Use only if draped fabric creates anatomy issues in later QA."
+        }
+      ],
+      "open_risks": [
+        "WEAK_PAYOFF",
+        "ANATOMY_FAILURE"
+      ],
+      "prompt_builder_notes": "No prompt writing yet. Later prompt work should make Aachu's softened reaction the emotional center.",
+      "reference_manifest": "runs/2026-06-07_17-57_auto/references-used/selected_references.json"
+    }
+  ],
+  "hitl_summary": {
+    "creator_decision": "approved",
+    "creator_notes": "Creator approved story with reply: approve story.",
+    "approved_at": "2026-06-07T18:39:59+05:30"
+  },
+  "failure_codes": [],
+  "reference_call_policy": {
+    "dossier": "references/identity/_dossier/identity-dossier.json",
+    "preflight": "references/identity/_dossier/identity-generation-preflight.md",
+    "face_identity_defaults": {
+      "aachu": [
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg"
+      ],
+      "zuv": [
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+      ]
+    },
+    "expression_support_selected": [
+      "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+      "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+      "references/identity/zuv/smiles/zuv-smile-dinner-close-01.jpg",
+      "references/identity/zuv/smiles/zuv-smile-balcony-laugh-01.jpg"
+    ],
+    "together_body_language_support": [
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+    ],
+    "hard_gate": "Face-visible generation must pass these local files as actual image inputs; text descriptions and file paths alone are not sufficient.",
+    "never_use_for_face_identity": [
+      "wardrobe references",
+      "place references",
+      "formal-secondary references unless story explicitly asks formal context",
+      "sunglasses/tiny-face/partial/blurred images"
+    ]
+  }
+}

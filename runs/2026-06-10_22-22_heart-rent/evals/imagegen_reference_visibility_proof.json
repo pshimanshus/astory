@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "timestamp": "2026-06-11T04:30:04Z",
+  "status": "loaded",
+  "loaded_in_current_conversation": true,
+  "loading_method": "functions.view_image",
+  "covered_prompt": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+  "removed_identity_sources": "creator-rejected Aachu source and derived crop",
+  "removal_note": "Creator rejected that Aachu source because Aachu did not look good in it. The source and crop were moved out of the repo identity tree, canonical manifests were regenerated, and repo text references were replaced before attempt 10 generation. The removed filenames are intentionally not listed here so future prompt context cannot select them.",
+  "loaded_paths": [
+    "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+    "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+    "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+    "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+    "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+    "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+    "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+    "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+    "references/style/observational-intimacy-premium/contact-sheet.png",
+    "references/style/observational-intimacy-premium/slide-01.png",
+    "references/style/observational-intimacy-premium/slide-02.png"
+  ],
+  "loaded_count": 17,
+  "expected_count": 17,
+  "prompt_files_covered": [
+    "prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt"
+  ],
+  "reference_roles_confirmed": [
+    "aachu_face_identity",
+    "zuv_face_identity",
+    "aachu_expression_support",
+    "together_body_language",
+    "style_reference"
+  ],
+  "hard_gate_result": "pass_for_attempt_10_imagegen"
+}

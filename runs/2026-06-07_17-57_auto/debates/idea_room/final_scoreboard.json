@@ -1,0 +1,110 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "selection_threshold": 4.0,
+  "scoring_note": "Scores combine agent scores with cross-room fit for relatability, shareability, visual clarity, brand fit, freshness, and production safety.",
+  "survivors": [
+    {
+      "rank": 1,
+      "title": "The Shawl He Brought Before She Asked",
+      "source": "repaired synthesis",
+      "overall_score": 4.83,
+      "relatability": 4.8,
+      "shareability": 4.8,
+      "visual_clarity": 4.9,
+      "brand_fit": 5.0,
+      "freshness": 4.5,
+      "production_safety": 4.8,
+      "failure_codes": [
+        "ANATOMY_FAILURE"
+      ],
+      "mitigation": "Avoid complex draping/tangled hands; stage shawl as offered, carried, placed over shoulders, or shared simply."
+    },
+    {
+      "rank": 2,
+      "title": "The 3% Battery Rescue",
+      "source": "Relatability Ethnographer",
+      "overall_score": 4.68,
+      "relatability": 5.0,
+      "shareability": 4.6,
+      "visual_clarity": 4.2,
+      "brand_fit": 4.6,
+      "freshness": 4.3,
+      "production_safety": 4.1,
+      "failure_codes": [
+        "TEXT_UNREADABLE",
+        "PROMPT_OVERLOAD"
+      ],
+      "mitigation": "Use charger as prop, not readable screen detail, if revived later."
+    },
+    {
+      "rank": 3,
+      "title": "He Heard The Quiet Part",
+      "source": "Shareability Strategist",
+      "overall_score": 4.65,
+      "relatability": 4.7,
+      "shareability": 4.75,
+      "visual_clarity": 4.2,
+      "brand_fit": 5.0,
+      "freshness": 4.4,
+      "production_safety": 4.1,
+      "failure_codes": [
+        "SCENE_LOGIC_CONTRADICTION"
+      ],
+      "mitigation": "Requires a concrete prop-led instance, which the selected shawl repair supplies."
+    },
+    {
+      "rank": 4,
+      "title": "The Rewatch Treaty",
+      "source": "Relatability Ethnographer",
+      "overall_score": 4.55,
+      "relatability": 4.9,
+      "shareability": 4.2,
+      "visual_clarity": 4.4,
+      "brand_fit": 4.7,
+      "freshness": 4.0,
+      "production_safety": 4.3,
+      "failure_codes": [],
+      "mitigation": "Needs specificity around the pretending-not-to-know beat."
+    },
+    {
+      "rank": 5,
+      "title": "The Hair Tie He Kept",
+      "source": "Visual Story Director",
+      "overall_score": 4.48,
+      "relatability": 4.4,
+      "shareability": 4.5,
+      "visual_clarity": 4.6,
+      "brand_fit": 4.7,
+      "freshness": 4.6,
+      "production_safety": 4.0,
+      "failure_codes": [
+        "ANATOMY_FAILURE",
+        "PROMPT_OVERLOAD"
+      ],
+      "mitigation": "Tiny object may be hard to read; use larger staging if revived."
+    },
+    {
+      "rank": 6,
+      "title": "The Last Bite Treaty",
+      "source": "merged food-sharing cluster",
+      "overall_score": 4.3,
+      "relatability": 4.6,
+      "shareability": 4.5,
+      "visual_clarity": 4.5,
+      "brand_fit": 4.5,
+      "freshness": 3.4,
+      "production_safety": 4.4,
+      "failure_codes": [
+        "GENERIC_IDEA",
+        "WEAK_PAYOFF"
+      ],
+      "mitigation": "Needs a very specific food habit and compact slide count."
+    }
+  ],
+  "selected": {
+    "title": "The Shawl He Brought Before She Asked",
+    "overall_score": 4.83,
+    "passes_threshold": true
+  },
+  "second_room_required": false
+}

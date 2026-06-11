@@ -25,10 +25,11 @@ This project is the clean source of truth for the `/astory` workflow: a multi-ag
 
 ## Setup Flow
 
-1. Add identity photos:
-   - `references/identity/aachu/`
-   - `references/identity/zuv/`
-   - `references/identity/together/`
+1. Add identity photos by role:
+   - face anchors: `references/identity/aachu/face/`, `references/identity/zuv/face/`
+   - smiles/reactions: `references/identity/*/smiles/`, `references/identity/*/reactions/`
+   - together/body-language: `references/identity/together/face-and-body-language/`
+   - wardrobe/place support: `references/wardrobe/`, `references/places/`
 
 2. Add style references:
    - `references/style/`
@@ -43,7 +44,7 @@ This project is the clean source of truth for the `/astory` workflow: a multi-ag
 /astory setup
 ```
 
-Final image generation is blocked until real identity references are available and visible to Codex.
+Final image generation is blocked unless the active generation path can pass the selected role-based face references as actual image inputs. Text descriptions, visible context, and file paths alone are not enough for final Aachu/Zuv artwork.
 
 ## Run Flow
 
@@ -106,13 +107,13 @@ Rules:
 - native 4:5 for Instagram posts
 - separate native 9:16 for Reels/Stories
 - no resizing one surface into another
-- actual identity references must drive faces
+- actual role-based face identity references must drive faces
 
 ## What Blocked Means
 
 Blocked means the system refused to pretend the run is done. Common blockers:
 
-- missing identity references
+- missing identity references or prompt-only reference delivery
 - face drift
 - wrong or unreadable on-image text
 - missing `@a.storyof.two`
@@ -140,18 +141,14 @@ Expected behavior:
 - generate, evaluate, retry if needed
 - save final package and portfolio report
 
-## Installed Skill
+## Repo-Scoped Skill
 
-The source skill lives at:
-
-```text
-codex-skill/astory/
-```
-
-The installed Codex skill lives at:
+The authoritative skill source lives at:
 
 ```text
-~/.codex/skills/astory/
+.agents/skills/astory/
 ```
 
-When the source changes, reinstall the skill by copying the source folder to the Codex skills directory.
+Codex discovers repo-scoped skills from `.agents/skills` when launched in this
+repository. A personal install may exist outside the repo, but it is not the
+source of truth for A Story of Two V2.

@@ -1,0 +1,41 @@
+{
+  "agent_role": "Shareability Strategist",
+  "candidates": [
+    {
+      "title": "Pay Rent",
+      "suggested_text_hook": "pay rent for living in my heart",
+      "why_people_may_share": "It is a quick send-to-your-person joke with a soft romantic payoff.",
+      "why_people_may_comment": "People can tag partners who live rent-free in their hearts.",
+      "likely_audience_reaction": "Cute, funny, and immediately readable.",
+      "shareability": 5,
+      "comment_potential": 5,
+      "save_potential": 4,
+      "swipe_through_curiosity": 2,
+      "simplicity": 5,
+      "hook_strength": 5,
+      "freshness": 4,
+      "brand_fit": 5
+    },
+    {
+      "title": "Emotional Tenant",
+      "suggested_text_hook": "rent is due",
+      "why_people_may_share": "Has meme energy but loses the exact source text.",
+      "why_people_may_comment": "Invites playful partner tagging.",
+      "likely_audience_reaction": "Funny but less tender.",
+      "shareability": 4,
+      "comment_potential": 4,
+      "save_potential": 3,
+      "swipe_through_curiosity": 2,
+      "simplicity": 4,
+      "hook_strength": 4,
+      "freshness": 3,
+      "brand_fit": 3
+    }
+  ],
+  "top_pick": "Pay Rent",
+  "engagement_rationale": "The original puppy text is already a strong hook. The A Story version should keep the exact line and let the characters carry the premium warmth.",
+  "distribution_risks": [
+    "Single-slide post has less swipe retention than a carousel, but the meme-like hook is strongest as one image.",
+    "Text must be very readable or the joke fails in the first second."
+  ]
+}

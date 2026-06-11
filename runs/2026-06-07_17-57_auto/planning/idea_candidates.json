@@ -1,0 +1,72 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "mode": "auto",
+  "candidate_count": 15,
+  "clusters": [
+    {
+      "name": "quiet practical care before it is requested",
+      "candidates": [
+        "The 3% Battery Rescue",
+        "He Heard The Quiet Part",
+        "The Shawl He Already Brought",
+        "The Tea That Waited For Me",
+        "The Errand That Felt Like Love",
+        "The Hair Tie He Kept"
+      ],
+      "cluster_decision": "primary"
+    },
+    {
+      "name": "shared-food private language",
+      "candidates": [
+        "The Last Bite Negotiation",
+        "The Bigger Half Lie",
+        "The Last Bite Treaty"
+      ],
+      "cluster_decision": "backup"
+    },
+    {
+      "name": "cozy rituals and silent-language moments",
+      "candidates": [
+        "The Rewatch Treaty",
+        "The Same-Room Text",
+        "The Doorway Checklist",
+        "Missing You While You're Here",
+        "The Mood He Didn't Try To Fix",
+        "The Umbrella That Made Us Walk Slower"
+      ],
+      "cluster_decision": "reserve"
+    }
+  ],
+  "top_candidates": [
+    {
+      "title": "The Shawl He Brought Before She Asked",
+      "status": "selected_repaired",
+      "overall_score": 4.83
+    },
+    {
+      "title": "The 3% Battery Rescue",
+      "status": "shortlisted",
+      "overall_score": 4.68
+    },
+    {
+      "title": "He Heard The Quiet Part",
+      "status": "shortlisted_as_hook",
+      "overall_score": 4.65
+    },
+    {
+      "title": "The Rewatch Treaty",
+      "status": "backup",
+      "overall_score": 4.55
+    },
+    {
+      "title": "The Hair Tie He Kept",
+      "status": "backup",
+      "overall_score": 4.48
+    },
+    {
+      "title": "The Last Bite Treaty",
+      "status": "backup",
+      "overall_score": 4.3
+    }
+  ]
+}

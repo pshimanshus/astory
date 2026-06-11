@@ -14,8 +14,8 @@ Date: `2026-06-07`
 | Sprint | Planned Work | Status | Evidence |
 |---|---|---|---|
 | Sprint 0 | Source-of-truth workspace, git, root folders, README, docs, scratchbook | Done | Root docs, `docs/scratchbooks/00-build-log.md`, commit `b089668` |
-| Sprint 1 | `/astory` skill package source and installed skill | Done | `codex-skill/astory/`, `/Users/himanshusharma/.codex/skills/astory/`, validator passed |
-| Sprint 2 | Multi-agent persona pack | Done | 12 persona files under `codex-skill/astory/personas/` |
+| Sprint 1 | `/astory` repo-scoped skill package source | Done | `.agents/skills/astory/`, validator passed |
+| Sprint 2 | Multi-agent persona pack | Done | 12 persona files under `.agents/skills/astory/personas/` |
 | Sprint 3 | Workflow templates | Done | templates for input, planning, scene selection, debates, prompts, evals, logs, reports |
 | Sprint 4 | Setup and reference gate | Done | `docs/setup_status.md`; identity and style refs now imported |
 | Sprint 5 | Idea-room agentic debate | Dry-run verified | `runs/2026-06-07_12-59-22_kitchen-help-dry-run/debates/idea_room/` |
@@ -23,7 +23,7 @@ Date: `2026-06-07`
 | Sprint 7 | Prompt pack and prompt QA | Defined, not production-run verified | Prompt templates/personas exist; no prompt-lock run yet |
 | Sprint 8 | Imagegen and image QA | Defined, not production-run verified | Skill rules/personas exist; no final imagegen run yet |
 | Sprint 9 | Reports, audit, closeout | Partially dry-run verified | Dry-run reports exist; final image package reports not yet exercised |
-| Sprint 10 | Install and verification | Partially done | Skill installed and validated; `/astory setup` behavior represented in docs; fresh-turn discovery still needs real invocation |
+| Sprint 10 | Repo-scoped skill verification | Partially done | Skill source is validated under `.agents/skills/astory/`; `/astory setup` behavior represented in docs; fresh-turn discovery still needs real invocation |
 
 ## Attached System Plan Audit
 
@@ -31,7 +31,7 @@ Date: `2026-06-07`
 |---|---|---|
 | Codex-native skill/workspace architecture | Done | Implemented as `/astory`, not `/story`, per later user correction |
 | Workspace structure | Done | V2 has docs, references, runs, skill source |
-| Skill responsibilities | Done | Covered in `codex-skill/astory/SKILL.md` |
+| Skill responsibilities | Done | Covered in `.agents/skills/astory/SKILL.md` |
 | State machine | Done | Defined in skill and architecture docs |
 | Input Interpreter | Template done; dry-run verified | `input/creative_brief.json` created in dry run |
 | Idea Strategist | Dry-run verified | 3 subagents, scoring, selection, rejected ideas |
@@ -52,7 +52,7 @@ Date: `2026-06-07`
 
 ## Remaining Concrete Gaps
 
-1. Run a fresh `/astory setup` invocation in a new Codex turn/session so skill discovery uses the installed skill.
+1. Run a fresh `/astory setup` invocation in a new Codex turn/session so skill discovery uses the repo-scoped skill.
 2. Run a full `/astory` production flow past idea lock now that identity and style references are present.
 3. Exercise story room, slide-count decision, scene selection, prompt QA, built-in imagegen, image QA, retries, caption pack, and final package.
 4. Commit style-reference import, scene-template coverage, and audit updates.

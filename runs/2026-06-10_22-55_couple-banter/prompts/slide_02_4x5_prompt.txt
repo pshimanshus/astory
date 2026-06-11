@@ -1,0 +1,86 @@
+USE CASE:
+illustration-story
+
+ASSET TYPE:
+Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram post illustration in native 4:5 portrait composition.
+
+REFERENCE IMAGE ROLES:
+The current request screenshots under `runs/2026-06-10_22-55_couple-banter/input/` control only the exact text, meme emotion, and composition essence. Do not copy animal subjects, Instagram UI, counters, handles, buttons, screenshot crop, or meme typography.
+face identity refs control only Aachu/Zuv faces, hair, brows, beard, skin tone, age, and face structure. Expression refs support smiles/reactions only. Together refs support body language, height/scale, closeness, and posture. wardrobe/place/formal references never control face identity; they are optional support only. Style references control watercolor-and-ink finish, paper tone, text style, and palette.
+
+Selected role-based references to load as actual image inputs before imagegen:
+- Dossier: references/identity/_dossier/identity-dossier.json
+- Preflight: references/identity/_dossier/identity-generation-preflight.md
+- Run load plan: runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_load_plan.json
+- Current source: runs/2026-06-10_22-55_couple-banter/input/source_02_annoy-you.jpeg
+- Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg
+- Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg
+- Together/body-language support: references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg, references/identity/together/face-and-body-language/together-cabin-hug-01.jpg
+- Style support: references/style/observational-intimacy-premium/contact-sheet.png, references/style/observational-intimacy-premium/slide-01.png, references/style/observational-intimacy-premium/slide-02.png
+
+Generation hard gate: do not generate from text descriptions or file paths alone; manual user attachments are not required for repo-local references, but Codex must load every image in the run load plan with view_image before imagegen and the active generation path must use the loaded local image context.
+
+PRIMARY REQUEST:
+Create standalone illustration 2 of 2 for the same recurring A Story of Two couple. Aachu proudly presents herself as Zuv's favorite affectionate annoyance. Zuv pretends to be interrupted but is clearly amused and fond.
+
+SHAREABILITY HOOK:
+The image should read in the first half-second as "your life needs my chaos": proud innocent Aachu, fondly interrupted Zuv, handmade heart prop, and a funny affectionate contrast between his quiet moment and her playful entrance. The scene itself must prove the joke before the viewer finishes reading the text.
+
+ON-IMAGE TEXT:
+imagine how boring your life
+would be if you didn't have
+me to annoy you
+
+TEXT PLACEMENT / TYPOGRAPHY:
+Place the exact three-line text in airy upper-middle negative space, optionally overlapping lightly with the top of the handmade heart prop only if it remains highly readable and does not cover faces. Render warm charcoal handwritten typography baked naturally into the illustration. Preserve exact lowercase wording, apostrophe, and line breaks. Do not add punctuation or extra words.
+
+TEXT STYLE GUARD:
+Do not use bold white meme-caption text, black outline text, drop shadow text, sticker text, digital overlay type, or screenshot-style typography. The lettering must match the approved small human charcoal handwritten A Story style.
+
+SCENE:
+A cozy room or couch-side interior, framed close enough that faces, handmade heart, and text are readable at thumbnail size. Aachu bursts gently into Zuv's quiet space and holds or peeks through a handmade dusty coral paper heart cutout off-center, proudly interrupting him. The heart is charming, crooked, tactile, and handmade, not a flat poster graphic. Zuv sits or leans nearby with a book, phone, laptop, or tea paused mid-use, pretending to be bothered but smiling because he loves the interruption. Aachu's expression is playful, innocent, and mischievous.
+
+POSE / BODY LANGUAGE:
+Aachu leans into the frame with the heart prop, shoulders relaxed, eyes bright, clearly saying "you need this chaos." Zuv turns toward her with a fond raised-eyebrow half-smile or laugh, body open, paused mid-activity in gentle surrender. Keep faces separate, fully visible, and naturally drawn.
+
+WARDROBE:
+Aachu wears a soft casual top or kurta in off-white, muted blush, or gentle neutral with small jewelry. Zuv wears a soft navy, white, or muted denim casual shirt.
+
+PROPS:
+Handmade dusty coral paper heart cutout with uneven scissor edges, soft paper folds, tiny tape marks, a slight crease, and visible finger grip; Zuv's paused book/phone/tea/laptop; optional small non-readable heart stickers or paper scraps near Aachu's hand. Props should support the joke without clutter.
+
+HEART PROP RULE:
+The dusty coral heart must be a handmade paper object held within the scene, with visible cut-paper imperfection and soft watercolor texture. It must not become a giant flat graphic, poster sign, logo shape, or text container. The room, Zuv's paused activity, both faces, and affectionate body language must remain more important than the heart.
+
+BACKGROUND:
+Minimal warm home interior fading into neutral off-white paper, with soft cushions, plant, desk/couch hint, paper grain, and watercolor blooms. Leave generous upper-middle text space.
+
+EMOTION:
+Proudly annoying, affectionate, funny, warm, self-aware, private couple shorthand.
+
+CONTROLLED CHAOS:
+Include tiny lived-in chaos details only as secondary accents: one shifted cushion, scarf corner, slipper, paused cup, paper scrap, or small non-readable heart sticker. Keep the chaos intimate and premium, never loud meme-poster, never cluttered, and no extra readable text.
+
+IDENTITY LOCK:
+Preserve the actual Aachu and Zuv faces from the selected role-based face-anchor image inputs above. Identity preservation is more important than decorative style. Do not create new faces, merge faces, change ethnicity, alter age, change skin tone, change facial proportions, remove Zuv's beard/mustache, change hairlines, or over-beautify.
+
+STYLE LOCK:
+Premium hand-drawn romantic editorial watercolor-and-ink illustration on neutral warm ivory/off-white paper with visible grain, fine ink/pencil linework, transparent watercolor blooms, tactile clothing and prop detail, soft faded edges, delicate crosshatching, and no generic AI watercolor or quote-card design.
+
+STYLE HARDENER:
+Match the approved observational-intimacy-premium references: quiet lived-in couple moment, real illustrated room context, lower/middle-lower figures, generous off-white paper breathing space, small human charcoal lettering, fine pencil/ink detail, transparent watercolor washes, and muted denim/navy/dusty-coral/faded-sage accents. Keep the image intimate and observational, not loud, theatrical, meme-like, poster-like, or decorative.
+
+PAPER TONE RULE:
+Neutral off-white/ivory paper only. Avoid yellow, mustard, sepia, parchment, beige/tan dominance, coffee-stained, heavy cream, harsh contrast, or glossy digital finish.
+
+PAPER TONE HARDENER:
+The paper must read clean neutral ivory/off-white, unaged and non-yellow. Use warm camel/tan only as tiny object or wood accents, never as the dominant background wash. No golden glow, antique wash, coffee stain, parchment texture, sepia filter, mustard cast, or beige monochrome palette.
+
+BRANDMARK:
+Include tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork.
+
+SCENE LOGIC:
+The image must visually prove that Aachu is the loving annoyance making Zuv's life less boring. Zuv must look amused and fond, not genuinely irritated.
+
+AVOID:
+Do not show a dog or animal face. Do not make the heart a generic graphic poster. Do not copy Instagram UI artifacts. Do not include extra text, random letters, speech bubbles, social icons, or watermarks. Do not make the scene look like a quote card. Do not allow bad anatomy, unreadable text, missing brandmark, or face drift.

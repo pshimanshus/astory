@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "threshold": 4.0,
+  "agent_assignment_status": "actual_multi_agent",
+  "agent_assignment_artifact": "runs/2026-06-10_22-22_heart-rent/debates/agent_assignment_matrix.md",
+  "active_prompt": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+  "scores": {
+    "story_coherence": 5,
+    "slide_count_fit": 5,
+    "scene_selection_quality": 4,
+    "visual_clarity": 5,
+    "prompt_clarity": 5,
+    "character_consistency_potential": 4,
+    "style_consistency_potential": 5,
+    "text_readability_potential": 5,
+    "brand_fit": 5,
+    "publishability": 4,
+    "risk_of_generic_output": 2,
+    "risk_of_visual_failure": 3,
+    "overall": 4.5
+  },
+  "status": "pass_for_targeted_repair_imagegen",
+  "required_revisions": [
+    "Preserve Aachu's current candidate face.",
+    "Repair Zuv against the loaded Zuv identity anchors.",
+    "Replace staged wallet/receipt/red-heart gag with a quieter doorway or threshold moment.",
+    "Allow no readable text except the exact main text and tiny @a.storyof.two brandmark.",
+    "Generate native 4:5."
+  ],
+  "failure_codes_addressed": [
+    "IDENTITY_DRIFT",
+    "STYLE_DRIFT",
+    "TEXT_NOT_EXACT",
+    "ASPECT_RATIO_WRONG"
+  ],
+  "blocking_conditions_before_imagegen": []
+}

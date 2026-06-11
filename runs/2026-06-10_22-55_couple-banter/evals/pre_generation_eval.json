@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "status": "pass_pending_prompt_approval",
+  "overall_score": 4.78,
+  "scores": {
+    "identity_lock": 4.6,
+    "style_lock": 4.85,
+    "text_accuracy": 4.85,
+    "scene_logic": 4.75,
+    "phone_readability": 4.65,
+    "shareability_hook": 4.8,
+    "controlled_chaos": 4.75,
+    "risk_control": 4.8
+  },
+  "agent_assignment_status": "actual_multi_agent",
+  "agent_assignment_artifact": "debates/agent_assignment_matrix.md",
+  "agent_revision_status": "integrated",
+  "agent_outputs": [
+    "debates/prompt_room/shareability_strategist_audit.md",
+    "debates/prompt_room/visual_story_director_audit.md",
+    "debates/prompt_room/style_guardian_audit.md"
+  ],
+  "required_before_generation": [
+    "creator prompt lock approval",
+    "view_image selected identity references",
+    "view_image selected style references",
+    "view_image current request source images"
+  ]
+}

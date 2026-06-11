@@ -1,0 +1,26 @@
+{
+  "candidates": [
+    {
+      "id": "idea_01",
+      "title": "Heart Rent Notice",
+      "one_line_concept": "Aachu playfully asks Zuv to pay rent for living in her heart.",
+      "exact_text": "pay rent for living in my heart",
+      "score": 4.7,
+      "status": "selected"
+    },
+    {
+      "id": "idea_02",
+      "title": "Security Deposit",
+      "one_line_concept": "Aachu asks Zuv for a tiny emotional security deposit.",
+      "score": 4.0,
+      "status": "rejected"
+    },
+    {
+      "id": "idea_03",
+      "title": "Receipt At The Door",
+      "one_line_concept": "Aachu gives Zuv a rent receipt at a symbolic heart doorway.",
+      "score": 3.7,
+      "status": "rejected"
+    }
+  ]
+}

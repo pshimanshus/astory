@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "format": "two standalone illustrations",
+  "arc": "A tiny diptych of affectionate couple mischief: Aachu lovingly enforces attention, then proudly admits she is Zuv's favorite daily annoyance.",
+  "assets": [
+    {
+      "asset": "illustration_01",
+      "title": "Watch My Videos Or Else",
+      "emotional_beat": "mock-serious affection",
+      "proof_object": "Zuv's phone with unwatched video cues"
+    },
+    {
+      "asset": "illustration_02",
+      "title": "Your Life Needs My Nonsense",
+      "emotional_beat": "self-aware playful interruption",
+      "proof_object": "Aachu's handmade dusty coral heart prop"
+    }
+  ]
+}

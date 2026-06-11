@@ -1,0 +1,38 @@
+[
+  {
+    "query": "Aachu face identity references",
+    "role": "aachu",
+    "expected_paths": [
+      "references/identity/aachu/README.md"
+    ],
+    "forbidden_paths": [
+      "references/identity/zuv/README.md"
+    ]
+  },
+  {
+    "query": "Zuv face identity references",
+    "role": "zuv",
+    "expected_paths": [
+      "references/identity/zuv/README.md"
+    ],
+    "forbidden_paths": [
+      "references/identity/aachu/README.md"
+    ]
+  },
+  {
+    "query": "observational intimacy premium watercolor style",
+    "role": "style",
+    "expected_paths": [
+      "references/style/observational-intimacy-premium/README.md"
+    ],
+    "forbidden_paths": []
+  },
+  {
+    "query": "heart rent slide prompt",
+    "run_id": "2026-06-10_22-22_heart-rent",
+    "expected_paths": [
+      "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt"
+    ],
+    "forbidden_paths": []
+  }
+]

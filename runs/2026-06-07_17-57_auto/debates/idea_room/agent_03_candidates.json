@@ -1,0 +1,203 @@
+{
+  "agent_role": "Visual Story Director",
+  "candidates": [
+    {
+      "title": "The Shawl He Already Brought",
+      "one_line_concept": "Zuv notices Aachu will get cold before she admits it, and the folded shawl becomes proof of being quietly known.",
+      "suggested_slide_arc": [
+        "Aachu steps out confidently without a layer while Zuv notices the evening breeze.",
+        "Zuv carries the shawl folded over his arm without making a fuss.",
+        "Aachu gets cold on a bench or terrace, trying to hide it.",
+        "Zuv drapes the shawl over both of them, turning care into closeness."
+      ],
+      "suggested_slide_1_moment": "Aachu at a doorway in light evening wind, Zuv just behind her holding a folded shawl low at his side.",
+      "suggested_payoff_moment": "Both seated close under the same shawl, couple lower-frame, upper-middle left open for handwritten text.",
+      "visual_potential": "Large recurring prop, romantic fabric movement, simple locations, strong proof of attention, premium watercolor softness.",
+      "execution_difficulty_score": 2,
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 4,
+        "slide_payoff": 5
+      },
+      "overall_score": 4.75,
+      "failure_codes": [
+        "ANATOMY_FAILURE"
+      ]
+    },
+    {
+      "title": "The Hair Tie He Kept",
+      "one_line_concept": "Zuv starts carrying Aachu's hair tie because he noticed she always needs one at the exact wrong time.",
+      "suggested_slide_arc": [
+        "Aachu searches her wrist or bag as wind lifts her hair.",
+        "Zuv quietly reveals the hair tie on his wrist or keyring.",
+        "Aachu laughs at how naturally he planned for her.",
+        "The hair tie sits between their hands like a tiny love language."
+      ],
+      "suggested_slide_1_moment": "Aachu holding her hair back in a breezy cafe corner while Zuv watches with an almost-hidden smile.",
+      "suggested_payoff_moment": "Close but not crowded view of Zuv offering the hair tie in his open palm, Aachu smiling beside him.",
+      "visual_potential": "Fresh intimate prop, very shareable micro-observation, strong hand/face staging if kept simple.",
+      "execution_difficulty_score": 3,
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 4,
+        "slide_payoff": 5
+      },
+      "overall_score": 4.63,
+      "failure_codes": [
+        "ANATOMY_FAILURE",
+        "PROMPT_OVERLOAD"
+      ]
+    },
+    {
+      "title": "The Tea That Waited For Me",
+      "one_line_concept": "Aachu comes back late to find Zuv has kept her tea warm in the exact way she likes.",
+      "suggested_slide_arc": [
+        "A quiet table with one untouched cup and soft steam.",
+        "Zuv reheats or protects the cup with both hands.",
+        "Aachu returns tired, noticing the small setup before noticing him.",
+        "They sit together over the warm cup, the care finally visible."
+      ],
+      "suggested_slide_1_moment": "A warm ivory table scene with one cup, coaster, spoon, and Zuv partly visible waiting nearby.",
+      "suggested_payoff_moment": "Aachu seated with the cup while Zuv sits close, their hands near the saucer but not tangled.",
+      "visual_potential": "Extremely feasible, cozy, prop-led, with generous negative space and low anatomy risk.",
+      "execution_difficulty_score": 1,
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 3,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 4
+      },
+      "overall_score": 4.63,
+      "failure_codes": [
+        "YELLOW_PAPER_CAST"
+      ]
+    },
+    {
+      "title": "The Umbrella That Made Us Walk Slower",
+      "one_line_concept": "Rain turns a normal walk into an excuse for Aachu and Zuv to move closer than necessary.",
+      "suggested_slide_arc": [
+        "First raindrops appear while they stand near a doorway or street edge.",
+        "One umbrella opens between them, slightly too small.",
+        "They walk slower through soft puddle reflections.",
+        "They reach shelter but keep standing close under the umbrella."
+      ],
+      "suggested_slide_1_moment": "Zuv opening one umbrella as Aachu looks up at the rain, with a clean pale background.",
+      "suggested_payoff_moment": "The couple under one umbrella at the edge of shelter, shoes near puddles, upper area clear for text.",
+      "visual_potential": "Strong romantic silhouette, beautiful watercolor rain, clear slide progression, but must avoid generic rainy-couple staging.",
+      "execution_difficulty_score": 3,
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 5,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 4,
+        "prop_usefulness": 5,
+        "anatomy_safety": 4,
+        "slide_payoff": 5
+      },
+      "overall_score": 4.5,
+      "failure_codes": [
+        "GENERIC_IDEA",
+        "ANATOMY_FAILURE",
+        "STYLE_DRIFT"
+      ]
+    },
+    {
+      "title": "The Last Bite Treaty",
+      "one_line_concept": "Zuv keeps pretending he does not want the last bite because he already knows Aachu does.",
+      "suggested_slide_arc": [
+        "A small dessert plate sits between them with one bite left.",
+        "Aachu says no with her hands, while still looking at the plate.",
+        "Zuv quietly slides the plate toward her.",
+        "Aachu takes the bite as Zuv smiles like this was always the plan."
+      ],
+      "suggested_slide_1_moment": "A shared table scene with one plate, two forks, and the final bite clearly visible.",
+      "suggested_payoff_moment": "The plate gently pushed toward Aachu, Zuv's hand retreating, both faces calm and fond.",
+      "visual_potential": "Simple, readable, charming, and low-risk; best as a compact 3-4 slide carousel so the payoff does not thin out.",
+      "execution_difficulty_score": 1,
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 3,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 4,
+        "anatomy_safety": 5,
+        "slide_payoff": 4
+      },
+      "overall_score": 4.5,
+      "failure_codes": [
+        "WEAK_PAYOFF",
+        "TOO_MANY_SLIDES"
+      ]
+    }
+  ],
+  "top_pick": {
+    "title": "The Shawl He Already Brought",
+    "recommended_slide_count": 4,
+    "rationale": "It has the strongest mix of visual proof, romance, prop clarity, and imagegen safety. The shawl is large enough to read instantly, supports consistent wardrobe and body language, and gives a natural emotional payoff without needing crowded scenes or tiny details."
+  },
+  "visual_risks": [
+    {
+      "failure_code": "ANATOMY_FAILURE",
+      "risk": "Wrapping, tying, or close hand interactions can create awkward fingers or impossible arm positions.",
+      "prevention": "Prefer offering, holding, draping, or shared-cover poses over complex tying actions."
+    },
+    {
+      "failure_code": "TEXT_UNREADABLE",
+      "risk": "Busy rain, cafe tables, or fabric folds can compete with handwritten text.",
+      "prevention": "Keep text in upper-middle negative space with the couple and props lower-frame."
+    },
+    {
+      "failure_code": "GENERIC_IDEA",
+      "risk": "Rain, tea, and last-bite moments can become familiar romance tropes if not anchored in a specific Aachu/Zuv habit.",
+      "prevention": "Make the proof object specific and recurring: shawl, hair tie, exact cup ritual, single plate gesture."
+    },
+    {
+      "failure_code": "PROMPT_OVERLOAD",
+      "risk": "Too many props or micro-actions in one slide can reduce face consistency and scene clarity.",
+      "prevention": "Use one hero prop per idea and one readable action per slide."
+    }
+  ],
+  "slide_count_hints": {
+    "The Shawl He Already Brought": {
+      "recommended": 4,
+      "range": "3-5",
+      "note": "Four slides gives setup, noticed care, need, and payoff. Five only if adding a strong breeze/terrace transition."
+    },
+    "The Hair Tie He Kept": {
+      "recommended": 4,
+      "range": "3-5",
+      "note": "Needs enough beats for the tiny prop to become emotionally clear; avoid six because the object is small."
+    },
+    "The Tea That Waited For Me": {
+      "recommended": 3,
+      "range": "3-4",
+      "note": "Best as a compact ritual; too many slides may feel repetitive."
+    },
+    "The Umbrella That Made Us Walk Slower": {
+      "recommended": 4,
+      "range": "4-5",
+      "note": "Rain gives scene variety, but more than five risks generic scenic padding."
+    },
+    "The Last Bite Treaty": {
+      "recommended": 3,
+      "range": "3-4",
+      "note": "The payoff is sweet but small; keep it tight."
+    }
+  }
+}

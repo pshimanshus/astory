@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "style_status": "ready_for_prompt_planning",
+  "reference_paths": [
+    "references/style/observational-intimacy-premium/contact-sheet.png",
+    "references/style/observational-intimacy-premium/slide-01.png",
+    "references/style/observational-intimacy-premium/slide-02.png",
+    "references/style/observational-intimacy-premium/slide-03.png",
+    "references/style/observational-intimacy-premium/slide-04.png",
+    "references/style/observational-intimacy-premium/slide-05.png",
+    "references/style/observational-intimacy-premium/slide-06.png",
+    "references/style/observational-intimacy-premium/slide-07.png",
+    "references/style/observational-intimacy-premium/slide-08.png"
+  ],
+  "illustration_style": "premium hand-drawn romantic watercolor-and-ink editorial illustration",
+  "palette": [
+    "neutral warm ivory/off-white",
+    "muted denim blue",
+    "soft navy",
+    "faded sage",
+    "peach blush",
+    "dusty coral",
+    "warm camel used lightly"
+  ],
+  "paper_rule": "neutral ivory/off-white, not yellow, mustard, sepia, parchment, beige/tan dominant, coffee-stained, or heavy cream",
+  "line_quality": "fine ink and pencil linework with natural variation, delicate sketch texture, and gentle crosshatching",
+  "background_style": "soft minimal doorway or terrace environment fading into paper, with upper-middle negative space preserved for text",
+  "texture": "visible paper grain, transparent watercolor blooms, dry-brush texture, tactile clothing and prop detail, soft faded edges",
+  "text_style": "readable hand-drawn warm charcoal typography baked into the illustration, placed in upper-middle negative space with exact wording and line breaks",
+  "brandmark_rule": "tiny low-contrast handwritten @a.storyof.two bottom-right as part of the artwork",
+  "composition_rules": [
+    "couple lower or middle-lower",
+    "upper-middle clear for text",
+    "same story scene continuity across slides",
+    "shawl readable but not oversized into a prop poster",
+    "avoid busy railings, heavy wind lines, or fabric folds competing with text"
+  ],
+  "negative_style_rules": [
+    "no photorealism",
+    "no anime or cartoon simplification",
+    "no 3D render",
+    "no flat vector art",
+    "no quote-card design",
+    "no generic AI watercolor",
+    "no yellow/parchment paper",
+    "no digital overlay typography",
+    "no missing or external watermark",
+    "no glossy finish or harsh contrast"
+  ]
+}

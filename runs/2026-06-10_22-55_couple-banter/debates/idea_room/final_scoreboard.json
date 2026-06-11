@@ -1,0 +1,27 @@
+{
+  "threshold": 4.0,
+  "survivors": [
+    {
+      "candidate_id": "watch-my-videos-cuddle-threat",
+      "score": 4.7,
+      "relatability": 4.9,
+      "shareability": 4.8,
+      "visual_proof": 4.6,
+      "style_fit": 4.5,
+      "risk": "Could read too forceful if body language is not soft."
+    },
+    {
+      "candidate_id": "boring-without-my-annoyance",
+      "score": 4.6,
+      "relatability": 4.7,
+      "shareability": 4.8,
+      "visual_proof": 4.4,
+      "style_fit": 4.5,
+      "risk": "Could become a quote card if the heart prop dominates."
+    }
+  ],
+  "selected": [
+    "watch-my-videos-cuddle-threat",
+    "boring-without-my-annoyance"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "status": "pass",
+  "overall_score": 4.65,
+  "threshold": 4.0,
+  "criteria": {
+    "relatability": 4.8,
+    "shareability": 4.8,
+    "visual_freshness": 4.4,
+    "a_story_fit": 4.6,
+    "text_scene_proof": 4.6
+  },
+  "notes": "Both assets pass because they convert familiar meme dynamics into specific Aachu-Zuv couple behavior while preserving exact text."
+}

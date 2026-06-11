@@ -1,0 +1,31 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "state": "SCORE_IDEAS",
+  "selected_title": "The Shawl He Brought Before She Asked",
+  "threshold": 4.0,
+  "overall_score": 4.83,
+  "passes": true,
+  "rubric": {
+    "relatability": 4.8,
+    "emotional_truth": 4.9,
+    "specificity": 4.6,
+    "warmth": 5.0,
+    "shareability": 4.8,
+    "comment_potential": 4.5,
+    "save_potential": 4.8,
+    "swipe_through_curiosity": 4.7,
+    "visual_clarity": 4.9,
+    "imagegen_feasibility": 4.8,
+    "brand_fit": 5.0,
+    "freshness": 4.5,
+    "low_stereotype_risk": 4.8
+  },
+  "hard_failures": [],
+  "watch_items": [
+    "ANATOMY_FAILURE",
+    "GENERIC_IDEA",
+    "TEXT_UNREADABLE"
+  ],
+  "second_room_required": false,
+  "next_gate": "HITL_IDEA_LOCK"
+}

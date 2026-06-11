@@ -1,0 +1,118 @@
+{
+  "agent_role": "Shareability Strategist",
+  "candidates": [
+    {
+      "title": "He Heard The Quiet Part",
+      "one_line_concept": "Aachu says one ordinary sentence, but Zuv responds to the feeling underneath it through tiny practical care across 4 slides.",
+      "suggested_text_hook": "He answered the sentence I didn't say out loud.",
+      "why_people_may_share": "People can send it privately as a soft hint for the kind of attention they crave, without sounding demanding.",
+      "why_people_may_comment": "Invites comments like \"this is us\" and \"what is the tiny sentence your person always understands?\"",
+      "likely_audience_reaction": "Warm recognition, slight ache, immediate partner tag.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 5,
+        "swipe_through_curiosity": 5,
+        "simplicity": 4,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5
+      },
+      "overall_score": 4.75,
+      "failure_codes": []
+    },
+    {
+      "title": "The Bigger Half Lie",
+      "one_line_concept": "Aachu and Zuv both pretend not to want the last bite, then keep giving each other the bigger half in a 3-5 slide food-table moment.",
+      "suggested_text_hook": "The most romantic lie: \"No, you have it.\"",
+      "why_people_may_share": "Easy tag for couples with a shared-food ritual; instantly readable in one glance.",
+      "why_people_may_comment": "Prompts \"who steals the last bite?\" or \"who says no and eats it anyway?\"",
+      "likely_audience_reaction": "Laughing, guilty, affectionate tagging.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 4,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 3,
+        "brand_fit": 5
+      },
+      "overall_score": 4.5,
+      "failure_codes": [
+        "GENERIC_IDEA"
+      ]
+    },
+    {
+      "title": "Missing You While You're Here",
+      "one_line_concept": "Aachu suddenly feels nostalgic for Zuv while he is sitting right beside her, turning an ordinary evening into a tender 4-slide realization.",
+      "suggested_text_hook": "I missed him while he was still beside me.",
+      "why_people_may_share": "Best for private sends because it names a feeling many couples have but rarely say directly.",
+      "why_people_may_comment": "Invites \"does anyone else feel this?\" and soft confession-style comments.",
+      "likely_audience_reaction": "Quiet emotional hit, saved for later, sent to a partner with no extra words.",
+      "scores": {
+        "shareability": 4,
+        "comment_potential": 4,
+        "save_potential": 5,
+        "swipe_through_curiosity": 5,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5
+      },
+      "overall_score": 4.63,
+      "failure_codes": []
+    },
+    {
+      "title": "The Mood He Didn't Try To Fix",
+      "one_line_concept": "Aachu is having a sharp, tired mood; Zuv does not interrogate it, he simply makes the room gentler over 4-5 slides.",
+      "suggested_text_hook": "He stopped asking what was wrong and made the world quieter.",
+      "why_people_may_share": "Shareable as a green-flag care moment for people who want calm presence, not lectures.",
+      "why_people_may_comment": "Prompts \"what calms you down fastest?\" and \"send this to the over-explainer in your life.\"",
+      "likely_audience_reaction": "Relieved, seen, slightly emotional.",
+      "scores": {
+        "shareability": 4,
+        "comment_potential": 4,
+        "save_potential": 5,
+        "swipe_through_curiosity": 4,
+        "simplicity": 4,
+        "hook_strength": 4,
+        "freshness": 4,
+        "brand_fit": 5
+      },
+      "overall_score": 4.25,
+      "failure_codes": []
+    },
+    {
+      "title": "The Errand That Felt Like Love",
+      "one_line_concept": "Aachu casually mentions one tiny need, and Zuv returns with the exact thing later, making a practical errand feel romantic in 3-5 slides.",
+      "suggested_text_hook": "It was just a pharmacy bag. Why did it feel like love?",
+      "why_people_may_share": "People will tag partners who remember small things, or send it as a gentle hint.",
+      "why_people_may_comment": "Invites \"what tiny thing did your person remember?\" and green-flag stories.",
+      "likely_audience_reaction": "Soft envy, fondness, \"marry the practical romantic\" energy.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 4,
+        "save_potential": 5,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 4,
+        "freshness": 4,
+        "brand_fit": 5
+      },
+      "overall_score": 4.5,
+      "failure_codes": []
+    }
+  ],
+  "top_pick": {
+    "title": "He Heard The Quiet Part",
+    "overall_score": 4.75,
+    "reason": "It has the strongest blend of private-send value, comment prompt, emotional specificity, and premium Aachu/Zuv tenderness without depending on a recycled couple joke."
+  },
+  "engagement_rationale": "The strongest ideas turn tiny care into proof of love. They invite partner tagging because the behavior is specific, comments because viewers can answer with their own version, and saves because the payoff feels emotionally useful rather than just pretty.",
+  "distribution_risks": [
+    "Quiet-care concepts can become too subtle if the visual action is not obvious by slide 2.",
+    "Food and last-bite concepts are highly shareable but need a fresh Aachu/Zuv twist to avoid feeling recycled.",
+    "Avoid caption-heavy execution; each slide should prove the hook through body language, props, and a clear emotional turn."
+  ]
+}

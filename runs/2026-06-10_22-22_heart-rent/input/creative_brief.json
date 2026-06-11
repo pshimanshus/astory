@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "created_at": "2026-06-10T22:26:31+05:30",
+  "mode": "specific_idea",
+  "source_prompt": "Take the 1st puppy image text as reference and use mine and Aachu's image as face identity and create an A Story of Two theme illustration. Use images from identity images and ensure face is consistent.",
+  "source_reference_text": "pay rent for living in my heart",
+  "creator_revision": "it should be aachu asking to zuv not otherwise",
+  "locked_direction": "Aachu playfully asks Zuv to pay rent for living in her heart.",
+  "requested_brand": "@a.storyof.two",
+  "requested_subjects": ["Aachu", "Zuv"],
+  "requested_identity_source": "V2 local identity references",
+  "intended_output": {
+    "surface_post": "native 4:5 Instagram post",
+    "surface_story": "native 9:16 Reels/Stories version after prompt approval",
+    "format": "premium romantic watercolor-and-ink illustration"
+  },
+  "hitl_status": {
+    "idea_lock": "approved_with_creator_revision",
+    "story_lock": "approved",
+    "prompt_lock": "approved",
+    "image_qa": "not_started",
+    "final_package": "not_started"
+  }
+}

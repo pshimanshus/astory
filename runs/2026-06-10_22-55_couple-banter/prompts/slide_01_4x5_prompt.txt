@@ -1,0 +1,82 @@
+USE CASE:
+illustration-story
+
+ASSET TYPE:
+Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram post illustration in native 4:5 portrait composition.
+
+REFERENCE IMAGE ROLES:
+The current request screenshots under `runs/2026-06-10_22-55_couple-banter/input/` control only the exact text, meme emotion, and composition essence. Do not copy animal subjects, Instagram UI, counters, handles, buttons, screenshot crop, or meme typography.
+face identity refs control only Aachu/Zuv faces, hair, brows, beard, skin tone, age, and face structure. Expression refs support smiles/reactions only. Together refs support body language, height/scale, closeness, and posture. wardrobe/place/formal references never control face identity; they are optional support only. Style references control watercolor-and-ink finish, paper tone, text style, and palette.
+
+Selected role-based references to load as actual image inputs before imagegen:
+- Dossier: references/identity/_dossier/identity-dossier.json
+- Preflight: references/identity/_dossier/identity-generation-preflight.md
+- Run load plan: runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_load_plan.json
+- Current source: runs/2026-06-10_22-55_couple-banter/input/source_01_video-watch.jpeg
+- Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg
+- Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg
+- Together/body-language support: references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg, references/identity/together/face-and-body-language/together-cabin-hug-01.jpg
+- Style support: references/style/observational-intimacy-premium/contact-sheet.png, references/style/observational-intimacy-premium/slide-01.png, references/style/observational-intimacy-premium/slide-02.png
+
+Generation hard gate: do not generate from text descriptions or file paths alone; manual user attachments are not required for repo-local references, but Codex must load every image in the run load plan with view_image before imagegen and the active generation path must use the loaded local image context.
+
+PRIMARY REQUEST:
+Create standalone illustration 1 of 2 for the same recurring A Story of Two couple. Aachu is the playful sender of videos. Zuv has not watched them yet. The image should feel like affectionate couple banter, not anger.
+
+SHAREABILITY HOOK:
+The image should read in the first half-second as a playful "caught you" couple moment: deadpan Aachu, visibly caught Zuv, phone evidence, and a funny affectionate silhouette. The scene itself must prove the joke before the viewer finishes reading the text.
+
+ON-IMAGE TEXT:
+me if you don't watch the
+videos I send you.
+
+TEXT PLACEMENT / TYPOGRAPHY:
+Place the exact two-line text in airy upper-middle negative space. Render it as readable, polished, warm charcoal hand-drawn typography baked naturally into the illustration. Preserve exact lowercase/uppercase wording, apostrophe, period, and line break. Do not add punctuation or extra words.
+
+TEXT STYLE GUARD:
+Do not use bold white meme-caption text, black outline text, drop shadow text, sticker text, digital overlay type, or screenshot-style typography. The lettering must match the approved small human charcoal handwritten A Story style.
+
+SCENE:
+A low cozy sofa or bed-corner interior rendered softly, framed close enough that faces, phone, and text are readable at thumbnail size. Aachu sits just behind or beside Zuv with her chin near his shoulder and wraps him in a gentle mock-serious cuddle squeeze, echoing the source meme's "you are in trouble" energy without violence. Zuv tilts his phone slightly toward the viewer with 2-3 tiny unread video/play cues or heart/video icons visible, and he laughs sideways at her as if caught. Aachu's face is fully visible, playful, slightly deadpan, and affectionate. Zuv's face is fully visible, amused and sheepish.
+
+POSE / BODY LANGUAGE:
+Aachu's arms or loose blue-red scarf create a soft cuddle trap around Zuv's shoulders and upper chest only. Zuv's neck stays fully clear; there is no choking, pain, fear, or restraint. Zuv's shoulders are relaxed; one hand holds the phone and the other gives a small "okay okay, I will watch" gesture. Keep their faces separated, natural, and readable to avoid face merge.
+
+WARDROBE:
+Aachu wears a cozy off-white oversized shirt or soft printed kurta with small jewelry. Zuv wears a soft navy or muted denim casual shirt. Keep modern Indo-western everyday styling.
+
+PROPS:
+Zuv's phone with tiny heart/video/unwatched cues; a loose blue-red scarf or blanket forming a soft loop around both shoulders; one cushion tipped or shifted from the playful scuffle; small plant or bedside/cafe-table detail. Props must stay secondary to the faces and joke.
+
+BACKGROUND:
+Minimal cozy home interior fading into neutral off-white paper, with soft furniture hints, gentle shadows, paper grain, and watercolor blooms. Leave generous upper-middle space for text.
+
+EMOTION:
+Playful, funny, mock-offended, tender, private couple banter, emotionally safe.
+
+CONTROLLED CHAOS:
+Include tiny lived-in chaos details only as secondary accents: one shifted cushion, scarf corner, slipper, paused cup, or small non-readable heart sticker. Keep the chaos intimate and premium, never loud meme-poster, never cluttered, and no extra readable text.
+
+IDENTITY LOCK:
+Preserve the actual Aachu and Zuv faces from the selected role-based face-anchor image inputs above. Identity preservation is more important than decorative style. Do not create new faces, merge faces, change ethnicity, alter age, change skin tone, change facial proportions, remove Zuv's beard/mustache, change hairlines, or over-beautify.
+
+STYLE LOCK:
+Premium hand-drawn romantic editorial watercolor-and-ink illustration on neutral warm ivory/off-white paper with visible grain, fine ink/pencil linework, transparent watercolor blooms, tactile clothing and prop detail, soft faded edges, delicate crosshatching, and no generic AI watercolor or quote-card design.
+
+STYLE HARDENER:
+Match the approved observational-intimacy-premium references: quiet lived-in couple moment, real illustrated room context, lower/middle-lower figures, generous off-white paper breathing space, small human charcoal lettering, fine pencil/ink detail, transparent watercolor washes, and muted denim/navy/dusty-coral/faded-sage accents. Keep the image intimate and observational, not loud, theatrical, meme-like, poster-like, or decorative.
+
+PAPER TONE RULE:
+Neutral off-white/ivory paper only. Avoid yellow, mustard, sepia, parchment, beige/tan dominance, coffee-stained, heavy cream, harsh contrast, or glossy digital finish.
+
+PAPER TONE HARDENER:
+The paper must read clean neutral ivory/off-white, unaged and non-yellow. Use warm camel/tan only as tiny object or wood accents, never as the dominant background wash. No golden glow, antique wash, coffee stain, parchment texture, sepia filter, mustard cast, or beige monochrome palette.
+
+BRANDMARK:
+Include tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork.
+
+SCENE LOGIC:
+The image must visually prove that Aachu is mock-seriously reacting because Zuv has not watched the videos she sent. The phone/unwatched cue must be legible enough as story evidence without adding extra written words.
+
+AVOID:
+Do not show cats or animals. Do not show real choking, pain, fear, crying, aggression, or hostage energy. Do not copy Instagram UI artifacts. Do not include extra text, random letters, speech bubbles, social icons, or watermarks. Do not make the scene look like a quote card. Do not allow bad anatomy, unreadable text, missing brandmark, or face drift.

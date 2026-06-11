@@ -1,0 +1,114 @@
+{
+  "claims": [
+    {
+      "applies_to": [
+        "aachu",
+        "identity",
+        "image_qa"
+      ],
+      "claim_id": "claim:03a4931fb5a18cea",
+      "claim_type": "creator_preference",
+      "confidence": 0.93,
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/docs/approvals.md",
+        "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json"
+      ],
+      "promotion_policy": "human_review",
+      "rationale": "Creator feedback and QA checklist both mark Aachu age drift as rejected.",
+      "risk_level": "high",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "scope": "aachu_identity",
+      "status": "candidate",
+      "text": "Creator rejected an output where Aachu looked old; future retries for this concept must preserve youthful Aachu face identity from the approved anchors."
+    },
+    {
+      "applies_to": [
+        "exports",
+        "final_package",
+        "style"
+      ],
+      "claim_id": "claim:183fb06cca8b8465",
+      "claim_type": "failure_mode",
+      "confidence": 0.97,
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json"
+      ],
+      "promotion_policy": "quarantine",
+      "rationale": "Image QA marks the export rejected after creator review.",
+      "risk_level": "medium",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "scope": "asset_governance",
+      "status": "quarantined",
+      "text": "Rejected export `runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5.png` must not be promoted as final artwork or a style anchor."
+    },
+    {
+      "applies_to": [
+        "image_qa",
+        "final_package"
+      ],
+      "claim_id": "claim:88f81213cad79449",
+      "claim_type": "failure_mode",
+      "confidence": 0.98,
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json"
+      ],
+      "promotion_policy": "auto_apply",
+      "rationale": "Image QA records accepted_candidate files rejected after creator review.",
+      "risk_level": "low",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "scope": "workflow",
+      "status": "candidate",
+      "text": "A filename containing accepted_candidate is not final acceptance proof; final status must come from explicit image QA and creator approval evidence."
+    },
+    {
+      "applies_to": [
+        "together",
+        "body_language",
+        "image_qa"
+      ],
+      "claim_id": "claim:a05114b59588d9f3",
+      "claim_type": "creator_preference",
+      "confidence": 0.93,
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/docs/approvals.md",
+        "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json"
+      ],
+      "promotion_policy": "human_review",
+      "rationale": "Creator feedback and QA checklist both mark missing couple energy as rejected.",
+      "risk_level": "high",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "scope": "relationship_direction",
+      "status": "candidate",
+      "text": "Creator rejected a retry where couple energy was missing; future retries for this concept need visible closeness, shared attention, and affectionate body language."
+    },
+    {
+      "applies_to": [
+        "imagegen",
+        "reference_visibility"
+      ],
+      "claim_id": "claim:ed11d6f016d3b4e2",
+      "claim_type": "production_constraint",
+      "confidence": 0.96,
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/references-used/selected_references.json"
+      ],
+      "promotion_policy": "auto_apply",
+      "rationale": "Selected reference manifest explicitly forbids prompt-only generation.",
+      "risk_level": "medium",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "scope": "run",
+      "status": "candidate",
+      "text": "Final Aachu/Zuv imagegen for this run requires loading the queued local reference images with view_image; prompt-only generation is forbidden."
+    }
+  ],
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "schema_version": "1.0",
+  "summary": {
+    "auto_apply": 2,
+    "candidate": 4,
+    "human_review": 2,
+    "quarantine": 1,
+    "quarantined": 1,
+    "total": 5
+  }
+}

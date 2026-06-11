@@ -1,0 +1,57 @@
+{
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "options": [
+    {
+      "slide": 1,
+      "options": [
+        {
+          "id": "1A",
+          "scene": "Sofa cuddle trap with Zuv holding phone",
+          "score": 4.8,
+          "selected": true,
+          "reason": "Best visual proof of unwatched videos while keeping the hug safe and funny."
+        },
+        {
+          "id": "1B",
+          "scene": "Aachu blocking doorway until Zuv watches videos",
+          "score": 4.1,
+          "selected": false,
+          "reason": "Less close and less meme-like; weaker body-language echo."
+        },
+        {
+          "id": "1C",
+          "scene": "Cafe table with Aachu pointing at phone",
+          "score": 3.9,
+          "selected": false,
+          "reason": "Too ordinary and may read as scolding, not banter."
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "options": [
+        {
+          "id": "2A",
+          "scene": "Aachu peeking through handmade dusty coral heart while Zuv smiles nearby",
+          "score": 4.7,
+          "selected": true,
+          "reason": "Keeps the heart meme essence and proves the line as playful self-advertising."
+        },
+        {
+          "id": "2B",
+          "scene": "Aachu dropping sticky notes around Zuv's desk",
+          "score": 4.2,
+          "selected": false,
+          "reason": "Good annoyance cue, but loses the heart-image source."
+        },
+        {
+          "id": "2C",
+          "scene": "Balcony scene where Aachu pokes Zuv's cheek",
+          "score": 3.8,
+          "selected": false,
+          "reason": "Cute but too generic; text becomes less visually proven."
+        }
+      ]
+    }
+  ]
+}

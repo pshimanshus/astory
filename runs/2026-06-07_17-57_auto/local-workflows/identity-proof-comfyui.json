@@ -1,0 +1,294 @@
+{
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "sd_xl_base_1.0.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 640,
+      "height": 480,
+      "batch_size": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    }
+  },
+  "11": {
+    "class_type": "InstantIDModelLoader",
+    "inputs": {
+      "instantid_file": "ip-adapter.bin"
+    }
+  },
+  "13": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "astory_identity_proof/aachu_face_anchor.jpg"
+    }
+  },
+  "15": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "astory_identity_proof/aachu_zuv_identity_proof_nonfinal_small_cpu",
+      "images": [
+        "8",
+        0
+      ]
+    }
+  },
+  "16": {
+    "class_type": "ControlNetLoader",
+    "inputs": {
+      "control_net_name": "instantid-controlnet.safetensors"
+    }
+  },
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 2606071757,
+      "steps": 4,
+      "cfg": 4.5,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "model": [
+        "77",
+        0
+      ],
+      "positive": [
+        "79",
+        0
+      ],
+      "negative": [
+        "80",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    }
+  },
+  "38": {
+    "class_type": "InstantIDFaceAnalysis",
+    "inputs": {
+      "provider": "CPU"
+    }
+  },
+  "39": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "4",
+        1
+      ],
+      "text": "Aachu on the left, face-forward natural romantic watercolor and ink character study, identity driven by the role-based Aachu face-anchor image input from references/identity/aachu/face/, warm natural skin tone, long dark hair, gentle neutral expression, standing beside Zuv, clean white paper, soft ink outline"
+    }
+  },
+  "40": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "4",
+        1
+      ],
+      "text": "photograph, hyperrealistic, deformed face, wrong face, face merge, identical faces, changed identity, over-beautified, generic couple, text, handwriting, brandmark, logo, watermark, shawl, scarf, blanket, extra people, sunglasses, cropped face"
+    }
+  },
+  "60": {
+    "class_type": "ApplyInstantID",
+    "inputs": {
+      "instantid": [
+        "11",
+        0
+      ],
+      "insightface": [
+        "38",
+        0
+      ],
+      "control_net": [
+        "16",
+        0
+      ],
+      "image": [
+        "13",
+        0
+      ],
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "39",
+        0
+      ],
+      "negative": [
+        "40",
+        0
+      ],
+      "image_kps": [
+        "82",
+        0
+      ],
+      "mask": [
+        "87",
+        0
+      ],
+      "weight": 0.9,
+      "start_at": 0.0,
+      "end_at": 0.9
+    }
+  },
+  "77": {
+    "class_type": "ApplyInstantID",
+    "inputs": {
+      "instantid": [
+        "11",
+        0
+      ],
+      "insightface": [
+        "38",
+        0
+      ],
+      "control_net": [
+        "16",
+        0
+      ],
+      "image": [
+        "78",
+        0
+      ],
+      "model": [
+        "60",
+        0
+      ],
+      "positive": [
+        "89",
+        0
+      ],
+      "negative": [
+        "40",
+        0
+      ],
+      "image_kps": [
+        "82",
+        0
+      ],
+      "mask": [
+        "88",
+        0
+      ],
+      "weight": 0.9,
+      "start_at": 0.0,
+      "end_at": 0.9
+    }
+  },
+  "78": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "astory_identity_proof/zuv_face_anchor.jpg"
+    }
+  },
+  "79": {
+    "class_type": "ConditioningCombine",
+    "inputs": {
+      "conditioning_1": [
+        "60",
+        1
+      ],
+      "conditioning_2": [
+        "77",
+        1
+      ]
+    }
+  },
+  "80": {
+    "class_type": "ConditioningCombine",
+    "inputs": {
+      "conditioning_1": [
+        "60",
+        2
+      ],
+      "conditioning_2": [
+        "77",
+        2
+      ]
+    }
+  },
+  "82": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "astory_identity_proof/together_pose_context.jpg"
+    }
+  },
+  "85": {
+    "class_type": "SolidMask",
+    "inputs": {
+      "value": 0.0,
+      "width": 640,
+      "height": 480
+    }
+  },
+  "86": {
+    "class_type": "SolidMask",
+    "inputs": {
+      "value": 1.0,
+      "width": 320,
+      "height": 480
+    }
+  },
+  "87": {
+    "class_type": "MaskComposite",
+    "inputs": {
+      "destination": [
+        "85",
+        0
+      ],
+      "source": [
+        "86",
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "operation": "add"
+    }
+  },
+  "88": {
+    "class_type": "MaskComposite",
+    "inputs": {
+      "destination": [
+        "85",
+        0
+      ],
+      "source": [
+        "86",
+        0
+      ],
+      "x": 320,
+      "y": 0,
+      "operation": "add"
+    }
+  },
+  "89": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "4",
+        1
+      ],
+      "text": "Zuv on the right, face-forward natural romantic watercolor and ink character study, identity driven by the role-based Zuv face-anchor image input from references/identity/zuv/face/, South Asian man, dark hair, short beard, calm neutral expression, standing beside Aachu, clean white paper, soft ink outline"
+    }
+  }
+}

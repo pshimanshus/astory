@@ -1,0 +1,36 @@
+{
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "created_at": "2026-06-10T22:57:29+05:30",
+  "mode": "specific_reference_to_standalone_illustrations",
+  "creator_request": "Create standalone A Story of Two illustrations from both attached meme screenshots, keeping the text, fun, and couple banter intact.",
+  "creator_note": "We both are like this only in general as couple.",
+  "source_images": [
+    {
+      "id": "source_01_video_watch",
+      "path": "runs/2026-06-10_22-55_couple-banter/input/source_01_video-watch.jpeg",
+      "role": "mood, composition, message, and exact text reference only",
+      "exact_text": "me if you don't watch the\nvideos I send you.",
+      "interpretation": "A playful threat-cuddle when one partner ignores the videos the other sends."
+    },
+    {
+      "id": "source_02_annoy_you",
+      "path": "runs/2026-06-10_22-55_couple-banter/input/source_02_annoy-you.jpeg",
+      "role": "mood, prop idea, message, and exact text reference only",
+      "exact_text": "imagine how boring your life\nwould be if you didn't have\nme to annoy you",
+      "interpretation": "A self-aware love-note joke about being the delightful annoyance in the relationship."
+    }
+  ],
+  "deliverables": {
+    "asset_count": 2,
+    "surfaces_per_asset": ["native_4x5_post", "native_9x16_story_reel"],
+    "style": "observational-intimacy-premium A Story of Two watercolor-and-ink",
+    "brandmark": "@a.storyof.two"
+  },
+  "hard_constraints": [
+    "Use Aachu and Zuv identity anchors for faces.",
+    "Do not copy animals, Instagram UI, handles, counters, buttons, or screenshot artifacts.",
+    "Preserve exact on-image text and line breaks.",
+    "Keep banter affectionate, playful, safe, and couple-specific.",
+    "Use built-in Codex imagegen only."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "selected_idea": {
+    "title": "The Shawl He Brought Before She Asked",
+    "one_line_concept": "Aachu insists she is fine in the evening breeze, but Zuv has already brought the shawl because he knows the quiet sentence she will not say yet.",
+    "emotional_truth": "Real love often feels like being noticed before you have to explain yourself.",
+    "relatable_trigger": "The partner who remembers you will get cold, hungry, tired, anxious, or quiet before you admit it.",
+    "share_hook": "He answered the sentence I didn't say out loud.",
+    "visual_evidence": "Evening breeze, doorway or terrace, folded shawl carried without fuss, Aachu trying to act fine, Zuv gently offering or sharing the shawl.",
+    "recommended_slide_count": 4,
+    "why_it_wins": [
+      "Combines high relatability, strong private-send value, and clear premium visual proof.",
+      "The shawl is a large recurring object that keeps the scene readable at phone size.",
+      "It avoids generic couple quotes because the care is proven through action.",
+      "It gives story room a natural setup, escalation, reveal, and payoff."
+    ],
+    "known_risks": [
+      {
+        "failure_code": "ANATOMY_FAILURE",
+        "risk": "Complex shawl wrapping can distort hands, shoulders, or arms.",
+        "mitigation": "Prefer carrying, offering, placing over shoulders, or a simple shared-cover pose."
+      },
+      {
+        "failure_code": "GENERIC_IDEA",
+        "risk": "Could become a perfect-boyfriend fantasy if Zuv is staged as smug or overly heroic.",
+        "mitigation": "Keep both characters natural: Aachu is not helpless; Zuv is quietly observant."
+      },
+      {
+        "failure_code": "TEXT_UNREADABLE",
+        "risk": "Fabric movement and evening backgrounds can compete with handwritten text.",
+        "mitigation": "Reserve upper-middle negative space for exact on-image text."
+      }
+    ],
+    "score": {
+      "overall": 4.83,
+      "relatability": 4.8,
+      "shareability": 4.8,
+      "visual_clarity": 4.9,
+      "brand_fit": 5.0,
+      "freshness": 4.5,
+      "production_safety": 4.8
+    }
+  },
+  "approval_status": "approved_creator_idea_lock",
+  "approval": {
+    "decision": "approved",
+    "creator_reply": "approve idea",
+    "recorded_at": "2026-06-07T18:00:00+05:30",
+    "next_gate": "HITL_STORY_LOCK"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "created_at": "2026-06-07T22:01:23+05:30",
+  "mode": "built_in_context_test",
+  "purpose": "Non-final identity smoke test to determine whether the current built-in imagegen path can use visibly loaded Aachu/Zuv references well enough for final carousel art.",
+  "tool_path": {
+    "name": "built_in_image_gen",
+    "explicit_image_input_arguments_available": false,
+    "prompt_argument_available": true,
+    "proof_limitation": "This mode can prove references were loaded visibly in conversation context, but cannot prove that file paths were passed as explicit image inputs to the image model."
+  },
+  "reference_inputs": {
+    "status": "deprecated_legacy_context_inputs_redacted",
+    "reason": "The rejected smoke test used old flat identity paths. Exact legacy path strings were removed from this archived proof so no downstream generator treats them as active references.",
+    "current_manifest": "runs/2026-06-07_17-57_auto/references-used/selected_references.json",
+    "current_identity_dossier": "references/identity/_dossier/identity-dossier.json"
+  },
+  "reference_visibility": {
+    "loaded_with_view_image": true,
+    "loaded_at": "2026-06-07T22:01:23+05:30"
+  },
+  "smoke_test_generation": {
+    "status": "creator_rejected_identity_drift",
+    "prompt_path": "inline built-in imagegen prompt in Codex conversation",
+    "candidate_path": "runs/2026-06-07_17-57_auto/images/identity_smoke_test_builtin_context_01.png",
+    "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_0f91ce6a40ee188d016a259db960bc8191bf7c3ba5b1335dad.png",
+    "dimensions": {
+      "width": 1086,
+      "height": 1448
+    },
+    "sha256": "6d11f59055f0a128d6da6ae3cdbc7e1cdba0865c9a5305ee050b78178e9a5b8b"
+  },
+  "qa_result": {
+    "status": "fail",
+    "face_match_decision": "creator_rejected_not_matching",
+    "creator_reviewed_at": "2026-06-08T07:39:42+05:30",
+    "creator_feedback": "faces are still not matching at all",
+    "notes": [
+      "Built-in context generation picked up more identity-specific cues than the rejected carousel images.",
+      "Aachu appears substantially closer to selected references, including hair, smile, brows, face shape, and wardrobe cues.",
+      "Zuv appears closer than previous carousel outputs, including beard, brows, skin tone, and hair volume, but remains stylized and needs creator judgment before this path can be trusted for finals.",
+      "This test still cannot prove explicit image-input delivery because the current built-in image_gen tool exposes only a prompt argument."
+    ],
+    "failure_codes": [
+      "IDENTITY_DRIFT"
+    ]
+  },
+  "final_decision": {
+    "status": "blocked",
+    "blocked_at": "2026-06-08T07:39:42+05:30",
+    "failure_code": "IDENTITY_DRIFT",
+    "meaning": "Built-in context imagegen failed the creator face-match gate. Do not use this built-in prompt/context path for final Aachu/Zuv artwork. Final generation requires an explicit image-input/edit/API path or remains blocked."
+  },
+  "superseded_by_role_based_reference_library": {
+    "status": "superseded",
+    "superseded_at": "2026-06-08T09:27:38+05:30",
+    "reason": "This proof used older flat identity references for a failed built-in context smoke test. It is retained as historical failure evidence only; exact legacy path strings are intentionally redacted.",
+    "current_identity_dossier": "references/identity/_dossier/identity-dossier.json",
+    "current_reference_manifest": "runs/2026-06-07_17-57_auto/references-used/selected_references.json",
+    "current_local_proof": "runs/2026-06-07_17-57_auto/evals/local_identity_reference_proof.json",
+    "current_default_face_identity_inputs": {
+      "aachu": [
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg"
+      ],
+      "zuv": [
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+      ]
+    }
+  },
+  "legacy_file_hashes_redacted": {
+    "status": "retained_without_paths",
+    "count": 9,
+    "sha256_values": [
+      "2b1fcfec9acc3668d4fc5f0f7c3bc6a8f90a2c2967efead20ca2c0a4312ec883",
+      "2d254f38eb1fd8df43b3202e2aebd578d5401bcdc709a16a615e1d07625ee339",
+      "3fdc6819a2ae3707473e7006a77ad9fd95b846c8ce61aeb2e5724d4ec2ee7b05",
+      "6d11f59055f0a128d6da6ae3cdbc7e1cdba0865c9a5305ee050b78178e9a5b8b",
+      "8ffd2c5b3e21e96ad2d5ea7cf64f6e939b6a4244faacec1270a25b1ee6f03537",
+      "97ed94c9fbb6dabe7785110fac7898890669dc1bd6e890c5bbe393dea489a6c7",
+      "a6140e1b0030754a5892bb6f3d3b403fb50a479c2bdbd05b7bc10ed303a7ca85",
+      "cde5964aad5bbdb00399cbc9f651f3dc69bd104f87ef7ad242488fdb72c249a5",
+      "e3bc4118194608a6a644834279884e3637a409e60aa7f9658665e93605e50194"
+    ]
+  }
+}

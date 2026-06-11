@@ -3,7 +3,7 @@
 Status: `approved`
 
 Source:
-`/Users/himanshusharma/astoryoftwo-analysis/config/references/style-lock/observational-intimacy-premium/`
+Imported into this V2-local folder from the approved historical style lock.
 
 Imported files:
 

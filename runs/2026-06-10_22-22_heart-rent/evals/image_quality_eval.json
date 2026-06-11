@@ -1,0 +1,129 @@
+{
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "status": "candidate_exported_pending_creator_image_qa",
+  "updated_at": "2026-06-11T04:40:15Z",
+  "creator_feedback_addressed": [
+    "Removed the creator-rejected Aachu identity source and crop from active identity references before generation.",
+    "Regenerated the selected reference manifests and loaded the cleaned 17-image reference queue in the current conversation.",
+    "Generated a fresh attempt instead of polishing attempt 09.",
+    "Prioritized youthful Aachu likeness from the cleaned Aachu face anchors.",
+    "Shifted the scene to a close, overlapping couple two-shot with shared eye contact and touch.",
+    "Removed the fake wallet/card setup; the rent joke is carried by the exact text and Aachu's teasing body language.",
+    "Prepared an exact 1080x1350 review export with side padding and resampling because imagegen returned a tall portrait source."
+  ],
+  "candidates_reviewed": [
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_01_rejected.png",
+      "surface": "4:5",
+      "status": "rejected",
+      "failure_codes": ["YELLOW_PAPER_CAST", "TEXT_NOT_EXACT", "STYLE_DRIFT", "IDENTITY_DRIFT"]
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_02_candidate.png",
+      "surface": "4:5",
+      "status": "rejected",
+      "failure_codes": ["IDENTITY_DRIFT", "STYLE_DRIFT"]
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_03_identity_candidate.png",
+      "surface": "4:5 identity proof",
+      "status": "rejected",
+      "failure_codes": ["IDENTITY_DRIFT", "STYLE_DRIFT", "ARTIFACT_MISSING"]
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_04_accepted_candidate.png",
+      "surface": "4:5",
+      "status": "rejected_after_creator_review",
+      "failure_codes": ["IDENTITY_DRIFT", "STYLE_DRIFT"]
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_9x16_attempt_01_accepted_candidate.png",
+      "surface": "9:16",
+      "status": "rejected_after_creator_review",
+      "failure_codes": ["IDENTITY_DRIFT", "STYLE_DRIFT", "BRANDMARK_MISSING"]
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_05_identity_style_proof_rejected.png",
+      "surface": "4:5 identity/style proof",
+      "status": "rejected_after_creator_review",
+      "failure_codes": ["IDENTITY_DRIFT", "STYLE_DRIFT"]
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_06_final_candidate.png",
+      "surface": "tall portrait returned by imagegen",
+      "status": "rejected_for_final_export",
+      "failure_codes": ["ZUV_IDENTITY_DRIFT", "SETUP_TOO_LITERAL", "TEXT_NOT_EXACT_PROP_TEXT", "ASPECT_RATIO_WRONG"],
+      "notes": "Aachu face was accepted by creator; Zuv and setup were not."
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_07_zuv_setup_repair_candidate.png",
+      "surface": "near 4:5",
+      "status": "rejected_by_second_look_agents",
+      "failure_codes": ["ZUV_IDENTITY_STILL_GENERIC", "SETUP_STILL_PROP_FORWARD"],
+      "notes": "Doorway setup improved and prop text was removed, but Zuv angle and wallet/card staging still failed the stricter bar."
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_candidate.png",
+      "surface": "tall portrait returned by imagegen",
+      "status": "accepted_as_visual_base_not_export_surface",
+      "failure_codes": ["ASPECT_RATIO_WRONG"],
+      "notes": "Best identity/setup direction before 4:5 packaging; exact text and brandmark visible."
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_09_polished_4x5_candidate.png",
+      "surface": "tall portrait returned by imagegen",
+      "status": "rejected_after_creator_review",
+      "failure_codes": ["AACHU_AGE_DRIFT", "COUPLE_ENERGY_MISSING", "ASPECT_RATIO_WRONG"],
+      "notes": "Creator said Aachu looked old and the couple energy was missing."
+    },
+    {
+      "path": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_10_young_aachu_couple_energy_candidate.png",
+      "surface": "tall portrait returned by imagegen",
+      "status": "review_candidate_exported_pending_creator_image_qa",
+      "failure_codes": ["ASPECT_RATIO_WRONG_SOURCE"],
+      "notes": "Fresh generation after identity cleanup. Aachu appears younger than attempt 09, couple energy is visible through overlap/touch/eye contact, exact main text is present, and the wallet/card prop setup is absent."
+    }
+  ],
+  "rejected_export": {
+    "path": "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5.png",
+    "source_candidate": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_09_polished_4x5_candidate.png",
+    "dimensions": {
+      "width": 1080,
+      "height": 1350
+    },
+    "packaging_method": "side padding to exact 4:5 followed by resample; no face/body distortion",
+    "status": "rejected_after_creator_review"
+  },
+  "current_review_export": {
+    "path": "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5_attempt_10_review.png",
+    "source_candidate": "runs/2026-06-10_22-22_heart-rent/images/slide_01_4x5_attempt_10_young_aachu_couple_energy_candidate.png",
+    "source_dimensions": {
+      "width": 985,
+      "height": 1597
+    },
+    "dimensions": {
+      "width": 1080,
+      "height": 1350
+    },
+    "packaging_method": "side padding to exact 4:5 followed by resample; no face/body distortion or crop",
+    "status": "pending_creator_image_qa"
+  },
+  "qa_checklist": {
+    "exact_main_text_visible": true,
+    "extra_prop_text_visible": false,
+    "brandmark_visible_bottom_right": true,
+    "role_logic_aachu_asks_zuv": true,
+    "dog_or_puppy_absent": true,
+    "red_heart_prop_absent": true,
+    "front_facing_wallet_or_card_absent": true,
+    "couple_overlap_touch_and_eye_contact_visible": true,
+    "aachu_age_improved_vs_attempt_09": true,
+    "native_imagegen_4x5": false,
+    "exported_4x5": true,
+    "creator_face_match_approval_required": true,
+    "creator_vibe_approval_required": true
+  },
+  "hard_gate_result": "pending_creator_image_qa",
+  "next_required_gate": "creator_image_qa_approval",
+  "active_retry_prompt": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt"
+}

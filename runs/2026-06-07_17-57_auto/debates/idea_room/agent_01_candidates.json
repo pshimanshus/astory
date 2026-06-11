@@ -1,0 +1,123 @@
+{
+  "agent_role": "Relatability Ethnographer",
+  "candidates": [
+    {
+      "title": "The 3% Battery Rescue",
+      "one_line_concept": "Aachu and Zuv do not say anything romantic; one just silently passes the charger across the bed before the other's phone dies.",
+      "emotional_truth": "Long-term tenderness often looks like noticing a tiny emergency before it becomes annoying.",
+      "relatable_trigger": "The shared charger that somehow belongs to both people but is always needed by the one farther from the socket.",
+      "visual_evidence": "Low battery screen, tangled cable across the bedsheet, one half-asleep hand offering the charger, two mugs or books left unfinished nearby.",
+      "risk_of_being_generic": "Low if the carousel focuses on the silent timing, the awkward cable stretch, and the tiny relieved look instead of a generic 'you care for me' line.",
+      "slide_count_fit": "4 slides",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 5,
+        "specificity": 5,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "low_stereotype_risk": 5
+      },
+      "overall_score": 5.0,
+      "failure_codes": []
+    },
+    {
+      "title": "The Rewatch Treaty",
+      "one_line_concept": "One of them falls asleep during a show, and the other quietly rewinds tomorrow and pretends they also forgot what happened.",
+      "emotional_truth": "Love can be choosing shared experience over being technically right.",
+      "relatable_trigger": "The tiny guilt of watching ahead versus the sweetness of saving the story for both of you.",
+      "visual_evidence": "Paused streaming screen, blanket slipping, one sleepy head on the other's shoulder, next-day cups beside the same scene replaying.",
+      "risk_of_being_generic": "Medium-low; it needs the specific pretending-not-to-know beat to avoid becoming a standard cozy TV couple scene.",
+      "slide_count_fit": "5 slides",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 5,
+        "specificity": 4,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "low_stereotype_risk": 5
+      },
+      "overall_score": 4.9,
+      "failure_codes": []
+    },
+    {
+      "title": "The Last Bite Negotiation",
+      "one_line_concept": "Aachu and Zuv both claim they are full, then spend three slides protecting the exact last bite the other secretly wants.",
+      "emotional_truth": "Knowing someone's food preferences becomes a private language.",
+      "relatable_trigger": "The final crispy corner, extra chutney, or best spoonful that couples silently track for each other.",
+      "visual_evidence": "One plate between them, two spoons paused mid-air, the best bite moved to the other's side, a shared laugh after both get caught caring.",
+      "risk_of_being_generic": "Medium; food-sharing is common, so it must hinge on a very specific bite preference rather than broad 'sharing is love.'",
+      "slide_count_fit": "3-4 slides",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 4,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "low_stereotype_risk": 4
+      },
+      "overall_score": 4.6,
+      "failure_codes": []
+    },
+    {
+      "title": "The Same-Room Text",
+      "one_line_concept": "They are sitting two feet apart, but one texts the other a tiny request or meme because speaking would ruin the comfortable silence.",
+      "emotional_truth": "Some couples become so safe together that silence is not distance; it is home.",
+      "relatable_trigger": "Texting 'water?' or sending a ridiculous reel while sitting in the same room.",
+      "visual_evidence": "Two phones lighting up, crossed legs on opposite ends of a sofa, one raised eyebrow, one suppressed smile, a glass of water arriving without a word.",
+      "risk_of_being_generic": "Low if the carousel keeps the request oddly specific and avoids making it only a meme joke.",
+      "slide_count_fit": "4 slides",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 5,
+        "warmth": 4,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4,
+        "low_stereotype_risk": 5
+      },
+      "overall_score": 4.6,
+      "failure_codes": []
+    },
+    {
+      "title": "The Doorway Checklist",
+      "one_line_concept": "They are already leaving, but one pauses at the door and the other automatically names the forgotten thing before being asked.",
+      "emotional_truth": "Real intimacy is remembering each other's tiny chaos without turning it into a complaint.",
+      "relatable_trigger": "Keys, wallet, charger, lip balm, water bottle, lights, gas, AC: the couple exit ritual everyone quietly has.",
+      "visual_evidence": "One shoe half-worn, keys in hand, tote bag open, charger still plugged in, the other person holding the missing item with a knowing face.",
+      "risk_of_being_generic": "Medium; it can become sitcom nagging unless both people are shown as mutually forgetful and mutually caring.",
+      "slide_count_fit": "4-5 slides",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 4,
+        "warmth": 4,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4,
+        "low_stereotype_risk": 4
+      },
+      "overall_score": 4.3,
+      "failure_codes": []
+    }
+  ],
+  "top_pick": {
+    "title": "The 3% Battery Rescue",
+    "reason": "It has the strongest mix of tiny observed behavior, immediate visual proof, low stereotype risk, and tender payoff without needing a dramatic line or polished romance."
+  },
+  "rejected_patterns": [
+    "Generic 'home is a person' couple quote",
+    "Perfect partner who always knows everything",
+    "Boy forgets, girl fixes it dynamic",
+    "Big anniversary-style confession",
+    "Aesthetic cuddling without a behavioral detail",
+    "Meme-only joke with no tenderness"
+  ],
+  "risk_notes": [
+    "Keep care mutual across Aachu and Zuv so the carousel does not assign emotional labor to one person.",
+    "Use everyday props as proof, not decoration.",
+    "Avoid captions that explain the lesson too directly; the behavior should carry the feeling.",
+    "Do not over-romanticize the scenes into fantasy luxury interiors; the charm is the recognizable micro-moment."
+  ]
+}

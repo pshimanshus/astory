@@ -2,11 +2,13 @@
 
 ## First-Time Setup
 
-1. Add identity images to `references/identity/aachu/` and `references/identity/zuv/`.
-2. Add couple references to `references/identity/together/` when available.
-3. Add approved style references to `references/style/`.
-4. Review `references/text-style/README.md` and `references/brand/README.md`.
-5. Invoke `/astory setup` in Codex.
+1. Add clean face identity images to `references/identity/aachu/face/` and `references/identity/zuv/face/`.
+2. Add expression references to `references/identity/*/smiles/` and `references/identity/*/reactions/`.
+3. Add couple references to `references/identity/together/face-and-body-language/` when available.
+4. Add wardrobe/place support only to `references/wardrobe/` and `references/places/`; never use them as face identity refs.
+5. Add approved style references to `references/style/`.
+6. Review `references/identity/_dossier/identity-generation-preflight.md`, `references/text-style/README.md`, and `references/brand/README.md`.
+7. Invoke `/astory setup` in Codex.
 
 ## Production Run
 

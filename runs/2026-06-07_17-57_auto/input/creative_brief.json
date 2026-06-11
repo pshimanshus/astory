@@ -1,0 +1,15 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "command": "/astory",
+  "interpreted_mode": "/astory auto",
+  "created_at": "2026-06-07T17:57:00+05:30",
+  "creator_input": "",
+  "mode_reason": "Bare /astory was treated as an auto idea-room launch because no specific idea, theme, resume id, audit id, or setup command was provided.",
+  "brand": "@a.storyof.two",
+  "production_boundary": "Generate and score idea candidates only, then pause at HITL_IDEA_LOCK for creator approval before story, prompt, or image work.",
+  "reference_gate": {
+    "setup_status": "ready",
+    "source": "docs/setup_status.md",
+    "final_imagegen_note": "Final image generation remains blocked until selected identity and style references are visually loaded in context for this run."
+  }
+}

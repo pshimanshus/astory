@@ -1,0 +1,94 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "prompt_pack_status": "revised_after_image_qa_pending_creator_reapproval",
+  "slide_count": 4,
+  "surfaces": [
+    {
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "rule": "Generate natively as 4:5. Do not crop, pad, resize, or extend from a 9:16 image."
+    },
+    {
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "rule": "Generate natively as 9:16. Do not crop, pad, resize, or extend from a 4:5 image."
+    }
+  ],
+  "reference_manifest": "runs/2026-06-07_17-57_auto/references-used/selected_references.json",
+  "character_bible": "runs/2026-06-07_17-57_auto/planning/character_bible.json",
+  "style_bible": "runs/2026-06-07_17-57_auto/planning/style_bible.json",
+  "prompts": [
+    {
+      "slide_number": 1,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "path": "runs/2026-06-07_17-57_auto/prompts/slide_01_post_4x5.txt",
+      "exact_on_image_text": "He answered the sentence\nI didn't say out loud."
+    },
+    {
+      "slide_number": 1,
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "path": "runs/2026-06-07_17-57_auto/prompts/slide_01_story_9x16.txt",
+      "exact_on_image_text": "He answered the sentence\nI didn't say out loud."
+    },
+    {
+      "slide_number": 2,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "path": "runs/2026-06-07_17-57_auto/prompts/slide_02_post_4x5.txt",
+      "exact_on_image_text": "I was doing\nmy very convincing\n\"I'm fine\" act."
+    },
+    {
+      "slide_number": 2,
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "path": "runs/2026-06-07_17-57_auto/prompts/slide_02_story_9x16.txt",
+      "exact_on_image_text": "I was doing\nmy very convincing\n\"I'm fine\" act."
+    },
+    {
+      "slide_number": 3,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "path": "runs/2026-06-07_17-57_auto/prompts/slide_03_post_4x5.txt",
+      "exact_on_image_text": "He didn't ask me\nto admit it.\nHe just brought\nthe shawl."
+    },
+    {
+      "slide_number": 3,
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "path": "runs/2026-06-07_17-57_auto/prompts/slide_03_story_9x16.txt",
+      "exact_on_image_text": "He didn't ask me\nto admit it.\nHe just brought\nthe shawl."
+    },
+    {
+      "slide_number": 4,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "path": "runs/2026-06-07_17-57_auto/prompts/slide_04_post_4x5.txt",
+      "exact_on_image_text": "Being noticed felt\nwarmer than the shawl."
+    },
+    {
+      "slide_number": 4,
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "path": "runs/2026-06-07_17-57_auto/prompts/slide_04_story_9x16.txt",
+      "exact_on_image_text": "Being noticed felt\nwarmer than the shawl."
+    }
+  ],
+  "hitl_prompt_lock": {
+    "creator_decision": "superseded_by_post_image_qa_revision",
+    "creator_reply": "approve prompts",
+    "approved_at": "2026-06-07T18:51:54+05:30",
+    "superseded_at": "2026-06-07T21:22:36+05:30",
+    "superseded_reason": "Creator rejected generated image continuity and identity match. Slide 1 prompts were revised to keep the shawl hidden until slide 3."
+  },
+  "post_image_qa_revision": {
+    "status": "pending_creator_reapproval",
+    "recorded_at": "2026-06-07T21:22:36+05:30",
+    "changed_prompts": [
+      "runs/2026-06-07_17-57_auto/prompts/slide_01_post_4x5.txt",
+      "runs/2026-06-07_17-57_auto/prompts/slide_01_story_9x16.txt"
+    ],
+    "revision_summary": "Slide 1 no longer shows the shawl. Slide 3 remains the first clear shawl reveal."
+  }
+}

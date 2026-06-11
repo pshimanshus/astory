@@ -9,9 +9,9 @@
 
 ## Sprint 1: Skill Package Source
 
-- Create `codex-skill/astory/SKILL.md`.
+- Create `.agents/skills/astory/SKILL.md`.
 - Define `/astory` triggers, non-negotiables, runtime modes, state machine, HITL gates, setup, resume, and audit.
-- Create `codex-skill/astory/agents/openai.yaml`.
+- Create `.agents/skills/astory/agents/openai.yaml`.
 
 ## Sprint 2: Multi-Agent Persona Pack
 
@@ -67,7 +67,7 @@
 
 ## Sprint 10: Install And Verification
 
-- Copy `codex-skill/astory` to `~/.codex/skills/astory`.
-- Validate the skill.
+- Keep `.agents/skills/astory/` as the authoritative repo-scoped skill source.
+- Validate the repo-scoped skill.
 - Verify setup behavior against empty references.
-- Run a dry planning scenario after the skill is available in a new Codex turn.
+- Run a dry planning scenario after the repo-scoped skill is available in a new Codex turn.

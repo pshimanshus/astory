@@ -1,0 +1,48 @@
+{
+  "agent_role": "Visual Story Director",
+  "candidates": [
+    {
+      "title": "Aachu The Heart Landlady",
+      "suggested_slide_arc": "One self-contained illustration: Aachu asks, Zuv reacts, the heart-rent joke lands instantly.",
+      "suggested_slide_1_moment": "Aachu holds a small open wallet or rent note toward Zuv, standing beside a soft heart-shaped wall nook or cushion motif.",
+      "suggested_payoff_moment": "Zuv points to his chest or sheepishly offers a tiny paper heart as payment.",
+      "visual_potential": "Strong because the text, wallet/rent note, and heart motif all prove the line.",
+      "execution_difficulty_score": 3,
+      "failure_risks": ["TEXT_NOT_EXACT", "IDENTITY_DRIFT", "SCENE_LOGIC_CONTRADICTION"],
+      "visual_clarity": 5,
+      "scene_variety": 3,
+      "imagegen_feasibility": 4,
+      "character_consistency_potential": 4,
+      "text_integration_potential": 5,
+      "prop_usefulness": 5,
+      "anatomy_safety": 4,
+      "slide_payoff": 5
+    },
+    {
+      "title": "Receipt At The Door",
+      "suggested_slide_arc": "Aachu stands at a tiny imaginary heart-shaped doorway handing Zuv a rent receipt.",
+      "suggested_slide_1_moment": "Zuv steps through a heart-shaped doorway.",
+      "suggested_payoff_moment": "Aachu stamps the receipt with a tiny heart.",
+      "visual_potential": "Charming but more surreal and slightly less identity-safe.",
+      "execution_difficulty_score": 4,
+      "failure_risks": ["ANATOMY_FAILURE", "PROMPT_OVERLOAD"],
+      "visual_clarity": 4,
+      "scene_variety": 3,
+      "imagegen_feasibility": 3,
+      "character_consistency_potential": 3,
+      "text_integration_potential": 4,
+      "prop_usefulness": 4,
+      "anatomy_safety": 3,
+      "slide_payoff": 4
+    }
+  ],
+  "top_pick": "Aachu The Heart Landlady",
+  "visual_risks": [
+    "Do not make Aachu look stern or caricatured.",
+    "Do not make the wallet too large or similar to the puppy image; use it as a gentle nod only."
+  ],
+  "slide_count_hints": {
+    "recommended": 1,
+    "reason": "The text is a one-beat joke. More slides would dilute the payoff."
+  }
+}

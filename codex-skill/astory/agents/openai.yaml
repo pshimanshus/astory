@@ -1,7 +1,0 @@
-interface:
-  display_name: "A Story Agent"
-  short_description: "Agentic A Story carousel production"
-  default_prompt: "Use $astory to run an agentic A Story of Two creative production workflow."
-
-policy:
-  allow_implicit_invocation: true

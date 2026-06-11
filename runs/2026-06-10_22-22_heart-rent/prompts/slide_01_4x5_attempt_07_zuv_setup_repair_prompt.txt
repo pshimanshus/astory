@@ -1,0 +1,59 @@
+USE CASE:
+identity-preserve illustration-story edit.
+
+ASSET TYPE:
+Native 4:5 Instagram post illustration for @a.storyof.two.
+
+EDIT TARGET:
+Use the visible current candidate image `slide_01_4x5_attempt_06_final_candidate.png` as the edit target and Aachu preservation anchor.
+
+REFERENCE ROLES:
+- Current candidate and Aachu face identity: preserve Aachu's face, hair framing, gentle smile, cheek shape, skin tone, and overall likeness from this image and the loaded Aachu face anchors.
+- Zuv face identity: repair the man on the right to match the loaded Zuv face anchors, not the current generic version.
+- Observational-intimacy style refs: use for quiet premium A Story of Two mood, airy composition, hand-drawn watercolor-and-ink finish, paper tone, and restrained domestic setup only.
+
+GENERATION HARD GATE:
+Do not generate from text descriptions or file paths alone. Manual user attachments are not required for repo-local references, but Codex must load every image in the run load plan with view_image before imagegen, and the active generation path must use the loaded local image context.
+
+PRIMARY REQUEST:
+Create the final A Story of Two heart-rent illustration. Aachu asks Zuv to pay rent for living in her heart. The illustration must feel like a real private moment, not a fake staged skit.
+
+ON-IMAGE TEXT:
+pay rent for living in
+my heart
+
+TEXT LOCK:
+The only readable text anywhere in the image must be exactly:
+pay rent for living in
+my heart
+and the tiny bottom-right brandmark @a.storyof.two.
+No other letters, numbers, labels, note text, receipt text, doodled words, UI text, symbols, or handwritten prop text.
+
+COMPOSITION:
+Generate native 4:5 exactly, such as 1080x1350 or 1024x1280. Do not output 2:3, 9:16, tall portrait, cropped, padded, or extended canvas.
+Use an airy portrait composition with the approved two-line text in clean upper-middle negative space. Place Aachu and Zuv in the lower half with enough environment around them to feel observed and premium.
+
+SCENE / SETUP:
+Change the setup into a lived-in doorway or bedroom threshold moment. Aachu is left/lower-left, close enough for her face to remain large and recognizable, half-smiling with mock-serious affection. She casually holds a tiny open empty wallet with one completely blank off-white card edge visible, or a blank face-down rent note, at waist/chest height. The card/note must contain no writing, no numbers, no labels, no doodles, and no heart symbol.
+Zuv is right/lower-right, mid-action as if arriving or leaving, with one hand near a pocket, keys, tote strap, or jacket. He looks at Aachu like he has been lovingly caught living there emotionally. Keep the rent joke implied by the main text and Aachu's tiny blank prop, not by extra prop writing.
+
+ROLE LOCK:
+Aachu is the active asker. Zuv is the affectionate person being asked. Do not reverse roles. Do not make Zuv hold the wallet or act like the landlord.
+
+AACHU IDENTITY LOCK:
+Preserve Aachu's face from the visible current candidate as closely as possible: same soft rounded/oval face, full cheeks, expressive almond dark eyes, strong natural brows, natural nose, fuller lips with subtle curved smile, long dark hair framing the face, real skin tone and age. Do not beautify, genericize, slim, age-shift, or redraw her into a different person.
+
+ZUV IDENTITY REPAIR LOCK:
+Repair Zuv to match the loaded Zuv face anchors. He must have thick wavy dark hair, heavy straight brows, slightly heavy-lidded sleepy eyes, trimmed moustache and beard, grounded wider jaw and chin, natural facial asymmetry, real South Asian skin tone and age, and lived-in skin texture. His expression should be quiet and grounded: soft closed-mouth half-smile or neutral warmth. No toothy grin. No model-like sharp jaw. No glossy perfect skin. No clean-shaven face. No thin brows. No wide/open bright eyes. No boyish generic AI boyfriend.
+
+STYLE LOCK:
+Premium hand-drawn romantic editorial watercolor-and-ink on neutral warm ivory/off-white paper. Fine pencil/ink contours, transparent watercolor washes, soft faded edges, delicate crosshatching, tactile clothing texture, visible paper grain. Keep palette restrained: soft navy, denim, off-white cotton, muted grey, faint peach/blush accents. Observational intimacy first: ordinary domestic detail, quiet body language, emotionally specific, unforced.
+
+WARDROBE:
+Aachu in cozy off-white, muted blush, soft grey, or gentle neutral top/sweater. Zuv in casual soft navy, muted denim, striped casual shirt, or warm neutral top. No formal outfits, wedding clothes, sunglasses, or fashion-editorial styling.
+
+BRANDMARK:
+Include tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork. Spell it exactly.
+
+HARD REJECTS:
+Any change to Aachu's accepted face. Generic Zuv. Toothy grin. Clean-shaven Zuv. Thin brows. Wide bright eyes. Sharp model jaw. Role reversal. Dog or puppy. Copying the puppy photo. Oversized wallet. Readable note/receipt text. Red paper heart as the main prop. Hand-on-heart theatrical pose. Heart pillow. Mugs/books/plants/table clutter unless barely suggested. Quote-card look. Social UI. Extra captions. Yellow parchment cast. Beige/tan dominance. Glossy digital finish. Photoreal AI portrait finish. Bad hands or anatomy. Missing/misspelled brandmark. Wrong or unreadable main text.

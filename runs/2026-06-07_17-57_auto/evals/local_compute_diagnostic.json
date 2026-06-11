@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-07_17-57_auto",
+  "created_at": "2026-06-11T10:14:01+05:30",
+  "mode": "local_compute_diagnostic",
+  "status": "blocked",
+  "workflow_id": "option_b_sdxl_instantid_pulid_ipadapter",
+  "zero_openai_api": true,
+  "paid_cloud_api": false,
+  "heavy_downloads_run": false,
+  "model_execution_run": false,
+  "system": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "system": "Darwin",
+    "release": "25.5.0",
+    "version": "Darwin Kernel Version 25.5.0: Mon Apr 27 20:41:19 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T8122",
+    "machine": "arm64",
+    "processor": "arm",
+    "mac_ver": "26.5.1",
+    "current_python": "/opt/homebrew/opt/python@3.13/bin/python3.13"
+  },
+  "comfyui_roots": [
+    "runs/2026-06-07_17-57_auto/local-tools/ComfyUI"
+  ],
+  "torch_probe": {
+    "python": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-07_17-57_auto/local-tools/ComfyUI/.venv/bin/python",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "torch_version": "2.12.0",
+    "mps_built": true,
+    "mps_available": false,
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "selected_device": "cpu",
+    "status": "pass",
+    "unavailable_reason": "MACOS_OR_DEVICE_NOT_MPS_ENABLED"
+  },
+  "stack_discovery_status": "ready_for_creator_execution_approval",
+  "execution_readiness_status": "blocked",
+  "local_compute_ready": false,
+  "selected_execution_device": "cpu",
+  "failure_codes": [
+    "LOCAL_COMPUTE_CPU_ONLY",
+    "LOCAL_CPU_EXECUTION_STALLED"
+  ],
+  "non_final_identity_proof_allowed": false,
+  "final_carousel_generation_allowed": false,
+  "final_decision": {
+    "status": "blocked",
+    "failure_codes": [
+      "LOCAL_COMPUTE_CPU_ONLY",
+      "LOCAL_CPU_EXECUTION_STALLED"
+    ],
+    "reason": "Local compute is not ready for another identity proof attempt: LOCAL_COMPUTE_CPU_ONLY, LOCAL_CPU_EXECUTION_STALLED. Torch reason: MACOS_OR_DEVICE_NOT_MPS_ENABLED.",
+    "next_gate": "HITL_LOCAL_COMPUTE_REPAIR_OR_HANDOFF"
+  },
+  "recommended_next_step": "Do not retry on this CPU path. Use a machine where PyTorch reports `mps_available: true` or `cuda_available: true`, then run the same workflow bundle there.",
+  "sources": [
+    {
+      "label": "PyTorch MPS backend",
+      "url": "https://docs.pytorch.org/docs/2.12/notes/mps.html"
+    },
+    {
+      "label": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    }
+  ]
+}

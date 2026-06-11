@@ -1,0 +1,20 @@
+{
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "characters": {
+    "Aachu": {
+      "role": "the playful sender, teaser, and self-aware favorite annoyance",
+      "identity_source": "references/identity/aachu/face/",
+      "expression_range": ["mock-serious", "wide-eyed innocent", "proudly mischievous", "soft warm smile"],
+      "wardrobe": ["off-white oversized shirt", "soft printed kurta", "blue-red patterned scarf", "small gold earrings"],
+      "do_not": ["generic model face", "anime girl", "over-beautified different person", "harsh anger"]
+    },
+    "Zuv": {
+      "role": "the beloved target of the teasing, amused and secretly delighted",
+      "identity_source": "references/identity/zuv/face/",
+      "expression_range": ["sheepish smile", "caught laughing", "pretend annoyed but fond", "gentle gaze"],
+      "wardrobe": ["soft navy shirt", "white casual shirt", "muted denim", "watch"],
+      "do_not": ["generic male face", "remove beard/mustache", "overly chiseled", "genuinely upset"]
+    }
+  },
+  "relationship_dynamic": "Aachu and Zuv are comfortable enough to annoy each other gently. The humor should feel like private couple shorthand, never mean."
+}

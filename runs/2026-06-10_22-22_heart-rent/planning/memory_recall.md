@@ -1,0 +1,49 @@
+# Memory Recall
+
+## Query
+
+heart rent prompt identity style Aachu Zuv
+
+## Cited Findings
+
+- `references/style/observational-intimacy-premium/README.md`: # Observational Intimacy Premium Style Lock Status: 'approved' Source: Imported into this V2-local folder from the approved historical style lock. Imported files: - 'contact-she...
+- `references/brain/pages/style/observational-intimacy-premium.md`: # Observational Intimacy Premium # Current Truth - The primary style lock is the observational-intimacy-premium reference set in 'references/style/observational-intimacy-premium...
+- `references/identity/aachu/README.md`: # Aachu References Use Aachu references by role. - 'face/': 9 clean portrait anchors/derived close crops for face identity, eyes, brows, hair, skin tone, and face structure. - '...
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt`: USE CASE: identity-preserve illustration-story edit. ASSET TYPE: Native 4:5 Instagram post illustration for @a.storyof.two. EDIT TARGET: Use the visible current candidate image...
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt`: USE CASE: identity-preserve illustration-story edit. ASSET TYPE: Native 4:5 Instagram post illustration for @a.storyof.two. EDIT TARGET: Use the visible attempt 07 image as the...
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt`: USE CASE: identity-preserve illustration-story generation. ASSET TYPE: Native 4:5 Instagram post illustration for @a.storyof.two. CURRENT REJECTION: Do not use attempt 09 as a b...
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt`: USE CASE: illustration-story ASSET TYPE: Final native 4:5 Instagram post illustration for @a.storyof.two. INPUT IMAGE ROLES ALREADY LOADED IN CURRENT CONTEXT: - Aachu face ident...
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt`: USE CASE: illustration-story ASSET TYPE: Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram post illustration in native 4:5 portrait composition. REFERENCE...
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt`: USE CASE: illustration-story ASSET TYPE: Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Reels/Stories illustration in native 9:16 portrait composition. REFERENCE...
+- `references/brain/pages/style/observational-intimacy-premium.md`: # Timeline / Evidence - 2026-06-08 | 'docs/setup_status.md' | Setup marked the observational intimacy style references present. - 2026-06-10 | 'references/style/observational-in...
+- `references/identity/zuv/README.md`: # Zuv References Use Zuv references by role. - 'face/': 8 clean portrait anchors/derived close crops for face identity, hair volume, brows, beard, skin tone, and build. - 'smile...
+- `references/style/README.md`: # Style References Approved A Story of Two style references live here. ## Approved Bundles - 'observational-intimacy-premium/': primary approved style lock, imported 2026-06-07....
+- `runs/2026-06-10_22-55_couple-banter/prompts/revisions/slide_01_4x5_revision_01_prompt.txt`: USE CASE: illustration-story ASSET TYPE: Revised premium @a.storyof.two standalone Instagram post illustration, strict native 4:5 portrait composition. REVISION REASON: The prev...
+- `runs/2026-06-10_22-55_couple-banter/prompts/revisions/slide_02_4x5_revision_01_prompt.txt`: USE CASE: illustration-story ASSET TYPE: Revised premium @a.storyof.two standalone Instagram post illustration, strict native 4:5 portrait composition. REVISION REASON: The prev...
+- `runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt`: USE CASE: illustration-story ASSET TYPE: Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram post illustration in native 4:5 portrait composition. REFERENCE...
+
+## Retrieval Evidence
+
+- `references/style/observational-intimacy-premium/README.md` score=29.00 safety=probable evidence=path_match, query_role_match, style_path_match, keyword_match
+- `references/brain/pages/style/observational-intimacy-premium.md` score=28.00 safety=exists evidence=path_match, query_role_match, style_path_match, keyword_match, compiled_truth_match
+- `references/identity/aachu/README.md` score=25.00 safety=probable evidence=path_match, query_role_match, identity_path_match, keyword_match
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt` score=24.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt` score=24.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt` score=24.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt` score=24.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt` score=24.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+- `runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt` score=24.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+- `references/brain/pages/style/observational-intimacy-premium.md` score=23.00 safety=weak evidence=path_match, query_role_match, style_path_match, keyword_match
+- `references/identity/zuv/README.md` score=23.00 safety=probable evidence=path_match, query_role_match, identity_path_match, keyword_match
+- `references/style/README.md` score=23.00 safety=weak evidence=path_match, query_role_match, style_path_match, keyword_match
+- `runs/2026-06-10_22-55_couple-banter/prompts/revisions/slide_01_4x5_revision_01_prompt.txt` score=23.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+- `runs/2026-06-10_22-55_couple-banter/prompts/revisions/slide_02_4x5_revision_01_prompt.txt` score=23.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+- `runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt` score=23.00 safety=probable evidence=path_match, keyword_match, prompt_kind_match
+
+## Gaps
+
+- No blocking memory gaps detected by deterministic recall.
+
+## Usability For This Run
+
+Usable as supporting context only. HITL gates and visible-reference requirements still control production.

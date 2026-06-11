@@ -1,0 +1,19 @@
+{
+  "iterations": [
+    {
+      "blocking_findings": [
+        {
+          "failure_code": "AGENT_ASSIGNMENT_MISSING",
+          "id": "agent_assignment_gate",
+          "summary": "Agent assignment proof is incomplete before prompt lock or imagegen."
+        }
+      ],
+      "iteration": 1,
+      "overall_status": "blocked"
+    }
+  ],
+  "max_iterations": 1,
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "schema_version": "1.0",
+  "status": "blocked"
+}

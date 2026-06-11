@@ -1,0 +1,274 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "status": "image_qa_rejected_creator_feedback",
+  "tool_note": "Built-in imagegen outputs are visible in conversation. The tool did not expose a filesystem path for the generated bitmap at generation time; attempts are logged here and exports remain pending until saveable artifacts are available.",
+  "creator_feedback_override": {
+    "status": "all_current_candidates_rejected",
+    "recorded_at": "2026-06-07T21:22:36+05:30",
+    "summary": "Creator rejected the current image set for identity drift and shawl continuity issues. Do not use any current candidate as a final asset.",
+    "failure_codes": [
+      "IDENTITY_DRIFT",
+      "SCENE_LOGIC_CONTRADICTION",
+      "TEXT_NOT_EXACT"
+    ],
+    "superseding_eval": "runs/2026-06-07_17-57_auto/evals/image_quality_creator_rejection.json"
+  },
+  "attempts": [
+    {
+      "attempt_id": "slide_01_post_4x5_attempt_01",
+      "slide_number": 1,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_01_post_4x5.txt",
+      "status": "rejected",
+      "candidate_path": null,
+      "visible_in_conversation": true,
+      "failures": [
+        {
+          "failure_code": "IDENTITY_DRIFT",
+          "stage": "GENERATE_IMAGES_WITH_IMAGEGEN",
+          "severity": "hard_reject",
+          "likely_cause": "Faces rendered as attractive generic illustrated couple rather than reference-driven Aachu/Zuv.",
+          "attempted_repair": "Retry with stronger explicit face anchors and reference primacy.",
+          "retry_count": 0,
+          "final_status": "retry_required",
+          "prevention_note": "Prompt must make identity preservation the first priority and restate Aachu/Zuv facial anchors."
+        },
+        {
+          "failure_code": "YELLOW_PAPER_CAST",
+          "stage": "GENERATE_IMAGES_WITH_IMAGEGEN",
+          "severity": "hard_reject",
+          "likely_cause": "Watercolor paper and sunset wash drifted toward tan/yellow parchment.",
+          "attempted_repair": "Retry with stricter neutral off-white paper and no sunset glow.",
+          "retry_count": 0,
+          "final_status": "retry_required",
+          "prevention_note": "Keep background pale neutral off-white with only faint dusk wash."
+        }
+      ],
+      "notes": [
+        "Exact text was close and brandmark was present.",
+        "Scene logic was mostly correct.",
+        "Candidate cannot be accepted because identity and paper tone are hard gates."
+      ]
+    },
+    {
+      "attempt_id": "slide_01_post_4x5_attempt_02",
+      "slide_number": 1,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_01_post_4x5.txt",
+      "status": "rejected",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_01_post_4x5_attempt_02_rejected.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a2571e701a88191992f34247b7d56a4.png",
+      "visible_in_conversation": true,
+      "failures": [
+        {
+          "failure_code": "ARTIFACT_MISSING",
+          "stage": "GENERATE_IMAGES_WITH_IMAGEGEN",
+          "severity": "hard_reject",
+          "likely_cause": "Imagegen produced a vertical bitmap that did not satisfy native 4:5 post ratio.",
+          "attempted_repair": "Retry with explicit native 4:5 / 1080x1350 composition instruction.",
+          "retry_count": 1,
+          "final_status": "retry_required",
+          "prevention_note": "Check PNG dimensions before accepting any post-surface candidate."
+        }
+      ],
+      "notes": [
+        "Identity and paper tone improved over attempt 1.",
+        "Rejected because the PNG dimensions were 1003 x 1568, not 4:5."
+      ]
+    },
+    {
+      "attempt_id": "slide_01_post_4x5_attempt_03",
+      "slide_number": 1,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_01_post_4x5.txt",
+      "status": "rejected_creator_review_identity_drift",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_01_post_4x5_attempt_03_candidate.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a25739f580c8191877373bf245f29d8.png",
+      "visible_in_conversation": true,
+      "dimensions": {
+        "width": 1122,
+        "height": 1402,
+        "ratio": "4:5"
+      },
+      "failures": [],
+      "notes": [
+        "Candidate uses correct 4:5 ratio and improved neutral paper tone.",
+        "Superseded by creator Image QA rejection: face match is not acceptable."
+      ]
+    },
+    {
+      "attempt_id": "slide_01_story_9x16_attempt_01",
+      "slide_number": 1,
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_01_story_9x16.txt",
+      "status": "rejected_creator_review_identity_drift",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_01_story_9x16_attempt_01_candidate.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a2574e9803881918d34f953d08839b5.png",
+      "visible_in_conversation": true,
+      "dimensions": {
+        "width": 941,
+        "height": 1672,
+        "ratio": "9:16"
+      },
+      "failures": [],
+      "notes": [
+        "Candidate uses correct 9:16 ratio.",
+        "Superseded by creator Image QA rejection: face match is not acceptable."
+      ]
+    },
+    {
+      "attempt_id": "slide_02_post_4x5_attempt_01",
+      "slide_number": 2,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_02_post_4x5.txt",
+      "status": "rejected_creator_review_identity_drift_scene_text",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_02_post_4x5_attempt_01_candidate.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a257607a0a48191a2b32a0f220d15b8.png",
+      "visible_in_conversation": true,
+      "dimensions": {
+        "width": 1122,
+        "height": 1402,
+        "ratio": "4:5"
+      },
+      "failures": [
+        {
+          "failure_code": "TEXT_NOT_EXACT",
+          "stage": "IMAGE_QUALITY_EVAL",
+          "severity": "hard_reject",
+          "likely_cause": "Imagegen malformed the bottom-right handle; it reads like @a.storyuf.two instead of @a.storyof.two.",
+          "attempted_repair": "Retry the slide 2 post surface with stronger instruction to render the exact brandmark once and keep it tiny but legible.",
+          "retry_count": 0,
+          "final_status": "retry_required",
+          "prevention_note": "If the brandmark cannot be rendered exactly by imagegen, omit it from generation and add it in a final manual/graphic packaging pass only after creator approval."
+        }
+      ],
+      "notes": [
+        "Candidate uses correct 4:5 ratio and keeps the shawl hidden.",
+        "Rejected at Image QA because the tiny brandmark is misspelled.",
+        "Superseded by creator Image QA rejection: face match is not acceptable and carousel continuity needs revision."
+      ]
+    },
+    {
+      "attempt_id": "slide_02_story_9x16_attempt_01",
+      "slide_number": 2,
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_02_story_9x16.txt",
+      "status": "rejected_creator_review_identity_drift",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_02_story_9x16_attempt_01_candidate.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a25776cb0ac81918563eb76519a733f.png",
+      "visible_in_conversation": true,
+      "dimensions": {
+        "width": 941,
+        "height": 1672,
+        "ratio": "9:16"
+      },
+      "failures": [],
+      "notes": [
+        "Candidate uses correct 9:16 ratio and keeps the shawl hidden.",
+        "Superseded by creator Image QA rejection: face match is not acceptable."
+      ]
+    },
+    {
+      "attempt_id": "slide_03_post_4x5_attempt_01",
+      "slide_number": 3,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_03_post_4x5.txt",
+      "status": "rejected_creator_review_identity_drift",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_03_post_4x5_attempt_01_candidate.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a2578b79cb481919e92bd5099e8932e.png",
+      "visible_in_conversation": true,
+      "dimensions": {
+        "width": 1122,
+        "height": 1402,
+        "ratio": "4:5"
+      },
+      "failures": [],
+      "notes": [
+        "Candidate uses correct 4:5 ratio.",
+        "Superseded by creator Image QA rejection: face match is not acceptable."
+      ]
+    },
+    {
+      "attempt_id": "slide_03_story_9x16_attempt_01",
+      "slide_number": 3,
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_03_story_9x16.txt",
+      "status": "rejected_creator_review_identity_drift",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_03_story_9x16_attempt_01_candidate.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a257988186c819185a59df47d05dedc.png",
+      "visible_in_conversation": true,
+      "dimensions": {
+        "width": 941,
+        "height": 1672,
+        "ratio": "9:16"
+      },
+      "failures": [],
+      "notes": [
+        "Candidate uses correct 9:16 ratio.",
+        "Superseded by creator Image QA rejection: face match is not acceptable."
+      ]
+    },
+    {
+      "attempt_id": "slide_04_post_4x5_attempt_01",
+      "slide_number": 4,
+      "surface": "instagram_post",
+      "aspect_ratio": "4:5",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_04_post_4x5.txt",
+      "status": "rejected_creator_review_identity_drift_scene_text",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_04_post_4x5_attempt_01_candidate.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a257b34c9808191a0e14834fa346f88.png",
+      "visible_in_conversation": true,
+      "dimensions": {
+        "width": 1122,
+        "height": 1402,
+        "ratio": "4:5"
+      },
+      "failures": [
+        {
+          "failure_code": "TEXT_NOT_EXACT",
+          "stage": "IMAGE_QUALITY_EVAL",
+          "severity": "hard_reject",
+          "likely_cause": "Imagegen malformed the bottom-right handle; it reads like @a.storyofl.two instead of @a.storyof.two.",
+          "attempted_repair": "Retry the slide 4 post surface with stronger instruction to render the exact brandmark once and keep it tiny but legible.",
+          "retry_count": 0,
+          "final_status": "retry_required",
+          "prevention_note": "If the brandmark cannot be rendered exactly by imagegen, omit it from generation and add it in a final manual/graphic packaging pass only after creator approval."
+        }
+      ],
+      "notes": [
+        "Candidate uses correct 4:5 ratio.",
+        "Rejected at Image QA because the tiny brandmark is misspelled.",
+        "Superseded by creator Image QA rejection: face match is not acceptable."
+      ]
+    },
+    {
+      "attempt_id": "slide_04_story_9x16_attempt_01",
+      "slide_number": 4,
+      "surface": "story_reel",
+      "aspect_ratio": "9:16",
+      "prompt_path": "runs/2026-06-07_17-57_auto/prompts/slide_04_story_9x16.txt",
+      "status": "rejected_creator_review_identity_drift",
+      "candidate_path": "runs/2026-06-07_17-57_auto/images/slide_04_story_9x16_attempt_01_candidate.png",
+      "source_cache_path": "/Users/himanshusharma/.codex/generated_images/019ea20b-c45f-7dd2-a0f6-d60671547f75/ig_01772a223029d687016a25816110408191903dd364454ba622.png",
+      "visible_in_conversation": true,
+      "dimensions": {
+        "width": 941,
+        "height": 1672,
+        "ratio": "9:16"
+      },
+      "failures": [],
+      "notes": [
+        "Candidate uses correct 9:16 ratio.",
+        "Superseded by creator Image QA rejection: face match is not acceptable."
+      ]
+    }
+  ]
+}

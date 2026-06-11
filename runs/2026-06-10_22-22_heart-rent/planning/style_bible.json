@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "style_status": "ready",
+  "reference_paths": [
+    "references/style/observational-intimacy-premium/contact-sheet.png",
+    "references/style/observational-intimacy-premium/slide-01.png",
+    "references/style/observational-intimacy-premium/slide-02.png",
+    ".agents/skills/astory/references/house-style-contract.md",
+    "references/text-style/README.md",
+    "references/brand/README.md"
+  ],
+  "illustration_style": "premium hand-drawn romantic watercolor-and-ink editorial illustration",
+  "palette": [
+    "neutral warm ivory/off-white",
+    "warm charcoal ink",
+    "muted denim blue",
+    "soft navy",
+    "off-white cotton",
+    "peach blush",
+    "dusty coral used lightly"
+  ],
+  "paper_rule": "neutral ivory/off-white, not yellow, mustard, sepia, parchment, beige/tan, coffee-stained, or heavy cream",
+  "line_quality": "fine ink and pencil linework with natural variation, delicate crosshatching, imperfect organic edges",
+  "background_style": "soft minimal cozy interior fading into paper, with a subtle heart-shaped cushion or wall nook motif",
+  "texture": "visible paper grain, transparent watercolor blooms, dry-brush texture, soft faded edges",
+  "text_style": "readable hand-drawn charcoal typography baked into upper-middle negative space",
+  "brandmark_rule": "tiny low-contrast handwritten @a.storyof.two bottom-right",
+  "negative_style_rules": [
+    "no quote-card design",
+    "no anime",
+    "no photorealism",
+    "no flat vector art",
+    "no glossy digital finish",
+    "no yellow/parchment paper",
+    "no platform UI artifacts"
+  ]
+}

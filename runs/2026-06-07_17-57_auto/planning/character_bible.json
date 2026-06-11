@@ -1,0 +1,182 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "identity_status": "ready_with_role_based_reference_library",
+  "final_imagegen_requirement": "Face-visible generation must pass these local files as actual image inputs; text descriptions and file paths alone are not sufficient.",
+  "aachu": {
+    "reference_paths": [
+      "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+    ],
+    "face_anchors": [
+      "large expressive dark eyes",
+      "soft oval face",
+      "warm medium-brown skin",
+      "playful, emotionally readable expression",
+      "do not flatten into generic model-like beauty"
+    ],
+    "hair_anchors": [
+      "long dark wavy hair",
+      "thick dark natural silhouette",
+      "hair movement may show the evening breeze but must not change hairstyle identity"
+    ],
+    "skin_tone_anchor": "warm fair-medium skin tone, matched to selected role-based local references",
+    "wardrobe_anchors": [
+      "simple reference-consistent casual evening clothing",
+      "no shawl visible on slides 1-2",
+      "shawl first appears as an offered folded prop on slide 3",
+      "shawl rests simply over shoulders or lap on slide 4"
+    ],
+    "do_not_change": [
+      "eye shape",
+      "eyebrow shape",
+      "nose",
+      "lips",
+      "jawline",
+      "cheek structure",
+      "hairline",
+      "skin tone",
+      "age",
+      "ethnicity",
+      "body type"
+    ],
+    "default_face_identity_paths": [
+      "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+      "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg"
+    ],
+    "expression_support_paths": [
+      "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+      "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+      "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+      "references/identity/aachu/reactions/aachu-reaction-bedroom-glance-01.jpg",
+      "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+      "references/identity/aachu/reactions/aachu-reaction-cafe-wide-eyed-01.jpg",
+      "references/identity/aachu/reactions/aachu-reaction-car-black-01.jpg",
+      "references/identity/aachu/reactions/aachu-reaction-kitchen-tea-01.jpg",
+      "references/identity/aachu/reactions/aachu-reaction-pizza-chin-hand-01.jpg"
+    ]
+  },
+  "zuv": {
+    "reference_paths": [
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+      "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+    ],
+    "face_anchors": [
+      "warm dark almond-shaped eyes",
+      "kind, patient gaze",
+      "relaxed masculine face structure",
+      "not smug, heroic, or model-generic"
+    ],
+    "hair_beard_anchors": [
+      "thick dark curly hair, curls visible",
+      "short natural stubble beard, always present",
+      "do not straighten hair or remove beard"
+    ],
+    "skin_tone_anchor": "warm brown skin tone, matched to selected role-based local references",
+    "wardrobe_anchors": [
+      "simple reference-consistent casual evening clothing",
+      "quiet practical presence",
+      "no visible shawl on slides 1-2",
+      "folded warm neutral shawl offered without performance on slide 3"
+    ],
+    "do_not_change": [
+      "eye shape",
+      "eyebrow shape",
+      "nose",
+      "lips",
+      "jawline",
+      "cheek structure",
+      "hairline",
+      "skin tone",
+      "beard shape",
+      "hairstyle",
+      "age",
+      "ethnicity",
+      "body type"
+    ],
+    "default_face_identity_paths": [
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+      "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+      "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+    ],
+    "expression_support_paths": [
+      "references/identity/zuv/smiles/zuv-smile-balcony-laugh-01.jpg",
+      "references/identity/zuv/smiles/zuv-smile-dinner-close-01.jpg",
+      "references/identity/zuv/reactions/zuv-reaction-blue-shirt-glasses-01.jpg",
+      "references/identity/zuv/reactions/zuv-reaction-gym-mirror-01.jpg"
+    ]
+  },
+  "together": {
+    "reference_paths": [
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+    ],
+    "relationship_energy": "private, warm, understated, lived-in closeness; care shown through practical noticing instead of grand romance",
+    "body_language_anchors": [
+      "natural couple distance",
+      "soft eye contact or quiet side-by-side presence",
+      "no exaggerated rescue pose",
+      "no tangled arms or complex shawl wrapping"
+    ],
+    "body_language_support_paths": [
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+    ]
+  },
+  "new_people_policy": "No new identity-important side characters. If any recurring or recognizable side character is needed later, request references first.",
+  "continuity_rules": [
+    "Same couple across all slides and both 4:5 and 9:16 surfaces.",
+    "Aachu is self-possessed, not helpless.",
+    "Zuv is observant and matter-of-fact, not smug or heroic.",
+    "The shawl is absent on slides 1-2, first visible as an offered folded prop on slide 3, and resting simply on slide 4.",
+    "Faces remain natural, role-reference-driven, and recognizable before style polish."
+  ],
+  "reference_manifest": "runs/2026-06-07_17-57_auto/references-used/selected_references.json",
+  "identity_dossier": "references/identity/_dossier/identity-dossier.json",
+  "identity_generation_preflight": "references/identity/_dossier/identity-generation-preflight.md",
+  "role_reference_policy": {
+    "dossier": "references/identity/_dossier/identity-dossier.json",
+    "preflight": "references/identity/_dossier/identity-generation-preflight.md",
+    "face_identity_defaults": {
+      "aachu": [
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg"
+      ],
+      "zuv": [
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg"
+      ]
+    },
+    "expression_support_selected": [
+      "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+      "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+      "references/identity/zuv/smiles/zuv-smile-dinner-close-01.jpg",
+      "references/identity/zuv/smiles/zuv-smile-balcony-laugh-01.jpg"
+    ],
+    "together_body_language_support": [
+      "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+      "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg"
+    ],
+    "hard_gate": "Face-visible generation must pass these local files as actual image inputs; text descriptions and file paths alone are not sufficient.",
+    "never_use_for_face_identity": [
+      "wardrobe references",
+      "place references",
+      "formal-secondary references unless story explicitly asks formal context",
+      "sunglasses/tiny-face/partial/blurred images"
+    ]
+  }
+}

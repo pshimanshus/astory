@@ -1,0 +1,58 @@
+{
+  "run_id": "2026-06-07_17-57_auto",
+  "status": "revision_required",
+  "recorded_at": "2026-06-07T21:22:36+05:30",
+  "source": "creator_feedback",
+  "supersedes": "runs/2026-06-07_17-57_auto/evals/image_quality_eval.json",
+  "creator_feedback_summary": "Images are inconsistent across the carousel and the generated faces do not match Aachu/Zuv references. Slide 1 showed Zuv carrying a shawl, while slide 2 removed the shawl, creating a continuity break.",
+  "hard_failures": [
+    {
+      "failure_code": "IDENTITY_DRIFT",
+      "stage": "IMAGE_QUALITY_EVAL",
+      "failed_gate": "HITL_IMAGE_QA",
+      "severity": "hard_reject",
+      "description": "Creator judged that the generated Aachu/Zuv faces do not match the reference identities closely enough for final artwork.",
+      "likely_cause": "The generation path relied on text prompts plus locally viewed reference files rather than a tool/API call that passes the reference images as actual image inputs to the image model.",
+      "attempted_repair": "Stop accepting current images; require reference-input-aware generation strategy before regenerating.",
+      "retry_count": 0,
+      "final_status": "revision_required",
+      "prevention_note": "Do not treat a Python-selected manifest or local path list as sufficient identity conditioning. Each generation/edit attempt must explicitly label visible input images as references or edit targets."
+    },
+    {
+      "failure_code": "SCENE_LOGIC_CONTRADICTION",
+      "stage": "IMAGE_QUALITY_EVAL",
+      "failed_gate": "HITL_IMAGE_QA",
+      "severity": "hard_reject",
+      "description": "Slide 1 visibly introduced the shawl, but slide 2 had no shawl, making the carousel feel inconsistent.",
+      "likely_cause": "Slide 1 scene lock made the shawl visible while slide 2 prompt explicitly prohibited the shawl.",
+      "attempted_repair": "Revise slide 1 planning and prompts so the shawl is hidden until the slide 3 reveal.",
+      "retry_count": 0,
+      "final_status": "revision_required",
+      "prevention_note": "Use continuity locks: slide 1 no shawl, slide 2 no shawl, slide 3 first visible shawl reveal, slide 4 shawl draped/resting."
+    },
+    {
+      "failure_code": "TEXT_NOT_EXACT",
+      "stage": "IMAGE_QUALITY_EVAL",
+      "failed_gate": "HITL_IMAGE_QA",
+      "severity": "hard_reject",
+      "description": "Some generated post surfaces also malformed the @a.storyof.two brandmark.",
+      "likely_cause": "Tiny baked-in text is fragile in image generation.",
+      "attempted_repair": "Do not prioritize brandmark-only retries until identity and continuity are solved.",
+      "retry_count": 0,
+      "final_status": "deferred",
+      "prevention_note": "If imagegen cannot reliably spell the handle, generate clean art and add exact brandmark in final packaging after creator approval."
+    }
+  ],
+  "required_revision": {
+    "image_strategy": "Use actual image references/inputs or mark final imagegen blocked. The current prompt-only built-in call is not enough for identity-sensitive Aachu/Zuv finals.",
+    "story_continuity": "Revise slide 1 to remove visible shawl; keep slide 2 shawl-free; reveal shawl first on slide 3; show shawl resting on slide 4.",
+    "prompt_scope": "Regenerate the full image set only after reference delivery and continuity rules are corrected.",
+    "accepted_current_images": []
+  },
+  "next_state": "RETRY_OR_REVISE_IF_NEEDED",
+  "hitl_gate": {
+    "gate": "IMAGE_QA",
+    "status": "rejected_by_creator",
+    "creator_reply": "couple of issues: inconsistent images and faces not matching"
+  }
+}

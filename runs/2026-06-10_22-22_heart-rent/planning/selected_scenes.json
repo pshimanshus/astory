@@ -1,0 +1,21 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "selected_scene_id": "scene_01",
+      "title": "Aachu The Heart Landlady",
+      "exact_on_image_text": "pay rent for living in my heart",
+      "scene": "Aachu sits or stands lower-left, extending a tiny open wallet or handwritten rent note toward Zuv. Zuv stands lower-right, sheepishly smiling with one hand over his chest and a small paper heart in the other hand. A subtle heart-shaped cushion or wall nook sits behind them.",
+      "why_selected": "It proves the exact line, keeps Aachu as the asker, keeps Zuv as the beloved tenant, and leaves upper-middle negative space for readable text.",
+      "rejected_scene_reasons": [
+        "Scene 02 is too money-focused and less emotionally specific.",
+        "Scene 03 is too surreal and raises identity/anatomy risk."
+      ],
+      "risks": [
+        "Keep the wallet/note small and charming.",
+        "Do not crowd faces.",
+        "Keep paper tone off-white, not yellow."
+      ]
+    }
+  ]
+}

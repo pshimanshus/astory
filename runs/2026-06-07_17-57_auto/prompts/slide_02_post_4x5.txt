@@ -1,0 +1,71 @@
+USE CASE:
+illustration-story
+
+ASSET TYPE:
+Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram post illustration in native 4:5 portrait composition. Do not crop, pad, resize, or extend from another surface.
+
+REFERENCE IMAGE ROLES:
+face identity refs control only Aachu/Zuv faces, hair, brows, beard, skin tone, age, and face structure. Expression refs support smiles/reactions only. Together refs support body language, height/scale, closeness, and posture. wardrobe/place/formal references never control face identity; they are optional support only. Style references control watercolor-and-ink finish, paper tone, text style, and palette.
+
+Selected role-based references to load as actual image inputs before imagegen:
+- Dossier: references/identity/_dossier/identity-dossier.json
+- Preflight: references/identity/_dossier/identity-generation-preflight.md
+- Aachu face identity defaults: references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg, references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg, references/identity/aachu/face/aachu-face-crop-home-black-01.jpg, references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg
+- Zuv face identity defaults: references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg, references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg, references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg
+- Together/body-language support: references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg, references/identity/together/face-and-body-language/together-cabin-hug-01.jpg
+- Expression support for this run: references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg, references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg, references/identity/zuv/smiles/zuv-smile-dinner-close-01.jpg, references/identity/zuv/smiles/zuv-smile-balcony-laugh-01.jpg
+
+Generation hard gate: do not generate from text descriptions or file paths alone; the active generation path must pass the listed local files as image inputs.
+
+Selected style reference bundle:
+references/style/observational-intimacy-premium/
+
+PRIMARY REQUEST:
+Create slide 2 of 4 for the same recurring A Story of Two couple.
+
+ON-IMAGE TEXT:
+I was doing
+my very convincing
+"I'm fine" act.
+
+TEXT PLACEMENT / TYPOGRAPHY:
+Readable, polished, hand-drawn warm charcoal typography integrated into upper-middle negative space. Preserve exact wording, quotation marks, spelling, punctuation, capitalization, and line breaks.
+
+SCENE:
+Aachu stands at the same doorway or terrace threshold. Her hair or dupatta moves lightly in the evening breeze. She maintains a small brave smile, doing a self-contained "I'm fine" act. Zuv is nearby, noticing without interrupting.
+
+POSE / BODY LANGUAGE:
+Aachu steadies her dupatta with one relaxed visible hand while keeping the other hand relaxed and visible; the gesture is subtle, funny, and self-possessed. Zuv glances toward her quietly, not teasing, not asking her to confess.
+
+WARDROBE:
+Same reference-consistent casual evening clothing as slide 1. Aachu is not wearing the shawl. Keep Zuv consistent. The shawl is fully off-frame and not visible on this slide.
+
+PROPS:
+Doorway, breeze cue, moving curtain or plants. No visible shawl.
+
+BACKGROUND:
+Same soft evening doorway or terrace, pale wall or dusk wash fading into warm ivory/off-white paper, clear upper-middle text area.
+
+EMOTION:
+Gentle humor, tiny denial, familiar couple recognition. Aachu is not helpless; Zuv is quietly attentive.
+
+IDENTITY LOCK:
+Preserve actual Aachu and Zuv faces from the selected role-based face identity image inputs above. Identity preservation is more important than decorative style. Do not create new faces, merge faces, change ethnicity, alter age, change skin tone, change facial proportions, remove Zuv's beard, straighten Zuv's curls, or over-beautify.
+
+STYLE LOCK:
+Premium hand-drawn romantic editorial watercolor-and-ink illustration on neutral warm ivory/off-white paper with visible grain, fine ink/pencil linework, transparent watercolor blooms, tactile clothing and prop detail, soft faded edges, and no generic AI watercolor or quote-card design.
+
+PAPER TONE RULE:
+Neutral ivory/off-white only. Avoid yellow, mustard, sepia, parchment, beige/tan dominance, coffee-stained, or heavy cream paper.
+
+PALETTE CONTROL:
+Keep the paper visibly neutral off-white. Use muted denim, soft navy, faded sage, peach blush, and dusty coral only as small accents. The shawl is not visible in this slide.
+
+BRANDMARK:
+Include a tiny but still legible low-contrast handwritten @a.storyof.two at the bottom-right, baked into the paper, not a digital watermark.
+
+SCENE LOGIC:
+The text describes Aachu performing composure; her brave smile and subtle breeze-bracing prove the "I'm fine" act without making her look helpless.
+
+AVOID:
+Photorealism, anime, 3D render, flat vector art, quote-card design, generic AI watercolor, yellow or parchment paper, digital overlay text, random or misspelled text, missing brandmark, face drift, face merge, skin tone drift, hairstyle drift, beard drift, invented new faces, extra fingers, broken wrists, folded-arm pose, dramatic shivering, helpless Aachu, smug Zuv, any visible shawl before slide 3.

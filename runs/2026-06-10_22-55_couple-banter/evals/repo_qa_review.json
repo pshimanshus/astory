@@ -1,0 +1,626 @@
+{
+  "blocking_findings": [
+    {
+      "failure_code": "IMAGE_QA_BLOCKS_FINAL_PACKAGE_FAILED",
+      "id": "image_qa_blocks_final_package",
+      "summary": "Failed Image QA is blocking final packaging."
+    },
+    {
+      "failure_code": "FINAL_PACKAGE_STARTED_WHILE_BLOCKED",
+      "id": "final_package_not_started",
+      "summary": "Final Package gate remains not started while image QA is failed."
+    }
+  ],
+  "checks": [
+    {
+      "id": "skill_contract_present",
+      "missing_phrases": [],
+      "path": ".agents/skills/astory/SKILL.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "A Story skill contract is present and contains the identity/HITL gates."
+    },
+    {
+      "id": "master_prompt_present",
+      "missing_phrases": [],
+      "path": ".agents/skills/astory/references/master-prompt.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Master prompt reference is present."
+    },
+    {
+      "checked_paths": [
+        ".agents/skills/astory/templates/docs/approvals.md",
+        ".agents/skills/astory/templates/logs/trace_event.jsonl",
+        ".agents/skills/astory/templates/evals/pre_generation_eval.json",
+        ".agents/skills/astory/templates/evals/image_quality_eval.json",
+        ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
+        ".agents/skills/astory/templates/prompts/slide_prompt.txt",
+        ".agents/skills/astory/references/failure-taxonomy.md",
+        ".agents/skills/astory/references/house-style-contract.md",
+        ".agents/skills/astory/references/imagegen-contract.md"
+      ],
+      "id": "required_templates_present",
+      "missing_paths": [],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Required skill templates and contracts are present."
+    },
+    {
+      "count_errors": [],
+      "id": "reference_manifest_integrity",
+      "missing_hashes": [],
+      "missing_paths": [],
+      "path": "runs/2026-06-10_22-55_couple-banter/references-used/selected_references.json",
+      "reference_summary": {
+        "aachu_face_identity_count": 4,
+        "expression_support_count": 4,
+        "prompt_only_allowed": false,
+        "style_reference_count": 3,
+        "text_and_brand_reference_count": 4,
+        "together_body_language_count": 2,
+        "view_image_queue_actual_count": 19,
+        "view_image_queue_count": 19,
+        "zuv_face_identity_count": 4
+      },
+      "role_errors": [],
+      "severity": "blocker",
+      "sha_mismatches": [],
+      "status": "pass",
+      "summary": "Selected reference manifest resolves to existing hashed references."
+    },
+    {
+      "contract_source": "run_artifacts",
+      "evidence": {
+        "imagine how boring your life\nwould be if you didn't have\nme to annoy you": true,
+        "me if you don't watch the\nvideos I send you.": true
+      },
+      "id": "prompt_story_contract",
+      "prompt_files": [
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt"
+      ],
+      "required_phrases": [
+        "me if you don't watch the\nvideos I send you.",
+        "imagine how boring your life\nwould be if you didn't have\nme to annoy you"
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompts preserve the run-specific locked story contract.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failure_code": null,
+      "id": "prompt_reference_gate",
+      "prompt_results": [
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Every prompt preserves the reference-image delivery gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failure_code": null,
+      "id": "prompt_forbidden_role_reversal",
+      "prompt_results": [
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Every prompt keeps Aachu/Zuv roles explicit and unreversed.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "expected_artifact": "runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_visibility_proof.json",
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_visibility_proof",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Reference visibility proof exists and records image roles.",
+      "view_image_queue_count": 19
+    },
+    {
+      "candidates_reviewed": 0,
+      "failure_code": null,
+      "final_artifacts": [
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png"
+      ],
+      "hard_gate_result": null,
+      "id": "image_qa_blocks_final_package",
+      "image_quality_status": "pass_pending_creator_image_qa_approval",
+      "path": "runs/2026-06-10_22-55_couple-banter/evals/image_quality_eval.json",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Failed Image QA is blocking final packaging."
+    },
+    {
+      "final_artifacts": [
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png"
+      ],
+      "id": "final_package_not_started",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Final Package gate remains not started while image QA is failed."
+    },
+    {
+      "accepted_candidate_paths": [],
+      "id": "accepted_candidate_filename_guard",
+      "rejected_after_review": [],
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No accepted_candidate filenames are present in Image QA candidates.",
+      "unsafe_statuses": []
+    },
+    {
+      "event_count": 30,
+      "id": "trace_jsonl_valid",
+      "parse_errors": [],
+      "path": "runs/2026-06-10_22-55_couple-banter/logs/trace.jsonl",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Trace JSONL is parseable."
+    },
+    {
+      "event_indices": {
+        "idea": 7,
+        "imagegen": 27,
+        "prompt": 25,
+        "story": 13
+      },
+      "failure_code": null,
+      "id": "hitl_order_before_imagegen",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Idea, story, and prompt locks are recorded before image generation."
+    },
+    {
+      "assignment_status": "actual_multi_agent",
+      "assignment_trace_present": true,
+      "failure_code": null,
+      "id": "agent_assignment_gate",
+      "missing_requirements": [],
+      "path": "runs/2026-06-10_22-55_couple-banter/debates/agent_assignment_matrix.md",
+      "prompt_outputs": [
+        "debates/prompt_room/shareability_strategist_audit.md",
+        "debates/prompt_room/visual_story_director_audit.md",
+        "debates/prompt_room/style_guardian_audit.md"
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Agent assignment proof exists before prompt lock or imagegen.",
+      "trace_errors": []
+    },
+    {
+      "gate_evidence": {
+        "Final Package": true,
+        "Idea Lock": true,
+        "Image QA": true,
+        "Prompt Lock": true,
+        "Story / Slide Count Lock": true
+      },
+      "id": "approvals_cover_required_gates",
+      "missing_sections": [],
+      "path": "runs/2026-06-10_22-55_couple-banter/docs/approvals.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Approvals file records required HITL gates and current stopped gates."
+    },
+    {
+      "id": "local_identity_execution_report",
+      "path": "runs/2026-06-10_22-55_couple-banter/evals/local_identity_execution_report.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No local identity execution report exists for this run."
+    }
+  ],
+  "checks_by_id": {
+    "accepted_candidate_filename_guard": {
+      "accepted_candidate_paths": [],
+      "id": "accepted_candidate_filename_guard",
+      "rejected_after_review": [],
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No accepted_candidate filenames are present in Image QA candidates.",
+      "unsafe_statuses": []
+    },
+    "agent_assignment_gate": {
+      "assignment_status": "actual_multi_agent",
+      "assignment_trace_present": true,
+      "failure_code": null,
+      "id": "agent_assignment_gate",
+      "missing_requirements": [],
+      "path": "runs/2026-06-10_22-55_couple-banter/debates/agent_assignment_matrix.md",
+      "prompt_outputs": [
+        "debates/prompt_room/shareability_strategist_audit.md",
+        "debates/prompt_room/visual_story_director_audit.md",
+        "debates/prompt_room/style_guardian_audit.md"
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Agent assignment proof exists before prompt lock or imagegen.",
+      "trace_errors": []
+    },
+    "approvals_cover_required_gates": {
+      "gate_evidence": {
+        "Final Package": true,
+        "Idea Lock": true,
+        "Image QA": true,
+        "Prompt Lock": true,
+        "Story / Slide Count Lock": true
+      },
+      "id": "approvals_cover_required_gates",
+      "missing_sections": [],
+      "path": "runs/2026-06-10_22-55_couple-banter/docs/approvals.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Approvals file records required HITL gates and current stopped gates."
+    },
+    "final_package_not_started": {
+      "final_artifacts": [
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png"
+      ],
+      "id": "final_package_not_started",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Final Package gate remains not started while image QA is failed."
+    },
+    "hitl_order_before_imagegen": {
+      "event_indices": {
+        "idea": 7,
+        "imagegen": 27,
+        "prompt": 25,
+        "story": 13
+      },
+      "failure_code": null,
+      "id": "hitl_order_before_imagegen",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Idea, story, and prompt locks are recorded before image generation."
+    },
+    "image_qa_blocks_final_package": {
+      "candidates_reviewed": 0,
+      "failure_code": null,
+      "final_artifacts": [
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
+        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png"
+      ],
+      "hard_gate_result": null,
+      "id": "image_qa_blocks_final_package",
+      "image_quality_status": "pass_pending_creator_image_qa_approval",
+      "path": "runs/2026-06-10_22-55_couple-banter/evals/image_quality_eval.json",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Failed Image QA is blocking final packaging."
+    },
+    "local_identity_execution_report": {
+      "id": "local_identity_execution_report",
+      "path": "runs/2026-06-10_22-55_couple-banter/evals/local_identity_execution_report.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No local identity execution report exists for this run."
+    },
+    "master_prompt_present": {
+      "id": "master_prompt_present",
+      "missing_phrases": [],
+      "path": ".agents/skills/astory/references/master-prompt.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Master prompt reference is present."
+    },
+    "prompt_forbidden_role_reversal": {
+      "failure_code": null,
+      "id": "prompt_forbidden_role_reversal",
+      "prompt_results": [
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Every prompt keeps Aachu/Zuv roles explicit and unreversed.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_reference_gate": {
+      "failure_code": null,
+      "id": "prompt_reference_gate",
+      "prompt_results": [
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "pass"
+        },
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Every prompt preserves the reference-image delivery gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_story_contract": {
+      "contract_source": "run_artifacts",
+      "evidence": {
+        "imagine how boring your life\nwould be if you didn't have\nme to annoy you": true,
+        "me if you don't watch the\nvideos I send you.": true
+      },
+      "id": "prompt_story_contract",
+      "prompt_files": [
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt"
+      ],
+      "required_phrases": [
+        "me if you don't watch the\nvideos I send you.",
+        "imagine how boring your life\nwould be if you didn't have\nme to annoy you"
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompts preserve the run-specific locked story contract.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "reference_manifest_integrity": {
+      "count_errors": [],
+      "id": "reference_manifest_integrity",
+      "missing_hashes": [],
+      "missing_paths": [],
+      "path": "runs/2026-06-10_22-55_couple-banter/references-used/selected_references.json",
+      "reference_summary": {
+        "aachu_face_identity_count": 4,
+        "expression_support_count": 4,
+        "prompt_only_allowed": false,
+        "style_reference_count": 3,
+        "text_and_brand_reference_count": 4,
+        "together_body_language_count": 2,
+        "view_image_queue_actual_count": 19,
+        "view_image_queue_count": 19,
+        "zuv_face_identity_count": 4
+      },
+      "role_errors": [],
+      "severity": "blocker",
+      "sha_mismatches": [],
+      "status": "pass",
+      "summary": "Selected reference manifest resolves to existing hashed references."
+    },
+    "reference_visibility_proof": {
+      "expected_artifact": "runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_visibility_proof.json",
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_visibility_proof",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Reference visibility proof exists and records image roles.",
+      "view_image_queue_count": 19
+    },
+    "required_templates_present": {
+      "checked_paths": [
+        ".agents/skills/astory/templates/docs/approvals.md",
+        ".agents/skills/astory/templates/logs/trace_event.jsonl",
+        ".agents/skills/astory/templates/evals/pre_generation_eval.json",
+        ".agents/skills/astory/templates/evals/image_quality_eval.json",
+        ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
+        ".agents/skills/astory/templates/prompts/slide_prompt.txt",
+        ".agents/skills/astory/references/failure-taxonomy.md",
+        ".agents/skills/astory/references/house-style-contract.md",
+        ".agents/skills/astory/references/imagegen-contract.md"
+      ],
+      "id": "required_templates_present",
+      "missing_paths": [],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Required skill templates and contracts are present."
+    },
+    "skill_contract_present": {
+      "id": "skill_contract_present",
+      "missing_phrases": [],
+      "path": ".agents/skills/astory/SKILL.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "A Story skill contract is present and contains the identity/HITL gates."
+    },
+    "trace_jsonl_valid": {
+      "event_count": 30,
+      "id": "trace_jsonl_valid",
+      "parse_errors": [],
+      "path": "runs/2026-06-10_22-55_couple-banter/logs/trace.jsonl",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Trace JSONL is parseable."
+    }
+  },
+  "created_at": "2026-06-10T18:48:35+00:00",
+  "overall_status": "blocked",
+  "reference_summary": {
+    "aachu_face_identity_count": 4,
+    "expression_support_count": 4,
+    "prompt_only_allowed": false,
+    "style_reference_count": 3,
+    "text_and_brand_reference_count": 4,
+    "together_body_language_count": 2,
+    "view_image_queue_actual_count": 19,
+    "view_image_queue_count": 19,
+    "zuv_face_identity_count": 4
+  },
+  "repo_root": "/Users/himanshusharma/A Story of Two V2",
+  "run_dir": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-10_22-55_couple-banter",
+  "run_id": "2026-06-10_22-55_couple-banter",
+  "schema_version": "1.0",
+  "workflow": {
+    "evidence": [
+      "prompts",
+      "reference_load_plan",
+      "reference_visibility_proof",
+      "selected_references"
+    ],
+    "prompt_files": [
+      "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+      "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+      "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+      "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt"
+    ],
+    "type": "imagegen_story_run"
+  }
+}

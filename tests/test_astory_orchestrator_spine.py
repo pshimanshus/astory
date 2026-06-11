@@ -30,5 +30,43 @@ class SpineStructureTests(unittest.TestCase):
         )
 
 
+class SpineIntegrityTests(unittest.TestCase):
+    def test_validate_spine_reports_no_problems(self):
+        self.assertEqual(spine.validate_spine(), [])
+
+    def test_single_linear_chain_visits_every_state_once(self):
+        visited = []
+        cursor = spine.first_state()
+        while cursor is not None:
+            self.assertNotIn(cursor, visited, "cycle in spine chain")
+            visited.append(cursor)
+            cursor = spine.next_state(cursor)
+        self.assertEqual(set(visited), set(spine.STATE_NAMES))
+        self.assertEqual(visited[-1], "COMPLETE_OR_BLOCKED")
+
+    def test_required_hitl_states(self):
+        self.assertEqual(
+            spine.HITL_STATES,
+            ("HITL_IDEA_LOCK", "HITL_STORY_LOCK", "HITL_PROMPT_LOCK"),
+        )
+
+    def test_hard_gate_states_present(self):
+        for gate in (
+            "DISCOVER_AND_ASSIGN_AGENTS",
+            "REVIEW_ROOM_QA",
+            "REVIEW_ROOM_IMAGEGEN_BLOCKER_CHECK",
+            "REVIEW_ROOM_FINAL_BLOCKER_CHECK",
+        ):
+            self.assertIn(gate, spine.GATE_STATES)
+
+    def test_produces_paths_use_known_run_subdirs(self):
+        for spec in spine.STATES:
+            for path in spec.produces:
+                self.assertTrue(
+                    path.startswith(spine.RUN_SUBDIRS),
+                    f"{spec.name} produces path outside run dirs: {path}",
+                )
+
+
 if __name__ == "__main__":
     unittest.main()

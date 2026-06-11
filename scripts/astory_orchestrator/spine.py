@@ -217,3 +217,54 @@ def is_terminal(name: str) -> bool:
 
 def first_state() -> str:
     return STATES[0].name
+
+
+def validate_spine() -> list[str]:
+    """Return a list of structural problems; empty means the spine is valid."""
+
+    problems: list[str] = []
+
+    for position, spec in enumerate(STATES, start=1):
+        if spec.index != position:
+            problems.append(
+                f"index_out_of_order: {spec.name} has index {spec.index}, "
+                f"expected {position}"
+            )
+
+    if len(STATE_NAMES) != len(set(STATE_NAMES)):
+        problems.append("duplicate_state_names")
+
+    for spec in STATES:
+        if spec.next is not None and spec.next not in _BY_NAME:
+            problems.append(f"unknown_next: {spec.name} -> {spec.next}")
+
+    terminals = [s.name for s in STATES if s.next is None]
+    if terminals != [STATES[-1].name]:
+        problems.append(f"terminal_set_invalid: {terminals}")
+
+    visited: list[str] = []
+    seen: set[str] = set()
+    cursor: str | None = STATES[0].name
+    while cursor is not None:
+        if cursor in seen:
+            problems.append(f"cycle_detected_at: {cursor}")
+            break
+        seen.add(cursor)
+        visited.append(cursor)
+        cursor = _BY_NAME[cursor].next if cursor in _BY_NAME else None
+    if set(visited) != set(STATE_NAMES):
+        missing = sorted(set(STATE_NAMES) - set(visited))
+        problems.append(f"chain_does_not_cover_all_states: missing={missing}")
+
+    for required in ("HITL_IDEA_LOCK", "HITL_STORY_LOCK", "HITL_PROMPT_LOCK"):
+        if required not in _BY_NAME or _BY_NAME[required].kind != "hitl":
+            problems.append(f"missing_hitl_state: {required}")
+
+    for spec in STATES:
+        for path in spec.produces:
+            if not path.startswith(RUN_SUBDIRS):
+                problems.append(
+                    f"produces_path_outside_run_dirs: {spec.name} -> {path}"
+                )
+
+    return problems

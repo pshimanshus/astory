@@ -68,5 +68,13 @@ class SpineIntegrityTests(unittest.TestCase):
                 )
 
 
+class SpineMatchesSkillTests(unittest.TestCase):
+    def test_spine_names_match_skill_state_machine(self):
+        text = SKILL_PATH.read_text()
+        section = text.split("## State Machine", 1)[1].split("\n## ", 1)[0]
+        names = re.findall(r"^\d+\.\s+`([A-Z_]+)`", section, flags=re.MULTILINE)
+        self.assertEqual(tuple(names), spine.STATE_NAMES)
+
+
 if __name__ == "__main__":
     unittest.main()

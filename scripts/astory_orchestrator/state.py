@@ -95,3 +95,22 @@ def from_dict(data: dict[str, Any]) -> RunState:
         created_at=data.get("created_at", ""),
         updated_at=data.get("updated_at", ""),
     )
+
+
+def state_path(repo_root: str | Path, run_id: str) -> Path:
+    return Path(repo_root).resolve() / "runs" / run_id / "state" / "run_state.json"
+
+
+def save_state(repo_root: str | Path, run_id: str, state: RunState) -> Path:
+    state.updated_at = _utc_now_iso()
+    path = state_path(repo_root, run_id)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(to_dict(state), indent=2, sort_keys=True) + "\n")
+    return path
+
+
+def load_state(repo_root: str | Path, run_id: str) -> RunState | None:
+    path = state_path(repo_root, run_id)
+    if not path.exists():
+        return None
+    return from_dict(json.loads(path.read_text()))

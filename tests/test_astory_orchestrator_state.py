@@ -1,4 +1,6 @@
+import tempfile
 import unittest
+from pathlib import Path
 
 from scripts.astory_orchestrator import state as run_state_mod
 
@@ -41,6 +43,37 @@ class RunStateModelTests(unittest.TestCase):
         bad["run_id"] = ""
         with self.assertRaises(ValueError):
             run_state_mod.from_dict(bad)
+
+
+class RunStatePersistenceTests(unittest.TestCase):
+    def test_save_then_load_round_trips(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run_id = "2026-06-11_demo"
+            state = run_state_mod.new_run_state(run_id)
+            path = run_state_mod.save_state(tmp, run_id, state)
+            self.assertTrue(path.exists())
+            self.assertEqual(
+                path,
+                Path(tmp).resolve() / "runs" / run_id / "state" / "run_state.json",
+            )
+            loaded = run_state_mod.load_state(tmp, run_id)
+            self.assertIsNotNone(loaded)
+            self.assertEqual(loaded.current_state, "INIT_RUN")
+            self.assertEqual(loaded.run_id, run_id)
+
+    def test_save_state_writes_sorted_json_with_trailing_newline(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run_id = "2026-06-11_demo"
+            path = run_state_mod.save_state(
+                tmp, run_id, run_state_mod.new_run_state(run_id)
+            )
+            text = path.read_text()
+            self.assertTrue(text.endswith("\n"))
+            self.assertLess(text.index('"completed"'), text.index('"current_state"'))
+
+    def test_load_state_returns_none_when_absent(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertIsNone(run_state_mod.load_state(tmp, "missing_run"))
 
 
 if __name__ == "__main__":

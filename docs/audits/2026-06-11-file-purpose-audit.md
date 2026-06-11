@@ -11,9 +11,60 @@ audited at folder level + `runs/` excluded (run artifacts, not source).
 
 ## Summary
 
-- Files/families audited: _filled in B5_
-- keep: _ / tighten: _ / merge: _ / delete: _ / fix: _
-- Top 5 highest-leverage actions: _filled in B5_
+Rows/families audited: **56** (152 per-file targets collapsed into families where
+homogeneous; image folders + `runs/` audited at folder level).
+
+Verdict tally:
+- **keep: 41** — the spine is healthy. Personas (just ensouled), the brain layer,
+  all scripts, all tests, the master prompt, and the reference folders serve their
+  purpose. No `delete` found; nothing is dead.
+- **tighten: 12** — mostly two patterns: (a) Codex-centric wording that predates
+  the Claude+Codex shared mind, and (b) stale snapshots / aspirational docs.
+- **fix: 3** — `ARCHITECTURE.md` (stale), and the split failure taxonomy
+  (`FAILURE_TAXONOMY.md` + skill `references/failure-taxonomy.md`), counted once
+  as fix and once as merge.
+- **merge: 1** — the two failure taxonomies.
+- **delete: 0**
+
+**Headline read:** nothing here is broken or dead. The drift is *narrative*, not
+structural — several docs describe a system that is either Codex-only or never
+got built, while the real system (Claude+Codex shared mind, the brain, the QA
+loop, the ensouled cast) has moved ahead of its own documentation. The risk is a
+future agent trusting a stale doc over reality.
+
+### Top 5 highest-leverage actions
+
+1. **Reconcile `ARCHITECTURE.md` with reality** (fix). Its state machine is the
+   old ~25-state version and its agent list omits the Review Room, the named
+   cast, and the engineering crew — it now contradicts `AGENTS.md` and `SKILL.md`.
+   Either sync it to SKILL.md's 32-state machine or demote it to "conceptual map —
+   SKILL.md is canonical."
+2. **Unify the failure taxonomy** (fix + merge). Make skill
+   `references/failure-taxonomy.md` the single canonical list; have root
+   `FAILURE_TAXONOMY.md` point to it. Add the missing `AGENT_ASSIGNMENT_MISSING`
+   to the root copy and register the `REFERENCE_VISIBILITY_PROOF_*` codes that
+   `imagegen-contract.md` and `astory_repo_qa.py` already emit but neither
+   taxonomy declares.
+3. **Banner `agentic-operating-system.md` as design-vision** (tighten). Add a
+   header that the implemented memory system is the brain (`references/brain/` +
+   `scripts/astory_brain/`), and that the `memory/`/vector-index/10-skill design
+   below is partly unbuilt — so no agent cites unbuilt structure as truth.
+4. **Decide the fate of `local_identity_pipeline.py`** (tighten). 2301 lines,
+   fully tested, but orphaned from the live workflow (only plan docs reference
+   it). Either wire it into `/astory` or relabel it as a retained proof-of-concept
+   so its presence stops implying it's live.
+5. **De-Codex the top docs** (tighten). `README.md`, `ASSUMPTIONS.md`,
+   `RUNBOOK.md`, and one phrase in `house-style-contract.md` still say "Codex"
+   where the system is now the Claude+Codex shared mind defined in `AGENTS.md`.
+
+### Brain cross-link (proposed, not applied)
+
+The recurring drift pattern — *docs describing a Codex-only or unbuilt system
+while the real system moved ahead* — is worth remembering so future runs catch it
+early. Proposed (do **not** auto-write to compiled brain pages): a `run-lessons`
+note via `scripts/astory_brain_cli.py`, "Audit 2026-06-11: documentation drifts
+behind the real system; treat `AGENTS.md` + `SKILL.md` + tests as truth over
+narrative docs." Promotion stays a creator/review decision.
 
 ## Root docs
 | File | Stated purpose | Observed reality | Verdict | Action |

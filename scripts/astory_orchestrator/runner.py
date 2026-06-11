@@ -12,6 +12,7 @@ from pathlib import Path
 
 from scripts.astory_orchestrator import spine
 from scripts.astory_orchestrator import state as run_state_mod
+from scripts.astory_orchestrator import validate
 from scripts.astory_orchestrator.state import RunState
 
 
@@ -62,3 +63,35 @@ def record_hitl(repo_root: str | Path, state: RunState, decision: str) -> RunSta
     state.status = "blocked"
     run_state_mod.save_state(repo_root, state.run_id, state)
     return state
+
+
+IDEA_ROOM_KEY = "idea_room"
+MAX_IDEA_ROUNDS = 2
+
+
+def record_idea_round(repo_root: str | Path, state: RunState, scoreboard: dict) -> dict:
+    """Record one idea-room scoring round and decide proceed/rerun/blocked.
+
+    The retry counter lives in RunState.retries[IDEA_ROOM_KEY], so the bound is
+    enforced by code across reloads — not remembered by the model.
+    """
+
+    round_number = state.retries.get(IDEA_ROOM_KEY, 0) + 1
+    state.retries[IDEA_ROOM_KEY] = round_number
+
+    score = validate.selected_score(scoreboard)
+    if validate.meets_threshold(scoreboard):
+        decision = "proceed"
+    elif round_number < MAX_IDEA_ROUNDS:
+        decision = "rerun"
+    else:
+        decision = "blocked"
+        state.status = "blocked"
+
+    run_state_mod.save_state(repo_root, state.run_id, state)
+    return {
+        "decision": decision,
+        "round": round_number,
+        "selected_score": score,
+        "threshold": validate.threshold(scoreboard),
+    }

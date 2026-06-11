@@ -3,6 +3,7 @@ import unittest
 
 from scripts.astory_orchestrator import runner
 from scripts.astory_orchestrator import state as run_state_mod
+from scripts.astory_orchestrator import validate  # noqa: F401
 
 
 def _fresh(tmp, run_id="2026-06-11_demo"):
@@ -78,6 +79,49 @@ class HitlTests(unittest.TestCase):
             state.current_state = "GENERATE_OR_REFINE_IDEAS"
             with self.assertRaises(ValueError):
                 runner.record_hitl(tmp, state, "approved")
+
+
+PASS_SCOREBOARD = {
+    "minimum_required_overall_score": 4.0,
+    "candidates": [{"title": "Win", "overall_score": 4.6, "selection_status": "selected"}],
+}
+FAIL_SCOREBOARD = {
+    "minimum_required_overall_score": 4.0,
+    "candidates": [{"title": "Weak", "overall_score": 3.4, "selection_status": "selected"}],
+}
+
+
+class IdeaRoomLoopTests(unittest.TestCase):
+    def test_passing_scoreboard_proceeds(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SCORE_IDEAS"
+            result = runner.record_idea_round(tmp, state, PASS_SCOREBOARD)
+            self.assertEqual(result["decision"], "proceed")
+            self.assertEqual(result["round"], 1)
+            self.assertEqual(state.retries["idea_room"], 1)
+
+    def test_first_fail_reruns_second_fail_blocks(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SCORE_IDEAS"
+
+            first = runner.record_idea_round(tmp, state, FAIL_SCOREBOARD)
+            self.assertEqual(first["decision"], "rerun")
+            self.assertEqual(state.retries["idea_room"], 1)
+
+            second = runner.record_idea_round(tmp, state, FAIL_SCOREBOARD)
+            self.assertEqual(second["decision"], "blocked")
+            self.assertEqual(state.retries["idea_room"], 2)
+            self.assertEqual(state.status, "blocked")
+
+    def test_counter_survives_reload(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SCORE_IDEAS"
+            runner.record_idea_round(tmp, state, FAIL_SCOREBOARD)
+            reloaded = run_state_mod.load_state(tmp, state.run_id)
+            self.assertEqual(reloaded.retries["idea_room"], 1)
 
 
 if __name__ == "__main__":

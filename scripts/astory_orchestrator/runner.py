@@ -108,7 +108,10 @@ def record_idea_round(repo_root: str | Path, state: RunState, scoreboard: dict) 
         decision = "blocked"
         state.status = "blocked"
 
-    run_state_mod.save_state(repo_root, state.run_id, state)
+    if decision == "proceed":
+        advance(repo_root, state)
+    else:
+        run_state_mod.save_state(repo_root, state.run_id, state)
     return {
         "decision": decision,
         "round": round_number,

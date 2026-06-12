@@ -159,5 +159,31 @@ class GuardTests(unittest.TestCase):
                 self.assertEqual(result.status, "blocked")
 
 
+class ProceedAdvancesTests(unittest.TestCase):
+    def test_proceed_advances_cursor(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SCORE_IDEAS"
+            result = runner.record_idea_round(tmp, state, PASS_SCOREBOARD)
+            self.assertEqual(result["decision"], "proceed")
+            self.assertEqual(state.current_state, "SELECT_BEST_IDEA")
+            self.assertIn("SCORE_IDEAS", state.completed)
+
+    def test_rerun_keeps_cursor(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SCORE_IDEAS"
+            runner.record_idea_round(tmp, state, FAIL_SCOREBOARD)
+            self.assertEqual(state.current_state, "SCORE_IDEAS")
+
+    def test_proceed_persists_advanced_state(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SCORE_IDEAS"
+            runner.record_idea_round(tmp, state, PASS_SCOREBOARD)
+            reloaded = run_state_mod.load_state(tmp, state.run_id)
+            self.assertEqual(reloaded.current_state, "SELECT_BEST_IDEA")
+
+
 if __name__ == "__main__":
     unittest.main()

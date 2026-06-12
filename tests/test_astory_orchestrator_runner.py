@@ -184,6 +184,15 @@ class ProceedAdvancesTests(unittest.TestCase):
             reloaded = run_state_mod.load_state(tmp, state.run_id)
             self.assertEqual(reloaded.current_state, "SELECT_BEST_IDEA")
 
+    def test_proceed_at_select_best_idea_lands_on_hitl(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SELECT_BEST_IDEA"
+            result = runner.record_idea_round(tmp, state, PASS_SCOREBOARD)
+            self.assertEqual(result["decision"], "proceed")
+            self.assertEqual(state.current_state, "HITL_IDEA_LOCK")
+            self.assertEqual(state.status, "awaiting_hitl")
+
 
 if __name__ == "__main__":
     unittest.main()

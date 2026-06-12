@@ -57,6 +57,10 @@ def record_hitl(repo_root: str | Path, state: RunState, decision: str) -> RunSta
     spec = spine.by_name(state.current_state)
     if spec.kind != "hitl":
         raise ValueError(f"not a HITL state: {state.current_state}")
+    if decision not in HITL_DECISIONS:
+        raise ValueError(
+            f"unknown HITL decision: {decision!r}; expected one of {HITL_DECISIONS}"
+        )
     state.hitl[state.current_state] = decision
     if decision in {"approved", "approved_with_revision"}:
         return advance(repo_root, state)
@@ -67,6 +71,17 @@ def record_hitl(repo_root: str | Path, state: RunState, decision: str) -> RunSta
 
 IDEA_ROOM_KEY = "idea_room"
 MAX_IDEA_ROUNDS = 2
+IDEA_ROUND_STATES = (
+    "GENERATE_OR_REFINE_IDEAS",
+    "SCORE_IDEAS",
+    "SELECT_BEST_IDEA",
+)
+HITL_DECISIONS = (
+    "approved",
+    "approved_with_revision",
+    "rejected",
+    "revision_requested",
+)
 
 
 def record_idea_round(repo_root: str | Path, state: RunState, scoreboard: dict) -> dict:
@@ -76,6 +91,11 @@ def record_idea_round(repo_root: str | Path, state: RunState, scoreboard: dict) 
     enforced by code across reloads — not remembered by the model.
     """
 
+    if state.current_state not in IDEA_ROUND_STATES:
+        raise ValueError(
+            f"idea round not allowed at {state.current_state}; "
+            f"expected one of {IDEA_ROUND_STATES}"
+        )
     round_number = state.retries.get(IDEA_ROOM_KEY, 0) + 1
     state.retries[IDEA_ROOM_KEY] = round_number
 

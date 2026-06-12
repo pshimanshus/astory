@@ -124,5 +124,38 @@ class IdeaRoomLoopTests(unittest.TestCase):
             self.assertEqual(reloaded.retries["idea_room"], 1)
 
 
+class GuardTests(unittest.TestCase):
+    def test_idea_round_outside_idea_states_raises(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "INIT_RUN"
+            with self.assertRaises(ValueError):
+                runner.record_idea_round(tmp, state, PASS_SCOREBOARD)
+
+    def test_idea_round_allowed_in_each_idea_state(self):
+        for state_name in runner.IDEA_ROUND_STATES:
+            with tempfile.TemporaryDirectory() as tmp:
+                state = _fresh(tmp)
+                state.current_state = state_name
+                result = runner.record_idea_round(tmp, state, FAIL_SCOREBOARD)
+                self.assertEqual(result["decision"], "rerun")
+
+    def test_unknown_hitl_decision_raises_and_records_nothing(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "HITL_IDEA_LOCK"
+            with self.assertRaises(ValueError):
+                runner.record_hitl(tmp, state, "maybe")
+            self.assertNotIn("HITL_IDEA_LOCK", state.hitl)
+
+    def test_rejection_decisions_block(self):
+        for decision in ("rejected", "revision_requested"):
+            with tempfile.TemporaryDirectory() as tmp:
+                state = _fresh(tmp)
+                state.current_state = "HITL_IDEA_LOCK"
+                result = runner.record_hitl(tmp, state, decision)
+                self.assertEqual(result.status, "blocked")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -131,6 +131,7 @@ class GuardTests(unittest.TestCase):
             state.current_state = "INIT_RUN"
             with self.assertRaises(ValueError):
                 runner.record_idea_round(tmp, state, PASS_SCOREBOARD)
+            self.assertNotIn(runner.IDEA_ROOM_KEY, state.retries)
 
     def test_idea_round_allowed_in_each_idea_state(self):
         for state_name in runner.IDEA_ROUND_STATES:
@@ -147,6 +148,7 @@ class GuardTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 runner.record_hitl(tmp, state, "maybe")
             self.assertNotIn("HITL_IDEA_LOCK", state.hitl)
+            self.assertEqual(state.status, "running")
 
     def test_rejection_decisions_block(self):
         for decision in ("rejected", "revision_requested"):

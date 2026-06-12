@@ -59,5 +59,61 @@ class OrchestratorCliTests(unittest.TestCase):
             self.assertEqual(json.loads(result.stdout)["status"], "no_state")
 
 
+class IdeaLegWalkTests(unittest.TestCase):
+    def _write_scoreboard(self, tmp, overall):
+        import json as _json
+        path = Path(tmp) / "scoreboard.json"
+        path.write_text(
+            _json.dumps(
+                {
+                    "minimum_required_overall_score": 4.0,
+                    "candidates": [
+                        {"title": "X", "overall_score": overall, "selection_status": "selected"}
+                    ],
+                }
+            )
+        )
+        return path
+
+    def _set_state(self, tmp, run_id, current_state):
+        from scripts.astory_orchestrator import state as run_state_mod
+        st = run_state_mod.new_run_state(run_id)
+        st.current_state = current_state
+        run_state_mod.save_state(tmp, run_id, st)
+
+    def test_idea_round_rerun_then_blocked(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "SCORE_IDEAS")
+            board = self._write_scoreboard(tmp, 3.4)
+
+            first = _run("--repo-root", tmp, "idea-round", "--run-id", "demo",
+                         "--scoreboard", str(board))
+            self.assertEqual(first.returncode, 0, first.stderr)
+            self.assertEqual(json.loads(first.stdout)["decision"], "rerun")
+
+            second = _run("--repo-root", tmp, "idea-round", "--run-id", "demo",
+                          "--scoreboard", str(board))
+            self.assertEqual(json.loads(second.stdout)["decision"], "blocked")
+
+    def test_idea_round_proceed_then_next_halts_then_approve(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "SCORE_IDEAS")
+            board = self._write_scoreboard(tmp, 4.6)
+
+            proceed = _run("--repo-root", tmp, "idea-round", "--run-id", "demo",
+                           "--scoreboard", str(board))
+            self.assertEqual(json.loads(proceed.stdout)["decision"], "proceed")
+
+            self._set_state(tmp, "demo", "HITL_IDEA_LOCK")
+            nxt = _run("--repo-root", tmp, "next", "--run-id", "demo")
+            self.assertEqual(nxt.returncode, 0, nxt.stderr)
+            self.assertTrue(json.loads(nxt.stdout)["halt"])
+
+            approve = _run("--repo-root", tmp, "approve", "--run-id", "demo")
+            self.assertEqual(approve.returncode, 0, approve.stderr)
+            self.assertEqual(json.loads(approve.stdout)["current_state"],
+                             "GENERATE_STORY_CONCEPT")
+
+
 if __name__ == "__main__":
     unittest.main()

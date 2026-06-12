@@ -24,6 +24,7 @@ if str(REPO_ROOT) not in sys.path:
 
 from scripts.astory_orchestrator import spine
 from scripts.astory_orchestrator import state as run_state_mod
+from scripts.astory_orchestrator import runner
 
 
 def _cmd_spine(args: argparse.Namespace) -> int:
@@ -87,6 +88,41 @@ def _cmd_status(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_next(args: argparse.Namespace) -> int:
+    state = run_state_mod.load_state(args.repo_root, args.run_id)
+    if state is None:
+        print(json.dumps({"status": "no_state", "run_id": args.run_id}, indent=2))
+        return 1
+    print(json.dumps(runner.next_action(state), indent=2))
+    return 0
+
+
+def _cmd_idea_round(args: argparse.Namespace) -> int:
+    state = run_state_mod.load_state(args.repo_root, args.run_id)
+    if state is None:
+        print(json.dumps({"status": "no_state", "run_id": args.run_id}, indent=2))
+        return 1
+    scoreboard = json.loads(Path(args.scoreboard).read_text())
+    result = runner.record_idea_round(args.repo_root, state, scoreboard)
+    print(json.dumps(result, indent=2))
+    return 0
+
+
+def _cmd_approve(args: argparse.Namespace) -> int:
+    state = run_state_mod.load_state(args.repo_root, args.run_id)
+    if state is None:
+        print(json.dumps({"status": "no_state", "run_id": args.run_id}, indent=2))
+        return 1
+    result = runner.record_hitl(args.repo_root, state, args.decision)
+    print(
+        json.dumps(
+            {"current_state": result.current_state, "status": result.status},
+            indent=2,
+        )
+    )
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="A Story orchestrator (Phase 0 inspect).")
     parser.add_argument("--repo-root", default=".", help="Repository root path.")
@@ -102,12 +138,26 @@ def main() -> int:
     p_status = sub.add_parser("status", help="Show a run's current state.")
     p_status.add_argument("--run-id", required=True)
 
+    p_next = sub.add_parser("next", help="Show the next legal action for a run.")
+    p_next.add_argument("--run-id", required=True)
+
+    p_idea = sub.add_parser("idea-round", help="Record one idea-room scoring round.")
+    p_idea.add_argument("--run-id", required=True)
+    p_idea.add_argument("--scoreboard", required=True, help="Path to a final_scoreboard.json.")
+
+    p_approve = sub.add_parser("approve", help="Record a HITL decision at the current gate.")
+    p_approve.add_argument("--run-id", required=True)
+    p_approve.add_argument("--decision", default="approved")
+
     args = parser.parse_args()
     handlers = {
         "spine": _cmd_spine,
         "validate-spine": _cmd_validate_spine,
         "init": _cmd_init,
         "status": _cmd_status,
+        "next": _cmd_next,
+        "idea-round": _cmd_idea_round,
+        "approve": _cmd_approve,
     }
     return handlers[args.command](args)
 

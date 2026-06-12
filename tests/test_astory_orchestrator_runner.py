@@ -1,5 +1,6 @@
 import tempfile
 import unittest
+from pathlib import Path
 
 from scripts.astory_orchestrator import runner
 from scripts.astory_orchestrator import state as run_state_mod
@@ -192,6 +193,50 @@ class ProceedAdvancesTests(unittest.TestCase):
             self.assertEqual(result["decision"], "proceed")
             self.assertEqual(state.current_state, "HITL_IDEA_LOCK")
             self.assertEqual(state.status, "awaiting_hitl")
+
+
+class AdvanceCheckedTests(unittest.TestCase):
+    def _touch(self, tmp, run_id, rel_path):
+        path = Path(tmp) / "runs" / run_id / rel_path
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("x")
+
+    def test_gate_state_with_missing_artifacts_refuses(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "DISCOVER_AND_ASSIGN_AGENTS"
+            result = runner.advance_checked(tmp, state)
+            self.assertFalse(result["advanced"])
+            self.assertEqual(
+                result["missing"], ["debates/agent_assignment_matrix.md"]
+            )
+            self.assertEqual(state.current_state, "DISCOVER_AND_ASSIGN_AGENTS")
+            self.assertEqual(state.gates["DISCOVER_AND_ASSIGN_AGENTS"], "fail")
+
+    def test_gate_state_with_artifacts_advances(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "DISCOVER_AND_ASSIGN_AGENTS"
+            self._touch(tmp, state.run_id, "debates/agent_assignment_matrix.md")
+            result = runner.advance_checked(tmp, state)
+            self.assertTrue(result["advanced"])
+            self.assertEqual(state.current_state, "GENERATE_OR_REFINE_IDEAS")
+            self.assertEqual(state.gates["DISCOVER_AND_ASSIGN_AGENTS"], "pass")
+
+    def test_non_gate_state_advances_without_artifacts(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            result = runner.advance_checked(tmp, state)
+            self.assertTrue(result["advanced"])
+            self.assertEqual(state.current_state, "PARSE_CREATIVE_INPUT")
+
+    def test_gate_refusal_persists(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "DISCOVER_AND_ASSIGN_AGENTS"
+            runner.advance_checked(tmp, state)
+            reloaded = run_state_mod.load_state(tmp, state.run_id)
+            self.assertEqual(reloaded.gates["DISCOVER_AND_ASSIGN_AGENTS"], "fail")
 
 
 if __name__ == "__main__":

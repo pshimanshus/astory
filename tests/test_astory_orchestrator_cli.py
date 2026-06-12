@@ -123,6 +123,24 @@ class IdeaLegWalkTests(unittest.TestCase):
             self.assertEqual(json.loads(approve.stdout)["current_state"],
                              "GENERATE_STORY_CONCEPT")
 
+    def test_advance_blocked_at_gate_then_passes_with_artifact(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "DISCOVER_AND_ASSIGN_AGENTS")
+
+            refused = _run("--repo-root", tmp, "advance", "--run-id", "demo")
+            self.assertEqual(refused.returncode, 1)
+            body = json.loads(refused.stdout)
+            self.assertFalse(body["advanced"])
+            self.assertIn("debates/agent_assignment_matrix.md", body["missing"])
+
+            artifact = Path(tmp) / "runs" / "demo" / "debates" / "agent_assignment_matrix.md"
+            artifact.parent.mkdir(parents=True, exist_ok=True)
+            artifact.write_text("matrix")
+
+            ok = _run("--repo-root", tmp, "advance", "--run-id", "demo")
+            self.assertEqual(ok.returncode, 0, ok.stderr)
+            self.assertTrue(json.loads(ok.stdout)["advanced"])
+
 
 if __name__ == "__main__":
     unittest.main()

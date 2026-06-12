@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from scripts.astory_orchestrator import gates
 from scripts.astory_orchestrator import spine
 from scripts.astory_orchestrator import state as run_state_mod
 from scripts.astory_orchestrator import validate
@@ -118,3 +119,27 @@ def record_idea_round(repo_root: str | Path, state: RunState, scoreboard: dict) 
         "selected_score": score,
         "threshold": validate.threshold(scoreboard),
     }
+
+
+def advance_checked(repo_root: str | Path, state: RunState) -> dict:
+    """Advance only if the current state's artifact gate passes.
+
+    For `kind="gate"` states with missing declared artifacts, refuse to move,
+    record `gates[state] = "fail"`, persist, and report what is missing. This
+    is the gate the model cannot talk its way past.
+    """
+
+    check = gates.check_gate(repo_root, state.run_id, state.current_state)
+    if check["is_gate"] and not check["ok"]:
+        state.gates[state.current_state] = "fail"
+        run_state_mod.save_state(repo_root, state.run_id, state)
+        return {
+            "advanced": False,
+            "state": state.current_state,
+            "missing": check["missing"],
+        }
+    if check["is_gate"]:
+        state.gates[state.current_state] = "pass"
+    gate_state = state.current_state
+    advance(repo_root, state)
+    return {"advanced": True, "state": gate_state, "missing": []}

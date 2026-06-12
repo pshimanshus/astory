@@ -58,6 +58,13 @@ class CheckGateTests(unittest.TestCase):
             self.assertTrue(result["ok"])
             self.assertFalse(result["is_gate"])
 
+    def test_non_gate_state_with_missing_produces_reports_not_ok(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            result = gates.check_gate(tmp, "demo", "PARSE_CREATIVE_INPUT")
+            self.assertFalse(result["ok"])
+            self.assertFalse(result["is_gate"])
+            self.assertEqual(result["missing"], ["input/creative_brief.json"])
+
 
 if __name__ == "__main__":
     unittest.main()

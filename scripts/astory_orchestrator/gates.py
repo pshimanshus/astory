@@ -23,7 +23,11 @@ def missing_artifacts(repo_root: str | Path, run_id: str, state_name: str) -> li
 
 
 def check_gate(repo_root: str | Path, run_id: str, state_name: str) -> dict[str, Any]:
-    """Check a state's artifact gate; `ok` is False only when artifacts are missing."""
+    """Report artifact presence for a state.
+
+    `ok` means "all declared artifacts present", NOT "may advance" — enforcement
+    policy (refusing only when `is_gate` is true) lives in the runner.
+    """
 
     spec = spine.by_name(state_name)
     missing = missing_artifacts(repo_root, run_id, state_name)

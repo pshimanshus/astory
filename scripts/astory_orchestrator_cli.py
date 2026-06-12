@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
-"""A Story orchestrator CLI (Phase 0: inspect-only).
+"""A Story orchestrator CLI (copilot mode).
 
-Subcommands:
+Inspect-only subcommands:
   spine           Print the 32-state spine as JSON.
   validate-spine  Print structural problems; exit 1 if any.
   init            Create runs/<run_id>/state/run_state.json (idempotent unless --force).
   status          Print current_state / status / next_state for a run.
 
-This does not run the workflow, dispatch agents, or enforce gates.
+State-advancing subcommands (drive the idea-room leg):
+  next            Show the next legal action for a run (may halt for HITL).
+  idea-round      Record one idea-room scoring round and advance run state.
+  approve         Record a HITL decision at the current gate and advance.
+
+It does not call any model or dispatch agents; the operator supplies inputs
+(e.g. a scoreboard) and the CLI advances run state and enforces leg gates.
 """
 
 from __future__ import annotations
@@ -102,10 +108,14 @@ def _cmd_idea_round(args: argparse.Namespace) -> int:
     if state is None:
         print(json.dumps({"status": "no_state", "run_id": args.run_id}, indent=2))
         return 1
-    scoreboard = json.loads(Path(args.scoreboard).read_text())
+    try:
+        scoreboard = json.loads(Path(args.scoreboard).read_text())
+    except (OSError, json.JSONDecodeError) as exc:
+        print(json.dumps({"status": "bad_scoreboard", "path": args.scoreboard, "error": str(exc)}, indent=2))
+        return 1
     result = runner.record_idea_round(args.repo_root, state, scoreboard)
     print(json.dumps(result, indent=2))
-    return 0
+    return 1 if result["decision"] == "blocked" else 0
 
 
 def _cmd_approve(args: argparse.Namespace) -> int:
@@ -120,11 +130,13 @@ def _cmd_approve(args: argparse.Namespace) -> int:
             indent=2,
         )
     )
-    return 0
+    return 1 if result.status == "blocked" else 0
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="A Story orchestrator (Phase 0 inspect).")
+    parser = argparse.ArgumentParser(
+        description="A Story orchestrator: inspect the spine and drive the idea-room leg."
+    )
     parser.add_argument("--repo-root", default=".", help="Repository root path.")
     sub = parser.add_subparsers(dest="command", required=True)
 

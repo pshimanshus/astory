@@ -94,6 +94,15 @@ class IdeaLegWalkTests(unittest.TestCase):
             second = _run("--repo-root", tmp, "idea-round", "--run-id", "demo",
                           "--scoreboard", str(board))
             self.assertEqual(json.loads(second.stdout)["decision"], "blocked")
+            self.assertEqual(second.returncode, 1)
+
+    def test_bad_scoreboard_returns_nonzero(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "SCORE_IDEAS")
+            result = _run("--repo-root", tmp, "idea-round", "--run-id", "demo",
+                          "--scoreboard", "/nonexistent/nope.json")
+            self.assertEqual(result.returncode, 1)
+            self.assertEqual(json.loads(result.stdout)["status"], "bad_scoreboard")
 
     def test_idea_round_proceed_then_next_halts_then_approve(self):
         with tempfile.TemporaryDirectory() as tmp:

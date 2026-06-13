@@ -25,7 +25,7 @@ class AdvanceTests(unittest.TestCase):
     def test_advancing_into_hitl_state_sets_awaiting_hitl(self):
         with tempfile.TemporaryDirectory() as tmp:
             state = _fresh(tmp)
-            state.current_state = "SELECT_BEST_IDEA"
+            state.current_state = "CREATE_SCENE_LANDING_PREVIEW"
             advanced = runner.advance(tmp, state)
             self.assertEqual(advanced.current_state, "HITL_IDEA_LOCK")
             self.assertEqual(advanced.status, "awaiting_hitl")
@@ -185,14 +185,14 @@ class ProceedAdvancesTests(unittest.TestCase):
             reloaded = run_state_mod.load_state(tmp, state.run_id)
             self.assertEqual(reloaded.current_state, "SELECT_BEST_IDEA")
 
-    def test_proceed_at_select_best_idea_lands_on_hitl(self):
+    def test_proceed_at_select_best_idea_advances_to_scene_preview(self):
         with tempfile.TemporaryDirectory() as tmp:
             state = _fresh(tmp)
             state.current_state = "SELECT_BEST_IDEA"
             result = runner.record_idea_round(tmp, state, PASS_SCOREBOARD)
             self.assertEqual(result["decision"], "proceed")
-            self.assertEqual(state.current_state, "HITL_IDEA_LOCK")
-            self.assertEqual(state.status, "awaiting_hitl")
+            self.assertEqual(state.current_state, "CREATE_SCENE_LANDING_PREVIEW")
+            self.assertEqual(state.status, "running")
 
 
 class AdvanceCheckedTests(unittest.TestCase):
@@ -237,6 +237,18 @@ class AdvanceCheckedTests(unittest.TestCase):
             runner.advance_checked(tmp, state)
             reloaded = run_state_mod.load_state(tmp, state.run_id)
             self.assertEqual(reloaded.gates["DISCOVER_AND_ASSIGN_AGENTS"], "fail")
+
+    def test_gate_record_flips_fail_to_pass_after_fix(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "DISCOVER_AND_ASSIGN_AGENTS"
+            runner.advance_checked(tmp, state)
+            self.assertEqual(state.gates["DISCOVER_AND_ASSIGN_AGENTS"], "fail")
+            self._touch(tmp, state.run_id, "debates/agent_assignment_matrix.md")
+            result = runner.advance_checked(tmp, state)
+            self.assertTrue(result["advanced"])
+            reloaded = run_state_mod.load_state(tmp, state.run_id)
+            self.assertEqual(reloaded.gates["DISCOVER_AND_ASSIGN_AGENTS"], "pass")
 
 
 if __name__ == "__main__":

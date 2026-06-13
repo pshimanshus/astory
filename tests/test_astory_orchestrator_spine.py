@@ -9,14 +9,14 @@ SKILL_PATH = REPO_ROOT / ".agents/skills/astory/SKILL.md"
 
 
 class SpineStructureTests(unittest.TestCase):
-    def test_spine_has_thirty_two_states(self):
-        self.assertEqual(len(spine.STATES), 32)
+    def test_spine_has_thirty_three_states(self):
+        self.assertEqual(len(spine.STATES), 33)
 
     def test_first_state_is_init_run(self):
         self.assertEqual(spine.first_state(), "INIT_RUN")
 
     def test_indices_are_contiguous_and_ordered(self):
-        self.assertEqual([s.index for s in spine.STATES], list(range(1, 33)))
+        self.assertEqual([s.index for s in spine.STATES], list(range(1, 34)))
 
     def test_by_name_round_trips_and_raises_on_unknown(self):
         self.assertEqual(spine.by_name("SELECT_BEST_IDEA").name, "SELECT_BEST_IDEA")
@@ -27,6 +27,20 @@ class SpineStructureTests(unittest.TestCase):
         self.assertIn(
             "planning/selected_idea.json",
             spine.by_name("SELECT_BEST_IDEA").produces,
+        )
+
+    def test_scene_landing_preview_sits_between_selection_and_idea_lock(self):
+        self.assertEqual(
+            spine.next_state("SELECT_BEST_IDEA"),
+            "CREATE_SCENE_LANDING_PREVIEW",
+        )
+        self.assertEqual(
+            spine.next_state("CREATE_SCENE_LANDING_PREVIEW"),
+            "HITL_IDEA_LOCK",
+        )
+        self.assertIn(
+            "planning/scene_landing_preview.md",
+            spine.by_name("CREATE_SCENE_LANDING_PREVIEW").produces,
         )
 
 

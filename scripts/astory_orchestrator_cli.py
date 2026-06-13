@@ -138,6 +138,14 @@ def _cmd_advance(args: argparse.Namespace) -> int:
     if state is None:
         print(json.dumps({"status": "no_state", "run_id": args.run_id}, indent=2))
         return 1
+    if spine.next_state(state.current_state) is None:
+        print(
+            json.dumps(
+                {"status": "terminal", "current_state": state.current_state},
+                indent=2,
+            )
+        )
+        return 1
     result = runner.advance_checked(args.repo_root, state)
     print(json.dumps(result, indent=2))
     return 0 if result["advanced"] else 1

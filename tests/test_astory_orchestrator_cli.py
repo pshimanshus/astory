@@ -19,11 +19,11 @@ def _run(*args, cwd=REPO_ROOT):
 
 
 class OrchestratorCliTests(unittest.TestCase):
-    def test_spine_command_prints_32_states(self):
+    def test_spine_command_prints_33_states(self):
         result = _run("spine")
         self.assertEqual(result.returncode, 0, result.stderr)
         payload = json.loads(result.stdout)
-        self.assertEqual(len(payload), 32)
+        self.assertEqual(len(payload), 33)
         self.assertEqual(payload[0]["name"], "INIT_RUN")
 
     def test_validate_spine_command_ok(self):
@@ -140,6 +140,13 @@ class IdeaLegWalkTests(unittest.TestCase):
             ok = _run("--repo-root", tmp, "advance", "--run-id", "demo")
             self.assertEqual(ok.returncode, 0, ok.stderr)
             self.assertTrue(json.loads(ok.stdout)["advanced"])
+
+    def test_advance_at_terminal_state_returns_clean_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "COMPLETE_OR_BLOCKED")
+            result = _run("--repo-root", tmp, "advance", "--run-id", "demo")
+            self.assertEqual(result.returncode, 1)
+            self.assertEqual(json.loads(result.stdout)["status"], "terminal")
 
 
 if __name__ == "__main__":

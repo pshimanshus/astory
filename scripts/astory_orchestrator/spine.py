@@ -1,4 +1,4 @@
-"""The A Story workflow spine: the 32-state machine encoded as data.
+"""The A Story workflow spine: the 33-state machine encoded as data.
 
 This mirrors the State Machine in `.agents/skills/astory/SKILL.md`. A test
 (`tests/test_astory_orchestrator_spine.py`) asserts the two stay in sync. This
@@ -84,47 +84,51 @@ STATES: tuple[StateSpec, ...] = (
         ),
     ),
     StateSpec(
-        "SELECT_BEST_IDEA", 9, "creative", "HITL_IDEA_LOCK",
+        "SELECT_BEST_IDEA", 9, "creative", "CREATE_SCENE_LANDING_PREVIEW",
         ("planning/selected_idea.json", "planning/rejected_ideas.md"),
     ),
     StateSpec(
-        "HITL_IDEA_LOCK", 10, "hitl", "GENERATE_STORY_CONCEPT",
+        "CREATE_SCENE_LANDING_PREVIEW", 10, "creative", "HITL_IDEA_LOCK",
+        ("planning/scene_landing_preview.md",),
+    ),
+    StateSpec(
+        "HITL_IDEA_LOCK", 11, "hitl", "GENERATE_STORY_CONCEPT",
         ("docs/approvals.md",),
     ),
     StateSpec(
-        "GENERATE_STORY_CONCEPT", 11, "creative", "DECIDE_SLIDE_COUNT",
+        "GENERATE_STORY_CONCEPT", 12, "creative", "DECIDE_SLIDE_COUNT",
         ("planning/story_concept.json",),
     ),
     StateSpec(
-        "DECIDE_SLIDE_COUNT", 12, "creative", "GENERATE_SLIDE_BEATS",
+        "DECIDE_SLIDE_COUNT", 13, "creative", "GENERATE_SLIDE_BEATS",
         ("planning/slide_count_decision.md",),
     ),
     StateSpec(
-        "GENERATE_SLIDE_BEATS", 13, "creative", "GENERATE_SCENE_OPTIONS",
+        "GENERATE_SLIDE_BEATS", 14, "creative", "GENERATE_SCENE_OPTIONS",
         ("planning/slide_beat_map.json",),
     ),
     StateSpec(
-        "GENERATE_SCENE_OPTIONS", 14, "creative", "SELECT_AND_ORDER_SLIDES",
+        "GENERATE_SCENE_OPTIONS", 15, "creative", "SELECT_AND_ORDER_SLIDES",
         ("planning/scene_options.json",),
     ),
     StateSpec(
-        "SELECT_AND_ORDER_SLIDES", 15, "creative", "HITL_STORY_LOCK",
+        "SELECT_AND_ORDER_SLIDES", 16, "creative", "HITL_STORY_LOCK",
         ("planning/selected_scenes.json", "debates/story_room/story_debate.md"),
     ),
     StateSpec(
-        "HITL_STORY_LOCK", 16, "hitl", "CREATE_CHARACTER_BIBLE",
+        "HITL_STORY_LOCK", 17, "hitl", "CREATE_CHARACTER_BIBLE",
         ("docs/approvals.md",),
     ),
     StateSpec(
-        "CREATE_CHARACTER_BIBLE", 17, "creative", "CREATE_STYLE_BIBLE",
+        "CREATE_CHARACTER_BIBLE", 18, "creative", "CREATE_STYLE_BIBLE",
         ("planning/character_bible.json",),
     ),
     StateSpec(
-        "CREATE_STYLE_BIBLE", 18, "creative", "CREATE_PROMPT_PACK",
+        "CREATE_STYLE_BIBLE", 19, "creative", "CREATE_PROMPT_PACK",
         ("planning/style_bible.json",),
     ),
     StateSpec(
-        "CREATE_PROMPT_PACK", 19, "creative", "PRE_GENERATION_EVAL",
+        "CREATE_PROMPT_PACK", 20, "creative", "PRE_GENERATION_EVAL",
         (
             "prompts/slide_01_4x5_prompt.txt",
             "prompts/negative_prompt.txt",
@@ -132,7 +136,7 @@ STATES: tuple[StateSpec, ...] = (
         ),
     ),
     StateSpec(
-        "PRE_GENERATION_EVAL", 20, "gate", "REVIEW_ROOM_QA",
+        "PRE_GENERATION_EVAL", 21, "gate", "REVIEW_ROOM_QA",
         (
             "evals/pre_generation_eval.json",
             "evals/pre_generation_eval_report.md",
@@ -140,15 +144,15 @@ STATES: tuple[StateSpec, ...] = (
         ),
     ),
     StateSpec(
-        "REVIEW_ROOM_QA", 21, "gate", "HITL_PROMPT_LOCK",
+        "REVIEW_ROOM_QA", 22, "gate", "HITL_PROMPT_LOCK",
         ("evals/repo_qa_review.json", "evals/repo_qa_review.md"),
     ),
     StateSpec(
-        "HITL_PROMPT_LOCK", 22, "hitl", "LOAD_REFERENCE_IMAGES_IN_CONTEXT",
+        "HITL_PROMPT_LOCK", 23, "hitl", "LOAD_REFERENCE_IMAGES_IN_CONTEXT",
         ("docs/approvals.md",),
     ),
     StateSpec(
-        "LOAD_REFERENCE_IMAGES_IN_CONTEXT", 23, "deterministic",
+        "LOAD_REFERENCE_IMAGES_IN_CONTEXT", 24, "deterministic",
         "REVIEW_ROOM_IMAGEGEN_BLOCKER_CHECK",
         (
             "references-used/selected_references.json",
@@ -157,16 +161,16 @@ STATES: tuple[StateSpec, ...] = (
         ),
     ),
     StateSpec(
-        "REVIEW_ROOM_IMAGEGEN_BLOCKER_CHECK", 24, "gate",
+        "REVIEW_ROOM_IMAGEGEN_BLOCKER_CHECK", 25, "gate",
         "GENERATE_IMAGES_WITH_IMAGEGEN",
         ("evals/repo_qa_review_loop.json",),
     ),
     StateSpec(
-        "GENERATE_IMAGES_WITH_IMAGEGEN", 25, "creative", "IMAGE_QUALITY_EVAL",
+        "GENERATE_IMAGES_WITH_IMAGEGEN", 26, "creative", "IMAGE_QUALITY_EVAL",
         ("images/slide_01_4x5_attempt_01_candidate.png",),
     ),
     StateSpec(
-        "IMAGE_QUALITY_EVAL", 26, "gate", "REVIEW_ROOM_FINAL_BLOCKER_CHECK",
+        "IMAGE_QUALITY_EVAL", 27, "gate", "REVIEW_ROOM_FINAL_BLOCKER_CHECK",
         (
             "evals/image_quality_eval.json",
             "evals/image_quality_report.md",
@@ -174,20 +178,20 @@ STATES: tuple[StateSpec, ...] = (
         ),
     ),
     StateSpec(
-        "REVIEW_ROOM_FINAL_BLOCKER_CHECK", 27, "gate", "RETRY_OR_REVISE_IF_NEEDED",
+        "REVIEW_ROOM_FINAL_BLOCKER_CHECK", 28, "gate", "RETRY_OR_REVISE_IF_NEEDED",
         ("evals/repo_qa_review.json",),
     ),
-    StateSpec("RETRY_OR_REVISE_IF_NEEDED", 28, "control", "FINAL_QA"),
-    StateSpec("FINAL_QA", 29, "gate", "EXPORT_AND_PACKAGE"),
+    StateSpec("RETRY_OR_REVISE_IF_NEEDED", 29, "control", "FINAL_QA"),
+    StateSpec("FINAL_QA", 30, "gate", "EXPORT_AND_PACKAGE"),
     StateSpec(
-        "EXPORT_AND_PACKAGE", 30, "deterministic", "WRITE_REPORTS",
+        "EXPORT_AND_PACKAGE", 31, "deterministic", "WRITE_REPORTS",
         ("exports/slide_01_post_4x5.png",),
     ),
     StateSpec(
-        "WRITE_REPORTS", 31, "deterministic", "COMPLETE_OR_BLOCKED",
+        "WRITE_REPORTS", 32, "deterministic", "COMPLETE_OR_BLOCKED",
         ("docs/retro.md",),
     ),
-    StateSpec("COMPLETE_OR_BLOCKED", 32, "terminal", None),
+    StateSpec("COMPLETE_OR_BLOCKED", 33, "terminal", None),
 )
 
 STATE_NAMES: tuple[str, ...] = tuple(s.name for s in STATES)

@@ -309,6 +309,16 @@ class VerifyStateTests(unittest.TestCase):
             self.assertFalse(result["ok"])
             self.assertIn("slide_beat_map_not_object", result["problems"])
 
+    def test_registered_state_corrupt_json_is_not_ok(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            path = Path(tmp) / "runs" / state.run_id / "planning/story_concept.json"
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text("{not valid json")
+            result = runner.verify_state(tmp, state.run_id, "GENERATE_STORY_CONCEPT")
+            self.assertFalse(result["ok"])
+            self.assertIn("story_concept_not_object", result["problems"])
+
     def test_unregistered_non_gate_state_is_not_enforced_and_ok(self):
         with tempfile.TemporaryDirectory() as tmp:
             state = _fresh(tmp)

@@ -108,3 +108,51 @@ def validate_selected_idea(data: Any) -> list[str]:
     if not (data.get("one_line_concept") or data.get("final_concept")):
         problems.append("missing_concept")
     return problems
+
+
+def validate_story_concept(data: Any) -> list[str]:
+    if not isinstance(data, dict):
+        return ["story_concept_not_object"]
+    problems: list[str] = []
+    if not data.get("title"):
+        problems.append("missing_title")
+    if not (data.get("one_line_summary") or data.get("emotional_hook")):
+        problems.append("missing_summary")
+    for beat in ("setup", "escalation", "payoff"):
+        if not data.get(beat):
+            problems.append(f"missing_{beat}")
+    return problems
+
+
+def validate_slide_beat_map(data: Any) -> list[str]:
+    if not isinstance(data, dict):
+        return ["slide_beat_map_not_object"]
+    slides = data.get("slides")
+    if not isinstance(slides, list) or not slides:
+        return ["no_slides"]
+    problems: list[str] = []
+    count = data.get("slide_count")
+    if isinstance(count, int) and count != len(slides):
+        problems.append("slide_count_mismatch")
+    for index, slide in enumerate(slides):
+        if not isinstance(slide, dict) or not slide.get("exact_on_image_text"):
+            problems.append(f"slide_{index}_missing_exact_on_image_text")
+    return problems
+
+
+def validate_selected_scenes(data: Any) -> list[str]:
+    if not isinstance(data, dict):
+        return ["selected_scenes_not_object"]
+    slides = data.get("slides")
+    if not isinstance(slides, list) or not slides:
+        return ["no_slides"]
+    problems: list[str] = []
+    for index, slide in enumerate(slides):
+        if not isinstance(slide, dict):
+            problems.append(f"slide_{index}_not_object")
+            continue
+        if not (slide.get("selected_scene_id") or slide.get("selected_scene_option_id")):
+            problems.append(f"slide_{index}_missing_selected_scene")
+        if not slide.get("exact_on_image_text"):
+            problems.append(f"slide_{index}_missing_exact_on_image_text")
+    return problems

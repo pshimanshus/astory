@@ -195,6 +195,10 @@ class SlideBeatMapValidationTests(unittest.TestCase):
         self.assertIn("slide_0_missing_exact_on_image_text",
                       validate.validate_slide_beat_map(bad))
 
+    def test_non_dict_slide_reports_not_object(self):
+        bad = {"slide_count": 1, "slides": ["oops"]}
+        self.assertIn("slide_0_not_object", validate.validate_slide_beat_map(bad))
+
 
 class SelectedScenesValidationTests(unittest.TestCase):
     def test_real_and_template_are_valid(self):
@@ -209,6 +213,10 @@ class SelectedScenesValidationTests(unittest.TestCase):
         problems = validate.validate_selected_scenes(bad)
         self.assertIn("slide_0_missing_selected_scene", problems)
         self.assertIn("slide_0_missing_exact_on_image_text", problems)
+
+    def test_non_dict_slide_reports_not_object(self):
+        bad = {"slides": ["oops"]}
+        self.assertIn("slide_0_not_object", validate.validate_selected_scenes(bad))
 
 
 if __name__ == "__main__":

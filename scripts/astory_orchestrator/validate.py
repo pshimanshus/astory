@@ -135,7 +135,10 @@ def validate_slide_beat_map(data: Any) -> list[str]:
     if isinstance(count, int) and count != len(slides):
         problems.append("slide_count_mismatch")
     for index, slide in enumerate(slides):
-        if not isinstance(slide, dict) or not slide.get("exact_on_image_text"):
+        if not isinstance(slide, dict):
+            problems.append(f"slide_{index}_not_object")
+            continue
+        if not slide.get("exact_on_image_text"):
             problems.append(f"slide_{index}_missing_exact_on_image_text")
     return problems
 

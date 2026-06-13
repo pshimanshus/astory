@@ -2,14 +2,17 @@
 """A Story orchestrator CLI (copilot mode).
 
 Inspect-only subcommands:
-  spine           Print the 32-state spine as JSON.
+  spine           Print the 33-state spine as JSON.
   validate-spine  Print structural problems; exit 1 if any.
   init            Create runs/<run_id>/state/run_state.json (idempotent unless --force).
   status          Print current_state / status / next_state for a run.
+  verify          Verify the current state's artifact contract; exit 1 if not ok.
 
-State-advancing subcommands (drive the idea-room leg):
+State-advancing subcommands (drive the idea and story legs):
   next            Show the next legal action for a run (may halt for HITL).
   idea-round      Record one idea-room scoring round and advance run state.
+  advance         Advance one state; refuses at a failing gate or unsatisfied
+                  content contract.
   approve         Record a HITL decision at the current gate and advance.
 
 It does not call any model or dispatch agents; the operator supplies inputs

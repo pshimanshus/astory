@@ -115,7 +115,7 @@ def _cmd_idea_round(args: argparse.Namespace) -> int:
         return 1
     result = runner.record_idea_round(args.repo_root, state, scoreboard)
     print(json.dumps(result, indent=2))
-    return 1 if result["decision"] == "blocked" else 0
+    return 1 if result["decision"] in {"blocked", "invalid"} else 0
 
 
 def _cmd_approve(args: argparse.Namespace) -> int:

@@ -97,6 +97,20 @@ def record_idea_round(repo_root: str | Path, state: RunState, scoreboard: dict) 
             f"idea round not allowed at {state.current_state}; "
             f"expected one of {IDEA_ROUND_STATES}"
         )
+
+    # A malformed scoreboard is an operator/artifact error, not a low score.
+    # It must not consume a retry, advance, or mutate state — rerunning a
+    # broken artifact cannot fix it. Surface it as a distinct outcome.
+    problems = validate.validate_final_scoreboard(scoreboard)
+    if problems:
+        return {
+            "decision": "invalid",
+            "problems": problems,
+            "round": state.retries.get(IDEA_ROOM_KEY, 0),
+            "selected_score": None,
+            "threshold": validate.threshold(scoreboard),
+        }
+
     round_number = state.retries.get(IDEA_ROOM_KEY, 0) + 1
     state.retries[IDEA_ROOM_KEY] = round_number
 

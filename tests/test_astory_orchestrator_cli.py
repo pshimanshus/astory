@@ -104,6 +104,16 @@ class IdeaLegWalkTests(unittest.TestCase):
             self.assertEqual(result.returncode, 1)
             self.assertEqual(json.loads(result.stdout)["status"], "bad_scoreboard")
 
+    def test_malformed_scoreboard_is_invalid_and_returns_nonzero(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "SCORE_IDEAS")
+            board = Path(tmp) / "empty.json"
+            board.write_text('{"candidates": []}')
+            result = _run("--repo-root", tmp, "idea-round", "--run-id", "demo",
+                          "--scoreboard", str(board))
+            self.assertEqual(result.returncode, 1)
+            self.assertEqual(json.loads(result.stdout)["decision"], "invalid")
+
     def test_idea_round_proceed_then_next_halts_then_approve(self):
         with tempfile.TemporaryDirectory() as tmp:
             self._set_state(tmp, "demo", "SCORE_IDEAS")

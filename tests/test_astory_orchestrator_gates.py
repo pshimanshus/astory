@@ -65,6 +65,22 @@ class CheckGateTests(unittest.TestCase):
             self.assertFalse(result["is_gate"])
             self.assertEqual(result["missing"], ["input/creative_brief.json"])
 
+    def test_multi_artifact_gate_lists_only_the_missing_subset(self):
+        # PRE_GENERATION_EVAL is a gate declaring three produces; with one
+        # present, only the other two should be reported missing.
+        with tempfile.TemporaryDirectory() as tmp:
+            _touch(tmp, "demo", "evals/pre_generation_eval.json")
+            result = gates.check_gate(tmp, "demo", "PRE_GENERATION_EVAL")
+            self.assertTrue(result["is_gate"])
+            self.assertFalse(result["ok"])
+            self.assertEqual(
+                sorted(result["missing"]),
+                [
+                    "debates/prompt_room/prompt_review.md",
+                    "evals/pre_generation_eval_report.md",
+                ],
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

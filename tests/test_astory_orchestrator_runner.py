@@ -125,6 +125,29 @@ class IdeaRoomLoopTests(unittest.TestCase):
             self.assertEqual(reloaded.retries["idea_room"], 1)
 
 
+class InvalidScoreboardTests(unittest.TestCase):
+    def test_malformed_scoreboard_is_invalid_not_low_score(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SCORE_IDEAS"
+            result = runner.record_idea_round(tmp, state, {})
+            self.assertEqual(result["decision"], "invalid")
+            self.assertTrue(result["problems"])
+
+    def test_invalid_round_consumes_no_retry_and_does_not_mutate(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "SCORE_IDEAS"
+            runner.record_idea_round(tmp, state, FAIL_SCOREBOARD)  # round 1
+            result = runner.record_idea_round(tmp, state, {"candidates": []})
+            self.assertEqual(result["decision"], "invalid")
+            self.assertEqual(result["round"], 1)
+            self.assertEqual(state.retries["idea_room"], 1)
+            self.assertEqual(state.current_state, "SCORE_IDEAS")
+            reloaded = run_state_mod.load_state(tmp, state.run_id)
+            self.assertEqual(reloaded.retries["idea_room"], 1)
+
+
 class GuardTests(unittest.TestCase):
     def test_idea_round_outside_idea_states_raises(self):
         with tempfile.TemporaryDirectory() as tmp:

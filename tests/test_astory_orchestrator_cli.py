@@ -158,6 +158,49 @@ class IdeaLegWalkTests(unittest.TestCase):
             self.assertEqual(result.returncode, 1)
             self.assertEqual(json.loads(result.stdout)["status"], "terminal")
 
+    def _write_run_json(self, tmp, run_id, rel_path, payload):
+        path = Path(tmp) / "runs" / run_id / rel_path
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(payload))
+
+    def test_verify_reports_ok_for_valid_story_concept(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "GENERATE_STORY_CONCEPT")
+            self._write_run_json(
+                tmp, "demo", "planning/story_concept.json",
+                {"title": "T", "one_line_summary": "s", "setup": "a",
+                 "escalation": "b", "payoff": "c"},
+            )
+            result = _run("--repo-root", tmp, "verify", "--run-id", "demo")
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertTrue(json.loads(result.stdout)["ok"])
+
+    def test_verify_reports_nonzero_for_invalid_artifact(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "GENERATE_STORY_CONCEPT")
+            self._write_run_json(tmp, "demo", "planning/story_concept.json", {"setup": "a"})
+            result = _run("--repo-root", tmp, "verify", "--run-id", "demo")
+            self.assertEqual(result.returncode, 1)
+            self.assertIn("missing_title", json.loads(result.stdout)["problems"])
+
+    def test_story_leg_advances_concept_then_blocks_at_story_lock(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._set_state(tmp, "demo", "GENERATE_STORY_CONCEPT")
+            self._write_run_json(
+                tmp, "demo", "planning/story_concept.json",
+                {"title": "T", "one_line_summary": "s", "setup": "a",
+                 "escalation": "b", "payoff": "c"},
+            )
+            adv = _run("--repo-root", tmp, "advance", "--run-id", "demo")
+            self.assertEqual(adv.returncode, 0, adv.stderr)
+            self.assertTrue(json.loads(adv.stdout)["advanced"])
+
+            self._set_state(tmp, "demo", "HITL_STORY_LOCK")
+            approve = _run("--repo-root", tmp, "approve", "--run-id", "demo")
+            self.assertEqual(approve.returncode, 0, approve.stderr)
+            self.assertEqual(json.loads(approve.stdout)["current_state"],
+                             "CREATE_CHARACTER_BIBLE")
+
 
 if __name__ == "__main__":
     unittest.main()

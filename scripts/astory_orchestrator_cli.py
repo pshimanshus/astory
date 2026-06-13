@@ -151,6 +151,16 @@ def _cmd_advance(args: argparse.Namespace) -> int:
     return 0 if result["advanced"] else 1
 
 
+def _cmd_verify(args: argparse.Namespace) -> int:
+    state = run_state_mod.load_state(args.repo_root, args.run_id)
+    if state is None:
+        print(json.dumps({"status": "no_state", "run_id": args.run_id}, indent=2))
+        return 1
+    result = runner.verify_state(args.repo_root, state.run_id, state.current_state)
+    print(json.dumps(result, indent=2))
+    return 0 if result["ok"] else 1
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="A Story orchestrator: inspect the spine and drive the idea-room leg."
@@ -182,6 +192,9 @@ def main() -> int:
     p_advance = sub.add_parser("advance", help="Advance one state; refuses at a failing gate.")
     p_advance.add_argument("--run-id", required=True)
 
+    p_verify = sub.add_parser("verify", help="Verify the current state's artifact contract.")
+    p_verify.add_argument("--run-id", required=True)
+
     args = parser.parse_args()
     handlers = {
         "spine": _cmd_spine,
@@ -192,6 +205,7 @@ def main() -> int:
         "idea-round": _cmd_idea_round,
         "approve": _cmd_approve,
         "advance": _cmd_advance,
+        "verify": _cmd_verify,
     }
     return handlers[args.command](args)
 

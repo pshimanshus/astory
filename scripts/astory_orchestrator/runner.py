@@ -137,27 +137,29 @@ def record_idea_round(repo_root: str | Path, state: RunState, scoreboard: dict) 
 
 
 def advance_checked(repo_root: str | Path, state: RunState) -> dict:
-    """Advance only if the current state's artifact gate passes.
+    """Advance only if the current state's contract is satisfied.
 
-    For `kind="gate"` states with missing declared artifacts, refuse to move,
-    record `gates[state] = "fail"`, persist, and report what is missing. This
-    is the gate the model cannot talk its way past.
+    Enforced states are gates (declared artifacts must be present) and states
+    with a registered content verifier (artifact must be present and valid).
+    On failure: record `gates[state] = "fail"`, persist, report `missing`
+    (gate presence) and `problems` (content). Unenforced states advance freely.
     """
 
-    check = gates.check_gate(repo_root, state.run_id, state.current_state)
-    if check["is_gate"] and not check["ok"]:
-        state.gates[state.current_state] = "fail"
+    name = state.current_state
+    check = verify_state(repo_root, state.run_id, name)
+    if check["enforced"] and not check["ok"]:
+        state.gates[name] = "fail"
         run_state_mod.save_state(repo_root, state.run_id, state)
         return {
             "advanced": False,
-            "state": state.current_state,
+            "state": name,
             "missing": check["missing"],
+            "problems": check["problems"],
         }
-    if check["is_gate"]:
-        state.gates[state.current_state] = "pass"
-    gate_state = state.current_state
+    if check["enforced"]:
+        state.gates[name] = "pass"
     advance(repo_root, state)
-    return {"advanced": True, "state": gate_state, "missing": []}
+    return {"advanced": True, "state": name, "missing": [], "problems": []}
 
 
 def _read_run_json(repo_root: str | Path, run_id: str, rel_path: str):

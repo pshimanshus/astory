@@ -335,5 +335,46 @@ class VerifyStateTests(unittest.TestCase):
             self.assertEqual(result["missing"], ["debates/agent_assignment_matrix.md"])
 
 
+class AdvanceCheckedVerifiesContentTests(unittest.TestCase):
+    def _write_json(self, tmp, run_id, rel_path, payload):
+        import json as _json
+        path = Path(tmp) / "runs" / run_id / rel_path
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(_json.dumps(payload))
+
+    def test_creative_state_refused_when_artifact_invalid(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "GENERATE_STORY_CONCEPT"
+            self._write_json(tmp, state.run_id, "planning/story_concept.json", {"setup": "a"})
+            result = runner.advance_checked(tmp, state)
+            self.assertFalse(result["advanced"])
+            self.assertIn("missing_title", result["problems"])
+            self.assertEqual(state.current_state, "GENERATE_STORY_CONCEPT")
+            self.assertEqual(state.gates["GENERATE_STORY_CONCEPT"], "fail")
+
+    def test_creative_state_advances_when_artifact_valid(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "GENERATE_STORY_CONCEPT"
+            self._write_json(
+                tmp, state.run_id, "planning/story_concept.json",
+                {"title": "T", "one_line_summary": "s", "setup": "a",
+                 "escalation": "b", "payoff": "c"},
+            )
+            result = runner.advance_checked(tmp, state)
+            self.assertTrue(result["advanced"])
+            self.assertEqual(state.current_state, "DECIDE_SLIDE_COUNT")
+            self.assertEqual(state.gates["GENERATE_STORY_CONCEPT"], "pass")
+
+    def test_unverified_creative_state_advances_freely(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "DECIDE_SLIDE_COUNT"
+            result = runner.advance_checked(tmp, state)
+            self.assertTrue(result["advanced"])
+            self.assertEqual(state.current_state, "GENERATE_SLIDE_BEATS")
+
+
 if __name__ == "__main__":
     unittest.main()

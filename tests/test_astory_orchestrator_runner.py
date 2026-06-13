@@ -375,6 +375,16 @@ class AdvanceCheckedVerifiesContentTests(unittest.TestCase):
             self.assertTrue(result["advanced"])
             self.assertEqual(state.current_state, "GENERATE_SLIDE_BEATS")
 
+    def test_content_refusal_persists_across_reload(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            state.current_state = "GENERATE_STORY_CONCEPT"
+            self._write_json(tmp, state.run_id, "planning/story_concept.json", {"setup": "a"})
+            runner.advance_checked(tmp, state)
+            reloaded = run_state_mod.load_state(tmp, state.run_id)
+            self.assertEqual(reloaded.current_state, "GENERATE_STORY_CONCEPT")
+            self.assertEqual(reloaded.gates["GENERATE_STORY_CONCEPT"], "fail")
+
 
 if __name__ == "__main__":
     unittest.main()

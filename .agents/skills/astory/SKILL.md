@@ -20,6 +20,7 @@ Non-negotiables:
 - Do not ask the creator to manually attach identity/style images that already exist in `references/`; resolve and load them from the repo.
 - Do not mark a final image complete if faces drift, merge, over-beautify, or become generic.
 - Do not assume a two-slide carousel. Slide count is story-led, usually 3-6 and up to 10 only when justified.
+- Do not ask for idea lock from concept, score, or rationale alone. Before `HITL_IDEA_LOCK`, write a scene-landing preview that makes the creator feel the first frame, swipe tension, payoff frame, and share trigger.
 - Do not silently skip actual agent assignment. Before prompt lock or imagegen, prove `multi_agent_v1` availability was checked, assign agents when available, and record the assignment artifact.
 - Pause for human approval at idea lock, story/slide-count lock, prompt lock, image QA, and final package.
 - Record human approval evidence in the run's `docs/approvals.md` and `logs/trace.jsonl` before continuing past a HITL gate.
@@ -93,31 +94,62 @@ Every run follows this state order:
 7. `GENERATE_OR_REFINE_IDEAS`
 8. `SCORE_IDEAS`
 9. `SELECT_BEST_IDEA`
-10. `HITL_IDEA_LOCK`
-11. `GENERATE_STORY_CONCEPT`
-12. `DECIDE_SLIDE_COUNT`
-13. `GENERATE_SLIDE_BEATS`
-14. `GENERATE_SCENE_OPTIONS`
-15. `SELECT_AND_ORDER_SLIDES`
-16. `HITL_STORY_LOCK`
-17. `CREATE_CHARACTER_BIBLE`
-18. `CREATE_STYLE_BIBLE`
-19. `CREATE_PROMPT_PACK`
-20. `PRE_GENERATION_EVAL`
-21. `REVIEW_ROOM_QA`
-22. `HITL_PROMPT_LOCK`
-23. `LOAD_REFERENCE_IMAGES_IN_CONTEXT`
-24. `REVIEW_ROOM_IMAGEGEN_BLOCKER_CHECK`
-25. `GENERATE_IMAGES_WITH_IMAGEGEN`
-26. `IMAGE_QUALITY_EVAL`
-27. `REVIEW_ROOM_FINAL_BLOCKER_CHECK`
-28. `RETRY_OR_REVISE_IF_NEEDED`
-29. `FINAL_QA`
-30. `EXPORT_AND_PACKAGE`
-31. `WRITE_REPORTS`
-32. `COMPLETE_OR_BLOCKED`
+10. `CREATE_SCENE_LANDING_PREVIEW`
+11. `HITL_IDEA_LOCK`
+12. `GENERATE_STORY_CONCEPT`
+13. `DECIDE_SLIDE_COUNT`
+14. `GENERATE_SLIDE_BEATS`
+15. `GENERATE_SCENE_OPTIONS`
+16. `SELECT_AND_ORDER_SLIDES`
+17. `HITL_STORY_LOCK`
+18. `CREATE_CHARACTER_BIBLE`
+19. `CREATE_STYLE_BIBLE`
+20. `CREATE_PROMPT_PACK`
+21. `PRE_GENERATION_EVAL`
+22. `REVIEW_ROOM_QA`
+23. `HITL_PROMPT_LOCK`
+24. `LOAD_REFERENCE_IMAGES_IN_CONTEXT`
+25. `REVIEW_ROOM_IMAGEGEN_BLOCKER_CHECK`
+26. `GENERATE_IMAGES_WITH_IMAGEGEN`
+27. `IMAGE_QUALITY_EVAL`
+28. `REVIEW_ROOM_FINAL_BLOCKER_CHECK`
+29. `RETRY_OR_REVISE_IF_NEEDED`
+30. `FINAL_QA`
+31. `EXPORT_AND_PACKAGE`
+32. `WRITE_REPORTS`
+33. `COMPLETE_OR_BLOCKED`
 
 Append a JSON line to `logs/trace.jsonl` at every state using `templates/logs/trace_event.jsonl`. For every HITL state, also append the creator decision to `docs/approvals.md` using `templates/docs/approvals.md`.
+
+## Session Learning Capture Gate
+
+This gate is for the main coordinator, not only dispatched agents. If the
+creator corrects an assumption, tone, staging, process, or presentation during a
+live session, capture that creator correction before continuing creative work.
+
+Trigger phrases include but are not limited to:
+- "not like that"
+- "don't repeat this"
+- "you are missing"
+- "this should be"
+- "why are you not"
+- "remember this"
+- "learning"
+- "not landing"
+
+Required hot-path action:
+1. Stop generating new story, scene, prompt, or image content.
+2. Write or update `planning/creator_direction_notes.md` with the correction,
+   the rejected assumption, and the new active constraint.
+3. Append a `SESSION_LEARNING_CAPTURE` JSONL event to `logs/trace.jsonl`.
+4. If the correction changes workflow behavior, add a cited bullet to
+   `references/brain/pages/run-lessons.md`.
+5. Rebuild or refresh `references/brain/index/` before relying on recall.
+6. Mention the updated artifact path to the creator, then continue from the
+   corrected premise.
+
+Do not rely on chat context to carry session learning. Do not wait until the end
+of a run if the correction affects the next response.
 
 ## Brain Recall Gate
 
@@ -129,14 +161,33 @@ Rules:
 - Use `python3 scripts/astory_brain_cli.py doctor --repo-root .` for memory
   setup QA. Do not treat active run blockers from `scripts/astory_repo_qa.py`
   as brain/setup blockers.
+- If `planning/creator_direction_notes.md` exists, treat it as active run
+  memory for story, scene, prompt, and QA work. Read it directly and cite it in
+  the next room's evidence ledger; do not rely on chat context or generic
+  memory recall to carry creator corrections.
+- Do not run heavy memory learning, promotion, retrieval eval, or rollback
+  loops before illustration generation. If an autopilot call is needed before
+  imagegen, use `python3 scripts/astory_brain_cli.py autopilot --repo-root . --run-id <run_id> --phase pre_imagegen`;
+  that phase must stay a lightweight no-op for learning and promotion.
 - Treat the doctor's runtime status and learning-pipeline status separately.
   If runtime is ready but learning is `operational_with_review_queue`, the
   memory system is operating correctly with governed review: low-risk claims can
   apply immediately, while high-risk identity/style/creator-preference claims
   must stay in the claim queue until reviewed.
+- Raw `runs/<run_id>/memory/claim_candidates.*` files are review queues, not
+  production recall truth. Runtime recall may use `memory/active_claims.md` for
+  auto-apply workflow memory and canonical `references/brain/pages/*` for
+  promoted claims.
 - After a run has meaningful eval/approval evidence, run
   `python3 scripts/astory_brain_cli.py learn --repo-root . --run-id <run_id> --write`
   to create claim candidates and append ledger events.
+- Prefer the autonomous post-run loop:
+  `python3 scripts/astory_brain_cli.py autopilot --repo-root . --run-id <run_id> --phase post_run`.
+  It learns, applies the repo policy in
+  `references/brain/policies/memory_autopilot.json`, promotes safe workflow
+  lessons, defers high-risk identity/style/preference claims, quarantines
+  rejected-asset claims, rebuilds the index, runs lint/eval, and rolls back any
+  promotion that breaks verification.
 - Do not use uncited memory claims in idea, story, prompt, image QA, or final-package artifacts.
 - Memory recall may surface risks, past lessons, and gaps, but it cannot bypass HITL gates or visible-reference imagegen requirements.
 - Treat `references/brain/index/` and `references/brain/reports/` as derived cache. If deleted, they must be rebuildable from canonical markdown and run artifacts.
@@ -144,10 +195,11 @@ Rules:
 - If brain lint fails, fix the brain page or mark the run blocked with the lint failure code before using the claim.
 
 During `WRITE_REPORTS`, write `docs/retro.md` from `templates/docs/retro.md`.
-List proposed updates to `references/brain/pages/*`, but do not silently modify
-compiled brain pages unless the creator explicitly asks for memory writeback.
-The learning pipeline may write claim candidates and ledger events, but it must
-not silently promote high-risk claims into compiled brain pages.
+Then run the memory autopilot post-run phase. The autopilot may modify compiled
+brain pages only through policy-governed, cited, verified promotions. It must
+not silently promote high-risk identity, style, or creator-preference claims
+from a single run; those claims are auto-deferred unless policy and repeated
+evidence justify promotion later.
 
 ## Agent Assignment Hard Gate
 
@@ -212,7 +264,9 @@ Protocol:
 4. Agents repair their best idea without losing emotional truth.
 5. Score survivors on the full engagement rubric.
 6. Select only if overall score is at least 4.0.
-7. If no idea reaches 4.0, run a second room with "avoid first-round patterns".
+7. Before idea lock, create a scene-landing preview for the selected idea and strongest alternatives. The preview must make the idea feel like a carousel, not a pitch deck: first-frame visual, exact hook text, 3-5 slide mini arc, payoff frame, why someone sends it, and what would make it land flat.
+8. If the selected idea's scene-landing preview does not land, repair the idea or choose another candidate before `HITL_IDEA_LOCK`.
+9. If no idea reaches 4.0, run a second room with "avoid first-round patterns".
 
 Artifacts:
 - `debates/idea_room/agent_01_candidates.json`
@@ -223,9 +277,17 @@ Artifacts:
 - `debates/idea_room/final_scoreboard.json`
 - `planning/idea_candidates.json`
 - `planning/selected_idea.json`
+- `planning/scene_landing_preview.md`
 - `planning/rejected_ideas.md`
 - `evals/idea_engagement_eval.json`
 - `evals/idea_engagement_report.md`
+
+Scene landing preview hard gate:
+- Required before `HITL_IDEA_LOCK`.
+- Must include the recommended idea and at least 2 alternatives unless fewer ideas scored above threshold.
+- For each previewed idea, include: exact first-slide on-image text, first-frame visual, swipe reason, 3-5 slide mini arc, payoff frame, share/comment trigger, flat/generic risk, and correction if it feels flat.
+- Do not present a recommended idea as "final" if `planning/scene_landing_preview.md` is missing or if the preview is only title/score/rationale.
+- If this proof is missing or too abstract, stop and mark `SCENE_LANDING_MISSING`.
 
 ### Story Room
 
@@ -243,6 +305,13 @@ Outputs:
 - `planning/scene_options.json`
 - `planning/selected_scenes.json`
 - `debates/story_room/story_debate.md`
+
+Before writing:
+- Read `planning/creator_direction_notes.md` if present. Creator corrections in
+  that file are hard story/scene constraints, not optional inspiration.
+- Preserve any recorded "do not repeat" or "not like that" correction in the
+  premise lock, slide beat contract, rejected scene memory, and story-lock risk
+  notes.
 
 Dispatch:
 - Use `templates/agents/story_room_agent_prompt.md` for Story Director,
@@ -323,7 +392,7 @@ At each gate, show the creator the decision, risks, and artifact paths. Do not c
 Record each decision in `docs/approvals.md` and append a matching trace event before moving to the next state.
 
 - Reference setup gate: missing references block final imagegen.
-- Idea lock gate: selected idea, score, why it wins, risks, rejected summary.
+- Idea lock gate: selected idea, score, why it wins, scene-landing preview, risks, rejected summary. Show the first-frame visual, exact hook text, mini slide arc, payoff frame, why it will be shared, what could make it feel flat/generic, and artifact paths.
 - Story/slide-count gate: story arc, chosen slide count, why fewer fails, why more dilutes.
 - Prompt lock gate: slide-by-slide text, scene, prompt summary, agent assignment status, and prompt-room outputs.
 - Review Room prompt gate: workflow type, repo QA status, every prompt file checked, blockers, and `agent_assignment_gate` result before `HITL_PROMPT_LOCK`.
@@ -372,26 +441,24 @@ Retry up to 2 times per failure type with targeted prompt repair, then mark bloc
 
 ## Prompt Contract
 
-Build prompts from `references/master-prompt.md` plus the locked slide beat. Treat the master prompt as the canonical prompt contract formerly covered by the separate prompt-only skill. Use exact-template mode: preserve the master prompt structure and wording, replace only the bracketed on-image text and scene fields, then append only the minimum slide-specific rendering details needed for clarity.
+Build prompts from `references/master-prompt.md` plus the locked slide beat.
+Treat the master prompt as the canonical prompt contract formerly covered by the
+separate prompt-only skill, but use compact priority-stack mode. Do not restore
+the old long exact-template prompt. A prompt that repeats every possible rule
+bucket as separate sections is a `PROMPT_OVERLOAD` failure, even if the
+individual rules are good.
 
-Use `references/house-style-contract.md` and `references/imagegen-contract.md` as QA contracts for prompt review and generation decisions. Every slide prompt must include:
+Use `references/house-style-contract.md` and `references/imagegen-contract.md`
+as QA contracts for prompt review and generation decisions. Every slide prompt
+must include, in no more than 10 major sections:
 - exact on-image text
-- text placement and typography
-- scene
-- pose/body language
-- wardrobe anchors
-- props
-- background
-- emotion
-- identity lock
-- face preservation rules
-- style lock
-- paper tone rule
-- brandmark rule
-- anatomy rules
-- negative constraints
-- native aspect ratio
-- reference image role statement
+- locked scene and the one visual proof that makes the text work
+- raw Aachu/Zuv face-anchor priority
+- observational-intimacy-premium style-reference priority
+- neutral white/off-white paper rule with no yellow/parchment cast
+- exact text placement and tiny bottom-right brandmark
+- the minimum slide-specific anatomy/phone/prop negatives
+- the final generation hard gate: no text-only/file-path-only identity, and one slide at a time
 
 ## Completion Rule
 

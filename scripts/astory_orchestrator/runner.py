@@ -8,6 +8,7 @@ is, counts the loop, and records the HITL decision.
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 from scripts.astory_orchestrator import gates
@@ -157,3 +158,65 @@ def advance_checked(repo_root: str | Path, state: RunState) -> dict:
     gate_state = state.current_state
     advance(repo_root, state)
     return {"advanced": True, "state": gate_state, "missing": []}
+
+
+def _read_run_json(repo_root: str | Path, run_id: str, rel_path: str):
+    path = Path(repo_root).resolve() / "runs" / run_id / rel_path
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except json.JSONDecodeError:
+        return None
+
+
+def _verify_story_concept(repo_root: str | Path, run_id: str) -> list[str]:
+    return validate.validate_story_concept(
+        _read_run_json(repo_root, run_id, "planning/story_concept.json")
+    )
+
+
+def _verify_slide_beat_map(repo_root: str | Path, run_id: str) -> list[str]:
+    return validate.validate_slide_beat_map(
+        _read_run_json(repo_root, run_id, "planning/slide_beat_map.json")
+    )
+
+
+def _verify_selected_scenes(repo_root: str | Path, run_id: str) -> list[str]:
+    return validate.validate_selected_scenes(
+        _read_run_json(repo_root, run_id, "planning/selected_scenes.json")
+    )
+
+
+# state name -> content verifier returning a list of problem codes.
+STATE_VERIFIERS = {
+    "GENERATE_STORY_CONCEPT": _verify_story_concept,
+    "GENERATE_SLIDE_BEATS": _verify_slide_beat_map,
+    "SELECT_AND_ORDER_SLIDES": _verify_selected_scenes,
+}
+
+
+def verify_state(repo_root: str | Path, run_id: str, state_name: str) -> dict:
+    """Report whether a state's contract is satisfied.
+
+    Combines gate-presence (for `kind="gate"` states) with a registered content
+    verifier (for states in STATE_VERIFIERS). `enforced` is False for plain
+    states with neither, which therefore advance freely.
+    """
+
+    spec = spine.by_name(state_name)
+    missing = (
+        gates.missing_artifacts(repo_root, run_id, state_name)
+        if spec.kind == "gate"
+        else []
+    )
+    verifier = STATE_VERIFIERS.get(state_name)
+    problems = verifier(repo_root, run_id) if verifier else []
+    enforced = spec.kind == "gate" or verifier is not None
+    return {
+        "state": spec.name,
+        "enforced": enforced,
+        "ok": not missing and not problems,
+        "missing": missing,
+        "problems": problems,
+    }

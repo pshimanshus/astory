@@ -274,5 +274,56 @@ class AdvanceCheckedTests(unittest.TestCase):
             self.assertEqual(reloaded.gates["DISCOVER_AND_ASSIGN_AGENTS"], "pass")
 
 
+class VerifyStateTests(unittest.TestCase):
+    def _write_json(self, tmp, run_id, rel_path, payload):
+        import json as _json
+        path = Path(tmp) / "runs" / run_id / rel_path
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(_json.dumps(payload))
+
+    def test_registered_state_ok_when_artifact_valid(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            self._write_json(
+                tmp, state.run_id, "planning/story_concept.json",
+                {"title": "T", "one_line_summary": "s", "setup": "a",
+                 "escalation": "b", "payoff": "c"},
+            )
+            result = runner.verify_state(tmp, state.run_id, "GENERATE_STORY_CONCEPT")
+            self.assertTrue(result["enforced"])
+            self.assertTrue(result["ok"])
+            self.assertEqual(result["problems"], [])
+
+    def test_registered_state_reports_content_problems(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            self._write_json(tmp, state.run_id, "planning/story_concept.json", {"setup": "a"})
+            result = runner.verify_state(tmp, state.run_id, "GENERATE_STORY_CONCEPT")
+            self.assertFalse(result["ok"])
+            self.assertIn("missing_title", result["problems"])
+
+    def test_registered_state_missing_file_is_not_ok(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            result = runner.verify_state(tmp, state.run_id, "GENERATE_SLIDE_BEATS")
+            self.assertFalse(result["ok"])
+            self.assertIn("slide_beat_map_not_object", result["problems"])
+
+    def test_unregistered_non_gate_state_is_not_enforced_and_ok(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            result = runner.verify_state(tmp, state.run_id, "DECIDE_SLIDE_COUNT")
+            self.assertFalse(result["enforced"])
+            self.assertTrue(result["ok"])
+
+    def test_gate_state_presence_still_enforced(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            result = runner.verify_state(tmp, state.run_id, "DISCOVER_AND_ASSIGN_AGENTS")
+            self.assertTrue(result["enforced"])
+            self.assertFalse(result["ok"])
+            self.assertEqual(result["missing"], ["debates/agent_assignment_matrix.md"])
+
+
 if __name__ == "__main__":
     unittest.main()

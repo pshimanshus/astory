@@ -5,6 +5,7 @@ from pathlib import Path
 from scripts.astory_orchestrator import runner
 from scripts.astory_orchestrator import state as run_state_mod
 from scripts.astory_orchestrator import validate  # noqa: F401
+from scripts.astory_orchestrator import spine
 
 
 def _fresh(tmp, run_id="2026-06-11_demo"):
@@ -384,6 +385,60 @@ class AdvanceCheckedVerifiesContentTests(unittest.TestCase):
             reloaded = run_state_mod.load_state(tmp, state.run_id)
             self.assertEqual(reloaded.current_state, "GENERATE_STORY_CONCEPT")
             self.assertEqual(reloaded.gates["GENERATE_STORY_CONCEPT"], "fail")
+
+
+class RegistryAndAllProducesTests(unittest.TestCase):
+    def _write_json(self, tmp, run_id, rel_path, payload):
+        import json as _json
+        path = Path(tmp) / "runs" / run_id / rel_path
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(_json.dumps(payload))
+
+    def _touch(self, tmp, run_id, rel_path):
+        path = Path(tmp) / "runs" / run_id / rel_path
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("x")
+
+    def test_every_registered_validator_path_is_declared_in_spine(self):
+        for state_name, validators in runner.STATE_CONTENT_VALIDATORS.items():
+            produces = spine.by_name(state_name).produces
+            for rel_path in validators:
+                self.assertIn(
+                    rel_path, produces,
+                    f"{state_name} validator path {rel_path!r} not in spine produces",
+                )
+
+    def test_select_and_order_slides_requires_all_produces(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            self._write_json(
+                tmp, state.run_id, "planning/selected_scenes.json",
+                {"slides": [{"selected_scene_id": "s1", "exact_on_image_text": "x"}]},
+            )
+            result = runner.verify_state(tmp, state.run_id, "SELECT_AND_ORDER_SLIDES")
+            self.assertFalse(result["ok"])
+            self.assertEqual(result["problems"], [])
+            self.assertIn("debates/story_room/story_debate.md", result["missing"])
+
+    def test_select_and_order_slides_ok_when_all_produces_present(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            self._write_json(
+                tmp, state.run_id, "planning/selected_scenes.json",
+                {"slides": [{"selected_scene_id": "s1", "exact_on_image_text": "x"}]},
+            )
+            self._touch(tmp, state.run_id, "debates/story_room/story_debate.md")
+            result = runner.verify_state(tmp, state.run_id, "SELECT_AND_ORDER_SLIDES")
+            self.assertTrue(result["ok"])
+            self.assertEqual(result["missing"], [])
+
+    def test_registered_state_missing_required_artifact_lists_it(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            state = _fresh(tmp)
+            result = runner.verify_state(tmp, state.run_id, "GENERATE_STORY_CONCEPT")
+            self.assertFalse(result["ok"])
+            self.assertIn("planning/story_concept.json", result["missing"])
+            self.assertIn("story_concept_not_object", result["problems"])
 
 
 if __name__ == "__main__":

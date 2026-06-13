@@ -172,49 +172,42 @@ def _read_run_json(repo_root: str | Path, run_id: str, rel_path: str):
         return None
 
 
-def _verify_story_concept(repo_root: str | Path, run_id: str) -> list[str]:
-    return validate.validate_story_concept(
-        _read_run_json(repo_root, run_id, "planning/story_concept.json")
-    )
-
-
-def _verify_slide_beat_map(repo_root: str | Path, run_id: str) -> list[str]:
-    return validate.validate_slide_beat_map(
-        _read_run_json(repo_root, run_id, "planning/slide_beat_map.json")
-    )
-
-
-def _verify_selected_scenes(repo_root: str | Path, run_id: str) -> list[str]:
-    return validate.validate_selected_scenes(
-        _read_run_json(repo_root, run_id, "planning/selected_scenes.json")
-    )
-
-
-# state name -> content verifier returning a list of problem codes.
-STATE_VERIFIERS = {
-    "GENERATE_STORY_CONCEPT": _verify_story_concept,
-    "GENERATE_SLIDE_BEATS": _verify_slide_beat_map,
-    "SELECT_AND_ORDER_SLIDES": _verify_selected_scenes,
+# state name -> {run-relative artifact path: content validator}.
+# Every path here MUST be one of that state's spine `produces`
+# (asserted by test_every_registered_validator_path_is_declared_in_spine).
+# Presence of ALL declared produces is enforced separately, below.
+STATE_CONTENT_VALIDATORS = {
+    "GENERATE_STORY_CONCEPT": {
+        "planning/story_concept.json": validate.validate_story_concept,
+    },
+    "GENERATE_SLIDE_BEATS": {
+        "planning/slide_beat_map.json": validate.validate_slide_beat_map,
+    },
+    "SELECT_AND_ORDER_SLIDES": {
+        "planning/selected_scenes.json": validate.validate_selected_scenes,
+    },
 }
 
 
 def verify_state(repo_root: str | Path, run_id: str, state_name: str) -> dict:
     """Report whether a state's contract is satisfied.
 
-    Combines gate-presence (for `kind="gate"` states) with a registered content
-    verifier (for states in STATE_VERIFIERS). `enforced` is False for plain
-    states with neither, which therefore advance freely.
+    A state is enforced if it is a gate OR has registered content validators.
+    For enforced states, ALL declared `produces` must be present (`missing`),
+    and every registered artifact must pass its content validator (`problems`).
+    Plain states (neither) are unenforced and advance freely.
     """
 
     spec = spine.by_name(state_name)
+    content_validators = STATE_CONTENT_VALIDATORS.get(state_name)
+    enforced = spec.kind == "gate" or content_validators is not None
     missing = (
-        gates.missing_artifacts(repo_root, run_id, state_name)
-        if spec.kind == "gate"
-        else []
+        gates.missing_artifacts(repo_root, run_id, state_name) if enforced else []
     )
-    verifier = STATE_VERIFIERS.get(state_name)
-    problems = verifier(repo_root, run_id) if verifier else []
-    enforced = spec.kind == "gate" or verifier is not None
+    problems: list[str] = []
+    if content_validators:
+        for rel_path, validator in content_validators.items():
+            problems.extend(validator(_read_run_json(repo_root, run_id, rel_path)))
     return {
         "state": spec.name,
         "enforced": enforced,

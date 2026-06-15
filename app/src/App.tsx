@@ -8,6 +8,7 @@ import { SessionProvider } from './session/SessionProvider';
 import { LandingScreen } from './screens/LandingScreen';
 import { HelloScreen } from './screens/HelloScreen';
 import { PhotoSelectScreen } from './screens/PhotoSelectScreen';
+import { PhotoReviewScreen } from './screens/PhotoReviewScreen';
 
 function CurrentScreen() {
   const { step, advance, back } = useFlow();
@@ -24,7 +25,8 @@ function CurrentScreen() {
         {step === 'landing' && <LandingScreen />}
         {step === 'hello' && <HelloScreen />}
         {step === 'photos' && <PhotoSelectScreen />}
-        {!['landing', 'hello', 'photos'].includes(step) && (
+        {step === 'review' && <PhotoReviewScreen />}
+        {!['landing', 'hello', 'photos', 'review'].includes(step) && (
           <div style={{ marginTop: 'auto' }}>
             <p>step: {step}</p>
             <div style={{ display: 'flex', gap: 8 }}>

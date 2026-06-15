@@ -10,6 +10,7 @@ import { HelloScreen } from './screens/HelloScreen';
 import { PhotoSelectScreen } from './screens/PhotoSelectScreen';
 import { PhotoReviewScreen } from './screens/PhotoReviewScreen';
 import { RecordScreen } from './screens/RecordScreen';
+import { PrintingScreen } from './screens/PrintingScreen';
 
 function CurrentScreen() {
   const { step, advance, back } = useFlow();
@@ -28,7 +29,8 @@ function CurrentScreen() {
         {step === 'photos' && <PhotoSelectScreen />}
         {step === 'review' && <PhotoReviewScreen />}
         {step === 'record' && <RecordScreen />}
-        {!['landing', 'hello', 'photos', 'review', 'record'].includes(step) && (
+        {step === 'printing' && <PrintingScreen />}
+        {!['landing', 'hello', 'photos', 'review', 'record', 'printing'].includes(step) && (
           <div style={{ marginTop: 'auto' }}>
             <p>step: {step}</p>
             <div style={{ display: 'flex', gap: 8 }}>

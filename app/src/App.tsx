@@ -13,6 +13,7 @@ import { RecordScreen } from './screens/RecordScreen';
 import { PrintingScreen } from './screens/PrintingScreen';
 import { RevealScreen } from './screens/RevealScreen';
 import { RateScreen } from './screens/RateScreen';
+import { SendScreen } from './screens/SendScreen';
 
 function CurrentScreen() {
   const { step, advance, back } = useFlow();
@@ -34,7 +35,8 @@ function CurrentScreen() {
         {step === 'printing' && <PrintingScreen />}
         {step === 'reveal' && <RevealScreen />}
         {step === 'rate' && <RateScreen />}
-        {!['landing', 'hello', 'photos', 'review', 'record', 'printing', 'reveal', 'rate'].includes(step) && (
+        {step === 'send' && <SendScreen />}
+        {!['landing', 'hello', 'photos', 'review', 'record', 'printing', 'reveal', 'rate', 'send'].includes(step) && (
           <div style={{ marginTop: 'auto' }}>
             <p>step: {step}</p>
             <div style={{ display: 'flex', gap: 8 }}>

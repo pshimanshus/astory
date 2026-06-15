@@ -5,6 +5,7 @@ import { PhoneFrame } from './components/PhoneFrame';
 import { PaperBackground } from './components/PaperBackground';
 import { FlowProvider, useFlow } from './flow/FlowProvider';
 import { SessionProvider } from './session/SessionProvider';
+import { LandingScreen } from './screens/LandingScreen';
 
 function CurrentScreen() {
   const { step, advance, back } = useFlow();
@@ -18,12 +19,15 @@ function CurrentScreen() {
         transition={{ duration: 0.35 }}
         style={{ flex: 1, display: 'flex', flexDirection: 'column', padding: 24 }}
       >
-        {/* Screens are swapped in here in later tasks. Temporary nav for now: */}
-        <p style={{ marginTop: 'auto' }}>step: {step}</p>
-        <div style={{ display: 'flex', gap: 8 }}>
-          <button onClick={back}>back</button>
-          <button onClick={advance}>next</button>
-        </div>
+        {step === 'landing' && <LandingScreen />}
+        {step !== 'landing' && (
+          <div style={{ marginTop: 'auto' }}>
+            <p>step: {step}</p>
+            <div style={{ display: 'flex', gap: 8 }}>
+              <button onClick={back}>back</button><button onClick={advance}>next</button>
+            </div>
+          </div>
+        )}
       </motion.div>
     </AnimatePresence>
   );

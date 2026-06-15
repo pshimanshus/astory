@@ -6,6 +6,7 @@ import { PaperBackground } from './components/PaperBackground';
 import { FlowProvider, useFlow } from './flow/FlowProvider';
 import { SessionProvider } from './session/SessionProvider';
 import { LandingScreen } from './screens/LandingScreen';
+import { HelloScreen } from './screens/HelloScreen';
 
 function CurrentScreen() {
   const { step, advance, back } = useFlow();
@@ -20,7 +21,8 @@ function CurrentScreen() {
         style={{ flex: 1, display: 'flex', flexDirection: 'column', padding: 24 }}
       >
         {step === 'landing' && <LandingScreen />}
-        {step !== 'landing' && (
+        {step === 'hello' && <HelloScreen />}
+        {!['landing', 'hello'].includes(step) && (
           <div style={{ marginTop: 'auto' }}>
             <p>step: {step}</p>
             <div style={{ display: 'flex', gap: 8 }}>

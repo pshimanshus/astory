@@ -17,10 +17,13 @@ export function PhotoReviewScreen() {
             style={{ width: 180, height: 240, flex: '0 0 auto', objectFit: 'cover', borderRadius: 18, boxShadow: '0 8px 20px rgba(0,0,0,0.18)' }} />
         ))}
       </div>
-      <button onClick={advance} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, alignSelf: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, alignSelf: 'center' }}>
         <HandDrawnArrow caption={copy.review.mic} />
-        <span style={{ width: 72, height: 72, borderRadius: '50%', background: 'var(--accent)', color: '#fff', display: 'grid', placeItems: 'center', fontSize: 30 }}>🎙</span>
-      </button>
+        <button onClick={advance} aria-label="record your story"
+          style={{ width: 72, height: 72, borderRadius: '50%', background: 'var(--accent)', color: '#fff', display: 'grid', placeItems: 'center', fontSize: 30 }}>
+          🎙
+        </button>
+      </div>
     </div>
   );
 }

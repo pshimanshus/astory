@@ -17,7 +17,7 @@ import { SendScreen } from './screens/SendScreen';
 import { CapReachedScreen } from './screens/CapReachedScreen';
 
 function CurrentScreen() {
-  const { step, advance, back } = useFlow();
+  const { step } = useFlow();
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -38,14 +38,6 @@ function CurrentScreen() {
         {step === 'rate' && <RateScreen />}
         {step === 'send' && <SendScreen />}
         {step === 'cap-reached' && <CapReachedScreen />}
-        {!['landing', 'hello', 'photos', 'review', 'record', 'printing', 'reveal', 'rate', 'send', 'cap-reached'].includes(step) && (
-          <div style={{ marginTop: 'auto' }}>
-            <p>step: {step}</p>
-            <div style={{ display: 'flex', gap: 8 }}>
-              <button onClick={back}>back</button><button onClick={advance}>next</button>
-            </div>
-          </div>
-        )}
       </motion.div>
     </AnimatePresence>
   );

@@ -101,9 +101,9 @@ This v1 pipeline **reuses the studio's assets and rules** — the winner bank, t
 
 Fine-tuned house-style model; hardened uniqueness-judge + automated moderation as coded gates (v1 does light inline LLM checks); horizontal scale / managed queue; payments; the website work.
 
-## 13. Open assumptions to confirm
+## 13. Resolved decisions (confirmed 2026-06-17)
 
-- **Hosting target** for the backend (their machine for a soft launch vs. a small cloud host) — affects deploy + secrets, not the code design.
-- Gemini free tier acceptable for agent reasoning over users' personal stories (limits + data terms), or prefer local/paid for that piece.
-- **Slides per carousel** (default: 3–5, decided per story by the matcher).
-- Target turnaround that keeps the reveal in-session (assumed ~1–3 min).
+- **Hosting:** backend runs on the owner's machine / a small VPS for the soft launch (FastAPI + local store); migrate to managed hosting once proven. Affects deploy + secrets, not the core code.
+- **Gemini free tier:** accepted for launch over users' personal stories; it stays swappable behind `LLMProvider`, and the agent-reasoning piece moves to local/paid if rate limits or data-usage terms become a problem.
+- **Slides per carousel:** 3–5, decided per story by the matcher.
+- **Turnaround:** target ~1–3 min so the reveal stays in-session; longer jobs fall back to notifying the delivery contact.

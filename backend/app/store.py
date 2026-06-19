@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import sqlite3
+from contextlib import contextmanager
 from dataclasses import asdict
 from pathlib import Path
 
@@ -17,8 +18,14 @@ class JobStore:
         with self._conn() as c:
             c.execute("CREATE TABLE IF NOT EXISTS jobs (id TEXT PRIMARY KEY, data TEXT NOT NULL)")
 
-    def _conn(self) -> sqlite3.Connection:
-        return sqlite3.connect(self.db_path)
+    @contextmanager
+    def _conn(self):
+        conn = sqlite3.connect(self.db_path)
+        try:
+            with conn:        # commit on success, rollback on exception
+                yield conn
+        finally:
+            conn.close()      # avoid ResourceWarning on GC
 
     def create(self, job: Job) -> None:
         with self._conn() as c:

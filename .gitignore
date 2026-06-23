@@ -7,3 +7,9 @@ __pycache__/
 references/brain/index/
 references/brain/reports/
 runs/**/local-tools/
+
+# local tooling state / caches (not source)
+.claude/
+.superpowers/
+.playwright-mcp/
+.carousel_research/

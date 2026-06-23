@@ -4,9 +4,9 @@ Use this contract for every final `@a.storyof.two` illustration.
 
 ## Output Surface
 
-- Instagram post: native 4:5 portrait.
-- Reels/Stories: separate native 9:16 illustration.
-- Do not resize, crop, pad, or extend one surface into another.
+- Final illustration: native `1080x1350 px` portrait.
+- Every imagegen prompt must explicitly include `1080x1350 px`.
+- Do not resize, crop, pad, or extend another surface into the final portrait.
 
 ## Identity
 
@@ -53,8 +53,13 @@ Render exact on-image text inside the illustration as readable, polished, hand-d
 
 ## Brandmark
 
-Every final illustration includes tiny low-contrast handwritten `@a.storyof.two` in the bottom-right corner as part of the artwork.
+Every final illustration includes tiny low-contrast handwritten `@a.storyof.two` in the top-right corner as part of the artwork.
 
 ## Scene Logic
 
 The scene must visually prove the written line. Clothing state, props, hands, body position, and eyeline must not contradict the text. Poses must be natural, flattering, and physically believable.
+
+Visual setting is a hard gate, not decoration. The environment, body logic,
+camera angle, prop placement, and negative space must make concrete sense for
+the locked beat; otherwise reject with `VISUAL_SETTING_CONTRADICTION` or
+`SCENE_LOGIC_CONTRADICTION` before prompt lock or image QA acceptance.

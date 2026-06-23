@@ -1,0 +1,52 @@
+{
+  "run_id": "{{run_id}}",
+  "status": "draft|approved|revision_requested|not_applicable",
+  "remix_mode": "permissioned_source_preserving_remix|fresh_original|premise_only",
+  "source_winner": {
+    "source_account": "{{source_account}}",
+    "source_url": "{{source_url}}",
+    "source_shortcode": "{{source_shortcode}}",
+    "source_format": "static|carousel|reel|unknown",
+    "metric_signal": {
+      "likes": 0,
+      "comments": 0,
+      "views": 0,
+      "shares": 0,
+      "saves": 0,
+      "reach": 0,
+      "notes": "{{metric_notes}}"
+    },
+    "bank_paths": [
+      "references/text-style/winner-bank/winner_bank.json",
+      "references/text-style/winner-bank/posts_merged.json",
+      "references/text-style/winner-bank-index-2026-06-14.json"
+    ]
+  },
+  "permission": {
+    "permissioned": true,
+    "permission_basis": "{{creator_statement_or_source}}",
+    "allowed_to_preserve": {
+      "exact_copy": true,
+      "premise": true,
+      "caption": true,
+      "slide_structure": true
+    }
+  },
+  "what_stays": {
+    "copy_or_text_family": "{{what_exact_text_stays_without_reprinting_long_source_here}}",
+    "premise": "{{source_premise}}",
+    "caption_move": "{{caption_move}}",
+    "slide_structure": "{{slide_structure}}",
+    "landing_mechanism": "{{why_the_source_lands}}"
+  },
+  "what_changes": {
+    "a_story_wrapper": "{{couple_scene_conversation_daily_life_or_added_final_slide}}",
+    "visual_world": "{{aachu_zuv_scene_world}}",
+    "added_payoff": "{{new_final_slide_or_behavior}}",
+    "caption_frame": "{{a_story_caption_frame}}"
+  },
+  "novelty_model_path": "planning/source_winner_novelty_model.json",
+  "must_not_polish_away": [],
+  "slop_risks": [],
+  "creator_decision": "pending|approved|revise|fresh_instead"
+}

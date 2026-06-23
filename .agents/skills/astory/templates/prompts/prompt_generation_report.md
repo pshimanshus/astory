@@ -14,6 +14,13 @@ Run: `{{run_id}}`
 
 {{prompt_decisions}}
 
+## Hard Gates
+
+- Native canvas: every prompt says `1080x1350 px`
+- Identity references: actual Aachu/Zuv face anchors must be visible before imagegen
+- Brandmark: every prompt requires tiny top-right `@a.storyof.two`
+- Visual setting: prompt matches the locked scene and makes physical sense
+
 ## Risks
 
 - {{risk}}

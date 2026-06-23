@@ -1,0 +1,43 @@
+{
+  "run_id": "{{run_id}}",
+  "status": "draft|approved|revision_requested|not_applicable",
+  "framework_reference": "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md",
+  "source_winner": {
+    "source_url": "{{source_url}}",
+    "source_account": "{{source_account}}",
+    "source_shortcode": "{{source_shortcode}}",
+    "old_familiar_topic": "{{old_relationship_truth_the_source_makes_fresh}}"
+  },
+  "illusion_of_novelty_model": {
+    "new_reveal": "{{hidden_angle_or_new_frame_that_makes_the_source_feel_fresh}}",
+    "viewer_outcome": "{{send_save_tag_comment_soften_laugh_or_feel_seen_reason}}",
+    "contrast_frame": "{{old_belief_or_obvious_version_the_source_pushes_against}}",
+    "urgency": {
+      "used": false,
+      "reason": "{{real_time_window_or_reason_urgency_is_skipped}}"
+    },
+    "bullseye_proof": "{{closest_proof_the_viewer_recognizes_source_metrics_lived_scene_or_specific_receipt}}",
+    "protect_the_illusion": "{{what_the_remix_must_not_explain_or_flatten}}"
+  },
+  "hook_diagnostic": {
+    "use": "diagnostic_only_not_a_gate",
+    "priority": "winner_causality_and_novelty_come_before_hook_formula",
+    "why_winner_worked": "{{novelty_emotional_reveal_contrast_proof_comment_send_caption_or_visual_reason}}",
+    "symptoms_to_check_without_becoming_rigid": {
+      "delay": "{{only_note_if_the_a_story_wrapper_hides_the_source_engine}}",
+      "confusion": "{{only_note_if_the_a_story_wrapper_makes_the_winner_harder_to_understand}}",
+      "weak_relevance": "{{only_note_if_the_right_viewer_no_longer_feels_addressed}}",
+      "low_curiosity": "{{only_note_if_the_remix_removes_the_source_novelty_or_tension}}"
+    },
+    "non_rigid_decision": "{{preserve_winner_engine_repair_wrapper_or_choose_another_source}}"
+  },
+  "a_story_translation": {
+    "what_stays_from_source": "{{copy_premise_caption_structure_or_landing_engine_to_preserve}}",
+    "what_changes_for_aachu_zuv": "{{specific_a_story_wrapper_change}}",
+    "lived_scene_wrapper": "{{couple_scene_conversation_daily_life_behavior_or_added_payoff}}",
+    "lines_to_remove_because_they_explain_the_lesson": [
+      "{{line_or_claim_that_would_show_the_machinery}}"
+    ]
+  },
+  "gate": "pass|revise|block"
+}

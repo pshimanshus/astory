@@ -6,6 +6,14 @@ Run: `{{run_id}}`
 
 {{primary_caption}}
 
+## Source Caption Move
+
+{{source_caption_move}}
+
+## A Story Caption Wrapper
+
+{{a_story_caption_wrapper}}
+
 ## Alternate Captions
 
 1. {{alternate_1}}

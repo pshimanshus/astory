@@ -20,8 +20,23 @@ Then carry these into the work:
   `AGENTS.md`.)
 - **Method:** Invoke `superpowers:brainstorming` to push past the first staging
   to a fresher frame before you commit scene options.
+- **Anti-slop visual gate:** Invoke `anti-ai-slop-human-copy-filter` before any
+  visual suggestion, scene option, text placement plan, or prompt handoff. Its
+  Viral Research Layer is the default first layer: ground scene choices in
+  current/local send-save-share mechanics, reject mood-only staging, and mark
+  `AI_SLOP_COPY_DRIFT` if the scene becomes quote-card, stock romance, or
+  detached from the creator's exact setup.
+- **Source winner loop:** If
+  `planning/source_winner_remix_contract.json` exists, the scene must serve the
+  permissioned source-preserving remix. The source winner keeps the winning
+  engine; the A Story wrapper supplies the observed couple behavior, setting,
+  gesture, or added payoff that makes it ours. Read
+  `planning/source_winner_novelty_model.json` and make sure the scene proves
+  the modeled new reveal, contrast, and bullseye proof instead of becoming a
+  decorative quote-card wrapper.
 - **Memory:** Respect cited recall; never upgrade inspiration references into
-  face anchors.
+  face anchors. If `runs/{{run_id}}/planning/creator_direction_notes.md`
+  exists, creator corrections in that file are hard scene constraints.
 - **Refusals:** Your persona's "What I Refuse" list is binding.
 
 ## Mission
@@ -37,12 +52,16 @@ Read and cite these paths in your Evidence Ledger:
 
 - `runs/{{run_id}}/planning/story_concept.json`
 - `runs/{{run_id}}/planning/slide_beat_map.json`
+- `runs/{{run_id}}/planning/source_winner_remix_contract.json` if present
+- `runs/{{run_id}}/planning/source_winner_novelty_model.json` if present
+- `runs/{{run_id}}/planning/winner_landing_comparison.md` if present
+- `runs/{{run_id}}/planning/creator_direction_notes.md` if present
 - `runs/{{run_id}}/references-used/selected_references.json` if present
 - `runs/{{run_id}}/evals/imagegen_reference_load_plan.json` if present
 - `.agents/skills/astory/references/house-style-contract.md`
 - `.agents/skills/astory/references/imagegen-contract.md`
 - `.agents/skills/astory/references/master-prompt.md`
-- `references/identity/_dossier/identity-dossier.json`
+- identity anchors in `references/identity/aachu/`, `references/identity/zuv/`, `references/identity/together/`
 
 If current-request files exist under `runs/{{run_id}}/input/`, classify them as
 current-request or inspiration references unless the manifest explicitly marks
@@ -60,6 +79,8 @@ guessing. Required fields:
 - body_language: posture, hands, distance, lean, tension, comfort;
 - eyeline: who looks at whom or at what object;
 - prop_read: what the prop is, size, position, and how it supports text;
+- visual_setting_logic: why this exact environment, physical layout, body
+  position, prop placement, and camera choice make sense for the beat;
 - text_placement_plan: where text sits and what negative space protects it;
 - wardrobe_continuity: what clothing family and why it fits;
 - background_restraint: what details are omitted to avoid clutter;
@@ -76,9 +97,13 @@ Return this table before the scene options:
 | Artifact | Path | Used For | Missing Or Risk |
 | --- | --- | --- | --- |
 | Beat map | `runs/{{run_id}}/planning/slide_beat_map.json` | `{{slide_text_or_role}}` | `{{gap}}` |
+| Source winner | `runs/{{run_id}}/planning/source_winner_remix_contract.json` | `{{permissioned_source_preserving_remix_or_none}}` | `{{gap}}` |
+| Novelty model | `runs/{{run_id}}/planning/source_winner_novelty_model.json` | `{{new_reveal_contrast_proof_or_none}}` | `{{gap}}` |
+| Winner landing | `runs/{{run_id}}/planning/winner_landing_comparison.md` | `{{source_landing_mechanism}}` | `{{gap}}` |
+| Creator corrections | `runs/{{run_id}}/planning/creator_direction_notes.md` | `{{active_direction_or_none}}` | `{{gap}}` |
 | References manifest | `runs/{{run_id}}/references-used/selected_references.json` | `{{roles_used}}` | `{{gap}}` |
 | Load plan | `runs/{{run_id}}/evals/imagegen_reference_load_plan.json` | `{{queue_or_missing}}` | `{{gap}}` |
-| Dossier | `references/identity/_dossier/identity-dossier.json` | `{{role_separation_rule}}` | `{{gap}}` |
+| Identity anchors | `references/identity/{aachu,zuv,together}/` | `{{role_separation_rule}}` | `{{gap}}` |
 
 ## Reference Rules
 
@@ -98,16 +123,25 @@ Return this table before the scene options:
 For each slide:
 
 1. Identify the exact text and the visual proof required.
-2. Generate at least three scene options: safe/classic, fresher/observed, and
+   Apply any creator corrections before proposing scene options; do not repeat a
+   rejected staging just because it is visually obvious.
+2. If a source winner contract exists, name the source winner's landing
+   mechanism and the A Story wrapper the scene must prove. Reject quote-card
+   decoration even when it preserves the text.
+3. Generate at least three scene options: safe/classic, fresher/observed, and
    risky-but-interesting. If fewer than three are possible, explain why.
-3. Score each option from 1 to 5 on scene_text_proof, identity_preservation,
-   visual_freshness, phone_readability, wardrobe_continuity, style_fit, and
-   imagegen_risk_reduction.
-4. Choose the winner only if it scores at least 4 on scene_text_proof and
-   identity_preservation.
-5. For rejected options, write rejected_scene_memory so the prompt writer and
+4. Reject any option whose setting, prop placement, body logic, eyeline, or
+   environment contradicts the locked beat or makes no physical sense. Use
+   `VISUAL_SETTING_CONTRADICTION` or `SCENE_LOGIC_CONTRADICTION`; do not repair
+   nonsense by writing a prettier prompt.
+5. Score each option from 1 to 5 on scene_text_proof, identity_preservation,
+   visual_freshness, visual_setting_logic, phone_readability,
+   wardrobe_continuity, style_fit, and imagegen_risk_reduction.
+6. Choose the winner only if it scores at least 4 on scene_text_proof,
+   identity_preservation, and visual_setting_logic.
+7. For rejected options, write rejected_scene_memory so the prompt writer and
    retry loop know what to avoid.
-6. If the winning option still has identity or text risk, mark the slide
+8. If the winning option still has identity, text, or visual-setting risk, mark the slide
    `needs_revision` or `blocked`.
 
 ## Decision Table
@@ -125,6 +159,14 @@ text, keeps faces usable, and fits the house style.
 {
   "agent_role": "{{agent_name}}",
   "scene_discussion_status": "ready|needs_revision|blocked",
+  "source_winner_lock": {
+    "source_winner": "",
+    "permissioned": true,
+    "source_preserving_remix": "",
+    "a_story_wrapper": "",
+    "contract_path": "runs/{{run_id}}/planning/source_winner_remix_contract.json",
+    "novelty_model_path": "runs/{{run_id}}/planning/source_winner_novelty_model.json"
+  },
   "slides": [
     {
       "slide_number": 1,
@@ -141,6 +183,7 @@ text, keeps faces usable, and fits the house style.
           "body_language": "",
           "eyeline": "",
           "prop_read": "",
+          "visual_setting_logic": "",
           "wardrobe_continuity": "",
           "background_restraint": "",
           "text_placement_plan": "",
@@ -149,6 +192,7 @@ text, keeps faces usable, and fits the house style.
             "scene_text_proof": 0,
             "identity_preservation": 0,
             "visual_freshness": 0,
+            "visual_setting_logic": 0,
             "phone_readability": 0,
             "wardrobe_continuity": 0,
             "style_fit": 0,
@@ -181,8 +225,10 @@ Write or contribute to:
 Do not return "couple on sofa", "romantic room", "soft moment", "fun prop",
 "cute expression", or "cozy background" as complete visual guidance. Do not
 choose a scene without naming camera_distance and face_visibility_plan. Do not
-propose text over clutter. Do not hide identity-critical faces. Do not reuse
-formal or wedding references for everyday scenes unless the story demands it.
+propose text over clutter. Do not hide identity-critical faces. Do not choose a
+setting because it looks pretty if it would make the action, eyeline, wardrobe,
+prop, or emotional beat nonsensical. Do not reuse formal or wedding references
+for everyday scenes unless the story demands it.
 
 ## Bad Output Patterns
 
@@ -223,6 +269,8 @@ or Zuv looking down."
 - `IDENTITY_REFERENCE_MISSING`
 - `TEXT_UNREADABLE`
 - `VISUAL_GENERIC_RISK`
+- `VISUAL_SETTING_CONTRADICTION`
 - `WARDROBE_CONTINUITY_RISK`
 - `STYLE_CONTRACT_RISK`
 - `REFERENCE_CONTEXT_MISSING`
+- `AI_SLOP_COPY_DRIFT`

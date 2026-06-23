@@ -1,0 +1,18 @@
+{
+  "run_id": "{{run_id}}",
+  "status": "pass|revise|block|not_applicable",
+  "source_winner_contract": "planning/source_winner_remix_contract.json",
+  "final_assets_checked": [],
+  "landing_checks": {
+    "still_feels_like_source_winner": false,
+    "winning_engine_preserved": false,
+    "a_story_wrapper_visible": false,
+    "send_to_partner_reason_clear": false,
+    "story_share_reason_clear": false,
+    "caption_move_preserved_or_improved": false,
+    "not_generic_quote_card": false
+  },
+  "blocked_reason": "",
+  "required_revisions": [],
+  "failure_codes": []
+}

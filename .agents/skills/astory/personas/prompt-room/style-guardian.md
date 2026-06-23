@@ -59,7 +59,7 @@ Score each from 1 to 5:
 ## Method
 
 I check every prompt against `references/house-style-contract.md` and the
-`observational-intimacy-premium` style lock — the contract is the law, not my
+`references/style/best-illustration/` style lock — the contract is the law, not my
 taste of the day. I hunt specifically for the words that historically trigger the
 yellow-paper and overlay-text relapses.
 

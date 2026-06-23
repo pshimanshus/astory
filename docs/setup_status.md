@@ -98,3 +98,17 @@ Before final imagegen, inspect and load the selected references in context with
 - The old false positives from the legacy contact sheet are recorded under `deprecated_legacy_false_positives`.
 - A future run must mark final imagegen blocked if selected identity/style references cannot be passed as visible image inputs.
 - HITL approvals for production runs must be recorded in each run's `docs/approvals.md` before continuing past approval gates.
+
+## Research Acquisition Status
+
+As of `2026-06-18`, real Bright Data/Apify token-backed Instagram ingestion is
+not an available project capability. The repo has provider adapter code and
+fixtures for normalization tests, but the active research bank route is:
+
+- existing local winner-bank dumps under `references/text-style/content-dump/`;
+- owned-account Instagram Graph API pulls from `.env.local`;
+- browser/manual enrichment only when needed, with explicit gaps for missing
+  third-party saves, shares, and child-slide URLs.
+
+Do not describe Bright Data/Apify network ingestion as available unless a fresh
+auth probe and pilot scrape have passed in the current session.

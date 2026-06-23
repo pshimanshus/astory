@@ -1,41 +1,47 @@
 # A Story Of Two Illustration Master Prompt
 
-last_updated: 2026-06-10
-status: creator_locked_v2
+last_updated: 2026-06-16
+status: creator_locked_v4_gold_standard_identity_route
 confidence: 1.0
 
-Use this prompt as the canonical base for all `@a.storyof.two`
-illustration-story generation in this repository. Replace only the bracketed
-fields for each slide or asset. Preserve this structure and wording; do not
-swap in a shorter custom prompt.
+Use this as the canonical compact prompt contract for `@a.storyof.two`
+illustration-story generation. The active prompt must be a priority stack, not a
+catalog of every possible rule. Keep it short enough that the image model can
+follow the real priorities: raw face match first, house style second, exact scene
+and text third.
 
-Pair it with the V2-local role-based reference set before every current
-illustration/image/carousel generation:
+Do not restore the old long exact-template prompt. Any prompt with too many
+major sections or too many non-empty instruction lines must fail
+`PROMPT_OVERLOAD`.
 
-- identity dossier: `references/identity/_dossier/identity-dossier.json`
-- identity preflight: `references/identity/_dossier/identity-generation-preflight.md`
-- face identity anchors: `references/identity/aachu/face/`, `references/identity/zuv/face/`
-- expression support: `references/identity/*/smiles/`, `references/identity/*/reactions/`
-- together/body-language support: `references/identity/together/face-and-body-language/`
-- wardrobe support: `references/wardrobe/`
+Pair every current illustration/image/carousel generation with the V2-local
+role-based reference set:
+
+- raw Aachu face anchors: `references/identity/aachu/`
+- raw Zuv face anchors: `references/identity/zuv/`
+- together/body-language support: `references/identity/together/`
 - place support: `references/places/`
-- style lock: `references/style/observational-intimacy-premium/`
+- style lock: `references/style/best-illustration/`
+- failure examples to avoid: `references/failures/visual-inconsistencies/`
 - text style: `references/text-style/`
 - brand rules: `references/brand/`
 
-Creator lock, 2026-05-30: the `observational-intimacy-premium` illustrations
-are the best approved style references so far. Shared images from a new brief
-control only mood, composition, story essence, text, gesture, visuals, and
-objects unless the creator explicitly says otherwise. Aachu/Zuv face anchors
-control face identity. Smile/reaction, together, wardrobe, place, and formal
-references are support roles only and must never replace face anchors.
-
-Use scene-specific reference groups dynamically: face identity for likeness, expression references for emotion, together references for body language, wardrobe references for clothing, and place references only for setting.
+Creator lock, 2026-06-13: the `references/style/best-illustration/` set is the
+canonical approved style + finish + text-style lock (it replaces the retired
+`observational-intimacy-premium` set). Shared images from a new brief control
+only mood, composition, story essence, text, gesture, visuals, and objects
+unless the creator explicitly says otherwise. Aachu/Zuv face anchors control
+face identity. Together and place references are support roles only and must
+never replace face anchors. Before accepting any slide, check it against
+`references/failures/visual-inconsistencies/`: each filename names a failure
+mode (inconsistent/rubber hands, merged seats, cup holder behind car seat,
+forced/wrong locket, wrong gaze direction, missing on-image text, wrong text
+font) that must not recur.
 
 Creator correction, 2026-05-30: yellow/parchment paper and generic non-matching
 faces are hard failures. Do not generate or accept final Aachu/Zuv artwork from
-text-only identity descriptions; actual identity references and style
-references must be usable by the image-generation path.
+text-only identity descriptions; actual identity references and style references
+must be usable by the image-generation path.
 
 Creator correction, 2026-06-06: prompt assembly is autopilot by default. If the
 creator gives a rough concept, prompt, photo, screenshot, or reference image,
@@ -44,179 +50,78 @@ asking for perfect fields. Treat user-shared photos that clearly depict the
 requested people/couple as a current-request role bundle unless the creator or
 context marks them as inspiration only.
 
-Creator correction, 2026-06-10: the creator should not need to reattach
+Creator correction, 2026-06-13: the creator should not need to reattach
 repo-local identity/style references when starting or resuming a flow. Before
 final imagegen, generate the run's local reference manifest with
-`scripts/prepare_imagegen_reference_context.py`, load every queued local image
-with `view_image`, and block instead of generating if the image path cannot be
-read or the active generation path cannot use the loaded image context.
+`scripts/prepare_imagegen_reference_context.py`, load every queued raw
+face-anchor and style image in `view_image_queue` with `view_image`, and block
+instead of generating if the image path cannot be read, the visibility proof is
+stale against the current `load_plan_sha256`, the active queue is binder-only,
+or the active generation path cannot use the loaded image context. Reference
+Binder packets are audit/review artifacts only; they do not satisfy the final
+face-identity input gate.
+
+Creator correction, 2026-06-13: prompts must not fight the no-yellow rule with
+positive color cues. Use neutral white/off-white paper language. Any lamp or
+phone glow must stay local to faces/props and must never tint the paper or
+background.
+
+Creator correction, 2026-06-15: every final imagegen prompt must explicitly
+request native `1080x1350 px` portrait output. Do not use square, 1:1, 9:16,
+or 1080x1080 prompt language for final A Story illustrations unless the creator
+explicitly changes this lock later. Wrong-size output is a hard reject, not a
+resize/crop/pad task.
+
+Creator correction, 2026-06-16: the face-match route from
+`runs/2026-06-15_19-09_plate-nervous/` is now a hard gate, not a loose lesson.
+Before imagegen or final package, `gold_standard_identity_route_gate` must pass:
+selected references, 4 raw Aachu face anchors, 4 raw Zuv face anchors, 3 style
+refs, 11 loaded references, multi-angle face-anchor diversity, current visibility
+proof, pre-generation eval, agent assignment matrix, prompt-room review, scene
+landing preview, scene options, selected idea, slide beat map, slide-count
+decision, trace states, and prompt language that makes raw face anchors the
+highest-priority visual input while forbidding single-anchor pose/expression
+copying.
+If any part fails, stop and mark `GOLD_STANDARD_IDENTITY_ROUTE_MISSING`.
+
+Creator correction, 2026-06-18: contact sheets and a single best reference photo
+are not the identity mechanism. The mechanism is individual raw face anchors
+loaded in context, with multiple angles/expressions per person. Use them to
+synthesize stable likeness only. Do not copy one anchor's posture, head angle,
+eye state, expression, wardrobe, lighting, background, camera position, or scene
+composition into every illustration.
+
+Creator correction, 2026-06-18: source/current-request illustrations with
+visible non-Aachu/Zuv faces must be analysis-only for final identity-sensitive
+imagegen. Do not load them as active imagegen inputs, because the image model can
+blend their faces, hair, pose, and wardrobe into Aachu/Zuv despite role labels.
+Keep them in the manifest and binder trail for audit, then translate only their
+story premise, text, body logic, and broad composition into the prompt.
 
 ```text
-USE CASE:
-illustration-story
-
-ASSET TYPE:
-Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram post illustration in native 4:5 portrait composition when the requested surface is an Instagram post. For Reels/Stories, generate a separate native 9:16 illustration in the same style. Never resize, crop, pad, or extend one surface into the other. Render exact readable text baked naturally into the image and add only the tiny low-contrast bottom-right handwritten brandmark.
-
-REFERENCE IMAGE ROLES:
-When the creator provides only a rough concept, prompt assembly is autopilot by default: infer the first-pass scene, on-image text, and image roles from the supplied concept, prompt, photo, screenshot, or reference image instead of asking for perfect fields.
-Use shared images from the current brief only as mood/composition references unless explicitly told otherwise. Preserve their text, message, emotion, story, hand gesture, scene idea, and requested composition, but do not let their visual style take over.
-If the current brief includes user-shared photos that clearly depict the requested people/couple and no explicit role label is provided, treat those photos as a current-request role bundle: face-visible images may support face identity, expressions may support emotion, visible clothes may support wardrobe, and setting/background may support place. Do not let wardrobe, place, formal, or mood references replace face anchors.
-Use the role-based Aachu/Zuv face-anchor images from `references/identity/aachu/face/` and `references/identity/zuv/face/` as the highest-priority source for the two main characters' faces, hair, skin tone, age, ethnicity, and face structure. Use smiles/reactions only for expression, together references only for body-language and scale, wardrobe references only for clothing/accessories, and place references only for setting.
-Use the observational-intimacy-premium and previous A Story illustration references only for illustration style, handwritten font style, color palette, line quality, paper texture, composition, wardrobe continuity, and recurring props.
-Do not copy the exact pose or scene from the style references unless requested. Preserve identity and style while creating the new scene.
-If actual role-based face-anchor images and style reference images cannot be used by the image-generation call, stop and mark the task blocked for identity/style-reference generation. Do not attempt a final illustration from descriptive identity text alone.
-
-PRIMARY REQUEST:
-Create a premium hand-drawn romantic watercolor-and-ink @a.storyof.two illustration of the same recurring South Asian couple from the role-based face-anchor identity inputs, in the scene described below. The image must feel like the creator-approved observational-intimacy-premium references, not a generic AI watercolor, quote-card, poster, or copied external style.
+GENERATION PRIORITY:
+Create a native 1080x1350 px @a.storyof.two illustration for slide [N] of [TOTAL]. Use raw Aachu/Zuv face anchors as the highest-priority visual input. Use the best-illustration style references only for watercolor-and-ink finish, neutral paper, text style, and composition. Do not let style images, binders, contact sheets, current-request source images, or text descriptions replace raw face anchors. Use multiple face anchors for identity structure only; do not copy any single anchor's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.
 
 ON-IMAGE TEXT:
-[INSERT EXACT TEXT TO INCLUDE IN THE ILLUSTRATION HERE]
+[INSERT EXACT TEXT]
 
 SCENE:
-[INSERT SLIDE SCENE HERE]
+[INSERT THE LOCKED SLIDE SCENE IN ONE FOCUSED PARAGRAPH]
 
-CHARACTER IDENTITY LOCK:
-The same two people must appear in every slide.
+IDENTITY ANCHORS:
+Aachu: preserve her real face from the Aachu face-anchor inputs: large expressive dark eyes, natural brows, soft oval/round face, fuller lips, long dark hair with natural volume, playful real-person charm.
+Zuv: preserve his real face from the Zuv face-anchor inputs: thick dark wavy hair, thick brows, recognizable eyes and nose, trimmed beard and mustache, rounded/oval face, gentle gaze.
+The same two people must appear in every slide. Do not reverse the roles. Do not create new faces, merge their features, change ethnicity/age/skin tone, or over-beautify them into different people.
 
-Woman:
-Preserve her recognizable face from the role-based Aachu face-anchor inputs. She has warm fair-medium South Asian skin, large expressive dark eyes, active natural brows, soft oval/round face structure, fuller lips, and long dark hair with natural volume. Her hair may be loose, half-tied, or in a casual ponytail depending on the scene, but the thickness, dark color, natural volume, and face-framing shape must remain consistent. Keep her playful warmth, softness, and real-person charm. Do not turn her into a generic model, anime girl, doll-like character, or different person.
+STYLE AND COLOR:
+Premium hand-drawn romantic watercolor-and-ink, fine ink/pencil linework, visible paper grain, transparent muted washes, tactile clothing/prop detail, soft faded edges, clean expressive faces. Neutral white/off-white paper only: no yellow, mustard, sepia, beige/tan, parchment, coffee-stained, or heavy cream cast. Keep lamp/phone glow localized to faces/props; never tint the paper or background.
 
-Man:
-Preserve his recognizable face from the role-based Zuv face-anchor inputs. He has warm brown South Asian skin, thick dark wavy hair with visible volume, thick dark brows, recognizable eyes and nose, trimmed beard and mustache, and rounded/oval masculine face structure. Keep the same hair volume, beard density, brow shape, smile, and gentle gaze. Do not make him older, younger, overly muscular, overly chiseled, generic, or photorealistic.
+COMPOSITION AND TEXT:
+Place exact hand-drawn charcoal text in clean upper-middle negative space, preserving spelling, punctuation, capitalization, and line breaks. Use the slide-specific camera distance and emotional proof. Keep both faces readable in a medium-wide, front three-quarter or equally clear composition unless the creator explicitly approved a face-hidden beat. Add tiny low-contrast handwritten @a.storyof.two at top-right.
 
-FACE PRESERVATION RULES:
-Faces are the highest priority.
-Preserve identity over decorative style.
-Actual role-based face-anchor image inputs must drive the faces. Text-only descriptions are not sufficient for final Aachu/Zuv identity preservation.
-Keep eye shape, eyebrow shape, nose, lips, jawline, cheek structure, hairline, skin tone, beard shape, and hairstyle consistent with the reference images.
-The characters may be stylized as watercolor illustrations, but they must still be recognizably the same two people.
-Avoid face drift between slides.
-Avoid changing ethnicity, age, facial proportions, skin tone, hairstyle identity, or body type.
-Do not merge their features with each other.
-Do not create new faces.
-Do not over-beautify them into different people.
+HARD NO:
+No anime, cartoon, doll/model face, photorealism, flat vector, quote-card/poster design, generic AI watercolor, rendered phone UI unless explicitly required, extra text, wrong text, missing brandmark, distorted eyes, bad hands/fingers, extra limbs, face merge, face drift, role reversal, yellow/parchment cast.
 
-ILLUSTRATION STYLE:
-Premium hand-drawn romantic editorial illustration.
-Soft transparent watercolor blooms with fine ink and pencil linework.
-Warm ivory paper background with visible paper grain.
-Delicate sketch texture, visible hand-drawn linework, gentle crosshatching, imperfect organic edges, and soft faded edges.
-Faces should be clean and expressive, with soft blush, warm skin shading, and carefully drawn eyes.
-Clothing and props should have tactile detail: denim grain, fabric folds, seams, scarf patterns, knit texture, leather straps, canvas bags, shoe stitching, wood grain, ceramic cups, small jewelry.
-The style should feel like a modern premium illustrated love-story journal: intimate, tender, cozy, stylish, rich, editorial, and emotionally warm.
-No photorealism, no UI, no random text, no quote-card design.
-
-COLOR PALETTE:
-Warm ivory and soft off-white base.
-This means neutral premium ivory/off-white paper, not yellow, not mustard, not sepia, not beige/tan, not parchment, not coffee-stained, and not heavy cream.
-Muted denim blue.
-Soft navy.
-Off-white cotton.
-Terracotta red.
-Warm tan and camel.
-Gentle brown.
-Faded sage green.
-Peach blush accents.
-Dusty coral heart details.
-Keep the palette soft, cohesive, slightly vintage, and premium. No mustard dominance, yellowish cast, parchment cast, heavy cream/yellow paper, heavy sepia wash, neon colors, harsh contrast, or glossy digital finish.
-
-COMPOSITION AND FORMAT:
-Vertical portrait format. Use native 4:5 for Instagram post outputs, native 9:16 for Reels/Stories outputs, and tall proof compositions similar to 977x1610 only when a proof/reference surface is requested.
-Leave generous warm negative space in the upper-middle portion for the integrated on-image text.
-Place the couple in the lower or middle-lower portion of the canvas unless the scene requires otherwise.
-Use airy framing and soft faded watercolor edges.
-Background should be present but secondary.
-The couple should be the emotional focus.
-Keep the scene readable at phone-screen size.
-Avoid clutter.
-Avoid cropping faces, hands, or important props awkwardly.
-
-EMOTIONAL DIRECTION:
-The couple should feel quietly in love, comfortable, playful, and emotionally safe.
-Use small gestures: eye contact, soft smiles, teasing expressions, hand-holding, leaning toward each other, shared objects, caring body language.
-Romance should feel natural and lived-in, not dramatic or posed.
-Their expressions should match the scene but remain warm and human.
-
-WARDROBE CONTINUITY:
-Use casual modern Indo-western styling consistent with previous slides.
-
-Woman wardrobe options:
-White oversized shirt, blue jeans, blue-red patterned scarf, red patterned sleeveless top, soft printed kurta, sandals, sneakers, small gold earrings, layered necklaces, bangles, tote bag.
-
-Man wardrobe options:
-White casual shirt, navy hoodie, black shirt, tan pants, blue jeans, watch, casual sneakers, backpack.
-
-Use outfits appropriate to the scene, but keep the clothing language connected to the existing carousel. Repeat recognizable items when helpful: blue-red scarf, cream tote bag, white shirt, denim, sneakers, small jewelry.
-
-RECURRING PROPS AND MOTIFS:
-Use subtle recurring story objects when relevant:
-cream tote bag, blue-red patterned scarf, denim pouch, coffee cup, sneakers, phone with small heart sticker, travel bag, plants, warm lanterns, balcony lights, wooden bench, cafe table, tiny hand-drawn hearts.
-Props should feel intentional and story-driven, not random decoration.
-
-BACKGROUND STYLE:
-Backgrounds should be softly illustrated with lower detail than the characters.
-Use warm minimal environments: cozy doorway, bedroom corner, balcony, cafe bench, garden edge, travel path, city overlook, hotel room, wooden furniture, potted plants, soft lights.
-Let background edges fade into the cream paper.
-Do not create a hard rectangular scene box.
-Do not make the background photorealistic.
-
-LINE AND TEXTURE DETAILS:
-Fine ink outlines with natural variation.
-Soft pencil construction lines may remain subtly visible.
-Watercolor blooms, dry-brush texture, paper grain, and transparent layered washes.
-Clothing folds should be sketched with confident thin lines.
-Hair should be drawn with layered curls and strands, not a flat black mass.
-Skin should have warm watercolor shading, not plastic smoothness.
-
-ANATOMY AND QUALITY RULES:
-Natural hands and fingers.
-Correct number of fingers.
-Clean facial anatomy.
-No distorted eyes.
-No warped smile.
-No broken wrists.
-No extra limbs.
-No duplicated body parts.
-No melted accessories.
-No random unreadable text.
-No external watermark.
-No external logo.
-Always include the tiny low-contrast handwritten brandmark `@a.storyof.two` at the bottom-right corner as part of the artwork.
-No AI-looking artifacts.
-No hyperrealism.
-No anime.
-No 3D render.
-No flat vector art.
-No children's cartoon style.
-No heavy black outlines.
-No harsh shadows.
-No oversaturated colors.
-
-SCENE LOGIC AND POSE RULES:
-The image must visually prove the exact written line. Clothing state, props, hands, body position, and eye-line must not contradict the ON-IMAGE TEXT. If the text says socks before pants, the man cannot already be wearing pants; the pants must be visibly separate and unworn. If a slide depends on a habit or ritual, show the habit or its evidence clearly enough that the scene still works when the text is hidden. Aachu and Zuv must always look natural, flattering, and physically believable. No crouched, cramped, squatting, awkwardly folded, broken, or unflattering poses. Legs and feet must be proportional and comfortably placed.
-
-TEXT RULE:
-Include the exact written text provided in the ON-IMAGE TEXT section directly inside the generated illustration. The text must be baked into the image as readable, polished, hand-drawn typography that suits the creator-approved observational-intimacy-premium font styles and romantic watercolor-and-ink storybook style of this project. Place the text in clean warm upper-middle negative space, without covering faces, hands, important props, or emotional gestures. Preserve spelling, line breaks, punctuation, capitalization, and wording exactly. Lock the handwritten lettering style to the approved references: slightly imperfect, warm black/charcoal, airy, human, and integrated into the paper. Do not add extra words, random letters, unreadable marks, labels, signs, logos, watermarks, or speech bubbles unless explicitly requested. The typography should feel integrated into the paper and illustration, not like a digital overlay, poster title, or separate graphic layer.
-
-STYLE ACCEPTANCE RULE:
-Identity match is necessary but never sufficient. If the output looks like a generic AI watercolor poster, photorealistic portrait, flat digital art, anime/cartoon, hard-edged screenshot copy, or any non-A Story visual language, the image fails even if the faces are closer. If the paper/background reads yellow, mustard, sepia, beige/tan, parchment, coffee-stained, or heavy cream, the image fails. If the faces do not clearly match the selected Aachu/Zuv face-anchor inputs, the image fails. Regenerate only through a path that uses actual role-based face-anchor and style reference images. The approved look is observational-intimacy-premium A Story of Two illustrations: neutral warm ivory/off-white paper, visible paper grain, fine ink/pencil linework, transparent watercolor blooms, delicate sketch texture, muted vintage palette, tactile clothing detail, soft faded edges, exact handwritten text, tiny bottom-right brandmark, and no quote-card design.
-
-BRANDMARK RULE:
-Every final @a.storyof.two illustration must include the tiny handwritten brandmark `@a.storyof.two` in the bottom-right corner. Keep it subtle, low-contrast, and integrated into the paper texture. It should read like the project signature, not a platform watermark or large logo. Do not omit it.
-
-FINAL IDENTITY REINFORCEMENT:
-Before finalizing, ensure the woman and man still look like the exact same recurring couple from the role-based face-anchor inputs. The scene, pose, outfit, and props may change, but their faces, hair identities, skin tones, and emotional presence must remain consistent.
-
-FINAL STYLE REINFORCEMENT:
-The final image should look like a polished hand-drawn watercolor-and-ink romantic carousel illustration from "A Story of Two": warm, intimate, travel-light, emotionally soft, detailed, premium, and consistent with the observational-intimacy-premium references and previous slides.
-
-REFERENCE ESSENCE RULE:
-When the user provides non-A Story inspiration images or screenshots, preserve the text, message, emotion, story, hand gesture, body-language essence, and requested composition from those references, but convert the final artwork fully into the A Story of Two watercolor-and-ink house style. Remove screenshot UI, social handles, counters, buttons, watermarks, signatures, and other platform artifacts unless explicitly requested as story content.
-
-BRAND INTEGRATION VISIBILITY RULE:
-When brand integration is requested, the brand product must remain secondary to the love-story scene but the brand name and core product cue must be clearly readable at phone-screen size. Use a front-facing or three-quarter product angle, enough product size, clean contrast, and minimal occlusion. Do not hide the product name behind scarves, hands, glare, folds, or clutter. If the brand name, logo wordmark, or product type is not legible, the image fails the brand-integration test and must be regenerated. Product labels are allowed only for the requested brand products; do not add unrelated logos, labels, or random text.
-
-BRAND LABEL WORKFLOW:
-For tiny product packaging, do not rely on the image model alone to spell product text. Generate the illustrated product body, placement, color, and scene integration first. If the brand/product wording is not readable, apply a controlled exact label pass only if a project-local label tool exists and preserves the A Story watercolor style. This exception applies only to brand/product microtext; the slide's narrative ON-IMAGE TEXT still belongs in the illustration-generation prompt.
+GENERATION HARD GATE:
+Do not generate final Aachu/Zuv artwork from text descriptions or file paths alone. If actual raw Aachu/Zuv face anchors and style references are not loaded as usable image inputs in this conversation, stop and mark IDENTITY_REFERENCE_INPUT_UNPROVEN. If `gold_standard_identity_route_gate` fails, stop and mark GOLD_STANDARD_IDENTITY_ROUTE_MISSING. The prompt must include `1080x1350 px`; if it does not, stop and mark PROMPT_CANVAS_SIZE_MISSING. Generate one slide at a time; if a slide fails hard gates, stop before the next slide.
 ```

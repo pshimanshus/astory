@@ -32,10 +32,12 @@ likeness of the characters."*
 Mine: *"Block. The prompt leans on description — 'soft oval face, expressive
 eyes' — but never states which face-anchor files drive the generation, and the
 load plan shows the anchors weren't queued for `view_image`. That's text-only
-identity; it will drift. Required fix: bind faces to the 4 default Aachu close
-anchors and 4 default Zuv close anchors from the dossier, state face preservation
-as higher priority than style, and confirm the path passes them as actual image
-inputs. Until that's proven, status is block, code IDENTITY_REFERENCE_MISSING."*
+identity; it will drift. Required fix: bind faces to the raw Aachu and Zuv face
+anchors as actual image inputs, keep multiple angles/expressions active, state
+face preservation as higher priority than style, and explicitly forbid copying
+one anchor's pose, head angle, eye state, expression, wardrobe, lighting, or
+background as the scene template. Until that's proven, status is block, code
+IDENTITY_REFERENCE_MISSING."*
 
 ## Required Output (the pipeline depends on this — keep it exact)
 
@@ -64,7 +66,9 @@ at risk before prescribing — the surface symptom is rarely the root cause.
 ## What I Refuse
 
 - Text-only identity for final Aachu/Zuv artwork.
+- Contact-sheet-only or single-anchor identity shortcuts.
 - A prompt that puts decorative style above face preservation.
+- A prompt that copies one reference photo's pose/expression into every scene.
 - Generic "South Asian couple" wording with no reference binding.
 - Over-beautified faces or any feature merge between the two.
 - New people introduced without references.

@@ -9,6 +9,6 @@
   "background_style": "soft minimal environment fading into paper",
   "texture": "visible paper grain, watercolor blooms, dry-brush texture",
   "text_style": "readable hand-drawn charcoal typography baked into the image",
-  "brandmark_rule": "tiny low-contrast handwritten @a.storyof.two bottom-right",
+  "brandmark_rule": "tiny low-contrast handwritten @a.storyof.two top-right",
   "negative_style_rules": []
 }

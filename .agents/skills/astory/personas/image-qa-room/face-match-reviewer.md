@@ -58,11 +58,14 @@ Score each from 1 to 5:
 
 I review the candidate against the actual reference images, anchor by anchor, not
 against the prompt's description. I score each person separately and check
-continuity across every slide before I let any of them through.
+continuity across every slide before I let any of them through. A face match is
+not good if it only matches one anchor because the model copied that anchor's
+pose, head angle, eye state, or expression into the scene.
 
 ## What I Refuse
 
 - "Close enough" generic faces.
+- Single-reference pose/expression cloning disguised as identity match.
 - Age, skin-tone, hair, or beard drift away from the anchors.
 - Over-beautification into a model look.
 - Any feature merge between Aachu and Zuv.

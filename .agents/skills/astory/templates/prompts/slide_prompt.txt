@@ -1,50 +1,25 @@
-USE CASE:
-illustration-story
-
-ASSET TYPE:
-Premium hand-drawn romantic watercolor-and-ink @a.storyof.two Instagram {{surface}} illustration in native {{aspect_ratio}} composition.
-
-REFERENCE IMAGE ROLES:
-Identity references control faces, hair, skin tone, age, expressions, posture, wardrobe anchors, and relationship energy. Style references control watercolor-and-ink finish, paper tone, composition, text style, and palette.
-
-PRIMARY REQUEST:
-Create slide {{slide_number}} of {{slide_count}} for the same recurring A Story of Two couple.
+GENERATION PRIORITY:
+Create a native 1080x1350 px @a.storyof.two illustration for slide {{slide_number}} of {{slide_count}}. Use raw Aachu/Zuv face anchors as the highest-priority visual input. Use the best-illustration style references only for watercolor-and-ink finish, neutral paper, text style, and composition. Do not let style images, binders, contact sheets, or text descriptions replace raw face anchors. Use multiple face anchors for identity structure only; do not copy any single anchor's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.
 
 ON-IMAGE TEXT:
 {{exact_on_image_text}}
 
-TEXT PLACEMENT / TYPOGRAPHY:
-Readable, polished, hand-drawn charcoal typography integrated into upper-middle negative space. Preserve exact wording, spelling, punctuation, capitalization, and line breaks.
-
 SCENE:
 {{scene}}
 
-POSE / BODY LANGUAGE:
-{{pose}}
+IDENTITY ANCHORS:
+Aachu: preserve her real face from the Aachu face-anchor inputs: large expressive dark eyes, natural brows, soft oval/round face, fuller lips, long dark hair with natural volume, playful real-person charm.
+Zuv: preserve his real face from the Zuv face-anchor inputs: thick dark wavy hair, thick brows, recognizable eyes and nose, trimmed beard and mustache, rounded/oval face, gentle gaze.
+The same two people must appear in every slide. Do not reverse the roles. Do not create new faces, merge their features, change ethnicity/age/skin tone, or over-beautify them into different people.
 
-WARDROBE:
-{{wardrobe}}
+STYLE AND COLOR:
+Premium hand-drawn romantic watercolor-and-ink, fine ink/pencil linework, visible paper grain, transparent muted washes, tactile clothing/prop detail, soft faded edges, clean expressive faces. Neutral white/off-white paper only: no yellow, mustard, sepia, beige/tan, parchment, coffee-stained, or heavy cream cast. Keep lamp/phone glow localized to faces/props; never tint the paper or background.
 
-PROPS:
-{{props}}
+COMPOSITION AND TEXT:
+Place exact hand-drawn charcoal text in clean upper-middle negative space, preserving spelling, punctuation, capitalization, and line breaks. Keep both faces readable in a medium-wide, front three-quarter or equally clear composition unless the creator explicitly approved a face-hidden beat. {{scene_logic_proof}} Add tiny low-contrast handwritten @a.storyof.two at top-right.
 
-BACKGROUND:
-{{background}}
+HARD NO:
+{{negative_constraints}} No anime, cartoon, doll/model face, photorealism, flat vector, quote-card/poster design, generic AI watercolor, extra text, wrong text, missing brandmark, distorted eyes, bad hands/fingers, extra limbs, face merge, face drift, role reversal, yellow/parchment cast.
 
-EMOTION:
-{{emotion}}
-
-IDENTITY LOCK:
-Preserve the actual Aachu/Zuv faces from the selected identity references. Identity preservation is more important than decorative style. Do not create new faces, merge faces, change ethnicity, alter age, change skin tone, change facial proportions, or over-beautify.
-
-STYLE LOCK:
-Premium hand-drawn romantic editorial watercolor-and-ink illustration on neutral warm ivory/off-white paper with visible grain, fine ink/pencil linework, transparent watercolor blooms, tactile clothing and prop detail, soft faded edges, and no generic AI watercolor or quote-card design.
-
-BRANDMARK:
-Include tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork.
-
-SCENE LOGIC:
-{{scene_logic_proof}}
-
-AVOID:
-{{negative_constraints}}
+GENERATION HARD GATE:
+Do not generate final Aachu/Zuv artwork from text descriptions or file paths alone. If actual raw Aachu/Zuv face anchors and style references are not loaded as usable image inputs in this conversation, stop and mark IDENTITY_REFERENCE_INPUT_UNPROVEN. If gold_standard_identity_route_gate fails, stop and mark GOLD_STANDARD_IDENTITY_ROUTE_MISSING. If this prompt does not explicitly include 1080x1350 px, stop and mark PROMPT_CANVAS_SIZE_MISSING. Generate one slide at a time; if a slide fails hard gates, stop before the next slide.

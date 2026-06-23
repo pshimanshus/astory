@@ -1,0 +1,19 @@
+{
+  "run_id": "{{run_id}}",
+  "status": "pass|revise|block|not_applicable",
+  "source_winner_contract": "planning/source_winner_remix_contract.json",
+  "scores": {
+    "source_copy_preservation": 0,
+    "source_premise_preservation": 0,
+    "caption_move_preservation": 0,
+    "slide_structure_preservation": 0,
+    "a_story_wrapper_strength": 0,
+    "send_save_comment_trigger_preserved": 0,
+    "risk_of_ai_polish": 0,
+    "overall": 0
+  },
+  "must_fix_before_prompt_lock": [],
+  "what_moved_too_far_from_source": [],
+  "what_needs_more_a_story_life": [],
+  "failure_codes": []
+}

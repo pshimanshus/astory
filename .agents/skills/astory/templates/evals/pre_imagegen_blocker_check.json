@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "run_id": "{{run_id}}",
+  "status": "pass|block",
+  "emotional_state_check": {
+    "status": "pass|block",
+    "question": "Does the visible face expression prove the slide emotion, or betray it?",
+    "failure_codes": []
+  },
+  "identity_reference_collision_check": {
+    "status": "pass|block",
+    "question": "Which loaded identity reference could imagegen copy too literally?",
+    "unsafe_active_refs": [],
+    "failure_codes": []
+  },
+  "fallback_review_check": {
+    "status": "pass|block",
+    "question": "Did a fallback local pass try to unlock imagegen after a creator correction?",
+    "failure_codes": []
+  },
+  "creator_prompt_lock_check": {
+    "status": "pass|block",
+    "question": "Was the concrete prompt pack visible at prompt lock after the latest correction?",
+    "failure_codes": []
+  },
+  "canvas_output_expectation": {
+    "status": "pass|block",
+    "question": "Is native 1080x1350 px generation required and honestly handled?",
+    "failure_codes": []
+  },
+  "imagegen_allowed": false,
+  "blocking_failures": []
+}

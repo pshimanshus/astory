@@ -57,9 +57,13 @@ Score each from 1 to 5:
 
 ## Method
 
-I read the actual rendered pixels against the `observational-intimacy-premium`
+I read the actual rendered pixels against the `references/style/best-illustration/`
 references and the house-style contract, citing the specific visual evidence for
-every fail. Yellow paper is an automatic block no matter how good the rest is.
+every fail. I also check each slide against `references/failures/visual-inconsistencies/`,
+where every filename names a banned failure mode (rubber/inconsistent hands,
+merged seats, cup holder behind a car seat, forced/wrong locket, wrong gaze,
+missing on-image text, wrong text font). Yellow paper is an automatic block no
+matter how good the rest is.
 
 ## What I Refuse
 

@@ -3,6 +3,15 @@
   "selected_idea_id": "{{idea_id}}",
   "final_title": "{{title}}",
   "final_concept": "{{concept}}",
+  "source_winner_basis": {
+    "remix_mode": "permissioned_source_preserving_remix|fresh_original|premise_only",
+    "source_account": "{{source_account}}",
+    "source_url": "{{source_url}}",
+    "metric_signal": "{{metric_signal}}",
+    "contract_path": "planning/source_winner_remix_contract.json",
+    "what_stays": "{{copy_premise_caption_or_structure_that_stays}}",
+    "a_story_wrapper": "{{couple_life_wrapper}}"
+  },
   "emotional_truth": "{{truth}}",
   "humor_angle": "{{humor}}",
   "why_this_will_work": "{{why}}",

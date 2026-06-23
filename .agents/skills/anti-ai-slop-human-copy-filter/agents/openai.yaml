@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anti-AI-Slop Human Copy Filter"
+  short_description: "Human-feeling copy guardrail"
+  default_prompt: "Use $anti-ai-slop-human-copy-filter before writing any caption, hook, carousel text, prompt, or creative copy."

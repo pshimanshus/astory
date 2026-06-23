@@ -7,6 +7,10 @@ Status: `{{status}}`
 
 {{what_worked}}
 
+## Source Winner Lessons
+
+{{source_winner_lessons}}
+
 ## What Failed Or Drifted
 
 {{what_failed}}

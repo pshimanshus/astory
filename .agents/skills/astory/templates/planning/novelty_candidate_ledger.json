@@ -1,0 +1,71 @@
+{
+  "run_id": "{{run_id}}",
+  "status": "draft|approved|revision_requested|blocked",
+  "source_bank_search": {
+    "used_winner_bank": true,
+    "bank_paths": [
+      "references/text-style/winner-bank/winner_bank.json",
+      "references/text-style/winner-bank/posts_merged.json",
+      "references/text-style/winner-bank-index-2026-06-14.json"
+    ],
+    "evidence_gap": "{{evidence_gap_or_empty_string}}"
+  },
+  "candidates": [
+    {
+      "candidate_id": "idea_001",
+      "title": "{{specific_behavior_or_emotional_contradiction}}",
+      "source_winner": {
+        "source_url": "{{source_url}}",
+        "source_account": "{{source_account}}",
+        "source_shortcode": "{{source_shortcode}}",
+        "metric_signal": "{{shares_saves_comments_reach_or_notes}}"
+      },
+      "source_engine": {
+        "old_familiar_topic": "{{old_relationship_truth}}",
+        "first_frame_stop": "{{why_the_source_stops_scroll}}",
+        "swipe_reason": "{{why_viewer_keeps_swiping}}",
+        "send_or_save_trigger": "{{why_viewer_sends_or_saves}}",
+        "what_must_stay": "{{copy_premise_structure_or_landing_engine_to_preserve}}"
+      },
+      "novelty_model": {
+        "new_reveal": "{{hidden_angle_or_new_frame}}",
+        "viewer_outcome": "{{send_save_tag_comment_soften_laugh_or_feel_seen_reason}}",
+        "contrast_frame": "{{old_belief_or_obvious_version_to_push_against}}",
+        "urgency": {
+          "used": false,
+          "reason": "{{real_time_window_or_reason_urgency_is_skipped}}"
+        },
+        "bullseye_proof": "{{closest_source_metric_scene_or_specific_receipt}}",
+        "protect_the_illusion": "{{what_the_remix_must_not_explain_or_flatten}}"
+      },
+      "a_story_wrappers": [
+        {
+          "wrapper_id": "wrapper_001",
+          "wrapper_type": "scene|conversation|payoff",
+          "what_changes_for_aachu_zuv": "{{specific_a_story_wrapper_change}}",
+          "lived_scene_wrapper": "{{couple_scene_conversation_daily_life_behavior_or_payoff}}",
+          "visual_proof": "{{object_gesture_body_placement_eyeline_or_environment_detail}}",
+          "send_or_comment_trigger": "{{why_someone_sends_comments_or_saves}}",
+          "flat_or_generic_risk": "{{what_would_make_this_feel_like_generic_romance}}"
+        }
+      ],
+      "selection_scores": {
+        "winner_fit": 0,
+        "source_preservation": 0,
+        "novelty_strength": 0,
+        "aachu_zuv_specificity": 0,
+        "send_save_trigger": 0,
+        "anti_slop_risk": 0,
+        "visual_proof_potential": 0,
+        "total": 0
+      },
+      "decision": "shortlisted|selected|rejected",
+      "rejection_reason": "{{reason_if_rejected_or_empty_string}}"
+    }
+  ],
+  "selected_candidate_id": "{{selected_candidate_id}}",
+  "rejected_generic_versions": [
+    "{{obvious_generic_version_rejected}}"
+  ],
+  "gate": "pass|revise|block"
+}

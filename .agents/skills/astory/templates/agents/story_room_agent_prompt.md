@@ -22,8 +22,23 @@ Then carry these into the work:
 - **Method:** Before generating, invoke `superpowers:brainstorming` — interrogate
   the real beat, what's false about the obvious version, what only this couple
   would recognize — then write. Do not free-associate a list.
+- **Anti-slop copy gate:** Invoke `anti-ai-slop-human-copy-filter` before any
+  storyboard, on-image text, caption thought, slide beat, prompt handoff, or
+  visual suggestion. Its Viral Research Layer is the default first layer:
+  ground the story in send/save/share mechanics, preserve the creator's exact
+  setup, reject the obvious generic version, and mark `AI_SLOP_COPY_DRIFT`
+  before anything becomes preachy, therapy-page, quote-card, or platform-blind.
+- **Source winner loop:** If
+  `planning/source_winner_remix_contract.json` exists, treat the source winner
+  as a hard story constraint. In a permissioned source-preserving remix, keep
+  the winning copy/premise/caption/slide structure attached and make the A Story
+  wrapper stronger; read `planning/source_winner_novelty_model.json` and keep
+  the modeled new reveal, contrast, proof, and protected illusion alive instead
+  of rewriting it into a cleaner fresh idea.
 - **Memory:** Respect any cited recall from `planning/memory_recall.md`. Do not
-  invent lessons; do not ignore real ones.
+  invent lessons; do not ignore real ones. If
+  `runs/{{run_id}}/planning/creator_direction_notes.md` exists, creator
+  corrections in that file override cleaner generic staging.
 - **Refusals:** Your persona's "What I Refuse" list is binding. Returning
   something on that list is a failure, not a stylistic choice.
 
@@ -41,11 +56,15 @@ Read these paths and cite them in your Evidence Ledger:
 
 - `runs/{{run_id}}/input/creative_brief.json`
 - `runs/{{run_id}}/planning/memory_recall.md` if present
+- `runs/{{run_id}}/planning/creator_direction_notes.md` if present
 - `runs/{{run_id}}/planning/selected_idea.json`
+- `runs/{{run_id}}/planning/source_winner_remix_contract.json` if present
+- `runs/{{run_id}}/planning/source_winner_novelty_model.json` if present
+- `runs/{{run_id}}/planning/winner_landing_comparison.md` if present
 - `.agents/skills/astory/personas/story-room/{{persona_file}}`
 - `.agents/skills/astory/references/house-style-contract.md`
 - `.agents/skills/astory/references/master-prompt.md`
-- `references/identity/_dossier/identity-dossier.json`
+- identity anchors in `references/identity/aachu/`, `references/identity/zuv/`, `references/identity/together/`
 
 If a required artifact is missing, stop that part of the work and return
 `REFERENCE_CONTEXT_MISSING` or the closest real failure code. Do not fill gaps
@@ -77,7 +96,11 @@ Before the recommendation, include an Evidence Ledger table:
 | --- | --- | --- | --- |
 | Creative brief | `runs/{{run_id}}/input/creative_brief.json` | `{{specific_premise_or_text}}` | `{{gap}}` |
 | Selected idea | `runs/{{run_id}}/planning/selected_idea.json` | `{{locked_angle}}` | `{{gap}}` |
+| Source winner | `runs/{{run_id}}/planning/source_winner_remix_contract.json` | `{{permissioned_source_preserving_remix_or_none}}` | `{{gap}}` |
+| Novelty model | `runs/{{run_id}}/planning/source_winner_novelty_model.json` | `{{new_reveal_contrast_proof_or_none}}` | `{{gap}}` |
+| Winner landing | `runs/{{run_id}}/planning/winner_landing_comparison.md` | `{{source_landing_mechanism}}` | `{{gap}}` |
 | Memory recall | `runs/{{run_id}}/planning/memory_recall.md` | `{{cited_lesson_or_none}}` | `{{gap}}` |
+| Creator corrections | `runs/{{run_id}}/planning/creator_direction_notes.md` | `{{active_direction_or_none}}` | `{{gap}}` |
 | House style | `.agents/skills/astory/references/house-style-contract.md` | `{{style_constraint}}` | `{{gap}}` |
 
 If an artifact is unavailable, mark it `missing` and explain the consequence.
@@ -100,18 +123,23 @@ Do not cite a file you did not actually inspect.
 Follow this exact sequence.
 
 1. Premise Lock: restate the approved idea in one sentence with the actual
-   emotional joke or truth. Name what must not change.
-2. Tension Ladder: define the progression from setup to payoff. Each rung must
+   emotional joke or truth. Name what must not change, including any creator
+   correction from `creator_direction_notes.md`.
+2. Source Winner Lock: if the idea is a permissioned source-preserving remix,
+   name the source winner, what stays, the A Story wrapper, and the landing
+   mechanism that cannot be weakened from
+   `planning/source_winner_remix_contract.json`.
+3. Tension Ladder: define the progression from setup to payoff. Each rung must
    change either the viewer's knowledge, the couple's action, or the emotional
    pressure.
-3. Slide Economy: choose the slide count. Give a cut_or_keep_verdict for every
+4. Slide Economy: choose the slide count. Give a cut_or_keep_verdict for every
    proposed slide. Explain why fewer slides fail and why more slides dilute.
-4. slide_beat_contract: for each slide, define the role, exact text, visual job,
+5. slide_beat_contract: for each slide, define the role, exact text, visual job,
    micro_action, required face visibility, and risk.
-5. Retention Pass: name what makes the viewer swipe from each slide to the next.
-6. Visual Handoff: list unresolved questions that the Visual Scene Discussion
+6. Retention Pass: name what makes the viewer swipe from each slide to the next.
+7. Visual Handoff: list unresolved questions that the Visual Scene Discussion
    agent must answer with scene options.
-7. Blocker Pass: mark anything that cannot safely proceed to visual selection.
+8. Blocker Pass: mark anything that cannot safely proceed to visual selection.
 
 ## Decision Table
 
@@ -136,6 +164,14 @@ Return Markdown plus this JSON-ready object:
     "must_not_change": [],
     "emotional_truth": "",
     "relationship_dynamic": ""
+  },
+  "source_winner_lock": {
+    "source_winner": "",
+    "permissioned": true,
+    "source_preserving_remix": "",
+    "a_story_wrapper": "",
+    "contract_path": "runs/{{run_id}}/planning/source_winner_remix_contract.json",
+    "novelty_model_path": "runs/{{run_id}}/planning/source_winner_novelty_model.json"
   },
   "slide_count_decision": {
     "recommended_slide_count": 0,
@@ -204,3 +240,4 @@ Use these when applicable:
 - `TEXT_UNREADABLE`
 - `VISUAL_GENERIC_RISK`
 - `REFERENCE_CONTEXT_MISSING`
+- `AI_SLOP_COPY_DRIFT`

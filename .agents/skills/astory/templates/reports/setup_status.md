@@ -23,9 +23,8 @@ Decision: `{{gate_decision}}`
 - `references/identity/aachu/`: {{aachu_status}}
 - `references/identity/zuv/`: {{zuv_status}}
 - `references/identity/together/`: {{together_status}}
-- `references/identity/current-request/`: {{current_request_status}}
-- `references/identity/_dossier/`: {{dossier_status}}
-- `references/style/`: {{style_status}}
+- `references/style/best-illustration/`: {{style_status}}
+- `references/failures/visual-inconsistencies/`: {{failures_status}}
 - `references/text-style/`: {{text_style_status}}
 - `references/brand/`: {{brand_status}}
 

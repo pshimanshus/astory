@@ -15,9 +15,9 @@ Assignment timestamp: `{{timestamp}}`
 
 | Room | Agent | Assignment Mode | Agent Id Or Local Label | Prompt Packet | Ownership | Success Criteria | Hard Rejects | Output Path |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Idea Room | Relatability Ethnographer | `{{mode}}` | `{{id_or_label}}` | `{{prompt_packet_or_persona}}` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |
-| Idea Room | Shareability Strategist | `{{mode}}` | `{{id_or_label}}` | `{{prompt_packet_or_persona}}` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |
-| Idea Room | Visual Story Director | `{{mode}}` | `{{id_or_label}}` | `{{prompt_packet_or_persona}}` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |
+| Idea Room | Relatability Ethnographer | `{{mode}}` | `{{id_or_label}}` | `templates/agents/idea_room_agent_prompt.md` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |
+| Idea Room | Shareability Strategist | `{{mode}}` | `{{id_or_label}}` | `templates/agents/idea_room_agent_prompt.md` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |
+| Idea Room | Visual Story Director | `{{mode}}` | `{{id_or_label}}` | `templates/agents/idea_room_agent_prompt.md` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |
 | Story Room | Story Director | `{{mode}}` | `{{id_or_label}}` | `templates/agents/story_room_agent_prompt.md` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |
 | Story Room | Pacing Editor | `{{mode}}` | `{{id_or_label}}` | `templates/agents/story_room_agent_prompt.md` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |
 | Story Room | Swipe Retention Critic | `{{mode}}` | `{{id_or_label}}` | `templates/agents/story_room_agent_prompt.md` | `{{ownership}}` | `{{success_criteria}}` | `{{hard_rejects}}` | `{{output_path}}` |

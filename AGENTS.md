@@ -56,6 +56,7 @@ after. This is mandatory, not advisory:
 
 | When the work is... | Reach for (before acting) |
 | --- | --- |
+| Writing or thinking toward captions, hooks, on-image text, carousel copy, storyboards, prompt copy, visual suggestions, or any creative written artifact | `anti-ai-slop-human-copy-filter` |
 | Creating/refining ideas, story, or any creative direction | `superpowers:brainstorming` |
 | Writing or changing any code or test | `superpowers:test-driven-development` |
 | Any bug, failure, or unexpected behavior | `superpowers:systematic-debugging` |

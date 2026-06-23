@@ -10,14 +10,33 @@
     "text_readability": 0,
     "exact_text_preservation": 0,
     "brandmark_presence": 0,
+    "canvas_size_1080x1350_portrait": 0,
     "neutral_ivory_paper": 0,
     "scene_logic": 0,
+    "visual_setting_logic": 0,
+    "source_winner_visual_alignment": 0,
+    "a_story_wrapper_visible": 0,
     "pose_anatomy": 0,
     "composition": 0,
     "publishability": 0,
     "overall": 0
   },
+  "first_hard_questions": {
+    "emotional_truth_before_canvas": "pass|block",
+    "reference_copying_before_prettiness": "pass|block",
+    "creator_immediate_reject": "",
+    "copied_identity_reference": ""
+  },
   "status": "accept|retry|block",
+  "hard_gates": {
+    "creative_room_checked_image_before_passing": false,
+    "actual_canvas_size_is_1080x1350_px": false,
+    "brandmark_present": false,
+    "visual_setting_makes_sense": false,
+    "source_winner_image_alignment_passed": false,
+    "identity_references_respected": false
+  },
+  "source_winner_image_alignment_artifact": "evals/source_winner_image_alignment.json",
   "hard_failures": [],
   "retry_prompt_delta": "{{targeted_delta}}",
   "failure_codes": []

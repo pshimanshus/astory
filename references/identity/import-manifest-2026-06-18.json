@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "purpose": "individual raw identity anchors, not contact sheets",
+  "imports": [
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.49.56.zip",
+      "source_index": 8,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.29 (1).jpeg",
+      "target_path": "references/identity/aachu/aachu-face-front-home-black-2026-06-18-01.jpg",
+      "sha256": "df835db71cafd6c797895489d7e8516a104032f407303b4f9206bc43a4a8743b",
+      "size_bytes": 102554
+    },
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.49.56.zip",
+      "source_index": 9,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.29 (2).jpeg",
+      "target_path": "references/identity/aachu/aachu-face-three-quarter-cafe-down-glance-2026-06-18-01.jpg",
+      "sha256": "7002bb0f52d91256701e380c9a20c7686708d92c1383c19915c2808ba47aab81",
+      "size_bytes": 384439
+    },
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.49.56.zip",
+      "source_index": 10,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.30.jpeg",
+      "target_path": "references/identity/aachu/aachu-face-front-green-tee-smile-2026-06-18-01.jpg",
+      "sha256": "fa2c2f8d24d9f3a484075cd5f2734a1979db8b22bff1cef318f53ae6b9a66ef5",
+      "size_bytes": 196420
+    },
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.49.56.zip",
+      "source_index": 11,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.30 (1).jpeg",
+      "target_path": "references/identity/aachu/aachu-face-front-close-selfie-2026-06-18-01.jpg",
+      "sha256": "1636fa9f8a291323c6d60096bd92e13c5edb3c3871dbca11742fc0f73b0c7e24",
+      "size_bytes": 106183
+    },
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.50.00.zip",
+      "source_index": 12,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.24 (1).jpeg",
+      "target_path": "references/identity/aachu/aachu-face-front-bridal-smile-2026-06-18-01.jpg",
+      "sha256": "2cfc19dce6e0c8e06357d1f1cc6774453e4255d8e3f229fa7edd63b323abc299",
+      "size_bytes": 113347
+    },
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.50.00.zip",
+      "source_index": 13,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.24 (2).jpeg",
+      "target_path": "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+      "sha256": "dff2055b733f06bbe37fa18c1edc2e4d170b0baacd6a37c6c10f913e6ba537f0",
+      "size_bytes": 114779
+    },
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.50.00.zip",
+      "source_index": 3,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.21.jpeg",
+      "target_path": "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+      "sha256": "0ce261ec1bfd2be015db06e8a267710245b18a27628cd7de919c0164ff65127c",
+      "size_bytes": 1247112
+    },
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.50.00.zip",
+      "source_index": 7,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.22 (1).jpeg",
+      "target_path": "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+      "sha256": "db7074cd1208aa86b57be5d38c7dd1b7e15cf3122c0991b348e86e3dbdd71c63",
+      "size_bytes": 1160259
+    },
+    {
+      "source_archive": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Unknown 2026-06-18 at 20.50.00.zip",
+      "source_index": 18,
+      "source_name": "WhatsApp Image 2026-06-18 at 20.49.26 (1).jpeg",
+      "target_path": "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+      "sha256": "8927108cb7deedeaf05403fe603c6d902a69570860ae158993298923825bd2e1",
+      "size_bytes": 240977
+    },
+    {
+      "source_file": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Image 2026-06-18 at 20.49.19.jpeg",
+      "target_path": "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+      "sha256": "d835dc77150b0f8faed70d1f74e44cc569896dff6f609655c949559ea87e1cc9",
+      "size_bytes": 1277737
+    },
+    {
+      "source_file": "/Users/himanshusharma/Downloads/WhatsApp/WhatsApp Image 2026-06-18 at 20.49.19_2.jpeg",
+      "target_path": "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+      "sha256": "11c668ed0457c42a435779c9bfbb766115846194277def6c6481ea686886e924",
+      "size_bytes": 1440488
+    }
+  ]
+}

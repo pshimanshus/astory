@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe",
+  "status": "approved_for_prompt_pack",
+  "reason_for_revision": "Creator rejected the first domestic house/sofa visual lane and asked for a second iteration fully from the girl's perspective, where she can be somewhere full of people and still feel lost and alone.",
+  "story_spine": "Aachu is not inside a literal house. She is at a lively cafe/friends table where everything is full except the feeling of home. The absence is not shown as a ghost, phone wallpaper, memory figure, or final comeback; it is shown through her body being present in the group while her eyes and stillness keep revealing the one person who is not there.",
+  "visual_world": "Lively cafe/friends setting with soft background chatter, tables, cups, window light, and blurred friend movement. The crowd stays secondary and anonymous. Aachu's readable face and inner displacement carry the story.",
+  "point_of_view": "Girl's emotional perspective across all slides. Aachu is the only visible identity subject. Zuv must not physically appear in any slide; the final beat lands through Aachu's realization, not his return.",
+  "slide_count": 4,
+  "copy_contract": {
+    "keep_exact_on_image_text": true,
+    "do_not_add_song_lyrics": true,
+    "do_not_turn_into_quote_card": true,
+    "cut_from_visible_text": [
+      "That is the real ache of Ghar - not just missing someone, but realizing that..."
+    ]
+  },
+  "evidence_basis": [
+    "runs/2026-06-19_21-09_ghar-line/planning/creator_direction_notes.md",
+    "references/brain/pages/outcome-attribution.md",
+    "references/brain/policies/current-copy-contract-2026-06-18.md"
+  ],
+  "anti_slop_rejected_version": "Sad girl alone in a crowd with vague moody cafe lighting and the text pasted above her.",
+  "human_version": "Aachu is with friends but cannot join the smile, sitting near a space nobody else can fill, and ending in the same full place with the clearer ache that he is still the only home.",
+  "share_job": "Someone should send it to their person because it says: I can be surrounded by people and still not feel home without you."
+}

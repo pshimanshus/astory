@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "status": "pass",
+  "source_winner_contract": "planning/source_winner_remix_contract.json",
+  "scores": {
+    "source_copy_preservation": 4.3,
+    "source_premise_preservation": 4.6,
+    "caption_move_preservation": 4.4,
+    "slide_structure_preservation": 4.1,
+    "a_story_wrapper_strength": 4.8,
+    "send_save_comment_trigger_preserved": 4.6,
+    "risk_of_ai_polish": 4.1,
+    "overall": 4.35
+  },
+  "what_changed_with_creator_approval": [
+    "The visual proof moved from a literal home/sofa lane to a public cafe/friends setting.",
+    "The final reunion payoff was removed; the final slide now preserves realization-through-absence."
+  ],
+  "what_must_not_move": [
+    "Do not turn the copy into a home-is-a-person lesson.",
+    "Do not make the final beat a comeback or relief shot.",
+    "Do not render the text as a quote-card/poster."
+  ],
+  "must_fix_before_prompt_lock": [],
+  "what_moved_too_far_from_source": [],
+  "what_needs_more_a_story_life": [],
+  "failure_codes": []
+}

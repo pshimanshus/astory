@@ -1,0 +1,28 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "raw_input": "Creator requested illustration generation from this repaired concept. Slide 1: Khaali hai jo tere bina, main woh ghar hoon tera. Slide 2: Some people don't just enter your life, they become the place your heart keeps returning to. Without them, even the most familiar corners feel empty. And with them, even silence feels safe. That is the real ache of Ghar - not just missing someone, but realizing that your sense of home was never a place. It was always that one person.",
+  "idea_mode": "specific",
+  "core_idea": "An A Story of Two carousel where the first slide holds the creator's Ghar lyric and the following slide(s) make the emotional backbone physical: the speaker is not just missing a person; their whole sense of home is hollow without that one person.",
+  "tone": "aching, comforting, simple, sendable",
+  "relationship_dynamic": "one partner naming the other as home without turning it into a quote-card lesson",
+  "target_audience": "people who miss one specific person and understand home as a felt presence, not a place",
+  "desired_feeling": "the quiet pain of an empty room and the comfort of being someone else's home",
+  "must_include": [
+    "The creator's first-slide lyric line, normalized for spelling: khaali hai jo tere bina, main woh ghar hoon tera",
+    "The creator's repaired Slide 2 meaning: some people become the place the heart returns to",
+    "The familiar-corners-empty / silence-feels-safe emotional contrast",
+    "The realization that ghar was always one person"
+  ],
+  "must_avoid": [
+    "Generic 'home is a person' quote-card treatment",
+    "Therapy-page explanation",
+    "Over-polished romantic poetry",
+    "Adding unrelated objects or quirky domestic props as the premise",
+    "Continuing or adding more song lyrics beyond the creator-provided line"
+  ],
+  "platform": "instagram",
+  "requested_surface": "post_4x5",
+  "initial_slide_count_preference": "Creator supplied a two-slide concept; story-led check must protect phone readability and avoid quote-card density.",
+  "output_format": "story_lock_then_prompt_after_creator_approval",
+  "copyright_note": "Only the creator-provided lyric line is used; no additional song lyrics are added."
+}

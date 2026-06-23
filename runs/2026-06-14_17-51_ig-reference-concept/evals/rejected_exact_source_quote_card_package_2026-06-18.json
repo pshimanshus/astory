@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-18T16:18:00Z",
+  "status": "rejected_after_creator_review",
+  "failure_code": "QUOTE_CARD_NOT_ILLUSTRATION",
+  "rejected_artifacts": [
+    "corrected-exact-source-carousel/"
+  ],
+  "reason": "The package preserves the exact source copy and 1080 x 1350 dimensions, but it is a deterministic typography/design render rather than A Story of Two watercolor-and-ink illustration with Aachu/Zuv identity, lived scene logic, imagegen proof, and Image QA.",
+  "active_constraint": "Exact-source remix finals must keep the source text exact while translating each slide into a concrete Aachu/Zuv illustrated scene. Quote-card, poster, typography-card, or decorative-layout packages are drafts only and cannot be final."
+}

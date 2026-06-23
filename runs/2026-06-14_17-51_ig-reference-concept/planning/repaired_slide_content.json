@@ -1,0 +1,78 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "status": "repaired_story_lock_draft_pending_creator_review",
+  "rejected_prior_draft": {
+    "title": "The Hair Clip He Started Carrying",
+    "reason": "Too much premise invention from the reference; failed the creator's source-preserving instruction."
+  },
+  "source_references": [
+    {
+      "shortcode": "DUtQzmaj9Rw",
+      "used_for": "exact remembered-intimacy copy spine",
+      "source_line": "The intimacy of \"You remembered?\" \"Of course I did.\""
+    },
+    {
+      "shortcode": "DZNl2zxiRD4",
+      "used_for": "proven A Story remix structure",
+      "metrics": {
+        "reach": 1217632,
+        "views": 1194402,
+        "shares": 14094,
+        "saves": 10913,
+        "likes": 29064,
+        "comments": 101
+      }
+    }
+  ],
+  "pattern_hypothesis": "Keep the source quote as the emotional spine, convert it into a simple couple conversation, and add one small physical payoff so the post feels lived rather than pasted.",
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "\"can i ask you something?\" / ~sure",
+      "visual_job": "Aachu and Zuv sitting in a quiet everyday room or at a small food table. The first line should feel like a small conversation starting, not a dramatic confession.",
+      "why_it_earns_swipe": "It mirrors the proven question-entry format and opens a low-pressure conversation."
+    },
+    {
+      "slide_number": 2,
+      "exact_on_image_text": "\"you remembered?\" / ~of course i did.",
+      "visual_job": "Aachu notices the order/detail before fully saying what it is. Zuv answers casually, as if remembering was obvious.",
+      "why_it_earns_swipe": "This preserves the exact emotional quote from the reference."
+    },
+    {
+      "slide_number": 3,
+      "exact_on_image_text": "\"no coriander?\" / ~extra chutney too.",
+      "visual_job": "The tiny remembered proof becomes visible through the food/order. No big romantic gesture, just the correct small detail.",
+      "why_it_earns_swipe": "Specific edible proof makes the quote feel lived instead of abstract."
+    },
+    {
+      "slide_number": 4,
+      "exact_on_image_text": "\"that's the thing.\" / ~what thing?",
+      "visual_job": "Aachu looks at him like the answer is obvious; Zuv is still slightly confused because to him it was just remembering.",
+      "why_it_earns_swipe": "Uses the proven 'that's the thing' turn from the high-reach model."
+    },
+    {
+      "slide_number": 5,
+      "exact_on_image_text": "the intimacy of \"you remembered?\" \"of course i did.\"",
+      "visual_job": "A quieter frame with both of them and the food/detail present. This is the source quote-card line translated into an A Story scene.",
+      "why_it_earns_swipe": "The reference copy lands directly, with only enough context to make it theirs."
+    },
+    {
+      "slide_number": 6,
+      "exact_on_image_text": "the intimacy was important. so was the chutney.",
+      "visual_job": "Small funny physical payoff: the chutney is being protected, passed, or already claimed while both of them soften. Keep it playful, not poetic.",
+      "why_it_earns_swipe": "Mirrors the high-reach A Story final-slide move: serious lesson plus physical joke."
+    }
+  ],
+  "slop_audit": {
+    "passed": false,
+    "notes": [
+      "This is a repair draft after a creator rejection, not a final lock.",
+      "Need creator approval on whether the edible proof should be chutney/coriander or swapped for another tiny remembered detail."
+    ],
+    "failure_prevented": [
+      "AI_SLOP_COPY_DRIFT",
+      "ORIGINAL_SETUP_DRIFT",
+      "PLATFORM_MECHANIC_MISSING"
+    ]
+  }
+}

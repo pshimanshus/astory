@@ -1,0 +1,692 @@
+{
+  "agent_role": "Visual Story Director",
+  "persona_name": "Tara",
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "artifact_path": "runs/2026-06-19_23-10_next-carousel-recommendation/debates/idea_room/agent_03_candidates.json",
+  "created_at": "2026-06-19T23:10:00+05:30",
+  "method_applied": {
+    "anti_slop_filter": "Research -> Pattern Hypothesis -> Human Draft -> Slop Audit -> Rewrite -> Output",
+    "brainstorming_use": "Pushed past first obvious close-angle couple staging into wider action-led frames with hands, eyeline, object, distance, and negative space.",
+    "rejected_generic_version": "A cozy couple in warm light with a romantic quote about communication, ordinary love, or little things.",
+    "rewrite_rule": "Every candidate must be a phone-readable scene before it is allowed to be an idea."
+  },
+  "evidence_ledger": [
+    {
+      "source": "references/brain/policies/current-copy-contract-2026-06-18.md",
+      "finding": "Use simple sendable English, keep source-bank forms visible without filling templates, use restrained visual wrappers, avoid therapy-page polish, and do not let objects become the premise.",
+      "candidate_impact": "All hooks are short sentences someone could send; props are visual proof only, not the idea."
+    },
+    {
+      "source": "references/brain/pages/run-lessons.md",
+      "finding": "Future idea locks need a scene-landing preview; source winners must stay visible; avoid close-angle two-face sideways emotional staging; prefer wider action-led scenes with varied eyelines.",
+      "candidate_impact": "Each candidate includes first-frame staging, swipe reason, payoff frame, generic scene rejection, and imagegen risks."
+    },
+    {
+      "source": "references/brain/pages/outcome-attribution.md",
+      "finding": "Owned A Story ideas should rank shares per 1k reach over likes. DYJpjt9CQYY reached 40.15 shares per 1k and DY_t4Dek0pq reached 24.87 shares per 1k.",
+      "candidate_impact": "Owned winners are used as send-behavior proof for emotional-chaos and observational-intimacy candidates."
+    },
+    {
+      "source": "references/brain/reports/outcome_attribution.json",
+      "finding": "DYJpjt9CQYY: reach 531805, shares 21351, saves 6988. DY_t4Dek0pq: reach 93580, shares 2327, saves 1590.",
+      "candidate_impact": "Scores weight send/save behavior instead of surface-like appeal."
+    },
+    {
+      "source": "references/text-style/winner-bank-index-2026-06-14.json",
+      "finding": "DZTTSUBEaRr is a permissioned source-preserve candidate, rank 105, 10-slide carousel, 52514 likes, 164 comments, explicit send prompt. DYG9a-FEuBQ is rank 111, 6-slide carousel, 42096 likes, 80 comments, ordinary care engine.",
+      "candidate_impact": "The ordinary-care and waiting-downstairs candidates keep the source premise visible before adding A Story staging."
+    },
+    {
+      "source": "references/text-style/winner-bank/winner_bank.json",
+      "finding": "DZTTSUBEaRr frames everyday partner phrases as love. DYG9a-FEuBQ frames deep love as ordinary repeated care.",
+      "candidate_impact": "Candidates preserve the ordinary-sentence engine and avoid turning it into a moral."
+    },
+    {
+      "source": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZS2GuipLku/record.json",
+      "finding": "DZS2GuipLku is a static source lead from hereverydaymotherhood with the short permission engine 'Please... vent more'; comments show the feeling of not wanting to be a burden.",
+      "candidate_impact": "Top visual pick preserves the short hook and turns it into a lived listening scene between Aachu and Zuv."
+    },
+    {
+      "source": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZTTSUBEaRr/record.json",
+      "finding": "The thirdeyethoughts record has missing saves/shares and incomplete child asset OCR, but strong public likes/comments and a clear send-to-partner mechanic.",
+      "candidate_impact": "Used as permissioned source mechanics, not as full performance proof."
+    },
+    {
+      "source": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DYG9a-FEuBQ/record.json",
+      "finding": "The Atticus record has missing saves/shares and child OCR gaps, but strong public likes and ordinary-care language.",
+      "candidate_impact": "Used as a secondary source engine for ordinary care, not as the top recommendation."
+    },
+    {
+      "source": "runs/2026-06-19_23-10_next-carousel-recommendation/input/creative_brief.json",
+      "finding": "The run asks for an auto next-carousel recommendation, stopping at idea lock, with exact first-slide text, source evidence, and why someone sends it.",
+      "candidate_impact": "No final prompts or images are generated here."
+    },
+    {
+      "source": "runs/2026-06-19_23-10_next-carousel-recommendation/planning/memory_recall.md",
+      "finding": "Memory recall found no cited findings for this run.",
+      "candidate_impact": "Artifact relies on directly read references and records only."
+    }
+  ],
+  "premise_lock": {
+    "human_situation": "Recommend the next high-send-potential A Story carousel from proven source engines and owned performance, without final prompt or image generation.",
+    "speaker": "Aachu/Zuv relationship truth, usually phrased as something one partner could send to the other.",
+    "receiver": "A partner who recognizes their own private behavior in the scene.",
+    "emotional_job": "Make someone send the post because it gives them permission to say the unsaid thing without writing a long message.",
+    "visual_contract": "One clean first frame, readable 4x5 text, action-led staging, varied eyelines, no microtext, no quote-card, no repeated close sideways two-face composition.",
+    "copy_contract": "Simple English; no therapy-page lesson; no polished texts; no object-led invention where the object becomes the premise.",
+    "source_contract": "Start from permissioned source winners or owned send-behavior winners; preserve the source engine before adding the A Story wrapper.",
+    "rejected_generic_version": "A romantic carousel saying 'real love is in the little things' over a soft couple cuddle."
+  },
+  "candidates": [
+    {
+      "id": "tara_01_please_vent_more",
+      "title": "Please Vent More",
+      "exact_first_slide_text": "Please vent more.",
+      "first_frame_visual": "Wide night kitchen/dining frame. Aachu is standing near the counter mid-rant, one hand drawing the whole story in the air. Zuv sits on the floor against the lower cabinet, cup untouched beside him, face turned up to her in three-quarter view. Text sits in the open wall space above them. No phone screenshot, no couch cuddle, no close sideways faces.",
+      "suggested_slide_1_moment": "Aachu in motion, Zuv still and listening; the contrast proves that her extra details are welcome.",
+      "suggested_slide_arc": [
+        {
+          "slide": 1,
+          "text": "Please vent more.",
+          "scene": "She is still talking; he has clearly chosen to stay in the room."
+        },
+        {
+          "slide": 2,
+          "text": "Tell me the unnecessary details also.",
+          "scene": "She points at invisible people in the air; he tilts his head like he is following the plot."
+        },
+        {
+          "slide": 3,
+          "text": "Who said what. What face they made. Where you went quiet.",
+          "scene": "Aachu has moved closer to the table; Zuv's untouched cup shows he is not rushing her."
+        },
+        {
+          "slide": 4,
+          "text": "I do not get tired of your mind.",
+          "scene": "She finally sits on the floor near him, still half-angry, softer now."
+        },
+        {
+          "slide": 5,
+          "text": "Start from the beginning. I am listening.",
+          "scene": "Payoff frame: Zuv pats the floor beside him; Aachu is already starting again."
+        }
+      ],
+      "payoff_frame": "Aachu sitting lower now, no longer performing strength; Zuv has made space beside him. The same room, same night, but the rant has become closeness.",
+      "source_engine": {
+        "primary": {
+          "id": "ig:DZS2GuipLku",
+          "account": "hereverydaymotherhood",
+          "url": "https://www.instagram.com/p/DZS2GuipLku/",
+          "status": "permissioned source lead from content dump; static post, not a full winner-bank carousel",
+          "what_stays": "The short permission-to-vent premise and first-slide hook shape.",
+          "what_changes": "A Story adds Aachu/Zuv's physical listening scene and a 5-slide progression from rant to safety."
+        },
+        "supporting_owned_engine": {
+          "id": "DYJpjt9CQYY",
+          "url": "https://www.instagram.com/p/DYJpjt9CQYY/",
+          "status": "owned send-behavior winner",
+          "metric_signal": "40.15 shares per 1k reach; emotional chaos held gently."
+        }
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Partners listening to each other vent.",
+        "stale_generic_version": "Good communication means listening to your partner.",
+        "new_reveal": "The romantic part is not advice; it is wanting the extra, messy, supposedly annoying details.",
+        "viewer_outcome": "Send this to the partner who lets them talk without making them feel like a burden.",
+        "contrast_frame": "Not 'calm down' or 'leave it'; 'say it again, I am here'.",
+        "bullseye_proof": "One untouched cup, one seated listener, one person still gesturing through the story.",
+        "urgency": "Emotional urgency only: the moment someone is deciding whether they are too much.",
+        "what_not_to_explain": "Do not explain active listening or emotional safety."
+      },
+      "A Story wrapper": "Aachu is not made cute for being upset; Zuv does not solve, correct, or laugh. The wrapper is his physical patience: lower body, steady eyeline, and staying through the long version.",
+      "visual_proof": {
+        "platform_mechanic": "Short first-slide permission hook; viewers swipe to see whether the post understands the shame of talking too much.",
+        "exact_scene_action": "Aachu keeps venting while Zuv visibly makes room for the whole version.",
+        "object_body_eyeline_proof": "Untouched cup, Zuv seated below her eyeline, Aachu's moving hand, open wall space for text.",
+        "why_someone_swipes_or_sends": "It says 'you are not annoying me' in a way a partner can receive instantly.",
+        "generic_scene_rejected": "Two people cuddling on a sofa while a quote says listening is love."
+      },
+      "imagegen_feasibility": {
+        "feasibility_score": 4.8,
+        "canvas_fit": "Strong 1080x1350 staging with text in upper negative space.",
+        "text_readability": "Excellent; first-slide text is three words.",
+        "identity_safety": "Medium-high; two figures visible but separated, with at least one readable three-quarter face and no face merging.",
+        "anatomy_safety": "High; standing-plus-seated pose is simple if hands are not overdescribed.",
+        "main_prompt_risk_to_avoid_later": "Do not crowd the room with tiny props or turn the rant into a comic explosion."
+      },
+      "failure_risks": [
+        "Can become therapy-page if later copy says 'safe space' or 'communication'.",
+        "Can become generic if Zuv looks passively bored instead of actively listening.",
+        "Can become cluttered if the vent is visualized with too many objects or text bubbles.",
+        "The source is not a full carousel winner-bank record; coordinator should record the performance gap."
+      ],
+      "anti_slop_risk": {
+        "level": "medium-low",
+        "failure_codes_to_watch": [
+          "PREACHY_THERAPY_LANGUAGE",
+          "VISUAL_ONLY_MOOD_WORDS",
+          "PLATFORM_MECHANIC_MISSING"
+        ],
+        "slop_audit": "The first draft wanted to say 'love is creating space for feelings.' Killed it. The human version is 'start from the beginning'.",
+        "rewrite_note": "Keep the line raw and permission-giving; do not polish it into a relationship lesson."
+      },
+      "selection_scores": {
+        "visual_clarity": 5.0,
+        "scene_variety": 4.7,
+        "imagegen_feasibility": 4.8,
+        "character_consistency_potential": 4.6,
+        "text_integration_potential": 5.0,
+        "prop_usefulness": 4.0,
+        "anatomy_safety": 4.8,
+        "slide_payoff": 4.7,
+        "send_potential": 4.8,
+        "source_strength": 4.2,
+        "overall": 4.66
+      }
+    },
+    {
+      "id": "tara_02_text_me_when_you_reach",
+      "title": "Text Me When You Reach",
+      "exact_first_slide_text": "Text me when you reach is also I love you.",
+      "first_frame_visual": "Apartment doorway in the morning. Aachu is stepping toward the lift with her bag. Zuv stands inside the half-open door, not dramatic, phone loose in his palm, eyes following her. The door creates a clean vertical split. Text sits above the doorway, not inside the phone.",
+      "suggested_slide_1_moment": "The phrase lands as ordinary care before the carousel names it as love.",
+      "suggested_slide_arc": [
+        {
+          "slide": 1,
+          "text": "Text me when you reach is also I love you.",
+          "scene": "Aachu leaves; Zuv waits in the doorway one beat longer than needed."
+        },
+        {
+          "slide": 2,
+          "text": "So is take the umbrella.",
+          "scene": "His hand offers the umbrella from inside the door; her eyes roll softly, but she takes it."
+        },
+        {
+          "slide": 3,
+          "text": "So is eat something before you leave.",
+          "scene": "A small breakfast is on the edge of the table; nobody is posing around it."
+        },
+        {
+          "slide": 4,
+          "text": "We say the big thing in normal words.",
+          "scene": "The door is nearly shut; both are looking at different things, but the care has already passed between them."
+        },
+        {
+          "slide": 5,
+          "text": "Okay. Message me properly.",
+          "scene": "Payoff frame: Zuv still at the doorway after she has gone; the empty hallway carries the line."
+        }
+      ],
+      "payoff_frame": "The door and empty hallway after Aachu leaves, with Zuv still there. The absence proves the care better than another face close-up.",
+      "source_engine": {
+        "primary": {
+          "id": "ig:DZTTSUBEaRr",
+          "account": "thirdeyethoughts",
+          "url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+          "status": "permissioned winner-bank source-preserve candidate",
+          "metric_signal": "Winner-bank index rank 105; 52514 likes; 164 comments; explicit send prompt; shares/saves unavailable.",
+          "what_stays": "Everyday phrases as love, direct-you send mechanic, domestic framing.",
+          "what_changes": "A Story replaces text-card phrasing with a doorway sequence between Aachu and Zuv."
+        }
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Small everyday care phrases.",
+        "stale_generic_version": "Real love is in the little things.",
+        "new_reveal": "The line people treat as nagging is often the love sentence.",
+        "viewer_outcome": "Send this to the person who says practical things because direct softness feels too exposed.",
+        "contrast_frame": "Not grand confession; a reach-home message and a half-open door.",
+        "bullseye_proof": "The doorway pause, phone in hand, and the person still watching until the other leaves.",
+        "urgency": "None; keep it evergreen.",
+        "what_not_to_explain": "Do not say 'this is another love language'."
+      },
+      "A Story wrapper": "Aachu and Zuv's love is allowed to sound practical. The scene proves that care can be a normal sentence said from a doorway.",
+      "visual_proof": {
+        "platform_mechanic": "Phrase-recognition hook; viewers swipe because they have said or received this exact kind of line.",
+        "exact_scene_action": "One partner leaves, the other asks for the reach-home message without dressing it up.",
+        "object_body_eyeline_proof": "Half-open door, bag strap, phone held low, Zuv's eyeline following her, Aachu's body already moving away.",
+        "why_someone_swipes_or_sends": "It gives practical partners credit without making them write a confession.",
+        "generic_scene_rejected": "A quote-card list of ways to say I love you."
+      },
+      "imagegen_feasibility": {
+        "feasibility_score": 4.6,
+        "canvas_fit": "Doorway gives a strong vertical 4x5 composition.",
+        "text_readability": "Good, but line is longer; needs top-third text and no extra microcopy.",
+        "identity_safety": "High if Aachu is mid-distance and Zuv is three-quarter in the door; avoid tiny far faces.",
+        "anatomy_safety": "High; natural standing poses.",
+        "main_prompt_risk_to_avoid_later": "Do not render phone messages; the on-image text is enough."
+      },
+      "failure_risks": [
+        "Can become a listicle if every slide is just another phrase.",
+        "Can become object-led if umbrella/food/phone take over.",
+        "Can feel too sourced if it copies the source's explanatory caption language.",
+        "Long first-slide line needs careful text placement."
+      ],
+      "anti_slop_risk": {
+        "level": "medium",
+        "failure_codes_to_watch": [
+          "TOO_POLISHED",
+          "AI_SLOP_COPY_DRIFT",
+          "QUOTE_CARD_NOT_ILLUSTRATION"
+        ],
+        "slop_audit": "The generic version says 'small gestures are love.' The repair makes one ordinary line do the work.",
+        "rewrite_note": "Keep each slide as something someone would actually say at the door."
+      },
+      "selection_scores": {
+        "visual_clarity": 4.8,
+        "scene_variety": 4.4,
+        "imagegen_feasibility": 4.6,
+        "character_consistency_potential": 4.6,
+        "text_integration_potential": 4.3,
+        "prop_usefulness": 4.1,
+        "anatomy_safety": 4.8,
+        "slide_payoff": 4.5,
+        "send_potential": 4.7,
+        "source_strength": 4.7,
+        "overall": 4.55
+      }
+    },
+    {
+      "id": "tara_03_boring_details",
+      "title": "The Boring Details",
+      "exact_first_slide_text": "I like the boring details of you.",
+      "first_frame_visual": "Quiet evening entryway. Aachu checks the lock for the second time before leaving the frame. Zuv is a few steps behind, leaning against the wall, not teasing, just noticing. Text sits in the upper left; the lock is visible but small, not the premise.",
+      "suggested_slide_1_moment": "The first frame shows a detail nobody performs for the world.",
+      "suggested_slide_arc": [
+        {
+          "slide": 1,
+          "text": "I like the boring details of you.",
+          "scene": "Aachu checks the door twice; Zuv watches without interrupting."
+        },
+        {
+          "slide": 2,
+          "text": "How you check the door twice.",
+          "scene": "Closer on her hand at the lock, with his soft amused eyeline in the background."
+        },
+        {
+          "slide": 3,
+          "text": "How your voice changes when you are sleepy.",
+          "scene": "Aachu half-asleep at the table; Zuv leaves space instead of forcing a hug."
+        },
+        {
+          "slide": 4,
+          "text": "How you think none of this matters.",
+          "scene": "She shrugs it off; he is already moving her charger to her side."
+        },
+        {
+          "slide": 5,
+          "text": "It matters to me.",
+          "scene": "Payoff frame: a small everyday action, seen by someone who has been paying attention."
+        }
+      ],
+      "payoff_frame": "Zuv quietly moves the charger to Aachu's side while she is too sleepy to notice; the scene proves attention without announcing devotion.",
+      "source_engine": {
+        "primary": {
+          "id": "DY_t4Dek0pq",
+          "account": "a.storyof.two",
+          "url": "https://www.instagram.com/p/DY_t4Dek0pq/",
+          "status": "owned send-behavior winner",
+          "metric_signal": "24.87 shares per 1k reach; 16.99 saves per 1k; observational intimacy engine.",
+          "what_stays": "The desire to know unperformed ordinary details.",
+          "what_changes": "The phrase 'observational intimacy' is removed; A Story shows the attention through one ordinary receipt per slide."
+        }
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Knowing someone deeply.",
+        "stale_generic_version": "I love every little thing about you.",
+        "new_reveal": "The details that feel too boring to mention are exactly what make love feel private.",
+        "viewer_outcome": "Send this to the person who notices the unglamorous version of them.",
+        "contrast_frame": "Not their best self; the repeated lock check, sleepy voice, and habits they do not perform.",
+        "bullseye_proof": "A door lock checked twice and a charger moved without being asked.",
+        "urgency": "None; this is a save-and-send intimacy piece.",
+        "what_not_to_explain": "Do not use the phrase observational intimacy on the slide."
+      },
+      "A Story wrapper": "Aachu and Zuv are drawn through noticing, not through posing. The post is about attention that has no audience.",
+      "visual_proof": {
+        "platform_mechanic": "Recognition-list carousel; viewers swipe to find their own tiny habit.",
+        "exact_scene_action": "Zuv notices Aachu doing small private things and responds with equally small care.",
+        "object_body_eyeline_proof": "Door lock, charger, sleepy posture, Zuv's background eyeline, restrained distance.",
+        "why_someone_swipes_or_sends": "It lets someone say 'you notice me' without sounding dramatic.",
+        "generic_scene_rejected": "Montage of cute couple moments with the caption 'little things matter'."
+      },
+      "imagegen_feasibility": {
+        "feasibility_score": 4.4,
+        "canvas_fit": "Works as quiet domestic frames with one action per slide.",
+        "text_readability": "Strong; short lines.",
+        "identity_safety": "High if several slides use one person plus background eyeline instead of two close faces.",
+        "anatomy_safety": "High; everyday standing/sitting gestures.",
+        "main_prompt_risk_to_avoid_later": "Avoid overloading with too many tiny habits in one frame."
+      },
+      "failure_risks": [
+        "Can drift into a list of quirky habits instead of a felt couple moment.",
+        "Can become too generic if the chosen details are not visibly specific.",
+        "Door lock/charger must stay proof, not premise.",
+        "The word 'boring' must feel affectionate, not dismissive."
+      ],
+      "anti_slop_risk": {
+        "level": "medium",
+        "failure_codes_to_watch": [
+          "TOO_POLISHED",
+          "EMOTIONALLY_VAGUE",
+          "ORIGINAL_SETUP_DRIFT"
+        ],
+        "slop_audit": "The first generic draft wanted 'I love your little things.' The rewrite says 'boring details' because it is more human and less quote-page.",
+        "rewrite_note": "Keep one ugly-normal receipt per slide; do not beautify every habit."
+      },
+      "selection_scores": {
+        "visual_clarity": 4.4,
+        "scene_variety": 4.3,
+        "imagegen_feasibility": 4.4,
+        "character_consistency_potential": 4.5,
+        "text_integration_potential": 4.8,
+        "prop_usefulness": 4.0,
+        "anatomy_safety": 4.7,
+        "slide_payoff": 4.2,
+        "send_potential": 4.3,
+        "source_strength": 4.6,
+        "overall": 4.42
+      }
+    },
+    {
+      "id": "tara_04_nothing_happened_subtitles",
+      "title": "Nothing Happened Means",
+      "exact_first_slide_text": "He knows what \"nothing happened\" means.",
+      "first_frame_visual": "Bedroom threshold after a small fight. Aachu sits on the bed edge turned partly away, shoulders stiff. Zuv sits on the floor near the bed, not touching her yet, one hand resting open on the blanket edge. Camera is wide enough to show the space between them. Text sits above the bed, not over faces.",
+      "suggested_slide_1_moment": "The scene translates a phrase without making either person perform a big apology.",
+      "suggested_slide_arc": [
+        {
+          "slide": 1,
+          "text": "He knows what \"nothing happened\" means.",
+          "scene": "Aachu says it with her body turned away; Zuv does not leave."
+        },
+        {
+          "slide": 2,
+          "text": "It means do not ask loudly.",
+          "scene": "He lowers himself to the floor instead of standing over her."
+        },
+        {
+          "slide": 3,
+          "text": "It means sit here, but do not make it a scene.",
+          "scene": "The distance between them is visible and intentional."
+        },
+        {
+          "slide": 4,
+          "text": "It means I am angry, not alone.",
+          "scene": "Her hand loosens on the bedsheet; his hand stays open nearby."
+        },
+        {
+          "slide": 5,
+          "text": "Bas thoda paas.",
+          "scene": "Payoff frame: her fingers catch his sleeve without either of them looking directly at the camera."
+        }
+      ],
+      "payoff_frame": "A tiny sleeve-grab replaces the apology speech. The frame has distance, hands, and a soft turn without a face-crowding hug.",
+      "source_engine": {
+        "primary": {
+          "id": "DYJpjt9CQYY",
+          "account": "a.storyof.two",
+          "url": "https://www.instagram.com/p/DYJpjt9CQYY/",
+          "status": "owned send-behavior winner",
+          "metric_signal": "40.15 shares per 1k reach; 13.14 saves per 1k; emotional chaos held gently.",
+          "what_stays": "The private translation of 'nothing happened' and the need for softness, not distance.",
+          "what_changes": "This candidate narrows the winner into one post-fight room and one physical translation."
+        }
+      },
+      "novelty_model": {
+        "old_familiar_topic": "After-fight reassurance.",
+        "stale_generic_version": "Love means understanding your partner's silence.",
+        "new_reveal": "Sometimes 'nothing happened' has instructions hidden inside it.",
+        "viewer_outcome": "Send after a fight when direct apology feels too big.",
+        "contrast_frame": "Not interrogation, not abandonment; controlled nearness.",
+        "bullseye_proof": "Open hand near the blanket, body turned away, sleeve caught at the end.",
+        "urgency": "Real emotional urgency: the few minutes after a fight when distance can become permanent for the night.",
+        "what_not_to_explain": "Do not define attachment or emotional regulation."
+      },
+      "A Story wrapper": "This is the earlier winner's emotional engine made more visual: Zuv reads Aachu's private subtitle and responds with distance-control instead of a speech.",
+      "visual_proof": {
+        "platform_mechanic": "Translation hook; viewers swipe to decode a phrase they have heard or said.",
+        "exact_scene_action": "Zuv sits close enough to stay, far enough not to crowd.",
+        "object_body_eyeline_proof": "Bed edge, open hand, turned shoulder, sleeve-grab, no direct camera performance.",
+        "why_someone_swipes_or_sends": "It gives couples a small repair script without making them say sorry first.",
+        "generic_scene_rejected": "Tearful forehead-touch close-up after a fight."
+      },
+      "imagegen_feasibility": {
+        "feasibility_score": 4.3,
+        "canvas_fit": "Bedroom threshold and negative wall space work in portrait.",
+        "text_readability": "Good, though quotation marks must be rendered cleanly later.",
+        "identity_safety": "Medium; emotional bedroom scenes can tempt close face staging, so keep distance wide.",
+        "anatomy_safety": "Medium-high; sleeve-grab must be simple and not tangled.",
+        "main_prompt_risk_to_avoid_later": "Do not overplay tears or melodrama."
+      },
+      "failure_risks": [
+        "Could feel too close to the already-owned 'calm girl' winner if not visually narrowed.",
+        "Could become melodramatic if Aachu is shown crying heavily.",
+        "Could drift into therapy language if the copy says 'emotional safety'.",
+        "Close bed staging can risk face drift and awkward anatomy."
+      ],
+      "anti_slop_risk": {
+        "level": "medium",
+        "failure_codes_to_watch": [
+          "AI_SLOP_COPY_DRIFT",
+          "TOO_POLISHED",
+          "ANATOMY_FAILURE"
+        ],
+        "slop_audit": "The generic version says 'he understands my silence.' The repair gives the silence one instruction: sit here, not loudly.",
+        "rewrite_note": "Preserve the private subtitle; do not make it a neat moral."
+      },
+      "selection_scores": {
+        "visual_clarity": 4.5,
+        "scene_variety": 4.1,
+        "imagegen_feasibility": 4.3,
+        "character_consistency_potential": 4.6,
+        "text_integration_potential": 4.5,
+        "prop_usefulness": 3.6,
+        "anatomy_safety": 4.2,
+        "slide_payoff": 4.7,
+        "send_potential": 4.7,
+        "source_strength": 5.0,
+        "overall": 4.42
+      }
+    },
+    {
+      "id": "tara_05_waiting_downstairs",
+      "title": "Waiting Downstairs",
+      "exact_first_slide_text": "Love is also waiting downstairs without saying \"see?\"",
+      "first_frame_visual": "Early evening outside an office or apartment gate. Zuv waits by the scooter with one spare helmet hanging low from his hand, looking toward the road rather than performing heroism. Aachu comes out tired, bag slipping from one shoulder, eyes not yet lifted. Text sits in sky/empty wall space.",
+      "suggested_slide_1_moment": "The frame makes care look ordinary, almost unannounced.",
+      "suggested_slide_arc": [
+        {
+          "slide": 1,
+          "text": "Love is also waiting downstairs without saying \"see?\"",
+          "scene": "Zuv waits outside, not making the care theatrical."
+        },
+        {
+          "slide": 2,
+          "text": "The ride home after a day you cannot explain.",
+          "scene": "Aachu reaches the scooter; neither face is over-close."
+        },
+        {
+          "slide": 3,
+          "text": "The food kept aside when you are late.",
+          "scene": "At home, one plate is covered on the table, but the room stays quiet."
+        },
+        {
+          "slide": 4,
+          "text": "The care that does not announce itself.",
+          "scene": "Zuv moves through the room doing one small thing; Aachu notices from the doorway."
+        },
+        {
+          "slide": 5,
+          "text": "It just keeps showing up.",
+          "scene": "Payoff frame: two helmets on a chair, both figures in the background entering home."
+        }
+      ],
+      "payoff_frame": "The helmets and tired entry are proof of care that repeated itself. Aachu and Zuv are small in the frame so the ordinary return can breathe.",
+      "source_engine": {
+        "primary": {
+          "id": "ig:DYG9a-FEuBQ",
+          "account": "atticuspoetry",
+          "url": "https://www.instagram.com/p/DYG9a-FEuBQ/",
+          "status": "permissioned winner-bank source-preserve candidate",
+          "metric_signal": "Winner-bank index rank 111; 42096 likes; 80 comments; shares/saves unavailable.",
+          "what_stays": "Deep love housed in ordinary repeated actions.",
+          "what_changes": "A Story moves the broad ordinary-care idea into one couple evening: waiting, riding, entering home."
+        }
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Quiet care.",
+        "stale_generic_version": "The deepest love is in ordinary things.",
+        "new_reveal": "Care can be strongest when the person refuses to make a performance out of it.",
+        "viewer_outcome": "Send to the reliable partner who shows up without making a speech.",
+        "contrast_frame": "Not roses, not grand rescue; just waiting downstairs and not saying 'see?'",
+        "bullseye_proof": "Spare helmet held low, tired bag strap, covered plate, two helmets at home.",
+        "urgency": "None; evergreen ordinary-love post.",
+        "what_not_to_explain": "Do not say 'consistency is love' as a thesis."
+      },
+      "A Story wrapper": "Aachu and Zuv are allowed to be unglamorous. The scene is about care that is repeated and almost hidden, not a dramatic rescue.",
+      "visual_proof": {
+        "platform_mechanic": "Ordinary-care recognition hook; viewers swipe for receipts and send to the person who quietly shows up.",
+        "exact_scene_action": "Zuv waits downstairs, then the couple returns home through tiny care beats.",
+        "object_body_eyeline_proof": "Spare helmet, tired shoulder, road-facing eyeline, covered plate, small background figures.",
+        "why_someone_swipes_or_sends": "It thanks a reliable person without making the post overly sentimental.",
+        "generic_scene_rejected": "A cinematic rain pickup or heroic rescue frame."
+      },
+      "imagegen_feasibility": {
+        "feasibility_score": 4.2,
+        "canvas_fit": "Strong outdoor-to-indoor arc but needs restrained location count.",
+        "text_readability": "Medium; first line is long and needs clean top placement.",
+        "identity_safety": "Medium-high if faces are not too small in the first frame.",
+        "anatomy_safety": "High; standing and walking poses are simple.",
+        "main_prompt_risk_to_avoid_later": "Do not make the scooter/helmet the whole premise."
+      },
+      "failure_risks": [
+        "Can become a generic ordinary-love quote if the scene is not specific enough.",
+        "Can become object-led around the helmet and plate.",
+        "Can require too many locations if expanded carelessly.",
+        "First-slide text may be too long for quick stop."
+      ],
+      "anti_slop_risk": {
+        "level": "medium-high",
+        "failure_codes_to_watch": [
+          "AI_SLOP_COPY_DRIFT",
+          "TOO_POLISHED",
+          "PROMPT_OVERLOAD"
+        ],
+        "slop_audit": "The source phrase is beautiful but easy to flatten. The repair adds 'without saying see?' because it puts the behavior into a couple-specific tension.",
+        "rewrite_note": "Keep the care slightly unannounced. No grand gratitude speech."
+      },
+      "selection_scores": {
+        "visual_clarity": 4.2,
+        "scene_variety": 4.4,
+        "imagegen_feasibility": 4.2,
+        "character_consistency_potential": 4.2,
+        "text_integration_potential": 3.8,
+        "prop_usefulness": 4.2,
+        "anatomy_safety": 4.6,
+        "slide_payoff": 4.1,
+        "send_potential": 4.1,
+        "source_strength": 4.3,
+        "overall": 4.21
+      }
+    }
+  ],
+  "top_pick": {
+    "candidate_id": "tara_01_please_vent_more",
+    "reason": "Best first-frame stop and cleanest stageability. The hook is three words, the scene has immediate body proof, and the carousel can stay inside one room without microtext, quote-card drift, or repeated close sideways couple staging.",
+    "why_it_beats_the_obvious_winner_bank_option": "The DZTTSUBEaRr ordinary-phrases idea is broader and source-stronger, but visually it risks becoming a phrase list. 'Please vent more' gives Tara one frame that already contains the whole send reason.",
+    "required_repair_before_idea_lock": "Coordinator should record the source gap honestly: DZS2GuipLku has public likes/comments but no scraped saves/shares and is not a full winner-bank carousel. Pair it with owned DYJpjt9CQYY send-behavior evidence if selected."
+  },
+  "visual_risks": [
+    {
+      "risk": "Quote-card drift",
+      "where_it_hits": [
+        "tara_02_text_me_when_you_reach",
+        "tara_05_waiting_downstairs"
+      ],
+      "repair": "Every slide needs a lived Aachu/Zuv action, not decorative typography over a soft background."
+    },
+    {
+      "risk": "Repeated close-angle sideways couple staging",
+      "where_it_hits": [
+        "tara_04_nothing_happened_subtitles"
+      ],
+      "repair": "Keep the bedroom frame wide with distance and hands; do not turn it into a forehead-touch close-up."
+    },
+    {
+      "risk": "Microtext or phone-message dependency",
+      "where_it_hits": [
+        "tara_02_text_me_when_you_reach"
+      ],
+      "repair": "Do not render chat bubbles. The generated on-image text carries the message."
+    },
+    {
+      "risk": "Object-led premise",
+      "where_it_hits": [
+        "tara_03_boring_details",
+        "tara_05_waiting_downstairs"
+      ],
+      "repair": "Door lock, charger, helmet, and plate are receipts only; the premise remains being known or quietly cared for."
+    },
+    {
+      "risk": "Therapy-page language",
+      "where_it_hits": [
+        "tara_01_please_vent_more",
+        "tara_04_nothing_happened_subtitles"
+      ],
+      "repair": "Ban 'safe space', 'emotional regulation', 'communication', and 'love language' from slide copy."
+    }
+  ],
+  "slide_count_hints": {
+    "tara_01_please_vent_more": {
+      "recommended_slide_count": 5,
+      "why": "Needs hook, permission detail, deeper proof, soft turn, and payoff. Fewer slides make it a static quote; more slides over-explain the vent."
+    },
+    "tara_02_text_me_when_you_reach": {
+      "recommended_slide_count": 4,
+      "why": "Four phrase-scenes are enough. A fifth only works if the doorway payoff is strong."
+    },
+    "tara_03_boring_details": {
+      "recommended_slide_count": 5,
+      "why": "The list needs enough receipts to feel personal, but no more than one detail per slide."
+    },
+    "tara_04_nothing_happened_subtitles": {
+      "recommended_slide_count": 5,
+      "why": "The private translation needs a gradual physical softening. Three slides would feel abrupt; more than five risks melodrama."
+    },
+    "tara_05_waiting_downstairs": {
+      "recommended_slide_count": 4,
+      "why": "Best if compressed: waiting, ride, home receipt, payoff. Five slides risks generic ordinary-love padding."
+    }
+  },
+  "scores": [
+    {
+      "candidate_id": "tara_01_please_vent_more",
+      "overall": 4.66,
+      "rank": 1,
+      "score_reason": "Shortest hook, strongest visual proof, best one-room feasibility, very high send potential despite source-performance gap."
+    },
+    {
+      "candidate_id": "tara_02_text_me_when_you_reach",
+      "overall": 4.55,
+      "rank": 2,
+      "score_reason": "Strong source and broad sendability; slightly weaker because it can slide into a phrase-list quote card."
+    },
+    {
+      "candidate_id": "tara_03_boring_details",
+      "overall": 4.42,
+      "rank": 3,
+      "score_reason": "Owned-performance engine is strong and copy is sendable; needs careful detail selection to avoid a quirky habit list."
+    },
+    {
+      "candidate_id": "tara_04_nothing_happened_subtitles",
+      "overall": 4.42,
+      "rank": 4,
+      "score_reason": "Highest source strength and strong payoff; lower rank only because it risks repeating the existing calm-girl emotional territory."
+    },
+    {
+      "candidate_id": "tara_05_waiting_downstairs",
+      "overall": 4.21,
+      "rank": 5,
+      "score_reason": "Beautiful source engine and clean ordinary-care proof, but first-slide text is longer and the idea can become generic if not sharply staged."
+    }
+  ]
+}

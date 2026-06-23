@@ -1,0 +1,656 @@
+{
+  "agent_role": "Shareability Strategist",
+  "agent_name": "Kabir",
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "artifact_type": "idea_room_agent_candidates",
+  "created_for_state": "GENERATE_OR_REFINE_IDEAS",
+  "method": {
+    "skills_applied": [
+      "anti-ai-slop-human-copy-filter",
+      "superpowers:brainstorming",
+      "astory"
+    ],
+    "loop": "Research -> Pattern Hypothesis -> Human Draft -> Slop Audit -> Rewrite -> Output",
+    "rejected_generic_version": "Love is when your partner listens to your problems and makes you feel emotionally safe.",
+    "why_rejected": "It explains the feeling like a therapy page and gives no private-send reason. Nobody tags their person because a carousel says listening matters.",
+    "human_rewrite_direction": "Make the first slide sound like something one person wishes their partner would say first."
+  },
+  "evidence_ledger": [
+    {
+      "id": "copy_contract",
+      "source_path": "references/brain/policies/current-copy-contract-2026-06-18.md",
+      "evidence_used": "Active policy says each line should feel like a sentence someone could send, source-bank forms must stay visible, visuals must stay restrained, and object-led invention cannot become the premise.",
+      "decision_impact": "All hooks below stay short, direct, and sendable. Visuals prove a feeling but do not turn props into the whole joke."
+    },
+    {
+      "id": "run_brief",
+      "source_path": "runs/2026-06-19_23-10_next-carousel-recommendation/input/creative_brief.json",
+      "evidence_used": "Run mode is auto next-carousel recommendation, idea-lock only, for Instagram 4x5. Desired feeling is recognition, soft teasing, after-reading ache, or a private send without long explanation.",
+      "decision_impact": "Candidates stop at premise and scene landing. No final prompts or images are generated."
+    },
+    {
+      "id": "memory_gap",
+      "source_path": "runs/2026-06-19_23-10_next-carousel-recommendation/planning/memory_recall.md",
+      "evidence_used": "Memory recall returned no cited findings and says not to use memory as truth for this run.",
+      "decision_impact": "This pass relies on the explicit local source files, owned outcome data, and winner-bank scrape only."
+    },
+    {
+      "id": "owned_outcome_rank",
+      "source_path": "references/brain/pages/outcome-attribution.md",
+      "evidence_used": "Owned winners are ranked by shares per 1k reach: DYJpjt9CQYY at 40.15, DY9SfANiXWc at 27.9, DY4tGrQCXRA at 27.04, and DY_t4Dek0pq at 24.87. Likes can disagree with send behavior.",
+      "decision_impact": "I ranked ideas by private-send likelihood first, not by prettiness or broad relatability."
+    },
+    {
+      "id": "owned_didnt_marry_calm_girl",
+      "source_path": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+      "evidence_used": "A Story winner: 21,351 shares, 6,988 saves, reach 531,805. The caption engine is a gentle call-out to the person who did not marry a calm girl and learned what her 'nothing happened' really means.",
+      "decision_impact": "Strong proof that a loving, specific accusation about being 'too much' travels."
+    },
+    {
+      "id": "owned_observational_intimacy",
+      "source_path": "data/instagram/carousel_posts/DY_t4Dek0pq/carousel_export.json",
+      "evidence_used": "A Story winner: 2,327 shares, 1,590 saves, reach 93,580. Caption engine is wanting to know tiny ordinary details the other person does not perform for the world.",
+      "decision_impact": "Supports candidates about boring/private details, but only if the slides use concrete receipts instead of abstract 'little things matter' copy."
+    },
+    {
+      "id": "owned_normal_time",
+      "source_path": "data/instagram/carousel_posts/DY9SfANiXWc/carousel_export.json",
+      "evidence_used": "A Story winner: 1,821 shares, 653 saves, reach 65,274. Caption engine is ordinary evenings with the right person: cooking badly, board games, late cabs, normal time.",
+      "decision_impact": "Supports one softer save-heavy candidate, but it needs a sharper send hook than 'ordinary love'."
+    },
+    {
+      "id": "owned_listening",
+      "source_path": "data/instagram/carousel_posts/DY4tGrQCXRA/carousel_export.json",
+      "evidence_used": "A Story winner: 14,180 shares, 5,243 saves, reach 524,443. Caption engine is being with someone who listens like it matters.",
+      "decision_impact": "Supports the listening/venting lane and raises the top pick above a plain quote."
+    },
+    {
+      "id": "source_please_vent_more",
+      "source_path": "references/text-style/winner-bank/posts_merged.json",
+      "source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+      "evidence_used": "hereverydaymotherhood source lead uses the compact line 'Please... vent more.' Comments include people naming that they feel annoying or like a burden.",
+      "decision_impact": "This is the clearest private-send engine: 'I thought I was too much; please tell me I can keep talking.'"
+    },
+    {
+      "id": "source_ordinary_care_phrases",
+      "source_path": "references/text-style/winner-bank/winner_bank.json",
+      "source_index_path": "references/text-style/winner-bank-index-2026-06-14.json",
+      "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+      "evidence_used": "thirdeyethoughts source is a 10-slide carousel with 52,514 likes and 164 comments. Its caption asks for simple ways to express love, including 'get home safe' and 'can I make you food'.",
+      "decision_impact": "Supports a carousel where care phrases become the actual love confession, without making the caption preach."
+    },
+    {
+      "id": "source_deepest_love_ordinary_things",
+      "source_path": "references/text-style/winner-bank/winner_bank.json",
+      "source_index_path": "references/text-style/winner-bank-index-2026-06-14.json",
+      "source_url": "https://www.instagram.com/p/DYG9a-FEuBQ/",
+      "evidence_used": "atticuspoetry source is a 6-slide carousel with 42,096 likes and 80 comments. Its engine is that deep love often lived in ordinary things and kept showing up.",
+      "decision_impact": "Supports the ordinary-detail lane, but the A Story version must stay between partners rather than become a broad nostalgia poem."
+    },
+    {
+      "id": "novelty_lens",
+      "source_path": "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md",
+      "evidence_used": "The lens says old relationship topics need a new reveal, contrast, viewer outcome, and bullseye proof. Do not flatten the reveal into a moral.",
+      "decision_impact": "Every candidate below names the old topic, new reveal, send outcome, and the sentence that would ruin it."
+    }
+  ],
+  "premise_lock": {
+    "human_situation": "One partner wants permission to be ordinary, annoying, emotional, talkative, needy, or boring without becoming a burden.",
+    "speaker": "Usually the partner who is afraid they are too much, with Aachu/Zuv making the feeling visible through a private scene.",
+    "receiver": "The person they would send it to because it says the thing they cannot text first.",
+    "emotional_job": "Trigger 'babe this is us', 'why is this you', 'I needed you to say this', or 'guilty' within three seconds.",
+    "must_not_move_away_from": [
+      "simple sendable English",
+      "owned winners ranked by shares per 1k reach",
+      "permissioned or cited source-engine visibility",
+      "Aachu and Zuv as a specific couple, not generic romantic figures",
+      "quiet scene proof before quote-card polish"
+    ],
+    "hard_rejects": [
+      "therapy-page language",
+      "influencer-caption energy",
+      "generic 'little things matter' lesson",
+      "object-led premise",
+      "mean call-out that would start a fight"
+    ]
+  },
+  "pattern_hypothesis": {
+    "what_travels": "A direct line that gives one partner permission to send a vulnerable need without typing it themselves.",
+    "best_mechanic": "Soft command or soft accusation on slide 1, then 3-4 concrete receipts that make the other partner feel seen.",
+    "kabir_read": "The strongest next carousel should not say 'you are safe with me'. It should say the thing a safe person would actually say."
+  },
+  "candidates": [
+    {
+      "id": "kabir_01",
+      "title": "please vent to me more",
+      "suggested_text_hook": "please vent to me more.",
+      "exact_first_slide_text": "please vent to me more.",
+      "first_frame_visual": "Zuv sitting on the bedroom floor near the bed, phone face down, fully listening. Aachu is half-turned away, still talking with one hand near her face. No grand hug, no fixing gesture, just his attention staying put.",
+      "slide_mini_arc": [
+        {
+          "slide": 1,
+          "text": "please vent to me more.",
+          "visual": "Zuv on the floor, Aachu on the bed edge, the room quiet except her talking."
+        },
+        {
+          "slide": 2,
+          "text": "not the short version you give people because you think you are annoying.",
+          "visual": "Aachu looking at her phone with a half-typed 'sorry, forget it' message."
+        },
+        {
+          "slide": 3,
+          "text": "tell me the same detail again. i will hate them with you properly.",
+          "visual": "Zuv leaning in with a serious little nod, Aachu almost laughing through the complaint."
+        },
+        {
+          "slide": 4,
+          "text": "and when you say 'sorry, too much'...",
+          "visual": "Aachu covering her mouth mid-apology while Zuv gently points back to the empty space beside him."
+        },
+        {
+          "slide": 5,
+          "text": "no. say the rest.",
+          "visual": "A phone close-up from Aachu to Zuv: 'sorry i said too much' and his reply: 'say the rest.'"
+        }
+      ],
+      "payoff_frame": {
+        "text": "no. say the rest.",
+        "visual": "The message reply lands as the final frame, with Aachu's face softening beside the phone."
+      },
+      "source_engine": {
+        "primary_source": {
+          "account": "hereverydaymotherhood",
+          "shortcode": "DZS2GuipLku",
+          "source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+          "local_path": "references/text-style/winner-bank/posts_merged.json",
+          "signal": "Compact source line about wanting more venting, with comments from people who feel annoying or like a burden.",
+          "copy_status": "source lead preserved in premise and first-slide shape, lightly A Story-ed for partner sendability"
+        },
+        "owned_support": [
+          "DY4tGrQCXRA proves listening can travel: 27.04 shares per 1k reach.",
+          "DYJpjt9CQYY proves 'you are not too much' travels: 40.15 shares per 1k reach."
+        ],
+        "what_stays": "The permission to keep talking.",
+        "what_changes": "Motherhood/marriage quote becomes a couple scene where Zuv does not fix Aachu; he gives her room to finish."
+      },
+      "novelty_model": {
+        "old_topic": "being listened to",
+        "new_reveal": "The loving thing is not advice. It is wanting the long, repetitive, messy version.",
+        "viewer_outcome": "A viewer can send it instead of asking, 'am I too much when I talk?'",
+        "contrast_frame": "Most people tolerate a vent. This says 'please give me more of it'.",
+        "bullseye_proof": "The final message 'say the rest' is a receipt a real couple could send.",
+        "what_not_to_explain": "Do not say 'healthy partners hold space'. That kills it."
+      },
+      "A Story wrapper": {
+        "relationship_specificity": "Aachu's over-talking is treated as beloved, not dramatic. Zuv's love is shown by staying attentive and a little conspiratorial.",
+        "scene_logic": "Keep the scene small: bedroom floor, phone, unfinished complaint. No moral, no advice pose.",
+        "wrapper_risk": "If Zuv looks like a therapist or guru, the post becomes therapy-page slop. He should look like her person."
+      },
+      "why_someone_sends_comments": "Sends because one partner wants permission to keep talking. Comments bait: 'me apologizing after every rant', 'he actually listens', 'I need this'.",
+      "why_people_may_share": "A partner can send it as a soft request without typing 'please do not get tired of me'.",
+      "why_people_may_comment": "It invites self-incrimination without shame: 'I say sorry after every rant' or tagging the listener.",
+      "likely_audience_reaction": "Babe, this is literally me after every five-minute story that becomes forty minutes.",
+      "anti_slop_risk": {
+        "risk": "PREACHY_THERAPY_LANGUAGE",
+        "bad_version": "Thank you for creating emotional safety for my vulnerability.",
+        "repair": "Keep the line at 'say the rest' and prove it through listening, not explanation.",
+        "status": "passed_after_rewrite"
+      },
+      "scores": {
+        "shareability": 5.0,
+        "comment_potential": 4.6,
+        "save_potential": 4.4,
+        "swipe_through_curiosity": 4.5,
+        "simplicity": 5.0,
+        "hook_strength": 4.8,
+        "freshness": 4.5,
+        "brand_fit": 4.8,
+        "overall": 4.7
+      }
+    },
+    {
+      "id": "kabir_02",
+      "title": "he said i love you all day",
+      "suggested_text_hook": "he has said i love you all day. just not like that.",
+      "exact_first_slide_text": "he has said i love you all day. just not like that.",
+      "first_frame_visual": "Aachu near the door, one shoe on, seeing Zuv's text: 'text me when you reach'. Zuv is visible in the background pretending to be casual.",
+      "slide_mini_arc": [
+        {
+          "slide": 1,
+          "text": "he has said i love you all day. just not like that.",
+          "visual": "Aachu reading the 'text me when you reach' message at the doorway."
+        },
+        {
+          "slide": 2,
+          "text": "'take my jacket. you will say no and then shiver.'",
+          "visual": "Zuv holding out his jacket while Aachu is already saying no."
+        },
+        {
+          "slide": 3,
+          "text": "'eat first. fight with me after.'",
+          "visual": "A plate kept near Aachu while both are still pretending to be annoyed."
+        },
+        {
+          "slide": 4,
+          "text": "'send me a photo of the cab number.'",
+          "visual": "Phone screen with Zuv's practical message, Aachu smiling despite herself."
+        },
+        {
+          "slide": 5,
+          "text": "some people say it by checking if you got home.",
+          "visual": "Aachu's lockscreen at night: 'reached?'"
+        }
+      ],
+      "payoff_frame": {
+        "text": "some people say it by checking if you got home.",
+        "visual": "The final frame is the phone glow on Aachu's face, not a big romantic embrace."
+      },
+      "source_engine": {
+        "primary_source": {
+          "account": "thirdeyethoughts",
+          "shortcode": "DZTTSUBEaRr",
+          "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+          "local_path": "references/text-style/winner-bank/winner_bank.json",
+          "index_path": "references/text-style/winner-bank-index-2026-06-14.json",
+          "signal": "10-slide direct-you domestic carousel; 52,514 likes, 164 comments, winner_score 59,894.",
+          "copy_status": "premise-preserving remix using care phrases as love"
+        },
+        "what_stays": "Ordinary care phrases are framed as another way of saying love.",
+        "what_changes": "The broad prompt becomes Aachu/Zuv receipts with Indian couple logistics and after-fight softness."
+      },
+      "novelty_model": {
+        "old_topic": "love languages",
+        "new_reveal": "The confession is hidden in practical sentences.",
+        "viewer_outcome": "Send to the partner who is not verbally dramatic but constantly checks on you.",
+        "contrast_frame": "Not the big 'I love you'. The unglamorous 'reached?'",
+        "bullseye_proof": "Real lines like 'eat first' and 'cab number' feel closer than an abstract love-language label.",
+        "what_not_to_explain": "Do not say 'care is a form of love'. Let the phrases do it."
+      },
+      "A Story wrapper": {
+        "relationship_specificity": "Zuv's love is slightly bossy, practical, and badly hidden. Aachu acts annoyed but keeps rereading the messages.",
+        "scene_logic": "Use doorway, plate, cab text, and after-fight plate as receipts. Keep objects supporting the line, not leading the premise.",
+        "wrapper_risk": "Too many cute phrases can become a listicle. Keep each slide tied to one private moment."
+      },
+      "why_someone_sends_comments": "Sends to the partner who says love through instructions. Comments bait: 'this is my man', 'the cab number one', 'guilty'.",
+      "why_people_may_share": "It lets non-expressive partners be seen without having to become poetic.",
+      "why_people_may_comment": "People will drop their own phrases: 'drink water', 'call me after', 'eat something'.",
+      "likely_audience_reaction": "He never says it properly but he does ask if I reached.",
+      "anti_slop_risk": {
+        "risk": "GENERIC_LOVE_LANGUAGE_LIST",
+        "bad_version": "Sometimes love is shown through small acts of care.",
+        "repair": "Keep the first slide conversational and make every slide a direct sentence someone has actually heard.",
+        "status": "passed_after_rewrite"
+      },
+      "scores": {
+        "shareability": 4.8,
+        "comment_potential": 4.2,
+        "save_potential": 4.6,
+        "swipe_through_curiosity": 4.3,
+        "simplicity": 4.6,
+        "hook_strength": 4.6,
+        "freshness": 4.2,
+        "brand_fit": 4.7,
+        "overall": 4.5
+      }
+    },
+    {
+      "id": "kabir_03",
+      "title": "i love the boring parts of you",
+      "suggested_text_hook": "i love the boring parts of you.",
+      "exact_first_slide_text": "i love the boring parts of you.",
+      "first_frame_visual": "Aachu on the sofa watching Zuv check the door lock twice before bed. She is not teasing him loudly; she is quietly amused because she knows the habit by heart.",
+      "slide_mini_arc": [
+        {
+          "slide": 1,
+          "text": "i love the boring parts of you.",
+          "visual": "Aachu watching Zuv check the lock twice."
+        },
+        {
+          "slide": 2,
+          "text": "the song you hum only when you think nobody heard.",
+          "visual": "Zuv in the kitchen doorway, humming under his breath, Aachu listening from the next room."
+        },
+        {
+          "slide": 3,
+          "text": "the way you search for your charger before you search for me.",
+          "visual": "Zuv patting the blanket for a charger while Aachu stares at him, offended but fond."
+        },
+        {
+          "slide": 4,
+          "text": "the face you make two seconds before sleep wins.",
+          "visual": "Zuv half-asleep, Aachu noticing the exact face."
+        },
+        {
+          "slide": 5,
+          "text": "i don't know why it matters. it just does.",
+          "visual": "Aachu smiling to herself in the dim room while Zuv sleeps normally, not posed."
+        }
+      ],
+      "payoff_frame": {
+        "text": "i don't know why it matters. it just does.",
+        "visual": "A tiny, private observation lands without a big romantic pose."
+      },
+      "source_engine": {
+        "primary_owned_source": {
+          "shortcode": "DY_t4Dek0pq",
+          "local_path": "data/instagram/carousel_posts/DY_t4Dek0pq/carousel_export.json",
+          "signal": "24.87 shares per 1k reach and 16.99 saves per 1k reach from observational intimacy."
+        },
+        "secondary_source": {
+          "account": "atticuspoetry",
+          "shortcode": "DYG9a-FEuBQ",
+          "source_url": "https://www.instagram.com/p/DYG9a-FEuBQ/",
+          "local_path": "references/text-style/winner-bank/winner_bank.json",
+          "signal": "6-slide ordinary-things carousel; 42,096 likes, 80 comments, winner_score 45,696."
+        },
+        "what_stays": "Deep affection comes from noticing ordinary details.",
+        "what_changes": "Instead of a broad poem, the A Story version uses partner-specific habits that feel slightly silly and therefore sendable."
+      },
+      "novelty_model": {
+        "old_topic": "loving small details",
+        "new_reveal": "The most intimate details are not impressive. They are boring enough that nobody else would care.",
+        "viewer_outcome": "Send to say 'I know weird useless things about you and I like that'.",
+        "contrast_frame": "Generic accounts praise beautiful details. This praises the unmarketable ones.",
+        "bullseye_proof": "Door lock, charger search, sleep face, and secret hum are concrete receipts.",
+        "what_not_to_explain": "Do not say 'observational intimacy' on the slide. The word is for us, not the viewer."
+      },
+      "A Story wrapper": {
+        "relationship_specificity": "Aachu is the noticer. Zuv is not staged as a romantic hero; he is just being himself while being loved.",
+        "scene_logic": "Quiet home-night sequence. Use one-person frames when that makes the noticing truer.",
+        "wrapper_risk": "Could become too poetic if the last line is too polished. Keep the payoff slightly plain."
+      },
+      "why_someone_sends_comments": "Sends as a gentle 'you are weird and I love it'. Comments bait: 'the charger one', 'why is he like this', 'I notice this too'.",
+      "why_people_may_share": "It gives couples a non-cringe way to say they like knowing each other deeply.",
+      "why_people_may_comment": "People will add their partner's boring habit in comments.",
+      "likely_audience_reaction": "This is exactly the kind of useless thing I know about him.",
+      "anti_slop_risk": {
+        "risk": "QUOTE_CARD_ORDINARY_LOVE",
+        "bad_version": "The deepest love is found in the little things.",
+        "repair": "Use 'boring parts' and exact receipts so it feels observed, not framed.",
+        "status": "passed_after_rewrite"
+      },
+      "scores": {
+        "shareability": 4.5,
+        "comment_potential": 3.9,
+        "save_potential": 4.8,
+        "swipe_through_curiosity": 4.1,
+        "simplicity": 4.3,
+        "hook_strength": 4.3,
+        "freshness": 4.0,
+        "brand_fit": 4.9,
+        "overall": 4.35
+      }
+    },
+    {
+      "id": "kabir_04",
+      "title": "the nothing happened face",
+      "suggested_text_hook": "send this to the person who knows your 'nothing happened' face.",
+      "exact_first_slide_text": "send this to the person who knows your 'nothing happened' face.",
+      "first_frame_visual": "Aachu sitting stiffly on one side of the bed, clearly upset. Zuv sits near but not too close, knowing better than to ask the wrong question again.",
+      "slide_mini_arc": [
+        {
+          "slide": 1,
+          "text": "send this to the person who knows your 'nothing happened' face.",
+          "visual": "Aachu's face says everything while she says nothing."
+        },
+        {
+          "slide": 2,
+          "text": "the face after 'i am fine' but the blanket is pulled too high.",
+          "visual": "Aachu under the blanket, eyes visible, Zuv waiting beside her."
+        },
+        {
+          "slide": 3,
+          "text": "the face that does not want a lecture.",
+          "visual": "Zuv closing his mouth mid-sentence, choosing silence."
+        },
+        {
+          "slide": 4,
+          "text": "it wants someone to sit there and not leave.",
+          "visual": "Zuv quietly sitting on the floor, close enough to be there, far enough not to crowd."
+        },
+        {
+          "slide": 5,
+          "text": "he learned the face. that was the love.",
+          "visual": "Aachu's hand slowly reaches down toward Zuv's shoulder."
+        }
+      ],
+      "payoff_frame": {
+        "text": "he learned the face. that was the love.",
+        "visual": "The smallest hand reach after silence, not a dramatic reconciliation."
+      },
+      "source_engine": {
+        "primary_owned_source": {
+          "shortcode": "DYJpjt9CQYY",
+          "local_path": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+          "signal": "Owned top send-behavior winner: 40.15 shares per 1k reach, 21,351 shares total."
+        },
+        "what_stays": "A loving partner understands the emotional person beneath 'mujhe kuch nahi hua'.",
+        "what_changes": "This version narrows the broad 'did not marry a calm girl' premise into one instantly recognizable face."
+      },
+      "novelty_model": {
+        "old_topic": "being understood when upset",
+        "new_reveal": "The intimacy is not fixing the mood. It is learning the face.",
+        "viewer_outcome": "Send to the person who can decode them without making them explain.",
+        "contrast_frame": "Everyone says 'communicate'. This says sometimes love notices before language works.",
+        "bullseye_proof": "The blanket, the face, and Zuv stopping himself before a lecture.",
+        "what_not_to_explain": "Do not use 'emotional regulation' or 'secure attachment'."
+      },
+      "A Story wrapper": {
+        "relationship_specificity": "Aachu's stubborn silence is specific and familiar; Zuv's restraint is the act of care.",
+        "scene_logic": "Bedroom after a small fight. No big apology yet. The swipe tension is whether he stays in the right way.",
+        "wrapper_risk": "This is close to a previous winner, so the novelty must be the 'face' receipt, not another version of 'calm girl'."
+      },
+      "why_someone_sends_comments": "Sends to the person who knows their silent upset face. Comments bait: 'my face exposes me', 'he knows', 'mujhe kuch nahi hua'.",
+      "why_people_may_share": "It lets emotional viewers admit they have a visible 'nothing happened' face without sounding needy.",
+      "why_people_may_comment": "Couples will tag the decoder or confess they are the bad liar.",
+      "likely_audience_reaction": "My face tells him before I do.",
+      "anti_slop_risk": {
+        "risk": "REPEAT_OF_PRIOR_WINNER",
+        "bad_version": "He loved her chaos and understood her emotions.",
+        "repair": "Use one specific face and one specific behavior instead of re-running the whole calm-girl engine.",
+        "status": "usable_but_not_top_pick"
+      },
+      "scores": {
+        "shareability": 4.7,
+        "comment_potential": 4.3,
+        "save_potential": 4.2,
+        "swipe_through_curiosity": 4.2,
+        "simplicity": 4.7,
+        "hook_strength": 4.6,
+        "freshness": 3.5,
+        "brand_fit": 4.8,
+        "overall": 4.38
+      }
+    },
+    {
+      "id": "kabir_05",
+      "title": "more normal evenings",
+      "suggested_text_hook": "i just want more normal evenings with you.",
+      "exact_first_slide_text": "i just want more normal evenings with you.",
+      "first_frame_visual": "Aachu and Zuv in a small kitchen after a badly timed dinner attempt, both tired, both laughing because the evening is objectively unimportant and somehow exactly enough.",
+      "slide_mini_arc": [
+        {
+          "slide": 1,
+          "text": "i just want more normal evenings with you.",
+          "visual": "Kitchen counter mess, Aachu and Zuv tired-laughing."
+        },
+        {
+          "slide": 2,
+          "text": "bad dinner. same story twice. one cab stuck at 12 minutes forever.",
+          "visual": "Phone showing the cab delay while they sit on the floor."
+        },
+        {
+          "slide": 3,
+          "text": "you cheating at the game and denying it badly.",
+          "visual": "Zuv hiding a game piece too obviously while Aachu catches him."
+        },
+        {
+          "slide": 4,
+          "text": "me pretending to be annoyed because i like having a reason to look at you.",
+          "visual": "Aachu trying not to smile while scolding him."
+        },
+        {
+          "slide": 5,
+          "text": "nothing big. just more time where we do not have to become interesting.",
+          "visual": "The two of them sitting close in the ordinary mess, no pose."
+        }
+      ],
+      "payoff_frame": {
+        "text": "nothing big. just more time where we do not have to become interesting.",
+        "visual": "A quiet, ordinary room that still feels like the whole point."
+      },
+      "source_engine": {
+        "primary_owned_source": {
+          "shortcode": "DY9SfANiXWc",
+          "local_path": "data/instagram/carousel_posts/DY9SfANiXWc/carousel_export.json",
+          "signal": "Owned winner with 27.9 shares per 1k reach built around cooking badly, board games, late cabs, and ordinary evenings."
+        },
+        "secondary_source": {
+          "account": "atticuspoetry",
+          "shortcode": "DYG9a-FEuBQ",
+          "source_url": "https://www.instagram.com/p/DYG9a-FEuBQ/",
+          "signal": "Ordinary-things engine with 42,096 likes and 80 comments."
+        },
+        "what_stays": "Normal time with the right person is the wish.",
+        "what_changes": "The hook becomes more direct and sendable, less poetic."
+      },
+      "novelty_model": {
+        "old_topic": "ordinary love",
+        "new_reveal": "The desire is not romance as an event. It is more time where neither person has to perform.",
+        "viewer_outcome": "Send to say 'I want our boring life, not a perfect date'.",
+        "contrast_frame": "Big romantic plans versus unremarkable evenings that feel like relief.",
+        "bullseye_proof": "Bad cooking, late cab, board-game cheating, pretending to be annoyed.",
+        "what_not_to_explain": "Do not conclude 'love is found in the mundane'. That is the dead version."
+      },
+      "A Story wrapper": {
+        "relationship_specificity": "Aachu and Zuv are allowed to be stupid, tired, and unphotogenic together.",
+        "scene_logic": "Each slide is one ordinary receipt. No oversized romance, no framed quote card.",
+        "wrapper_risk": "Could become low-hook because it is gentle. Needs the first line to be very plain and immediate."
+      },
+      "why_someone_sends_comments": "Sends to the person whose boring time feels better than plans with anyone else. Comments bait: 'need this', 'our late cab era', 'he cheats at games'.",
+      "why_people_may_share": "It is a low-pressure confession for couples who value everyday time.",
+      "why_people_may_comment": "People can add their own normal-evening receipts.",
+      "likely_audience_reaction": "This is all I actually want, honestly.",
+      "anti_slop_risk": {
+        "risk": "LOW_HOOK_SOFTNESS",
+        "bad_version": "Love is not about grand gestures, it is about ordinary moments.",
+        "repair": "Use unromantic receipts and the phrase 'do not have to become interesting' to avoid generic softness.",
+        "status": "usable_as_softer_alternative"
+      },
+      "scores": {
+        "shareability": 4.2,
+        "comment_potential": 3.7,
+        "save_potential": 4.6,
+        "swipe_through_curiosity": 4.0,
+        "simplicity": 4.8,
+        "hook_strength": 4.1,
+        "freshness": 3.9,
+        "brand_fit": 4.7,
+        "overall": 4.25
+      }
+    }
+  ],
+  "top_pick": {
+    "candidate_id": "kabir_01",
+    "title": "please vent to me more",
+    "exact_first_slide_text": "please vent to me more.",
+    "why_it_wins": "It has the cleanest send decision. The viewer who feels annoying can send it to ask for permission without asking. The receiver can send it back as reassurance without writing a speech.",
+    "scene_landing_reason": "The first frame stops because it is a request, not a lesson. The payoff 'say the rest' turns the source's venting permission into a concrete Aachu/Zuv relationship moment.",
+    "runner_up": "kabir_02",
+    "runner_up_reason": "Care phrases will bait comments well, but the first-slide line is less vulnerable than 'please vent to me more.'"
+  },
+  "engagement_rationale": {
+    "three_second_hook": "The top pick lands in three words plus one private wound: venting. It is easy to read, easy to send, and not visually complicated.",
+    "send_trigger": "The sender does not have to say 'please listen to me even when I repeat myself'. The post says it.",
+    "tag_trigger": "The listener can be tagged as the person who says 'say the rest', which is affectionate status, not a mean call-out.",
+    "comment_trigger": "People will confess their own rant-apology habit or tag the person who listens. That is warmer than debate bait.",
+    "save_trigger": "Candidates 02, 03, and 05 are save-friendly because they name ordinary care and private details people want to keep."
+  },
+  "distribution_risks": [
+    {
+      "risk": "Top pick could drift into therapy-page listening language.",
+      "mitigation": "Keep all visible copy plain: 'please vent to me more', 'sorry, too much', 'say the rest'. Do not use 'hold space', 'safe person', or 'emotional availability'."
+    },
+    {
+      "risk": "Candidate 04 is close to the prior 'didn't marry a calm girl' winner.",
+      "mitigation": "Use only if the room wants owned-performance safety over freshness, and keep the new reveal narrowed to the 'nothing happened' face."
+    },
+    {
+      "risk": "Ordinary-care and ordinary-evening ideas can become generic little-things quote cards.",
+      "mitigation": "Each slide must carry one specific sentence or receipt. Delete any slide that only says the lesson."
+    },
+    {
+      "risk": "Live current-platform research was not run in this agent pass.",
+      "mitigation": "Evidence is local only: owned outcomes, winner-bank scrape, run brief, and policy files. Treat external freshness as provisional until a research pass confirms current platform momentum."
+    },
+    {
+      "risk": "Visuals could over-stage both characters in every slide.",
+      "mitigation": "Use phones, one-person frames, negative space, and quiet body position when that proves the feeling better."
+    }
+  ],
+  "scores": {
+    "scoring_scale": "1 to 5",
+    "ranked": [
+      {
+        "candidate_id": "kabir_01",
+        "overall": 4.7,
+        "shareability": 5.0,
+        "comment_potential": 4.6,
+        "save_potential": 4.4,
+        "swipe_through_curiosity": 4.5,
+        "simplicity": 5.0,
+        "hook_strength": 4.8,
+        "freshness": 4.5,
+        "brand_fit": 4.8
+      },
+      {
+        "candidate_id": "kabir_02",
+        "overall": 4.5,
+        "shareability": 4.8,
+        "comment_potential": 4.2,
+        "save_potential": 4.6,
+        "swipe_through_curiosity": 4.3,
+        "simplicity": 4.6,
+        "hook_strength": 4.6,
+        "freshness": 4.2,
+        "brand_fit": 4.7
+      },
+      {
+        "candidate_id": "kabir_04",
+        "overall": 4.38,
+        "shareability": 4.7,
+        "comment_potential": 4.3,
+        "save_potential": 4.2,
+        "swipe_through_curiosity": 4.2,
+        "simplicity": 4.7,
+        "hook_strength": 4.6,
+        "freshness": 3.5,
+        "brand_fit": 4.8
+      },
+      {
+        "candidate_id": "kabir_03",
+        "overall": 4.35,
+        "shareability": 4.5,
+        "comment_potential": 3.9,
+        "save_potential": 4.8,
+        "swipe_through_curiosity": 4.1,
+        "simplicity": 4.3,
+        "hook_strength": 4.3,
+        "freshness": 4.0,
+        "brand_fit": 4.9
+      },
+      {
+        "candidate_id": "kabir_05",
+        "overall": 4.25,
+        "shareability": 4.2,
+        "comment_potential": 3.7,
+        "save_potential": 4.6,
+        "swipe_through_curiosity": 4.0,
+        "simplicity": 4.8,
+        "hook_strength": 4.1,
+        "freshness": 3.9,
+        "brand_fit": 4.7
+      }
+    ]
+  }
+}

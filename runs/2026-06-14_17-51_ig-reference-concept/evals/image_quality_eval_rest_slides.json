@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-16T19:13:24Z",
+  "scope": "slides_02_to_05_rest_of_carousel",
+  "generation_mode": "built_in_imagegen",
+  "reference_visibility_proof": "runs/2026-06-14_17-51_ig-reference-concept/evals/imagegen_reference_visibility_proof.json",
+  "common_checks": {
+    "final_canvas_px": "pass",
+    "expected_final_canvas_px": "1080 x 1350",
+    "raw_candidate_canvas_px": "1122 x 1402",
+    "raw_candidate_handling": "Exported each portrait 4:5 candidate to exact 1080 x 1350. No square padding, square crop, or square extension was used.",
+    "source_card_contamination": "pass",
+    "brandmark_top_right": "pass",
+    "no_extra_visible_copy": "pass",
+    "a_story_watercolor_ink_style": "pass"
+  },
+  "slides": [
+    {
+      "slide": 2,
+      "prompt_path": "runs/2026-06-14_17-51_ig-reference-concept/prompts/slide_02_prompt.txt",
+      "candidate_path": "runs/2026-06-14_17-51_ig-reference-concept/images/slide-02-attempt-01.png",
+      "final_export_path": "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-02-final.png",
+      "exact_on_image_text": "The intimacy of “You noticed?” “Of course I did.”",
+      "scene_text_proof": "Zuv silently slides tea toward Aachu while she sits quiet at the table.",
+      "checks": {
+        "final_canvas_px": "pass",
+        "exact_text_readability": "pass",
+        "brandmark_top_right": "pass",
+        "scene_specificity": "pass",
+        "identity_and_style": "pass"
+      },
+      "decision": "accepted_for_creator_review"
+    },
+    {
+      "slide": 3,
+      "prompt_path": "runs/2026-06-14_17-51_ig-reference-concept/prompts/slide_03_prompt.txt",
+      "candidate_path": "runs/2026-06-14_17-51_ig-reference-concept/images/slide-03-attempt-01.png",
+      "final_export_path": "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-03-final.png",
+      "exact_on_image_text": "The intimacy of “You saved it?” “Of course I did.”",
+      "scene_text_proof": "A single saved bite on the plate carries the remembered-care proof.",
+      "checks": {
+        "final_canvas_px": "pass",
+        "exact_text_readability": "pass",
+        "brandmark_top_right": "pass",
+        "scene_specificity": "pass",
+        "identity_and_style": "pass"
+      },
+      "decision": "accepted_for_creator_review"
+    },
+    {
+      "slide": 4,
+      "prompt_path": "runs/2026-06-14_17-51_ig-reference-concept/prompts/slide_04_prompt.txt",
+      "candidate_path": "runs/2026-06-14_17-51_ig-reference-concept/images/slide-04-attempt-01.png",
+      "final_export_path": "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-04-final.png",
+      "exact_on_image_text": "The intimacy of “You still know?” “Of course I do.”",
+      "scene_text_proof": "Zuv points at Aachu's usual order while she gives him a touched side-eye.",
+      "checks": {
+        "final_canvas_px": "pass",
+        "exact_text_readability": "pass",
+        "brandmark_top_right": "pass",
+        "scene_specificity": "pass",
+        "identity_and_style": "pass",
+        "menu_text_contamination": "pass"
+      },
+      "decision": "accepted_for_creator_review"
+    },
+    {
+      "slide": 5,
+      "prompt_path": "runs/2026-06-14_17-51_ig-reference-concept/prompts/slide_05_prompt.txt",
+      "candidate_path": "runs/2026-06-14_17-51_ig-reference-concept/images/slide-05-attempt-01.png",
+      "final_export_path": "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-05-final.png",
+      "exact_on_image_text": "The intimacy of “You remembered?” “I always do.”",
+      "scene_text_proof": "Aachu holds the tea while Zuv quietly clears or sets down another cup, making care feel habitual.",
+      "checks": {
+        "final_canvas_px": "pass",
+        "exact_text_readability": "pass",
+        "brandmark_top_right": "pass",
+        "scene_specificity": "pass",
+        "identity_and_style": "pass"
+      },
+      "decision": "accepted_for_creator_review"
+    }
+  ],
+  "decision": "ready_for_creator_review",
+  "failure": null
+}

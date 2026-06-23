@@ -1,0 +1,65 @@
+{
+  "agent_role": "Kabir, Shareability Strategist",
+  "candidates": [
+    {
+      "title": "Good Days Are Easy",
+      "suggested_text_hook": "Good days don't need promises.",
+      "why_people_may_share": "The send-trigger is immediate: someone sends this when they want to say, 'I don't just want you when things are easy.'",
+      "why_people_may_comment": "Warm comments like 'bad days do', 'this is us', and tagging the person who stayed through a rough patch.",
+      "likely_audience_reaction": "Soft chest-hit for couples who have survived anxiety, distance, fights, or low weeks without making it dramatic.",
+      "shareability": 5,
+      "comment_potential": 5,
+      "save_potential": 4,
+      "swipe_through_curiosity": 5,
+      "simplicity": 5,
+      "hook_strength": 5,
+      "freshness": 4,
+      "brand_fit": 5
+    },
+    {
+      "title": "When I'm Not Easy",
+      "suggested_text_hook": "Promise you'll stay when I'm not easy to love.",
+      "why_people_may_share": "This gives the sender a vulnerable line without sounding needy.",
+      "why_people_may_comment": "Confession-style comments: 'this one hurt', 'needed this', 'he really did'.",
+      "likely_audience_reaction": "Tender recognition with a little ache.",
+      "shareability": 5,
+      "comment_potential": 4,
+      "save_potential": 5,
+      "swipe_through_curiosity": 4,
+      "simplicity": 4,
+      "hook_strength": 5,
+      "freshness": 4,
+      "brand_fit": 5
+    },
+    {
+      "title": "No Big Speech",
+      "suggested_text_hook": "I don't need a big promise.",
+      "why_people_may_share": "For couples whose love language is presence, not speeches.",
+      "why_people_may_comment": "Comments like 'bare minimum but rare' or tagging the partner who quietly shows up.",
+      "likely_audience_reaction": "Gentle, saveable, less dramatic than the others.",
+      "shareability": 4,
+      "comment_potential": 4,
+      "save_potential": 4,
+      "swipe_through_curiosity": 4,
+      "simplicity": 5,
+      "hook_strength": 4,
+      "freshness": 4,
+      "brand_fit": 5
+    }
+  ],
+  "top_pick": {
+    "title": "Good Days Are Easy",
+    "reason": "Strongest 3-second hook and cleanest swipe logic, but it changes the requested source text."
+  },
+  "engagement_rationale": {
+    "three_second_hook": "Good days don't need promises.",
+    "send_trigger": "It lets someone ask for steadiness without writing a paragraph.",
+    "tag_reason": "They tag the partner who stayed during a bad day.",
+    "comment_bait": "Bad days do; this is us; you did stay."
+  },
+  "distribution_risks": [
+    "If the art is only hands with no Aachu/Zuv specificity, it may feel like a generic couple quote.",
+    "The word promise can become greeting-card-soft unless the bad-day line stays sharp.",
+    "Avoid captioning it with true-love language; the post already earns the emotion."
+  ]
+}

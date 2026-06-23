@@ -1,0 +1,28 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "selected_title": "The Hair Clip He Started Carrying",
+  "overall_score": 4.78,
+  "source_reference": "https://www.instagram.com/p/DUtQzmaj9Rw/?img_index=3",
+  "reference_mechanic": "Someone is surprised a tiny detail was remembered; the other person treats remembering as obvious.",
+  "concept": "Aachu reaches for a hair clip right as the food arrives, and Zuv already has her exact old clip in his pocket because he knows this tiny chaos happens every time.",
+  "exact_first_slide_text": "why do you have my clip?",
+  "first_frame_visual": "Food has just arrived; Aachu's hair is falling into her face and one hand is already halfway to her bag, while Zuv's hand enters the lower frame holding her old clip.",
+  "payoff_frame": "Aachu clips her own hair slightly crooked and looks caught between laughing and softening; Zuv has already gone back to eating like this was normal inventory.",
+  "share_trigger": "Send to the person who carries your tiny emergency object.",
+  "comment_trigger": "What weird little thing does your person carry/remember for you?",
+  "why_it_wins": [
+    "All three Idea Room agents independently selected the hair-clip direction.",
+    "It turns the reference's remembered-detail mechanic into a concrete A Story scene.",
+    "The hook is short, raw, and accusation-shaped.",
+    "The prop can visually prove the text without a quote-card layout.",
+    "The comment bait is specific and natural."
+  ],
+  "risks": [
+    "If Aachu does not actually use/lose clips, creator should swap the object before story lock.",
+    "Do not stage Zuv fixing Aachu's hair romantically; she should clip it herself.",
+    "Do not make Zuv saintly or Aachu helpless.",
+    "Do not use the exact reference payoff line.",
+    "Do not copy the reference visual style."
+  ],
+  "status": "pending_hitl_idea_lock"
+}

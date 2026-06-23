@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "status": "pass_with_recorded_limitations",
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded",
+  "prompt_room_outputs": [
+    "runs/2026-06-15_19-09_plate-nervous/debates/prompt_room/prompt_review.md"
+  ],
+  "prompt_files_checked": [
+    "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt"
+  ],
+  "checks": {
+    "anti_slop_gate": "pass",
+    "prompt_canvas_size": "pass",
+    "prompt_brandmark_gate": "pass",
+    "prompt_palette_conflict": "pass",
+    "prompt_overload": "pass",
+    "reference_manifest_present": "pass",
+    "view_image_queue_loaded": "pass",
+    "identity_reference_roles": "pass"
+  },
+  "limitations": [
+    "Brain doctor is blocked by stale README citation paths, so this run uses actual local image folders and contracts rather than broken brain recall claims.",
+    "multi_agent_v1.spawn_agent was discoverable but not invoked because the tool runtime says spawning requires an explicit sub-agent/delegation request.",
+    "Built-in imagegen has no explicit destination-path or image-input field in the schema; loaded references are visible in conversation and recorded, but the active generation path cannot be mechanically proven to bind each file as a native input."
+  ],
+  "failure_codes": []
+}

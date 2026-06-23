@@ -1,0 +1,223 @@
+{
+  "agent_role": "Shareability Strategist - Kabir",
+  "persona_file": ".agents/skills/astory/personas/idea-room/shareability-strategist.md",
+  "assignment_mode": "fallback_local_pass_closed_packet",
+  "evidence_ledger": [
+    {
+      "artifact": "Studio mind",
+      "path": "AGENTS.md",
+      "what_you_used": "A sendable A Story idea must not be generic or anonymous.",
+      "gap_or_risk": "None."
+    },
+    {
+      "artifact": "Closed prompt packet",
+      "path": ".agents/skills/astory/templates/agents/idea_room_agent_prompt.md",
+      "what_you_used": "Required premise lock, anti-generic pass, scene-landing seed, and JSON artifact path.",
+      "gap_or_risk": "Actual subagent rerun failed on usage limit; local pass is labeled."
+    },
+    {
+      "artifact": "Persona",
+      "path": ".agents/skills/astory/personas/idea-room/shareability-strategist.md",
+      "what_you_used": "A like is not enough; the idea needs a named send/tag/comment trigger.",
+      "gap_or_risk": "None."
+    },
+    {
+      "artifact": "Creative brief",
+      "path": "runs/2026-06-14_02-21_hard-to-love/input/creative_brief.json",
+      "what_you_used": "Hard-to-love concept, no forced both-person slides, final square/brandmark requirements later.",
+      "gap_or_risk": "Final prompt/image gates not reached."
+    },
+    {
+      "artifact": "Creator corrections",
+      "path": "runs/2026-06-14_02-21_hard-to-love/planning/creator_direction_notes.md",
+      "what_you_used": "Do not force both people; closed packet required; concept style is not the visual style.",
+      "gap_or_risk": "None."
+    },
+    {
+      "artifact": "Memory recall",
+      "path": "runs/2026-06-14_02-21_hard-to-love/planning/memory_recall.md",
+      "what_you_used": "Avoid stale close-angle two-face compositions and concept-style copying.",
+      "gap_or_risk": "Automated recall had no cited results."
+    },
+    {
+      "artifact": "House style",
+      "path": ".agents/skills/astory/references/house-style-contract.md",
+      "what_you_used": "Text should be readable handwritten typography inside the illustration, not a digital overlay.",
+      "gap_or_risk": "Imagegen prompt QA later must enforce."
+    }
+  ],
+  "premise_lock": {
+    "must_preserve": [
+      "The vulnerable question must feel safe to send to a partner.",
+      "The carousel should say something people struggle to say directly.",
+      "No forced both-person slides."
+    ],
+    "must_not_change": [
+      "Do not make it a fight-starter.",
+      "Do not make Zuv emotionally useless or Aachu needy as the joke.",
+      "Do not over-explain with therapy language."
+    ],
+    "rejected_generic_version": "A quote post about being hard to love that earns likes but gives nobody a reason to send it."
+  },
+  "candidates": [
+    {
+      "title": "The Question He Answers Without Saying It",
+      "one_line_concept": "Aachu asks whether she is hard to love when she goes quiet, and Zuv answers in the language he actually has: staying, leaving water, charging her phone, not forcing the door.",
+      "suggested_text_hook": "am i hard to love when i go quiet?",
+      "suggested_slide_arc": [
+        "Closed door and the question.",
+        "Water and charger appear outside.",
+        "Chair moves but does not crowd the door.",
+        "Door cracks open; evidence is used.",
+        "Morning proves he stayed without making her perform gratitude."
+      ],
+      "suggested_slide_1_moment": "Door, chair, empty hallway, clean negative space.",
+      "suggested_payoff_moment": "A half-empty glass and Zuv asleep in the chair with Aachu's hand pulling the folded cloth inside.",
+      "visual_evidence": "Objects answer the question before anyone says the right thing.",
+      "share_or_comment_trigger": "Send to the person who knows when not to knock.",
+      "why_people_may_share": "It lets someone ask for gentle presence without accusing their partner of failing.",
+      "why_people_may_comment": "People will name their own post-shutdown care pattern: water, snacks, space, charger, sitting nearby.",
+      "likely_audience_reaction": "A small throat-catch, then 'this is exactly how I need to be loved.'",
+      "why_not_generic": "The sendable thing is the awkwardly specific care choreography, not the question alone.",
+      "failure_risks": [
+        "Too heavy if it reads like abandonment trauma rather than ordinary couple repair.",
+        "Too noble if Zuv is centered as the hero.",
+        "Too abstract if object changes are not visible."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "A chair outside a closed door with a strip of light beneath it.",
+        "hook_text_direction": "am i hard to love when i go quiet?",
+        "mini_arc": [
+          "Question.",
+          "Care without pressure.",
+          "Distance adjusted.",
+          "Care accepted.",
+          "Still there in the morning."
+        ],
+        "payoff_frame": "Half-empty glass, used charger, folded cloth pulled inside.",
+        "send_or_comment_trigger": "A thank-you disguised as a post.",
+        "flat_or_generic_risk": "A pretty sad hallway with no tag reason."
+      },
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 5,
+        "swipe_through_curiosity": 5,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 5,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "Handle With Familiar Hands",
+      "one_line_concept": "Aachu worries she is hard to handle; Zuv's tiny preparations make her needs feel like known instructions, not trouble.",
+      "suggested_text_hook": "am i hard to handle, or do i come with instructions?",
+      "suggested_slide_arc": [
+        "Open bag with care objects.",
+        "Aachu at edge of noisy place.",
+        "Object from bag appears right when needed.",
+        "Zuv makes room rather than making a speech.",
+        "Quiet corner with used bag."
+      ],
+      "suggested_slide_1_moment": "Open bag as the first frame.",
+      "suggested_payoff_moment": "Bag sits between them, visibly used.",
+      "visual_evidence": "Water, snack, scarf, charger, bag.",
+      "share_or_comment_trigger": "Comment your care-label instructions.",
+      "why_people_may_share": "It is lighter and taggable: partners can laugh at their own care instructions.",
+      "why_people_may_comment": "The comment thread can become a list of relationship-specific instructions.",
+      "likely_audience_reaction": "Warm teasing, high tag potential.",
+      "why_not_generic": "The hook converts insecurity into couple folklore.",
+      "failure_risks": [
+        "Object list may become generic.",
+        "Could become too cute for the heavier attached concept.",
+        "Needs specificity without clutter."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "Open bag on off-white paper with a few care objects.",
+        "hook_text_direction": "am i hard to handle, or do i come with instructions?",
+        "mini_arc": [
+          "Bag.",
+          "Need.",
+          "Item.",
+          "Space.",
+          "Quiet corner."
+        ],
+        "payoff_frame": "Used bag between them.",
+        "send_or_comment_trigger": "Tag the person who knows your care label.",
+        "flat_or_generic_risk": "Care-kit aesthetic with no actual couple behavior."
+      },
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 4,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "Not Hard To Understand, Just Untranslated",
+      "one_line_concept": "The carousel reframes Aachu's silence and overthinking as a private language Zuv has slowly learned to read.",
+      "suggested_text_hook": "am i hard to understand, or just hard to translate?",
+      "suggested_slide_arc": [
+        "Aachu alone with phone face-down and the question.",
+        "Zuv lowers the light instead of asking twenty questions.",
+        "Tea, curtain, and distance change the room.",
+        "Her hand opens toward the cup.",
+        "Two cups remain; conversation can happen later."
+      ],
+      "suggested_slide_1_moment": "Aachu in a too-bright ordinary room with phone face-down.",
+      "suggested_payoff_moment": "Softened room with two cups and partial presence.",
+      "visual_evidence": "Lamp, phone, cup, curtain, body distance.",
+      "share_or_comment_trigger": "People comment about being fluent in someone's silence.",
+      "why_people_may_share": "It is intimate and grateful, but less immediately taggable than the door idea.",
+      "why_people_may_comment": "Couples can brag gently about knowing each other's private signals.",
+      "likely_audience_reaction": "Save-forward, softer, more ache than joke.",
+      "why_not_generic": "The answer is environmental translation, not 'I understand you' text.",
+      "failure_risks": [
+        "Can become mood-only.",
+        "Lighting can drift toward the dark concept references.",
+        "Needs a repeated prop to land."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "Phone face-down, harsh light, Aachu alone.",
+        "hook_text_direction": "am i hard to understand, or just hard to translate?",
+        "mini_arc": [
+          "Hard-to-translate question.",
+          "Room changed.",
+          "Tea arrives.",
+          "Guard drops slightly.",
+          "Two cups wait."
+        ],
+        "payoff_frame": "Two cups in softened light.",
+        "send_or_comment_trigger": "Thank you for learning my silence.",
+        "flat_or_generic_risk": "Pretty lamplight with no proof."
+      },
+      "scores": {
+        "shareability": 4,
+        "comment_potential": 4,
+        "save_potential": 5,
+        "swipe_through_curiosity": 4,
+        "simplicity": 4,
+        "hook_strength": 4,
+        "freshness": 4,
+        "brand_fit": 5
+      }
+    }
+  ],
+  "top_pick": "The Question He Answers Without Saying It",
+  "engagement_rationale": "The door/chair version is the cleanest send. It gives the follower a socially safe way to ask for gentle presence and gives the partner a behavior to recognize without being accused.",
+  "distribution_risks": [
+    "If it stays abstract, it becomes a like-only post.",
+    "If it blames Zuv for not speaking perfectly, it becomes a fight-starter.",
+    "If every slide forces both people into frame, it feels staged and loses sendability."
+  ],
+  "required_room_critiques": [
+    "Meera should verify the behavior is not a sentiment.",
+    "Tara should keep the first frame readable and avoid empty wallpaper."
+  ],
+  "failure_codes": []
+}

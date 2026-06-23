@@ -1,0 +1,137 @@
+{
+  "claim_summary": {
+    "active_runtime": 0,
+    "candidate": 0,
+    "deferred": 1,
+    "open_human_review": 0,
+    "open_quarantine_review": 0,
+    "promoted": 0,
+    "quarantined": 0,
+    "rejected": 0,
+    "total": 1
+  },
+  "decision_summary": {
+    "auto_deferred": 0,
+    "auto_promoted": 1,
+    "auto_quarantined": 0,
+    "auto_rollback": 1,
+    "kept_active_runtime": 0,
+    "skipped_already_decided": 0
+  },
+  "decisions": [
+    {
+      "action": "auto_promoted",
+      "claim_id": "claim:27d2c6ad44e8947c",
+      "event_id": "event:02d228bc66dd727e",
+      "evidence_paths": [
+        "runs/2026-06-15_23-25_silence-house-walks/references-used/selected_references.json"
+      ],
+      "from_status": "active_runtime",
+      "promotion_policy": "auto_apply",
+      "rationale": "Autopilot promoted low/medium-risk workflow memory after post-run evidence extraction.",
+      "reviewed_at": "2026-06-16T18:56:13.033616+00:00",
+      "reviewer": "codex-autopilot",
+      "run_id": "2026-06-15_23-25_silence-house-walks",
+      "target_page": "references/brain/pages/run-lessons.md",
+      "to_status": "promoted"
+    },
+    {
+      "action": "auto_rollback",
+      "claim_id": "claim:27d2c6ad44e8947c",
+      "event_id": "event:506a792365c7912e",
+      "evidence_paths": [
+        "runs/2026-06-15_23-25_silence-house-walks/references-used/selected_references.json"
+      ],
+      "from_status": "active_runtime",
+      "promotion_policy": "auto_apply",
+      "rationale": "Autopilot rolled back promotion because lint or retrieval eval failed.",
+      "reviewed_at": "2026-06-16T18:56:14.829970+00:00",
+      "reviewer": "codex-autopilot",
+      "run_id": "2026-06-15_23-25_silence-house-walks",
+      "target_page": "references/brain/pages/run-lessons.md",
+      "to_status": "deferred"
+    }
+  ],
+  "heavy_verification_ran": true,
+  "human_intervention_required": false,
+  "learning_artifacts": {
+    "active_claims_markdown": "runs/2026-06-15_23-25_silence-house-walks/memory/active_claims.md",
+    "claims_json": "runs/2026-06-15_23-25_silence-house-walks/memory/claim_candidates.json",
+    "claims_markdown": "runs/2026-06-15_23-25_silence-house-walks/memory/claim_candidates.md",
+    "ledger_jsonl": "references/brain/ledger/events.jsonl"
+  },
+  "phase": "post_run",
+  "policy": {
+    "auto_defer_high_risk": true,
+    "auto_promote_auto_apply": true,
+    "auto_quarantine_rejected_assets": true
+  },
+  "pre_imagegen_latency_contract": "The heavy learn/promote/verify loop is post-run only and must not run before illustration generation.",
+  "run_id": "2026-06-15_23-25_silence-house-walks",
+  "schema_version": "1.0",
+  "status": "completed_with_verification_failures",
+  "verification": {
+    "lint": {
+      "failures": [],
+      "status": "pass"
+    },
+    "retrieval_eval": {
+      "failures": [
+        {
+          "actual_paths": [
+            "references/brain/pages/characters/aachu.md",
+            "references/brain/pages/characters/together.md",
+            "references/brain/pages/characters/zuv.md",
+            "references/brain/pages/run-lessons.md",
+            ".agents/skills/astory/references/imagegen-contract.md"
+          ],
+          "code": "expected_path_missing",
+          "expected_paths": [
+            "references/identity/aachu/README.md"
+          ],
+          "query": "Aachu face identity references"
+        },
+        {
+          "actual_paths": [
+            "references/brain/pages/characters/aachu.md",
+            "references/brain/pages/characters/together.md",
+            "references/brain/pages/characters/zuv.md",
+            "references/brain/pages/run-lessons.md",
+            ".agents/skills/astory/references/failure-taxonomy.md"
+          ],
+          "code": "expected_path_missing",
+          "expected_paths": [
+            "references/identity/zuv/README.md"
+          ],
+          "query": "Zuv face identity references"
+        },
+        {
+          "actual_paths": [
+            "references/style/README.md",
+            ".agents/skills/astory/references/master-prompt.md",
+            "references/brain/pages/run-lessons.md",
+            ".agents/skills/astory/references/house-style-contract.md",
+            "references/brain/pages/run-lessons.md"
+          ],
+          "code": "expected_path_missing",
+          "expected_paths": [
+            "references/style/observational-intimacy-premium/README.md"
+          ],
+          "query": "observational intimacy premium watercolor style"
+        },
+        {
+          "actual_paths": [],
+          "code": "expected_path_missing",
+          "expected_paths": [
+            "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt"
+          ],
+          "query": "heart rent slide prompt"
+        }
+      ],
+      "forbidden_hit_count": 0,
+      "recall_at_k": 0.0,
+      "status": "fail"
+    },
+    "status": "fail"
+  }
+}

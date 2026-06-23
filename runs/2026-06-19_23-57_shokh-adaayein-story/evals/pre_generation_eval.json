@@ -1,0 +1,18 @@
+{
+  "status": "ready_with_format_exception",
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded",
+  "creator_format_request": "Instagram Story/Reel vertical 1080x1920",
+  "repo_default_canvas": "1080x1350 carousel portrait",
+  "format_decision": "Honor creator's current story-format request.",
+  "exact_text_policy": "Original short captions, not full song lyric reproduction.",
+  "brandmark_required": true,
+  "reference_requirement": "Load raw Aachu/Zuv face anchors and style references before imagegen.",
+  "hard_no": [
+    "generic pretty couple pose",
+    "quote-card poster",
+    "missing brandmark",
+    "yellow/parchment cast",
+    "face drift",
+    "unreadable text"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "selected": [
+    {
+      "slide": 1,
+      "option": "1a"
+    },
+    {
+      "slide": 2,
+      "option": "2a"
+    },
+    {
+      "slide": 3,
+      "option": "3a"
+    },
+    {
+      "slide": 4,
+      "option": "4d"
+    }
+  ],
+  "source": "planning/scene_options.json",
+  "hitl_status": "story_locked_with_creator_revision",
+  "creator_revision": "Slide 4 pivot replaced: 'save them for us' (4a) rejected as bland; locked pivot A same-reel twist (4d), text '...you were sending me the SAME reel.'"
+}

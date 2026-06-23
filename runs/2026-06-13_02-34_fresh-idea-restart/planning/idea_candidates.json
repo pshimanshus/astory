@@ -1,0 +1,43 @@
+{
+  "run_id": "2026-06-13_02-34_fresh-idea-restart",
+  "mode": "fresh_restart",
+  "candidate_sources": [
+    "debates/idea_room/agent_01_candidates.json",
+    "debates/idea_room/agent_02_candidates.json",
+    "debates/idea_room/agent_03_candidates.json",
+    "debates/idea_room/cross_critique.md"
+  ],
+  "anti_collapse_gate": "passed",
+  "candidate_clusters": [
+    {
+      "cluster": "new-love denial",
+      "ideas": [
+        "The Chairs Disagreed"
+      ],
+      "room_take": "Most visually fresh; intimacy appears through furniture and body language rather than a quote."
+    },
+    {
+      "cluster": "awkward flirting",
+      "ideas": [
+        "Compliment Failed Successfully"
+      ],
+      "room_take": "Strongest two-way send: girl teases, guy confesses."
+    },
+    {
+      "cluster": "attention drama",
+      "ideas": [
+        "The Sock Fight Was Not About The Sock"
+      ],
+      "room_take": "Messy, intimate, and potentially Aachu/Zuv; must avoid making Aachu a drama stereotype."
+    },
+    {
+      "cluster": "petty married war",
+      "ideas": [
+        "The Last Bite Court Case"
+      ],
+      "room_take": "Most everyday married-couple conflict; funny but less premium unless the payoff becomes tender."
+    }
+  ],
+  "selected_candidate": null,
+  "next_gate": "creator_shortlist_review"
+}

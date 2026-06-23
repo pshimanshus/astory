@@ -1,0 +1,88 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "status": "story_lock_candidate",
+  "slides": [
+    {
+      "slide_number": 1,
+      "story_role": "setup",
+      "exact_on_image_text": "am i hard to love when i go quiet?",
+      "emotional_contradiction": "Aachu wants the door closed, but fears the closed door will be read as rejection.",
+      "relationship_action": "Nobody intrudes; the thin light under the door proves someone is inside without forcing a face reveal.",
+      "micro_action": "A practical chair sits near the closed door, close enough to be found but not pressed against it.",
+      "emotional_shift": "Fear becomes visible as a threshold.",
+      "viewer_question_created": "Will the person outside knock, leave, or learn the right distance?",
+      "swipe_reason": "The viewer wants to see what love does outside the closed door.",
+      "face_visibility_requirement": "No faces required.",
+      "visual_evidence_needed": "Closed door, light under door, practical chair, generous negative space, no dramatic darkness.",
+      "observed_detail": "The chair is angled slightly toward the door, as if placed after someone thought about how close was too close.",
+      "imagegen_risk": "A dark hallway or centered sad door could become a generic quote-card."
+    },
+    {
+      "slide_number": 2,
+      "story_role": "escalation",
+      "exact_on_image_text": "or did you learn where to leave the water?",
+      "emotional_contradiction": "She wants nearness, but ordinary nearness would feel like pressure.",
+      "relationship_action": "Zuv offers care and removes himself from the demand.",
+      "micro_action": "Zuv's hand places a water glass and phone charger beside the chair, outside the door swing, with his body already turning away.",
+      "emotional_shift": "Love becomes practical instead of invasive.",
+      "viewer_question_created": "Does he understand how to care without forcing access?",
+      "swipe_reason": "The viewer sees care offered and wants to know whether it becomes pressure or patience.",
+      "face_visibility_requirement": "Zuv can be hand-only or partial body; face is not required.",
+      "visual_evidence_needed": "Water glass, charger, door-swing clearance, hand leaving frame rather than reaching for the handle.",
+      "observed_detail": "The charger cable is neatly threaded toward the wall, not tossed as a decorative prop.",
+      "imagegen_risk": "The hand could look like it is opening the door unless the leaving motion and prop placement are clear."
+    },
+    {
+      "slide_number": 3,
+      "story_role": "bridge",
+      "exact_on_image_text": "you learned the chair distance",
+      "emotional_contradiction": "The most loving move is not getting closer, and the chair distance proves he learned that.",
+      "relationship_action": "Zuv adjusts distance instead of asking louder.",
+      "micro_action": "The chair sits one tile farther back; a folded cloth appears on it; the water level, condensation, or light under the door has changed.",
+      "emotional_shift": "The story moves from one kind act to learned care.",
+      "viewer_question_created": "Will care reach her when it stops crowding the door?",
+      "swipe_reason": "The chair movement creates proof that he learned, not just performed one sweet gesture.",
+      "face_visibility_requirement": "No faces required; avoid martyr staging.",
+      "visual_evidence_needed": "Readable chair-distance change, time passage, and object-state changes.",
+      "observed_detail": "Floor tile spacing or chair-leg marks make the new distance legible.",
+      "imagegen_risk": "If the chair shift is too subtle, the slide repeats the opener."
+    },
+    {
+      "slide_number": 4,
+      "story_role": "escalation",
+      "exact_on_image_text": "the words came later. the charger came first.",
+      "emotional_contradiction": "Aachu is not ready to explain, but she is ready to accept one small piece of care.",
+      "relationship_action": "Aachu lets the care cross the threshold before conversation returns.",
+      "micro_action": "The door is cracked just enough for Aachu's fingers to pull the charger cable or plug inside while the chair remains backed away in frame.",
+      "emotional_shift": "Aachu regains agency without performing readiness.",
+      "viewer_question_created": "What does the first answer look like when it is not words?",
+      "swipe_reason": "The first accepted object makes the viewer want the final answer to the hook.",
+      "face_visibility_requirement": "Aachu hand or partial face is acceptable; if face appears, it must be large enough for identity anchors later.",
+      "visual_evidence_needed": "Clean door crack, charger crossing threshold, backed-away chair, no dramatic reveal.",
+      "observed_detail": "The cable disappears inside while the chair stays visibly out of the door's path.",
+      "imagegen_risk": "Door, cable, and hand anatomy can become confusing if the camera angle is too clever."
+    },
+    {
+      "slide_number": 5,
+      "story_role": "payoff",
+      "exact_on_image_text": "i was not hard to love. i was hard to rush.",
+      "emotional_contradiction": "Staying does not mean guarding the door; loving distance can be active and quiet.",
+      "relationship_action": "Zuv remains findable without making himself the center, while Aachu has accepted the care.",
+      "micro_action": "From inside the slightly open doorway, the charging phone and used glass are visible; the chair remains nearby outside, unoccupied and not blocking the door.",
+      "emotional_shift": "The first fear resolves into a shared care rule.",
+      "viewer_question_created": "The hook is answered without a speech.",
+      "swipe_reason": "This is the send/save line: a gentle way to name quiet care.",
+      "face_visibility_requirement": "Prefer Aachu in soft partial readable view or no face; Zuv may be implied or distant. Do not force both faces.",
+      "visual_evidence_needed": "Used care objects, open threshold, chair still findable, no hug, no saintly vigil.",
+      "observed_detail": "The chair is calm and practical, like a place he can return to, not a throne for suffering.",
+      "imagegen_risk": "A sudden couple reconciliation scene would erase the quiet premise."
+    }
+  ],
+  "required_visual_revisions_before_prompt_lock": [
+    "Choose camera angles that prevent five doorway-adjacent slides from looking like the same frame.",
+    "Make chair distance, charger path, and water use readable at phone size.",
+    "Give Aachu enough presence by slide 4 or 5 to keep the story from becoming anonymous.",
+    "Keep Zuv practical and lightly present; never saintly or asleep outside the door.",
+    "Keep every final prompt at native 1080x1080 px with bottom-right @a.storyof.two brandmark, but do not write prompts until story lock is approved."
+  ]
+}

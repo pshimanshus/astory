@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-06-13_02-33_fresh-slate",
+  "mode": "auto_fresh_slate",
+  "candidates_source": [
+    "debates/idea_room/agent_01_candidates.json",
+    "debates/idea_room/agent_02_candidates.json",
+    "debates/idea_room/agent_03_candidates.json",
+    "debates/idea_room/cross_critique.md",
+    "debates/idea_room/repair_round.md"
+  ],
+  "freshness_exclusions_applied": [
+    "shared pockets or bags",
+    "private can-we-leave signals",
+    "scooter helmet/safety checks",
+    "post-fight water/care",
+    "coffee, hoodie, missed reels/texts, men-cannot-find-things, generic cozy morning, love-language lists"
+  ],
+  "shortlist": [
+    "idea_01_corner_watch",
+    "idea_02_laundry_line_diplomacy",
+    "idea_03_booth_side_treaty",
+    "idea_04_ac_remote_treaty",
+    "idea_05_food_photo_waiting_room",
+    "idea_06_parcel_opening_committee"
+  ],
+  "recommended_candidate": "idea_01_corner_watch"
+}

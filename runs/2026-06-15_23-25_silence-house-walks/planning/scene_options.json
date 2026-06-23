@@ -1,0 +1,103 @@
+{
+  "run_id": "2026-06-15_23-25_silence-house-walks",
+  "scene_discussion_status": "ready",
+  "source_winner_lock": {
+    "source_winner": "none",
+    "permissioned": false,
+    "source_preserving_remix": "not_applicable_creator_original_quote",
+    "a_story_wrapper": "domestic after-silence room behavior"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "तू चुप हो जाए तो घर में आवाज़ें भी डर-डर के चलती हैं।”\nWhen you go silent,\neven the house starts walking carefully.",
+      "visual_proof_needed": "The room behaves carefully around Aachu's silence.",
+      "scene_options": [
+        {
+          "scene_option_id": "1A",
+          "scene_type": "safe_classic",
+          "environment": "Bedroom/living-room corner after a quiet fight.",
+          "camera_distance": "medium-wide portrait",
+          "camera_angle": "slight doorway view",
+          "face_visibility_plan": "Aachu in soft three-quarter profile, Zuv partially face-visible in doorway.",
+          "body_language": "Aachu seated still, Zuv entering carefully with a cup.",
+          "eyeline": "Zuv watches Aachu quietly; Aachu looks down or away.",
+          "prop_read": "Cup and saucer held apart to avoid clinking.",
+          "visual_setting_logic": "Works, but risks a common sad-couple setup.",
+          "text_placement_plan": "upper-middle negative space",
+          "scores": {
+            "scene_text_proof": 4,
+            "identity_preservation": 4,
+            "visual_freshness": 3,
+            "visual_setting_logic": 4,
+            "phone_readability": 5,
+            "wardrobe_continuity": 4,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 4,
+            "overall": 4.1
+          },
+          "failure_risks": ["AI_SLOP_COPY_DRIFT"]
+        },
+        {
+          "scene_option_id": "1B",
+          "scene_type": "fresh_observed",
+          "environment": "Quiet home hallway opening into a bedroom/living-room corner.",
+          "camera_distance": "medium-wide portrait",
+          "camera_angle": "3/4 doorway view with upper negative space",
+          "face_visibility_plan": "Aachu lower right in readable profile; Zuv lower left/mid doorway with recognizable face but slightly smaller.",
+          "body_language": "Aachu sits wrapped in silence; Zuv stands upright on socks with one foot only slightly lifted before it touches the floor.",
+          "eyeline": "Zuv's eyes go to Aachu, careful and apologetic; Aachu looks down, not at him.",
+          "prop_read": "One hand keeps the half-open door/handle from creaking; the other carries a cup with the teaspoon pinned still against the rim; curtain and chair are secondary.",
+          "visual_setting_logic": "The scene physically proves that silence has made the whole home cautious: Zuv quiets his own step and keeps one house object from making sound.",
+          "text_placement_plan": "exact quote in warm charcoal handwriting across upper-middle empty wall/paper air",
+          "scores": {
+            "scene_text_proof": 5,
+            "identity_preservation": 4,
+            "visual_freshness": 5,
+            "visual_setting_logic": 5,
+            "phone_readability": 5,
+            "wardrobe_continuity": 4,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 4,
+            "overall": 4.6
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "1C",
+          "scene_type": "risky_interesting",
+          "environment": "Mostly empty home interior with only objects visible and the couple nearly off-frame.",
+          "camera_distance": "wide still-life",
+          "camera_angle": "front",
+          "face_visibility_plan": "Faces minimal, identity risk high.",
+          "body_language": "Only hands or feet visible.",
+          "eyeline": "Not visible.",
+          "prop_read": "Cup, slippers, curtain, door, chair become the emotional carriers.",
+          "visual_setting_logic": "Conceptually sharp but weak for Aachu/Zuv identity and brand character.",
+          "text_placement_plan": "upper-middle negative space",
+          "scores": {
+            "scene_text_proof": 5,
+            "identity_preservation": 2,
+            "visual_freshness": 5,
+            "visual_setting_logic": 4,
+            "phone_readability": 5,
+            "wardrobe_continuity": 3,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 2,
+            "overall": 3.9
+          },
+          "failure_risks": ["IDENTITY_DRIFT"]
+        }
+      ],
+      "selected_scene_option_id": "1B",
+      "selection_reason": "Best balance of text proof, identity visibility, domestic specificity, and A Story house style.",
+      "rejected_scene_memory": [
+        "Do not make a generic sad couple looking away from each other.",
+        "Do not make a quote card with decorative room details.",
+        "Do not hide both faces so identity becomes unprovable."
+      ],
+      "prompt_builder_notes": "Keep the room quiet but physically specific. The cup, footstep, door, and chair are the emotional proof.",
+      "failure_codes": []
+    }
+  ]
+}

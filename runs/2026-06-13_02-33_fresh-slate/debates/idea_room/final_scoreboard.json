@@ -1,0 +1,123 @@
+{
+  "run_id": "2026-06-13_02-33_fresh-slate",
+  "score_threshold": 4.0,
+  "candidates": [
+    {
+      "idea_id": "idea_01_corner_watch",
+      "title": "The Corner Watch",
+      "scores": {
+        "relatability": 5.0,
+        "shareability": 4.6,
+        "comment_potential": 4.5,
+        "visual_clarity": 4.8,
+        "emotional_truth": 5.0,
+        "humor_warmth_balance": 4.9,
+        "freshness": 5.0,
+        "brand_fit": 5.0,
+        "simplicity": 4.7,
+        "carousel_payoff": 4.7,
+        "overall": 4.82
+      },
+      "selection_status": "recommended",
+      "reason": "Most emotionally original and behavior-true; mutual, quiet, specific, and not a previous-pattern repeat."
+    },
+    {
+      "idea_id": "idea_02_laundry_line_diplomacy",
+      "title": "The Laundry Line Diplomacy",
+      "scores": {
+        "relatability": 4.5,
+        "shareability": 4.4,
+        "comment_potential": 4.4,
+        "visual_clarity": 5.0,
+        "emotional_truth": 4.5,
+        "humor_warmth_balance": 4.8,
+        "freshness": 5.0,
+        "brand_fit": 5.0,
+        "simplicity": 4.5,
+        "carousel_payoff": 5.0,
+        "overall": 4.71
+      },
+      "selection_status": "strong_alternative",
+      "reason": "Best visual frame and strongest slide progression; fresh tactile domestic setting."
+    },
+    {
+      "idea_id": "idea_03_booth_side_treaty",
+      "title": "The Booth-Side Treaty",
+      "scores": {
+        "relatability": 4.8,
+        "shareability": 5.0,
+        "comment_potential": 5.0,
+        "visual_clarity": 4.4,
+        "emotional_truth": 4.3,
+        "humor_warmth_balance": 4.5,
+        "freshness": 4.5,
+        "brand_fit": 4.7,
+        "simplicity": 4.9,
+        "carousel_payoff": 4.2,
+        "overall": 4.63
+      },
+      "selection_status": "strong_alternative",
+      "reason": "Best share/comment trigger, but must be handled as knowing-care rather than entitlement."
+    },
+    {
+      "idea_id": "idea_04_ac_remote_treaty",
+      "title": "The AC Remote Treaty",
+      "scores": {
+        "relatability": 4.8,
+        "shareability": 4.7,
+        "comment_potential": 4.6,
+        "visual_clarity": 5.0,
+        "emotional_truth": 4.2,
+        "humor_warmth_balance": 4.6,
+        "freshness": 4.2,
+        "brand_fit": 4.7,
+        "simplicity": 4.8,
+        "carousel_payoff": 4.3,
+        "overall": 4.59
+      },
+      "selection_status": "shortlist",
+      "reason": "Very relatable and visually clean, though temperature negotiation is a more familiar couple pattern."
+    },
+    {
+      "idea_id": "idea_05_food_photo_waiting_room",
+      "title": "The Food Photo Waiting Room",
+      "scores": {
+        "relatability": 4.7,
+        "shareability": 4.8,
+        "comment_potential": 4.8,
+        "visual_clarity": 4.7,
+        "emotional_truth": 4.1,
+        "humor_warmth_balance": 4.6,
+        "freshness": 4.0,
+        "brand_fit": 4.4,
+        "simplicity": 4.7,
+        "carousel_payoff": 4.7,
+        "overall": 4.55
+      },
+      "selection_status": "shortlist",
+      "reason": "Funny and taggable, but risks familiar food-photo meme territory unless the first-bite payoff carries warmth."
+    },
+    {
+      "idea_id": "idea_06_parcel_opening_committee",
+      "title": "The Parcel Opening Committee",
+      "scores": {
+        "relatability": 4.4,
+        "shareability": 4.2,
+        "comment_potential": 4.4,
+        "visual_clarity": 4.8,
+        "emotional_truth": 4.1,
+        "humor_warmth_balance": 4.6,
+        "freshness": 4.6,
+        "brand_fit": 4.5,
+        "simplicity": 4.6,
+        "carousel_payoff": 4.4,
+        "overall": 4.46
+      },
+      "selection_status": "shortlist",
+      "reason": "Fresh prop comedy with safe face spacing; softer engagement than the top three."
+    }
+  ],
+  "recommended_idea_id": "idea_01_corner_watch",
+  "selection_allowed": true,
+  "second_round_required": false
+}

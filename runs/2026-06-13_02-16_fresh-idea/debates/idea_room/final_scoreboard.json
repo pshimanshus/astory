@@ -1,0 +1,85 @@
+{
+  "run_id": "2026-06-13_02-16_fresh-idea",
+  "score_threshold": 4.0,
+  "candidates": [
+    {
+      "idea_id": "idea_01_private_exit_language",
+      "title": "The Can We Leave Language",
+      "scores": {
+        "relatability": 4.6,
+        "shareability": 5.0,
+        "comment_potential": 5.0,
+        "visual_clarity": 3.9,
+        "emotional_truth": 4.3,
+        "humor_warmth_balance": 4.7,
+        "freshness": 4.4,
+        "brand_fit": 4.6,
+        "simplicity": 4.8,
+        "carousel_payoff": 4.1,
+        "overall": 4.54
+      },
+      "selection_status": "rejected_after_critique",
+      "reason": "Excellent send-trigger, but the visual proof risks becoming a generic party scene or eye-contact meme."
+    },
+    {
+      "idea_id": "idea_02_helmet_strap_tax",
+      "title": "The Helmet Strap Tax",
+      "scores": {
+        "relatability": 4.4,
+        "shareability": 4.2,
+        "comment_potential": 4.1,
+        "visual_clarity": 4.6,
+        "emotional_truth": 4.9,
+        "humor_warmth_balance": 4.7,
+        "freshness": 4.8,
+        "brand_fit": 4.9,
+        "simplicity": 4.1,
+        "carousel_payoff": 4.5,
+        "overall": 4.52
+      },
+      "selection_status": "rejected_after_critique",
+      "reason": "Specific and tender, but slightly narrower and more prop-dense than the selected repaired idea."
+    },
+    {
+      "idea_id": "idea_03_shared_pocket_system",
+      "title": "The Shared Pocket System",
+      "scores": {
+        "relatability": 4.8,
+        "shareability": 4.9,
+        "comment_potential": 4.7,
+        "visual_clarity": 4.9,
+        "emotional_truth": 4.7,
+        "humor_warmth_balance": 4.9,
+        "freshness": 4.7,
+        "brand_fit": 5.0,
+        "simplicity": 4.6,
+        "carousel_payoff": 4.9,
+        "overall": 4.81
+      },
+      "selection_status": "selected",
+      "reason": "Best blend of send-trigger, mutual specificity, clean production staging, and warm observational behavior."
+    },
+    {
+      "idea_id": "idea_04_still_mad_still_careful",
+      "title": "Still Mad, Still Careful",
+      "scores": {
+        "relatability": 4.7,
+        "shareability": 4.8,
+        "comment_potential": 4.4,
+        "visual_clarity": 4.0,
+        "emotional_truth": 4.9,
+        "humor_warmth_balance": 4.5,
+        "freshness": 4.1,
+        "brand_fit": 4.8,
+        "simplicity": 4.7,
+        "carousel_payoff": 4.0,
+        "overall": 4.49
+      },
+      "selection_status": "rejected_after_critique",
+      "reason": "Emotionally strong but more familiar, and the raw water gesture risks becoming a one-sided care trope."
+    }
+  ],
+  "selected_idea_id": "idea_03_shared_pocket_system",
+  "selection_allowed": true,
+  "second_round_required": false
+}

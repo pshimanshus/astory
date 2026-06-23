@@ -1,0 +1,32 @@
+{
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded",
+  "prompt_files": [
+    "prompts/slide_01_4x5_prompt.txt",
+    "prompts/slide_02_4x5_prompt.txt",
+    "prompts/slide_03_4x5_prompt.txt",
+    "prompts/slide_04_4x5_prompt.txt"
+  ],
+  "checks": {
+    "master_prompt_exact_template": true,
+    "identity_lock_present": true,
+    "style_lock_present": true,
+    "paper_tone_rule": true,
+    "brandmark_rule": true,
+    "exact_text_per_slide": true,
+    "native_aspect_ratio_stated": true,
+    "scene_text_proof": true,
+    "negative_constraints": true,
+    "reference_role_statement": true
+  },
+  "watch_flags": [
+    "slide_3_identity_hot_zone",
+    "slide_4_two_phone_hand_composition"
+  ],
+  "blockers": [],
+  "verdict": "pass",
+  "ts": "2026-06-12T00:04:56+05:30",
+  "prompt_room_outputs": [
+    "debates/prompt_room/prompt_review.md"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "raw_input": "suggest next coursel for a story of two",
+  "idea_mode": "auto",
+  "core_idea": "Recommend the next high-send-potential A Story of Two Instagram carousel idea, stopping at idea lock.",
+  "tone": "human, sendable, intimate, low-volume, not therapy-page",
+  "relationship_dynamic": "Aachu and Zuv as a specific couple with ordinary private behavior, not generic romantic figures",
+  "target_audience": "people who send couple posts to their partner because the line says something they cannot say directly",
+  "desired_feeling": "recognition, soft teasing, after-reading ache, or a private send without needing a long explanation",
+  "must_include": [
+    "source-winner or owned-performance evidence",
+    "scene-landing preview before idea lock",
+    "exact first-slide on-image text for the recommended idea",
+    "why someone sends it"
+  ],
+  "must_avoid": [
+    "generic love quote",
+    "therapy-page lesson",
+    "object-led cleverness where the object becomes the whole premise",
+    "forced both-characters-in-every-slide staging",
+    "copy that only explains the feeling"
+  ],
+  "platform": "instagram",
+  "requested_surface": "post_4x5",
+  "initial_slide_count_preference": "story_led",
+  "output_format": "idea_lock_recommendation_with_run_artifacts"
+}

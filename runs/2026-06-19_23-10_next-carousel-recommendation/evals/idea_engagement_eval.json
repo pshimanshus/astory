@@ -1,0 +1,51 @@
+{
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "selected_candidate_id": "please_vent_more_long_version",
+  "status": "pass_pending_creator_idea_lock",
+  "overall_score": 4.72,
+  "threshold": 4.0,
+  "agent_assignment_status": "actual_multi_agent",
+  "checks": {
+    "source_engine_named": true,
+    "source_gap_disclosed": true,
+    "owned_performance_support_named": true,
+    "scene_landing_preview_exists": true,
+    "novelty_candidate_ledger_exists": true,
+    "source_winner_remix_contract_exists": true,
+    "source_winner_novelty_model_exists": true,
+    "winner_landing_comparison_exists": true,
+    "exact_first_slide_text_exists": true,
+    "send_trigger_named": true,
+    "anti_slop_rejected_generic_version_named": true
+  },
+  "scores": {
+    "shareability": 5.0,
+    "comment_potential": 4.6,
+    "save_potential": 4.4,
+    "swipe_through_curiosity": 4.5,
+    "simplicity": 4.8,
+    "hook_strength": 4.8,
+    "freshness": 4.6,
+    "brand_fit": 4.8,
+    "visual_feasibility": 4.8,
+    "anti_slop_safety": 4.5
+  },
+  "hard_risks": [
+    {
+      "code": "SOURCE_PERFORMANCE_GAP",
+      "severity": "medium",
+      "note": "Primary DZS2GuipLku source has no scraped saves/shares and is not used as sole performance proof."
+    },
+    {
+      "code": "PREACHY_THERAPY_LANGUAGE",
+      "severity": "medium",
+      "note": "Story room must ban therapy terms and keep the copy as spoken lines."
+    },
+    {
+      "code": "QUOTE_CARD_NOT_ILLUSTRATION",
+      "severity": "medium",
+      "note": "Prompt room must turn this into lived Aachu/Zuv scenes, not typography over a soft background."
+    }
+  ],
+  "decision": "Recommended for HITL_IDEA_LOCK."
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "2026-06-11_23-05_promise-in-three",
+  "selected_title": "Promise, Proved In Three Rooms",
+  "overall_score": 4.78,
+  "format": "three separate Instagram posts/slides",
+  "on_image_text": [
+    "I Promise...",
+    "I am always there for you",
+    "in your good and bad times .."
+  ],
+  "concept": "The promise begins with one clean private gesture, then gets proved through ordinary care across three rooms: before the day, during the laugh, and after the hard moment.",
+  "why_it_wins": [
+    "Preserves the user's source idea and exact three-line structure.",
+    "Turns a generic hand promise into Aachu/Zuv behavior instead of forcing a hand gimmick into every frame.",
+    "Gives each post a distinct emotional job while keeping one continuous ritual.",
+    "Avoids copying the competitor's anime look or stacked-hand collage.",
+    "Keeps scenes stageable for watercolor-and-ink identity-safe generation later."
+  ],
+  "risks": [
+    "Post 1 text can feel generic if the ritual and body language are not specific enough.",
+    "Post 3 must stay tender and grounded, not misery-romance.",
+    "Image prompts must prevent hand anatomy issues and preserve readable faces.",
+    "Do not force pinky-linking into Post 2 or Post 3; those posts should prove the promise through normal hands and body language."
+  ],
+  "selected_three_post_direction": [
+    {
+      "post": 1,
+      "text": "I Promise...",
+      "scene": "Morning kitchen/doorway. Aachu and Zuv are half-ready for the day; one has a mug, one has a phone or keys. They make one clean, readable promise gesture in the little gap between them, with hands relaxed and anatomy simple."
+    },
+    {
+      "post": 2,
+      "text": "I am always there for you",
+      "scene": "Casual good-time floor meal. They sit on the floor sharing from one plate, laughing mid-bite. Zuv steadies the plate or slides the last bite toward Aachu while she laughs; hands are natural, separate, and doing care instead of staying linked."
+    },
+    {
+      "post": 3,
+      "text": "in your good and bad times ..",
+      "scene": "Quiet hard evening on sofa or bed edge. They sit close but not face-crowded, tired and wordless. One hand rests open near the other on the cushion, close enough to show presence without a forced pose; a small tissue or medicine strip and one bright object from earlier show both bad and good without melodrama."
+    }
+  ],
+  "hitl_status": "awaiting_idea_lock"
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "title": "The Hair Clip He Started Carrying",
+  "reference_mechanic": "A tiny remembered habit becomes proof of intimacy.",
+  "story_premise": "Food arrives, Aachu's hair falls into her face, and Zuv already has her old hair clip in his pocket because this exact chaos happens before the first bite.",
+  "locked_carousel_shape": {
+    "slide_count": 5,
+    "format": "object-led romantic micro-story",
+    "tone": "accusation, proof, casual preparedness, annoyed-soft acceptance"
+  },
+  "emotional_job": {
+    "primary": "make viewers send it to the person who remembers their tiny habits",
+    "secondary": "trigger playful comments about weird things partners carry"
+  },
+  "anti_slop_contract": {
+    "preserve": [
+      "the clip as physical evidence",
+      "the food timing as the reason",
+      "Aachu's amused annoyance",
+      "Zuv's casual preparedness"
+    ],
+    "reject": [
+      "quote-card language",
+      "moral-of-the-story romance",
+      "Zuv fixing Aachu's hair for her",
+      "abstract cozy mood without object proof"
+    ],
+    "failure_codes_to_watch": [
+      "AI_SLOP_COPY_DRIFT",
+      "PREACHY_THERAPY_LANGUAGE",
+      "VISUAL_ONLY_MOOD_WORDS",
+      "SCENE_LOGIC_CONTRADICTION"
+    ]
+  },
+  "status": "draft_ready_for_hitl_story_lock"
+}

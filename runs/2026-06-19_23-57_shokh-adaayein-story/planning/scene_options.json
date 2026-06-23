@@ -1,0 +1,29 @@
+{
+  "selection_basis": "Creator locked the direction; options are recorded only to show rejected generic staging.",
+  "slides": [
+    {
+      "slide": 1,
+      "selected": "Mirror earring glance with Zuv in doorway.",
+      "rejected": ["Aachu posing like a model", "Zuv handing flowers", "abstract dreamy close-up"],
+      "reason": "The mirror lets her adaayein happen through action, not a beauty pose."
+    },
+    {
+      "slide": 2,
+      "selected": "Collar excuse at doorway.",
+      "rejected": ["Direct hug", "phone message excuse", "busy street romance"],
+      "reason": "The collar is a readable fake excuse without needing microtext."
+    },
+    {
+      "slide": 3,
+      "selected": "Post-fight care while looking away.",
+      "rejected": ["Crying apology", "both smiling on sofa", "dramatic bedroom fight"],
+      "reason": "Her hand doing care while her face refuses to admit it proves the line."
+    },
+    {
+      "slide": 4,
+      "selected": "Terrace shoulder rest; Zuv freezes, smiling.",
+      "rejected": ["Perfect embrace", "proposal-like pose", "generic moonlit couple silhouette"],
+      "reason": "His frozen hand shows he is disarmed, not performing romance."
+    }
+  ]
+}

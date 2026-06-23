@@ -1,0 +1,907 @@
+{
+  "blocking_findings": [
+    {
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate."
+    },
+    {
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate."
+    },
+    {
+      "failure_code": "IMAGE_QA_BLOCKS_FINAL_PACKAGE_FAILED",
+      "id": "image_qa_blocks_final_package",
+      "summary": "Image QA is blocking final packaging until creator approval."
+    },
+    {
+      "failure_code": "HITL_APPROVALS_INCOMPLETE",
+      "id": "approvals_cover_required_gates",
+      "summary": "Approvals file records required HITL gates and current stopped gates."
+    }
+  ],
+  "checks": [
+    {
+      "id": "skill_contract_present",
+      "missing_phrases": [],
+      "path": ".agents/skills/astory/SKILL.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "A Story skill contract is present and contains the identity/HITL gates."
+    },
+    {
+      "id": "master_prompt_present",
+      "missing_phrases": [],
+      "path": ".agents/skills/astory/references/master-prompt.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Master prompt reference is present."
+    },
+    {
+      "checked_paths": [
+        ".agents/skills/astory/templates/docs/approvals.md",
+        ".agents/skills/astory/templates/logs/trace_event.jsonl",
+        ".agents/skills/astory/templates/evals/pre_generation_eval.json",
+        ".agents/skills/astory/templates/evals/image_quality_eval.json",
+        ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
+        ".agents/skills/astory/templates/agents/story_room_agent_prompt.md",
+        ".agents/skills/astory/templates/agents/visual_scene_discussion_prompt.md",
+        ".agents/skills/astory/templates/agents/review_room_agent_prompt.md",
+        ".agents/skills/astory/templates/prompts/slide_prompt.txt",
+        ".agents/skills/astory/templates/planning/memory_recall.md",
+        ".agents/skills/astory/templates/planning/scene_landing_preview.md",
+        ".agents/skills/astory/templates/docs/retro.md",
+        ".agents/skills/astory/references/failure-taxonomy.md",
+        ".agents/skills/astory/references/house-style-contract.md",
+        ".agents/skills/astory/references/imagegen-contract.md"
+      ],
+      "id": "required_templates_present",
+      "missing_paths": [],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Required skill templates and contracts are present."
+    },
+    {
+      "count_errors": [],
+      "id": "reference_manifest_integrity",
+      "missing_hashes": [],
+      "missing_paths": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/references-used/selected_references.json",
+      "reference_summary": {
+        "aachu_face_identity_count": 4,
+        "expression_support_count": 4,
+        "prompt_only_allowed": false,
+        "style_reference_count": 3,
+        "text_and_brand_reference_count": 4,
+        "together_body_language_count": 2,
+        "view_image_queue_actual_count": 11,
+        "view_image_queue_count": 11,
+        "zuv_face_identity_count": 4
+      },
+      "role_errors": [],
+      "severity": "blocker",
+      "sha_mismatches": [],
+      "status": "pass",
+      "summary": "Selected reference manifest resolves to existing hashed references."
+    },
+    {
+      "active_view_image_queue": [
+        "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/zuv/face-01.png",
+        "references/identity/zuv/face-03.png",
+        "references/identity/zuv/zuv-face-crop-balcony-laugh-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_active_identity_inputs",
+      "identity_input_errors": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/references-used/selected_references.json",
+      "raw_aachu_face_anchor_count": 4,
+      "raw_zuv_face_anchor_count": 4,
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Active imagegen queue includes raw Aachu/Zuv face anchors."
+    },
+    {
+      "cited_paths": [
+        "references/brain/pages/outcome-attribution.md",
+        "references/text-style/instagram-winner-mechanics-2026-06-14.md",
+        "references/brain/pages/run-lessons.md",
+        ".agents/skills/astory/references/house-style-contract.md"
+      ],
+      "derived_citations": [],
+      "expected_artifacts": [
+        "runs/2026-06-15_19-09_plate-nervous/planning/memory_recall.md"
+      ],
+      "failure_code": null,
+      "id": "memory_recall",
+      "memory_trace_present": true,
+      "missing_cited_paths": [],
+      "missing_sections": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/planning/memory_recall.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Memory recall contains cited findings, gaps, and usability notes.",
+      "trace_errors": [],
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "contract_source": "run_artifacts",
+      "evidence": {
+        "he said \"i'm not hungry\"\nso why is my plate nervous?": true
+      },
+      "id": "prompt_story_contract",
+      "prompt_files": [
+        "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt"
+      ],
+      "required_phrases": [
+        "he said \"i'm not hungry\"\nso why is my plate nervous?"
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompts preserve the run-specific locked story contract.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failure_code": null,
+      "id": "prompt_reference_gate",
+      "prompt_results": [
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Every prompt preserves the reference-image delivery gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failure_code": null,
+      "id": "prompt_forbidden_role_reversal",
+      "prompt_results": [
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Every prompt keeps Aachu/Zuv roles explicit and unreversed.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 1,
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "prompt_results": [
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 1,
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "prompt_results": [
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 0,
+      "failure_code": null,
+      "id": "prompt_palette_conflict",
+      "prompt_results": [
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": true,
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": []
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompt palette language avoids yellow-prone positive conflicts.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 0,
+      "failure_code": null,
+      "id": "prompt_overload",
+      "prompt_results": [
+        {
+          "major_section_count": 8,
+          "major_sections": [
+            "GENERATION PRIORITY:",
+            "ON-IMAGE TEXT:",
+            "SCENE:",
+            "IDENTITY ANCHORS:",
+            "STYLE AND COLOR:",
+            "COMPOSITION AND TEXT:",
+            "HARD NO:",
+            "GENERATION HARD GATE:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 17,
+          "overload_reasons": [],
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompt instruction stack is compact enough for imagegen.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "expected_artifact": "runs/2026-06-15_19-09_plate-nervous/evals/imagegen_reference_visibility_proof.json",
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_visibility_proof",
+      "load_plan_sha256": "231f0c5655a3473009f6c19ea55ec2ba735c4af091c60185c39aa0863b3b1d0c",
+      "missing_loaded_paths": [],
+      "proof_load_plan_sha256": "231f0c5655a3473009f6c19ea55ec2ba735c4af091c60185c39aa0863b3b1d0c",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Reference visibility proof matches the active load plan and records raw face-anchor image roles.",
+      "unexpected_loaded_paths": [],
+      "validation_errors": [],
+      "view_image_queue_count": 11
+    },
+    {
+      "aachu_face_identity_count": 4,
+      "active_view_image_path_count": 11,
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "gold_standard_identity_route_gate",
+      "missing_requirements": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/references-used/selected_references.json",
+      "prompt_evidence": {
+        "prompt_blocks_binder_text_replacement": true,
+        "prompt_face_readable_composition": true,
+        "prompt_raw_identity_priority": true
+      },
+      "prompt_files": [
+        "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt"
+      ],
+      "prompt_room_outputs": [
+        "runs/2026-06-15_19-09_plate-nervous/debates/prompt_room/prompt_review.md"
+      ],
+      "proof_artifact": "runs/2026-06-15_19-09_plate-nervous/evals/imagegen_reference_visibility_proof.json",
+      "proof_validation_errors": [],
+      "severity": "blocker",
+      "status": "pass",
+      "style_reference_count": 3,
+      "summary": "Gold-standard identity route is complete before imagegen/final progression.",
+      "trace_errors": [],
+      "trace_state_presence": {
+        "CREATE_SCENE_LANDING_PREVIEW": true,
+        "DISCOVER_AND_ASSIGN_AGENTS": true,
+        "LOAD_REFERENCE_IMAGES_IN_CONTEXT": true,
+        "PRE_GENERATION_EVAL": true
+      },
+      "view_image_queue_count": 11,
+      "workflow_type": "imagegen_story_run",
+      "zuv_face_identity_count": 4
+    },
+    {
+      "candidates_reviewed": 0,
+      "failure_code": null,
+      "final_artifacts": [],
+      "hard_gate_result": null,
+      "id": "image_qa_blocks_final_package",
+      "image_quality_status": "retry",
+      "path": "runs/2026-06-15_19-09_plate-nervous/evals/image_quality_eval.json",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Image QA is blocking final packaging until creator approval."
+    },
+    {
+      "final_artifacts": [],
+      "id": "final_package_not_started",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Final Package gate remains not started while image QA is failed."
+    },
+    {
+      "accepted_candidate_paths": [],
+      "id": "accepted_candidate_filename_guard",
+      "rejected_after_review": [],
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No accepted_candidate filenames are present in Image QA candidates.",
+      "unsafe_statuses": []
+    },
+    {
+      "continued_after_hard_reject": [],
+      "failure_code": null,
+      "first_hard_reject": null,
+      "historical_violation_acknowledged": false,
+      "id": "generation_stops_after_hard_reject",
+      "path": "runs/2026-06-15_19-09_plate-nervous/images/generation_attempts.json",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Generation stopped after the first hard-rejected candidate."
+    },
+    {
+      "failure_code": null,
+      "id": "prompt_repair_reapproval",
+      "reapproval_required": false,
+      "reapproved_after_repair": false,
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No repaired prompt reapproval gate is active for this run."
+    },
+    {
+      "event_count": 18,
+      "id": "trace_jsonl_valid",
+      "parse_errors": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/logs/trace.jsonl",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Trace JSONL is parseable."
+    },
+    {
+      "failure_code": null,
+      "id": "scene_landing_preview",
+      "idea_lock_approved": true,
+      "missing_requirements": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/planning/scene_landing_preview.md",
+      "preview_trace_present": true,
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Scene landing preview is concrete before idea lock."
+    },
+    {
+      "event_indices": {
+        "idea": 9,
+        "imagegen": 12,
+        "prompt": 11,
+        "story": 10
+      },
+      "failure_code": null,
+      "id": "hitl_order_before_imagegen",
+      "order_state": "post_imagegen_ordered",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Idea, story, and prompt locks are recorded before image generation."
+    },
+    {
+      "assignment_status": "fallback_local_passes_with_limitation_recorded",
+      "assignment_trace_present": true,
+      "failure_code": null,
+      "id": "agent_assignment_gate",
+      "missing_requirements": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/debates/agent_assignment_matrix.md",
+      "prompt_outputs": [
+        "runs/2026-06-15_19-09_plate-nervous/debates/prompt_room/prompt_review.md"
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Agent assignment proof is complete before prompt lock or imagegen.",
+      "trace_errors": []
+    },
+    {
+      "gate_evidence": {
+        "Final Package": true,
+        "Idea Lock": true,
+        "Image QA": false,
+        "Prompt Lock": true,
+        "Story / Slide Count Lock": true
+      },
+      "id": "approvals_cover_required_gates",
+      "missing_sections": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/docs/approvals.md",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Approvals file records required HITL gates and current stopped gates."
+    },
+    {
+      "id": "local_identity_execution_report",
+      "path": "runs/2026-06-15_19-09_plate-nervous/evals/local_identity_execution_report.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No local identity execution report exists for this run."
+    }
+  ],
+  "checks_by_id": {
+    "accepted_candidate_filename_guard": {
+      "accepted_candidate_paths": [],
+      "id": "accepted_candidate_filename_guard",
+      "rejected_after_review": [],
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No accepted_candidate filenames are present in Image QA candidates.",
+      "unsafe_statuses": []
+    },
+    "agent_assignment_gate": {
+      "assignment_status": "fallback_local_passes_with_limitation_recorded",
+      "assignment_trace_present": true,
+      "failure_code": null,
+      "id": "agent_assignment_gate",
+      "missing_requirements": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/debates/agent_assignment_matrix.md",
+      "prompt_outputs": [
+        "runs/2026-06-15_19-09_plate-nervous/debates/prompt_room/prompt_review.md"
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Agent assignment proof is complete before prompt lock or imagegen.",
+      "trace_errors": []
+    },
+    "approvals_cover_required_gates": {
+      "gate_evidence": {
+        "Final Package": true,
+        "Idea Lock": true,
+        "Image QA": false,
+        "Prompt Lock": true,
+        "Story / Slide Count Lock": true
+      },
+      "id": "approvals_cover_required_gates",
+      "missing_sections": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/docs/approvals.md",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Approvals file records required HITL gates and current stopped gates."
+    },
+    "final_package_not_started": {
+      "final_artifacts": [],
+      "id": "final_package_not_started",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Final Package gate remains not started while image QA is failed."
+    },
+    "generation_stops_after_hard_reject": {
+      "continued_after_hard_reject": [],
+      "failure_code": null,
+      "first_hard_reject": null,
+      "historical_violation_acknowledged": false,
+      "id": "generation_stops_after_hard_reject",
+      "path": "runs/2026-06-15_19-09_plate-nervous/images/generation_attempts.json",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Generation stopped after the first hard-rejected candidate."
+    },
+    "gold_standard_identity_route_gate": {
+      "aachu_face_identity_count": 4,
+      "active_view_image_path_count": 11,
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "gold_standard_identity_route_gate",
+      "missing_requirements": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/references-used/selected_references.json",
+      "prompt_evidence": {
+        "prompt_blocks_binder_text_replacement": true,
+        "prompt_face_readable_composition": true,
+        "prompt_raw_identity_priority": true
+      },
+      "prompt_files": [
+        "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt"
+      ],
+      "prompt_room_outputs": [
+        "runs/2026-06-15_19-09_plate-nervous/debates/prompt_room/prompt_review.md"
+      ],
+      "proof_artifact": "runs/2026-06-15_19-09_plate-nervous/evals/imagegen_reference_visibility_proof.json",
+      "proof_validation_errors": [],
+      "severity": "blocker",
+      "status": "pass",
+      "style_reference_count": 3,
+      "summary": "Gold-standard identity route is complete before imagegen/final progression.",
+      "trace_errors": [],
+      "trace_state_presence": {
+        "CREATE_SCENE_LANDING_PREVIEW": true,
+        "DISCOVER_AND_ASSIGN_AGENTS": true,
+        "LOAD_REFERENCE_IMAGES_IN_CONTEXT": true,
+        "PRE_GENERATION_EVAL": true
+      },
+      "view_image_queue_count": 11,
+      "workflow_type": "imagegen_story_run",
+      "zuv_face_identity_count": 4
+    },
+    "hitl_order_before_imagegen": {
+      "event_indices": {
+        "idea": 9,
+        "imagegen": 12,
+        "prompt": 11,
+        "story": 10
+      },
+      "failure_code": null,
+      "id": "hitl_order_before_imagegen",
+      "order_state": "post_imagegen_ordered",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Idea, story, and prompt locks are recorded before image generation."
+    },
+    "image_qa_blocks_final_package": {
+      "candidates_reviewed": 0,
+      "failure_code": null,
+      "final_artifacts": [],
+      "hard_gate_result": null,
+      "id": "image_qa_blocks_final_package",
+      "image_quality_status": "retry",
+      "path": "runs/2026-06-15_19-09_plate-nervous/evals/image_quality_eval.json",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Image QA is blocking final packaging until creator approval."
+    },
+    "local_identity_execution_report": {
+      "id": "local_identity_execution_report",
+      "path": "runs/2026-06-15_19-09_plate-nervous/evals/local_identity_execution_report.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No local identity execution report exists for this run."
+    },
+    "master_prompt_present": {
+      "id": "master_prompt_present",
+      "missing_phrases": [],
+      "path": ".agents/skills/astory/references/master-prompt.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Master prompt reference is present."
+    },
+    "memory_recall": {
+      "cited_paths": [
+        "references/brain/pages/outcome-attribution.md",
+        "references/text-style/instagram-winner-mechanics-2026-06-14.md",
+        "references/brain/pages/run-lessons.md",
+        ".agents/skills/astory/references/house-style-contract.md"
+      ],
+      "derived_citations": [],
+      "expected_artifacts": [
+        "runs/2026-06-15_19-09_plate-nervous/planning/memory_recall.md"
+      ],
+      "failure_code": null,
+      "id": "memory_recall",
+      "memory_trace_present": true,
+      "missing_cited_paths": [],
+      "missing_sections": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/planning/memory_recall.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Memory recall contains cited findings, gaps, and usability notes.",
+      "trace_errors": [],
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_brandmark_gate": {
+      "failed_prompt_count": 1,
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "prompt_results": [
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_canvas_size": {
+      "failed_prompt_count": 1,
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "prompt_results": [
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_forbidden_role_reversal": {
+      "failure_code": null,
+      "id": "prompt_forbidden_role_reversal",
+      "prompt_results": [
+        {
+          "evidence": {
+            "aachu_named": true,
+            "role_reversal_forbidden_or_not_present": true,
+            "zuv_named": true
+          },
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Every prompt keeps Aachu/Zuv roles explicit and unreversed.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_overload": {
+      "failed_prompt_count": 0,
+      "failure_code": null,
+      "id": "prompt_overload",
+      "prompt_results": [
+        {
+          "major_section_count": 8,
+          "major_sections": [
+            "GENERATION PRIORITY:",
+            "ON-IMAGE TEXT:",
+            "SCENE:",
+            "IDENTITY ANCHORS:",
+            "STYLE AND COLOR:",
+            "COMPOSITION AND TEXT:",
+            "HARD NO:",
+            "GENERATION HARD GATE:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 17,
+          "overload_reasons": [],
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompt instruction stack is compact enough for imagegen.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_palette_conflict": {
+      "failed_prompt_count": 0,
+      "failure_code": null,
+      "id": "prompt_palette_conflict",
+      "prompt_results": [
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": true,
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": []
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompt palette language avoids yellow-prone positive conflicts.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_reference_gate": {
+      "failure_code": null,
+      "id": "prompt_reference_gate",
+      "prompt_results": [
+        {
+          "evidence": {
+            "aachu_refs": true,
+            "generation_hard_gate": true,
+            "no_paths_only": true,
+            "style_refs": true,
+            "zuv_refs": true
+          },
+          "path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+          "status": "pass"
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Every prompt preserves the reference-image delivery gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_repair_reapproval": {
+      "failure_code": null,
+      "id": "prompt_repair_reapproval",
+      "reapproval_required": false,
+      "reapproved_after_repair": false,
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No repaired prompt reapproval gate is active for this run."
+    },
+    "prompt_story_contract": {
+      "contract_source": "run_artifacts",
+      "evidence": {
+        "he said \"i'm not hungry\"\nso why is my plate nervous?": true
+      },
+      "id": "prompt_story_contract",
+      "prompt_files": [
+        "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt"
+      ],
+      "required_phrases": [
+        "he said \"i'm not hungry\"\nso why is my plate nervous?"
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompts preserve the run-specific locked story contract.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "reference_active_identity_inputs": {
+      "active_view_image_queue": [
+        "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/zuv/face-01.png",
+        "references/identity/zuv/face-03.png",
+        "references/identity/zuv/zuv-face-crop-balcony-laugh-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_active_identity_inputs",
+      "identity_input_errors": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/references-used/selected_references.json",
+      "raw_aachu_face_anchor_count": 4,
+      "raw_zuv_face_anchor_count": 4,
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Active imagegen queue includes raw Aachu/Zuv face anchors."
+    },
+    "reference_manifest_integrity": {
+      "count_errors": [],
+      "id": "reference_manifest_integrity",
+      "missing_hashes": [],
+      "missing_paths": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/references-used/selected_references.json",
+      "reference_summary": {
+        "aachu_face_identity_count": 4,
+        "expression_support_count": 4,
+        "prompt_only_allowed": false,
+        "style_reference_count": 3,
+        "text_and_brand_reference_count": 4,
+        "together_body_language_count": 2,
+        "view_image_queue_actual_count": 11,
+        "view_image_queue_count": 11,
+        "zuv_face_identity_count": 4
+      },
+      "role_errors": [],
+      "severity": "blocker",
+      "sha_mismatches": [],
+      "status": "pass",
+      "summary": "Selected reference manifest resolves to existing hashed references."
+    },
+    "reference_visibility_proof": {
+      "expected_artifact": "runs/2026-06-15_19-09_plate-nervous/evals/imagegen_reference_visibility_proof.json",
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_visibility_proof",
+      "load_plan_sha256": "231f0c5655a3473009f6c19ea55ec2ba735c4af091c60185c39aa0863b3b1d0c",
+      "missing_loaded_paths": [],
+      "proof_load_plan_sha256": "231f0c5655a3473009f6c19ea55ec2ba735c4af091c60185c39aa0863b3b1d0c",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Reference visibility proof matches the active load plan and records raw face-anchor image roles.",
+      "unexpected_loaded_paths": [],
+      "validation_errors": [],
+      "view_image_queue_count": 11
+    },
+    "required_templates_present": {
+      "checked_paths": [
+        ".agents/skills/astory/templates/docs/approvals.md",
+        ".agents/skills/astory/templates/logs/trace_event.jsonl",
+        ".agents/skills/astory/templates/evals/pre_generation_eval.json",
+        ".agents/skills/astory/templates/evals/image_quality_eval.json",
+        ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
+        ".agents/skills/astory/templates/agents/story_room_agent_prompt.md",
+        ".agents/skills/astory/templates/agents/visual_scene_discussion_prompt.md",
+        ".agents/skills/astory/templates/agents/review_room_agent_prompt.md",
+        ".agents/skills/astory/templates/prompts/slide_prompt.txt",
+        ".agents/skills/astory/templates/planning/memory_recall.md",
+        ".agents/skills/astory/templates/planning/scene_landing_preview.md",
+        ".agents/skills/astory/templates/docs/retro.md",
+        ".agents/skills/astory/references/failure-taxonomy.md",
+        ".agents/skills/astory/references/house-style-contract.md",
+        ".agents/skills/astory/references/imagegen-contract.md"
+      ],
+      "id": "required_templates_present",
+      "missing_paths": [],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Required skill templates and contracts are present."
+    },
+    "scene_landing_preview": {
+      "failure_code": null,
+      "id": "scene_landing_preview",
+      "idea_lock_approved": true,
+      "missing_requirements": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/planning/scene_landing_preview.md",
+      "preview_trace_present": true,
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Scene landing preview is concrete before idea lock."
+    },
+    "skill_contract_present": {
+      "id": "skill_contract_present",
+      "missing_phrases": [],
+      "path": ".agents/skills/astory/SKILL.md",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "A Story skill contract is present and contains the identity/HITL gates."
+    },
+    "trace_jsonl_valid": {
+      "event_count": 18,
+      "id": "trace_jsonl_valid",
+      "parse_errors": [],
+      "path": "runs/2026-06-15_19-09_plate-nervous/logs/trace.jsonl",
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Trace JSONL is parseable."
+    }
+  },
+  "created_at": "2026-06-16T19:58:01+00:00",
+  "overall_status": "blocked",
+  "reference_summary": {
+    "aachu_face_identity_count": 4,
+    "expression_support_count": 4,
+    "prompt_only_allowed": false,
+    "style_reference_count": 3,
+    "text_and_brand_reference_count": 4,
+    "together_body_language_count": 2,
+    "view_image_queue_actual_count": 11,
+    "view_image_queue_count": 11,
+    "zuv_face_identity_count": 4
+  },
+  "repo_root": "/Users/himanshusharma/A Story of Two V2",
+  "run_dir": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-15_19-09_plate-nervous",
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "schema_version": "1.0",
+  "workflow": {
+    "evidence": [
+      "prompts",
+      "reference_load_plan",
+      "reference_visibility_proof",
+      "selected_references"
+    ],
+    "prompt_files": [
+      "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt"
+    ],
+    "type": "imagegen_story_run"
+  }
+}

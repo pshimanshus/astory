@@ -1,0 +1,9 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "native_size_gate_reinforced",
+  "timestamp": "2026-06-14T00:58:21+05:30",
+  "creator_feedback": "The image was extended instead of created in the exact shared format and dimensions; imagegen prompt clarity must enforce 1080px by 1350px every time.",
+  "active_constraint": "Every Instagram post imagegen prompt must start with native 1080px wide by 1350px tall, 4:5 portrait, and wrong-size outputs must be rejected instead of padded, extended, cropped, or relabeled final.",
+  "current_run_status": "blocked_after_two_native_regeneration_failures",
+  "blocked_reason": "Built-in imagegen returned unrelated non-portrait infographic outputs after native-size repair prompts, so the run cannot honestly be called final."
+}

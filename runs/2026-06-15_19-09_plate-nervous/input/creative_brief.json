@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "created_at": "2026-06-15T19:09:00+05:30",
+  "creator_request": "create astory style illustration",
+  "locked_direction": "The bite he said he did not want",
+  "surface": "single 1080x1080 px square illustration as a first-frame/proof-of-style image",
+  "source_mode": "fresh_original_from_chat_direction",
+  "carousel_context": {
+    "draft_title": "the bite he said he didn't want",
+    "target_slide": 1,
+    "on_image_text": "he said \"i'm not hungry\"\nso why is my plate nervous?",
+    "caption_context": "send this to the person who says \"i'm not hungry\" and then audits your plate like it owes them money."
+  },
+  "must_preserve": [
+    "Aachu visibly guarding her food with annoyed amusement",
+    "Zuv pretending not to be interested while clearly eyeing the plate",
+    "the emotional job: a sendable soft accusation, not a lesson about love",
+    "exact on-image text and line breaks"
+  ],
+  "must_avoid": [
+    "generic happy couple on a sofa",
+    "quote-card romance",
+    "therapy-language or moral ending",
+    "cramped or broken hands reaching for food",
+    "yellow/parchment paper"
+  ]
+}

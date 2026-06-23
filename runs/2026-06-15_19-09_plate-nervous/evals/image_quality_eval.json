@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "slide_number": 1,
+  "candidate_path": "runs/2026-06-15_19-09_plate-nervous/images/slide_01_attempt_01_candidate.png",
+  "status": "retry",
+  "identity_baseline_status": "creator_promoted_as_gold_standard_face_match",
+  "publishing_status": "not_final",
+  "scores": {
+    "identity_match": 5,
+    "style_consistency": 4.5,
+    "scene_logic": 4,
+    "text_readability": 3,
+    "exact_text_preservation": 2,
+    "brandmark_presence": 3,
+    "canvas_size_1080x1350_portrait": 1,
+    "publishability": 2,
+    "overall": 3.2
+  },
+  "hard_gates": {
+    "actual_canvas_size_is_1080x1350_px": false,
+    "brandmark_present": true,
+    "brandmark_position_top_right": false,
+    "exact_text_preserved": false,
+    "aachu_eye_direction_natural": false,
+    "identity_references_respected": true
+  },
+  "hard_failures": [
+    "WRONG_CANVAS_SIZE",
+    "TEXT_NOT_EXACT",
+    "PROMPT_BRANDMARK_MISSING"
+  ],
+  "creator_learning": "The full artifact route that produced this candidate is now the identity-match gold standard for Aachu/Zuv generations.",
+  "retry_prompt_delta": "Keep the same raw-reference-first route and identity-match prompt discipline; regenerate native 1080x1350 px portrait, place tiny @a.storyof.two top-right, fix Aachu's eye alignment, and render the exact text: he said \"i'm not hungry\" / so why is my plate nervous?"
+}

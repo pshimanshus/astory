@@ -1,0 +1,61 @@
+{
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "minimum_threshold": 4.0,
+  "selected_candidate_id": "please_vent_more_long_version",
+  "scoreboard": [
+    {
+      "rank": 1,
+      "candidate_id": "please_vent_more_long_version",
+      "title": "Please Vent More",
+      "overall": 4.72,
+      "relatability": 4.9,
+      "shareability": 5.0,
+      "visual_feasibility": 4.8,
+      "novelty_strength": 4.6,
+      "source_preservation": 4.4,
+      "anti_slop_safety": 4.5,
+      "reason": "All three agents selected this family. It has the clearest send reason, a short first-frame hook, and a stageable A Story scene."
+    },
+    {
+      "rank": 2,
+      "candidate_id": "ordinary_care_phrases",
+      "title": "He Said I Love You All Day",
+      "overall": 4.50,
+      "relatability": 4.5,
+      "shareability": 4.8,
+      "visual_feasibility": 4.6,
+      "novelty_strength": 4.2,
+      "source_preservation": 4.7,
+      "anti_slop_safety": 4.1,
+      "reason": "Strong source, broad comments, but risks becoming a list of care phrases."
+    },
+    {
+      "rank": 3,
+      "candidate_id": "boring_details",
+      "title": "The Boring Details",
+      "overall": 4.42,
+      "relatability": 4.6,
+      "shareability": 4.3,
+      "visual_feasibility": 4.4,
+      "novelty_strength": 4.3,
+      "source_preservation": 4.5,
+      "anti_slop_safety": 4.1,
+      "reason": "Good A Story fit and save potential, but lower immediate send urgency than the selected idea."
+    },
+    {
+      "rank": 4,
+      "candidate_id": "nothing_happened_face",
+      "title": "Nothing Happened Means",
+      "overall": 4.40,
+      "relatability": 4.7,
+      "shareability": 4.7,
+      "visual_feasibility": 4.3,
+      "novelty_strength": 3.8,
+      "source_preservation": 5.0,
+      "anti_slop_safety": 3.9,
+      "reason": "High owned-performance support, but too close to the existing calm-girl winner unless heavily narrowed."
+    }
+  ],
+  "decision": "Pass threshold and select `Please Vent More` for idea lock.",
+  "source_gap": "Primary DZS2GuipLku source has public likes/comments and a strong comment smell, but no scraped saves/shares and is not a full ranked top-carousel proof. Selection is supported by owned A Story listening and not-too-much winners."
+}

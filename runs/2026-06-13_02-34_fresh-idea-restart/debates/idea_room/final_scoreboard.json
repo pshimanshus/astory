@@ -1,0 +1,64 @@
+{
+  "run_id": "2026-06-13_02-34_fresh-idea-restart",
+  "score_threshold": 4.0,
+  "selection_allowed": false,
+  "why_no_single_selection": "Creator requested a fresh start after multiple ideas failed to land. This pass prioritizes divergent emotional engines over forced selection.",
+  "anti_collapse_gate": {
+    "care_logistics_usefulness_candidates_allowed": false,
+    "winner_hook_clones_allowed": false,
+    "same_engine_batch_allowed": false,
+    "status": "passed"
+  },
+  "shortlist": [
+    {
+      "idea_id": "idea_01_chairs_disagreed",
+      "title": "The Chairs Disagreed",
+      "emotional_engine": "new-love denial / body-language confession",
+      "hook": "we were just friends. the chairs disagreed.",
+      "overall_read": 4.72,
+      "selection_status": "shortlisted",
+      "reason": "Freshest visual proof: furniture betrays the feeling before either person says it."
+    },
+    {
+      "idea_id": "idea_02_compliment_failed",
+      "title": "Compliment Failed Successfully",
+      "emotional_engine": "awkward flirting / patao incompetence",
+      "hook": "he had a compliment ready. his mouth chose weather.",
+      "overall_read": 4.64,
+      "selection_status": "shortlisted",
+      "reason": "Strong two-way send trigger: girl teases him, guy confesses he panicked."
+    },
+    {
+      "idea_id": "idea_03_sock_fight",
+      "title": "The Sock Fight Was Not About The Sock",
+      "emotional_engine": "attention drama / fake domestic prosecution",
+      "hook": "some fights are just 'come here' written badly.",
+      "overall_read": 4.45,
+      "selection_status": "shortlisted",
+      "reason": "Messier and more emotionally specific than care content, but needs careful repair to avoid stereotype."
+    },
+    {
+      "idea_id": "idea_04_last_bite_court",
+      "title": "The Last Bite Court Case",
+      "emotional_engine": "petty married war / food evidence",
+      "hook": "no one ate the last bite. it simply disappeared with witnesses.",
+      "overall_read": 4.32,
+      "selection_status": "shortlisted",
+      "reason": "Most married-couple everyday conflict; high comment potential, less premium unless softened."
+    }
+  ],
+  "rejected_before_scoring": [
+    {
+      "title": "The Blanket Border Dispute",
+      "reason": "Funny and visual, but too close to common blanket/fan couple content and has bed-anatomy risk."
+    },
+    {
+      "title": "The Full Name Weather Warning",
+      "reason": "Potentially relatable, but risks old husband-wife danger humor unless a more specific private code is supplied."
+    },
+    {
+      "title": "Not Waiting, Obviously",
+      "reason": "Good new-love send trigger, but phone-waiting is a familiar lane and weaker than the chair-based visual proof."
+    }
+  ]
+}

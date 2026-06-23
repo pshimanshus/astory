@@ -1,0 +1,20 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "status": "blocked_before_full_image_alignment",
+  "reviewed_candidates": [
+    "runs/2026-06-19_21-09_ghar-line/images/slide_01_iteration_02_attempt_01_candidate.png",
+    "runs/2026-06-19_21-09_ghar-line/images/slide_01_iteration_02_attempt_02_candidate.png"
+  ],
+  "alignment_observations": [
+    "Slide 1 visualizes the creator-approved public-loneliness wrapper rather than a quote-card.",
+    "The no-comeback constraint is preserved in the reviewed slide 1 candidates.",
+    "The source/send trigger remains legible: being around people does not make it feel like home without the one person."
+  ],
+  "blocking_failures": [
+    "WRONG_CANVAS_SIZE",
+    "IDENTITY_REFERENCE_POSE_COPY",
+    "SMILING_CONTRADICTS_ACHE"
+  ],
+  "decision": "do_not_continue_to_slides_2_4_until_slide_1_generation_path_can_satisfy_native_canvas_gate_and_prevent_identity_reference_superimposition"
+}

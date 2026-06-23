@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-18_21-48_identity-route-redo-test",
+  "status": "loaded",
+  "loaded_in_current_conversation": true,
+  "loading_method": "functions.view_image in current Codex conversation",
+  "load_plan_sha256": "f2e9710a76a222157d7aa5b9b2a9a54a4677ecf2fc2470ff01867d46667ca2ef",
+  "loaded_paths": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+    "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+    "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "loaded_count": 15,
+  "expected_count": 15,
+  "reference_roles_confirmed": [
+    "aachu_face_identity",
+    "zuv_face_identity",
+    "style"
+  ],
+  "active_generation_path_can_use_loaded_image_context": true,
+  "notes": [
+    "Raw Aachu and Zuv face anchors were loaded as separate images, not as a contact sheet.",
+    "Current-request source illustrations remain analysis-only and are not active imagegen inputs.",
+    "Style images are not permitted to replace face identity anchors."
+  ]
+}

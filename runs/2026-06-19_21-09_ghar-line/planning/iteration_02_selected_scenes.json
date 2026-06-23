@@ -1,0 +1,74 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe",
+  "selection_status": "approved_for_prompt_pack",
+  "supersedes": [
+    "planning/selected_scenes.json",
+    "prompts/slide_01_prompt.txt",
+    "prompts/slide_02_prompt.txt",
+    "prompts/slide_03_prompt.txt",
+    "prompts/slide_04_prompt.txt"
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "selected_scene_option_id": "2.1A",
+      "final_scene_summary": "Aachu at a lively cafe/friends table, feeling hollow despite the full setting.",
+      "exact_on_image_text": "Khaali hai jo tere bina,\nmain woh ghar hoon tera.",
+      "locked_visual_proof": "The frame is socially full but emotionally empty because the one beside-space remains unclaimed.",
+      "locked_text_placement": "Upper-middle clean off-white cafe wall/window negative space; tiny low-contrast @a.storyof.two top-right.",
+      "locked_identity_references": [
+        "raw Aachu face anchors"
+      ],
+      "locked_style_references": [
+        "best-illustration style references"
+      ],
+      "prompt_builder_notes": "Keep background friends soft and anonymous. Do not draw Zuv in any form."
+    },
+    {
+      "slide_number": 2,
+      "selected_scene_option_id": "2.2A",
+      "final_scene_summary": "Aachu's gaze keeps returning to the cafe entrance or empty beside-space while friends continue around her.",
+      "exact_on_image_text": "Some people don't just enter your life,\nthey become the place\nyour heart keeps returning to.",
+      "locked_visual_proof": "Her attention returns before the text says the heart keeps returning.",
+      "locked_text_placement": "Upper-left or upper-middle negative space, away from Aachu's face and cafe entrance.",
+      "locked_identity_references": [
+        "raw Aachu face anchors"
+      ],
+      "locked_style_references": [
+        "best-illustration style references"
+      ],
+      "prompt_builder_notes": "No phone, no message bubble, no ghosted Zuv. The return is in eyeline and body angle."
+    },
+    {
+      "slide_number": 3,
+      "selected_scene_option_id": "2.3A",
+      "final_scene_summary": "Same familiar cafe corner, friends present but softened; Aachu sits slightly apart and touches the empty beside-space.",
+      "exact_on_image_text": "Without them,\neven the most familiar corners\nfeel empty.",
+      "locked_visual_proof": "The public corner is familiar and full, yet the beside-space still makes it feel empty.",
+      "locked_text_placement": "Upper-middle clean wall/window negative space.",
+      "locked_identity_references": [
+        "raw Aachu face anchors"
+      ],
+      "locked_style_references": [
+        "best-illustration style references"
+      ],
+      "prompt_builder_notes": "Avoid making the empty chair the whole idea; Aachu's face/body must carry the missing-home feeling."
+    },
+    {
+      "slide_number": 4,
+      "selected_scene_option_id": "2.4A",
+      "final_scene_summary": "Aachu remains at the same cafe/friends table near the end of the evening; the crowd remains, but the beside-space is still unfilled and the realization lands.",
+      "exact_on_image_text": "And with them,\neven silence feels safe.\n\nGhar was never a place.\nIt was always that one person.",
+      "locked_visual_proof": "Zuv never appears; the full place still cannot become home, which makes the final line hurt instead of resolving it.",
+      "locked_text_placement": "Upper-middle negative space; keep final two lines smaller but readable.",
+      "locked_identity_references": [
+        "raw Aachu face anchors"
+      ],
+      "locked_style_references": [
+        "best-illustration style references"
+      ],
+      "prompt_builder_notes": "No Zuv in-frame, no arrival, no silhouette, no ghost, no phone wallpaper, no memory figure, no reunion. Keep Aachu's face readable and let the missing person be felt through the unfilled beside-space and her realization."
+    }
+  ]
+}

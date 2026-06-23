@@ -1,0 +1,13 @@
+{
+  "run_id": "2026-06-15_23-25_silence-house-walks",
+  "workflow_type": "single_illustration_direct_lock",
+  "creator_request": "Create one A Story of Two style illustration from the provided quote. No concept thinking; preserve the copy as given.",
+  "locked_on_image_text": "तू चुप हो जाए तो घर में आवाज़ें भी डर-डर के चलती हैं।”\nWhen you go silent,\neven the house starts walking carefully.",
+  "creator_constraints": [
+    "Use the provided copy as-is.",
+    "No idea generation or alternate concepts.",
+    "Create a single illustration, not a carousel.",
+    "Follow A Story of Two house style."
+  ],
+  "status": "creator_direct_lock"
+}

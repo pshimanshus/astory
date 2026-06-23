@@ -1,0 +1,52 @@
+{
+  "agent_role": "Relatability Ethnographer",
+  "agent_id": "019edb6f-3470-7b42-9588-51f646da9484",
+  "nickname": "Mill",
+  "top_patterns": [
+    {
+      "title": "The Covered Plate After The Fight",
+      "exact_first_slide_text": "hum dono gusse the. par usne meri roti dhak di.",
+      "source_engine": "DYJpjt9CQYY chaos held gently + DXKY5t_ie8L staying to figure it out",
+      "tiny_true_behavior": "After a fight, one plate is still served and covered so the roti does not get cold.",
+      "suggested_slide_count": 6,
+      "relatability_score": 5
+    },
+    {
+      "title": "Dhaniya Border",
+      "exact_first_slide_text": "maine bas bola tha dhaniya pasand nahi. usne poha mein border bana diya.",
+      "source_engine": "DY4tGrQCXRA listening + DY_t4Dek0pq observational intimacy",
+      "tiny_true_behavior": "He pushes coriander into a neat border instead of simply removing it.",
+      "suggested_slide_count": 5,
+      "relatability_score": 5
+    },
+    {
+      "title": "3:17 AM Still Angry",
+      "exact_first_slide_text": "3:17 am: 'i'm still angry. but your alarm is on silent.'",
+      "source_engine": "message-native awkwardness + DYJpjt9CQYY care through emotional chaos",
+      "tiny_true_behavior": "A late-night angry text protects the other person's morning anyway.",
+      "suggested_slide_count": 5,
+      "relatability_score": 5
+    },
+    {
+      "title": "Your Side Has My Things",
+      "exact_first_slide_text": "your side of the bed has more of my things than yours.",
+      "source_engine": "grounded home-as-person mechanic + DY9SfANiXWc ordinary time",
+      "tiny_true_behavior": "Charger, hair clip, specs, and water bottle have crossed sides of the bed.",
+      "suggested_slide_count": 5,
+      "relatability_score": 5
+    },
+    {
+      "title": "Bad Maggi Committee",
+      "exact_first_slide_text": "we made terrible maggi and still gave it a 9/10.",
+      "source_engine": "DY9SfANiXWc ordinary evenings + DZNl2zxiRD4 simple things funny",
+      "tiny_true_behavior": "Watery Maggi, one spoon, one fork, both defending the disaster.",
+      "suggested_slide_count": 5,
+      "relatability_score": 5
+    }
+  ],
+  "rejected_slop": [
+    "turning covered food into a lesson about healthy conflict",
+    "saying 'little things matter' instead of showing the dhaniya border",
+    "making Aachu only dramatic and Zuv only saintly"
+  ]
+}

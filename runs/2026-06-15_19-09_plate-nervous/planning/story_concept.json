@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "story_scope": "single slide proof-of-style image",
+  "carousel_intent": "potential 5-slide carousel later",
+  "premise_lock": {
+    "emotional_joke": "Zuv says he is not hungry but behaves like Aachu's plate is community property.",
+    "relationship_dynamic": "playful accusation with real tenderness underneath",
+    "must_not_change": [
+      "food theft setup",
+      "Aachu's guarded plate",
+      "Zuv's fake innocence",
+      "exact slide-1 text"
+    ]
+  },
+  "target_slide": {
+    "slide_number": 1,
+    "story_role": "setup",
+    "exact_on_image_text": "he said \"i'm not hungry\"\nso why is my plate nervous?",
+    "viewer_question_created": "What is he about to do to that plate?",
+    "micro_action": "Zuv's eyes betray him while Aachu protectively holds the plate closer.",
+    "visual_evidence_needed": "plate of food, Aachu's guarded hand, Zuv's side-eye toward plate, fake phone distraction"
+  }
+}

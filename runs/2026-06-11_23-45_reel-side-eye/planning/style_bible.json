@@ -1,0 +1,13 @@
+{
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "style_lock": "observational-intimacy-premium (references/style/observational-intimacy-premium/), per master prompt creator lock 2026-05-30",
+  "paper": "warm ivory/off-white with visible grain; hard-fail on yellow/mustard/sepia/parchment/heavy cream",
+  "palette_emphasis": "evening interior: muted denim blue (jeans), soft navy (hoodie), warm tan (pants/sofa), peach blush lamplight, dusty coral accents; slide 4 darker ambient wash with two warm phone-glow pools",
+  "text_style": "handwritten warm black/charcoal per references/text-style/; upper-middle negative space; exact wording, line breaks, capitalization (note: 'NOTHING.' and 'SAME' are intentionally capitalized)",
+  "camera_arc": ["wide", "mid", "extreme close-up", "wide two-shot"],
+  "slide_specific": {
+    "3": "close crop, minimal background wash fading to paper; face fills lower two-thirds; generous text space above",
+    "4": "darker room read achieved with deeper washes, NOT black paper; faces lit by phone glow; keep paper grain visible"
+  },
+  "brandmark": "tiny low-contrast handwritten @a.storyof.two bottom-right, every slide"
+}

@@ -1,0 +1,136 @@
+{
+  "claim_summary": {
+    "active_runtime": 0,
+    "candidate": 0,
+    "deferred": 2,
+    "open_human_review": 0,
+    "open_quarantine_review": 0,
+    "promoted": 2,
+    "quarantined": 1,
+    "rejected": 0,
+    "total": 5
+  },
+  "decision_summary": {
+    "auto_deferred": 2,
+    "auto_promoted": 2,
+    "auto_quarantined": 1,
+    "auto_rollback": 0,
+    "kept_active_runtime": 0,
+    "skipped_already_decided": 0
+  },
+  "decisions": [
+    {
+      "action": "auto_deferred",
+      "claim_id": "claim:03a4931fb5a18cea",
+      "event_id": "event:d2592657402b9840",
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/docs/approvals.md",
+        "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json"
+      ],
+      "from_status": "candidate",
+      "promotion_policy": "human_review",
+      "rationale": "Autopilot deferred high-risk identity/style/creator-preference memory until repeated evidence exists.",
+      "reviewed_at": "2026-06-11T05:09:18.774367+00:00",
+      "reviewer": "codex-autopilot",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "target_page": null,
+      "to_status": "deferred"
+    },
+    {
+      "action": "auto_quarantined",
+      "claim_id": "claim:183fb06cca8b8465",
+      "event_id": "event:13d4f56c3dcde02d",
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json"
+      ],
+      "from_status": "quarantined",
+      "promotion_policy": "quarantine",
+      "rationale": "Autopilot quarantined rejected or unsafe memory so it cannot guide generation.",
+      "reviewed_at": "2026-06-11T05:09:18.774579+00:00",
+      "reviewer": "codex-autopilot",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "target_page": null,
+      "to_status": "quarantined"
+    },
+    {
+      "action": "auto_promoted",
+      "claim_id": "claim:88f81213cad79449",
+      "event_id": "event:9a79224a9787e2bd",
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json"
+      ],
+      "from_status": "active_runtime",
+      "promotion_policy": "auto_apply",
+      "rationale": "Autopilot promoted low/medium-risk workflow memory after post-run evidence extraction.",
+      "reviewed_at": "2026-06-11T05:09:18.775068+00:00",
+      "reviewer": "codex-autopilot",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "target_page": "references/brain/pages/run-lessons.md",
+      "to_status": "promoted"
+    },
+    {
+      "action": "auto_deferred",
+      "claim_id": "claim:a05114b59588d9f3",
+      "event_id": "event:4e2d8338078476d2",
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/docs/approvals.md",
+        "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json"
+      ],
+      "from_status": "candidate",
+      "promotion_policy": "human_review",
+      "rationale": "Autopilot deferred high-risk identity/style/creator-preference memory until repeated evidence exists.",
+      "reviewed_at": "2026-06-11T05:09:18.775271+00:00",
+      "reviewer": "codex-autopilot",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "target_page": null,
+      "to_status": "deferred"
+    },
+    {
+      "action": "auto_promoted",
+      "claim_id": "claim:ed11d6f016d3b4e2",
+      "event_id": "event:3ad7324f68e455fc",
+      "evidence_paths": [
+        "runs/2026-06-10_22-22_heart-rent/references-used/selected_references.json"
+      ],
+      "from_status": "active_runtime",
+      "promotion_policy": "auto_apply",
+      "rationale": "Autopilot promoted low/medium-risk workflow memory after post-run evidence extraction.",
+      "reviewed_at": "2026-06-11T05:09:18.775704+00:00",
+      "reviewer": "codex-autopilot",
+      "run_id": "2026-06-10_22-22_heart-rent",
+      "target_page": "references/brain/pages/run-lessons.md",
+      "to_status": "promoted"
+    }
+  ],
+  "heavy_verification_ran": true,
+  "human_intervention_required": false,
+  "learning_artifacts": {
+    "active_claims_markdown": "runs/2026-06-10_22-22_heart-rent/memory/active_claims.md",
+    "claims_json": "runs/2026-06-10_22-22_heart-rent/memory/claim_candidates.json",
+    "claims_markdown": "runs/2026-06-10_22-22_heart-rent/memory/claim_candidates.md",
+    "ledger_jsonl": "references/brain/ledger/events.jsonl"
+  },
+  "phase": "post_run",
+  "policy": {
+    "auto_defer_high_risk": true,
+    "auto_promote_auto_apply": true,
+    "auto_quarantine_rejected_assets": true
+  },
+  "pre_imagegen_latency_contract": "The heavy learn/promote/verify loop is post-run only and must not run before illustration generation.",
+  "run_id": "2026-06-10_22-22_heart-rent",
+  "schema_version": "1.0",
+  "status": "completed",
+  "verification": {
+    "lint": {
+      "failures": [],
+      "status": "pass"
+    },
+    "retrieval_eval": {
+      "failures": [],
+      "forbidden_hit_count": 0,
+      "recall_at_k": 1.0,
+      "status": "pass"
+    },
+    "status": "pass"
+  }
+}

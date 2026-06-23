@@ -1,0 +1,227 @@
+{
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "status": "draft",
+  "source_bank_search": {
+    "used_winner_bank": true,
+    "bank_paths": [
+      "references/text-style/winner-bank/winner_bank.json",
+      "references/text-style/winner-bank/posts_merged.json",
+      "references/text-style/winner-bank-index-2026-06-14.json",
+      "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZS2GuipLku/record.json"
+    ],
+    "evidence_gap": "Primary DZS2GuipLku source has public likes/comments and comment smell, but no scraped saves/shares and is used with owned A Story performance support."
+  },
+  "candidates": [
+    {
+      "candidate_id": "please_vent_more_long_version",
+      "title": "Please Vent More",
+      "source_winner": {
+        "source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+        "source_account": "hereverydaymotherhood",
+        "source_shortcode": "DZS2GuipLku",
+        "metric_signal": "3374 public likes and 13 comments; no scraped saves/shares; supported by owned A Story send winners DYJpjt9CQYY and DY4tGrQCXRA."
+      },
+      "source_engine": {
+        "old_familiar_topic": "Being listened to while venting.",
+        "first_frame_stop": "A direct permission line tells the viewer this is about the part of them that feels annoying.",
+        "swipe_reason": "The viewer wants to see whether the post understands the shame of cutting the story short.",
+        "send_or_save_trigger": "Send to the person who lets you repeat the same detail without making you feel like a burden.",
+        "what_must_stay": "The direct permission to vent more and the source's burden-relief emotional engine."
+      },
+      "novelty_model": {
+        "new_reveal": "The romantic part is not tolerating the vent; it is wanting the long, repetitive version the person usually edits down.",
+        "viewer_outcome": "A viewer can send this to ask for permission to talk fully without writing a needy message.",
+        "contrast_frame": "Polite short version versus the full messy version.",
+        "urgency": {
+          "used": true,
+          "reason": "The emotional window is the second before someone says `sorry, too much` and shuts down."
+        },
+        "bullseye_proof": "Phone face-down, untouched cup, repeated detail, and the final line `no. say the rest.`",
+        "protect_the_illusion": "Do not say active listening, holding space, emotional safety, or communication. Let the permission feel spoken."
+      },
+      "a_story_wrappers": [
+        {
+          "wrapper_id": "wrapper_001",
+          "wrapper_type": "scene",
+          "what_changes_for_aachu_zuv": "A static permission line becomes a quiet Aachu/Zuv room scene where she offers the short version and he visibly chooses the long one.",
+          "lived_scene_wrapper": "Aachu starts with a rant but apologizes for taking up space; Zuv listens without solving, scrolling, teasing, or standing over her.",
+          "visual_proof": "Phone face-down, untouched cup, Aachu mid-gesture, Zuv fully turned toward her.",
+          "send_or_comment_trigger": "Send to the person who makes the full story feel wanted; comment with the apology-after-rant habit.",
+          "flat_or_generic_risk": "Would become generic if rewritten as `be with someone who makes you feel heard`."
+        }
+      ],
+      "selection_scores": {
+        "winner_fit": 4.6,
+        "source_preservation": 4.4,
+        "novelty_strength": 4.6,
+        "aachu_zuv_specificity": 4.7,
+        "send_save_trigger": 5.0,
+        "anti_slop_risk": 4.5,
+        "visual_proof_potential": 4.8,
+        "total": 4.72
+      },
+      "decision": "selected",
+      "rejection_reason": ""
+    },
+    {
+      "candidate_id": "ordinary_care_phrases",
+      "title": "He Said I Love You All Day",
+      "source_winner": {
+        "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+        "source_account": "thirdeyethoughts",
+        "source_shortcode": "DZTTSUBEaRr",
+        "metric_signal": "Winner-bank indexed source; 52514 public likes and 164 comments; saves/shares unavailable."
+      },
+      "source_engine": {
+        "old_familiar_topic": "Small care phrases.",
+        "first_frame_stop": "The first slide reframes an everyday reach-home message as love.",
+        "swipe_reason": "Viewers swipe to recognize other practical phrases their person says.",
+        "send_or_save_trigger": "Send to the practical partner who checks on you.",
+        "what_must_stay": "Ordinary care phrases as hidden love confessions."
+      },
+      "novelty_model": {
+        "new_reveal": "The love sentence is hidden inside practical words.",
+        "viewer_outcome": "Viewers send it to the partner who is not verbally dramatic but constantly checks on them.",
+        "contrast_frame": "Big `I love you` versus boring `reached?`.",
+        "urgency": {
+          "used": false,
+          "reason": "Evergreen practical-care post; no real time window needed."
+        },
+        "bullseye_proof": "Doorway, bag strap, phone in hand, and one-word reach-home check-in.",
+        "protect_the_illusion": "Do not say `love language` or `small gestures matter`; let the spoken phrases do the work."
+      },
+      "a_story_wrappers": [
+        {
+          "wrapper_id": "wrapper_001",
+          "wrapper_type": "scene",
+          "what_changes_for_aachu_zuv": "A broad source prompt becomes Aachu and Zuv at the doorway with practical lines that mean love.",
+          "lived_scene_wrapper": "Aachu leaves and Zuv asks for a reach-home message without making a speech.",
+          "visual_proof": "Half-open door, bag strap, phone in hand, Zuv's eyeline following Aachu.",
+          "send_or_comment_trigger": "Viewers comment the practical line their partner uses.",
+          "flat_or_generic_risk": "Can become a phrase list or quote-card."
+        }
+      ],
+      "selection_scores": {
+        "winner_fit": 4.5,
+        "source_preservation": 4.7,
+        "novelty_strength": 4.2,
+        "aachu_zuv_specificity": 4.4,
+        "send_save_trigger": 4.8,
+        "anti_slop_risk": 4.1,
+        "visual_proof_potential": 4.6,
+        "total": 4.5
+      },
+      "decision": "shortlisted",
+      "rejection_reason": "Strong source but lower vulnerability and higher quote-card/listicle risk than selected idea."
+    },
+    {
+      "candidate_id": "boring_details",
+      "title": "The Boring Details",
+      "source_winner": {
+        "source_url": "https://www.instagram.com/p/DYG9a-FEuBQ/",
+        "source_account": "atticuspoetry",
+        "source_shortcode": "DYG9a-FEuBQ",
+        "metric_signal": "Winner-bank indexed supporting source; 42096 public likes and 80 comments; owned DY_t4Dek0pq has 24.87 shares per 1k reach."
+      },
+      "source_engine": {
+        "old_familiar_topic": "Knowing someone deeply.",
+        "first_frame_stop": "The phrase `boring details` makes a familiar little-things premise feel more private.",
+        "swipe_reason": "Viewers swipe to find the tiny habits only a partner would notice.",
+        "send_or_save_trigger": "Send as an affectionate `you are weird and I love knowing this`.",
+        "what_must_stay": "Private, unperformed details matter because one person notices them."
+      },
+      "novelty_model": {
+        "new_reveal": "The details that feel too boring to mention are exactly what make love feel private.",
+        "viewer_outcome": "A viewer can send this to say they know small useless things about their person and like them.",
+        "contrast_frame": "Impressive romantic details versus unmarketable everyday habits.",
+        "urgency": {
+          "used": false,
+          "reason": "Save-and-send intimacy post; no urgency needed."
+        },
+        "bullseye_proof": "Door checked twice, sleepy voice, charger moved to one side.",
+        "protect_the_illusion": "Do not use `observational intimacy` or `little things`; keep the boring receipts."
+      },
+      "a_story_wrappers": [
+        {
+          "wrapper_id": "wrapper_001",
+          "wrapper_type": "scene",
+          "what_changes_for_aachu_zuv": "A broad ordinary-things source becomes one partner noticing the other's unperformed habits.",
+          "lived_scene_wrapper": "Aachu checks the door twice while Zuv notices without teasing.",
+          "visual_proof": "Door lock, sleepy voice, charger moved to one side.",
+          "send_or_comment_trigger": "Viewers comment the boring thing they know about their person.",
+          "flat_or_generic_risk": "Can become an `I love your little things` quote."
+        }
+      ],
+      "selection_scores": {
+        "winner_fit": 4.4,
+        "source_preservation": 4.5,
+        "novelty_strength": 4.3,
+        "aachu_zuv_specificity": 4.6,
+        "send_save_trigger": 4.3,
+        "anti_slop_risk": 4.1,
+        "visual_proof_potential": 4.4,
+        "total": 4.42
+      },
+      "decision": "shortlisted",
+      "rejection_reason": "Good future idea, but lower immediate send urgency than selected idea."
+    },
+    {
+      "candidate_id": "nothing_happened_face",
+      "title": "Nothing Happened Means",
+      "source_winner": {
+        "source_url": "https://www.instagram.com/p/DYJpjt9CQYY/",
+        "source_account": "a.storyof.two",
+        "source_shortcode": "DYJpjt9CQYY",
+        "metric_signal": "Owned top send winner; 21351 shares on 531805 reach, 40.15 shares per 1k reach."
+      },
+      "source_engine": {
+        "old_familiar_topic": "Being understood after a fight.",
+        "first_frame_stop": "The first slide decodes a familiar phrase: `nothing happened`.",
+        "swipe_reason": "Viewers swipe to see if the carousel knows the hidden instructions under the phrase.",
+        "send_or_save_trigger": "Send after a fight when direct softness is too hard.",
+        "what_must_stay": "The private translation of `nothing happened` into a need for closeness."
+      },
+      "novelty_model": {
+        "new_reveal": "`Nothing happened` can carry instructions.",
+        "viewer_outcome": "The dramatic partner can send it instead of apologizing first.",
+        "contrast_frame": "Saying go away versus leaving space beside you.",
+        "urgency": {
+          "used": true,
+          "reason": "The emotional window is the few minutes after a fight when distance can become the whole night."
+        },
+        "bullseye_proof": "Open seat, turned shoulder, and sleeve-grab.",
+        "protect_the_illusion": "Do not turn this into `he loved my chaos`; keep the phrase/body-language translation."
+      },
+      "a_story_wrappers": [
+        {
+          "wrapper_id": "wrapper_001",
+          "wrapper_type": "scene",
+          "what_changes_for_aachu_zuv": "The owned calm-girl engine narrows to one phrase and one body-language receipt.",
+          "lived_scene_wrapper": "Zuv reads Aachu's private subtitle and sits close without crowding.",
+          "visual_proof": "Open seat, turned shoulder, sleeve-grab.",
+          "send_or_comment_trigger": "Dramatic partners send it after a fight to admit the hidden instruction.",
+          "flat_or_generic_risk": "Can repeat the old calm-girl winner if it says `he loved my chaos`."
+        }
+      ],
+      "selection_scores": {
+        "winner_fit": 4.8,
+        "source_preservation": 5.0,
+        "novelty_strength": 3.8,
+        "aachu_zuv_specificity": 4.7,
+        "send_save_trigger": 4.7,
+        "anti_slop_risk": 3.9,
+        "visual_proof_potential": 4.3,
+        "total": 4.4
+      },
+      "decision": "shortlisted",
+      "rejection_reason": "High proof but too close to an existing winner unless further narrowed."
+    }
+  ],
+  "selected_candidate_id": "please_vent_more_long_version",
+  "rejected_generic_versions": [
+    "be with someone who makes you feel heard",
+    "love is in the little things",
+    "healthy partners hold space"
+  ],
+  "gate": "pass"
+}

@@ -1,0 +1,69 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "score_threshold": 4.0,
+  "winner": "selected_empty_usual_spot",
+  "candidates": [
+    {
+      "candidate_id": "selected_empty_usual_spot",
+      "title": "Your Side Still Stays Yours",
+      "source_agents": ["Meera", "Kabir", "Tara"],
+      "scores": {
+        "relatability": 5.0,
+        "shareability": 4.9,
+        "comment_potential": 4.7,
+        "visual_clarity": 5.0,
+        "emotional_truth": 4.8,
+        "humor_warmth_balance": 4.6,
+        "freshness": 4.7,
+        "brand_fit": 4.9,
+        "simplicity": 4.7,
+        "carousel_payoff": 4.9,
+        "overall": 4.74
+      },
+      "selection_allowed": true,
+      "notes": "Best blend of physical proof, sendability, and creator brief fit."
+    },
+    {
+      "candidate_id": "alt_door_sound_changes_house",
+      "title": "The Door Sound Changes The House",
+      "source_agents": ["Meera", "Tara"],
+      "scores": {
+        "relatability": 4.8,
+        "shareability": 4.4,
+        "comment_potential": 4.8,
+        "visual_clarity": 4.7,
+        "emotional_truth": 4.7,
+        "humor_warmth_balance": 4.5,
+        "freshness": 4.6,
+        "brand_fit": 4.6,
+        "simplicity": 4.4,
+        "carousel_payoff": 4.5,
+        "overall": 4.50
+      },
+      "selection_allowed": true,
+      "notes": "Strong, but more cinematic and less directly tied to the requested empty-home note."
+    },
+    {
+      "candidate_id": "alt_bas_tum_nahi_ho",
+      "title": "Bas Tum Nahi Ho",
+      "source_agents": ["Kabir"],
+      "scores": {
+        "relatability": 4.5,
+        "shareability": 4.8,
+        "comment_potential": 4.4,
+        "visual_clarity": 4.0,
+        "emotional_truth": 4.7,
+        "humor_warmth_balance": 4.4,
+        "freshness": 4.0,
+        "brand_fit": 4.7,
+        "simplicity": 5.0,
+        "carousel_payoff": 4.4,
+        "overall": 4.49
+      },
+      "selection_allowed": true,
+      "notes": "Very sendable, but less visually protected from quote-card drift."
+    }
+  ],
+  "second_round_required": false,
+  "selection_notes": "All shortlisted ideas scored above threshold. The selected idea wins on visual proof and anti-slop control."
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "created_at": "2026-06-15T19:28:00+05:30",
+  "load_plan_path": "runs/2026-06-15_19-09_plate-nervous/evals/imagegen_reference_load_plan.json",
+  "load_plan_sha256": "231f0c5655a3473009f6c19ea55ec2ba735c4af091c60185c39aa0863b3b1d0c",
+  "current_conversation_visibility": true,
+  "loaded_in_current_conversation": true,
+  "loading_method": "view_image",
+  "loaded_paths": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-car-purple-01.jpg",
+    "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+    "references/identity/zuv/face-01.png",
+    "references/identity/zuv/face-03.png",
+    "references/identity/zuv/zuv-face-crop-balcony-laugh-01.jpg",
+    "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "loaded_count": 11,
+  "expected_count": 11,
+  "role_counts": {
+    "aachu_face_identity": 4,
+    "zuv_face_identity": 4,
+    "style": 3
+  },
+  "image_roles": {
+    "aachu_face_identity": [
+      "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+      "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+      "references/identity/aachu/aachu-face-crop-car-purple-01.jpg",
+      "references/identity/aachu/aachu-face-crop-home-black-01.jpg"
+    ],
+    "zuv_face_identity": [
+      "references/identity/zuv/face-01.png",
+      "references/identity/zuv/face-03.png",
+      "references/identity/zuv/zuv-face-crop-balcony-laugh-01.jpg",
+      "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg"
+    ],
+    "style": [
+      "references/style/best-illustration/encoded-check-000.png",
+      "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+      "references/style/best-illustration/slide-01.png"
+    ]
+  },
+  "prompt_files_covered": [
+    "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt"
+  ],
+  "status": "complete",
+  "limitations": [
+    "The built-in imagegen tool schema does not expose explicit image-input attachment fields; this proof records that the queued local references were viewed in the current conversation before generation."
+  ]
+}

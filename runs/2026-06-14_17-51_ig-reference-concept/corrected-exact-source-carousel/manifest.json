@@ -1,0 +1,163 @@
+{
+  "correction" : "Exact source text rendered deterministically in A Story visual\/design theme. Previous invented variant package remains rejected.",
+  "created_at" : "2026-06-18T16:00:48Z",
+  "excluded_source_slides" : [
+    {
+      "reason" : "Source slide 19 is a book\/product promo image, not a quote-card content slide. It is preserved in source assets and map, but not silently converted into a fake A Story quote slide.",
+      "slide" : 19
+    }
+  ],
+  "format" : {
+    "pixel_height" : 1350,
+    "pixel_width" : 1080
+  },
+  "rendered_slide_count" : 18,
+  "run_id" : "2026-06-14_17-51_ig-reference-concept",
+  "schema_version" : "1.0",
+  "slides" : [
+    {
+      "file" : "slide-01.png",
+      "on_image_text" : "The intimacy of someone protecting your name when you’re not in the room.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 1,
+      "source_image" : "input\/source_full_reference\/slide_01.jpg"
+    },
+    {
+      "file" : "slide-02.png",
+      "on_image_text" : "The intimacy of reassurance.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 2,
+      "source_image" : "input\/source_full_reference\/slide_02.jpg"
+    },
+    {
+      "file" : "slide-03.png",
+      "on_image_text" : "The intimacy of “You remembered?” “Of course I did.”",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 3,
+      "source_image" : "input\/source_full_reference\/slide_03.jpg"
+    },
+    {
+      "file" : "slide-04.png",
+      "on_image_text" : "The intimacy of “I wanna do this with you.”",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 4,
+      "source_image" : "input\/source_full_reference\/slide_04.jpg"
+    },
+    {
+      "file" : "slide-05.png",
+      "on_image_text" : "The intimacy of sharing the same kind of weird.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 5,
+      "source_image" : "input\/source_full_reference\/slide_05.jpg"
+    },
+    {
+      "file" : "slide-06.png",
+      "on_image_text" : "The intimacy of long car rides and deep conversations, no eye contact, just two minds meeting, growing closer.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 6,
+      "source_image" : "input\/source_full_reference\/slide_06.jpg"
+    },
+    {
+      "file" : "slide-07.png",
+      "on_image_text" : "The intimacy of “For you, I would.”",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 7,
+      "source_image" : "input\/source_full_reference\/slide_07.jpg"
+    },
+    {
+      "file" : "slide-08.png",
+      "on_image_text" : "The intimacy of being loved platonically and deeply. Friends are soulmates, too.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 8,
+      "source_image" : "input\/source_full_reference\/slide_08.jpg"
+    },
+    {
+      "file" : "slide-09.png",
+      "on_image_text" : "The intimacy of letting someone witness the weight of your grief, and stay.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 9,
+      "source_image" : "input\/source_full_reference\/slide_09.jpg"
+    },
+    {
+      "file" : "slide-10.png",
+      "on_image_text" : "The intimacy of learning to enjoy your own company. That feeling of being entirely at peace and at home with yourself is unmatched.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 10,
+      "source_image" : "input\/source_full_reference\/slide_10.jpg"
+    },
+    {
+      "file" : "slide-11.png",
+      "on_image_text" : "The intimacy of “No reason, I just wanted to hear your voice.”",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 11,
+      "source_image" : "input\/source_full_reference\/slide_11.jpg"
+    },
+    {
+      "file" : "slide-12.png",
+      "on_image_text" : "The intimacy of a voice changing when it’s just the two of you; softer, warmer, different.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 12,
+      "source_image" : "input\/source_full_reference\/slide_12.jpg"
+    },
+    {
+      "file" : "slide-13.png",
+      "on_image_text" : "The intimacy of shared, comfortable silence.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 13,
+      "source_image" : "input\/source_full_reference\/slide_13.jpg"
+    },
+    {
+      "file" : "slide-14.png",
+      "on_image_text" : "The intimacy of shared laughter finding its way into an argument. Love, breaking through.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 14,
+      "source_image" : "input\/source_full_reference\/slide_14.jpg"
+    },
+    {
+      "file" : "slide-15.png",
+      "on_image_text" : "The intimacy of “text me when you get home” said like a small prayer.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 15,
+      "source_image" : "input\/source_full_reference\/slide_15.jpg"
+    },
+    {
+      "file" : "slide-16.png",
+      "on_image_text" : "The intimacy of “No rush, take your time. I’m here whenever you’re ready.”",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 16,
+      "source_image" : "input\/source_full_reference\/slide_16.jpg"
+    },
+    {
+      "file" : "slide-17.png",
+      "on_image_text" : "The intimacy of falling in love without your nervous system being in survival mode.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 17,
+      "source_image" : "input\/source_full_reference\/slide_17.jpg"
+    },
+    {
+      "file" : "slide-18.png",
+      "on_image_text" : "The intimacy of forgiving yourself for the days you disappointed yourself.",
+      "pixel_height" : 1350,
+      "pixel_width" : 1080,
+      "slide" : 18,
+      "source_image" : "input\/source_full_reference\/slide_18.jpg"
+    }
+  ]
+}

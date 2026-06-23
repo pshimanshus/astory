@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "exported_for_creator_review",
+  "scene_lock_applied": true,
+  "exports": [
+    {
+      "slide": 1,
+      "path": "runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-01-bangalore-rain-1080x1350.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350,
+      "aspect_ratio": "4:5",
+      "locked_scene": "Both standing and hugging in rain on a Bangalore road.",
+      "text_check": "Who is your yellow?",
+      "notes": "Latest locked-scene candidate. Raw output was padded horizontally before resizing to avoid cropping."
+    },
+    {
+      "slide": 2,
+      "path": "runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-02-balcony-lap-1080x1350.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350,
+      "aspect_ratio": "4:5",
+      "locked_scene": "Back-side balcony rain shot: Zuv on chair, Aachu on his lap hugging him, Aachu face hidden.",
+      "text_check": "A Yellow Person definition text is present and readable.",
+      "notes": "Latest locked-scene candidate. Raw output was resized to exact 1080x1350."
+    }
+  ],
+  "verification_commands": [
+    "file runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-01-bangalore-rain-1080x1350.png runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-02-balcony-lap-1080x1350.png",
+    "sips -g pixelWidth -g pixelHeight runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-01-bangalore-rain-1080x1350.png runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-02-balcony-lap-1080x1350.png"
+  ],
+  "known_limitations": [
+    "These are exported for creator review, not marked final-approved."
+  ]
+}

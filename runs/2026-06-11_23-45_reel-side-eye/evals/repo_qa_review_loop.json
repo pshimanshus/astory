@@ -1,0 +1,13 @@
+{
+  "iterations": [
+    {
+      "blocking_findings": [],
+      "iteration": 1,
+      "overall_status": "pass"
+    }
+  ],
+  "max_iterations": 2,
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,20 @@
+{
+  "agent": "Visual Story Director",
+  "mode": "fallback_local_pass_3",
+  "task": "prove the line in pictures; stageability in watercolor-and-ink",
+  "candidates": [
+    {
+      "id": "visual_a",
+      "angle": "Gaze-as-thesis, closing camera distance",
+      "treatment": "Slide 1 wide: both on sofa, she sends, small hopeful smile. Slide 2 mid: her head turned, the first side-eye, he is laughing at his own phone. Slide 3 close: full unblinking side-eye filling the frame, his oblivious profile soft-focus. Pivot slide returns wide: both under one blanket watching her reel together, his head tipped onto her shoulder.",
+      "anatomy_note": "Phones held in simple closed grips, screens implied by glow, no rendered UI. Hands minimal in close slides where the face does the work.",
+      "style_note": "Side-eye is an ink-line acting problem: pupil position + eyebrow, not face distortion. Keeps identity lock easy because head shape and features stay neutral."
+    },
+    {
+      "id": "visual_b",
+      "angle": "Split-frame phone-vs-face",
+      "treatment": "Each slide splits her face and the unopened chat. Rejected instinct: rendered chat UI fights house style and risks unreadable micro-text.",
+      "verdict": "reject"
+    }
+  ]
+}

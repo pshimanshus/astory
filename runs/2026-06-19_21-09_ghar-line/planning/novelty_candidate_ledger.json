@@ -1,0 +1,214 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "status": "draft_pending_creator_idea_lock",
+  "selection_threshold": 4.0,
+  "source_bank_search": {
+    "used_winner_bank": true,
+    "bank_paths": [
+      "references/text-style/winner-bank/winner_bank.json",
+      "references/text-style/winner-bank/posts_merged.json",
+      "references/text-style/winner-bank-index-2026-06-14.json"
+    ],
+    "evidence_gap": ""
+  },
+  "selected_candidate_id": "selected_empty_usual_spot",
+  "evidence_basis": {
+    "local_performance": "references/brain/pages/outcome-attribution.md ranks A Story decisions by shares per 1k reach and saves over likes.",
+    "copy_contract": "references/brain/policies/current-copy-contract-2026-06-18.md asks for lines someone could send, not content-pillar polish.",
+    "source_winner_bank": "references/text-style/winner-bank-index-2026-06-14.json contains compatible home/person winners, used as theme proof and generic-risk warning.",
+    "live_research_gap": "No live platform research used; local performance memory and winner bank were sufficient for this idea-lock pass."
+  },
+  "candidates": [
+    {
+      "candidate_id": "selected_empty_usual_spot",
+      "decision": "selected",
+      "rejection_reason": "",
+      "selected": true,
+      "title": "Your Side Still Stays Yours",
+      "source_winner": {
+        "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+        "source_account": "werenotreallystrangers",
+        "source_shortcode": "DW9g9ZGCRu-",
+        "metric_signal": "Winner-bank rank 121; 49670 likes, 161 comments, 346606 views_or_plays, winner_score 69046.21. Used as theme proof, not copied as final text."
+      },
+      "source_engine": {
+        "old_familiar_topic": "Home is one specific person, not a place.",
+        "first_frame_stop": "A complete room with one person visibly not taking the other person's usual side.",
+        "swipe_reason": "The viewer wants to know whether the empty place stays ache or becomes comfort.",
+        "send_or_save_trigger": "Send to the person whose absence makes even home feel hollow.",
+        "what_must_stay": "The creator's first-slide lyric, the physical empty usual spot, and the ache that without the person even the speaker/home is empty."
+      },
+      "novelty_model": {
+        "new_reveal": "The house is not empty because it lacks things; it is empty because one habitual place is still waiting for one person.",
+        "viewer_outcome": "A viewer can send it because it admits the hollow feeling without over-explaining it.",
+        "contrast_frame": "Generic version says 'home is a person'; this version proves it by showing the side nobody else gets to occupy.",
+        "urgency": {
+          "used": false,
+          "reason": "No fake timeliness is needed; the emotional window is missing someone."
+        },
+        "bullseye_proof": "One partner remains on their own side even when alone, leaving the other side untouched.",
+        "protect_the_illusion": "Do not explain the moral. Let the kept place make the reader understand."
+      },
+      "a_story_wrappers": [
+        {
+          "wrapper_id": "usual_side",
+          "wrapper_type": "scene",
+          "what_changes_for_aachu_zuv": "Aachu/Zuv become specific through an ordinary shared spot and the restraint of not occupying it.",
+          "lived_scene_wrapper": "One partner sits alone on the usual half of the shared sofa or bed; the other half remains open.",
+          "visual_proof": "The empty side is clean, uncreased, and respected.",
+          "send_or_comment_trigger": "People can tag their person with 'your side is still yours.'",
+          "flat_or_generic_risk": "If the room is just cozy and empty, it becomes a quote-card background. The body behavior must be visible."
+        },
+        {
+          "wrapper_id": "return_as_you_are",
+          "wrapper_type": "payoff",
+          "what_changes_for_aachu_zuv": "Slide 2 becomes a private invitation, not a definition of love.",
+          "lived_scene_wrapper": "The missing person returns to the exact kept spot without a cinematic reunion.",
+          "visual_proof": "The same frame feels full because the specific body is back in the specific place.",
+          "send_or_comment_trigger": "The receiver feels welcomed, not demanded.",
+          "flat_or_generic_risk": "Over-polished wording would turn the note into a motivational quote."
+        }
+      ],
+      "selection_scores": {
+        "winner_fit": 4.7,
+        "source_preservation": 4.6,
+        "novelty_strength": 4.7,
+        "aachu_zuv_specificity": 4.8,
+        "send_save_trigger": 4.9,
+        "anti_slop_risk": 4.6,
+        "anti_slop_control": 4.6,
+        "visual_proof_potential": 4.9,
+        "total": 4.74
+      },
+      "anti_slop_risk": {
+        "risk": "AI_SLOP_COPY_DRIFT",
+        "mitigation": "Use a private, lowercase Hinglish note and a concrete kept-place visual."
+      }
+    },
+    {
+      "candidate_id": "alt_door_sound_changes_house",
+      "decision": "shortlisted",
+      "rejection_reason": "Strong alternate, but more cinematic and less directly tied to the empty-home physical receipt.",
+      "selected": false,
+      "title": "The Door Sound Changes The House",
+      "source_winner": {
+        "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+        "source_account": "werenotreallystrangers",
+        "source_shortcode": "DW9g9ZGCRu-",
+        "metric_signal": "Winner-bank rank 121; compatible home/person source engine."
+      },
+      "source_engine": {
+        "old_familiar_topic": "The person makes the place home.",
+        "first_frame_stop": "A waiting body reacts to a door before the person enters.",
+        "swipe_reason": "The door creates arrival tension.",
+        "send_or_save_trigger": "Send to someone whose arrival changes the atmosphere.",
+        "what_must_stay": "Door-sound recognition, no cinematic reunion."
+      },
+      "novelty_model": {
+        "new_reveal": "Home starts before the person fully enters; the body recognizes them first.",
+        "viewer_outcome": "A viewer can send it as 'I know when it is you.'",
+        "contrast_frame": "Not decor or address, but the arrival sound.",
+        "urgency": {
+          "used": false,
+          "reason": "No time pressure."
+        },
+        "bullseye_proof": "One partner looks up at the door in the half-second before arrival.",
+        "protect_the_illusion": "Keep it quiet; no running, rain, or hug."
+      },
+      "a_story_wrappers": [
+        {
+          "wrapper_id": "door_recognition",
+          "wrapper_type": "scene",
+          "what_changes_for_aachu_zuv": "Aachu/Zuv recognize each other through a domestic arrival sound.",
+          "lived_scene_wrapper": "One partner sits in the room and softens before the other has entered.",
+          "visual_proof": "Eyes lift toward the door handle.",
+          "send_or_comment_trigger": "People comment with the sound that means their person is home.",
+          "flat_or_generic_risk": "Can become cinematic if overplayed."
+        }
+      ],
+      "selection_scores": {
+        "winner_fit": 4.3,
+        "source_preservation": 4.4,
+        "novelty_strength": 4.6,
+        "aachu_zuv_specificity": 4.4,
+        "send_save_trigger": 4.5,
+        "anti_slop_risk": 4.4,
+        "anti_slop_control": 4.4,
+        "visual_proof_potential": 4.5,
+        "total": 4.44
+      },
+      "anti_slop_risk": {
+        "risk": "VISUAL_SETTING_CONTRADICTION",
+        "mitigation": "Keep doorway composition simple and physically plausible."
+      }
+    },
+    {
+      "candidate_id": "alt_bas_tum_nahi_ho",
+      "decision": "shortlisted",
+      "rejection_reason": "Very sendable, but less visually protected from quote-card drift than the kept usual side.",
+      "selected": false,
+      "title": "Bas Tum Nahi Ho",
+      "source_winner": {
+        "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+        "source_account": "werenotreallystrangers",
+        "source_shortcode": "DW9g9ZGCRu-",
+        "metric_signal": "Winner-bank rank 121; compatible home/person source engine."
+      },
+      "source_engine": {
+        "old_familiar_topic": "Everything exists except the person.",
+        "first_frame_stop": "A complete room that feels too still.",
+        "swipe_reason": "The reader wants the missing-person proof.",
+        "send_or_save_trigger": "Painfully easy to send as a missing-you message.",
+        "what_must_stay": "Blunt simplicity."
+      },
+      "novelty_model": {
+        "new_reveal": "The emptiness is not architectural; it is one-name specific.",
+        "viewer_outcome": "A viewer can send the ache in one line.",
+        "contrast_frame": "The room has things but not the person.",
+        "urgency": {
+          "used": false,
+          "reason": "No time pressure."
+        },
+        "bullseye_proof": "A normal room refuses to feel normal.",
+        "protect_the_illusion": "Do not explain that home is a feeling."
+      },
+      "a_story_wrappers": [
+        {
+          "wrapper_id": "complete_but_empty",
+          "wrapper_type": "scene",
+          "what_changes_for_aachu_zuv": "Their absence, not the room, becomes the point.",
+          "lived_scene_wrapper": "One partner inside a familiar room that should feel complete.",
+          "visual_proof": "Stillness and too much space.",
+          "send_or_comment_trigger": "Easy 'same' and tag comments.",
+          "flat_or_generic_risk": "Less specific than the kept-place idea."
+        }
+      ],
+      "selection_scores": {
+        "winner_fit": 4.3,
+        "source_preservation": 4.6,
+        "novelty_strength": 4.1,
+        "aachu_zuv_specificity": 4.0,
+        "send_save_trigger": 4.8,
+        "anti_slop_risk": 4.2,
+        "anti_slop_control": 4.2,
+        "visual_proof_potential": 4.0,
+        "total": 4.29
+      },
+      "anti_slop_risk": {
+        "risk": "EMOTIONALLY_VAGUE",
+        "mitigation": "Needs a more precise object, body position, or place to avoid becoming a flat quote."
+      }
+    }
+  ],
+  "selection": {
+    "selected_candidate_id": "selected_empty_usual_spot",
+    "selection_allowed": true,
+    "second_round_required": false,
+    "why": "The selected idea is above threshold, keeps the creator's two-slide request, has the clearest physical proof, and carries both ache and comfort."
+  },
+  "rejected_generic_versions": [
+    "Lyric over an empty room followed by a polished explanation that home is a person.",
+    "A generic hug in a cozy room with no visual proof of why the house felt empty."
+  ],
+  "gate": "pass"
+}

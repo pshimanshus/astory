@@ -1,0 +1,75 @@
+{
+  "agent_role": "Relatability Ethnographer - Meera",
+  "candidates": [
+    {
+      "title": "The Helmet Strap Tax",
+      "one_line_concept": "Aachu and Zuv are already late for a scooter ride, but the scooter cannot move until both have silently inspected the other's loose things: helmet click, bag zip, scarf end away from the wheel.",
+      "emotional_truth": "Love often disguises itself as irritated logistics: hurry up, but let me make sure you are safe first.",
+      "relatable_trigger": "That tiny pre-ride safety ritual couples do without ever calling it care.",
+      "visual_evidence": "Scooter by the gate, one hand clicking a helmet strap under the chin, the other hand closing a half-open backpack zip, keys dangling, one sandal already on the footrest, scarf end visibly lifted clear of the wheel.",
+      "risk_of_being_generic": "Low if both people are checking each other. Medium if it becomes the tired 'he protects her on a bike' trope.",
+      "scores": {
+        "relatability": 4,
+        "emotional_truth": 5,
+        "specificity": 5,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal": 4
+      }
+    },
+    {
+      "title": "The Fan Regulator Witness",
+      "one_line_concept": "After lights-out, one of them tries to secretly move the ceiling fan from 3 to 4, and the other catches it with eyes still closed.",
+      "emotional_truth": "The intimacy is not agreement; it is knowing the other person's smallest comfort crime by sound.",
+      "relatable_trigger": "The tiny click in a dark room that immediately exposes your partner's plan.",
+      "visual_evidence": "Dim bedroom, hand frozen on an old wall fan regulator, blanket pulled diagonally across the bed, one bare foot out from under the sheet, the other person lying with eyes closed but one accusing finger raised.",
+      "risk_of_being_generic": "Medium because temperature fights are common. It stays specific only if the old regulator click, blanket geometry, and caught-in-the-act pose are the whole joke.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 4,
+        "warmth": 4,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4,
+        "risk_of_stereotype_reversal": 5
+      }
+    },
+    {
+      "title": "The Collar Thread Delay",
+      "one_line_concept": "At the door, while insisting they are late, one silently pulls a thread from the other's collar, smooths the tag, and only then lets them leave.",
+      "emotional_truth": "Long-term care often sounds like complaint but moves like tenderness.",
+      "relatable_trigger": "Standing still because your partner is doing the tiny grooming check they pretend they do not do.",
+      "visual_evidence": "Door open, one shoe half-worn, keys held in the mouth, a hand pinching one white thread from a dark collar, bag sliding off a shoulder, the other person waiting with fake impatience.",
+      "risk_of_being_generic": "Low-medium. It fails if it becomes polished couple posing. It works only as a messy, late, doorway interruption.",
+      "scores": {
+        "relatability": 4,
+        "emotional_truth": 5,
+        "specificity": 4,
+        "warmth": 5,
+        "everyday_visual_evidence": 4,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal": 4
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "The Helmet Strap Tax",
+    "why": "It is the most photographable without caption, has exact everyday objects, gives both Aachu and Zuv agency, and carries affection through behavior instead of sentiment."
+  },
+  "rejected_patterns": [
+    "Coffee theft or shared mug jokes, because they are first-obvious and already over-warmed by the feed.",
+    "Hoodie theft, because it is true but too posted.",
+    "Missed texts, reels, or phone attention jokes, because they become generic relationship-content shorthand.",
+    "He cannot find things, because it turns one partner into the fool and the other into the competent saint.",
+    "Generic cozy morning scenes, because warmth without an exact object is just beige romance.",
+    "Love-language lists, because they explain affection instead of showing behavior.",
+    "Grand scooter protection framing, because the better version is mutual tiny safety checks, not hero posing."
+  ],
+  "risk_notes": [
+    "For risk_of_stereotype_reversal, 5 means lowest risk and strongest handling.",
+    "Each idea must survive if the on-image text is removed.",
+    "Keep the home and props lived-in, not showroom-clean.",
+    "Do not let teasing become incompetence. Both partners must remain lovable and specific."
+  ]
+}

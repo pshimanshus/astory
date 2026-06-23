@@ -1,0 +1,498 @@
+{
+  "agent_role": "Relatability Ethnographer",
+  "agent_name": "Meera",
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "method_lock": {
+    "anti_slop_loop": "Research -> Pattern Hypothesis -> Human Draft -> Slop Audit -> Rewrite -> Output",
+    "brainstorming_application": "Context-first idea-room pass from local evidence and source winners. No final prompts or images generated.",
+    "rejected_generic_version": "Love is in the little things, shown through cozy props and a clean moral.",
+    "human_rewrite_rule": "Every candidate must land as a behavior someone recognizes, not as a lesson someone agrees with."
+  },
+  "evidence_ledger": [
+    {
+      "id": "copy_contract",
+      "path": "references/brain/policies/current-copy-contract-2026-06-18.md",
+      "evidence": "Active rule: simple sendable English, source-bank forms visible, restrained visual wrappers, no object-led premise.",
+      "used_for": "Rejected polished quote-card copy and any premise where the prop becomes the idea."
+    },
+    {
+      "id": "owned_send_winners",
+      "path": "references/brain/pages/outcome-attribution.md",
+      "evidence": "Owned carousels are ranked by shares per 1k reach. DYJpjt9CQYY leads with 40.15 shares/1k; DY_t4Dek0pq has 24.87 shares/1k and 16.99 saves/1k; DY9SfANiXWc and DY4tGrQCXRA also rank as send-behavior winners.",
+      "used_for": "Weighted candidates toward sendable private behavior, ordinary-time longing, listening, and observational intimacy."
+    },
+    {
+      "id": "source_vent_more",
+      "path": "references/text-style/winner-bank/posts_merged.json",
+      "source_account": "hereverydaymotherhood",
+      "source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+      "source_shortcode": "DZS2GuipLku",
+      "evidence": "Static 1080x1350 post with caption engine 'Please... vent more'; 3374 likes, 13 comments, comment examples include viewers feeling annoying or like a burden.",
+      "used_for": "Top candidate engine: wanting the full messy version of the partner, not the polite summary."
+    },
+    {
+      "id": "source_ordinary_care_phrases",
+      "path": "references/text-style/winner-bank/winner_bank.json",
+      "source_account": "thirdeyethoughts",
+      "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+      "source_shortcode": "DZTTSUBEaRr",
+      "evidence": "Rank 105 in the local index; 10-slide carousel; 52514 likes, 164 comments, winner_score 59894; mechanic tags include carousel, direct_you, first_person, domestic. Caption frames ordinary partner phrases like 'get home safe' and 'can I make you food?' as love.",
+      "used_for": "Candidate about the tiny 'reached?' check-in as a non-speech way of saying love."
+    },
+    {
+      "id": "source_ordinary_things",
+      "path": "references/text-style/winner-bank/winner_bank.json",
+      "source_account": "atticuspoetry",
+      "source_url": "https://www.instagram.com/p/DYG9a-FEuBQ/",
+      "source_shortcode": "DYG9a-FEuBQ",
+      "evidence": "Rank 111 in the local index; 6-slide carousel; 42096 likes, 80 comments; domestic mechanic. Caption says deep love lives in ordinary things such as rides home, meals waiting, and quiet sacrifices.",
+      "used_for": "Candidate about the last-bite lie as a photographable quiet sacrifice."
+    },
+    {
+      "id": "owned_calm_girl",
+      "path": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+      "source_account": "a.storyof.two",
+      "source_url": "https://www.instagram.com/p/DYJpjt9CQYY/",
+      "source_shortcode": "DYJpjt9CQYY",
+      "evidence": "Caption engine turns 'mujhe kuch nahi hua' into a specific need for closeness; insights show 21351 shares on 531805 reach.",
+      "used_for": "Candidate about post-fight proximity without making either partner the villain."
+    },
+    {
+      "id": "owned_observational_intimacy",
+      "path": "data/instagram/carousel_posts/DY_t4Dek0pq/carousel_export.json",
+      "source_account": "a.storyof.two",
+      "source_url": "https://www.instagram.com/p/DY_t4Dek0pq/",
+      "source_shortcode": "DY_t4Dek0pq",
+      "evidence": "Caption engine values tiny ordinary details the partner does not perform for the world; insights show 2327 shares on 93580 reach and high saves per 1k.",
+      "used_for": "Weighted candidates toward private receipts and non-performative habits."
+    },
+    {
+      "id": "novelty_lens",
+      "path": "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md",
+      "evidence": "Use source winners first, then make an old relationship truth newly visible through a hidden angle, contrast frame, closest proof, and viewer outcome.",
+      "used_for": "Each candidate names old topic, stale version, new reveal, proof, and what not to explain."
+    },
+    {
+      "id": "run_memory_gap",
+      "path": "runs/2026-06-19_23-10_next-carousel-recommendation/planning/memory_recall.md",
+      "evidence": "No cited memory findings were returned for this run.",
+      "used_for": "Local references and visible source evidence are treated as the truth for this pass."
+    }
+  ],
+  "premise_lock": {
+    "task": "Generate 3-5 candidate next-carousel ideas for the idea room only.",
+    "surface": "Instagram 4x5 carousel recommendation, stopping before final prompts or images.",
+    "speaker_receiver": "Aachu and Zuv as a specific couple; each candidate can be read as one partner sending the post to the other.",
+    "audience_job": "Make someone send the carousel because it names a private behavior they recognize.",
+    "must_keep": [
+      "source winner or owned-performance evidence remains visible",
+      "simple sendable English",
+      "one physical receipt per idea",
+      "A Story wrapper is a lived couple scene, not a quote card"
+    ],
+    "must_reject": [
+      "greeting-card love",
+      "therapy-page lesson",
+      "object-led invention where the object becomes the whole premise",
+      "trope-only wife/husband jokes",
+      "scenes that only work because the caption explains them"
+    ]
+  },
+  "candidates": [
+    {
+      "id": "meera_01_long_version",
+      "title": "The Long Version",
+      "one_line_concept": "One partner asks for the full messy vent, not the polite summary.",
+      "exact_first_slide_text": "please vent more. i don't want the short version.",
+      "first_frame_visual": "A quiet night room. Aachu is mid-rant, one hand caught in explanation. Zuv sits fully turned toward her with his phone face-down, not solving, not scrolling.",
+      "mini_arc": [
+        {
+          "slide": 1,
+          "text": "please vent more. i don't want the short version.",
+          "visual": "Aachu talking fast on the bed or floor; Zuv's phone is face-down beside him."
+        },
+        {
+          "slide": 2,
+          "text": "tell me the same part again.",
+          "visual": "Zuv shifts closer, chin on hand, listening like the repeated detail matters."
+        },
+        {
+          "slide": 3,
+          "text": "you always say 'sorry, i am boring you' right before the real thing comes out.",
+          "visual": "Aachu looks embarrassed mid-sentence; Zuv does not interrupt."
+        },
+        {
+          "slide": 4,
+          "text": "i was not waiting for you to finish. i was staying.",
+          "visual": "The room is calmer; Aachu's shoulders have dropped; the phone is still untouched."
+        }
+      ],
+      "payoff_frame": {
+        "text": "i was not waiting for you to finish. i was staying.",
+        "visual": "Aachu has finally gone quiet beside him, not because she was cut off, because she was heard."
+      },
+      "source_engine": {
+        "primary": {
+          "source_shortcode": "DZS2GuipLku",
+          "source_account": "hereverydaymotherhood",
+          "source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+          "what_stays": "The permissioned emotional engine: 'please, vent more' as a direct request.",
+          "what_changes": "A Story turns it into a four-slide listening scene with a visible phone-face-down receipt."
+        },
+        "supporting": [
+          "DZTTSUBEaRr ordinary phrases as love",
+          "DY4tGrQCXRA owned listening winner",
+          "DY_t4Dek0pq observational intimacy winner"
+        ]
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Listening to your partner vent.",
+        "stale_generic_version": "Choose someone who listens to you.",
+        "new_reveal": "The love is not patience with the vent. It is asking for the version they usually cut short because they feel annoying.",
+        "contrast_frame": "Polite summary versus the long, repetitive, real version.",
+        "closest_proof": "The phone stays face-down while the same detail is told again.",
+        "viewer_outcome": "The overtalker sends it to the person who never made them feel like a burden.",
+        "what_not_to_explain": "Do not say 'holding space' or teach communication."
+      },
+      "A Story wrapper": "Aachu starts to apologize for repeating herself. Zuv quietly makes it clear he came for the long version.",
+      "why_someone_sends_or_comments": "The person who over-explains sends it with 'this is you.' The listener can comment that the details are the point.",
+      "anti_slop_risk": {
+        "risk": "Could turn into therapy-page listening copy.",
+        "rejected_generic_line": "Be with someone who makes you feel heard.",
+        "repair": "Keep the receipt physical: phone down, repeated detail, no advice, no big confession.",
+        "failure_codes_to_watch": [
+          "PREACHY_THERAPY_LANGUAGE",
+          "VISUAL_ONLY_MOOD_WORDS",
+          "AI_SLOP_COPY_DRIFT"
+        ]
+      },
+      "scores": {
+        "relatability": 4.9,
+        "emotional_truth": 4.8,
+        "specificity": 4.6,
+        "warmth": 4.7,
+        "everyday_visual_evidence": 4.5,
+        "brand_fit": 4.7,
+        "stereotype_safety": 4.8,
+        "send_potential": 4.8,
+        "novelty": 4.4,
+        "overall": 4.69
+      }
+    },
+    {
+      "id": "meera_02_reached",
+      "title": "Reached?",
+      "one_line_concept": "The tiny check-in after someone leaves is the love language nobody makes dramatic.",
+      "exact_first_slide_text": "\"reached?\" is also i love you.",
+      "first_frame_visual": "Aachu stands near a lift lobby or building gate after leaving. Her phone lights up with Zuv's one-word message. She is trying not to smile.",
+      "mini_arc": [
+        {
+          "slide": 1,
+          "text": "\"reached?\" is also i love you.",
+          "visual": "Aachu at the gate with the message visible enough to read."
+        },
+        {
+          "slide": 2,
+          "text": "not a speech. just one word after i leave.",
+          "visual": "Zuv at home, still looking at the chat instead of pretending he forgot."
+        },
+        {
+          "slide": 3,
+          "text": "he acts casual. he checks twice.",
+          "visual": "A second small phone buzz; Aachu smiles before typing back."
+        },
+        {
+          "slide": 4,
+          "text": "i reply late just to see if you ask again.",
+          "visual": "Aachu's thumb hovering over the reply, enjoying being cared for."
+        }
+      ],
+      "payoff_frame": {
+        "text": "i reply late just to see if you ask again.",
+        "visual": "The teasing lives in the pause before she replies, not in a big romantic scene."
+      },
+      "source_engine": {
+        "primary": {
+          "source_shortcode": "DZTTSUBEaRr",
+          "source_account": "thirdeyethoughts",
+          "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+          "what_stays": "Ordinary care phrases as ways of saying love.",
+          "what_changes": "A Story narrows it to one relationship receipt: the 'reached?' message."
+        },
+        "supporting": [
+          "DY9SfANiXWc owned ordinary-time winner",
+          "DY_t4Dek0pq owned observational-intimacy winner"
+        ]
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Checking if your partner got home safely.",
+        "stale_generic_version": "The little things mean the most.",
+        "new_reveal": "The check-in is not logistics. It is wanting one more trace of them after they leave.",
+        "contrast_frame": "A casual safety message versus a small excuse to stay connected.",
+        "closest_proof": "One-word 'reached?' message and the deliberate late reply.",
+        "viewer_outcome": "People send it to the partner who always asks, or tease the partner who waits for the double-check.",
+        "what_not_to_explain": "Do not turn it into a lecture on care or safety."
+      },
+      "A Story wrapper": "Zuv checks on Aachu after she leaves; Aachu already knows he will ask again and enjoys the tiny drama.",
+      "why_someone_sends_or_comments": "It earns 'you do this' comments from couples with a check-in ritual, and sends from people who want that ordinary care noticed.",
+      "anti_slop_risk": {
+        "risk": "Can read controlling if staged as surveillance or anxiety.",
+        "rejected_generic_line": "Love is someone caring if you got home safe.",
+        "repair": "Make it mutual and teasing: one-word message, soft smile, no panic, no demand.",
+        "failure_codes_to_watch": [
+          "EMOTIONALLY_VAGUE",
+          "SCENE_LOGIC_CONTRADICTION",
+          "SHARE_TRIGGER_MISSING"
+        ]
+      },
+      "scores": {
+        "relatability": 4.6,
+        "emotional_truth": 4.4,
+        "specificity": 4.2,
+        "warmth": 4.5,
+        "everyday_visual_evidence": 4.4,
+        "brand_fit": 4.5,
+        "stereotype_safety": 4.3,
+        "send_potential": 4.5,
+        "novelty": 4.1,
+        "overall": 4.39
+      }
+    },
+    {
+      "id": "meera_03_last_bite_lie",
+      "title": "The Last Bite Lie",
+      "one_line_concept": "One partner leaves the last bite and lies badly about not wanting it.",
+      "exact_first_slide_text": "you left me the last bite and lied so badly.",
+      "first_frame_visual": "A small table after eating. One last bite is left. Aachu points at it with a suspicious face; Zuv looks away like a terrible actor.",
+      "mini_arc": [
+        {
+          "slide": 1,
+          "text": "you left me the last bite and lied so badly.",
+          "visual": "Aachu clocks the last bite and Zuv's fake-casual face."
+        },
+        {
+          "slide": 2,
+          "text": "you said 'i am full' while still looking at it.",
+          "visual": "Zuv looks betrayed by his own eyes; Aachu is amused."
+        },
+        {
+          "slide": 3,
+          "text": "i ate it like i believed you.",
+          "visual": "Aachu takes the bite with full awareness; Zuv pretends not to care."
+        },
+        {
+          "slide": 4,
+          "text": "some love is very bad at acting.",
+          "visual": "They both know the lie was the gift."
+        }
+      ],
+      "payoff_frame": {
+        "text": "some love is very bad at acting.",
+        "visual": "The humor is in both of them knowing, not in a polished sacrifice reveal."
+      },
+      "source_engine": {
+        "primary": {
+          "source_shortcode": "DYG9a-FEuBQ",
+          "source_account": "atticuspoetry",
+          "source_url": "https://www.instagram.com/p/DYG9a-FEuBQ/",
+          "what_stays": "Deep love lives in ordinary meals and quiet sacrifices.",
+          "what_changes": "A Story replaces the broad poetic claim with one tiny exposed lie."
+        },
+        "supporting": [
+          "DY_t4Dek0pq owned observational-intimacy winner"
+        ]
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Saving food for your person.",
+        "stale_generic_version": "He always saves the best for her.",
+        "new_reveal": "The romance is not the bite. It is the bad acting around the sacrifice.",
+        "contrast_frame": "Grand sacrifice versus a tiny lie both people understand.",
+        "closest_proof": "One last bite, one fake 'i am full,' one partner calling the bluff silently.",
+        "viewer_outcome": "Couples comment with their own last-bite or last-sip versions.",
+        "what_not_to_explain": "Do not write 'small sacrifices matter.'"
+      },
+      "A Story wrapper": "Aachu and Zuv's private food logic becomes the emotional receipt; the object serves the behavior, not the other way around.",
+      "why_someone_sends_or_comments": "It gives both partners a safe tease: the giver gets seen, the receiver gets to admit they knew.",
+      "anti_slop_risk": {
+        "risk": "Object-led cleverness if the bite becomes the whole premise.",
+        "rejected_generic_line": "Real love is saving the last bite.",
+        "repair": "Keep the focus on the lie, eye contact, and mutual knowing.",
+        "failure_codes_to_watch": [
+          "AI_SLOP_COPY_DRIFT",
+          "GENERIC_IDEA",
+          "VISUAL_ONLY_MOOD_WORDS"
+        ]
+      },
+      "scores": {
+        "relatability": 4.7,
+        "emotional_truth": 4.3,
+        "specificity": 4.7,
+        "warmth": 4.6,
+        "everyday_visual_evidence": 4.8,
+        "brand_fit": 4.4,
+        "stereotype_safety": 4.6,
+        "send_potential": 4.4,
+        "novelty": 4.5,
+        "overall": 4.56
+      }
+    },
+    {
+      "id": "meera_04_leave_space",
+      "title": "Leave Space Beside Me",
+      "one_line_concept": "After a fight, one partner says go away but quietly leaves the seat beside them open.",
+      "exact_first_slide_text": "when i say 'go', i leave space beside me.",
+      "first_frame_visual": "After-fight bedroom or sofa scene. Aachu faces away, visibly upset, but the space beside her is open. Zuv stays near without touching or performing an apology.",
+      "mini_arc": [
+        {
+          "slide": 1,
+          "text": "when i say 'go', i leave space beside me.",
+          "visual": "Aachu turned away, empty space beside her deliberately visible."
+        },
+        {
+          "slide": 2,
+          "text": "not for advice. not for a speech.",
+          "visual": "Zuv sits at the edge of the space, quiet, hands to himself."
+        },
+        {
+          "slide": 3,
+          "text": "just don't make my silence do all the work.",
+          "visual": "The distance is small enough to feel chosen, big enough to respect the mood."
+        },
+        {
+          "slide": 4,
+          "text": "sit near me. i will be angry there.",
+          "visual": "Aachu remains annoyed, but her shoulder has softened toward him."
+        }
+      ],
+      "payoff_frame": {
+        "text": "sit near me. i will be angry there.",
+        "visual": "The payoff is not reconciliation. It is proximity surviving the mood."
+      },
+      "source_engine": {
+        "primary": {
+          "source_shortcode": "DYJpjt9CQYY",
+          "source_account": "a.storyof.two",
+          "source_url": "https://www.instagram.com/p/DYJpjt9CQYY/",
+          "what_stays": "The high-send A Story engine: dramatic words hiding a request for softness and closeness.",
+          "what_changes": "This version drops the broad 'calm girl' framing and makes the receipt one open seat."
+        },
+        "supporting": [
+          "DZS2GuipLku vent-more source",
+          "DY4tGrQCXRA owned listening winner"
+        ]
+      },
+      "novelty_model": {
+        "old_familiar_topic": "After-fight closeness.",
+        "stale_generic_version": "Love is staying even when things are hard.",
+        "new_reveal": "The first softening can be furniture: the space beside them is still open.",
+        "contrast_frame": "Go away as spoken words versus stay near as staged body truth.",
+        "closest_proof": "An empty seat beside an angry person.",
+        "viewer_outcome": "The dramatic partner sends it because it says the inconvenient truth without apologizing first.",
+        "what_not_to_explain": "Do not call it attachment, patience, or healthy conflict."
+      },
+      "A Story wrapper": "Aachu's anger still has a seat saved for Zuv. Zuv knows the rule and sits close, not smugly, not forcefully.",
+      "why_someone_sends_or_comments": "It invites comments like 'unfortunately me' while staying warm enough that the teased partner still sends it back.",
+      "anti_slop_risk": {
+        "risk": "Could excuse ignoring boundaries if staged wrong.",
+        "rejected_generic_line": "Stay with someone who never leaves you in your silence.",
+        "repair": "Make it an established private couple code: open space, no forced touch, no smug rescue.",
+        "failure_codes_to_watch": [
+          "SCENE_LOGIC_CONTRADICTION",
+          "GENERIC_IDEA",
+          "PREACHY_THERAPY_LANGUAGE"
+        ]
+      },
+      "scores": {
+        "relatability": 4.5,
+        "emotional_truth": 4.7,
+        "specificity": 4.5,
+        "warmth": 4.3,
+        "everyday_visual_evidence": 4.6,
+        "brand_fit": 4.6,
+        "stereotype_safety": 4.0,
+        "send_potential": 4.6,
+        "novelty": 4.5,
+        "overall": 4.48
+      }
+    }
+  ],
+  "top_pick": {
+    "candidate_id": "meera_01_long_version",
+    "title": "The Long Version",
+    "why_this_wins": "It starts from a permissioned source lead, keeps the winning 'vent more' engine visible, and adds an A Story receipt that can be photographed in one frame: phone face-down, repeated detail, no advice. It is less worn out than 'get home safe' and less object-led than the last-bite idea.",
+    "first_slide_text": "please vent more. i don't want the short version.",
+    "scene_landing_preview": {
+      "first_frame_visual": "Aachu mid-rant; Zuv fully turned toward her with phone face-down.",
+      "swipe_reason": "The viewer wants to see whether the post understands the embarrassment of talking too much.",
+      "payoff_frame": "i was not waiting for you to finish. i was staying.",
+      "share_trigger": "Send to the person who listens to the same story again without making you feel like a burden.",
+      "flat_risk": "If the story room writes it as 'being heard is love,' it dies.",
+      "correction_if_flat": "Return to the physical receipts: repeated detail, apology for rambling, phone untouched."
+    }
+  },
+  "rejected_patterns": [
+    {
+      "pattern": "Love is in the little things",
+      "why_rejected": "Too worn, too quote-card, and it lets any prop pretend to be specificity."
+    },
+    {
+      "pattern": "Choose someone who listens to you",
+      "why_rejected": "Therapy-page moral. No visible couple behavior until rewritten into the phone-down long-version scene."
+    },
+    {
+      "pattern": "Wife vents, husband patiently suffers",
+      "why_rejected": "Trope-only gender joke. The teased partner would not proudly send it."
+    },
+    {
+      "pattern": "Food sacrifice as the whole idea",
+      "why_rejected": "Object-led invention unless the emotional action is the bad lie and mutual knowing."
+    },
+    {
+      "pattern": "After-fight stay with me quote",
+      "why_rejected": "Generic comfort unless the open seat proves the contradiction without explaining it."
+    }
+  ],
+  "risk_notes": [
+    "No live platform research was run in this pass; local winner bank, owned insights, run brief, and cited brain pages were used.",
+    "DZS2GuipLku is present in posts_merged.json rather than the 2026-06-14 ranked index excerpt, so it is treated as a useful source lead with strong comment smell, not the highest-metric bank winner.",
+    "DZTTSUBEaRr and DYG9a-FEuBQ have source-level metadata and captions, but no child-slide OCR was available in the queried local records. Story room should avoid pretending slide-level structure was fully inspected.",
+    "Candidate 04 needs careful consent/body-language staging so 'go' does not become boundary-ignoring romance.",
+    "None of these are final prompts or image instructions; prompt room must still build scene options, identity references, and generation gates after idea lock."
+  ],
+  "scores": {
+    "rubric": {
+      "relatability": "Would a real couple say 'this is us'?",
+      "emotional_truth": "Does the behavior carry feeling without a lecture?",
+      "specificity": "Could this only belong to a private couple pattern?",
+      "warmth": "Would the teased partner still send it?",
+      "everyday_visual_evidence": "Can the first frame prove the premise?",
+      "brand_fit": "Does it fit Aachu/Zuv and A Story restraint?",
+      "stereotype_safety": "Higher means lower risk of lazy gender or partner trope.",
+      "send_potential": "Likelihood of DM/tag/share behavior.",
+      "novelty": "Old feeling made newly visible without bait."
+    },
+    "candidate_scores": [
+      {
+        "candidate_id": "meera_01_long_version",
+        "overall": 4.69,
+        "rank": 1
+      },
+      {
+        "candidate_id": "meera_03_last_bite_lie",
+        "overall": 4.56,
+        "rank": 2
+      },
+      {
+        "candidate_id": "meera_04_leave_space",
+        "overall": 4.48,
+        "rank": 3
+      },
+      {
+        "candidate_id": "meera_02_reached",
+        "overall": 4.39,
+        "rank": 4
+      }
+    ],
+    "selection_note": "All four pass the 4.0 idea-room threshold; top pick is strongest because the source engine, visible receipt, and send reason are clearest."
+  }
+}

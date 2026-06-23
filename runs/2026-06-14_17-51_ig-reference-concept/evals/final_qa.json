@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-14T16:52:46Z",
+  "final_export_path": "runs/2026-06-14_17-51_ig-reference-concept/exports/exact-copy-single-illustration-1080x1350-final.png",
+  "status": "ready_for_creator_review",
+  "checks": {
+    "file_exists": "pass",
+    "final_canvas_px": "1080 x 1350",
+    "exact_copy": "pass",
+    "brandmark": "pass",
+    "no_we_the_urban": "pass",
+    "no_square_padding_or_extension": "pass"
+  },
+  "notes": [
+    "The creator's latest 1080 x 1350 portrait-format correction is applied to the exported asset.",
+    "The exact referenced line is preserved; no extra slide copy or variants were generated."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "timestamp": "2026-06-12T23:28:13+05:30",
+  "room": "Review Room",
+  "agent": {
+    "persona": "Artifact Review Guardian",
+    "mode": "actual_multi_agent_v1",
+    "agent_id": "019ebcf7-fd24-7321-aa08-3c142a206529",
+    "nickname": "Einstein",
+    "initial_decision": "blocked"
+  },
+  "initial_blocker": {
+    "failure_code": "HITL_ORDER_BEFORE_IMAGEGEN_MISSING",
+    "summary": "Repo QA treated a pre-imagegen run as blocked solely because GENERATE_IMAGES_WITH_IMAGEGEN was not yet present in trace.jsonl.",
+    "root_cause": "scripts/astory_repo_qa.py did not distinguish pre_imagegen_ready from post_imagegen_ordered."
+  },
+  "fix_applied": {
+    "files": [
+      "scripts/astory_repo_qa.py",
+      "tests/test_astory_repo_qa.py"
+    ],
+    "regression_test": "tests.test_astory_repo_qa.AStoryRepoQATests.test_hitl_order_passes_for_pre_imagegen_ready_run",
+    "verification": [
+      "python3 -m unittest tests.test_astory_repo_qa.AStoryRepoQATests.test_hitl_order_passes_for_pre_imagegen_ready_run",
+      "python3 -m unittest tests.test_astory_repo_qa",
+      "PYTHONDONTWRITEBYTECODE=1 python3 scripts/astory_repo_qa.py --run-id 2026-06-11_23-45_reel-side-eye --loop --max-iterations 2"
+    ]
+  },
+  "gate_results": {
+    "prompt_lock": "pass",
+    "agent_assignment_gate": "pass",
+    "reference_manifest": "pass",
+    "reference_visibility_proof": "superseded_invalid",
+    "repo_qa_loop": "blocked_after_imagegen_gate_repair",
+    "blocking_findings": [
+      "IDENTITY_REFERENCE_INPUT_UNPROVEN",
+      "REFERENCE_VISIBILITY_PROOF_STALE",
+      "GENERATION_CONTINUED_AFTER_HARD_REJECT"
+    ]
+  },
+  "safe_to_imagegen": false,
+  "superseded_by": "raw_identity_first_v1_gate_repair",
+  "superseded_reason": "Old review accepted binder-only reference visibility proof. Current gate requires raw Aachu/Zuv face anchors loaded in the active view_image queue and a fresh proof.",
+  "next_state": "HITL_PROMPT_LOCK_REAPPROVAL"
+}

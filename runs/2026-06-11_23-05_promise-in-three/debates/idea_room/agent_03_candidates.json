@@ -1,0 +1,77 @@
+{
+  "agent_role": "Tara, Visual Story Director",
+  "candidates": [
+    {
+      "title": "The Umbrella Promise",
+      "suggested_slide_arc": [
+        "Post 1: Text 'I Promise...' above Aachu and Zuv in the lower frame at the doorway, Zuv holding an unopened umbrella while Aachu hooks her pinky around the umbrella handle instead of making the whole image about fingers.",
+        "Post 2: Text 'I am always there for you' above a rainy walk home, one umbrella tilted mostly over the other person, wet shoes and a small tea flask doing the emotional work.",
+        "Post 3: Text 'in your good and bad times ..' above the same umbrella drying open in the corner while they sit together on the floor after the rain, one small celebration flower and one crumpled bad-day tissue beside them."
+      ],
+      "visual_potential": "Strong continuity from promise object to weather protection to after-storm tenderness.",
+      "execution_difficulty_score": 2,
+      "visual_clarity": 5,
+      "scene_variety": 4,
+      "imagegen_feasibility": 5,
+      "character_consistency_potential": 5,
+      "text_integration_potential": 5,
+      "prop_usefulness": 5,
+      "anatomy_safety": 5,
+      "slide_payoff": 5
+    },
+    {
+      "title": "The Tea Flask Vow",
+      "suggested_slide_arc": [
+        "Post 1: Text 'I Promise...' above a kitchen-counter moment where Aachu and Zuv seal the promise over a small shared tea flask, pinkies visible but secondary.",
+        "Post 2: Text 'I am always there for you' above one of them waiting outside a closed room with the flask, slippers, and a folded shawl, present without crowding the other person.",
+        "Post 3: Text 'in your good and bad times ..' above them drinking from two small cups at the same table, one side with a celebration note, the other with a rough-day tissue and medicine strip."
+      ],
+      "visual_potential": "Intimate and brand-aligned, with a domestic care prop across all three posts.",
+      "execution_difficulty_score": 3,
+      "visual_clarity": 4,
+      "scene_variety": 3,
+      "imagegen_feasibility": 4,
+      "character_consistency_potential": 5,
+      "text_integration_potential": 5,
+      "prop_usefulness": 4,
+      "anatomy_safety": 4,
+      "slide_payoff": 4
+    },
+    {
+      "title": "The Waiting Chair Promise",
+      "suggested_slide_arc": [
+        "Post 1: Text 'I Promise...' above a single wooden chair between them, Aachu sitting sideways while Zuv kneels only slightly to tie a loose shoelace or ankle strap, pinky promise replaced by practical care.",
+        "Post 2: Text 'I am always there for you' above the same chair used as a waiting spot, with one person asleep under a shawl and the other sitting on the floor nearby, keeping watch.",
+        "Post 3: Text 'in your good and bad times ..' above the chair pulled to a small table where they share a tiny cake and a comfort blanket, good and bad objects balanced but uncluttered."
+      ],
+      "visual_potential": "Quirky, specific, and stageable; posing risk is higher.",
+      "execution_difficulty_score": 4,
+      "visual_clarity": 4,
+      "scene_variety": 3,
+      "imagegen_feasibility": 3,
+      "character_consistency_potential": 4,
+      "text_integration_potential": 5,
+      "prop_usefulness": 4,
+      "anatomy_safety": 3,
+      "slide_payoff": 4
+    }
+  ],
+  "top_pick": {
+    "title": "The Umbrella Promise",
+    "reason": "It converts the pinky-promise source into three clean, separate posts with one prop that naturally proves staying through every smile and storm."
+  },
+  "visual_risks": [
+    "Do not crop into hands only; the promise gesture must stay part of a full staged moment.",
+    "Avoid faces touching or overlapping; keep Aachu and Zuv separated enough for identity anchors.",
+    "Do not add extra caption words beyond the three exact source text lines.",
+    "Keep rain/storm elements soft and secondary so the art does not become a gloomy quote poster.",
+    "Avoid tiny symbolic clutter; one umbrella, one flower, one tissue is enough."
+  ],
+  "slide_count_hints": {
+    "recommended_count": 3,
+    "post_1_text": "I Promise...",
+    "post_2_text": "I am always there for you",
+    "post_3_text": "in your good and bad times ..",
+    "format_note": "Three separate 4:5 posts/slides, not one stacked collage."
+  }
+}

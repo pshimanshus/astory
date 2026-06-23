@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-18T16:36:00Z",
+  "status": "rejected_before_packaging",
+  "failure_code": "TEXT_MISSING_IN_IMAGEGEN",
+  "rejected_prompt_pattern": [
+    "Do not render the main quote text.",
+    "Leave blank space for it.",
+    "later exact text overlay"
+  ],
+  "reason": "Creator made text in image generation non-negotiable. A Story creator-review or final candidates must include the exact locked on-image text in the generated illustration itself; blank plates for later overlay are forbidden unless explicitly requested as non-final layout proofs.",
+  "active_constraint": "Every future imagegen prompt for this run must include the exact source text for that slide and must not ask for blank text space or later overlay."
+}

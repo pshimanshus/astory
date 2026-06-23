@@ -1,0 +1,17 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "rejected_by_creator",
+  "review_timestamp": "2026-06-13T22:08:00+05:30",
+  "rejected_exports": [
+    "runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-01-1080x1350.png",
+    "runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-02-1080x1350.png"
+  ],
+  "creator_feedback": "Visually bad. Slide 2 follows observational intimacy too much in design, wardrobe, and staging. Creator does not like repetition. Observational intimacy is only a reference, not something to copy.",
+  "failure_codes": [
+    "STYLE_DRIFT",
+    "GENERIC_IDEA",
+    "SCENE_LOGIC_CONTRADICTION"
+  ],
+  "root_cause": "References were role-separated for concept versus style, but the style reference set was still treated as a literal design template. The output repeated wardrobe, pose, setting, text block, and domestic staging from prior observational-intimacy references.",
+  "repair_constraint": "Use style references only as craft/finish quality bar. Invent a fresh visual treatment and explicitly ban copied wardrobe, pose, setting, and layout patterns."
+}

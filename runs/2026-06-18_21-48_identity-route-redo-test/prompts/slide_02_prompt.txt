@@ -1,0 +1,24 @@
+GENERATION PRIORITY:
+Create a native 1080x1350 px @a.storyof.two illustration for slide 2 of 2. Use raw Aachu/Zuv face anchors as the highest-priority visual input. Do not let style images, binders, contact sheets, or text descriptions replace raw face anchors. Use multiple face anchors for identity structure only; do not copy any single anchor's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.
+
+ON-IMAGE TEXT:
+Years apart.
+Seconds to fall.
+
+SCENE:
+Train platform reunion, not a hidden shoulder hug. Aachu has just reached Zuv and they are caught in the half-second after the first tight embrace, bodies close but faces pulled apart enough to see each other clearly. Aachu stands left in front three-quarter view, eyes open and soft, one hand gripping his shirt or bag strap. Zuv stands right in front three-quarter view, eyes open toward her, face still readable, one hand steady at her upper back and one near her elbow. A dropped suitcase/duffel, platform sign, train door, and passing commuters quietly prove the long-awaited return. Keep both faces readable in a medium-wide front three-quarter composition; no closed eyes, no face buried in shoulder/hair/scarf, no forehead press, no kiss, no profile-only face.
+
+IDENTITY:
+Preserve Aachu and Zuv from the loaded raw face-anchor images only. The station source image guides only the reunion premise and crowd/platform feel; it must not drive face, hair, identity, exact pose, head angle, expression, wardrobe, lighting, background, camera position, or scene composition.
+
+STYLE:
+Premium hand-drawn romantic watercolor-and-ink, fine pencil/ink linework, transparent muted washes, visible paper grain, tactile clothing and travel-bag detail, clean expressive faces. Neutral white/off-white paper only: no yellow, mustard, sepia, beige/tan, parchment, coffee-stained, or heavy cream cast.
+
+COMPOSITION:
+Place exact hand-drawn charcoal text in clean upper-middle negative space, preserving spelling, punctuation, capitalization, and line break. Add tiny low-contrast handwritten @a.storyof.two at top-right.
+
+GENERATION HARD GATE:
+Do not generate final Aachu/Zuv artwork from text descriptions or file paths alone. If loaded raw face anchors and style references are not usable in this conversation, stop and mark IDENTITY_REFERENCE_INPUT_UNPROVEN.
+
+HARD NO:
+No anime, cartoon, photorealism, flat vector, quote-card/poster design, generic AI watercolor, extra text, wrong text, missing brandmark, distorted eyes, bad hands/fingers, extra limbs, face drift, face merge, role reversal, source-image face copying, single-reference pose cloning.

@@ -1,0 +1,60 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "status": "story_lock_candidate",
+  "selected_scenes": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "am i hard to love when i go quiet?",
+      "selected_scene_option_id": "1B",
+      "scene_summary": "Slight high-angle diagonal corridor view: closed door on the right third, practical chair lower-left, soft light under the door, generous upper text space.",
+      "why_selected": "It proves the chair is near but not pressing, avoiding sad poster energy.",
+      "face_visibility_plan": "No faces.",
+      "core_visual_proof": "Closed door plus chair distance."
+    },
+    {
+      "slide_number": 2,
+      "exact_on_image_text": "or did you learn where to leave the water?",
+      "selected_scene_option_id": "2B",
+      "scene_summary": "Low diagonal view from chair height: Zuv's hand has just placed water and charger outside the door swing while his partial body turns away.",
+      "why_selected": "It shows care without pressure in one physical action.",
+      "face_visibility_plan": "Zuv face omitted; hand and partial body only.",
+      "core_visual_proof": "Water/charger placement clear of the door path."
+    },
+    {
+      "slide_number": 3,
+      "exact_on_image_text": "you learned the chair distance",
+      "selected_scene_option_id": "3B",
+      "scene_summary": "Gentle high-angle floor-tile view showing the chair now one tile farther from the door, folded cloth on the chair, water lower, and light changed.",
+      "why_selected": "Tile spacing makes the chair-distance change readable on a phone.",
+      "face_visibility_plan": "No faces.",
+      "core_visual_proof": "Moved chair plus changed object state."
+    },
+    {
+      "slide_number": 4,
+      "exact_on_image_text": "the words came later. the charger came first.",
+      "selected_scene_option_id": "4B",
+      "scene_summary": "Clean 3/4 threshold close-up: cracked door, charger cable crossing into the room, Aachu's fingers or tiny partial cheek/eye optional, backed-away chair still visible.",
+      "why_selected": "It proves Aachu accepted care before explanation and keeps the chair distance in frame.",
+      "face_visibility_plan": "Aachu hand or optional partial face; no full face required.",
+      "core_visual_proof": "Charger crossing threshold."
+    },
+    {
+      "slide_number": 5,
+      "exact_on_image_text": "i was not hard to love. i was hard to rush.",
+      "selected_scene_option_id": "5B",
+      "scene_summary": "Inside-to-hallway threshold view: charging phone and used glass in foreground, cloth partly inside, chair visible outside at the learned distance, Zuv implied or omitted.",
+      "why_selected": "It lets the payoff belong to Aachu without forcing a two-person reconciliation.",
+      "face_visibility_plan": "Aachu soft partial presence preferred; Zuv implied or distant, not centered.",
+      "core_visual_proof": "Accepted objects and findable chair."
+    }
+  ],
+  "rejected_scene_patterns": [
+    "Centered sad door with text only.",
+    "Flat-lay care kit.",
+    "Zuv waiting or sleeping in the chair.",
+    "A dramatic final hug, apology, or speech bubble.",
+    "Tiny object clues that are unreadable on a phone.",
+    "Any scene where water or charger blocks the door swing."
+  ],
+  "next_required_gate": "HITL_STORY_LOCK"
+}

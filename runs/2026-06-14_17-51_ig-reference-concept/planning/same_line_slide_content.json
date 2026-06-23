@@ -1,0 +1,54 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "status": "same_line_visual_repair_pending_creator_review",
+  "supersedes": [
+    "planning/story_concept.json",
+    "planning/repaired_slide_content.json"
+  ],
+  "source_reference": {
+    "shortcode": "DUtQzmaj9Rw",
+    "image_index": 3,
+    "source_line": "The intimacy of \"You remembered?\" \"Of course I did.\"",
+    "local_image": "runs/2026-06-14_17-51_ig-reference-concept/input/reference_img_index_3.jpg"
+  },
+  "active_constraint": "Use the same referenced line as the spine; think the visuals; make only tiny line changes.",
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "The intimacy of \"You remembered?\" \"Of course I did.\"",
+      "visual": "Aachu pauses at a small food table because Zuv has already kept the coriander off her plate. He is simply setting the plate down, not performing sweetness.",
+      "line_change": "none"
+    },
+    {
+      "slide_number": 2,
+      "exact_on_image_text": "The intimacy of \"You noticed?\" \"Of course I did.\"",
+      "visual": "Aachu has gone quiet during an ordinary evening. Zuv silently places her tea closer, made the way she likes it.",
+      "line_change": "remembered -> noticed"
+    },
+    {
+      "slide_number": 3,
+      "exact_on_image_text": "The intimacy of \"You saved it?\" \"Of course I did.\"",
+      "visual": "One last bite remains on the plate. Zuv has clearly saved it for Aachu; she looks annoyed that this tiny thing softened her.",
+      "line_change": "remembered -> saved it"
+    },
+    {
+      "slide_number": 4,
+      "exact_on_image_text": "The intimacy of \"You still know?\" \"Of course I do.\"",
+      "visual": "They are ordering after a long day. Zuv says her usual order before she does. Aachu gives him a small side-eye.",
+      "line_change": "remembered -> still know; did -> do"
+    },
+    {
+      "slide_number": 5,
+      "exact_on_image_text": "The intimacy of \"You remembered?\" \"I always do.\"",
+      "visual": "A quieter final frame: Aachu holds the remembered thing while Zuv is already back to ordinary life, making the care feel habitual.",
+      "line_change": "of course I did -> I always do"
+    }
+  ],
+  "hard_rejects": [
+    "do not follow DZNl2zxiRD4 structure",
+    "do not invent a new central object premise",
+    "do not turn this into a lesson",
+    "do not copy the pink quote-card visual style",
+    "do not add a forced funny last slide"
+  ]
+}

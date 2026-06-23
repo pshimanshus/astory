@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "blocked_active_refs": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg"
+  ],
+  "analysis_only_refs": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg"
+  ],
+  "emotion_forbidden_refs": [
+    "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+    "references/identity/aachu/aachu-face-front-bridal-smile-2026-06-18-01.jpg",
+    "references/identity/aachu/aachu-face-front-green-tee-smile-2026-06-18-01.jpg"
+  ],
+  "reason": "Slide 1 is a no-smile, missing-person ache beat in a cafe/friends setting. The full cafe identity photo and smile-heavy anchors can preserve likeness only as analysis context, not active imagegen inputs."
+}

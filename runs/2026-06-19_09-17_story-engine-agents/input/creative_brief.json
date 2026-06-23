@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-06-19_09-17_story-engine-agents",
+  "run_type": "system_strategy_room",
+  "creator_request": "Incorporate the storytelling transcript into the A Story system using in-house trained agents. We already have a novelty doc, winner post dump, and know what is working/how to bring novelty.",
+  "primary_question": "How should the system use winner-bank evidence plus illusion-of-novelty/storytelling mechanics so A Story remixes preserve what worked, add novelty, and avoid generic invention?",
+  "not_a_standard_carousel_run": true,
+  "do_not_generate": [
+    "final carousel copy",
+    "imagegen prompts",
+    "images"
+  ],
+  "source_context": {
+    "storytelling_transcript": "/Users/himanshusharma/.codex/attachments/a2624892-ab2a-4cf6-8f75-b525d3185d7d/pasted-text.txt",
+    "novelty_doc": "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md",
+    "winner_remix_workflow": "references/text-style/permissioned-winner-remix-workflow-2026-06-14.md",
+    "winner_bank": "references/text-style/winner-bank/",
+    "content_dumps": "references/text-style/content-dump/",
+    "current_astory_skill": ".agents/skills/astory/SKILL.md",
+    "current_backend_loader": "backend/app/data_refs.py"
+  },
+  "local_performance_truth": {
+    "rank_by": [
+      "shares_per_1k_reach",
+      "saves_per_1k_reach",
+      "comments_per_1k_reach",
+      "follow_conversion"
+    ],
+    "likes_are_secondary": true,
+    "example_owned_winner": {
+      "shortcode": "DYJpjt9CQYY",
+      "shares_per_1k": 40.15,
+      "saves_per_1k": 13.14,
+      "evidence_path": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json"
+    }
+  },
+  "known_existing_integration": [
+    "planning/source_winner_novelty_model.json already exists as a template",
+    "scripts/astory_repo_qa.py already blocks source-winner runs missing the novelty model",
+    "agent prompt packets already mention the novelty model",
+    "orchestrator spine already lists planning/source_winner_novelty_model.json in CREATE_SCENE_LANDING_PREVIEW",
+    "backend currently has a basic winner-bank loader but not a rich story-engine matcher"
+  ],
+  "desired_agent_outputs": [
+    "what each specialist would preserve as non-negotiable",
+    "what system artifact or gate is missing",
+    "how to wire story mechanics without creating generic strategy prose",
+    "risks and blockers",
+    "recommended next implementation slice"
+  ]
+}

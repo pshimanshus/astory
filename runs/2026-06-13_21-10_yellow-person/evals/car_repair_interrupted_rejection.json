@@ -1,0 +1,13 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "interrupted_and_rejected",
+  "review_timestamp": "2026-06-13T22:30:00+05:30",
+  "candidate_path": "/Users/himanshusharma/.codex/generated_images/019ec19a-4753-7ac1-adc8-e8073ef5507b/ig_0f4f674e631f7fe5016a2d8b457ef88191a6f847e0d46b24fb.png",
+  "creator_feedback": "Creator is done with close-angle compositions where both people look sideways all the time.",
+  "failure_codes": [
+    "GENERIC_IDEA",
+    "STYLE_DRIFT"
+  ],
+  "root_cause": "The repair changed setting and wardrobe but kept a repeated camera/eyeline habit: close emotional framing, two faces side/away, intimacy carried by proximity instead of a fresh action-led visual idea.",
+  "repair_constraint": "Do not continue the close-sideways car composition. Rebuild the scene with wider camera distance, varied eyeline, at least one readable front/three-quarter face, and a concrete behavior/object that proves the text."
+}

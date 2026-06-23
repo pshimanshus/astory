@@ -1,0 +1,65 @@
+{
+  "agent_role": "Shareability Strategist",
+  "persona_name": "Kabir",
+  "source_agent_id": "019ec619-3996-7120-96ff-eda9cf9c2c1c",
+  "premise_lock": {
+    "must_preserve": [
+      "remembered-detail intimacy",
+      "physical proof before explanation",
+      "send trigger that lets one partner tease or praise the other",
+      "Aachu/Zuv specificity"
+    ],
+    "must_not_change": [
+      "no copied quote-card format",
+      "no exact reference-line reuse",
+      "no moral ending",
+      "no therapy-page reassurance"
+    ],
+    "rejected_generic_version": "Love is when they remember the little things about you."
+  },
+  "candidates": [
+    {
+      "title": "The Hair Clip In His Pocket",
+      "one_line_concept": "Aachu reaches for a hair clip before eating, and Zuv already has one in his pocket because he knows this exact moment always happens.",
+      "suggested_text_hook": "why do you have my clip?",
+      "why_people_may_share": "People send this to the partner who carries hair ties, clips, lip balm, or random emergency things.",
+      "why_people_may_comment": "Comments can confess the weird item their partner carries.",
+      "scores": {"shareability": 5, "comment_potential": 5, "save_potential": 3, "swipe_through_curiosity": 4, "simplicity": 5, "hook_strength": 5, "freshness": 4, "brand_fit": 5}
+    },
+    {
+      "title": "He Ordered The Backup Fries",
+      "one_line_concept": "Aachu says she is not hungry, and Zuv orders extra fries because he remembers what always comes after.",
+      "suggested_text_hook": "you ordered extra for me?",
+      "why_people_may_share": "Immediate send for couples with the no-I-am-not-hungry-but-give-me-yours ritual.",
+      "why_people_may_comment": "Comments around fries tax and fake food refusals.",
+      "scores": {"shareability": 5, "comment_potential": 5, "save_potential": 2, "swipe_through_curiosity": 4, "simplicity": 5, "hook_strength": 4, "freshness": 3, "brand_fit": 4}
+    },
+    {
+      "title": "The 2 AM AC Setting",
+      "one_line_concept": "Zuv changes the AC before Aachu wakes up cold because he remembers the exact temperature where her sleep turns into blanket drama.",
+      "suggested_text_hook": "you changed it already?",
+      "why_people_may_share": "AC-temperature couples will tag each other over the exact number.",
+      "why_people_may_comment": "Baits comments with the sacred AC setting.",
+      "scores": {"shareability": 5, "comment_potential": 5, "save_potential": 3, "swipe_through_curiosity": 4, "simplicity": 5, "hook_strength": 4, "freshness": 4, "brand_fit": 5}
+    },
+    {
+      "title": "The Seat He Saved",
+      "one_line_concept": "At a cafe, Zuv takes the less comfortable seat because he remembers Aachu always needs the wall-side chair.",
+      "suggested_text_hook": "you saved my side?",
+      "why_people_may_share": "People send this when their partner knows their seating anxiety or window/wall-side preference.",
+      "why_people_may_comment": "Comments around wall side vs window side.",
+      "scores": {"shareability": 4, "comment_potential": 4, "save_potential": 3, "swipe_through_curiosity": 4, "simplicity": 4, "hook_strength": 4, "freshness": 5, "brand_fit": 5}
+    },
+    {
+      "title": "The Chai He Did Not Ask About",
+      "one_line_concept": "Zuv brings Aachu chai exactly how she likes it, and the intimacy is that he does not need the order repeated anymore.",
+      "suggested_text_hook": "you didn't even ask?",
+      "why_people_may_share": "People send this when their person knows their chai or snack order without checking.",
+      "why_people_may_comment": "Comments can write the order their partner should remember.",
+      "scores": {"shareability": 4, "comment_potential": 5, "save_potential": 3, "swipe_through_curiosity": 3, "simplicity": 5, "hook_strength": 4, "freshness": 3, "brand_fit": 4}
+    }
+  ],
+  "top_pick": "The Hair Clip In His Pocket",
+  "engagement_rationale": "One object, one repeated couple habit, one affectionate accusation. The hook is readable in under three seconds and the comment bait is naturally specific.",
+  "failure_codes": []
+}

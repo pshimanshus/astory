@@ -1,0 +1,49 @@
+{
+  "agent_role": "Shareability Strategist",
+  "agent_id": "019edb6f-37cb-7df2-b59a-47d04dca5778",
+  "nickname": "Archimedes",
+  "top_pick": "Sorry, But My Point",
+  "top_patterns": [
+    {
+      "title": "Sorry, But My Point",
+      "exact_first_slide_text": "sorry for the tone. the point was still correct.",
+      "source_engine": "repair mechanic + DYJpjt9CQYY emotional-chaos warmth + DZNl2zxiRD4 mutual effort payoff",
+      "send_trigger": "A forwardable post-fight line that restarts softness without surrendering the case.",
+      "comment_bait": "Apology accepted, case reopened.",
+      "final_slide_payoff": "we did not win the argument. we kept us.",
+      "shareability_score": 5
+    },
+    {
+      "title": "Blurry Lunch Updates",
+      "exact_first_slide_text": "send me your lunch also. i am invested in your nonsense.",
+      "source_engine": "DY_t4Dek0pq tiny details + ordinary-love DM mechanic",
+      "send_trigger": "Sent by the person who wants random proof of the other person's day.",
+      "comment_bait": "What is the most useless update you demand?",
+      "final_slide_payoff": "not clingy. just subscribed to your day.",
+      "shareability_score": 5
+    },
+    {
+      "title": "You Asked, Now Sit",
+      "exact_first_slide_text": "you said \"what happened?\" so now suffer with full details.",
+      "source_engine": "DYJpjt9CQYY unfiltered emotional version + DY4tGrQCXRA listening",
+      "send_trigger": "Sent to the person who unlocks a full rant and actually stays.",
+      "comment_bait": "\"short mein batao\" people, please report.",
+      "final_slide_payoff": "you did not ask for peace. you asked for me.",
+      "shareability_score": 5
+    },
+    {
+      "title": "Bad Day Handoff",
+      "exact_first_slide_text": "we both had a bad day. we still didn't make each other pay for it.",
+      "source_engine": "DZNl2zxiRD4 mutual effort + repair mechanic",
+      "send_trigger": "Sent as quiet thanks after both people tried despite exhaustion.",
+      "comment_bait": "Hardest love language: not snapping when hungry.",
+      "final_slide_payoff": "we were both finished. we still took turns being soft.",
+      "shareability_score": 4
+    }
+  ],
+  "distribution_risks": [
+    "Do not let repair ideas become clean relationship lessons.",
+    "Keep Hinglish/desi specificity in behavior and objects, not random slang.",
+    "Every carousel needs scene-led payoff, not a quote-card ending."
+  ]
+}

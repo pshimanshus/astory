@@ -1,0 +1,32 @@
+{
+  "run_id": "2026-06-11_23-05_promise-in-three",
+  "created_at": "2026-06-11T23:06:18+05:30",
+  "request": "Convert the supplied one-post promise/pinky-promise Instagram reference into a 3-post format in A Story of Two illustration style.",
+  "source_reference": {
+    "type": "user_supplied_chat_image",
+    "local_file": null,
+    "observed_content": [
+      "Instagram screenshot from couplecanvas.art with one tall post made of three stacked illustrated frames.",
+      "Frame 1: close-up hands, pinky promise beginning, text: \"I Promise...\"",
+      "Frame 2: pinky promise linked, text: \"I am always there for you\"",
+      "Frame 3: hands forming/holding promise gesture, text: \"in your good and bad times ..\"",
+      "Caption theme: true love means staying, understanding, and holding on through every smile and storm."
+    ],
+    "reuse_policy": "Use the promise structure as inspiration only. Do not copy the anime rendering, exact composition, account UI, or caption voice."
+  },
+  "creative_constraints": {
+    "format": "three separate Instagram posts/slides, not one stacked collage",
+    "brand": "@a.storyof.two",
+    "characters": "Aachu and Zuv",
+    "style": "premium hand-drawn romantic editorial watercolor-and-ink illustration",
+    "must_avoid": [
+      "generic quote-card promise",
+      "anime look",
+      "photorealism",
+      "hand-only collage with no Aachu/Zuv specificity",
+      "sentiment without observable behavior",
+      "final image generation before HITL approvals and visible identity references"
+    ]
+  },
+  "desired_arc": "Turn the promise from a dramatic line into three everyday proofs of staying: showing up in ordinary, difficult, and quietly celebratory moments."
+}

@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "attempts": [
+    {
+      "attempt_id": "slide_01_attempt_01",
+      "source_path": "/Users/himanshusharma/.codex/generated_images/019ecb38-9851-7180-8e0d-7359dff409a5/ig_003fdf7c0a91e946016a300b0264b88190b26e2a2d92256d5d.png",
+      "saved_candidate_path": "runs/2026-06-15_19-09_plate-nervous/images/slide_01_attempt_01_candidate.png",
+      "prompt_path": "runs/2026-06-15_19-09_plate-nervous/prompts/slide_01_prompt.txt",
+      "observed_canvas_px": {
+        "width": 1254,
+        "height": 1254
+      },
+      "identity_match_note": "Creator identified this as the strongest Aachu/Zuv face match so far and promoted the full generation route as the future identity-match baseline.",
+      "publishing_status": "not_final",
+      "hard_gate_notes": [
+        "Canvas is not native 1080x1350 px portrait.",
+        "Brandmark is bottom-right; creator corrected future/final placement to top-right.",
+        "On-image quote marks/apostrophe around \"i'm\" are malformed.",
+        "Aachu eye direction needs repair so side-glance does not read as cross-eyed."
+      ],
+      "next_retry_delta": "Preserve the exact identity-match route and face/reference process; regenerate natively at 1080x1350 px, move @a.storyof.two to top-right, fix Aachu's pupils/eyeline, and preserve exact on-image text."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+GENERATION PRIORITY:
+Create a native 1080x1350 px @a.storyof.two illustration for slide 3 of 4. Use raw Aachu/Zuv face anchors as the highest-priority visual input. In this no-comeback iteration, Aachu is the only visible identity subject; use raw Zuv face anchors only as an absence boundary so no visible person resembles him. Use the best-illustration style references only for watercolor-and-ink finish, neutral paper, text style, and composition. Do not let style images, binders, contact sheets, current-request source images, or text descriptions replace raw face anchors. Use multiple face anchors for identity structure only; do not copy any single anchor's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.
+
+ON-IMAGE TEXT:
+Without them,
+even the most familiar corners
+feel empty.
+
+SCENE:
+Same familiar cafe corner or booth from earlier slides. Friends and cups are still present but softened, while Aachu sits slightly apart at the edge of the group. She lightly touches the edge of the empty chair or table space beside her without pulling it closer. The corner should feel known and public, yet hollow because the one person is absent.
+
+IDENTITY:
+Aachu: preserve her real face from the Aachu face-anchor inputs: large expressive dark eyes, natural brows, soft oval/round face, fuller lips, long dark hair with natural volume, real-person charm. Keep her age, ethnicity, skin tone, facial proportions, and hairstyle stable. Do not copy any Aachu identity reference's smile, cup-holding pose, jacket/wardrobe, table setup, lighting, background, camera angle, or pleasant expression; use face structure only. Zuv absence boundary: do not draw Zuv as face, body, silhouette, reflection, photo, phone wallpaper, memory figure, ghost, or background lookalike.
+
+BACKGROUND PEOPLE:
+Friends must stay loose, anonymous, and secondary. The empty beside-space is proof, not the whole idea; Aachu's face, hand, and restrained posture must carry the missing-home feeling.
+
+STYLE AND COLOR:
+Premium hand-drawn romantic watercolor-and-ink editorial illustration, fine ink/pencil linework, visible paper grain, transparent muted washes, tactile clothing and cafe prop detail, soft faded edges, clean expressive face. Neutral white/off-white paper only: no yellow, mustard, sepia, beige/tan, parchment, coffee-stained, or heavy cream cast. Do not copy tan/brown dominance, boxed brandmark, or bottom-right brandmark placement from style references.
+
+COMPOSITION AND TEXT:
+Place exact hand-drawn charcoal text in clean upper-middle off-white wall/window negative space, preserving spelling, punctuation, capitalization, and line breaks. Keep faces readable where faces appear: Aachu must be readable in a medium-wide, front three-quarter composition while background faces stay simplified. Add tiny low-contrast handwritten @a.storyof.two at top-right.
+
+HARD NO:
+No copied identity-photo pose, no smile that contradicts the ache, no Zuv visible, no arrival, no reunion, no ghost/memory figure, no phone/message UI, no quote-card/poster design, no anime, cartoon, doll/model face, photorealism, flat vector, generic AI watercolor, extra text, wrong text, missing brandmark, distorted eyes, bad hands/fingers, extra limbs, face merge, face drift, role reversal, yellow/parchment cast.
+
+GENERATION HARD GATE:
+Do not generate final Aachu/Zuv artwork from text descriptions or file paths alone. Generate final artwork only if actual raw Aachu/Zuv face anchors and style references are loaded as usable image inputs in this conversation. If not, stop and mark IDENTITY_REFERENCE_INPUT_UNPROVEN. If gold_standard_identity_route_gate fails, stop and mark GOLD_STANDARD_IDENTITY_ROUTE_MISSING. The prompt includes 1080x1350 px; if this is lost, stop and mark PROMPT_CANVAS_SIZE_MISSING. Generate one slide at a time; if this slide fails hard gates, stop before the next slide.

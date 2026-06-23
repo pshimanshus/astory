@@ -1,0 +1,1166 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-18T21:56:27+05:30",
+  "status": "ready_to_load_with_view_image",
+  "reference_delivery_strategy": "raw_identity_first_v1",
+  "source_identity_root": "references/identity",
+  "source_style_root": "references/style/best-illustration",
+  "manual_user_attachments_required": false,
+  "prompt_only_allowed": false,
+  "required_before_imagegen": [
+    "Codex must call view_image for every path in view_image_queue in the current conversation before final imagegen.",
+    "If any queued image cannot be read, stop and mark IDENTITY_REFERENCE_MISSING.",
+    "If the active generation path cannot use the loaded image context, stop instead of generating final Aachu/Zuv artwork."
+  ],
+  "reference_groups": {
+    "current_request": [
+      {
+        "path": "runs/2026-06-14_17-51_ig-reference-concept/input/reference_img_index_3.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-14_17-51_ig-reference-concept/input/reference_img_index_3.jpg",
+        "role": "current_request",
+        "subject": "current_request",
+        "quality": "current_request",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1080,
+        "height": 1440,
+        "size_bytes": 202972,
+        "sha256": "a1e5208ab9e9516978237c79921c43a06498faab6732d58f1c2fe5eba020028f",
+        "use_for": [],
+        "do_not_use_for": [
+          "face_identity",
+          "identity_structure"
+        ]
+      }
+    ],
+    "aachu_face_identity": [
+      {
+        "path": "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1439390,
+        "sha256": "defdf457c8baffc7ffaecdd33d3f17b93dd9dc8ffea0bd0a4195adaf114d6e66",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "front",
+        "expression_bucket": "neutral",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1980,
+        "height": 2100,
+        "size_bytes": 664196,
+        "sha256": "e1ae22474c74656d081830a67174d0064dc5355d93dab4be0c0e4d87a0c5ee10",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "three_quarter",
+        "expression_bucket": "smile",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 588,
+        "height": 1280,
+        "size_bytes": 114779,
+        "sha256": "dff2055b733f06bbe37fa18c1edc2e4d170b0baacd6a37c6c10f913e6ba537f0",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "side",
+        "expression_bucket": "glance",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1730,
+        "height": 1820,
+        "size_bytes": 891096,
+        "sha256": "70edc1e0795fc36a7a380c3e0a77d9ed5b46c2efda8b11c6ded3e0066bc5cc2c",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "front",
+        "expression_bucket": "neutral",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1680,
+        "height": 1800,
+        "size_bytes": 376135,
+        "sha256": "0d42f196b01aeb95b11d863feb36c7b4cbacfa0723f027f75ca272d42a4ea67c",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "front",
+        "expression_bucket": "unknown",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "role": "aachu_face_identity",
+        "subject": "aachu",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1480,
+        "height": 1700,
+        "size_bytes": 585585,
+        "sha256": "5fbce7ddb3c0fbc53a9e92c0dcc32a3988762c95ac7b54e50907262c8bb9c58c",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "front",
+        "expression_bucket": "neutral",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      }
+    ],
+    "zuv_face_identity": [
+      {
+        "path": "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1277737,
+        "sha256": "d835dc77150b0f8faed70d1f74e44cc569896dff6f609655c949559ea87e1cc9",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "front",
+        "expression_bucket": "neutral",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1440488,
+        "sha256": "11c668ed0457c42a435779c9bfbb766115846194277def6c6481ea686886e924",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "three_quarter",
+        "expression_bucket": "unknown",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1160259,
+        "sha256": "db7074cd1208aa86b57be5d38c7dd1b7e15cf3122c0991b348e86e3dbdd71c63",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "side",
+        "expression_bucket": "unknown",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1247112,
+        "sha256": "0ce261ec1bfd2be015db06e8a267710245b18a27628cd7de919c0164ff65127c",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "front",
+        "expression_bucket": "neutral",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1206,
+        "height": 1461,
+        "size_bytes": 240977,
+        "sha256": "8927108cb7deedeaf05403fe603c6d902a69570860ae158993298923825bd2e1",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "front",
+        "expression_bucket": "neutral",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      },
+      {
+        "path": "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "role": "zuv_face_identity",
+        "subject": "zuv",
+        "quality": "identity",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 480,
+        "height": 480,
+        "size_bytes": 84385,
+        "sha256": "43d0e147563b55237b79646684945044a12a0f9152f7fbd3b12ea3a74bb7f3f8",
+        "use_for": [
+          "face_identity",
+          "identity_structure",
+          "feature_consistency",
+          "expression_range"
+        ],
+        "do_not_use_for": [
+          "pose",
+          "head_angle",
+          "expression_lock",
+          "wardrobe",
+          "lighting",
+          "background",
+          "camera_position",
+          "scene_composition"
+        ],
+        "view_bucket": "front",
+        "expression_bucket": "neutral",
+        "usage_contract": {
+          "mode": "identity_structure_not_pose_template",
+          "raw_face_anchors_use_for": [
+            "face_identity",
+            "identity_structure",
+            "feature_consistency",
+            "expression_range"
+          ],
+          "raw_face_anchors_do_not_use_for": [
+            "pose",
+            "head_angle",
+            "expression_lock",
+            "wardrobe",
+            "lighting",
+            "background",
+            "camera_position",
+            "scene_composition"
+          ],
+          "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+          "min_face_view_buckets_per_subject": 2
+        }
+      }
+    ],
+    "expression_support": [
+      {
+        "path": "references/identity/aachu/aachu-reaction-bedroom-glance-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-reaction-bedroom-glance-01.jpg",
+        "role": "expression_support",
+        "subject": "aachu",
+        "quality": "support",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1004254,
+        "sha256": "bbe247fc54e9ff809747f3f7c0cce1fb4e3cf4d0d34d7fd4cfbc58c6da6a1c49",
+        "use_for": [],
+        "do_not_use_for": [
+          "face_identity",
+          "identity_structure"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/aachu-reaction-cafe-pout-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-reaction-cafe-pout-01.jpg",
+        "role": "expression_support",
+        "subject": "aachu",
+        "quality": "support",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 750,
+        "height": 1317,
+        "size_bytes": 132957,
+        "sha256": "24af7e74f280666dbe4525dc5b7782d2242fc9e0f0d91a2598d5c9e7c154ac42",
+        "use_for": [],
+        "do_not_use_for": [
+          "face_identity",
+          "identity_structure"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/aachu-reaction-pizza-chin-hand-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-reaction-pizza-chin-hand-01.jpg",
+        "role": "expression_support",
+        "subject": "aachu",
+        "quality": "support",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1385918,
+        "sha256": "12d7e64039971a041e9fc5c335e594aa683135c9faf3a2c376fc6dde18cc7032",
+        "use_for": [],
+        "do_not_use_for": [
+          "face_identity",
+          "identity_structure"
+        ]
+      },
+      {
+        "path": "references/identity/aachu/aachu-smile-jewelry-necklace-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/aachu/aachu-smile-jewelry-necklace-01.jpg",
+        "role": "expression_support",
+        "subject": "aachu",
+        "quality": "support",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 3024,
+        "height": 4032,
+        "size_bytes": 1365598,
+        "sha256": "f2c18700eaf1f03dd07824818973648c005446f789a9016984661da8ce5ff49d",
+        "use_for": [],
+        "do_not_use_for": [
+          "face_identity",
+          "identity_structure"
+        ]
+      }
+    ],
+    "together_body_language": [
+      {
+        "path": "references/identity/together/together-01.jpg",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/together/together-01.jpg",
+        "role": "together_body_language",
+        "subject": "couple",
+        "quality": "support",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 2848,
+        "height": 3798,
+        "size_bytes": 1318295,
+        "sha256": "1633655653c6a3bd1ca79894676037a5a4b61786c3813c363554346257007e64",
+        "use_for": [],
+        "do_not_use_for": [
+          "face_identity",
+          "identity_structure"
+        ]
+      },
+      {
+        "path": "references/identity/together/together-03.png",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/identity/together/together-03.png",
+        "role": "together_body_language",
+        "subject": "couple",
+        "quality": "support",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1158,
+        "height": 1540,
+        "size_bytes": 3160598,
+        "sha256": "c19bc80b6a22e5c1065cc3f705ad52bf112a920641a020d9352f5e16d42dcd59",
+        "use_for": [],
+        "do_not_use_for": [
+          "face_identity",
+          "identity_structure"
+        ]
+      }
+    ],
+    "style": [
+      {
+        "path": "references/style/best-illustration/encoded-check-000.png",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/style/best-illustration/encoded-check-000.png",
+        "role": "style",
+        "subject": "style",
+        "quality": "style",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1002,
+        "height": 1568,
+        "size_bytes": 2227443,
+        "sha256": "28333d1d6e1fc92eb4c9d29298af924c7ed39cbc9e1745bae4b35604ff55a2a4",
+        "use_for": [],
+        "do_not_use_for": []
+      },
+      {
+        "path": "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "role": "style",
+        "subject": "style",
+        "quality": "style",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 1080,
+        "height": 1350,
+        "size_bytes": 2696437,
+        "sha256": "ab42a4e71f77f4dfb76b226b44aaab7f585b6d79f298aa61993682781a99852f",
+        "use_for": [],
+        "do_not_use_for": []
+      },
+      {
+        "path": "references/style/best-illustration/slide-01.png",
+        "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/style/best-illustration/slide-01.png",
+        "role": "style",
+        "subject": "style",
+        "quality": "style",
+        "delivery_mode": "view_image_before_imagegen",
+        "input_kind": "local_image_file",
+        "width": 977,
+        "height": 1610,
+        "size_bytes": 2705632,
+        "sha256": "0f3ca21892cdee67eabd0acc57093758475973ec7fcea13ab582c62382367c7f",
+        "use_for": [],
+        "do_not_use_for": []
+      }
+    ]
+  },
+  "identity_reference_usage_contract": {
+    "mode": "identity_structure_not_pose_template",
+    "raw_face_anchors_use_for": [
+      "face_identity",
+      "identity_structure",
+      "feature_consistency",
+      "expression_range"
+    ],
+    "raw_face_anchors_do_not_use_for": [
+      "pose",
+      "head_angle",
+      "expression_lock",
+      "wardrobe",
+      "lighting",
+      "background",
+      "camera_position",
+      "scene_composition"
+    ],
+    "rule": "Use multiple raw face anchors to synthesize stable likeness. Do not copy one reference photo's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.",
+    "min_face_view_buckets_per_subject": 2
+  },
+  "identity_reference_summary": {
+    "aachu": {
+      "face_anchor_count": 6,
+      "view_buckets": [
+        "front",
+        "side",
+        "three_quarter"
+      ],
+      "view_bucket_count": 3,
+      "expression_buckets": [
+        "glance",
+        "neutral",
+        "smile",
+        "unknown"
+      ]
+    },
+    "zuv": {
+      "face_anchor_count": 6,
+      "view_buckets": [
+        "front",
+        "side",
+        "three_quarter"
+      ],
+      "view_bucket_count": 3,
+      "expression_buckets": [
+        "neutral",
+        "unknown"
+      ]
+    }
+  },
+  "text_and_brand_references": [
+    {
+      "path": "references/text-style/README.md",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/text-style/README.md",
+      "role": "text_or_brand_rule",
+      "input_kind": "local_text_file",
+      "size_bytes": 312,
+      "sha256": "74412e3accc5964f3238ed40d862a1eec42953341f19cd3a1b579babd4ba759f"
+    },
+    {
+      "path": "references/brand/README.md",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/references/brand/README.md",
+      "role": "text_or_brand_rule",
+      "input_kind": "local_text_file",
+      "size_bytes": 308,
+      "sha256": "1d914f25727f87c51763b5d29a628f17282e3dc0b8c0436f958add79c33c5504"
+    },
+    {
+      "path": ".agents/skills/astory/references/house-style-contract.md",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/.agents/skills/astory/references/house-style-contract.md",
+      "role": "text_or_brand_rule",
+      "input_kind": "local_text_file",
+      "size_bytes": 2910,
+      "sha256": "d0a7853a359e1dc775965329c85a4fbecd67c34c315dd9149d49c6cd875923ea"
+    },
+    {
+      "path": ".agents/skills/astory/references/imagegen-contract.md",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/.agents/skills/astory/references/imagegen-contract.md",
+      "role": "text_or_brand_rule",
+      "input_kind": "local_text_file",
+      "size_bytes": 4967,
+      "sha256": "866dd3b2bfabb36c98720074b1f0edb9c22c68c7560ad6dd9a0b50b2f9c99e78"
+    }
+  ],
+  "raw_reference_queue": [
+    "runs/2026-06-14_17-51_ig-reference-concept/input/reference_img_index_3.jpg",
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+    "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+    "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/identity/aachu/aachu-reaction-bedroom-glance-01.jpg",
+    "references/identity/aachu/aachu-reaction-cafe-pout-01.jpg",
+    "references/identity/aachu/aachu-reaction-pizza-chin-hand-01.jpg",
+    "references/identity/aachu/aachu-smile-jewelry-necklace-01.jpg",
+    "references/identity/together/together-01.jpg",
+    "references/identity/together/together-03.png",
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "raw_reference_queue_count": 22,
+  "generation_reference_packet_queue": [
+    {
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/aachu-identity-binder.png",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/aachu-identity-binder.png",
+      "role": "aachu_identity_binder",
+      "title": "Aachu face identity only",
+      "instruction": "Use only for Aachu's face identity. Do not copy clothing, background, or lighting.",
+      "source_roles": [
+        "aachu_face_identity"
+      ],
+      "source_paths": [
+        "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg"
+      ],
+      "source_sha256": [
+        "defdf457c8baffc7ffaecdd33d3f17b93dd9dc8ffea0bd0a4195adaf114d6e66",
+        "e1ae22474c74656d081830a67174d0064dc5355d93dab4be0c0e4d87a0c5ee10",
+        "dff2055b733f06bbe37fa18c1edc2e4d170b0baacd6a37c6c10f913e6ba537f0",
+        "70edc1e0795fc36a7a380c3e0a77d9ed5b46c2efda8b11c6ded3e0066bc5cc2c",
+        "0d42f196b01aeb95b11d863feb36c7b4cbacfa0723f027f75ca272d42a4ea67c",
+        "5fbce7ddb3c0fbc53a9e92c0dcc32a3988762c95ac7b54e50907262c8bb9c58c"
+      ],
+      "required_for": [
+        "face_visible_generation",
+        "identity_preservation"
+      ],
+      "delivery_mode": "view_image_before_imagegen",
+      "input_kind": "generated_reference_binder",
+      "width": 1200,
+      "height": 900,
+      "size_bytes": 612714,
+      "sha256": "61ce82f10335118d342b9aef954dfb90a1ef80b2ba2c8b12a44bd70a53490a27"
+    },
+    {
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/zuv-identity-binder.png",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/zuv-identity-binder.png",
+      "role": "zuv_identity_binder",
+      "title": "Zuv face identity only",
+      "instruction": "Use only for Zuv's face identity. Do not copy clothing, background, or lighting.",
+      "source_roles": [
+        "zuv_face_identity"
+      ],
+      "source_paths": [
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg"
+      ],
+      "source_sha256": [
+        "d835dc77150b0f8faed70d1f74e44cc569896dff6f609655c949559ea87e1cc9",
+        "11c668ed0457c42a435779c9bfbb766115846194277def6c6481ea686886e924",
+        "db7074cd1208aa86b57be5d38c7dd1b7e15cf3122c0991b348e86e3dbdd71c63",
+        "0ce261ec1bfd2be015db06e8a267710245b18a27628cd7de919c0164ff65127c",
+        "8927108cb7deedeaf05403fe603c6d902a69570860ae158993298923825bd2e1",
+        "43d0e147563b55237b79646684945044a12a0f9152f7fbd3b12ea3a74bb7f3f8"
+      ],
+      "required_for": [
+        "face_visible_generation",
+        "identity_preservation"
+      ],
+      "delivery_mode": "view_image_before_imagegen",
+      "input_kind": "generated_reference_binder",
+      "width": 1200,
+      "height": 900,
+      "size_bytes": 589269,
+      "sha256": "80137df5008e9ad1db65950d155e1853f61e561543b3a7827d9812c035bbb435"
+    },
+    {
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/couple-body-language-binder.png",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/couple-body-language-binder.png",
+      "role": "couple_body_language_binder",
+      "title": "Couple body language",
+      "instruction": "Use for closeness, posture, height relationship, and couple energy. Do not use as primary face identity.",
+      "source_roles": [
+        "together_body_language"
+      ],
+      "source_paths": [
+        "references/identity/together/together-01.jpg",
+        "references/identity/together/together-03.png"
+      ],
+      "source_sha256": [
+        "1633655653c6a3bd1ca79894676037a5a4b61786c3813c363554346257007e64",
+        "c19bc80b6a22e5c1065cc3f705ad52bf112a920641a020d9352f5e16d42dcd59"
+      ],
+      "required_for": [
+        "couple_composition",
+        "relationship_dynamics"
+      ],
+      "delivery_mode": "view_image_before_imagegen",
+      "input_kind": "generated_reference_binder",
+      "width": 1200,
+      "height": 900,
+      "size_bytes": 226260,
+      "sha256": "b8f03335b0f16672dfb105adb9e99abd6c6946016809c3f5b7604d2263900913"
+    },
+    {
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/style-binder.png",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/style-binder.png",
+      "role": "style_binder",
+      "title": "A Story visual style",
+      "instruction": "Use for watercolor, ink, texture, line quality, and mood only. Do not copy characters.",
+      "source_roles": [
+        "style"
+      ],
+      "source_paths": [
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "source_sha256": [
+        "28333d1d6e1fc92eb4c9d29298af924c7ed39cbc9e1745bae4b35604ff55a2a4",
+        "ab42a4e71f77f4dfb76b226b44aaab7f585b6d79f298aa61993682781a99852f",
+        "0f3ca21892cdee67eabd0acc57093758475973ec7fcea13ab582c62382367c7f"
+      ],
+      "required_for": [
+        "style_preservation"
+      ],
+      "delivery_mode": "view_image_before_imagegen",
+      "input_kind": "generated_reference_binder",
+      "width": 1200,
+      "height": 900,
+      "size_bytes": 283584,
+      "sha256": "e71099cdb464bd57a571251760efad9b1e86fbf99f65978820866130963d36cc"
+    },
+    {
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/current-request-binder.png",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/current-request-binder.png",
+      "role": "current_request_binder",
+      "title": "Current request source intent",
+      "instruction": "Use for joke, caption intent, and composition memory only. Do not recreate screenshot UI.",
+      "source_roles": [
+        "current_request"
+      ],
+      "source_paths": [
+        "runs/2026-06-14_17-51_ig-reference-concept/input/reference_img_index_3.jpg"
+      ],
+      "source_sha256": [
+        "a1e5208ab9e9516978237c79921c43a06498faab6732d58f1c2fe5eba020028f"
+      ],
+      "required_for": [
+        "current_request_intent"
+      ],
+      "delivery_mode": "view_image_before_imagegen",
+      "input_kind": "generated_reference_binder",
+      "width": 1200,
+      "height": 900,
+      "size_bytes": 83316,
+      "sha256": "4bb345102230a1f72d39a0c9549c1a04e96746cdbe7a002cd0c25432b57af59f"
+    },
+    {
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/expression-support-binder.png",
+      "absolute_path": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-14_17-51_ig-reference-concept/references-used/reference-binder/expression-support-binder.png",
+      "role": "expression_support_binder",
+      "title": "Expression support only",
+      "instruction": "Use for smile/reaction nuance only. Do not use as primary face identity.",
+      "source_roles": [
+        "expression_support"
+      ],
+      "source_paths": [
+        "references/identity/aachu/aachu-reaction-bedroom-glance-01.jpg",
+        "references/identity/aachu/aachu-reaction-cafe-pout-01.jpg",
+        "references/identity/aachu/aachu-reaction-pizza-chin-hand-01.jpg",
+        "references/identity/aachu/aachu-smile-jewelry-necklace-01.jpg"
+      ],
+      "source_sha256": [
+        "bbe247fc54e9ff809747f3f7c0cce1fb4e3cf4d0d34d7fd4cfbc58c6da6a1c49",
+        "24af7e74f280666dbe4525dc5b7782d2242fc9e0f0d91a2598d5c9e7c154ac42",
+        "12d7e64039971a041e9fc5c335e594aa683135c9faf3a2c376fc6dde18cc7032",
+        "f2c18700eaf1f03dd07824818973648c005446f789a9016984661da8ce5ff49d"
+      ],
+      "required_for": [
+        "expression_support"
+      ],
+      "delivery_mode": "view_image_before_imagegen",
+      "input_kind": "generated_reference_binder",
+      "width": 1200,
+      "height": 900,
+      "size_bytes": 367065,
+      "sha256": "682be87c720f1268820118a7c7de29b72144ee72b420837f6e2a4d463a70bdb8"
+    }
+  ],
+  "generation_reference_packet_queue_count": 6,
+  "active_view_image_queue": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+    "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+    "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+    "runs/2026-06-14_17-51_ig-reference-concept/input/reference_img_index_3.jpg",
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "view_image_queue": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+    "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+    "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+    "runs/2026-06-14_17-51_ig-reference-concept/input/reference_img_index_3.jpg",
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "view_image_queue_count": 16,
+  "load_state": {
+    "loaded_in_current_conversation": false,
+    "proof_required": true,
+    "proof_artifact": "runs/2026-06-14_17-51_ig-reference-concept/evals/imagegen_reference_visibility_proof.json"
+  },
+  "load_plan_sha256": "b3ff552245b3722edb9c28787724e9d0eb8d51cdf700d4a02cc0eca75217afc4"
+}

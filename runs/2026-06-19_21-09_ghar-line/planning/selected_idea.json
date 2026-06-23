@@ -1,0 +1,54 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "selected_idea_id": "selected_empty_usual_spot",
+  "title": "Your Side Still Stays Yours",
+  "status": "repaired_input_received_story_room_pending",
+  "score": 4.74,
+  "one_line_concept": "A complete room still feels khaali because one partner's sense of home lives in one specific person; the story must prove that absence through kept space, familiar corners, and the safety of shared silence.",
+  "recommended_slide_count": 2,
+  "creator_requested_slide_count": 2,
+  "exact_slide_1_text": "khaali hai jo tere bina, main woh ghar hoon tera",
+  "creator_provided_slide_2_text": "Some people don't just enter your life, they become the place your heart keeps returning to. Without them, even the most familiar corners feel empty. And with them, even silence feels safe. That is the real ache of Ghar - not just missing someone, but realizing that your sense of home was never a place. It was always that one person.",
+  "proposed_slide_2_text": null,
+  "first_frame_visual": "One partner alone in a shared room, sitting only on their usual half of the sofa or bed while the other half stays open.",
+  "payoff_frame": "Same frame, same place, the missing person finally in the kept spot. The room feels full without a dramatic hug.",
+  "why_it_wins": [
+    "The idea makes the lyric physical through a real behavior: not taking the other person's place.",
+    "The repaired text has the correct ache, but likely needs story-led splitting to avoid becoming a quote-card wall of text.",
+    "The share trigger is clear: send this to the person whose place is still theirs.",
+    "The visual stays identity-safe and readable for later prompt work."
+  ],
+  "risks": [
+    {
+      "code": "CREATOR_REJECTED_COPY",
+      "risk": "Creator rejected the previous slide 2 line as generic, fake-soft, and emotionally wrong for Ghar.",
+      "mitigation": "Use the creator's repaired Slide 2 as the active content backbone; do not return to the tired/welcome-back lane."
+    },
+    {
+      "code": "TEXT_UNREADABLE",
+      "risk": "The creator's repaired Slide 2 is too long for one readable 1080x1350 illustration if used as a single text block.",
+      "mitigation": "Story Room must decide whether to split the text across 3-5 slides while preserving meaning and exact approved lines as much as possible."
+    },
+    {
+      "code": "AI_SLOP_COPY_DRIFT",
+      "risk": "Slide 2 could become a generic 'home is a person' explanation.",
+      "mitigation": "Keep the note private, simple, and tied to the kept place."
+    },
+    {
+      "code": "QUOTE_CARD_NOT_ILLUSTRATION",
+      "risk": "The lyric could be rendered as decorative typography over a room.",
+      "mitigation": "The scene must show the body respecting the empty usual spot."
+    },
+    {
+      "code": "TOO_FEW_SLIDES",
+      "risk": "Two slides may feel abrupt if the payoff frame needs an extra breath.",
+      "mitigation": "Story Room may propose a 3-slide fallback, but only if each slide adds a new receipt."
+    }
+  ],
+  "source_artifacts": [
+    "runs/2026-06-19_21-09_ghar-line/planning/novelty_candidate_ledger.json",
+    "runs/2026-06-19_21-09_ghar-line/planning/source_winner_remix_contract.json",
+    "runs/2026-06-19_21-09_ghar-line/planning/source_winner_novelty_model.json",
+    "runs/2026-06-19_21-09_ghar-line/planning/scene_landing_preview.md"
+  ]
+}

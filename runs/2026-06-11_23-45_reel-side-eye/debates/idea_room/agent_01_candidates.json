@@ -1,0 +1,20 @@
+{
+  "agent": "Relatability Ethnographer (Meera)",
+  "mode": "fallback_local_pass_1",
+  "task": "preserve creator idea, sharpen the observed behavior",
+  "candidates": [
+    {
+      "id": "meera_a",
+      "angle": "The seen-timestamp audit",
+      "behavior": "She sends the reel, then watches HIM instead of her phone. He laughs at his own feed while her reel sits unopened. She knows the exact minute he opened it and the exact minute he replied.",
+      "truth_note": "The reel is never about the reel. It is a tiny test: 'do my discoveries matter to you in real time?' The side-eye is the audit happening live.",
+      "warmth_guard": "He is not ignoring her; he is mid-scroll oblivious. The crime is latency, not neglect."
+    },
+    {
+      "id": "meera_b",
+      "angle": "The post-watch quiz",
+      "behavior": "After he finally reacts with one laughing emoji, she quizzes him on a detail from second 4 of the reel to verify he actually watched it.",
+      "truth_note": "Very real, but it moves the joke from face acting to dialogue, which is weaker for our picture-proves-line style."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Agent Assignment Matrix — 2026-06-11_23-45_reel-side-eye
+
+- Tool discovery: 2026-06-11T23:46 local. Environment: Claude Code (not Codex). `multi_agent_v1.spawn_agent` not present in tool list; `tool_search` (ToolSearch) checked — no multi-agent spawn tool matching the Codex `multi_agent_v1` contract is available in this session.
+- Decision: **fallback_local_passes_with_limitation_recorded**. Each room persona runs as a separate, labeled local pass by Claude. Limitation: passes share one context window, so independence between agents is procedural (sequential, persona-locked passes) rather than process-isolated.
+- Imagegen handoff: this run will be resumed in Codex for `LOAD_REFERENCE_IMAGES_IN_CONTEXT` onward; Codex should re-run discovery and may upgrade later rooms (Image QA) to actual multi-agent.
+- Codex resume discovery: 2026-06-12T23:28:13+05:30. `tool_search` exposed `multi_agent_v1.spawn_agent`. Review Room was upgraded to actual multi-agent for the pre-imagegen blocker check: Artifact Review Guardian, agent id `019ebcf7-fd24-7321-aa08-3c142a206529`, nickname `Einstein`. Initial decision blocked on a repo QA verifier bug; after TDD repair and a passing QA loop, `evals/review_room_imagegen_blocker_check.json` records `safe_to_imagegen: true`.
+
+| Room | Agent/Persona | Mode | Ownership / success criteria | Hard rejects | Prompt packet | Outputs |
+|---|---|---|---|---|---|---|
+| Idea Room | Relatability Ethnographer (Meera) | local pass 1 | Behavior is real, specific, observed-not-invented | Generic "couples be like" sentiment | personas/idea-room | debates/idea_room/agent_01_candidates.json |
+| Idea Room | Shareability Strategist | local pass 2 | Send-not-like trigger; tag-your-person clarity | Joke that amuses but doesn't get sent | personas/idea-room | debates/idea_room/agent_02_candidates.json |
+| Idea Room | Visual Story Director | local pass 3 | Picture proves the line; stageable in house style | Scene/text contradiction; unstageable beats | personas/idea-room | debates/idea_room/agent_03_candidates.json |
+| Story Room | Story Director / Pacing Editor / Swipe Retention Critic | local passes | Open → escalate → pivot → resolve; every slide earns swipe | Padding slides; pivot missing | templates/agents/story_room_agent_prompt.md | planning/story_concept.json, slide_beat_map.json, slide_count_decision.md, debates/story_room/story_debate.md |
+| Visual Scene Discussion | same room | local passes | ≥3 scene options/slide; scene-text proof scored | Forced poses; risky hand anatomy | templates/agents/visual_scene_discussion_prompt.md | planning/scene_options.json, selected_scenes.json |
+| Prompt QA Room | Identity Guardian / Style Guardian / Scene Logic Critic | local passes | Identity lock, style lock, scene logic per master prompt | Identity drift language; quote-card framing | personas/prompt-room | debates/prompt_room/prompt_review.md, evals/pre_generation_eval.json |
+| Review Room | Artifact Review Guardian | local pass + scripts | repo QA + reference load plan before imagegen | Missing proof artifacts | templates/agents/review_room_agent_prompt.md | evals/repo_qa_review.json, evals/imagegen_reference_load_plan.json |
+| Review Room (Codex resume) | Artifact Review Guardian | actual multi_agent_v1 (`019ebcf7-fd24-7321-aa08-3c142a206529`) | pre-imagegen blocker check after reference visibility proof | Missing proof artifacts; repo QA blockers | templates/agents/review_room_agent_prompt.md | evals/review_room_imagegen_blocker_check.json, evals/repo_qa_review_loop.json |
+| Image QA Room | Face/Style/Publishing reviewers | **deferred to Codex** | Runs after imagegen in Codex session | — | personas/image-qa-room | evals/image_quality_eval.json |

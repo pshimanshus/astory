@@ -1,0 +1,17 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "rejected_and_blocked",
+  "timestamp": "2026-06-14T00:37:00+05:30",
+  "candidate_path": "/Users/himanshusharma/.codex/generated_images/019ec19a-4753-7ac1-adc8-e8073ef5507b/ig_0f4f674e631f7fe5016a2da9eb311881919dbc4b2c14125299.png",
+  "observed_dimensions": "1536x1024",
+  "required_dimensions": "1080x1350",
+  "failure_codes": [
+    "IMAGEGEN_TOOL_FAILURE",
+    "SCENE_LOGIC_CONTRADICTION",
+    "TEXT_NOT_EXACT",
+    "ARTIFACT_MISSING"
+  ],
+  "failure_summary": "Second native-size regeneration attempt ignored the A Story locked scene and produced an unrelated lipids infographic at 1536x1024. Candidate is unusable.",
+  "final_status": "blocked",
+  "blocker": "Built-in imagegen is currently ignoring the prompt and returning unrelated infographic outputs at landscape dimensions. No native 1080x1350 A Story final asset was produced."
+}

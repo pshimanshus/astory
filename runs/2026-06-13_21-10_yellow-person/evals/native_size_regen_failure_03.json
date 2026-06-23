@@ -1,0 +1,20 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "rejected",
+  "timestamp": "2026-06-14T01:25:00+05:30",
+  "attempt": 3,
+  "raw_generated_file": "/Users/himanshusharma/.codex/generated_images/019ec19a-4753-7ac1-adc8-e8073ef5507b/ig_06f983cef0ce840e016a2db59381ec8191a866534370104896.png",
+  "required_dimensions": {
+    "pixelWidth": 1080,
+    "pixelHeight": 1350
+  },
+  "actual_dimensions": {
+    "pixelWidth": 916,
+    "pixelHeight": 1717
+  },
+  "failure_codes": [
+    "ARTIFACT_MISSING"
+  ],
+  "rejection_reason": "The prompt required a native 1080x1350 4:5 portrait canvas, but imagegen returned a tall 916x1717 canvas. Per creator constraint, this cannot be resized, padded, cropped, extended, or relabeled as final.",
+  "identity_angle_note": "Prompt included the corrected rule that identity references are for likeness only and must not force side-angle final pose."
+}

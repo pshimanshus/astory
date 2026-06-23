@@ -1,0 +1,49 @@
+{
+  "run_id": "2026-06-18_21-21_winner-bank-brainstorm",
+  "candidate_id": "barefoot_chappal_return",
+  "copy_status": "owned_source_close_adaptation_plus_external_premise_only",
+  "primary_source": {
+    "type": "owned_astory_post",
+    "shortcode": "DYJpjt9CQYY",
+    "url": "https://www.instagram.com/p/DYJpjt9CQYY/",
+    "export_path": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+    "metrics": {
+      "reach": 531805,
+      "shares": 21351,
+      "saves": 6988,
+      "shares_per_1k": 40.15,
+      "saves_per_1k": 13.14
+    }
+  },
+  "what_stays": [
+    "Hinglish emotional-chaos setup",
+    "dramatic exit energy",
+    "care handled gently instead of with irritation",
+    "send-to-partner soft accusation"
+  ],
+  "what_changes": [
+    "The existing broad caption engine becomes one concrete doorway scene.",
+    "The proof object becomes abandoned chappals.",
+    "The payoff is not a statement about patient love; it is Aachu returning for the chappals and sitting closer."
+  ],
+  "external_sources": [
+    {
+      "source": "DXKY5t_ie8L / WNRS",
+      "usage": "mechanic only: staying to figure it out",
+      "copy_preserved": false
+    },
+    {
+      "source": "DZTTSUBEaRr / thirdeyethoughts",
+      "usage": "mechanic only: ordinary care as love",
+      "copy_preserved": false
+    }
+  ],
+  "a_story_wrapper": "Aachu and Zuv in a single apartment doorway after a petty fight; chappals, water, and threshold distance carry the feeling.",
+  "added_payoff": "She returns 'only for the chappals,' then stays in the doorway beside him.",
+  "what_would_weaken_it": [
+    "turning it into a generic apology carousel",
+    "explaining the moral",
+    "making the line smoother but less sendable",
+    "showing a big romantic hug too early"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "agent_role": "Meera, Relatability Ethnographer",
+  "post_generation_review": "Creator rejected the Post 2 forced linked-pinky staging as visually bad. Do not use the raw Post 2 scene as prompt source; use planning/selected_idea.json instead.",
+  "candidates": [
+    {
+      "title": "Same Pinky, Three Rooms",
+      "one_line_concept": "The promise is not one big vow; it is the same tiny pinky-hook showing up in three ordinary rooms: before the day, during the laugh, after the hard moment.",
+      "emotional_truth": "Real staying looks repetitive. Not dramatic. The same small gesture keeps returning when neither of them has a speech ready.",
+      "relatable_trigger": "Couples who have one dumb-small ritual that means more than the actual words.",
+      "visual_evidence": [
+        {"post": 1, "text": "I Promise...", "scene": "Aachu and Zuv stand in the kitchen or doorway, half-ready for the day, pinkies hooked between them while one still holds a mug or phone."},
+        {"post": 2, "text": "I am always there for you", "scene": "They sit on the floor eating from one plate, laughing mid-bite, pinkies still linked awkwardly because neither wants to let go first."},
+        {"post": 3, "text": "in your good and bad times ..", "scene": "After a hard evening, they sit on opposite sides of the bed or couch, bodies tired and quiet, only their pinkies touching in the middle."}
+      ],
+      "risk_of_being_generic": "Medium-low if the rooms stay specific and imperfect; high if it becomes clean hand shots with quote text.",
+      "relatability": 5,
+      "emotional_truth_score": 5,
+      "specificity": 4,
+      "warmth": 5,
+      "everyday_visual_evidence": 5,
+      "brand_fit": 5,
+      "risk_of_stereotype_reversal": 5
+    },
+    {
+      "title": "Promise Without The Speech",
+      "one_line_concept": "Aachu and Zuv never make a grand promise out loud; they answer each other with a pinky when words would make the moment too heavy.",
+      "emotional_truth": "Sometimes love is knowing when not to over-explain. The hand arrives before the reassurance does.",
+      "relatable_trigger": "That couple habit where one person silently asks, 'Are we okay?' and the other answers with a gesture.",
+      "visual_evidence": [
+        {"post": 1, "text": "I Promise...", "scene": "One of them offers a pinky from just outside the frame while the other is still looking away, pretending not to need reassurance."},
+        {"post": 2, "text": "I am always there for you", "scene": "During a happy little victory, one reaches for the other's pinky under the table while everyone else is busy with the moment."},
+        {"post": 3, "text": "in your good and bad times ..", "scene": "In a quiet post-argument or overwhelmed moment, they sit shoulder-to-shoulder, not facing each other yet, pinkies hooked between them."}
+      ],
+      "risk_of_being_generic": "Medium; under-table and not-facing-yet details must carry it.",
+      "relatability": 5,
+      "emotional_truth_score": 5,
+      "specificity": 4,
+      "warmth": 4,
+      "everyday_visual_evidence": 5,
+      "brand_fit": 4,
+      "risk_of_stereotype_reversal": 5
+    },
+    {
+      "title": "The Pinky Survives The Mood",
+      "one_line_concept": "The promise stays the same even when their faces change: playful, smug, exhausted, annoyed, still choosing the tiny link.",
+      "emotional_truth": "Being there for someone does not always look soft. Sometimes it looks like staying connected while still being a little irritated.",
+      "relatable_trigger": "Couples who can be annoyed and affectionate at the exact same time.",
+      "visual_evidence": [
+        {"post": 1, "text": "I Promise...", "scene": "Aachu and Zuv make the pinky promise with overly serious faces, like they know it is childish but sacred anyway."},
+        {"post": 2, "text": "I am always there for you", "scene": "One is celebrating something tiny and the other is proudly dramatic about it, pinky raised like a ceremonial witness."},
+        {"post": 3, "text": "in your good and bad times ..", "scene": "They are visibly tired or mildly annoyed after a rough moment, but their hands still find the pinky promise without looking."}
+      ],
+      "risk_of_being_generic": "Low if expressions stay imperfect; medium if annoyance becomes sitcom gender-role teasing.",
+      "relatability": 4,
+      "emotional_truth_score": 5,
+      "specificity": 5,
+      "warmth": 4,
+      "everyday_visual_evidence": 4,
+      "brand_fit": 4,
+      "risk_of_stereotype_reversal": 4
+    }
+  ],
+  "top_pick": {
+    "title": "Same Pinky, Three Rooms",
+    "reason": "It keeps the source structure intact while turning the stacked-pinky collage into three photographable Aachu/Zuv moments. The promise becomes behavior, not caption."
+  },
+  "rejected_patterns": [
+    "Three stacked hand frames repeated as a prettier collage",
+    "Sunset silhouette with promise text",
+    "Generic through-every-storm rain-window scene",
+    "One partner rescuing the other like a saint",
+    "Clean greeting-card hand closeups with no lived-in context",
+    "Big traumatic bad-time scene that overpowers the tenderness"
+  ],
+  "risk_notes": [
+    "No cited memory findings were available for this run, so these avoid invented Aachu/Zuv-specific lore.",
+    "The final version must keep visible domestic evidence in every post: objects, posture, expression, and hand placement.",
+    "Do not let the third post become misery-romance. The truth is staying, not suffering."
+  ]
+}

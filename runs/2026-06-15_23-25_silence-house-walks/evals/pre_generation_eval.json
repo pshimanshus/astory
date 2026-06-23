@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-06-15_23-25_silence-house-walks",
+  "status": "pass_after_targeted_repair",
+  "workflow_type": "single_illustration_direct_lock",
+  "agent_assignment_status": "actual_multi_agent",
+  "prompt_file": "runs/2026-06-15_23-25_silence-house-walks/prompts/slide_01_prompt.txt",
+  "reference_visibility_proof": "runs/2026-06-15_23-25_silence-house-walks/evals/imagegen_reference_visibility_proof.json",
+  "prompt_room_outputs": [
+    "runs/2026-06-15_23-25_silence-house-walks/debates/prompt_room/prompt_review.md",
+    "runs/2026-06-15_23-25_silence-house-walks/debates/prompt_room/identity_guardian_audit.md",
+    "runs/2026-06-15_23-25_silence-house-walks/debates/prompt_room/style_guardian_audit.md",
+    "runs/2026-06-15_23-25_silence-house-walks/debates/prompt_room/scene_logic_critic_audit.md"
+  ],
+  "checks": {
+    "creator_copy_preserved": "pass",
+    "single_illustration_scope": "pass",
+    "prompt_canvas_size": "pass",
+    "prompt_brandmark_gate": "pass",
+    "prompt_overload": "pass",
+    "prompt_palette_conflict": "pass",
+    "identity_reference_gate": "pass",
+    "scene_logic_gate": "pass_after_repair",
+    "style_gate": "pass",
+    "source_winner_alignment": "not_required"
+  },
+  "audit_inputs": {
+    "identity_guardian": {
+      "status": "revise_applied",
+      "path": "runs/2026-06-15_23-25_silence-house-walks/debates/prompt_room/identity_guardian_audit.md"
+    },
+    "style_guardian": {
+      "status": "pass",
+      "path": "runs/2026-06-15_23-25_silence-house-walks/debates/prompt_room/style_guardian_audit.md"
+    },
+    "scene_logic_critic": {
+      "status": "revise_applied",
+      "path": "runs/2026-06-15_23-25_silence-house-walks/debates/prompt_room/scene_logic_critic_audit.md"
+    }
+  },
+  "failure_codes": [],
+  "watchlist_codes": [
+    "TEXT_NOT_EXACT",
+    "TEXT_UNREADABLE",
+    "IDENTITY_DRIFT",
+    "YELLOW_PAPER_CAST",
+    "BRANDMARK_MISSING",
+    "ANATOMY_FAILURE"
+  ],
+  "imagegen_allowed": true
+}

@@ -1,0 +1,132 @@
+{
+  "agent_role": "Relatability Ethnographer - Meera",
+  "candidates": [
+    {
+      "title": "The Door Was Never Fully Closed",
+      "one_line_concept": "After a small fight, one of them goes to the other room but leaves the door slightly open, because the argument needs distance but love does not.",
+      "emotional_truth": "Real couples often perform being angry while secretly keeping a path back open.",
+      "relatable_trigger": "Send this to the person who knows your dramatic exit still comes with a soft re-entry policy.",
+      "visual_evidence": "Aachu on one side of a half-open bedroom door, Zuv visible in the other room through a thin strip of warm light; neither is looking at the other, but the door is visibly unlatched.",
+      "risk_of_being_generic": "Medium-low. It must stay petty, domestic, and specific: not heartbreak, just a tiny fight with an open door.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 5,
+        "specificity": 5,
+        "warmth": 4,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 5,
+        "overall": 4.86
+      }
+    },
+    {
+      "title": "The Packet Pause",
+      "one_line_concept": "One of them is on an important call, and the other freezes mid-snack-opening like the packet has become a bomb.",
+      "emotional_truth": "Love is often not grand support; it is ridiculous self-control for exactly seventeen seconds.",
+      "relatable_trigger": "For couples who know the sound of chips can become a relationship test.",
+      "visual_evidence": "Zuv on a laptop call, Aachu beside him holding a half-torn snack packet in both hands, face fully guilty, body frozen; crumbs and tea nearby.",
+      "risk_of_being_generic": "Low. It is not supporting your dreams; it is the tiny choreography of not ruining someone's call with packet thunder.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 5,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 5,
+        "overall": 4.86
+      }
+    },
+    {
+      "title": "The Correct Bite Treaty",
+      "one_line_concept": "They both pretend to eat normally, but each keeps saving the best corner of the snack for the other.",
+      "emotional_truth": "Intimacy is knowing which bite is the good bite and giving it away without announcing the sacrifice.",
+      "relatable_trigger": "For couples with very serious unspoken food negotiations.",
+      "visual_evidence": "One plate between them, a sandwich or dosa torn unevenly, the crispest saucy corner untouched and nudged toward the other person with no speech.",
+      "risk_of_being_generic": "Medium. Food-sharing can get cute-card fast; the idea only works if the visual is about the exact best bite, not vague sharing.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 4,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 4,
+        "overall": 4.57
+      }
+    },
+    {
+      "title": "The Alarm That Is Not For Me",
+      "one_line_concept": "One phone has an alarm named after the other person's thing: appointment, train, medicine, deadline, tiny chaos.",
+      "emotional_truth": "Being loved sometimes means your life has quietly become someone else's reminder list.",
+      "relatable_trigger": "Send this to the person whose calendar has suspiciously become a shared survival system.",
+      "visual_evidence": "Two phones on the bed; one alarm label reads something practical and intimate like 'Aachu leave by 7:40' while the owner of that phone is not Aachu.",
+      "risk_of_being_generic": "Medium. It risks generic care unless the alarm label is funny, practical, and visibly specific.",
+      "scores": {
+        "relatability": 4,
+        "emotional_truth": 5,
+        "specificity": 5,
+        "warmth": 5,
+        "everyday_visual_evidence": 4,
+        "brand_fit": 4,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 5,
+        "overall": 4.57
+      }
+    },
+    {
+      "title": "The Room-To-Room Translation Service",
+      "one_line_concept": "One starts talking from another room at impossible volume, and the other walks closer instead of saying 'what?' for the fifth time.",
+      "emotional_truth": "Couple patience is not always noble; sometimes it is learning the exact acoustics of someone you love.",
+      "relatable_trigger": "For the person who begins conversations from the kitchen like the house has subtitles.",
+      "visual_evidence": "Aachu half-visible in another room talking while doing something else; Zuv has abandoned the sofa and is standing in the hallway, listening with resigned affection.",
+      "risk_of_being_generic": "Low-medium. It must avoid making one partner foolish; the affection is in the practiced accommodation, not the complaint.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 5,
+        "warmth": 4,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 4,
+        "overall": 4.43
+      }
+    },
+    {
+      "title": "The Subtitles Came On Without Discussion",
+      "one_line_concept": "One person is eating something too crunchy during a movie, so the other silently turns subtitles on instead of starting a fight.",
+      "emotional_truth": "Soft partnership is choosing the workaround before the complaint.",
+      "relatable_trigger": "For couples whose movie nights include snacks loud enough to need accessibility settings.",
+      "visual_evidence": "A movie playing with subtitles, one remote in hand, one person crunching happily, the other looking sideways but choosing peace.",
+      "risk_of_being_generic": "Low. It is funny, stageable, and behavior-led; the only risk is making it too sitcom instead of tender.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 5,
+        "warmth": 4,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 5,
+        "overall": 4.57
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "The Door Was Never Fully Closed",
+    "why": "It has the strongest emotional voltage without becoming a quote card. The whole idea is visible in one object: a half-open door."
+  },
+  "rejected_patterns": [
+    "shared pocket or bag logistics",
+    "reel side-eye or watched-my-video banter",
+    "heart rent or promise-in-three framing",
+    "shawl-before-she-asks care beat",
+    "generic care where one partner is saintly",
+    "quote-card sentiment with no photographable behavior",
+    "gendered incompetence jokes"
+  ],
+  "risk_notes": [
+    "Keep every idea anchored to a visible object or gesture.",
+    "Do not let care beats become one-sided.",
+    "The top pick needs tonal control: it should feel like a small domestic sulk, not a breakup scene.",
+    "Food and alarm concepts need exact labels, bites, and body language."
+  ]
+}

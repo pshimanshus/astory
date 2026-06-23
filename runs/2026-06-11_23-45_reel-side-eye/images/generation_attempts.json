@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "status": "rejected_after_creator_review",
+  "attempts": [
+    {
+      "slide": 1,
+      "surface": "4x5",
+      "attempt": 1,
+      "stage": "GENERATE_IMAGES_WITH_IMAGEGEN",
+      "path": "runs/2026-06-11_23-45_reel-side-eye/images/slide_01_4x5_attempt_01_candidate.png",
+      "source_path": "/Users/himanshusharma/.codex/generated_images/019eb813-0cd1-7cf1-99c5-ed48845d9fd8/ig_02668cd0cc69d253016a2c48d816c8819182a15603263849c1.png",
+      "status": "rejected_after_creator_review",
+      "failure_codes": [
+        "YELLOW_PAPER_CAST",
+        "IDENTITY_DRIFT",
+        "STYLE_DRIFT"
+      ],
+      "notes": "Yellow/parchment cast, generic illustrated faces, and anime/cartoon-adjacent styling fail the house style and identity gates."
+    },
+    {
+      "slide": 2,
+      "surface": "4x5",
+      "attempt": 1,
+      "stage": "GENERATE_IMAGES_WITH_IMAGEGEN",
+      "path": "runs/2026-06-11_23-45_reel-side-eye/images/slide_02_4x5_attempt_01_candidate.png",
+      "source_path": "/Users/himanshusharma/.codex/generated_images/019eb813-0cd1-7cf1-99c5-ed48845d9fd8/ig_02668cd0cc69d253016a2c494156fc81919ef30281889a3523.png",
+      "status": "rejected_after_creator_review",
+      "failure_codes": [
+        "YELLOW_PAPER_CAST",
+        "IDENTITY_DRIFT",
+        "STYLE_DRIFT"
+      ],
+      "notes": "Yellow/parchment cast, generic illustrated faces, and anime/cartoon-adjacent styling fail the house style and identity gates."
+    }
+  ]
+}

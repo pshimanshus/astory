@@ -1,0 +1,15 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "final_package_rejected_for_size_process",
+  "review_timestamp": "2026-06-14T00:07:51+05:30",
+  "creator_feedback": "The image was extended instead of created in the shared format and dimensions. Imagegen prompts must clearly require the exact dimensions.",
+  "rejected_final_files": [
+    "runs/2026-06-13_21-10_yellow-person/exports/final-instagram/yellow-person-final-slide-01-1080x1350.png",
+    "runs/2026-06-13_21-10_yellow-person/exports/final-instagram/yellow-person-final-slide-02-1080x1350.png"
+  ],
+  "failure_codes": [
+    "ARTIFACT_MISSING"
+  ],
+  "root_cause": "Generated candidates were wrong-size and were padded/resized into final package instead of being rejected and regenerated as native 1080x1350 assets.",
+  "repair_constraint": "Regenerate with exact native 1080px by 1350px wording in each prompt. Do not use padding, extension, or crop-based fixes for final assets."
+}

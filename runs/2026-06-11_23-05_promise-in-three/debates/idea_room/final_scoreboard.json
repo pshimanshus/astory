@@ -1,0 +1,59 @@
+{
+  "run_id": "2026-06-11_23-05_promise-in-three",
+  "winner": "Promise, Proved In Three Rooms",
+  "minimum_selection_threshold": 4.0,
+  "scores": [
+    {
+      "title": "Promise, Proved In Three Rooms",
+      "source_agent": "Meera",
+      "overall_score": 4.78,
+      "relatability": 5,
+      "emotional_truth": 5,
+      "specificity": 4,
+      "shareability": 4,
+      "visual_clarity": 5,
+      "imagegen_feasibility": 5,
+      "brand_fit": 5,
+      "notes": "Best balance of source preservation, behavior, and A Story specificity after creator revision removed forced linked-pinky staging from Posts 2 and 3."
+    },
+    {
+      "title": "The Umbrella Promise",
+      "source_agent": "Tara",
+      "overall_score": 4.56,
+      "relatability": 4,
+      "emotional_truth": 4,
+      "specificity": 4,
+      "shareability": 4,
+      "visual_clarity": 5,
+      "imagegen_feasibility": 5,
+      "brand_fit": 5,
+      "notes": "Visually strong, but storm/rain metaphor risks becoming too literal and generic."
+    },
+    {
+      "title": "Good Days Are Easy",
+      "source_agent": "Kabir",
+      "overall_score": 4.44,
+      "relatability": 4,
+      "emotional_truth": 5,
+      "specificity": 4,
+      "shareability": 5,
+      "visual_clarity": 4,
+      "imagegen_feasibility": 4,
+      "brand_fit": 5,
+      "notes": "Strong hook, but rewrites the requested source text."
+    },
+    {
+      "title": "Promise Without The Speech",
+      "source_agent": "Meera",
+      "overall_score": 4.33,
+      "relatability": 5,
+      "emotional_truth": 5,
+      "specificity": 4,
+      "shareability": 4,
+      "visual_clarity": 4,
+      "imagegen_feasibility": 4,
+      "brand_fit": 4,
+      "notes": "Emotionally good, but less immediately readable as three converted posts."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "status": "story_lock_candidate",
+  "title": "The Chair Outside The Door",
+  "recommended_slide_count": 5,
+  "approved_idea_source": "runs/2026-06-14_02-21_hard-to-love/planning/selected_idea.json",
+  "hitl_idea_approval_source": "runs/2026-06-14_02-21_hard-to-love/docs/approvals.md",
+  "one_line_story": "Aachu fears that going quiet makes her hard to love; Zuv answers by learning how close to stay without knocking his way into her silence.",
+  "emotional_truth": "Some people are not asking to be decoded immediately. They are asking not to be abandoned while they become speakable again.",
+  "relationship_dynamic": "Aachu needs quiet without disappearance; Zuv loves her by staying close enough to be found and far enough not to rush her.",
+  "premise_lock": {
+    "must_preserve": [
+      "The first-slide question: am i hard to love when i go quiet?",
+      "The practical chair outside the door as the story's spine.",
+      "Care shown through object continuity: water, charger, folded cloth, light under the door, door crack, and chair distance.",
+      "Aachu accepting care before she has words.",
+      "The creator constraint that both people do not need to appear in every slide."
+    ],
+    "must_not_change": [
+      "Do not copy the dark or magenta concept style.",
+      "Do not turn Zuv into a sleeping martyr, saintly rescuer, or hallway guard.",
+      "Do not resolve with a dramatic hug, apology speech, or generic reassurance line.",
+      "Do not make Aachu look like a problem to be fixed.",
+      "Do not let the text carry the emotion without visible scene proof."
+    ]
+  },
+  "tension_ladder": [
+    {
+      "rung": 1,
+      "viewer_knowledge": "A closed door names the fear before either person is shown.",
+      "relationship_action": "The chair is present but not pressing against the door."
+    },
+    {
+      "rung": 2,
+      "viewer_knowledge": "Zuv chooses care without access.",
+      "relationship_action": "Water and charger are left where the door can still open."
+    },
+    {
+      "rung": 3,
+      "viewer_knowledge": "This is learned patience, not one perfect gesture.",
+      "relationship_action": "The chair moves back and the objects change state over time."
+    },
+    {
+      "rung": 4,
+      "viewer_knowledge": "Aachu accepts care before she can explain.",
+      "relationship_action": "The charger crosses the threshold through a cracked door."
+    },
+    {
+      "rung": 5,
+      "viewer_knowledge": "The first question is answered without a speech.",
+      "relationship_action": "The used objects and open threshold prove she was not abandoned or rushed."
+    }
+  ],
+  "canonical_slide_text": [
+    "am i hard to love when i go quiet?",
+    "or did you learn where to leave the water?",
+    "you learned the chair distance",
+    "the words came later. the charger came first.",
+    "i was not hard to love. i was hard to rush."
+  ],
+  "why_this_count": "Five slides are needed because the story depends on visible state changes: fear, care placed, distance adjusted, care accepted, and payoff. Fewer slides make the chair symbolic; five makes it behavior.",
+  "why_fewer_fails": "Three or four slides would merge time, acceptance, and payoff too quickly, making Zuv seem magically perfect or forcing the text to explain what the objects have not yet proven.",
+  "why_more_dilutes": "Six or more slides would split water, charger, cloth, and chair into separate inventory beats, creating static hallway repetition and saintly-Zuv risk.",
+  "story_room_sources": [
+    "runs/2026-06-14_02-21_hard-to-love/debates/story_room/story_director_pass.md",
+    "runs/2026-06-14_02-21_hard-to-love/debates/story_room/pacing_editor_pass.md",
+    "runs/2026-06-14_02-21_hard-to-love/debates/story_room/swipe_retention_pass.md",
+    "runs/2026-06-14_02-21_hard-to-love/planning/creator_direction_notes.md",
+    "runs/2026-06-14_02-21_hard-to-love/planning/memory_recall.md"
+  ],
+  "active_risks": [
+    "Static-door repetition if every slide uses the same centered hallway angle.",
+    "Over-subtle object continuity if chair distance, charger path, or water level is too small on phone.",
+    "Identity evaporation if no later slide gives Aachu readable presence.",
+    "Saintly-Zuv drift if he is shown waiting as a performance.",
+    "Prompt drift if a later prompt room forces both faces into every slide."
+  ],
+  "next_gate": "HITL_STORY_LOCK"
+}

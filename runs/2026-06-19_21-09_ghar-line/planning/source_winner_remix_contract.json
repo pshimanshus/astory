@@ -1,0 +1,84 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "status": "draft_pending_creator_idea_lock",
+  "remix_mode": "permissioned_source_preserving_remix_with_creator_line_anchor",
+  "primary_copy_anchor": {
+    "type": "creator_provided_song_line",
+    "copy_status": "exact_creator_provided_line_only",
+    "text": "khaali hai jo tere bina, main woh ghar hoon tera",
+    "permission_basis": "Creator supplied this line as the required first-slide anchor.",
+    "constraint": "No additional song lyrics may be added or continued."
+  },
+  "source_winner": {
+    "source_account": "werenotreallystrangers",
+    "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+    "source_shortcode": "DW9g9ZGCRu-",
+    "source_format": "reel",
+    "metric_signal": {
+      "likes": 49670,
+      "comments": 161,
+      "views": 346606,
+      "shares": 0,
+      "saves": 0,
+      "reach": 0,
+      "winner_score": 69046.21,
+      "notes": "Winner-bank rank 121. Used as proof that home/person copy travels, not as final copy to paste."
+    },
+    "bank_paths": [
+      "references/text-style/winner-bank/winner_bank.json",
+      "references/text-style/winner-bank/posts_merged.json",
+      "references/text-style/winner-bank-index-2026-06-14.json"
+    ]
+  },
+  "secondary_compatible_sources": [
+    {
+      "source_account": "hereverydaymotherhood",
+      "source_url": "https://www.instagram.com/p/DXPqpI7idvG/",
+      "rank": 136,
+      "metric_signal": "winner_score 28206.0; compatible domestic partner-as-home engine"
+    },
+    {
+      "source_account": "thirdeyethoughts",
+      "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+      "rank": 105,
+      "metric_signal": "winner_score 59894.0; compatible direct-care send prompt engine"
+    }
+  ],
+  "permission": {
+    "permissioned": true,
+    "permission_basis": "Local winner bank marks compatible sources as permissioned_source_preserve_then_astory_wrapper. The creator also supplied the required lyric anchor.",
+    "allowed_to_preserve": {
+      "exact_copy": false,
+      "premise": true,
+      "caption": false,
+      "slide_structure": false
+    }
+  },
+  "what_stays": {
+    "copy_or_text_family": "A short, direct home/person emotional family. The final uses the creator's supplied lyric rather than copying external source text.",
+    "premise": "One person can be the real home.",
+    "caption_move": "Direct enough to send without explanation.",
+    "slide_structure": "Compressed micro-arc: ache first, physical/emotional receipt second; split across additional slides only if phone readability requires it.",
+    "landing_mechanism": "The viewer recognizes someone they want to send this to."
+  },
+  "what_changes": {
+    "a_story_wrapper": "Aachu/Zuv are placed in a lived scene where one usual side of the shared room is kept open.",
+    "visual_world": "Watercolor-and-ink A Story domestic room with negative space; not a typography card.",
+    "added_payoff": "The familiar room becomes ghar only when that one person's presence makes even silence safe.",
+    "caption_frame": "A private realization about one person, not a public definition of love."
+  },
+  "novelty_model_path": "runs/2026-06-19_21-09_ghar-line/planning/source_winner_novelty_model.json",
+  "must_not_polish_away": [
+    "the ache of the empty side",
+    "the creator's exact first-slide line",
+    "the creator's repaired Slide 2 cadence and meaning",
+    "the ache that the speaker's sense of home was always one person"
+  ],
+  "slop_risks": [
+    "AI_SLOP_COPY_DRIFT",
+    "QUOTE_CARD_NOT_ILLUSTRATION",
+    "PREACHY_THERAPY_LANGUAGE",
+    "ORIGINAL_SETUP_DRIFT"
+  ],
+  "creator_decision": "pending"
+}

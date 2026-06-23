@@ -1,0 +1,62 @@
+{
+  "run_id": "2026-06-13_02-34_fresh-shareable-ideas",
+  "idea_id": "idea_01_packet_pause",
+  "title": "The Packet Pause",
+  "status": "pending_creator_idea_lock",
+  "creator_choice_mode": "shortlist_required_before_lock",
+  "choice_shortlist_path": "runs/2026-06-13_02-34_fresh-shareable-ideas/planning/idea_choice_shortlist.md",
+  "one_line_concept": "During each other's calls or voice notes, Aachu and Zuv freeze mid-snack-opening, mid-spoon-clink, or mid-cup-place because certain household sounds are apparently illegal now.",
+  "emotional_truth": "Love is often ridiculous self-control for exactly the sound that would ruin the other person's moment.",
+  "relatable_trigger": "Couples who know the panic of making one loud sound during a partner's call.",
+  "share_trigger": "Send to the partner who is either the loud-snack person or the silent-packet specialist.",
+  "likely_comments": [
+    "chip packets are so loud only during calls",
+    "this is us with steel spoons",
+    "the guilty freeze is real",
+    "why does every snack become a bomb when he is on a call"
+  ],
+  "suggested_hook_text": "love is knowing which sounds are illegal during a call.",
+  "visual_evidence": "Zuv on a laptop call while Aachu freezes beside him with a half-open snack packet; later the role reverses with Zuv freezing mid-spoon-clink while Aachu records a voice note or takes a call. The household sounds become the joke.",
+  "suggested_slide_count": 4,
+  "slide_count_reason": "Three slides would make it a single gag; four lets the carousel prove mutuality through setup, freeze, role reversal, and payoff. Five would over-explain the packet joke.",
+  "story_room_seed_arc": [
+    "Slide 1: Zuv is on a call. Aachu enters with a snack packet, relaxed and unaware.",
+    "Slide 2: The packet makes one tiny crackle. Aachu freezes mid-tear like she has triggered an alarm.",
+    "Slide 3: Later the roles reverse: Aachu is recording or on a call, and Zuv freezes mid-spoon-clink or cup-place.",
+    "Slide 4: Call over. They open/eat the snack together with exaggerated relief, the packet finally allowed to be loud."
+  ],
+  "why_it_wins": [
+    "Freshest behavior from the room; not adjacent to the previous shared-pocket, reel, heart-rent, promise, or shawl ideas.",
+    "Instant visual proof: a half-open snack packet, a frozen body, and a guilty face.",
+    "Strong send trigger for couples who work, call, record, snack, and tiptoe around each other's noise.",
+    "Funny without being mean because the repaired version makes the protocol mutual.",
+    "Low production risk: one room, simple props, clear expressions, no microtext or phone UI required."
+  ],
+  "risks": [
+    {
+      "risk": "Could become one-sided if only Aachu is the noisy partner.",
+      "mitigation": "Story room must include a role-reversal beat where Zuv also freezes for Aachu."
+    },
+    {
+      "risk": "Could read as generic work-from-home humor if the couple intimacy is not visible.",
+      "mitigation": "Make the payoff shared and affectionate: both know the rule and laugh after the call."
+    },
+    {
+      "risk": "Snack packet crinkle is auditory, not visual.",
+      "mitigation": "Use the frozen hands, half-torn packet, guilty eyes, and call posture as visual proof."
+    }
+  ],
+  "score_overall": 4.82,
+  "agent_assignment_status": "actual_multi_agent",
+  "artifact_sources": [
+    "debates/agent_assignment_matrix.md",
+    "debates/idea_room/agent_01_candidates.json",
+    "debates/idea_room/agent_02_candidates.json",
+    "debates/idea_room/agent_03_candidates.json",
+    "debates/idea_room/cross_critique.md",
+    "debates/idea_room/repair_round.md",
+    "debates/idea_room/final_scoreboard.json",
+    "planning/scene_landing_preview.md",
+    "planning/idea_choice_shortlist.md"
+  ]
+}

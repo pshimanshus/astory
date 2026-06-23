@@ -1,0 +1,48 @@
+{
+  "run_id": "2026-06-15_23-25_silence-house-walks",
+  "status": "failed_after_allowed_text_retries",
+  "hard_gate_result": "failed",
+  "imagegen_attempted": true,
+  "accepted_final": false,
+  "candidates_reviewed": [
+    {
+      "path": "runs/2026-06-15_23-25_silence-house-walks/images/candidate_01_text_not_exact.png",
+      "status": "rejected",
+      "pixel_dimensions": "1122x1402",
+      "failure_codes": [
+        "TEXT_NOT_EXACT",
+        "WRONG_CANVAS_SIZE"
+      ],
+      "notes": "Visual direction works, but Hindi text drops the nasal mark in `में`; generated canvas is 1122x1402 instead of native 1080x1350 px."
+    },
+    {
+      "path": "runs/2026-06-15_23-25_silence-house-walks/images/candidate_02_text_retry_01.png",
+      "status": "rejected",
+      "pixel_dimensions": "1122x1402",
+      "failure_codes": [
+        "TEXT_NOT_EXACT",
+        "WRONG_CANVAS_SIZE"
+      ],
+      "notes": "Improved `घर में`, but `आवाज़ें` and closing Hindi punctuation are not exact; canvas is still 1122x1402."
+    },
+    {
+      "path": "runs/2026-06-15_23-25_silence-house-walks/images/candidate_03_text_retry_02.png",
+      "status": "rejected",
+      "pixel_dimensions": "1122x1402",
+      "failure_codes": [
+        "TEXT_NOT_EXACT",
+        "WRONG_CANVAS_SIZE"
+      ],
+      "notes": "Best composition and closest text, but Hindi line wrapping/punctuation is not exact and canvas remains 1122x1402."
+    }
+  ],
+  "summary": "All generated candidates are rejected. No export/final package created.",
+  "retry_count_by_failure_type": {
+    "TEXT_NOT_EXACT": 2,
+    "WRONG_CANVAS_SIZE": 2
+  },
+  "final_failure_codes": [
+    "TEXT_NOT_EXACT",
+    "WRONG_CANVAS_SIZE"
+  ]
+}

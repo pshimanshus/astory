@@ -1,0 +1,64 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "threshold": 4.0,
+  "scores": {
+    "story_coherence": 4.8,
+    "slide_count_fit": 4.7,
+    "scene_selection_quality": 4.8,
+    "visual_setting_logic": 4.8,
+    "visual_clarity": 4.5,
+    "prompt_clarity": 4.6,
+    "prompt_canvas_size_1080x1350_portrait": 5.0,
+    "character_consistency_potential": 4.4,
+    "style_consistency_potential": 4.5,
+    "text_readability_potential": 4.1,
+    "source_winner_preservation": 4.35,
+    "a_story_wrapper_strength": 4.8,
+    "brand_fit": 4.7,
+    "publishability": 4.1,
+    "risk_of_generic_output": 4.2,
+    "risk_of_visual_failure": 4.0,
+    "overall": 4.54
+  },
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded",
+  "agent_assignment_artifact": "debates/agent_assignment_matrix.md",
+  "prompt_room_outputs": [
+    "debates/prompt_room/prompt_review.md",
+    "debates/prompt_room/identity_guardian_audit.md",
+    "debates/prompt_room/style_guardian_audit.md",
+    "debates/prompt_room/scene_logic_critic_audit.md"
+  ],
+  "hard_gates": {
+    "creative_room_checked_prompt_before_imagegen": true,
+    "all_prompts_include_1080x1350_px": true,
+    "all_selected_scenes_have_visual_setting_logic": true,
+    "source_winner_alignment_eval_passed": true,
+    "brandmark_required_in_every_prompt": true,
+    "identity_references_visible_before_imagegen": false,
+    "zuv_absent_all_slides": true,
+    "no_comeback_payoff_preserved": true,
+    "identity_reference_pose_copy_blocked": true,
+    "slide_01_smile_removed": true,
+    "pre_imagegen_blocker_check_written": true,
+    "pre_imagegen_imagegen_allowed": false
+  },
+  "status": "invalidated_process_failed_reapproval_required",
+  "source_winner_alignment_artifact": "evals/source_winner_alignment_eval.json",
+  "invalidated_by": "runs/2026-06-19_21-09_ghar-line/evals/process_failure_audit.json",
+  "required_revisions": [
+    "Rebuild Prompt Room from corrected premise; fallback local passes cannot unlock imagegen.",
+    "Add emotional-state contradiction check before imagegen.",
+    "Add identity-reference pose/composition collision check before imagegen.",
+    "Use safer non-pose-driving Aachu face anchors or explicitly treat the cafe identity anchor as face-structure-only before regenerating.",
+    "Refresh/load every queued reference with view_image in the current conversation.",
+    "Write or refresh evals/imagegen_reference_visibility_proof.json.",
+    "Clear evals/pre_imagegen_blocker_check.json; current status blocks imagegen because fallback local review followed a major creator correction.",
+    "Run repo QA loop and require gold_standard_identity_route_gate to pass before imagegen."
+  ],
+  "failure_codes": [
+    "FALLBACK_REVIEW_TREATED_AS_AGENT_PASS",
+    "EMOTIONAL_STATE_CONTRADICTION",
+    "IDENTITY_REFERENCE_POSE_COPY"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "created_at": "2026-06-14T02:34:32+05:30",
+  "request": "Create an A Story of Two illustration/carousel from the attached concept screenshots around 'am i hard to love / handle / understand / not enough / worth the risk?', using Aachu and Zuv identity references and the attached approved best-illustration style.",
+  "creator_constraints": [
+    "Must not feel generic; generic is a hard failure under AGENTS.md.",
+    "Do not force both Aachu and Zuv into each slide.",
+    "Use the approved best-illustration watercolor-and-ink style, not the darker foreign concept style.",
+    "Every final imagegen prompt must explicitly request native 1080x1080 px square output.",
+    "Every final illustration must include a tiny low-contrast handwritten @a.storyof.two brandmark bottom-right."
+  ],
+  "concept_reference_role": "emotional premise, question cadence, broad composition, and on-image text inspiration only",
+  "style_reference_role": "approved A Story watercolor-and-ink finish, neutral off-white paper, hand-drawn text, airy composition",
+  "identity_reference_role": "raw Aachu and Zuv face/body anchors; text-only identity descriptions are not enough for final generation",
+  "hard_rejects": [
+    "GENERIC_IDEA",
+    "IDENTITY_REFERENCE_INPUT_UNPROVEN",
+    "PROMPT_CANVAS_SIZE_MISSING",
+    "PROMPT_BRANDMARK_MISSING",
+    "YELLOW_PAPER_CAST",
+    "TEXT_NOT_EXACT",
+    "BRANDMARK_MISSING",
+    "SCENE_LOGIC_CONTRADICTION",
+    "ANATOMY_FAILURE"
+  ],
+  "input_folders": {
+    "concept": "runs/2026-06-14_02-21_hard-to-love/input/concept",
+    "style": "runs/2026-06-14_02-21_hard-to-love/input/style",
+    "aachu_identity": "runs/2026-06-14_02-21_hard-to-love/input/identity/aachu",
+    "zuv_identity": "runs/2026-06-14_02-21_hard-to-love/input/identity/zuv"
+  }
+}

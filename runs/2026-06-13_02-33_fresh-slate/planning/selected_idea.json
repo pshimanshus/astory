@@ -1,0 +1,45 @@
+{
+  "run_id": "2026-06-13_02-33_fresh-slate",
+  "idea_id": "idea_01_corner_watch",
+  "title": "The Corner Watch",
+  "status": "recommended_pending_creator_choice",
+  "creator_choice_mode": "shortlist_required_before_lock",
+  "choice_shortlist_path": "runs/2026-06-13_02-33_fresh-slate/planning/idea_choice_shortlist.md",
+  "one_line_concept": "Aachu and Zuv keep saving each other from the same sharp table corner without ever turning it into a romantic speech.",
+  "emotional_truth": "Love is sometimes just a hand appearing between your head and the furniture before you even notice danger.",
+  "relatable_trigger": "Couples who live around the same tables, shelves, bed corners, and tiny household hazards recognize the automatic palm-on-corner reflex.",
+  "share_trigger": "Send to the partner who silently protects your head from furniture like it is their unpaid job.",
+  "suggested_hook_text": "love is a hand on the sharp corner.",
+  "visual_evidence": "A repeated mutual gesture: one bends near the same table corner and the other covers it with a hand; later the roles reverse; final slide shows the hand arriving before the bump.",
+  "suggested_slide_count": 4,
+  "slide_count_reason": "Three slides can work, but four gives the repeated mutual behavior enough rhythm without overexplaining it.",
+  "why_it_wins": [
+    "Most emotionally original behavior in the room.",
+    "Mutual care without gendered incompetence or saint/fool framing.",
+    "Photographable without caption.",
+    "Fresh and not a repeat of the previous shortlist.",
+    "Simple prop world: one table corner, one hand, readable faces."
+  ],
+  "risks": [
+    {
+      "risk": "Slides may feel visually repetitive.",
+      "mitigation": "Use one table corner, one shelf/bedside corner, and role reversal to create rhythm."
+    },
+    {
+      "risk": "If staged too softly, it could become generic care.",
+      "mitigation": "Make the hand-on-corner gesture the hero proof in every beat."
+    }
+  ],
+  "score_overall": 4.82,
+  "agent_assignment_status": "actual_multi_agent",
+  "artifact_sources": [
+    "debates/agent_assignment_matrix.md",
+    "debates/idea_room/agent_01_candidates.json",
+    "debates/idea_room/agent_02_candidates.json",
+    "debates/idea_room/agent_03_candidates.json",
+    "debates/idea_room/cross_critique.md",
+    "debates/idea_room/repair_round.md",
+    "debates/idea_room/final_scoreboard.json",
+    "planning/idea_choice_shortlist.md"
+  ]
+}

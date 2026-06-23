@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-06-19_23-57_shokh-adaayein-story",
+  "created_at": "2026-06-20T00:00:30+05:30",
+  "load_plan_sha256": "712bba231a9c81c010ee201f151c8a228c972b36af2d0c55e61f05af92c7e981",
+  "loaded_with_view_image_count": 15,
+  "loaded_paths": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+    "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+    "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "status": "visible_in_current_conversation",
+  "limitation": "Prompt uses the creator-requested 1080x1920 story surface instead of the repo default 1080x1350 carousel surface."
+}

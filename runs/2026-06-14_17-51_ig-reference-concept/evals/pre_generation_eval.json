@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-16T18:35:10Z",
+  "scope": "slides_02_to_05_rest_of_carousel",
+  "agent_assignment_status": "actual_multi_agent",
+  "prompt_room_outputs": [
+    "debates/prompt_room/prompt_review.md"
+  ],
+  "prompt_paths": [
+    "prompts/slide_02_prompt.txt",
+    "prompts/slide_03_prompt.txt",
+    "prompts/slide_04_prompt.txt",
+    "prompts/slide_05_prompt.txt"
+  ],
+  "checks": {
+    "creator_request_direct_generation": "pass",
+    "no_new_copy_invented": "pass",
+    "prompt_canvas_size": "pass",
+    "brandmark_required": "pass",
+    "raw_face_anchors_highest_priority": "pass",
+    "style_reference_limited_to_finish": "pass",
+    "source_card_contamination_rejected": "pass",
+    "anti_slop_scene_specificity": "pass"
+  },
+  "decision": "ready_for_imagegen",
+  "failure": null
+}

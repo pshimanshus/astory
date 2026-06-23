@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "status": "pass",
+  "selected_idea_id": "idea_001",
+  "selected_idea": "The Chair Outside The Door",
+  "score_threshold": 4.0,
+  "scores": {
+    "relatability": 5.0,
+    "shareability": 4.6,
+    "comment_potential": 4.4,
+    "visual_clarity": 5.0,
+    "emotional_truth": 5.0,
+    "humor_warmth_balance": 4.6,
+    "freshness": 4.8,
+    "brand_fit": 5.0,
+    "simplicity": 4.8,
+    "carousel_payoff": 4.9,
+    "anti_generic_strength": 5.0,
+    "overall": 4.86
+  },
+  "selection_allowed": true,
+  "second_round_required": false,
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded",
+  "prompt_packet_status": "closed_packet_used",
+  "scene_landing_preview_required": true,
+  "scene_landing_preview_status": "written",
+  "primary_risks": [
+    "Avoid quote-card sadness.",
+    "Avoid forced two-person slides.",
+    "Avoid saintly rescuer or sleeping-martyr framing.",
+    "Avoid copying the concept screenshots' dark/magenta/orange style.",
+    "Avoid a static five-slide door sequence by making object continuity change."
+  ],
+  "decision": "present_for_hitl_idea_lock",
+  "notes": "Selected after cross-critique. Kabir's shareable care-rules engine was folded into Meera/Tara's stronger chair-door visual spine.",
+  "assignment_limitation": "Initial actual multi-agent pass used invalid ad hoc prompts and was superseded. Closed-packet subagent rerun hit usage limits, so canonical Idea Room outputs were produced as labeled closed-packet local passes."
+}

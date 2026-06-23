@@ -1,0 +1,16 @@
+{
+  "run_id": "2026-06-15_23-25_silence-house-walks",
+  "idea_mode": "creator_direct_lock",
+  "exact_text": "even the house starts walking carefully.",
+  "selected_idea": {
+    "title": "Even The House Walks Carefully",
+    "source": "creator_provided_quote",
+    "exact_on_image_text": "तू चुप हो जाए तो घर में आवाज़ें भी डर-डर के चलती हैं।”\nWhen you go silent,\neven the house starts walking carefully.",
+    "exact_text": "even the house starts walking carefully.",
+    "format": "single_illustration",
+    "why_it_works": "The line makes silence physical. The illustration should show a house where even ordinary objects are behaving carefully around Aachu's quietness.",
+    "share_trigger": "Someone sends it to their partner after a cold-silence moment because it says the effect without accusing directly."
+  },
+  "alternatives_skipped_reason": "Creator explicitly requested no concept thinking and asked to use the supplied copy as-is.",
+  "status": "approved_by_creator_request"
+}

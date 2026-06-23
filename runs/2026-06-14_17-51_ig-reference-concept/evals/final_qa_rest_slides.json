@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-16T19:13:24Z",
+  "scope": "slides_02_to_05_rest_of_carousel",
+  "verified_exports": [
+    {
+      "slide": 2,
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-02-final.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350
+    },
+    {
+      "slide": 3,
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-03-final.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350
+    },
+    {
+      "slide": 4,
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-04-final.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350
+    },
+    {
+      "slide": 5,
+      "path": "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-05-final.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350
+    }
+  ],
+  "checks": {
+    "all_exports_exist": "pass",
+    "all_exports_1080x1350": "pass",
+    "image_quality_eval_valid_json": "pass",
+    "trace_jsonl_valid": "pass",
+    "visual_review": "pass"
+  },
+  "decision": "ready_for_creator_review",
+  "failure": null
+}

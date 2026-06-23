@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "source_url": "https://www.instagram.com/p/DUtQzmaj9Rw/",
+  "source_shortcode": "DUtQzmaj9Rw",
+  "created_at": "2026-06-18T00:00:00+05:30",
+  "instruction": "Exact source carousel content as-is; A Story changes are design/style only, not copy invention.",
+  "source_slide_count": 19,
+  "render_scope": "slides_01_to_18_quote_cards",
+  "excluded_from_render": [
+    {
+      "slide": 19,
+      "reason": "Source slide 19 is a book/product promo image, not a quote-card content slide. It is preserved in source assets and map, but not silently converted into a fake A Story quote slide."
+    }
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "source_image": "input/source_full_reference/slide_01.jpg",
+      "text": "The intimacy of someone protecting your name when you’re not in the room.",
+      "segments": [
+        {"text": "The intimacy of someone protecting your name when you’re not in the room.", "italic": false}
+      ]
+    },
+    {
+      "slide": 2,
+      "source_image": "input/source_full_reference/slide_02.jpg",
+      "text": "The intimacy of reassurance.",
+      "segments": [
+        {"text": "The intimacy of ", "italic": false},
+        {"text": "reassurance.", "italic": true}
+      ]
+    },
+    {
+      "slide": 3,
+      "source_image": "input/source_full_reference/slide_03.jpg",
+      "text": "The intimacy of “You remembered?” “Of course I did.”",
+      "segments": [
+        {"text": "The intimacy of\n", "italic": false},
+        {"text": "“You remembered?”\n“Of course I did.”", "italic": true}
+      ]
+    },
+    {
+      "slide": 4,
+      "source_image": "input/source_full_reference/slide_04.jpg",
+      "text": "The intimacy of “I wanna do this with you.”",
+      "segments": [
+        {"text": "The intimacy of\n", "italic": false},
+        {"text": "“I wanna do this with you.”", "italic": true}
+      ]
+    },
+    {
+      "slide": 5,
+      "source_image": "input/source_full_reference/slide_05.jpg",
+      "text": "The intimacy of sharing the same kind of weird.",
+      "segments": [
+        {"text": "The intimacy of sharing the same kind of weird.", "italic": false}
+      ]
+    },
+    {
+      "slide": 6,
+      "source_image": "input/source_full_reference/slide_06.jpg",
+      "text": "The intimacy of long car rides and deep conversations, no eye contact, just two minds meeting, growing closer.",
+      "segments": [
+        {"text": "The intimacy of long car rides and deep conversations, no eye contact, just two minds meeting, growing closer.", "italic": false}
+      ]
+    },
+    {
+      "slide": 7,
+      "source_image": "input/source_full_reference/slide_07.jpg",
+      "text": "The intimacy of “For you, I would.”",
+      "segments": [
+        {"text": "The intimacy of\n", "italic": false},
+        {"text": "“For you, I would.”", "italic": true}
+      ]
+    },
+    {
+      "slide": 8,
+      "source_image": "input/source_full_reference/slide_08.jpg",
+      "text": "The intimacy of being loved platonically and deeply. Friends are soulmates, too.",
+      "segments": [
+        {"text": "The intimacy of being loved platonically and deeply.\n", "italic": false},
+        {"text": "Friends are soulmates, too.", "italic": true}
+      ]
+    },
+    {
+      "slide": 9,
+      "source_image": "input/source_full_reference/slide_09.jpg",
+      "text": "The intimacy of letting someone witness the weight of your grief, and stay.",
+      "segments": [
+        {"text": "The intimacy of letting someone witness the weight of your grief, ", "italic": false},
+        {"text": "and stay.", "italic": true}
+      ]
+    },
+    {
+      "slide": 10,
+      "source_image": "input/source_full_reference/slide_10.jpg",
+      "text": "The intimacy of learning to enjoy your own company. That feeling of being entirely at peace and at home with yourself is unmatched.",
+      "segments": [
+        {"text": "The intimacy of learning to enjoy your own company.\n\nThat feeling of being entirely at peace and at home with ", "italic": false},
+        {"text": "yourself", "italic": true},
+        {"text": " is unmatched.", "italic": false}
+      ]
+    },
+    {
+      "slide": 11,
+      "source_image": "input/source_full_reference/slide_11.jpg",
+      "text": "The intimacy of “No reason, I just wanted to hear your voice.”",
+      "segments": [
+        {"text": "The intimacy of\n", "italic": false},
+        {"text": "“No reason, I just wanted to hear your voice.”", "italic": true}
+      ]
+    },
+    {
+      "slide": 12,
+      "source_image": "input/source_full_reference/slide_12.jpg",
+      "text": "The intimacy of a voice changing when it’s just the two of you; softer, warmer, different.",
+      "segments": [
+        {"text": "The intimacy of a voice changing when it’s just the two of you; softer, warmer, ", "italic": false},
+        {"text": "different.", "italic": true}
+      ]
+    },
+    {
+      "slide": 13,
+      "source_image": "input/source_full_reference/slide_13.jpg",
+      "text": "The intimacy of shared, comfortable silence.",
+      "segments": [
+        {"text": "The intimacy of shared,\n", "italic": false},
+        {"text": "comfortable", "italic": true},
+        {"text": " silence.", "italic": false}
+      ]
+    },
+    {
+      "slide": 14,
+      "source_image": "input/source_full_reference/slide_14.jpg",
+      "text": "The intimacy of shared laughter finding its way into an argument. Love, breaking through.",
+      "segments": [
+        {"text": "The intimacy of shared laughter finding its way into an argument.\n", "italic": false},
+        {"text": "Love, breaking through.", "italic": true}
+      ]
+    },
+    {
+      "slide": 15,
+      "source_image": "input/source_full_reference/slide_15.jpg",
+      "text": "The intimacy of “text me when you get home” said like a small prayer.",
+      "segments": [
+        {"text": "The intimacy of\n", "italic": false},
+        {"text": "“text me when you get home”", "italic": true},
+        {"text": "\nsaid like a small prayer.", "italic": false}
+      ]
+    },
+    {
+      "slide": 16,
+      "source_image": "input/source_full_reference/slide_16.jpg",
+      "text": "The intimacy of “No rush, take your time. I’m here whenever you’re ready.”",
+      "segments": [
+        {"text": "The intimacy of\n", "italic": false},
+        {"text": "“No rush, take your time.\nI’m here whenever you’re ready.”", "italic": true}
+      ]
+    },
+    {
+      "slide": 17,
+      "source_image": "input/source_full_reference/slide_17.jpg",
+      "text": "The intimacy of falling in love without your nervous system being in survival mode.",
+      "segments": [
+        {"text": "The intimacy of falling in love without your nervous system being in survival mode.", "italic": false}
+      ]
+    },
+    {
+      "slide": 18,
+      "source_image": "input/source_full_reference/slide_18.jpg",
+      "text": "The intimacy of forgiving yourself for the days you disappointed yourself.",
+      "segments": [
+        {"text": "The intimacy of ", "italic": false},
+        {"text": "forgiving", "italic": true},
+        {"text": " yourself for the days you disappointed yourself.", "italic": false}
+      ]
+    },
+    {
+      "slide": 19,
+      "source_image": "input/source_full_reference/slide_19.jpg",
+      "type": "source_product_promo",
+      "visible_text_note": "Book/product promo image. Large cover text is partially obscured by hand; exact full copy is not safely transcribable from the image."
+    }
+  ]
+}

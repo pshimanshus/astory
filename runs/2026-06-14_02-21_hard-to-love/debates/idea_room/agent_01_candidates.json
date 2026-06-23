@@ -1,0 +1,223 @@
+{
+  "agent_role": "Relatability Ethnographer - Meera",
+  "persona_file": ".agents/skills/astory/personas/idea-room/relatability-ethnographer.md",
+  "assignment_mode": "fallback_local_pass_closed_packet",
+  "evidence_ledger": [
+    {
+      "artifact": "Studio mind",
+      "path": "AGENTS.md",
+      "what_you_used": "War-on-generic rule and requirement that every agent has identity, worldview, method, memory, and refusals.",
+      "gap_or_risk": "None for local pass."
+    },
+    {
+      "artifact": "Closed prompt packet",
+      "path": ".agents/skills/astory/templates/agents/idea_room_agent_prompt.md",
+      "what_you_used": "Required evidence ledger, premise lock, anti-generic pass, scene-landing seed, and output schema.",
+      "gap_or_risk": "Actual subagent rerun failed on usage limit, so this is a labeled local closed-packet pass."
+    },
+    {
+      "artifact": "Persona",
+      "path": ".agents/skills/astory/personas/idea-room/relatability-ethnographer.md",
+      "what_you_used": "Meera rejects sentiments dressed as ideas and requires behavior that can be photographed.",
+      "gap_or_risk": "None."
+    },
+    {
+      "artifact": "Creative brief",
+      "path": "runs/2026-06-14_02-21_hard-to-love/input/creative_brief.json",
+      "what_you_used": "Hard-to-love question family, anti-generic constraint, no forced both-person slides, 1080x1080 and brandmark later.",
+      "gap_or_risk": "Final imagegen references still need visibility proof later."
+    },
+    {
+      "artifact": "Creator corrections",
+      "path": "runs/2026-06-14_02-21_hard-to-love/planning/creator_direction_notes.md",
+      "what_you_used": "Concept screenshots are premise/text references only; Idea Room must use the closed prompt packet; current ad hoc pass is invalid.",
+      "gap_or_risk": "None."
+    },
+    {
+      "artifact": "Memory recall",
+      "path": "runs/2026-06-14_02-21_hard-to-love/planning/memory_recall.md",
+      "what_you_used": "Do not use automated memory as truth; direct lessons warn against copied concept style and stale two-face closeups.",
+      "gap_or_risk": "Brain doctor blocked on unrelated citation paths."
+    },
+    {
+      "artifact": "House style",
+      "path": ".agents/skills/astory/references/house-style-contract.md",
+      "what_you_used": "Premium off-white watercolor-and-ink, readable handwritten text, no yellow/parchment, scene must prove line.",
+      "gap_or_risk": "Prompt/image gates later must enforce native square and brandmark."
+    }
+  ],
+  "premise_lock": {
+    "must_preserve": [
+      "The vulnerability of asking whether one's quietness, overwhelm, or need for reassurance makes them hard to love.",
+      "Aachu/Zuv specificity through behavior, not generic reassurance.",
+      "The creator's rule: do not force both Aachu and Zuv into every slide."
+    ],
+    "must_not_change": [
+      "Do not turn the premise into a sad portrait quote-card.",
+      "Do not copy the dark/magenta/orange concept style.",
+      "Do not make Aachu the problem or Zuv a flawless rescuer."
+    ],
+    "rejected_generic_version": "A pretty sad girl asks 'am I hard to love?' and the boy hugs her or says no."
+  },
+  "candidates": [
+    {
+      "title": "The Chair Outside The Door",
+      "one_line_concept": "Aachu goes quiet behind a closed door and worries that silence makes her hard to love; Zuv proves he understands by staying near without forcing the explanation.",
+      "emotional_truth": "Some people are not asking to be decoded immediately. They are asking not to be abandoned while they become speakable again.",
+      "relatable_trigger": "The person who shuts down after being overwhelmed, then feels guilty because even needing space feels like a burden.",
+      "suggested_slide_arc": [
+        "Closed door, chair outside, and the question: am i hard to love when i go quiet?",
+        "Water and charger appear on the chair; Zuv's hand leaves frame instead of knocking.",
+        "The chair shifts position over time, showing he is nearby but not crowding her.",
+        "The door cracks open; the water is half empty and the charger is in use.",
+        "Morning: the folded cloth is pulled inside while Zuv is asleep in the chair."
+      ],
+      "suggested_slide_1_moment": "A quiet off-white hallway with a closed door, a strip of light underneath, and an empty chair outside it.",
+      "suggested_payoff_moment": "Aachu's hand reaches through the cracked door for the cloth while Zuv is partly visible asleep in the chair.",
+      "visual_evidence": "Door, chair, glass of water, charger, folded cloth, changed object positions, morning light.",
+      "share_or_comment_trigger": "For anyone who disappears when overwhelmed but still wants to be found gently.",
+      "why_not_generic": "The answer is not a line of reassurance; it is restraint made visible through objects.",
+      "failure_risks": [
+        "Could become a solemn hallway mood piece if object continuity is weak.",
+        "Could make Zuv saintly if the chair becomes martyr staging.",
+        "Door-hand anatomy must stay simple."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "Closed door, empty chair, light under the door, large clean upper-middle space for handwritten text.",
+        "hook_text_direction": "am i hard to love when i go quiet?",
+        "mini_arc": [
+          "Closed door asks the question.",
+          "Care objects arrive without pressure.",
+          "The distance is adjusted, not erased.",
+          "The door opens enough for the care to be used.",
+          "Morning shows he stayed, but quietly."
+        ],
+        "payoff_frame": "Half-empty glass and cloth pulled inside; Zuv not hero-framed.",
+        "send_or_comment_trigger": "Send this as a thank-you to the person who knows when not to knock.",
+        "flat_or_generic_risk": "Sad door plus text with no lived-in object changes."
+      },
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 5,
+        "specificity": 5,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal": 5
+      },
+      "risk_of_being_generic": "Medium only if stripped of the chair/water/charger/folded-cloth evidence."
+    },
+    {
+      "title": "The Bag That Knew Already",
+      "one_line_concept": "Aachu worries she is hard to handle, but Zuv's bag quietly shows he has learned the care instructions before the day even begins.",
+      "emotional_truth": "Being loved by someone observant can make your needs feel less like a performance and more like part of the route.",
+      "relatable_trigger": "The partner who knows snacks first, questions later; charger before panic; scarf before cold; exit plan before overwhelm.",
+      "suggested_slide_arc": [
+        "Open bag with water, snack, charger, scarf and the question.",
+        "Aachu alone at the edge of a noisy place.",
+        "One bag object appears in use without ceremony.",
+        "Zuv's hand opens the bag again or makes room near a quieter edge.",
+        "Quiet corner: the used bag sits between them."
+      ],
+      "suggested_slide_1_moment": "A lived-in open bag as a flat-lay, not a face.",
+      "suggested_payoff_moment": "Aachu calmer with one item from the bag while the bag remains open and ordinary.",
+      "visual_evidence": "Sling bag, water, snack, charger, scarf, softer edge of a public place.",
+      "share_or_comment_trigger": "People can comment their own care instructions.",
+      "why_not_generic": "It makes 'hard to handle' practical and slightly funny, not tragic.",
+      "failure_risks": [
+        "Can become Pinterest care-kit romance.",
+        "Too many objects can clutter the square.",
+        "Public crowd must stay suggested, not detailed."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "Open sling bag on off-white paper with four to six readable care objects.",
+        "hook_text_direction": "am i hard to handle, or do i come with instructions?",
+        "mini_arc": [
+          "Bag introduces care instructions.",
+          "Aachu needs one thing in public.",
+          "The item is already there.",
+          "Zuv makes space without fuss.",
+          "The bag sits open and used."
+        ],
+        "payoff_frame": "The bag as evidence that her needs were expected.",
+        "send_or_comment_trigger": "Comment your care label.",
+        "flat_or_generic_risk": "Aesthetic object list with no couple behavior."
+      },
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 4,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4,
+        "risk_of_stereotype_reversal": 4
+      },
+      "risk_of_being_generic": "Medium if objects are too polished or universal."
+    },
+    {
+      "title": "The Last Bite She Hid Under A Bowl",
+      "one_line_concept": "Aachu asks if she is not enough while the table quietly proves she kept loving in one tiny habit: saving Zuv the best bite.",
+      "emotional_truth": "People who feel hard to love often keep loving in invisible ways while apologizing for needing anything back.",
+      "relatable_trigger": "Couples where the best bite silently belongs to the other person.",
+      "suggested_slide_arc": [
+        "A plate with the best bite set aside and the question.",
+        "Aachu covers it with a small bowl before leaving the table.",
+        "Zuv returns and notices.",
+        "The empty saucer later sits near her cup.",
+        "A small note-free acknowledgment, not a repayment."
+      ],
+      "suggested_slide_1_moment": "Tabletop frame: plate, saved bite, Aachu's hand, clean text space.",
+      "suggested_payoff_moment": "The empty saucer near Aachu's cup shows he noticed.",
+      "visual_evidence": "Saved bite, bowl, saucer, cup, hand.",
+      "share_or_comment_trigger": "For couples with the last-bite ritual.",
+      "why_not_generic": "The insecurity is contradicted by a tiny specific act already in frame.",
+      "failure_risks": [
+        "Can imply Aachu proves worth through giving.",
+        "Can become still-life quote-card if no hand/gesture appears.",
+        "Less direct fit for hard-to-love than the door/chair idea."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "One plate with the best bite saved, Aachu's hand nearby.",
+        "hook_text_direction": "am i not enough?",
+        "mini_arc": [
+          "Question over saved bite.",
+          "She hides it under a bowl.",
+          "He finds it.",
+          "He leaves proof he noticed.",
+          "Recognition lands quietly."
+        ],
+        "payoff_frame": "Empty saucer near her cup.",
+        "send_or_comment_trigger": "Tag the person you save the best bite for.",
+        "flat_or_generic_risk": "Self-sacrifice instead of mutual recognition."
+      },
+      "scores": {
+        "relatability": 4,
+        "emotional_truth": 5,
+        "specificity": 4,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4,
+        "risk_of_stereotype_reversal": 4
+      },
+      "risk_of_being_generic": "Medium-high if it becomes proof-of-worth through selflessness."
+    }
+  ],
+  "top_pick": "The Chair Outside The Door",
+  "required_room_critiques": [
+    "Kabir should sharpen the sendable first line without turning it into therapy-speak.",
+    "Tara should protect the door/chair staging from becoming empty sad wallpaper.",
+    "Story Room must keep Zuv present without making him a martyr."
+  ],
+  "rejected_patterns": [
+    "Sad portrait plus direct question text.",
+    "Both partners in every frame.",
+    "Patient boyfriend fixes anxious girlfriend.",
+    "Grand answer to the insecurity."
+  ],
+  "risk_notes": [
+    "The chair idea wins only if the objects visibly change over time.",
+    "No copied dark concept styling.",
+    "No forced two-person slide logic."
+  ],
+  "failure_codes": []
+}

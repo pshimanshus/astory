@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-18_21-48_identity-route-redo-test",
+  "options": [
+    {
+      "id": "standing_banter",
+      "status": "selected",
+      "source": "input/standing-banter-reference.png",
+      "platform_mechanic": "send-to-partner recognition gag",
+      "emotional_proof": "Aachu's talking hand and touch on Zuv's arm contrasted with Zuv's patient side-eye",
+      "identity_test_need": "both faces readable, source pose not copied"
+    },
+    {
+      "id": "station_reunion",
+      "status": "selected",
+      "source": "input/station-hug-reference.png",
+      "platform_mechanic": "save/send for long-distance reunion ache",
+      "emotional_proof": "post-hug closeness, dropped bags, train platform, eye contact",
+      "identity_test_need": "pulled-apart embrace with both faces front-three-quarter readable"
+    }
+  ]
+}

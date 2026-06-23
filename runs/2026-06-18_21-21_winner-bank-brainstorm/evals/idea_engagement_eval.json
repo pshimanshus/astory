@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-06-18_21-21_winner-bank-brainstorm",
+  "selected_id": "barefoot_chappal_return",
+  "overall_score": 4.86,
+  "passes_threshold": true,
+  "threshold": 4.0,
+  "evidence_basis": [
+    "Owned A Story shares-per-1k ranking",
+    "Winner-bank public mechanics",
+    "Agent outputs from Relatability Ethnographer, Shareability Strategist, Visual Story Director"
+  ],
+  "rubric": {
+    "shareability": 4.8,
+    "comment_potential": 4.6,
+    "save_potential": 4.4,
+    "specificity": 5.0,
+    "visual_clarity": 5.0,
+    "source_alignment": 5.0,
+    "brand_fit": 5.0
+  },
+  "failure_checks": {
+    "AI_SLOP_COPY_DRIFT": "pass",
+    "ORIGINAL_SETUP_DRIFT": "pass",
+    "SHARE_TRIGGER_MISSING": "pass",
+    "VISUAL_ONLY_MOOD_WORDS": "pass",
+    "PLATFORM_MECHANIC_MISSING": "pass",
+    "EVIDENCE_GAP_UNDISCLOSED": "pass"
+  },
+  "limitations": [
+    "Competitor slide OCR is incomplete; external sources were used as mechanics only.",
+    "Final image generation still requires identity/style reference gates."
+  ]
+}

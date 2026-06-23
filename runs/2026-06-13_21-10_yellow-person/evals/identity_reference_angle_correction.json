@@ -1,0 +1,10 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "identity_reference_angle_rule_recorded",
+  "timestamp": "2026-06-14T01:22:42+05:30",
+  "creator_feedback": "A side-angle face identity reference does not mean the final illustration should use a side-angle pose.",
+  "rejected_assumption": "The final image can inherit camera angle or pose from identity face references.",
+  "active_constraint": "Identity references supply likeness cues only. Final camera angle, eyeline, pose, wardrobe, and composition must come from the locked scene brief.",
+  "current_attempt_status": "rejected",
+  "current_attempt_reason": "The latest native-size attempt was not acceptable for final use because the raw file was not native 1080x1350 and the prompt allowed identity-reference angle to influence final pose."
+}

@@ -1,0 +1,85 @@
+{
+  "agent_role": "Shareability Strategist / Kabir",
+  "candidates": [
+    {
+      "title": "The Can We Leave Language",
+      "suggested_text_hook": "we have a whole language for \"can we leave?\"",
+      "why_people_may_share": "The send-trigger is instant: every couple has a private exit signal at weddings, family dinners, office parties, or friend gatherings. Someone sends this because it says, softly and safely, \"you and I are a team in public.\"",
+      "why_people_may_comment": "It baits specific comments: \"the eyebrow raise,\" \"the foot tap,\" \"ours is the keys sound,\" \"he knows from one look.\"",
+      "likely_audience_reaction": "Babe this is us. No caption needed, just a tag and an accusation with affection.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 3,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 5,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "Still Mad, Still Careful",
+      "suggested_text_hook": "we were still mad. he still brought my water.",
+      "why_people_may_share": "This travels because it gives couples language for the tiny repair gestures after a small fight. Sending it is a confession, not a performance: \"I noticed you do this.\"",
+      "why_people_may_comment": "People will comment with their own soft repair rituals: chargers, medicine, blankets, saving food, locking the door for them even mid-argument.",
+      "likely_audience_reaction": "Guilty. Annoyed but smiling. A little emotionally attacked in the correct way.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 4,
+        "save_potential": 5,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "The Party Debrief",
+      "suggested_text_hook": "we left the party. the meeting continued.",
+      "why_people_may_share": "The send reason is beautifully specific: couples who cannot leave any social event without a full post-game analysis. It turns gossip into intimacy without making them look cruel.",
+      "why_people_may_comment": "Comment bait is strong: \"parking lot debrief,\" \"shoes still on debrief,\" \"we do minutes of the meeting,\" \"the ride home is the real event.\"",
+      "likely_audience_reaction": "Why are we like this. Also please never stop doing this with me.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 3,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 5,
+        "brand_fit": 5
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "The Can We Leave Language",
+    "reason": "Best pure send. It has the fastest recognition window, the clearest partner-tag reason, and the lowest social risk. The sender is not criticizing their partner; they are celebrating their secret team language."
+  },
+  "engagement_rationale": {
+    "send_trigger": "A private couple signal that viewers can identify in under three seconds.",
+    "tag_reason": "One partner can tag the other as proof that their exact silent signal exists.",
+    "likely_comment_cluster": [
+      "ours is the eyebrow",
+      "he knows from one look",
+      "the keys jingle means go",
+      "this is our entire relationship"
+    ],
+    "why_this_is_not_like_only": "The hook names a shared behavior so specifically that the natural action is to send it to the person who participates in it, not just admire the artwork."
+  },
+  "distribution_risks": [
+    {
+      "risk": "If drawn too broadly, it may become a generic party scene.",
+      "mitigation": "Make the visual proof the couple's eye contact and tiny exit signal, with the room fading into soft background noise."
+    },
+    {
+      "risk": "Could read as social anxiety if handled too heavy.",
+      "mitigation": "Keep the expression playful, conspiratorial, and affectionate."
+    },
+    {
+      "risk": "Text must stay phone-readable and not feel like a quote card.",
+      "mitigation": "Use warm-charcoal handwritten text baked into upper-middle negative space with the couple scene doing the emotional work."
+    }
+  ]
+}

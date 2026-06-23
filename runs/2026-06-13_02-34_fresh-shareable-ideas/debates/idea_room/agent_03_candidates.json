@@ -1,0 +1,192 @@
+{
+  "agent_role": "Visual Story Director - Tara",
+  "candidates": [
+    {
+      "title": "The Charger Has A Favorite Person",
+      "one_line_concept": "Their shared evening can be tracked by one long charging cable that keeps migrating toward whoever is pretending they do not need attention.",
+      "suggested_slide_arc": [
+        "Zuv reaches for the charger near the desk; only the cable tail is left.",
+        "Aachu is on the rug using it, but has placed his phone beside hers so it can charge too.",
+        "They keep moving closer to the outlet without admitting they are choosing the same corner.",
+        "Payoff: both phones abandoned at 4 percent while they sit together beside the plug."
+      ],
+      "suggested_slide_1_moment": "Zuv half-kneeling beside the desk, holding the empty plug end like evidence; Aachu visible in the background on the rug with the cable crossing the floor.",
+      "suggested_payoff_moment": "Both sitting shoulder-near but not face-crowded beside one wall outlet, phones lying untouched, cable loosely looping between them.",
+      "visual_potential": "Strong single prop, clean eyelines, low anatomy risk, readable phone-screen staging without tiny text.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Cable path could become visually messy if overdrawn.",
+        "Needs clear phone/charger silhouettes so the joke lands instantly.",
+        "Avoid making it look like a tech complaint instead of affection."
+      ],
+      "visual_clarity": 5,
+      "scene_variety": 4,
+      "imagegen_feasibility": 5,
+      "character_consistency_potential": 5,
+      "text_integration_potential": 4,
+      "prop_usefulness": 5,
+      "anatomy_safety": 5,
+      "slide_payoff": 5,
+      "overall": 4.75
+    },
+    {
+      "title": "His Bookmark Is Always Her Stuff",
+      "one_line_concept": "Zuv keeps marking his book with whatever tiny thing Aachu left nearby, and every bookmark accidentally becomes a portrait of her.",
+      "suggested_slide_arc": [
+        "Aachu notices her hair clip sticking out of Zuv's book.",
+        "Next slide: a receipt from their snack run used as a bookmark.",
+        "Next slide: a pressed tissue with her lipstick stain tucked between pages.",
+        "Payoff: Zuv opens the book and finds Aachu has placed a proper bookmark inside that says nothing, just a tiny drawn arrow pointing to her."
+      ],
+      "suggested_slide_1_moment": "Aachu standing beside a chair, pointing at her hair clip peeking from Zuv's open book on the armrest; Zuv caught mid-page-turn.",
+      "suggested_payoff_moment": "Close but not cramped tabletop frame: book open, handmade blank bookmark, Aachu's hand entering from one side, Zuv smiling down at the page.",
+      "visual_potential": "Excellent prop sequence, intimate without face crowding, easy repeated object motif.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Lipstick/tissue detail must not become microtext or gross.",
+        "The payoff bookmark needs a simple visual symbol, not readable writing.",
+        "Must avoid making Zuv look careless with her things."
+      ],
+      "visual_clarity": 4,
+      "scene_variety": 4,
+      "imagegen_feasibility": 5,
+      "character_consistency_potential": 5,
+      "text_integration_potential": 4,
+      "prop_usefulness": 5,
+      "anatomy_safety": 5,
+      "slide_payoff": 4,
+      "overall": 4.5
+    },
+    {
+      "title": "The Snack Bowl Treaty",
+      "one_line_concept": "They silently negotiate love through how many chips each leaves in the bowl, until the last one becomes a ceremony.",
+      "suggested_slide_arc": [
+        "Both hands reach into the bowl at the same time and freeze.",
+        "Aachu pushes the bowl slightly toward Zuv while looking away.",
+        "Zuv pushes it back with one remaining chip arranged in the center.",
+        "Payoff: the last chip is broken in half with absurd seriousness."
+      ],
+      "suggested_slide_1_moment": "Top-down-ish table scene: two hands hovering over a bowl, two faces visible above the table edge, both pretending not to notice.",
+      "suggested_payoff_moment": "A clean lower-frame close scene of the chip split on a napkin, their two hands each holding half, faces softly in upper space.",
+      "visual_potential": "Very shareable couple behavior, tactile, low-risk, phone-readable, with natural baked-in text space above.",
+      "execution_difficulty_score": 1,
+      "failure_risks": [
+        "Could become generic if the hands are the only emotional proof.",
+        "Needs precise eyeline comedy, not just cute sharing.",
+        "Avoid overly zoomed-in food illustration."
+      ],
+      "visual_clarity": 5,
+      "scene_variety": 3,
+      "imagegen_feasibility": 5,
+      "character_consistency_potential": 4,
+      "text_integration_potential": 5,
+      "prop_usefulness": 5,
+      "anatomy_safety": 5,
+      "slide_payoff": 4,
+      "overall": 4.5
+    },
+    {
+      "title": "The Door He Holds For Her Mood",
+      "one_line_concept": "Zuv does not just hold the door; he keeps holding the exact emotional pause Aachu needs before entering the day.",
+      "suggested_slide_arc": [
+        "Aachu stands just inside the doorway with one shoe on, not ready yet.",
+        "Zuv is outside holding the door open, looking back without rushing her.",
+        "She picks up one forgotten thing, then another, while he shifts the door from hand to elbow.",
+        "Payoff: he is still there, now holding the door, her keys, and one tiny plant she decided had to come too."
+      ],
+      "suggested_slide_1_moment": "Interior threshold composition: Aachu framed by the doorway putting on one shoe; Zuv outside in profile holding the door, bright negative space above.",
+      "suggested_payoff_moment": "Zuv at the open door with keys and small plant pot balanced safely, Aachu stepping out calmer, both faces separated enough to preserve identity.",
+      "visual_potential": "Fresh care without stereotype if staged as patience, not rescue; strong threshold metaphor and prop accumulation.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Can drift into generic care if the objects are not specific and funny.",
+        "Door/limb geometry needs clean staging.",
+        "Avoid too many props in the payoff."
+      ],
+      "visual_clarity": 4,
+      "scene_variety": 4,
+      "imagegen_feasibility": 4,
+      "character_consistency_potential": 5,
+      "text_integration_potential": 4,
+      "prop_usefulness": 4,
+      "anatomy_safety": 4,
+      "slide_payoff": 5,
+      "overall": 4.25
+    },
+    {
+      "title": "She Saves The Best Light For Him",
+      "one_line_concept": "Aachu keeps adjusting the room so Zuv lands in the nicest patch of evening light without realizing she has made him the scene.",
+      "suggested_slide_arc": [
+        "Aachu opens the curtain a little while Zuv reads on the sofa.",
+        "She moves a mug, then a cushion, then the lamp, all to keep the warm patch on him.",
+        "Zuv finally notices the whole room has been quietly rearranged around his chair.",
+        "Payoff: he shifts over and leaves half the light for her."
+      ],
+      "suggested_slide_1_moment": "Aachu by the curtain pulling it open with one hand; Zuv seated in a clean sun patch, unaware, book or notebook in lap.",
+      "suggested_payoff_moment": "Two separate readable faces in one sofa composition, sitting in the shared rectangle of light, props slightly rearranged around them.",
+      "visual_potential": "Beautiful house-style fit, airy negative space, emotional without crowding, but needs action beats so it does not become only mood.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Light may become too atmospheric unless props prove the joke.",
+        "Could feel less instantly shareable than stronger everyday-behavior ideas.",
+        "Must avoid yellow parchment cast while showing warm light."
+      ],
+      "visual_clarity": 4,
+      "scene_variety": 3,
+      "imagegen_feasibility": 4,
+      "character_consistency_potential": 5,
+      "text_integration_potential": 5,
+      "prop_usefulness": 4,
+      "anatomy_safety": 5,
+      "slide_payoff": 4,
+      "overall": 4.25
+    },
+    {
+      "title": "The Remote Control Custody Battle",
+      "one_line_concept": "The remote keeps changing hands, but the real joke is that neither of them is actually watching anymore.",
+      "suggested_slide_arc": [
+        "Aachu points the remote at the TV with full seriousness.",
+        "Zuv slides a bowl or cushion across the table as a peace offering for the remote.",
+        "The remote sits exactly between them like a tiny courtroom exhibit.",
+        "Payoff: the TV is still on the menu screen while they are laughing at each other instead."
+      ],
+      "suggested_slide_1_moment": "Aachu on one side of the sofa holding the remote upright; Zuv on the other side offering a snack bowl, TV glow implied but not dominant.",
+      "suggested_payoff_moment": "Wide sofa scene with the remote abandoned in the center cushion, both looking at each other, TV menu barely visible as background proof.",
+      "visual_potential": "Very readable prop comedy, strong share/save behavior, easy carousel rhythm.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "TV screen must not require readable microtext.",
+        "Could become sitcom-generic unless the handoff rituals feel intimate.",
+        "Keep faces apart; avoid tangled sofa pose."
+      ],
+      "visual_clarity": 5,
+      "scene_variety": 4,
+      "imagegen_feasibility": 5,
+      "character_consistency_potential": 4,
+      "text_integration_potential": 4,
+      "prop_usefulness": 5,
+      "anatomy_safety": 5,
+      "slide_payoff": 4,
+      "overall": 4.5
+    }
+  ],
+  "top_pick": {
+    "title": "The Charger Has A Favorite Person",
+    "reason": "It has the cleanest visual proof: one cable tells the whole relationship without needing microtext, face crowding, or generic care."
+  },
+  "visual_risks": [
+    "Avoid tiny screen text, receipts, or labels.",
+    "Keep faces separated enough for reference-driven identity.",
+    "Use props as proof, not clutter.",
+    "Do not let care beats become one-sided service.",
+    "Warm light must not become yellow parchment."
+  ],
+  "slide_count_hints": {
+    "The Charger Has A Favorite Person": 4,
+    "His Bookmark Is Always Her Stuff": 4,
+    "The Snack Bowl Treaty": 3,
+    "The Door He Holds For Her Mood": 4,
+    "She Saves The Best Light For Him": 4,
+    "The Remote Control Custody Battle": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "selected_idea_id": "selected_empty_usual_spot",
+  "score_threshold": 4.0,
+  "scores": {
+    "relatability": 5.0,
+    "shareability": 4.9,
+    "comment_potential": 4.7,
+    "visual_clarity": 5.0,
+    "emotional_truth": 4.8,
+    "humor_warmth_balance": 4.6,
+    "freshness": 4.7,
+    "brand_fit": 4.9,
+    "simplicity": 4.7,
+    "carousel_payoff": 4.9,
+    "overall": 4.74
+  },
+  "selection_allowed": true,
+  "second_round_required": false,
+  "agent_assignment_status": "actual_multi_agent",
+  "evidence_basis": [
+    "references/brain/pages/outcome-attribution.md",
+    "references/brain/policies/current-copy-contract-2026-06-18.md",
+    "references/text-style/winner-bank-index-2026-06-14.json",
+    "runs/2026-06-19_21-09_ghar-line/debates/idea_room/agent_01_candidates.json",
+    "runs/2026-06-19_21-09_ghar-line/debates/idea_room/agent_02_candidates.json",
+    "runs/2026-06-19_21-09_ghar-line/debates/idea_room/agent_03_candidates.json"
+  ],
+  "notes": "Selected idea passes idea threshold. It has a clear send trigger, concrete visual proof, and a simple two-slide payoff aligned with the creator's request.",
+  "watch_failure_codes": [
+    "AI_SLOP_COPY_DRIFT",
+    "QUOTE_CARD_NOT_ILLUSTRATION",
+    "TEXT_UNREADABLE",
+    "TOO_FEW_SLIDES",
+    "ORIGINAL_SETUP_DRIFT"
+  ]
+}

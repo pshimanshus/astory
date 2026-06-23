@@ -1,0 +1,118 @@
+{
+  "agent_role": "Relatability Ethnographer",
+  "persona_name": "Meera",
+  "source_agent_id": "019ec619-38dd-74d0-85b7-1c43f4449216",
+  "premise_lock": {
+    "must_preserve": [
+      "remembered-detail intimacy",
+      "surprise plus quiet certainty",
+      "physical proof before explanation",
+      "Aachu/Zuv specificity",
+      "sendable recognition"
+    ],
+    "must_not_change": [
+      "no quote card",
+      "no copied We The Urban visual style",
+      "no generic little-things moral",
+      "no saintly Zuv or helpless Aachu",
+      "no final prompts or images"
+    ],
+    "rejected_generic_version": "A soft carousel saying real love is when someone remembers the little things."
+  },
+  "candidates": [
+    {
+      "title": "The Hair Clip In His Pocket",
+      "one_line_concept": "Zuv remembers that Aachu always needs a hair clip at the exact moment she has already given up pretending her hair is fine.",
+      "relatable_trigger": "The partner who becomes emergency storage for your clip, safety pin, lip balm, or tiny survival object.",
+      "visual_evidence": "The actual clip, her hair falling forward, his hand in pocket, her interrupted expression.",
+      "share_or_comment_trigger": "Send to the person who carries your tiny chaos objects.",
+      "failure_risks": ["AI_SLOP_COPY_DRIFT", "VISUAL_GENERIC_RISK", "SCENE_LOGIC_CONTRADICTION", "WEAK_PAYOFF"],
+      "scores": {
+        "relatability": 4.8,
+        "emotional_truth": 4.7,
+        "specificity": 4.8,
+        "warmth": 4.5,
+        "everyday_visual_evidence": 4.9,
+        "brand_fit": 4.8,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 4.4
+      }
+    },
+    {
+      "title": "The Phone Was Already Charging",
+      "one_line_concept": "Zuv remembers that Aachu cannot fully sleep unless her phone is charging, so the proof is a cable already routed to her side.",
+      "relatable_trigger": "The person who says the battery is fine at 19 percent but checks it three times before bed.",
+      "visual_evidence": "Charging icon, cable crossing to her side, her paused hand, his sleepy posture.",
+      "share_or_comment_trigger": "Send to the person who charges your phone before you admit you need it.",
+      "failure_risks": ["AI_SLOP_COPY_DRIFT", "VISUAL_GENERIC_RISK", "TEXT_UNREADABLE", "WEAK_PAYOFF"],
+      "scores": {
+        "relatability": 4.7,
+        "emotional_truth": 4.6,
+        "specificity": 4.6,
+        "warmth": 4.6,
+        "everyday_visual_evidence": 4.9,
+        "brand_fit": 4.7,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 4.7
+      }
+    },
+    {
+      "title": "No Raw Onion, Extra Chutney",
+      "one_line_concept": "Zuv remembers Aachu's exact food-order correction so precisely that the plate carries the intimacy before either of them says anything.",
+      "relatable_trigger": "Couples who know each other's food edits better than their own passwords.",
+      "visual_evidence": "Food box, separate chutney cup, missing onion pile, hand sliding the correct plate.",
+      "share_or_comment_trigger": "Comment with the food edit your person knows by heart.",
+      "failure_risks": ["GENERIC_IDEA", "AI_SLOP_COPY_DRIFT", "VISUAL_GENERIC_RISK", "SCENE_LOGIC_CONTRADICTION"],
+      "scores": {
+        "relatability": 4.6,
+        "emotional_truth": 4.4,
+        "specificity": 4.3,
+        "warmth": 4.4,
+        "everyday_visual_evidence": 4.8,
+        "brand_fit": 4.4,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 4.6
+      }
+    },
+    {
+      "title": "The AC Number He Pretends Is Random",
+      "one_line_concept": "Zuv sets the AC to Aachu's exact comfort number before handing over the remote, then acts like the room just happened to get right.",
+      "relatable_trigger": "Couples with an AC setting that has become domestic politics and private tenderness.",
+      "visual_evidence": "AC remote number, blanket edge, one quiet beep, her glance at the display.",
+      "share_or_comment_trigger": "Send to the person who knows your AC number and still pretends they do not.",
+      "failure_risks": ["VISUAL_GENERIC_RISK", "AI_SLOP_COPY_DRIFT", "SCENE_LOGIC_CONTRADICTION", "WEAK_PAYOFF"],
+      "scores": {
+        "relatability": 4.5,
+        "emotional_truth": 4.5,
+        "specificity": 4.5,
+        "warmth": 4.2,
+        "everyday_visual_evidence": 4.7,
+        "brand_fit": 4.3,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 3.8
+      }
+    },
+    {
+      "title": "He Lets The Chai Stop Being Dangerous",
+      "one_line_concept": "Zuv remembers Aachu burns her tongue on the first sip, so he waits until the chai stops being weapon-hot before handing it over.",
+      "relatable_trigger": "The person who says it is not too hot, burns their tongue, and does it again tomorrow.",
+      "visual_evidence": "Steam level, cup placement, his hand guarding the mug casually, her impatient reach.",
+      "share_or_comment_trigger": "Comment with the thing your partner makes you wait for because they know you.",
+      "failure_risks": ["SCENE_LOGIC_CONTRADICTION", "VISUAL_ONLY_MOOD_WORDS", "AI_SLOP_COPY_DRIFT", "WEAK_PAYOFF"],
+      "scores": {
+        "relatability": 4.4,
+        "emotional_truth": 4.3,
+        "specificity": 4.4,
+        "warmth": 4.5,
+        "everyday_visual_evidence": 4.6,
+        "brand_fit": 4.5,
+        "risk_of_stereotype_reversal_lower_risk_scores_higher": 4.3
+      }
+    }
+  ],
+  "top_pick": "The Hair Clip In His Pocket",
+  "rejected_patterns": [
+    "quote-card translation",
+    "love is remembering the little things",
+    "soft eye contact with no object doing the work",
+    "saintly Zuv / helpless Aachu",
+    "polished moral about listening"
+  ],
+  "failure_codes": []
+}

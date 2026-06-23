@@ -1,0 +1,24 @@
+GENERATION PRIORITY:
+Create a native 1080x1080 px @a.storyof.two illustration for slide 1 of 1. Use the loaded raw Aachu and Zuv face-anchor images as the highest-priority visual inputs. Use the loaded best-illustration references only for watercolor-and-ink finish, neutral paper, integrated handwriting, and composition. Do not let style images, binders, or text descriptions replace raw face anchors.
+
+ON-IMAGE TEXT:
+he said "i'm not hungry"
+so why is my plate nervous?
+
+SCENE:
+Aachu sits low on a simple living-room rug beside a small side table, holding a plate of fries/snacks close to her body like she already knows it is in danger. Zuv sits slightly behind and to her side, phone loose in one hand as a fake distraction, but his eyes clearly drift toward the plate. Aachu gives him a suspicious, amused side glance. The theft has not happened yet; the joke is the pre-theft tension. Keep both faces readable in a medium-wide, slightly high front three-quarter composition, with the plate clear in the lower-middle and generous clean negative space above for text.
+
+IDENTITY ANCHORS:
+Aachu face identity must match the loaded Aachu face-anchor images: real expressive dark eyes, natural brows, soft oval/round face, fuller lips, long dark hair with natural volume, warm real-person charm. Zuv face identity must match the loaded Zuv face-anchor images: thick dark wavy hair, thick brows, recognizable eyes and nose, trimmed beard and mustache, rounded/oval face, gentle mischievous gaze. Do not reverse roles, invent new faces, merge features, change ethnicity/age/skin tone, or over-beautify them into models.
+
+STYLE AND COLOR:
+Use the loaded style references only for premium hand-drawn romantic editorial watercolor-and-ink finish, fine ink and pencil linework, visible paper grain, transparent muted washes, tactile clothing and prop detail, soft faded edges, clean expressive faces, and integrated handwritten typography. Neutral white/off-white paper only: no yellow, mustard, sepia, beige/tan, parchment, coffee-stained, or heavy cream cast. Keep the domestic background restrained and secondary.
+
+COMPOSITION AND TEXT:
+Place exact hand-drawn charcoal text in the upper-middle negative space, preserving spelling, punctuation, capitalization, quotation marks, and line breaks exactly. Add tiny low-contrast handwritten @a.storyof.two at bottom-right as part of the artwork.
+
+HARD NO:
+No anime, children's cartoon, doll/model face, photorealism, flat vector, poster or quote-card design, generic AI watercolor, digital overlay typography, random extra text, wrong text, missing brandmark, distorted eyes, bad hands/fingers, extra limbs, face merge, face drift, role reversal, yellow/parchment cast, or broken plate/hand logic.
+
+GENERATION HARD GATE:
+Do not generate final Aachu/Zuv artwork from text descriptions or file paths alone. Actual loaded raw Aachu face identity references, Zuv face identity references, and style references must be used as image context. If those active loaded references cannot be used, stop and mark IDENTITY_REFERENCE_INPUT_UNPROVEN.

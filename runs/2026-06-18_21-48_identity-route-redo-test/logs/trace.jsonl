@@ -1,0 +1,9 @@
+{"state":"MEMORY_RECALL_PREFLIGHT","status":"complete","artifact":"planning/memory_recall.md"}
+{"state":"CREATE_SCENE_LANDING_PREVIEW","status":"complete","artifact":"planning/scene_landing_preview.md"}
+{"state":"HITL_IDEA_LOCK","status":"approved","artifact":"docs/approvals.md"}
+{"state":"HITL_STORY_LOCK","status":"approved","artifact":"docs/approvals.md"}
+{"state":"DISCOVER_AND_ASSIGN_AGENTS","status":"actual_multi_agent","artifact":"debates/agent_assignment_matrix.md"}
+{"state":"LOAD_REFERENCE_IMAGES_IN_CONTEXT","status":"complete","artifact":"evals/imagegen_reference_visibility_proof.json","loaded_count":15}
+{"state":"PRE_GENERATION_EVAL","status":"pass","artifact":"evals/pre_generation_eval.json"}
+{"state":"HITL_PROMPT_LOCK","status":"approved","artifact":"docs/approvals.md"}
+{"state":"SESSION_LEARNING_CAPTURE","status":"complete","summary":"Creator rejected the generated face match; recorded that current-request/source illustrations with non-Aachu/Zuv faces must be analysis-only, not active imagegen inputs.","artifacts":["runs/2026-06-18_21-48_identity-route-redo-test/planning/creator_direction_notes.md","scripts/prepare_imagegen_reference_context.py","tests/test_imagegen_reference_context.py"]}

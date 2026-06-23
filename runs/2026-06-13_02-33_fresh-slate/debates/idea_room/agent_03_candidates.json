@@ -1,0 +1,135 @@
+{
+  "agent_role": "Visual Story Director - Tara",
+  "candidates": [
+    {
+      "title": "The AC Remote Treaty",
+      "suggested_slide_arc": [
+        "Slide 1: Evening living room. Aachu is wrapped in a shawl and socks, Zuv is visibly warm, and the AC remote sits between them on the coffee table.",
+        "Slide 2: Aachu quietly reaches for the remote like she is moving evidence; Zuv notices from the other side of the sofa.",
+        "Slide 3: Zuv redirects a small fan toward himself while Aachu secures the blanket corner, both pretending this is a mature negotiation.",
+        "Slide 4: The remote rests centered between them like a peace treaty; fan angled at Zuv, Aachu tucked warm, both smug and comfortable."
+      ],
+      "suggested_slide_1_moment": "A clean living-room frame with the AC remote as the only disputed object: Aachu bundled, Zuv warm, both eyelines pulled toward the remote.",
+      "suggested_payoff_moment": "The remote is placed neutrally between them, the room has been divided into two climates, and both look quietly victorious.",
+      "visual_potential": "Very readable. One room, one hero prop, strong body language, clean upper wall space for baked handwritten text. The joke is visible before any caption saves it.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Do not show tiny AC temperature numbers; the remote should read as a remote, not require legible digits.",
+        "Avoid generic couch cuddling; the treaty geometry must stay visible.",
+        "Do not exaggerate sweating or shivering into cartoon acting."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 4,
+        "anatomy_safety": 5,
+        "slide_payoff": 4
+      }
+    },
+    {
+      "title": "The Food Photo Waiting Room",
+      "suggested_slide_arc": [
+        "Slide 1: A restaurant or dining-table scene. Zuv holds a fork midair while Aachu rotates the plate for the perfect food photo.",
+        "Slide 2: Aachu adjusts the angle; Zuv lowers the fork with heroic restraint, eyes locked on the food.",
+        "Slide 3: Zuv is recruited as lighting assistant, holding a napkin or spoon just outside the plate like a reflector.",
+        "Slide 4: Photo done. Aachu immediately gives him the first bite while he is still holding the napkin like crew."
+      ],
+      "suggested_slide_1_moment": "Zuv frozen with fork hovering inches from the food while Aachu calmly turns the plate under warm light.",
+      "suggested_payoff_moment": "Aachu feeds him the first bite after making him wait, turning the irritation into a tiny reward.",
+      "visual_potential": "Strong send-trigger and very stageable if the plate, fork, phone, and napkin stay large and simple. Good tabletop composition with upper negative wall space.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Phone screen content must stay blank or abstract; no tiny photo-interface text.",
+        "Arm and hand anatomy can get messy if the overhead-phone pose is too ambitious.",
+        "Restaurant menus, labels, or table clutter must not become unreadable microtext."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 4,
+        "prop_usefulness": 5,
+        "anatomy_safety": 4,
+        "slide_payoff": 5
+      }
+    },
+    {
+      "title": "The Laundry Line Diplomacy",
+      "suggested_slide_arc": [
+        "Slide 1: Balcony or indoor drying corner. Zuv has proudly hung one huge towel across the whole line while Aachu stands with wet clothes and a clothespin in hand.",
+        "Slide 2: Aachu folds the towel smaller; Zuv holds the pegs like he has been promoted to assistant.",
+        "Slide 3: They build a neat rhythm together: her dupatta, his shirt, shared towel, small socks, all with breathing room.",
+        "Slide 4: A tiny disagreement over one last clothespin becomes a silent handoff, not a fight.",
+        "Slide 5: They step back under the line and admire the laundry like a gallery, with the paired socks centered as the visual punchline."
+      ],
+      "suggested_slide_1_moment": "One oversized towel hogging the whole clothesline, Aachu holding the remaining wet clothes, Zuv looking proud of a job technically done badly.",
+      "suggested_payoff_moment": "Both stand under a perfectly balanced clothesline, admiring it with ridiculous satisfaction as the smallest pair of socks steals the frame.",
+      "visual_potential": "Best frame. Fresh, tactile, airy, domestic without being generic. Balcony wall or sky gives perfect upper-middle text space, and the clothesline creates a natural slide-to-slide visual spine.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Too many garments will clutter the frame; keep each slide to one line and a few readable pieces.",
+        "Avoid clothespins in mouths or tangled fingers; hands should stay simple and visible.",
+        "Do not use printed clothing text or laundry labels."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 5,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 5
+      }
+    },
+    {
+      "title": "The Parcel Opening Committee",
+      "suggested_slide_arc": [
+        "Slide 1: One unopened delivery on the floor or coffee table. Aachu reaches for the tape; Zuv pretends not to care but already has the scissors.",
+        "Slide 2: Zuv holds the box flaps open while Aachu lifts the tissue paper, both leaning in from separate sides.",
+        "Slide 3: Bubble wrap spills out and becomes more interesting than the actual item.",
+        "Slide 4: The ordered item sits to the side while both of them pop bubble wrap together, fully invested in the wrong part of the parcel."
+      ],
+      "suggested_slide_1_moment": "A blank delivery box between them, scissors in Zuv's hand, Aachu's hand on the tape, both faces readable and separated by the box.",
+      "suggested_payoff_moment": "The real purchase is abandoned while they sit with the bubble wrap, enjoying the shared nonsense like it was the point all along.",
+      "visual_potential": "Clean prop comedy. The box creates safe spacing between faces, the bubble wrap gives tactile charm, and the floor/table staging can stay intimate without crowding.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "No readable address labels, brand stickers, or package text.",
+        "Scissors and box-flap hands need simple poses to avoid anatomy noise.",
+        "Do not let the frame become an unboxing ad; the couple behavior must stay the subject."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 4,
+        "prop_usefulness": 5,
+        "anatomy_safety": 4,
+        "slide_payoff": 4
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "The Laundry Line Diplomacy",
+    "why": "It is the freshest visual frame: one location, tactile props, natural separated faces, strong slide progression, and a payoff that does not need microtext or a quote-card rescue."
+  },
+  "visual_risks": [
+    "Do not show legible numbers, package labels, menu text, phone UI, or clothing print; all become microtext risk.",
+    "Keep faces three-quarter, profile-separated, or divided by props; avoid crowded face merges.",
+    "Limit each slide to one hero object plus two supporting props.",
+    "Preserve upper-middle negative space for later warm-charcoal handwritten text.",
+    "Every slide needs a visible action, not just softness."
+  ],
+  "slide_count_hints": {
+    "The AC Remote Treaty": "4 slides. Longer than that repeats the same thermostat beat.",
+    "The Food Photo Waiting Room": "4 slides. Can compress to 3, but the assistant transformation is funnier with one extra beat.",
+    "The Laundry Line Diplomacy": "5 slides. The line needs room for setup, repair, co-building, tiny dispute, and gallery-style payoff.",
+    "The Parcel Opening Committee": "4 slides. More than 4 will turn the parcel props into clutter."
+  }
+}

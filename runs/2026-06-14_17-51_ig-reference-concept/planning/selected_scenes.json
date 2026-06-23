@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "selected_sequence": [
+    {
+      "slide_number": 1,
+      "selected_option_id": "1A",
+      "exact_on_image_text": "why do you have my clip?",
+      "selected_scene": "Table-level restaurant frame. Food has just landed. Aachu's hand is halfway to her bag, hair slipping forward. Zuv's hand enters from the side holding the old clip.",
+      "reason": "Best opening mystery and strongest physical proof that the clip came from him."
+    },
+    {
+      "slide_number": 2,
+      "selected_option_id": "2A",
+      "exact_on_image_text": "wait. my old one?",
+      "selected_scene": "Close crop on Aachu holding the clip, with a tiny scratch or worn edge visible. Her expression is suspicion turning into recognition.",
+      "reason": "Makes the object feel personal and previously loved."
+    },
+    {
+      "slide_number": 3,
+      "selected_option_id": "3A",
+      "exact_on_image_text": "it lives in my pocket now.",
+      "selected_scene": "Zuv casually taps his pocket while still looking at the food, as if explaining where a napkin lives.",
+      "reason": "Turns the surprise into a routine without making him heroic."
+    },
+    {
+      "slide_number": 4,
+      "selected_option_id": "4A",
+      "exact_on_image_text": "for first-bite emergencies.",
+      "selected_scene": "Aachu leans toward the first bite and her hair falls directly between her and the food. The clip is now in her hand.",
+      "reason": "The remembered-detail mechanic becomes physically funny and instantly legible."
+    },
+    {
+      "slide_number": 5,
+      "selected_option_id": "5A",
+      "exact_on_image_text": "fine. keep it there.",
+      "selected_scene": "Aachu clips her own hair slightly crooked and starts eating, pretending to be annoyed. Zuv is already eating like this was normal inventory.",
+      "reason": "Pays off with acceptance rather than a speech."
+    }
+  ],
+  "story_lock_status": "pending_creator_approval",
+  "next_allowed_state_after_approval": "CREATE_CHARACTER_BIBLE"
+}

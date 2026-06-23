@@ -1,6 +1,56 @@
 {
   "blocking_findings": [
     {
+      "failure_code": "MEMORY_RECALL_INVALID",
+      "id": "memory_recall",
+      "summary": "Memory recall contains cited findings, gaps, and usability notes."
+    },
+    {
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate."
+    },
+    {
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate."
+    },
+    {
+      "failure_code": "PROMPT_OVERLOAD",
+      "id": "prompt_overload",
+      "summary": "Prompt instruction stack is overloaded with too many competing constraints."
+    },
+    {
+      "failure_code": "PRE_IMAGEGEN_BLOCKER_CHECK_MISSING",
+      "id": "pre_imagegen_blocker_check",
+      "summary": "Pre-imagegen blocker check artifact is required before imagegen."
+    },
+    {
+      "failure_code": "REFERENCE_VISIBILITY_PROOF_STALE",
+      "id": "reference_visibility_proof",
+      "summary": "Reference visibility proof is stale for the current load plan."
+    },
+    {
+      "failure_code": "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+      "id": "gold_standard_identity_route_gate",
+      "summary": "Gold-standard identity route is incomplete; stop before imagegen/final progression."
+    },
+    {
+      "failure_code": "QUOTE_CARD_NOT_ILLUSTRATION",
+      "id": "final_package_has_illustration_proof",
+      "summary": "Final packages must be A Story illustrations, not deterministic quote-card renders; require imagegen attempt, passing Image QA, and scene-proof artifacts."
+    },
+    {
+      "failure_code": "NOVELTY_CANDIDATE_LEDGER_MISSING",
+      "id": "novelty_candidate_ledger",
+      "summary": "Novelty candidate ledger is missing or too incomplete before idea lock."
+    },
+    {
+      "failure_code": "SCENE_LANDING_MISSING",
+      "id": "scene_landing_preview",
+      "summary": "Scene landing preview is missing or too abstract before idea lock."
+    },
+    {
       "failure_code": "AGENT_ASSIGNMENT_MISSING",
       "id": "agent_assignment_gate",
       "summary": "Agent assignment proof is incomplete before prompt lock or imagegen."
@@ -28,6 +78,7 @@
         ".agents/skills/astory/templates/docs/approvals.md",
         ".agents/skills/astory/templates/logs/trace_event.jsonl",
         ".agents/skills/astory/templates/evals/pre_generation_eval.json",
+        ".agents/skills/astory/templates/evals/pre_imagegen_blocker_check.json",
         ".agents/skills/astory/templates/evals/image_quality_eval.json",
         ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
         ".agents/skills/astory/templates/agents/story_room_agent_prompt.md",
@@ -35,6 +86,9 @@
         ".agents/skills/astory/templates/agents/review_room_agent_prompt.md",
         ".agents/skills/astory/templates/prompts/slide_prompt.txt",
         ".agents/skills/astory/templates/planning/memory_recall.md",
+        ".agents/skills/astory/templates/planning/scene_landing_preview.md",
+        ".agents/skills/astory/templates/planning/novelty_candidate_ledger.json",
+        ".agents/skills/astory/templates/planning/source_winner_novelty_model.json",
         ".agents/skills/astory/templates/docs/retro.md",
         ".agents/skills/astory/references/failure-taxonomy.md",
         ".agents/skills/astory/references/house-style-contract.md",
@@ -53,21 +107,62 @@
       "missing_paths": [],
       "path": "runs/2026-06-10_22-22_heart-rent/references-used/selected_references.json",
       "reference_summary": {
-        "aachu_face_identity_count": 4,
+        "aachu_face_identity_count": 6,
         "expression_support_count": 4,
         "prompt_only_allowed": false,
         "style_reference_count": 3,
         "text_and_brand_reference_count": 4,
         "together_body_language_count": 2,
-        "view_image_queue_actual_count": 17,
-        "view_image_queue_count": 17,
-        "zuv_face_identity_count": 4
+        "view_image_queue_actual_count": 15,
+        "view_image_queue_count": 15,
+        "zuv_face_identity_count": 6
       },
       "role_errors": [],
       "severity": "blocker",
       "sha_mismatches": [],
       "status": "pass",
       "summary": "Selected reference manifest resolves to existing hashed references."
+    },
+    {
+      "active_view_image_queue": [
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-front-close-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_active_identity_inputs",
+      "identity_input_errors": [],
+      "identity_view_summary": {
+        "aachu_face_identity": [
+          "front",
+          "side",
+          "three_quarter"
+        ],
+        "zuv_face_identity": [
+          "front",
+          "side",
+          "three_quarter"
+        ]
+      },
+      "path": "runs/2026-06-10_22-22_heart-rent/references-used/selected_references.json",
+      "raw_aachu_face_anchor_count": 6,
+      "raw_zuv_face_anchor_count": 6,
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Active imagegen queue includes diverse raw Aachu/Zuv face anchors."
     },
     {
       "cited_paths": [
@@ -90,14 +185,19 @@
       "expected_artifacts": [
         "runs/2026-06-10_22-22_heart-rent/planning/memory_recall.md"
       ],
-      "failure_code": null,
+      "failure_code": "MEMORY_RECALL_INVALID",
       "id": "memory_recall",
       "memory_trace_present": true,
-      "missing_cited_paths": [],
+      "missing_cited_paths": [
+        "references/style/observational-intimacy-premium/README.md",
+        "references/brain/pages/style/observational-intimacy-premium.md",
+        "references/identity/aachu/README.md",
+        "references/identity/zuv/README.md"
+      ],
       "missing_sections": [],
       "path": "runs/2026-06-10_22-22_heart-rent/planning/memory_recall.md",
       "severity": "blocker",
-      "status": "pass",
+      "status": "fail",
       "summary": "Memory recall contains cited findings, gaps, and usability notes.",
       "trace_errors": [],
       "workflow_type": "imagegen_story_run"
@@ -265,14 +365,652 @@
       "workflow_type": "imagegen_story_run"
     },
     {
-      "expected_artifact": "runs/2026-06-10_22-22_heart-rent/evals/imagegen_reference_visibility_proof.json",
+      "failed_prompt_count": 6,
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "prompt_results": [
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 6,
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "prompt_results": [
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 0,
       "failure_code": null,
-      "final_imagegen_allowed": true,
-      "id": "reference_visibility_proof",
+      "id": "prompt_palette_conflict",
+      "prompt_results": [
+        {
+          "has_neutral_paper_constraint": false,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": false,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": false,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": false,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        }
+      ],
       "severity": "blocker",
       "status": "pass",
-      "summary": "Reference visibility proof exists and records image roles.",
-      "view_image_queue_count": 17
+      "summary": "Prompt palette language avoids yellow-prone positive conflicts.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 6,
+      "failure_code": "PROMPT_OVERLOAD",
+      "id": "prompt_overload",
+      "prompt_results": [
+        {
+          "major_section_count": 17,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "EDIT TARGET:",
+            "REFERENCE ROLES:",
+            "GENERATION HARD GATE:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT LOCK:",
+            "COMPOSITION:",
+            "SCENE / SETUP:",
+            "ROLE LOCK:",
+            "AACHU IDENTITY LOCK:",
+            "ZUV IDENTITY REPAIR LOCK:",
+            "STYLE LOCK:",
+            "WARDROBE:",
+            "BRANDMARK:",
+            "HARD REJECTS:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 43,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 15,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "EDIT TARGET:",
+            "REFERENCE ROLES:",
+            "GENERATION HARD GATE:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT LOCK:",
+            "AACHU PRESERVATION:",
+            "ZUV REPAIR:",
+            "SETUP REPAIR:",
+            "COMPOSITION:",
+            "STYLE:",
+            "BRANDMARK:",
+            "HARD REJECTS:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 34,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 15,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "CURRENT REJECTION:",
+            "GENERATION HARD GATE:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT LOCK:",
+            "AACHU IDENTITY AND AGE LOCK:",
+            "ZUV IDENTITY LOCK:",
+            "COUPLE ENERGY LOCK:",
+            "COMPOSITION:",
+            "STYLE LOCK:",
+            "WARDROBE:",
+            "BRANDMARK:",
+            "HARD REJECTS:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 34,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 14,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "INPUT IMAGE ROLES ALREADY LOADED IN CURRENT CONTEXT:",
+            "GENERATION HARD GATE:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT RULES:",
+            "COMPOSITION:",
+            "SCENE:",
+            "ACTION / ROLE LOCK:",
+            "STYLE LOCK:",
+            "WARDROBE:",
+            "BRANDMARK:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 36,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 18,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "PAPER TONE RULE:",
+            "BRANDMARK:",
+            "SCENE LOGIC:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 46,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 18,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "PAPER TONE RULE:",
+            "BRANDMARK:",
+            "SCENE LOGIC:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 46,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Prompt instruction stack is overloaded with too many competing constraints.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "canvas_output_expectation": {
+        "failure_codes": [
+          "PROMPT_CANVAS_SIZE_MISSING"
+        ],
+        "prompt_results": [
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px",
+              "non_portrait_surface_language"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px",
+              "non_portrait_surface_language"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+            "status": "fail"
+          }
+        ],
+        "status": "fail"
+      },
+      "computed_failure_codes": [
+        "EMOTIONAL_STATE_CONTRADICTION",
+        "IDENTITY_REFERENCE_POSE_COPY",
+        "PROMPT_CANVAS_SIZE_MISSING"
+      ],
+      "creator_prompt_lock_check": {
+        "broad_proceed_only": false,
+        "failure_codes": [],
+        "has_visible_prompt_summary": true,
+        "major_creator_visual_correction": false,
+        "prompt_lock_approved": true,
+        "status": "pass"
+      },
+      "emotional_state_check": {
+        "failure_codes": [
+          "EMOTIONAL_STATE_CONTRADICTION"
+        ],
+        "prompt_results": [
+          {
+            "forbids_smile": false,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+            "positive_expression_terms": [
+              "smile",
+              "smiling"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": false,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+            "positive_expression_terms": [
+              "smile"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": true,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+            "positive_expression_terms": [
+              "smile"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": true,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+            "positive_expression_terms": [
+              "smile",
+              "smiles"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": true,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+            "positive_expression_terms": [
+              "smiles",
+              "smile",
+              "smiling"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": true,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+            "positive_expression_terms": [
+              "smiles",
+              "smile",
+              "smiling"
+            ],
+            "status": "fail"
+          }
+        ],
+        "status": "fail"
+      },
+      "failure_code": "PRE_IMAGEGEN_BLOCKER_CHECK_MISSING",
+      "fallback_review_check": {
+        "agent_assignment_status": "actual_multi_agent",
+        "failure_codes": [],
+        "major_creator_visual_correction": false,
+        "status": "pass"
+      },
+      "final_imagegen_allowed": false,
+      "id": "pre_imagegen_blocker_check",
+      "identity_reference_collision_check": {
+        "failure_codes": [
+          "IDENTITY_REFERENCE_POSE_COPY"
+        ],
+        "reference_reasons": {
+          "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg": [
+            "active_ref_violates_no_smile_beat"
+          ]
+        },
+        "scene_terms": [
+          "cafe",
+          "club"
+        ],
+        "status": "fail",
+        "unsafe_active_refs": [
+          "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg"
+        ]
+      },
+      "missing_fields": [
+        "emotional_state_check",
+        "identity_reference_collision_check",
+        "fallback_review_check",
+        "creator_prompt_lock_check",
+        "canvas_output_expectation",
+        "imagegen_allowed"
+      ],
+      "path": "runs/2026-06-10_22-22_heart-rent/evals/pre_imagegen_blocker_check.json",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Pre-imagegen blocker check artifact is required before imagegen."
+    },
+    {
+      "expected_artifact": "runs/2026-06-10_22-22_heart-rent/evals/imagegen_reference_visibility_proof.json",
+      "failure_code": "REFERENCE_VISIBILITY_PROOF_STALE",
+      "final_imagegen_allowed": false,
+      "id": "reference_visibility_proof",
+      "load_plan_sha256": "1e22745d7b20281f345facc3bef092f53583eca48f364603af1b8ab9e8424822",
+      "missing_loaded_paths": [
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-front-close-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "proof_load_plan_sha256": null,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Reference visibility proof is stale for the current load plan.",
+      "unexpected_loaded_paths": [
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+        "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+        "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+        "references/style/observational-intimacy-premium/contact-sheet.png",
+        "references/style/observational-intimacy-premium/slide-01.png",
+        "references/style/observational-intimacy-premium/slide-02.png"
+      ],
+      "validation_errors": [
+        "load_plan_sha256_mismatch"
+      ],
+      "view_image_queue_count": 15
+    },
+    {
+      "aachu_face_identity_count": 6,
+      "active_view_image_path_count": 15,
+      "failure_code": "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+      "final_imagegen_allowed": false,
+      "id": "gold_standard_identity_route_gate",
+      "missing_requirements": [
+        "imagegen_reference_visibility_proof_valid",
+        "pre_generation_eval.prompt_room_outputs",
+        "planning/scene_landing_preview.md",
+        "prompt_raw_identity_priority",
+        "prompt_blocks_binder_text_replacement",
+        "prompt_blocks_single_anchor_pose_copy",
+        "prompt_face_readable_composition",
+        "logs/trace.jsonl.CREATE_SCENE_LANDING_PREVIEW",
+        "logs/trace.jsonl.PRE_GENERATION_EVAL"
+      ],
+      "path": "runs/2026-06-10_22-22_heart-rent/references-used/selected_references.json",
+      "prompt_evidence": {
+        "prompt_blocks_binder_text_replacement": false,
+        "prompt_blocks_single_anchor_pose_copy": false,
+        "prompt_face_readable_composition": false,
+        "prompt_raw_identity_priority": false
+      },
+      "prompt_files": [
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt"
+      ],
+      "prompt_room_outputs": [],
+      "proof_artifact": "runs/2026-06-10_22-22_heart-rent/evals/imagegen_reference_visibility_proof.json",
+      "proof_validation_errors": [
+        "load_plan_sha256_mismatch"
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "style_reference_count": 3,
+      "summary": "Gold-standard identity route is incomplete; stop before imagegen/final progression.",
+      "trace_errors": [],
+      "trace_state_presence": {
+        "CREATE_SCENE_LANDING_PREVIEW": false,
+        "DISCOVER_AND_ASSIGN_AGENTS": true,
+        "LOAD_REFERENCE_IMAGES_IN_CONTEXT": true,
+        "PRE_GENERATION_EVAL": false
+      },
+      "view_image_queue_count": 15,
+      "workflow_type": "imagegen_story_run",
+      "zuv_face_identity_count": 6
     },
     {
       "candidates_reviewed": 11,
@@ -285,6 +1023,29 @@
       "severity": "blocker",
       "status": "pass",
       "summary": "Image QA is blocking final packaging until creator approval."
+    },
+    {
+      "failure_code": "QUOTE_CARD_NOT_ILLUSTRATION",
+      "final_qa_artifacts": [],
+      "id": "final_package_has_illustration_proof",
+      "image_quality_candidates": [
+        {
+          "hard_gate_result": "pending_creator_image_qa",
+          "path": "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json",
+          "status": "candidate_exported_pending_creator_image_qa"
+        }
+      ],
+      "imagegen_attempted": true,
+      "packaged_artifacts": [
+        "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5_attempt09_padded_source.png",
+        "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5.png",
+        "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5_attempt_10_review.png",
+        "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5_padded_source.png"
+      ],
+      "scene_artifacts_present": false,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Final packages must be A Story illustrations, not deterministic quote-card renders; require imagegen attempt, passing Image QA, and scene-proof artifacts."
     },
     {
       "final_artifacts": [],
@@ -309,6 +1070,23 @@
       "unsafe_statuses": []
     },
     {
+      "failure_code": null,
+      "id": "generation_stops_after_hard_reject",
+      "path": "runs/2026-06-10_22-22_heart-rent/images/generation_attempts.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No generation attempts artifact exists for sequencing review."
+    },
+    {
+      "failure_code": null,
+      "id": "prompt_repair_reapproval",
+      "reapproval_required": false,
+      "reapproved_after_repair": false,
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No repaired prompt reapproval gate is active for this run."
+    },
+    {
       "event_count": 46,
       "id": "trace_jsonl_valid",
       "parse_errors": [],
@@ -316,6 +1094,54 @@
       "severity": "blocker",
       "status": "pass",
       "summary": "Trace JSONL is parseable."
+    },
+    {
+      "failure_code": "NOVELTY_CANDIDATE_LEDGER_MISSING",
+      "id": "novelty_candidate_ledger",
+      "idea_lock_approved": true,
+      "ledger_trace_present": true,
+      "missing_requirements": [
+        "planning/novelty_candidate_ledger.json",
+        "novelty_candidate_ledger.valid_json",
+        "selected_candidate_id",
+        "candidates",
+        "source_bank_search"
+      ],
+      "path": "runs/2026-06-10_22-22_heart-rent/planning/novelty_candidate_ledger.json",
+      "selected_candidate_id": null,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Novelty candidate ledger is missing or too incomplete before idea lock."
+    },
+    {
+      "failure_code": "SCENE_LANDING_MISSING",
+      "id": "scene_landing_preview",
+      "idea_lock_approved": true,
+      "missing_requirements": [
+        "planning/scene_landing_preview.md",
+        "exact_hook_text",
+        "first_frame_visual",
+        "swipe_reason",
+        "mini_slide_arc",
+        "payoff_frame",
+        "share_trigger",
+        "flat_generic_risk",
+        "correction",
+        "docs/approvals.md.scene_landing_preview_path"
+      ],
+      "path": "runs/2026-06-10_22-22_heart-rent/planning/scene_landing_preview.md",
+      "preview_trace_present": false,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Scene landing preview is missing or too abstract before idea lock."
+    },
+    {
+      "contract_path": "runs/2026-06-10_22-22_heart-rent/planning/source_winner_remix_contract.json",
+      "id": "source_winner_novelty_model",
+      "path": "runs/2026-06-10_22-22_heart-rent/planning/source_winner_novelty_model.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "Source-winner novelty modeling is not required without a source-winner remix contract."
     },
     {
       "event_indices": {
@@ -326,6 +1152,7 @@
       },
       "failure_code": null,
       "id": "hitl_order_before_imagegen",
+      "order_state": "post_imagegen_ordered",
       "severity": "blocker",
       "status": "pass",
       "summary": "Idea, story, and prompt locks are recorded before image generation."
@@ -414,12 +1241,95 @@
       "status": "pass",
       "summary": "Approvals file records required HITL gates and current stopped gates."
     },
+    "final_package_has_illustration_proof": {
+      "failure_code": "QUOTE_CARD_NOT_ILLUSTRATION",
+      "final_qa_artifacts": [],
+      "id": "final_package_has_illustration_proof",
+      "image_quality_candidates": [
+        {
+          "hard_gate_result": "pending_creator_image_qa",
+          "path": "runs/2026-06-10_22-22_heart-rent/evals/image_quality_eval.json",
+          "status": "candidate_exported_pending_creator_image_qa"
+        }
+      ],
+      "imagegen_attempted": true,
+      "packaged_artifacts": [
+        "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5_attempt09_padded_source.png",
+        "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5.png",
+        "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5_attempt_10_review.png",
+        "runs/2026-06-10_22-22_heart-rent/exports/slide_01_post_4x5_padded_source.png"
+      ],
+      "scene_artifacts_present": false,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Final packages must be A Story illustrations, not deterministic quote-card renders; require imagegen attempt, passing Image QA, and scene-proof artifacts."
+    },
     "final_package_not_started": {
       "final_artifacts": [],
       "id": "final_package_not_started",
       "severity": "blocker",
       "status": "pass",
       "summary": "Final Package gate remains not started while image QA is failed."
+    },
+    "generation_stops_after_hard_reject": {
+      "failure_code": null,
+      "id": "generation_stops_after_hard_reject",
+      "path": "runs/2026-06-10_22-22_heart-rent/images/generation_attempts.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No generation attempts artifact exists for sequencing review."
+    },
+    "gold_standard_identity_route_gate": {
+      "aachu_face_identity_count": 6,
+      "active_view_image_path_count": 15,
+      "failure_code": "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+      "final_imagegen_allowed": false,
+      "id": "gold_standard_identity_route_gate",
+      "missing_requirements": [
+        "imagegen_reference_visibility_proof_valid",
+        "pre_generation_eval.prompt_room_outputs",
+        "planning/scene_landing_preview.md",
+        "prompt_raw_identity_priority",
+        "prompt_blocks_binder_text_replacement",
+        "prompt_blocks_single_anchor_pose_copy",
+        "prompt_face_readable_composition",
+        "logs/trace.jsonl.CREATE_SCENE_LANDING_PREVIEW",
+        "logs/trace.jsonl.PRE_GENERATION_EVAL"
+      ],
+      "path": "runs/2026-06-10_22-22_heart-rent/references-used/selected_references.json",
+      "prompt_evidence": {
+        "prompt_blocks_binder_text_replacement": false,
+        "prompt_blocks_single_anchor_pose_copy": false,
+        "prompt_face_readable_composition": false,
+        "prompt_raw_identity_priority": false
+      },
+      "prompt_files": [
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+        "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt"
+      ],
+      "prompt_room_outputs": [],
+      "proof_artifact": "runs/2026-06-10_22-22_heart-rent/evals/imagegen_reference_visibility_proof.json",
+      "proof_validation_errors": [
+        "load_plan_sha256_mismatch"
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "style_reference_count": 3,
+      "summary": "Gold-standard identity route is incomplete; stop before imagegen/final progression.",
+      "trace_errors": [],
+      "trace_state_presence": {
+        "CREATE_SCENE_LANDING_PREVIEW": false,
+        "DISCOVER_AND_ASSIGN_AGENTS": true,
+        "LOAD_REFERENCE_IMAGES_IN_CONTEXT": true,
+        "PRE_GENERATION_EVAL": false
+      },
+      "view_image_queue_count": 15,
+      "workflow_type": "imagegen_story_run",
+      "zuv_face_identity_count": 6
     },
     "hitl_order_before_imagegen": {
       "event_indices": {
@@ -430,6 +1340,7 @@
       },
       "failure_code": null,
       "id": "hitl_order_before_imagegen",
+      "order_state": "post_imagegen_ordered",
       "severity": "blocker",
       "status": "pass",
       "summary": "Idea, story, and prompt locks are recorded before image generation."
@@ -482,16 +1393,333 @@
       "expected_artifacts": [
         "runs/2026-06-10_22-22_heart-rent/planning/memory_recall.md"
       ],
-      "failure_code": null,
+      "failure_code": "MEMORY_RECALL_INVALID",
       "id": "memory_recall",
       "memory_trace_present": true,
-      "missing_cited_paths": [],
+      "missing_cited_paths": [
+        "references/style/observational-intimacy-premium/README.md",
+        "references/brain/pages/style/observational-intimacy-premium.md",
+        "references/identity/aachu/README.md",
+        "references/identity/zuv/README.md"
+      ],
       "missing_sections": [],
       "path": "runs/2026-06-10_22-22_heart-rent/planning/memory_recall.md",
       "severity": "blocker",
-      "status": "pass",
+      "status": "fail",
       "summary": "Memory recall contains cited findings, gaps, and usability notes.",
       "trace_errors": [],
+      "workflow_type": "imagegen_story_run"
+    },
+    "novelty_candidate_ledger": {
+      "failure_code": "NOVELTY_CANDIDATE_LEDGER_MISSING",
+      "id": "novelty_candidate_ledger",
+      "idea_lock_approved": true,
+      "ledger_trace_present": true,
+      "missing_requirements": [
+        "planning/novelty_candidate_ledger.json",
+        "novelty_candidate_ledger.valid_json",
+        "selected_candidate_id",
+        "candidates",
+        "source_bank_search"
+      ],
+      "path": "runs/2026-06-10_22-22_heart-rent/planning/novelty_candidate_ledger.json",
+      "selected_candidate_id": null,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Novelty candidate ledger is missing or too incomplete before idea lock."
+    },
+    "pre_imagegen_blocker_check": {
+      "canvas_output_expectation": {
+        "failure_codes": [
+          "PROMPT_CANVAS_SIZE_MISSING"
+        ],
+        "prompt_results": [
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px",
+              "non_portrait_surface_language"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+            "status": "fail"
+          },
+          {
+            "canvas_errors": [
+              "missing_1080x1350_px",
+              "non_portrait_surface_language"
+            ],
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+            "status": "fail"
+          }
+        ],
+        "status": "fail"
+      },
+      "computed_failure_codes": [
+        "EMOTIONAL_STATE_CONTRADICTION",
+        "IDENTITY_REFERENCE_POSE_COPY",
+        "PROMPT_CANVAS_SIZE_MISSING"
+      ],
+      "creator_prompt_lock_check": {
+        "broad_proceed_only": false,
+        "failure_codes": [],
+        "has_visible_prompt_summary": true,
+        "major_creator_visual_correction": false,
+        "prompt_lock_approved": true,
+        "status": "pass"
+      },
+      "emotional_state_check": {
+        "failure_codes": [
+          "EMOTIONAL_STATE_CONTRADICTION"
+        ],
+        "prompt_results": [
+          {
+            "forbids_smile": false,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+            "positive_expression_terms": [
+              "smile",
+              "smiling"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": false,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+            "positive_expression_terms": [
+              "smile"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": true,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+            "positive_expression_terms": [
+              "smile"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": true,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+            "positive_expression_terms": [
+              "smile",
+              "smiles"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": true,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+            "positive_expression_terms": [
+              "smiles",
+              "smile",
+              "smiling"
+            ],
+            "status": "fail"
+          },
+          {
+            "forbids_smile": true,
+            "has_ache_context": true,
+            "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+            "positive_expression_terms": [
+              "smiles",
+              "smile",
+              "smiling"
+            ],
+            "status": "fail"
+          }
+        ],
+        "status": "fail"
+      },
+      "failure_code": "PRE_IMAGEGEN_BLOCKER_CHECK_MISSING",
+      "fallback_review_check": {
+        "agent_assignment_status": "actual_multi_agent",
+        "failure_codes": [],
+        "major_creator_visual_correction": false,
+        "status": "pass"
+      },
+      "final_imagegen_allowed": false,
+      "id": "pre_imagegen_blocker_check",
+      "identity_reference_collision_check": {
+        "failure_codes": [
+          "IDENTITY_REFERENCE_POSE_COPY"
+        ],
+        "reference_reasons": {
+          "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg": [
+            "active_ref_violates_no_smile_beat"
+          ]
+        },
+        "scene_terms": [
+          "cafe",
+          "club"
+        ],
+        "status": "fail",
+        "unsafe_active_refs": [
+          "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg"
+        ]
+      },
+      "missing_fields": [
+        "emotional_state_check",
+        "identity_reference_collision_check",
+        "fallback_review_check",
+        "creator_prompt_lock_check",
+        "canvas_output_expectation",
+        "imagegen_allowed"
+      ],
+      "path": "runs/2026-06-10_22-22_heart-rent/evals/pre_imagegen_blocker_check.json",
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Pre-imagegen blocker check artifact is required before imagegen."
+    },
+    "prompt_brandmark_gate": {
+      "failed_prompt_count": 6,
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "prompt_results": [
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_canvas_size": {
+      "failed_prompt_count": 6,
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "prompt_results": [
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate.",
       "workflow_type": "imagegen_story_run"
     },
     "prompt_forbidden_role_reversal": {
@@ -556,6 +1784,257 @@
       "severity": "blocker",
       "status": "pass",
       "summary": "Every prompt keeps Aachu/Zuv roles explicit and unreversed.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_overload": {
+      "failed_prompt_count": 6,
+      "failure_code": "PROMPT_OVERLOAD",
+      "id": "prompt_overload",
+      "prompt_results": [
+        {
+          "major_section_count": 17,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "EDIT TARGET:",
+            "REFERENCE ROLES:",
+            "GENERATION HARD GATE:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT LOCK:",
+            "COMPOSITION:",
+            "SCENE / SETUP:",
+            "ROLE LOCK:",
+            "AACHU IDENTITY LOCK:",
+            "ZUV IDENTITY REPAIR LOCK:",
+            "STYLE LOCK:",
+            "WARDROBE:",
+            "BRANDMARK:",
+            "HARD REJECTS:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 43,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 15,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "EDIT TARGET:",
+            "REFERENCE ROLES:",
+            "GENERATION HARD GATE:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT LOCK:",
+            "AACHU PRESERVATION:",
+            "ZUV REPAIR:",
+            "SETUP REPAIR:",
+            "COMPOSITION:",
+            "STYLE:",
+            "BRANDMARK:",
+            "HARD REJECTS:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 34,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 15,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "CURRENT REJECTION:",
+            "GENERATION HARD GATE:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT LOCK:",
+            "AACHU IDENTITY AND AGE LOCK:",
+            "ZUV IDENTITY LOCK:",
+            "COUPLE ENERGY LOCK:",
+            "COMPOSITION:",
+            "STYLE LOCK:",
+            "WARDROBE:",
+            "BRANDMARK:",
+            "HARD REJECTS:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 34,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 14,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "INPUT IMAGE ROLES ALREADY LOADED IN CURRENT CONTEXT:",
+            "GENERATION HARD GATE:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT RULES:",
+            "COMPOSITION:",
+            "SCENE:",
+            "ACTION / ROLE LOCK:",
+            "STYLE LOCK:",
+            "WARDROBE:",
+            "BRANDMARK:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 36,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 18,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "PAPER TONE RULE:",
+            "BRANDMARK:",
+            "SCENE LOGIC:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 46,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 18,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "PRIMARY REQUEST:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "PAPER TONE RULE:",
+            "BRANDMARK:",
+            "SCENE LOGIC:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 46,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Prompt instruction stack is overloaded with too many competing constraints.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_palette_conflict": {
+      "failed_prompt_count": 0,
+      "failure_code": null,
+      "id": "prompt_palette_conflict",
+      "prompt_results": [
+        {
+          "has_neutral_paper_constraint": false,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_07_zuv_setup_repair_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": false,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_08_zuv_angle_incidental_prop_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": false,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_attempt_10_young_aachu_couple_energy_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": false,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_final_identity_locked_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_4x5_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-22_heart-rent/prompts/slide_01_9x16_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory"
+          ]
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompt palette language avoids yellow-prone positive conflicts.",
       "workflow_type": "imagegen_story_run"
     },
     "prompt_reference_gate": {
@@ -634,6 +2113,15 @@
       "summary": "Every prompt preserves the reference-image delivery gate.",
       "workflow_type": "imagegen_story_run"
     },
+    "prompt_repair_reapproval": {
+      "failure_code": null,
+      "id": "prompt_repair_reapproval",
+      "reapproval_required": false,
+      "reapproved_after_repair": false,
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No repaired prompt reapproval gate is active for this run."
+    },
     "prompt_story_contract": {
       "contract_source": "run_artifacts",
       "evidence": {
@@ -656,6 +2144,47 @@
       "summary": "Prompts preserve the run-specific locked story contract.",
       "workflow_type": "imagegen_story_run"
     },
+    "reference_active_identity_inputs": {
+      "active_view_image_queue": [
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-front-close-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_active_identity_inputs",
+      "identity_input_errors": [],
+      "identity_view_summary": {
+        "aachu_face_identity": [
+          "front",
+          "side",
+          "three_quarter"
+        ],
+        "zuv_face_identity": [
+          "front",
+          "side",
+          "three_quarter"
+        ]
+      },
+      "path": "runs/2026-06-10_22-22_heart-rent/references-used/selected_references.json",
+      "raw_aachu_face_anchor_count": 6,
+      "raw_zuv_face_anchor_count": 6,
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Active imagegen queue includes diverse raw Aachu/Zuv face anchors."
+    },
     "reference_manifest_integrity": {
       "count_errors": [],
       "id": "reference_manifest_integrity",
@@ -663,15 +2192,15 @@
       "missing_paths": [],
       "path": "runs/2026-06-10_22-22_heart-rent/references-used/selected_references.json",
       "reference_summary": {
-        "aachu_face_identity_count": 4,
+        "aachu_face_identity_count": 6,
         "expression_support_count": 4,
         "prompt_only_allowed": false,
         "style_reference_count": 3,
         "text_and_brand_reference_count": 4,
         "together_body_language_count": 2,
-        "view_image_queue_actual_count": 17,
-        "view_image_queue_count": 17,
-        "zuv_face_identity_count": 4
+        "view_image_queue_actual_count": 15,
+        "view_image_queue_count": 15,
+        "zuv_face_identity_count": 6
       },
       "role_errors": [],
       "severity": "blocker",
@@ -681,19 +2210,61 @@
     },
     "reference_visibility_proof": {
       "expected_artifact": "runs/2026-06-10_22-22_heart-rent/evals/imagegen_reference_visibility_proof.json",
-      "failure_code": null,
-      "final_imagegen_allowed": true,
+      "failure_code": "REFERENCE_VISIBILITY_PROOF_STALE",
+      "final_imagegen_allowed": false,
       "id": "reference_visibility_proof",
+      "load_plan_sha256": "1e22745d7b20281f345facc3bef092f53583eca48f364603af1b8ab9e8424822",
+      "missing_loaded_paths": [
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-front-close-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "proof_load_plan_sha256": null,
       "severity": "blocker",
-      "status": "pass",
-      "summary": "Reference visibility proof exists and records image roles.",
-      "view_image_queue_count": 17
+      "status": "fail",
+      "summary": "Reference visibility proof is stale for the current load plan.",
+      "unexpected_loaded_paths": [
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+        "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+        "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+        "references/style/observational-intimacy-premium/contact-sheet.png",
+        "references/style/observational-intimacy-premium/slide-01.png",
+        "references/style/observational-intimacy-premium/slide-02.png"
+      ],
+      "validation_errors": [
+        "load_plan_sha256_mismatch"
+      ],
+      "view_image_queue_count": 15
     },
     "required_templates_present": {
       "checked_paths": [
         ".agents/skills/astory/templates/docs/approvals.md",
         ".agents/skills/astory/templates/logs/trace_event.jsonl",
         ".agents/skills/astory/templates/evals/pre_generation_eval.json",
+        ".agents/skills/astory/templates/evals/pre_imagegen_blocker_check.json",
         ".agents/skills/astory/templates/evals/image_quality_eval.json",
         ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
         ".agents/skills/astory/templates/agents/story_room_agent_prompt.md",
@@ -701,6 +2272,9 @@
         ".agents/skills/astory/templates/agents/review_room_agent_prompt.md",
         ".agents/skills/astory/templates/prompts/slide_prompt.txt",
         ".agents/skills/astory/templates/planning/memory_recall.md",
+        ".agents/skills/astory/templates/planning/scene_landing_preview.md",
+        ".agents/skills/astory/templates/planning/novelty_candidate_ledger.json",
+        ".agents/skills/astory/templates/planning/source_winner_novelty_model.json",
         ".agents/skills/astory/templates/docs/retro.md",
         ".agents/skills/astory/references/failure-taxonomy.md",
         ".agents/skills/astory/references/house-style-contract.md",
@@ -712,6 +2286,28 @@
       "status": "pass",
       "summary": "Required skill templates and contracts are present."
     },
+    "scene_landing_preview": {
+      "failure_code": "SCENE_LANDING_MISSING",
+      "id": "scene_landing_preview",
+      "idea_lock_approved": true,
+      "missing_requirements": [
+        "planning/scene_landing_preview.md",
+        "exact_hook_text",
+        "first_frame_visual",
+        "swipe_reason",
+        "mini_slide_arc",
+        "payoff_frame",
+        "share_trigger",
+        "flat_generic_risk",
+        "correction",
+        "docs/approvals.md.scene_landing_preview_path"
+      ],
+      "path": "runs/2026-06-10_22-22_heart-rent/planning/scene_landing_preview.md",
+      "preview_trace_present": false,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Scene landing preview is missing or too abstract before idea lock."
+    },
     "skill_contract_present": {
       "id": "skill_contract_present",
       "missing_phrases": [],
@@ -719,6 +2315,14 @@
       "severity": "blocker",
       "status": "pass",
       "summary": "A Story skill contract is present and contains the identity/HITL gates."
+    },
+    "source_winner_novelty_model": {
+      "contract_path": "runs/2026-06-10_22-22_heart-rent/planning/source_winner_remix_contract.json",
+      "id": "source_winner_novelty_model",
+      "path": "runs/2026-06-10_22-22_heart-rent/planning/source_winner_novelty_model.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "Source-winner novelty modeling is not required without a source-winner remix contract."
     },
     "trace_jsonl_valid": {
       "event_count": 46,
@@ -730,18 +2334,18 @@
       "summary": "Trace JSONL is parseable."
     }
   },
-  "created_at": "2026-06-11T04:44:17+00:00",
+  "created_at": "2026-06-23T16:37:55+00:00",
   "overall_status": "blocked",
   "reference_summary": {
-    "aachu_face_identity_count": 4,
+    "aachu_face_identity_count": 6,
     "expression_support_count": 4,
     "prompt_only_allowed": false,
     "style_reference_count": 3,
     "text_and_brand_reference_count": 4,
     "together_body_language_count": 2,
-    "view_image_queue_actual_count": 17,
-    "view_image_queue_count": 17,
-    "zuv_face_identity_count": 4
+    "view_image_queue_actual_count": 15,
+    "view_image_queue_count": 15,
+    "zuv_face_identity_count": 6
   },
   "repo_root": "/Users/himanshusharma/A Story of Two V2",
   "run_dir": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-10_22-22_heart-rent",

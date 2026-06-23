@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "timestamp": "2026-06-13T12:32:13+05:30",
+  "status": "loaded",
+  "loaded_in_current_conversation": true,
+  "loading_method": "functions.view_image",
+  "reference_delivery_strategy": "raw_identity_first_v1",
+  "load_plan_path": "runs/2026-06-11_23-45_reel-side-eye/evals/imagegen_reference_load_plan.json",
+  "selected_references_path": "runs/2026-06-11_23-45_reel-side-eye/references-used/selected_references.json",
+  "load_plan_sha256": "256911e43da1bc1ab4bd0d68b3b70aa41cb5aec80ba258504e189c1f4f96f6f0",
+  "manual_user_attachments_required": false,
+  "prompt_only_allowed": false,
+  "active_generation_path": "built_in_codex_imagegen",
+  "active_generation_path_can_use_loaded_image_context": true,
+  "loaded_paths": [
+    "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+    "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+    "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+    "references/style/observational-intimacy-premium/contact-sheet.png",
+    "references/style/observational-intimacy-premium/slide-01.png",
+    "references/style/observational-intimacy-premium/slide-02.png"
+  ],
+  "loaded_count": 11,
+  "expected_count": 11,
+  "reference_roles_confirmed": [
+    "aachu_face_identity",
+    "zuv_face_identity",
+    "style_reference"
+  ],
+  "loaded_references": [
+    {
+      "path": "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+      "role": "aachu_face_identity",
+      "loaded_with_view_image": true,
+      "notes": "Raw Aachu face anchor; primary face identity input."
+    },
+    {
+      "path": "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+      "role": "aachu_face_identity",
+      "loaded_with_view_image": true,
+      "notes": "Raw Aachu face anchor; primary face identity input."
+    },
+    {
+      "path": "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+      "role": "aachu_face_identity",
+      "loaded_with_view_image": true,
+      "notes": "Raw Aachu face anchor; primary face identity input."
+    },
+    {
+      "path": "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+      "role": "aachu_face_identity",
+      "loaded_with_view_image": true,
+      "notes": "Raw Aachu face anchor; primary face identity input."
+    },
+    {
+      "path": "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+      "role": "zuv_face_identity",
+      "loaded_with_view_image": true,
+      "notes": "Raw Zuv face anchor; primary face identity input."
+    },
+    {
+      "path": "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+      "role": "zuv_face_identity",
+      "loaded_with_view_image": true,
+      "notes": "Raw Zuv face anchor; primary face identity input."
+    },
+    {
+      "path": "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+      "role": "zuv_face_identity",
+      "loaded_with_view_image": true,
+      "notes": "Raw Zuv face anchor; primary face identity input."
+    },
+    {
+      "path": "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+      "role": "zuv_face_identity",
+      "loaded_with_view_image": true,
+      "notes": "Raw Zuv face anchor; primary face identity input."
+    },
+    {
+      "path": "references/style/observational-intimacy-premium/contact-sheet.png",
+      "role": "style_reference",
+      "loaded_with_view_image": true,
+      "notes": "Supplemental style input; not identity proof."
+    },
+    {
+      "path": "references/style/observational-intimacy-premium/slide-01.png",
+      "role": "style_reference",
+      "loaded_with_view_image": true,
+      "notes": "Supplemental style input; not identity proof."
+    },
+    {
+      "path": "references/style/observational-intimacy-premium/slide-02.png",
+      "role": "style_reference",
+      "loaded_with_view_image": true,
+      "notes": "Supplemental style input; not identity proof."
+    }
+  ],
+  "prompt_files_covered": [
+    "prompts/slide_01_4x5_prompt.txt",
+    "prompts/slide_02_4x5_prompt.txt",
+    "prompts/slide_03_4x5_prompt.txt",
+    "prompts/slide_04_4x5_prompt.txt"
+  ],
+  "hard_gate_result": {
+    "all_queued_images_loaded": true,
+    "raw_aachu_face_identity_loaded": true,
+    "raw_zuv_face_identity_loaded": true,
+    "style_references_loaded": true,
+    "binder_only_identity_proof": false,
+    "identity_reference_input_unproven": false,
+    "safe_to_enter_imagegen_after_repo_qa": true
+  },
+  "next_gate": "GENERATE_IMAGES_WITH_IMAGEGEN_SLIDE_1_ONLY"
+}

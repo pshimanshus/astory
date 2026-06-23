@@ -1,0 +1,46 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "reference_mechanic": "The intimacy of a tiny detail being remembered without being asked.",
+  "candidates": [
+    {
+      "title": "The Hair Clip He Started Carrying",
+      "one_line_concept": "Aachu reaches for a hair clip right as the food arrives, and Zuv already has her exact old clip in his pocket because he knows this tiny chaos happens every time.",
+      "first_slide_text": "why do you have my clip?",
+      "send_trigger": "Send to the partner who carries your tiny emergency object.",
+      "overall_score": 4.78,
+      "status": "selected"
+    },
+    {
+      "title": "The Phone Was Already Charging",
+      "one_line_concept": "Aachu reaches for the usual bedtime phone check and finds Zuv already routed the charger to her side.",
+      "first_slide_text": "you plugged it in already?",
+      "send_trigger": "Send to the partner who knows your low-battery drama.",
+      "overall_score": 4.58,
+      "status": "alternative"
+    },
+    {
+      "title": "No Chutney On Her Half",
+      "one_line_concept": "Zuv opens takeout and has already protected Aachu's half from the one topping she never wants.",
+      "first_slide_text": "you told them no onion?",
+      "send_trigger": "Comment the tiny food edit your person knows by heart.",
+      "overall_score": 4.42,
+      "status": "alternative"
+    },
+    {
+      "title": "The AC Number He Pretends Is Random",
+      "one_line_concept": "Zuv changes the AC to Aachu's exact comfort number before she asks, then acts like it was random.",
+      "first_slide_text": "you changed it to my number?",
+      "send_trigger": "Comment the sacred AC number.",
+      "overall_score": 4.35,
+      "status": "parked"
+    },
+    {
+      "title": "The Seat He Saved",
+      "one_line_concept": "Zuv automatically saves Aachu's wall-side/window-side seat before the negotiation begins.",
+      "first_slide_text": "you saved my side?",
+      "send_trigger": "Comment the seat rule your person knows.",
+      "overall_score": 4.25,
+      "status": "parked"
+    }
+  ]
+}

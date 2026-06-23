@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "final_package_created",
+  "approval": "Creator asked to proceed with final Instagram post-size illustration package.",
+  "final_exports": [
+    {
+      "slide": 1,
+      "path": "runs/2026-06-13_21-10_yellow-person/exports/final-instagram/yellow-person-final-slide-01-1080x1350.png",
+      "required_size": "1080x1350",
+      "surface": "Instagram 4:5 portrait"
+    },
+    {
+      "slide": 2,
+      "path": "runs/2026-06-13_21-10_yellow-person/exports/final-instagram/yellow-person-final-slide-02-1080x1350.png",
+      "required_size": "1080x1350",
+      "surface": "Instagram 4:5 portrait"
+    }
+  ],
+  "verification_pending": false,
+  "verification_status": "passed",
+  "verified_dimensions": [
+    {
+      "path": "runs/2026-06-13_21-10_yellow-person/exports/final-instagram/yellow-person-final-slide-01-1080x1350.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350
+    },
+    {
+      "path": "runs/2026-06-13_21-10_yellow-person/exports/final-instagram/yellow-person-final-slide-02-1080x1350.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350
+    }
+  ]
+}

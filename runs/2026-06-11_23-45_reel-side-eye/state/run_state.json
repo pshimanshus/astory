@@ -1,0 +1,13 @@
+{
+  "artifacts": {},
+  "completed": [],
+  "created_at": "2026-06-11T18:15:47+00:00",
+  "current_state": "INIT_RUN",
+  "gates": {},
+  "hitl": {},
+  "retries": {},
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "schema_version": "1.0",
+  "status": "running",
+  "updated_at": "2026-06-11T18:15:47+00:00"
+}

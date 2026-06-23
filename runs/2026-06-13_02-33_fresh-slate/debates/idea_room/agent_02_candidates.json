@@ -1,0 +1,81 @@
+{
+  "agent_role": "Shareability Strategist - Kabir",
+  "candidates": [
+    {
+      "title": "The Booth-Side Treaty",
+      "suggested_text_hook": "no discussion. she gets the booth side.",
+      "why_people_may_share": "It gives one partner a soft little instruction and the other partner a proud 'I already know' moment. The send-trigger is immediate for couples with restaurant seating rituals.",
+      "why_people_may_comment": "Comments will split into warm claims like 'as she should,' 'he learned,' and 'booth side is the princess seat.'",
+      "likely_audience_reaction": "A fast 'babe this is us' send, especially from people who have one tiny non-negotiable on dates.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 4,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 5,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "Leaving In Five",
+      "suggested_text_hook": "leaving in five means seven tiny things first.",
+      "why_people_may_share": "The tag reason is clean: one partner is always at the door, the other is still doing micro-tasks that suddenly feel urgent.",
+      "why_people_may_comment": "It baits affectionate confession: 'guilty,' 'the plant needed water,' 'checking the stove counts,' and 'he just stands there with keys.'",
+      "likely_audience_reaction": "Couples will recognize the exact doorway tension without it becoming a fight; it is teasing, not cruel.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 3,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "The Photo Approval Committee",
+      "suggested_text_hook": "he took 47 photos. she approved two.",
+      "why_people_may_share": "It lets people lovingly call out the partner who becomes patient tripod, lighting assistant, and morale support in public.",
+      "why_people_may_comment": "Warm comment bait is obvious: 'only two is generous,' 'he knows my angles now,' 'training complete,' and 'justice for the photographer.'",
+      "likely_audience_reaction": "Highly taggable, especially for couples where one person has quietly become the official date photographer.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 3,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 4
+      }
+    },
+    {
+      "title": "The Tiny Bowl Incident",
+      "suggested_text_hook": "we came for one thing. she found a tiny bowl.",
+      "why_people_may_share": "The send-trigger is the partner who turns a quick errand into a small emotional adoption of an unnecessary object.",
+      "why_people_may_comment": "People will name their version: tiny bowl, candle, mug, plant, notebook. It invites specific confessions instead of generic 'cute.'",
+      "likely_audience_reaction": "A soft guilty laugh from anyone whose partner has watched them fall in love with a random little object in a shop.",
+      "scores": {
+        "shareability": 4,
+        "comment_potential": 5,
+        "save_potential": 3,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 4,
+        "freshness": 5,
+        "brand_fit": 4
+      }
+    }
+  ],
+  "top_pick": "The Booth-Side Treaty",
+  "engagement_rationale": "Top pick because it is instantly readable, visually stageable, and gives both sides a reason to send: one as recognition, one as a gentle reminder. It has stronger brand warmth than a pure complaint post, and the comment lane is already alive: 'as she should,' 'he knows,' 'that side is mine.'",
+  "distribution_risks": [
+    "The Photo Approval Committee can drift into overused boyfriend-photographer meme territory unless the scene stays intimate and specific.",
+    "Leaving In Five must stay affectionate; avoid framing one partner as incompetent or annoying.",
+    "The Tiny Bowl Incident needs tactile visual charm so it does not become a generic shopping joke.",
+    "The Booth-Side Treaty should show care through body language, not turn into princess entitlement or caption-only romance."
+  ]
+}

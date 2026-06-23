@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "pass_with_notes",
+  "creator_correction_applied": true,
+  "style_reference_policy": "Concept screenshots used only for idea, emotional premise, broad composition, and text. Final render uses A Story house style.",
+  "exports": [
+    {
+      "slide": 1,
+      "path": "runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-01-1080x1350.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350,
+      "aspect_ratio": "4:5",
+      "text_check": "Who is your yellow?",
+      "notes": "House-style watercolor-and-ink, no copied yellow concept-reference style. Side padding added to preserve full generated artwork without cropping."
+    },
+    {
+      "slide": 2,
+      "path": "runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-02-1080x1350.png",
+      "pixel_width": 1080,
+      "pixel_height": 1350,
+      "aspect_ratio": "4:5",
+      "text_check": "A Yellow Person definition text is present and readable.",
+      "notes": "House-style watercolor-and-ink, no copied yellow concept-reference style. Side padding added to preserve full generated artwork without cropping."
+    }
+  ],
+  "verification_commands": [
+    "file runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-01-1080x1350.png runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-02-1080x1350.png",
+    "sips -g pixelWidth -g pixelHeight runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-01-1080x1350.png runs/2026-06-13_21-10_yellow-person/exports/yellow-person-slide-02-1080x1350.png"
+  ],
+  "known_limitations": [
+    "Generated candidates were initially 1003x1568; final exports were padded and resized to exact 1080x1350 to avoid cropping text or brandmark."
+  ]
+}

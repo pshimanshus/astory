@@ -1,0 +1,23 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "rejected",
+  "timestamp": "2026-06-14T01:48:32+05:30",
+  "attempt": 4,
+  "raw_generated_file": "/Users/himanshusharma/.codex/generated_images/019ec19a-4753-7ac1-adc8-e8073ef5507b/ig_06f983cef0ce840e016a2db92d368c819191fb9f6d6a7c4dd1.png",
+  "required_dimensions": {
+    "pixelWidth": 1080,
+    "pixelHeight": 1350
+  },
+  "actual_dimensions": {
+    "pixelWidth": 1092,
+    "pixelHeight": 1440
+  },
+  "failure_codes": [
+    "ARTIFACT_MISSING",
+    "SCENE_LOGIC_CONTRADICTION",
+    "TEXT_NOT_EXACT"
+  ],
+  "creator_feedback": "is this reallly making sense",
+  "rejection_reason": "The candidate is not a valid final: raw dimensions are not native 1080x1350, the hook text is too small/unreadable, identity/wardrobe drifted into generic stand-ins, and the emotional body logic does not land as a believable Aachu/Zuv protective rain-road hug.",
+  "active_constraint": "Future candidates must pass visual logic, identity specificity, readable text, locked-scene fidelity, and raw native 1080x1350 before packaging."
+}

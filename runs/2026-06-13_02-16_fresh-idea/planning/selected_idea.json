@@ -1,0 +1,61 @@
+{
+  "run_id": "2026-06-13_02-16_fresh-idea",
+  "idea_id": "idea_03_shared_pocket_system",
+  "title": "The Shared Pocket System",
+  "status": "pending_creator_idea_lock",
+  "creator_choice_mode": "shortlist_required_before_lock",
+  "choice_shortlist_path": "runs/2026-06-13_02-16_fresh-idea/planning/idea_choice_shortlist.md",
+  "one_line_concept": "Before Aachu and Zuv leave, their tiny essentials silently migrate into the correct person: her hair tie and lip balm into his pocket, his charger into her tote, both pretending this is not a whole relationship operating system.",
+  "emotional_truth": "Love is often the unannounced logistics of knowing what the other person will need five minutes from now.",
+  "relatable_trigger": "Couples who use each other's pockets, bags, chargers, tissues, hair ties, keys, and 'just keep this for me' systems.",
+  "share_trigger": "Send to the partner whose pocket or bag has quietly become shared property.",
+  "likely_comments": [
+    "his pockets are our house",
+    "my bag is his cable drawer",
+    "why are we exactly like this",
+    "the hair tie migration is real"
+  ],
+  "suggested_hook_text": "we do not pack. we redistribute.",
+  "visual_evidence": "Entryway/doorway scene with keys, one tote, one jacket pocket, hair tie, lip balm, and charger. Aachu slips a hair tie into Zuv's pocket while Zuv tucks his charger into her tote; payoff shows each producing the exact item the other needs without asking.",
+  "suggested_slide_count": 4,
+  "slide_count_reason": "Three slides would rush the mutual setup and payoff; five slides would over-explain the pocket gag.",
+  "story_room_seed_arc": [
+    "Slide 1: They are ready to leave, but both are quietly transferring tiny essentials into the other's pocket or bag.",
+    "Slide 2: The system escalates: hair tie, lip balm, charger, keys. Their faces say this is normal and absurd.",
+    "Slide 3: Outside the door, Aachu reaches out without looking and Zuv instantly gives her the lip balm.",
+    "Slide 4: Zuv reaches toward her tote and she hands him his charger; the shared inventory system works perfectly."
+  ],
+  "why_it_wins": [
+    "Specific everyday behavior instead of abstract romance.",
+    "Mutual care, not a one-sided storage or incompetence joke.",
+    "Strong send-trigger for couples with shared pockets/bags.",
+    "Clean doorway staging with tactile props and safe face spacing.",
+    "Fits observational-intimacy-premium style without needing a quote-card rescue."
+  ],
+  "risks": [
+    {
+      "risk": "Could become a gendered boyfriend-storage gag.",
+      "mitigation": "Keep the transfer mutual: her small essentials in his pocket, his charger or cloth in her tote."
+    },
+    {
+      "risk": "Tiny props may clutter the frame.",
+      "mitigation": "Limit recurring objects to hair tie, lip balm, charger, keys, and one tote/jacket pocket."
+    },
+    {
+      "risk": "The hook could read too abstract if text carries the idea alone.",
+      "mitigation": "Make the hands and object transfer prove the text visually."
+    }
+  ],
+  "score_overall": 4.81,
+  "agent_assignment_status": "actual_multi_agent",
+  "artifact_sources": [
+    "debates/agent_assignment_matrix.md",
+    "debates/idea_room/agent_01_candidates.json",
+    "debates/idea_room/agent_02_candidates.json",
+    "debates/idea_room/agent_03_candidates.json",
+    "debates/idea_room/cross_critique.md",
+    "debates/idea_room/repair_round.md",
+    "debates/idea_room/final_scoreboard.json",
+    "planning/idea_choice_shortlist.md"
+  ]
+}

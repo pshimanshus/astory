@@ -1,0 +1,62 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "mode": "specific_creator_brief",
+  "evidence_basis": [
+    "runs/2026-06-19_21-09_ghar-line/debates/idea_room/agent_01_candidates.json",
+    "runs/2026-06-19_21-09_ghar-line/debates/idea_room/agent_02_candidates.json",
+    "runs/2026-06-19_21-09_ghar-line/debates/idea_room/agent_03_candidates.json",
+    "runs/2026-06-19_21-09_ghar-line/planning/memory_recall.md"
+  ],
+  "premise_lock": {
+    "slide_1_text": "khaali hai jo tere bina, main woh ghar hoon tera",
+    "slide_2_job": "Make the reader feel the ache of one missing person and the comfort that their place is still kept.",
+    "must_not_change": [
+      "Do not add more song lyrics.",
+      "Do not make a generic 'home is a person' quote card.",
+      "Do not replace the creator's line with smoother AI copy."
+    ]
+  },
+  "shortlisted_candidates": [
+    {
+      "candidate_id": "selected_empty_usual_spot",
+      "title": "Your Side Still Stays Yours",
+      "source_agents": ["Meera", "Kabir", "Tara"],
+      "one_line_concept": "One partner is alone in a complete room but still leaves the other person's usual place untouched; the empty side becomes proof that the house is waiting for its real ghar.",
+      "slide_count": 2,
+      "slide_1_text": "khaali hai jo tere bina, main woh ghar hoon tera",
+      "slide_2_text_direction": null,
+      "revision_note": "Previous slide 2 direction was rejected by the creator as fake-soft/generic. Repair must not use the welcome-back/tired-return lane.",
+      "first_frame_visual": "One partner sits on only their usual half of a sofa or bed; the other side is open, unoccupied, and quietly respected.",
+      "payoff_frame": "Same room, same framing, the missing person returns to that exact side. No dramatic hug; just the room finally reading as inhabited.",
+      "why_it_wins": "It makes the lyric physical without explaining it. The empty place is a real receipt, and the second slide gives the receiver a safe invitation to come back tired or quiet.",
+      "overall_score": 4.72
+    },
+    {
+      "candidate_id": "alt_door_sound_changes_house",
+      "title": "The Door Sound Changes The House",
+      "source_agents": ["Meera", "Tara"],
+      "one_line_concept": "The house starts becoming ghar in the half-second one partner hears the other person's arrival.",
+      "slide_count": 2,
+      "slide_1_text": "khaali hai jo tere bina, main woh ghar hoon tera",
+      "slide_2_text_direction": "tum darwaze tak bhi nahi aaye hote, par ghar pehle hi tumhe pehchaan leta hai.",
+      "first_frame_visual": "One partner looks up toward a door that has not fully opened yet.",
+      "payoff_frame": "The door opens just enough for the missing person to enter the house's emotional field.",
+      "why_not_selected": "Strong swipe tension, but a little more cinematic and less directly tied to the creator's requested empty-home ache.",
+      "overall_score": 4.51
+    },
+    {
+      "candidate_id": "alt_bas_tum_nahi_ho",
+      "title": "Bas Tum Nahi Ho",
+      "source_agents": ["Kabir"],
+      "one_line_concept": "The place has everything, but the only thing that makes it ghar is missing.",
+      "slide_count": 2,
+      "slide_1_text": "khaali hai jo tere bina, main woh ghar hoon tera",
+      "slide_2_text_direction": null,
+      "revision_note": "The short missing-person direction is too close to the rejected constructed-comfort lane unless rebuilt from the raw Ghar ache.",
+      "first_frame_visual": "A room that should feel complete but feels too still.",
+      "payoff_frame": "The same room when the missing person arrives or is expected.",
+      "why_not_selected": "Very sendable, but it has less visual specificity than the kept-usual-side idea.",
+      "overall_score": 4.48
+    }
+  ]
+}

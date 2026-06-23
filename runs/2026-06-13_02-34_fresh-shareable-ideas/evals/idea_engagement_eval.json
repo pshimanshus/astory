@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-06-13_02-34_fresh-shareable-ideas",
+  "selected_idea_id": "idea_01_packet_pause",
+  "score_threshold": 4.0,
+  "scores": {
+    "relatability": 4.9,
+    "shareability": 4.8,
+    "comment_potential": 4.7,
+    "visual_clarity": 4.8,
+    "emotional_truth": 4.7,
+    "humor_warmth_balance": 5.0,
+    "freshness": 4.9,
+    "brand_fit": 4.9,
+    "simplicity": 4.8,
+    "carousel_payoff": 4.8,
+    "overall": 4.82
+  },
+  "selection_allowed": true,
+  "second_round_required": false,
+  "agent_assignment_status": "actual_multi_agent",
+  "scene_landing_status": "preview_written_pending_creator_approval",
+  "scene_landing_preview_path": "runs/2026-06-13_02-34_fresh-shareable-ideas/planning/scene_landing_preview.md",
+  "notes": "Selected after multi-agent idea-room critique and repair. Winner is pending creator idea lock."
+}

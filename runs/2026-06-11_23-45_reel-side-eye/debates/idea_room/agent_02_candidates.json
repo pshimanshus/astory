@@ -1,0 +1,21 @@
+{
+  "agent": "Shareability Strategist",
+  "mode": "fallback_local_pass_2",
+  "task": "maximize send-not-like while preserving creator idea",
+  "candidates": [
+    {
+      "id": "share_a",
+      "angle": "Escalation carousel with warm pivot",
+      "send_trigger": "Sender forwards this to the partner who leaves their reels on seen. Caption-free guilt delivery. The carousel itself mimics the behavior it describes: each swipe is her waiting.",
+      "structure": "Open on the send (hope), escalate the side-eye (latency), confront (the stare he finally feels), pivot warm: he was saving them to watch together.",
+      "pivot_rationale": "Without the pivot it is a complaint post; likes but no saves. With the pivot it becomes 'us', which is what gets sent WITH affection rather than AT the partner.",
+      "risk": "Pivot must not be saccharine; it must be a behavior (saved folder, watching together at night), not a caption."
+    },
+    {
+      "id": "share_b",
+      "angle": "Pure 3-slide escalating side-eye, no pivot, hard comedic cut",
+      "send_trigger": "Faster, meaner, meme-shaped. Strong for reach, weaker for saves; closest to the original jam phrasing.",
+      "risk": "Ends on irritation — brushes against the couple-banter lesson that harshness fails on this page."
+    }
+  ]
+}

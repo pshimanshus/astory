@@ -1,0 +1,61 @@
+{
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "selected_at_state": "SELECT_BEST_IDEA",
+  "candidate_id": "please_vent_more_long_version",
+  "title": "Please Vent More",
+  "exact_first_slide_text": "please vent more. i don't want the short version.",
+  "one_line_concept": "Aachu starts editing her rant because she feels annoying; Zuv makes it clear he wants the long version.",
+  "why_it_wins": [
+    "All three Idea Room agents independently selected the vent-more family.",
+    "It preserves a permissioned source lead instead of inventing a generic listening lesson.",
+    "It is supported by owned A Story performance: the top send-behavior winner proves 'you are not too much' travels, and the listening winner proves this emotional lane can be shared.",
+    "The first frame can be staged as real couple behavior without quote-card drift: phone face-down, one person mid-rant, one person visibly staying."
+  ],
+  "source_basis": {
+    "primary_source": "ig:DZS2GuipLku",
+    "primary_source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+    "primary_source_account": "hereverydaymotherhood",
+    "supporting_owned_sources": [
+      {
+        "shortcode": "DYJpjt9CQYY",
+        "role": "owned not-too-much send-behavior winner",
+        "metric": "40.15 shares per 1k reach"
+      },
+      {
+        "shortcode": "DY4tGrQCXRA",
+        "role": "owned listening winner",
+        "metric": "27.04 shares per 1k reach"
+      }
+    ],
+    "source_gap": "DZS2GuipLku has public likes/comments and comment smell but no scraped saves/shares; selection uses it as source lead, not as sole performance proof."
+  },
+  "recommended_slide_count_hint": 5,
+  "mini_arc": [
+    {
+      "slide": 1,
+      "on_image_text": "please vent more. i don't want the short version.",
+      "scene": "Aachu is mid-rant; Zuv is fully turned toward her with his phone face-down."
+    },
+    {
+      "slide": 2,
+      "on_image_text": "tell me the unnecessary details also.",
+      "scene": "She gestures through the exact part she usually cuts out; he follows seriously."
+    },
+    {
+      "slide": 3,
+      "on_image_text": "who said what. what face they made. where you went quiet.",
+      "scene": "The vent becomes more specific; his untouched cup/phone proves he is not waiting for it to end."
+    },
+    {
+      "slide": 4,
+      "on_image_text": "you always say 'sorry, too much' right before the real thing comes out.",
+      "scene": "Aachu catches herself apologizing for talking; Zuv's attention does not move."
+    },
+    {
+      "slide": 5,
+      "on_image_text": "no. say the rest.",
+      "scene": "The payoff lands as a small instruction, not a speech."
+    }
+  ],
+  "idea_lock_status": "pending_creator_approval"
+}

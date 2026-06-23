@@ -1,0 +1,97 @@
+{
+  "agent_role": "Relatability Ethnographer / Meera",
+  "candidates": [
+    {
+      "title": "The Corner Watch",
+      "one_line_concept": "Aachu and Zuv keep saving each other from the same sharp table corner without ever making it a big romantic speech.",
+      "emotional_truth": "The most believable care is often a hand quietly appearing between your head and the furniture.",
+      "relatable_trigger": "Couples who live in one small room will recognize the automatic palm-on-corner reflex immediately.",
+      "visual_evidence": "3-5 slides: one bends to pick up a charger, the other's hand covers the table corner; later the roles reverse near a shelf; both pretend it is normal; the final frame shows the hand arriving before the bump can happen.",
+      "risk_of_being_generic": "Low, as long as the object stays specific: same table corner, same repeated reflex, mutual care.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 5,
+        "specificity": 5,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal": 5
+      }
+    },
+    {
+      "title": "The Video Call Cleanup",
+      "one_line_concept": "One of them is about to join a call, and the other silently removes the embarrassing life evidence from the camera frame.",
+      "emotional_truth": "Love is knowing the difference between private mess and public background.",
+      "relatable_trigger": "Anyone who has had a partner whisper-point at laundry, mugs, hair, or an open cupboard before a call will send this.",
+      "visual_evidence": "4-6 slides: laptop camera view open; a towel is visible behind Aachu; Zuv quietly slides it away, straightens one cushion, moves a mug, then gives a tiny off-camera thumbs-up while Aachu keeps a serious meeting face.",
+      "risk_of_being_generic": "Medium-low; it needs exact background objects and silent teamwork, not a vague work-from-home couple scene.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 5,
+        "warmth": 4,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4,
+        "risk_of_stereotype_reversal": 5
+      }
+    },
+    {
+      "title": "The Taste-Test Face",
+      "one_line_concept": "While cooking, one keeps offering the spoon, and the other's face becomes the actual salt measurement.",
+      "emotional_truth": "Some couples do not need recipes; they have one person's dramatic expression and the other person's trust in it.",
+      "relatable_trigger": "The send-trigger is the tiny domestic ritual of asking 'is this enough?' without really needing words.",
+      "visual_evidence": "3-5 slides: a pot on the stove, spoon held under Zuv's chin, Aachu watching his face instead of the food; he squints, she adds exactly one pinch; later he offers her the spoon and she makes the same verdict face.",
+      "risk_of_being_generic": "Medium; cooking couples can become soft-focus filler unless the spoon, pinch, and judging face stay central.",
+      "scores": {
+        "relatability": 4,
+        "emotional_truth": 5,
+        "specificity": 4,
+        "warmth": 5,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal": 5
+      }
+    },
+    {
+      "title": "The Kitchen Traffic Jam",
+      "one_line_concept": "They keep standing exactly where the other needs to open a drawer, so the whole kitchen becomes a soft, annoyed choreography.",
+      "emotional_truth": "Living close together means half your affection is learning how to move around one another badly.",
+      "relatable_trigger": "Small-kitchen couples will recognize the hip bump, the half-step aside, and the person who moves but somehow remains in the way.",
+      "visual_evidence": "4-6 slides: Aachu reaches for a drawer blocked by Zuv's leg; he shifts just enough to block the cabinet; she nudges him with her hip; later he needs the spoon drawer and she is the obstacle; final frame shows both laughing in the narrow space.",
+      "risk_of_being_generic": "Medium-low; must stay mutual and physical, not become 'one partner is useless in the kitchen.'",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4,
+        "specificity": 5,
+        "warmth": 4,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 5,
+        "risk_of_stereotype_reversal": 4
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "The Corner Watch",
+    "why": "It is the cleanest behavior: photographable without caption, mutual, fresh, tactile, emotionally warm, and specific enough to avoid quote-card romance."
+  },
+  "rejected_patterns": [
+    "shared pockets, bags, or item redistribution",
+    "private can-we-leave signals",
+    "scooter, helmet, strap, or road-safety checking",
+    "post-fight water or care",
+    "coffee theft",
+    "hoodie theft",
+    "missed texts or reels",
+    "men-cannot-find-things jokes",
+    "generic cozy morning",
+    "love-language lists",
+    "quote-card romance",
+    "food stealing as the whole idea",
+    "one partner as fool and the other as caretaker"
+  ],
+  "risk_notes": [
+    "Keep every option mutual; the teasing must be affectionate, not a competence joke.",
+    "Avoid making the text carry the idea. The behavior has to read from the hand, object, posture, and repeated gesture.",
+    "The Corner Watch is strongest because it can become a 3-5 slide escalation without adding plot machinery."
+  ]
+}

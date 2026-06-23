@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "status": "draft_pending_creator_idea_lock",
+  "framework_reference": "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md",
+  "source_winner": {
+    "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+    "source_account": "werenotreallystrangers",
+    "source_shortcode": "DW9g9ZGCRu-",
+    "old_familiar_topic": "The person you love feels like home."
+  },
+  "creator_anchor": {
+    "type": "creator_provided_song_line",
+    "text": "khaali hai jo tere bina, main woh ghar hoon tera",
+    "constraint": "Use this supplied line only; do not add more lyrics."
+  },
+  "illusion_of_novelty_model": {
+    "new_reveal": "The emptiness is visible in one kept place: even when alone, the speaker does not occupy the other person's side.",
+    "viewer_outcome": "The viewer can send the carousel because it says the hollow part they cannot say cleanly: without you, even home is empty.",
+    "contrast_frame": "The generic belief is that home is a feeling or a person; this version makes it physical by showing the exact side nobody else gets to occupy.",
+    "urgency": {
+      "used": false,
+      "reason": "No fake timeliness is needed; the real emotional window is missing someone while still keeping their place."
+    },
+    "bullseye_proof": "One partner remains on their own side even when alone, leaving the other side open and uncreased.",
+    "protect_the_illusion": "Do not explain the philosophy of home. Let the kept place make the reader understand."
+  },
+  "hook_diagnostic": {
+    "use": "diagnostic_only_not_a_gate",
+    "priority": "winner_causality_and_novelty_come_before_hook_formula",
+    "why_winner_worked": "The source winner proves short person-as-home recognition can travel; this remix keeps the recognition but adds a lived Aachu/Zuv receipt.",
+    "symptoms_to_check_without_becoming_rigid": {
+      "delay": "No issue if the empty side is visible immediately.",
+      "confusion": "Repair if the viewer cannot tell that the untouched side belongs to the missing person.",
+      "weak_relevance": "Repair if slide 2 reads like a general quote instead of a message to one person.",
+      "low_curiosity": "Repair if slide 1 is just text on a room and the viewer has no reason to swipe."
+    },
+    "non_rigid_decision": "Preserve the creator lyric and the home/person winner engine, but make the A Story wrapper do the emotional proof."
+  },
+  "a_story_translation": {
+    "what_stays_from_source": "The short, direct home/person landing mechanism and the sendable feeling of naming one person as home.",
+    "what_changes_for_aachu_zuv": "Aachu/Zuv make the premise visible through a shared sofa or bed side that remains untouched while one partner is away.",
+    "lived_scene_wrapper": "Slide 1 shows one partner alone but still sitting only on their own side. Slide 2 must be rewritten from the hollow ache of the Ghar line; it must not become an invitation to return tired or a neat reassurance.",
+    "lines_to_remove_because_they_explain_the_lesson": [
+      "home is not a place, it is a person",
+      "this is what real love means",
+      "the moral is that small things matter"
+    ]
+  },
+  "gate": "pass"
+}

@@ -1,0 +1,25 @@
+{
+  "rubric": ["recognition_specificity", "send_trigger", "picture_proves_line", "real_turn", "stageability_identity_safety"],
+  "scores": {
+    "merged_reel_side_eye_v2": {
+      "recognition_specificity": 4.8,
+      "send_trigger": 4.7,
+      "picture_proves_line": 4.6,
+      "real_turn": 4.4,
+      "stageability_identity_safety": 4.5,
+      "overall": 4.6
+    },
+    "share_b_pure_3_slide": {
+      "recognition_specificity": 4.5,
+      "send_trigger": 4.2,
+      "picture_proves_line": 4.4,
+      "real_turn": 2.8,
+      "stageability_identity_safety": 4.5,
+      "overall": 4.08,
+      "note": "passes 4.0 but loses to merged version on real-turn; kept as rejected alternative"
+    }
+  },
+  "selection": "merged_reel_side_eye_v2",
+  "threshold": 4.0,
+  "second_room_needed": false
+}

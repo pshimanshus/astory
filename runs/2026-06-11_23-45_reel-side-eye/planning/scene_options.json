@@ -1,0 +1,39 @@
+{
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "scoring": ["scene_text_proof", "identity_preservation", "visual_freshness", "phone_readability", "wardrobe_continuity", "style_fit"],
+  "slides": [
+    {
+      "slide": 1,
+      "options": [
+        {"id": "1a", "scene": "Living-room sofa, evening lamplight. Aachu cross-legged at one end, phone in both hands, thumb just lifted, bright expectant smile aimed at Zuv. Zuv slouched at the other end in his own phone's glow. A visible cushion-width gap between them.", "score": 4.7, "selected": true, "why": "The gap stages the whole story; both phones established; text proven by her expectant look toward him."},
+        {"id": "1b", "scene": "Bed, both under lamp, she sends from her side.", "score": 4.1, "why": "Collides with slide 4's night setting; weakens the pivot's change of place/time."},
+        {"id": "1c", "scene": "Kitchen counter, she sends while he cooks.", "score": 3.8, "why": "Cooking steals attention from the phone latency premise; busier anatomy (utensils)."}
+      ]
+    },
+    {
+      "slide": 2,
+      "options": [
+        {"id": "2a", "scene": "Same sofa, mid shot favoring Aachu. Her head turned toward Zuv in a first deadpan side-eye, phone dropped to her lap. Zuv mid-laugh at his own screen, head tipped back slightly, phone glow on his face.", "score": 4.8, "selected": true, "why": "His joy vs her flatline in one frame proves 'laughing at YOUR phone' instantly."},
+        {"id": "2b", "scene": "Over-the-shoulder from behind Zuv showing his screen.", "score": 3.5, "why": "Requires rendered screen content — rejected failure surface."},
+        {"id": "2c", "scene": "Aachu leaning into his field of view, waving.", "score": 4.0, "why": "Funny but escalates too early; slide 3 needs the headroom."}
+      ]
+    },
+    {
+      "slide": 3,
+      "options": [
+        {"id": "3a", "scene": "Extreme close-up of Aachu's face from slightly below, full playful unblinking side-eye, one eyebrow raised, lips pressed. Zuv's oblivious soft-focus profile at the right frame edge. Minimal background wash.", "score": 4.6, "selected": true, "why": "Peak beat acted purely by eyes; close crop with minimal background is the identity-safest way to do an exaggerated expression — features stay reference-driven, no hands needed."},
+        {"id": "3b", "scene": "She holds her phone screen toward his face showing the chat.", "score": 3.4, "why": "Rendered chat UI; arm-extension anatomy risk."},
+        {"id": "3c", "scene": "Mid two-shot, her arms crossed, glaring.", "score": 4.0, "why": "Arms crossed reads angry not playful; violates affection rule and loses the camera-distance escalation."}
+      ]
+    },
+    {
+      "slide": 4,
+      "options": [
+        {"id": "4d", "scene": "Same sofa, moments after slide 3. Both turned fully toward each other, each holding their own phone out face-to-face so the two screens nearly touch, identical warm glow on both faces. Aachu's glare collapsing into incredulous laughter; Zuv delighted, mid-laugh. Phone screens shown as plain glow only, no UI.", "score": 4.9, "selected": true, "why": "Creator-selected pivot A (same-reel twist): mirrored phones + mirrored laughter prove 'the SAME reel' visually with zero UI; symmetric composition releases the camera arc and makes slides 1-3 retroactively mutual."},
+        {"id": "4a", "scene": "Same night under one shared blanket, ONE phone between them, both lit by its glow, watching her reels together.", "score": 4.8, "selected": false, "why": "Original 'save them for us' pivot — creator rejected as bland; resolves with a shrug, not a snap."},
+        {"id": "4b", "scene": "He shows her a saved-collection folder on his phone.", "score": 3.3, "why": "Depends on rendered UI to land."},
+        {"id": "4c", "scene": "Morning after, he reacts with hearts while she sleeps.", "score": 4.0, "why": "Sweet but breaks single-evening continuity and the 'together' pivot becomes solitary."}
+      ]
+    }
+  ]
+}

@@ -3,6 +3,56 @@
     {
       "blocking_findings": [
         {
+          "failure_code": "MEMORY_RECALL_INVALID",
+          "id": "memory_recall",
+          "summary": "Memory recall contains cited findings, gaps, and usability notes."
+        },
+        {
+          "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+          "id": "prompt_canvas_size",
+          "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate."
+        },
+        {
+          "failure_code": "PROMPT_BRANDMARK_MISSING",
+          "id": "prompt_brandmark_gate",
+          "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate."
+        },
+        {
+          "failure_code": "PROMPT_OVERLOAD",
+          "id": "prompt_overload",
+          "summary": "Prompt instruction stack is overloaded with too many competing constraints."
+        },
+        {
+          "failure_code": "PRE_IMAGEGEN_BLOCKER_CHECK_MISSING",
+          "id": "pre_imagegen_blocker_check",
+          "summary": "Pre-imagegen blocker check artifact is required before imagegen."
+        },
+        {
+          "failure_code": "REFERENCE_VISIBILITY_PROOF_STALE",
+          "id": "reference_visibility_proof",
+          "summary": "Reference visibility proof is stale for the current load plan."
+        },
+        {
+          "failure_code": "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+          "id": "gold_standard_identity_route_gate",
+          "summary": "Gold-standard identity route is incomplete; stop before imagegen/final progression."
+        },
+        {
+          "failure_code": "QUOTE_CARD_NOT_ILLUSTRATION",
+          "id": "final_package_has_illustration_proof",
+          "summary": "Final packages must be A Story illustrations, not deterministic quote-card renders; require imagegen attempt, passing Image QA, and scene-proof artifacts."
+        },
+        {
+          "failure_code": "NOVELTY_CANDIDATE_LEDGER_MISSING",
+          "id": "novelty_candidate_ledger",
+          "summary": "Novelty candidate ledger is missing or too incomplete before idea lock."
+        },
+        {
+          "failure_code": "SCENE_LANDING_MISSING",
+          "id": "scene_landing_preview",
+          "summary": "Scene landing preview is missing or too abstract before idea lock."
+        },
+        {
           "failure_code": "AGENT_ASSIGNMENT_MISSING",
           "id": "agent_assignment_gate",
           "summary": "Agent assignment proof is incomplete before prompt lock or imagegen."

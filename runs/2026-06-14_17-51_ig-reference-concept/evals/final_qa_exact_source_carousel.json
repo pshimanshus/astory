@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-18T16:12:08Z",
+  "corrected_package": "corrected-exact-source-carousel",
+  "source_map": "planning/exact_source_slide_map.json",
+  "rendered_slide_count": 18,
+  "excluded_source_slide_19": {
+    "reason": "Source slide 19 is a product/book promo image, not part of the quote carousel content to convert. It is preserved in source capture but not rendered as an A Story quote slide."
+  },
+  "checks": [
+    {
+      "name": "previous_variant_package_rejected",
+      "status": "pass",
+      "evidence": "evals/rejected_variant_package_2026-06-18.json marks final-carousel and variant exports do_not_publish."
+    },
+    {
+      "name": "exact_source_slide_map_19_items",
+      "status": "pass",
+      "evidence": "planning/exact_source_slide_map.json includes source slides 1-19."
+    },
+    {
+      "name": "rendered_from_exact_source_map",
+      "status": "pass",
+      "evidence": "scripts/render_exact_source_carousel.swift reads exact copy strings from the source map and renders slides 1-18."
+    },
+    {
+      "name": "all_pngs_present",
+      "status": "pass",
+      "evidence": "corrected-exact-source-carousel contains slide-01.png through slide-18.png."
+    },
+    {
+      "name": "all_pngs_1080x1350",
+      "status": "pass",
+      "evidence": "sips dimension sweep confirms every rendered PNG is 1080 x 1350 px."
+    },
+    {
+      "name": "manifest_valid",
+      "status": "pass",
+      "evidence": "corrected-exact-source-carousel/manifest.json declares 18 rendered slides and 18 slide entries."
+    },
+    {
+      "name": "visual_spot_check",
+      "status": "pass",
+      "evidence": "Slides 01, 03, 06, 10, 16, and 18 were visually inspected after render."
+    },
+    {
+      "name": "no_imagegen_text",
+      "status": "pass",
+      "evidence": "Text is generated deterministically by native renderer, not inferred or rewritten by an image model."
+    }
+  ],
+  "decision": "ready_for_creator_review"
+}

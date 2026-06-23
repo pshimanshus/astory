@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-18_21-48_identity-route-redo-test",
+  "status": "pass_for_test_generation",
+  "agent_assignment_status": "actual_multi_agent",
+  "prompt_room_outputs": [
+    "debates/prompt_room/prompt_review.md"
+  ],
+  "prompt_files": [
+    "prompts/slide_01_prompt.txt",
+    "prompts/slide_02_prompt.txt"
+  ],
+  "identity_route": {
+    "aachu_raw_anchor_count": 6,
+    "zuv_raw_anchor_count": 6,
+    "view_bucket_requirement": "front_side_three_quarter_present_for_each_subject",
+    "contact_sheet_route": false,
+    "single_best_reference_route": false
+  },
+  "test_generation_authorized_by_latest_user_request": true,
+  "residual_risks": [
+    "Generated candidates still require face-match QA before final packaging.",
+    "The imagegen tool output may still need a targeted retry if it copies the source posture or hides faces."
+  ]
+}

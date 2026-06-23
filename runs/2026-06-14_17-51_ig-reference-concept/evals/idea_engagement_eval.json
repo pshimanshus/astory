@@ -1,0 +1,47 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "stage": "idea_lock",
+  "agent_assignment_status": "actual_multi_agent",
+  "reference_research": {
+    "apify_scrape": "passed",
+    "reference_image_viewed": true,
+    "external_share_save_metrics_available": false,
+    "evidence_gap_disclosed": true
+  },
+  "local_evidence": {
+    "outcome_attribution_used": true,
+    "winner_exports_used": [
+      "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+      "data/instagram/carousel_posts/DY9SfANiXWc/carousel_export.json",
+      "data/instagram/carousel_posts/DY4tGrQCXRA/carousel_export.json"
+    ],
+    "brain_doctor_status": "blocked_identity_style_citation_gap",
+    "memory_recall_exact_hit": false
+  },
+  "selected_idea": {
+    "title": "The Hair Clip He Started Carrying",
+    "overall_score": 4.78,
+    "threshold": 4.0,
+    "passed_threshold": true
+  },
+  "rubric": {
+    "send_trigger": 5,
+    "comment_trigger": 5,
+    "specificity": 4.8,
+    "visual_proof": 4.9,
+    "freshness": 4.4,
+    "a_story_fit": 4.8,
+    "slop_risk_control": 4.5
+  },
+  "hard_gates": {
+    "anti_ai_slop_gate": "passed_with_repair",
+    "scene_landing_preview": "passed",
+    "quote_card_copy_risk": "rejected",
+    "reference_style_copy_risk": "rejected",
+    "story_lock": "not_started",
+    "prompt_lock": "not_started",
+    "imagegen": "not_started"
+  },
+  "failure_codes": [],
+  "status": "ready_for_hitl_idea_lock"
+}

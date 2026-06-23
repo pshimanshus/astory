@@ -1,0 +1,78 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "status": "failed_wrong_canvas_size_and_reference_pose_copy",
+  "hard_gate_result": "failed",
+  "review_scope": "slide_01_iteration_02_attempts_only",
+  "first_hard_questions": {
+    "emotional_truth_before_canvas": "block",
+    "reference_copying_before_prettiness": "block",
+    "creator_immediate_reject": "Aachu smiling or looking like the existing cafe identity photo was superimposed into watercolor.",
+    "copied_identity_reference": "references/identity/aachu/aachu-face-cafe-neutral-01.jpg"
+  },
+  "candidates_reviewed": [
+    {
+      "path": "runs/2026-06-19_21-09_ghar-line/images/slide_01_iteration_02_attempt_01_candidate.png",
+      "slide_number": 1,
+      "attempt": 1,
+      "pixel_width": 1122,
+      "pixel_height": 1402,
+      "expected_pixel_width": 1080,
+      "expected_pixel_height": 1350,
+      "decision": "rejected",
+      "hard_failures": [
+        "WRONG_CANVAS_SIZE",
+        "IDENTITY_REFERENCE_POSE_COPY",
+        "SMILING_CONTRADICTS_ACHE"
+      ],
+      "passes_observed": [
+        "Aachu-only visible primary subject",
+        "No visible Zuv comeback",
+        "Top-right @a.storyof.two present",
+        "On-image text appears exact and readable"
+      ],
+      "watchpoints": [
+        "Paper/cafe wash leans slightly tan in places",
+        "Aachu smiles when the beat needs unsmiling ache",
+        "Pose/cup/table/jacket energy is too close to the cafe identity reference"
+      ]
+    },
+    {
+      "path": "runs/2026-06-19_21-09_ghar-line/images/slide_01_iteration_02_attempt_02_candidate.png",
+      "slide_number": 1,
+      "attempt": 2,
+      "pixel_width": 1122,
+      "pixel_height": 1402,
+      "expected_pixel_width": 1080,
+      "expected_pixel_height": 1350,
+      "decision": "rejected",
+      "hard_failures": [
+        "WRONG_CANVAS_SIZE",
+        "IDENTITY_REFERENCE_POSE_COPY",
+        "SMILING_CONTRADICTS_ACHE"
+      ],
+      "passes_observed": [
+        "Aachu-only visible primary subject",
+        "No visible Zuv comeback",
+        "Top-right @a.storyof.two present",
+        "On-image text appears exact and readable"
+      ],
+      "watchpoints": [
+        "Aachu still reads pleasantly smiling/posed",
+        "The candidate continues to feel superimposed from the cafe identity reference"
+      ]
+    }
+  ],
+  "blocking_failures": [
+    "WRONG_CANVAS_SIZE",
+    "IDENTITY_REFERENCE_POSE_COPY",
+    "SMILING_CONTRADICTS_ACHE"
+  ],
+  "retry_count_for_failure_type": {
+    "WRONG_CANVAS_SIZE": 2,
+    "IDENTITY_REFERENCE_POSE_COPY": 2,
+    "SMILING_CONTRADICTS_ACHE": 2
+  },
+  "next_action": "blocked_until_prompt_and_reference_route_are repaired to prevent identity-photo superimposition and native_1080x1350_generation_path_is_available",
+  "final_package_allowed": false
+}

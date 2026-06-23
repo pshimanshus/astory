@@ -1,0 +1,100 @@
+{
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "mode": "auto_next_carousel_recommendation",
+  "evidence_basis": [
+    {
+      "path": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZS2GuipLku/record.json",
+      "used_for": "Primary source lead: direct permission to vent more."
+    },
+    {
+      "path": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+      "used_for": "Owned send-behavior support for 'too much' being held gently: 40.15 shares per 1k reach."
+    },
+    {
+      "path": "data/instagram/carousel_posts/DY4tGrQCXRA/carousel_export.json",
+      "used_for": "Owned listening support: 27.04 shares per 1k reach."
+    },
+    {
+      "path": "references/text-style/winner-bank/winner_bank.json",
+      "used_for": "Secondary source engines: ordinary care phrases and ordinary things."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "please_vent_more_long_version",
+      "title": "Please Vent More",
+      "exact_first_slide_text": "please vent more. i don't want the short version.",
+      "one_line_concept": "One partner asks for the long, repetitive, supposedly annoying version of the other person's vent.",
+      "source_engine": "DZS2GuipLku source lead plus owned DYJpjt9CQYY/DY4tGrQCXRA support.",
+      "first_frame_visual": "Aachu mid-rant in a quiet room; Zuv fully turned toward her, phone face-down, not solving or scrolling.",
+      "mini_arc": [
+        "please vent more. i don't want the short version.",
+        "tell me the unnecessary details also.",
+        "who said what. what face they made. where you went quiet.",
+        "you always say 'sorry, too much' right before the real thing comes out.",
+        "no. say the rest."
+      ],
+      "payoff_frame": "Aachu softens because Zuv wants the rest of the story, not because he fixed anything.",
+      "share_trigger": "Send to the person who lets you repeat the same detail without making you feel like a burden.",
+      "overall_score": 4.72,
+      "status": "selected"
+    },
+    {
+      "id": "ordinary_care_phrases",
+      "title": "He Said I Love You All Day",
+      "exact_first_slide_text": "he has said i love you all day. just not like that.",
+      "one_line_concept": "Practical partner phrases become the hidden love confession.",
+      "source_engine": "DZTTSUBEaRr ordinary care phrases as love.",
+      "first_frame_visual": "Aachu at the doorway reading a reach-home text while Zuv pretends to be casual.",
+      "mini_arc": [
+        "he has said i love you all day. just not like that.",
+        "'take my jacket. you will say no and then shiver.'",
+        "'eat first. fight with me after.'",
+        "'send me a photo of the cab number.'",
+        "some people say it by checking if you got home."
+      ],
+      "payoff_frame": "The phone glow on Aachu's face after the one-word check-in.",
+      "share_trigger": "Send to the practical partner who never says it dramatically.",
+      "overall_score": 4.50,
+      "status": "shortlisted"
+    },
+    {
+      "id": "boring_details",
+      "title": "The Boring Details",
+      "exact_first_slide_text": "i like the boring details of you.",
+      "one_line_concept": "The intimate thing is noticing the private habits nobody else would care about.",
+      "source_engine": "Owned DY_t4Dek0pq observational intimacy plus DYG9a-FEuBQ ordinary-things source.",
+      "first_frame_visual": "Aachu checks the door twice while Zuv notices without teasing.",
+      "mini_arc": [
+        "i like the boring details of you.",
+        "how you check the door twice.",
+        "how your voice changes when you are sleepy.",
+        "how you think none of this matters.",
+        "it matters to me."
+      ],
+      "payoff_frame": "A tiny everyday action is seen by someone who has been paying attention.",
+      "share_trigger": "Send as 'you are weird and I love knowing this about you.'",
+      "overall_score": 4.42,
+      "status": "shortlisted"
+    },
+    {
+      "id": "nothing_happened_face",
+      "title": "Nothing Happened Means",
+      "exact_first_slide_text": "he knows what 'nothing happened' means.",
+      "one_line_concept": "After a fight, one partner understands the hidden instruction inside 'nothing happened.'",
+      "source_engine": "Owned DYJpjt9CQYY calm-girl winner.",
+      "first_frame_visual": "Aachu turned partly away on the bed; Zuv sits nearby without crowding her.",
+      "mini_arc": [
+        "he knows what 'nothing happened' means.",
+        "it means do not ask loudly.",
+        "it means sit here, but do not make it a scene.",
+        "it means i am angry, not alone.",
+        "just a little closer."
+      ],
+      "payoff_frame": "A tiny sleeve-grab replaces a full apology speech.",
+      "share_trigger": "Send after a fight when direct softness is still too much.",
+      "overall_score": 4.40,
+      "status": "shortlisted_with_repeat_risk"
+    }
+  ]
+}

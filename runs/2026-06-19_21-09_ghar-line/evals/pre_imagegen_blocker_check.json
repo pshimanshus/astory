@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "status": "block",
+  "emotional_state_check": {
+    "status": "pass",
+    "summary": "Current prompts forbid smiles and do not positively request pleasant/coy expression.",
+    "failure_codes": []
+  },
+  "identity_reference_collision_check": {
+    "status": "pass",
+    "summary": "Active queue no longer includes the full cafe identity image or smile-heavy Aachu anchors.",
+    "policy_artifact": "runs/2026-06-19_21-09_ghar-line/references-used/reference_policy.json",
+    "unsafe_active_refs": [],
+    "failure_codes": []
+  },
+  "fallback_review_check": {
+    "status": "block",
+    "summary": "Iteration 2 prompt review is still fallback_local_passes_with_limitation_recorded after a major creator visual correction.",
+    "failure_codes": [
+      "FALLBACK_REVIEW_AFTER_CREATOR_CORRECTION"
+    ]
+  },
+  "creator_prompt_lock_check": {
+    "status": "pass",
+    "summary": "Prompt approval artifact includes visible prompt/reference repair context, but imagegen remains blocked by fallback review.",
+    "failure_codes": []
+  },
+  "canvas_output_expectation": {
+    "status": "pass",
+    "summary": "All current prompts require native 1080x1350 px portrait output.",
+    "failure_codes": []
+  },
+  "imagegen_allowed": false,
+  "blocking_failures": [
+    "FALLBACK_REVIEW_AFTER_CREATOR_CORRECTION"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-18_21-48_identity-route-redo-test",
+  "title": "Identity route redo comparison",
+  "selected_slides": [
+    "standing_banter",
+    "station_reunion"
+  ],
+  "selection_reason": "The pair tests two previous failure modes: a source image with a tempting copied pose, and a source image whose hidden/side faces would mask identity drift.",
+  "test_not_final_package": true
+}

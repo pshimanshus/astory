@@ -1,0 +1,128 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe",
+  "status": "approved_for_prompt_pack",
+  "selection_summary": "Selected one coherent lively cafe/friends setting across all slides to keep Aachu's perspective continuous and avoid four unrelated lonely-crowd posters.",
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "Khaali hai jo tere bina,\nmain woh ghar hoon tera.",
+      "options": [
+        {
+          "scene_option_id": "2.1A",
+          "description": "Lively cafe table with friends around Aachu; an untouched cup sits near her hand, her face stays unsmiling, and the beside-space remains unclaimed.",
+          "score": 4.7,
+          "selected": true,
+          "why_it_works": "It proves the correction directly: full place, hollow feeling, girl's perspective.",
+          "risk": "Background friends can steal focus if too detailed; identity anchors can also copy the cafe reference pose if not explicitly blocked."
+        },
+        {
+          "scene_option_id": "2.1B",
+          "description": "House party couch with people laughing around Aachu while she sits near the edge of the frame.",
+          "score": 4.1,
+          "selected": false,
+          "reason_rejected": "Party lighting can become dark/cluttered and hurt text readability.",
+          "reuse_warning": "Use only if cafe feels too quiet."
+        },
+        {
+          "scene_option_id": "2.1C",
+          "description": "Club/bar high table with colored lights and crowd movement behind Aachu.",
+          "score": 3.4,
+          "selected": false,
+          "reason_rejected": "Too high risk for yellow/purple lighting, identity drift, and quote-card text failure.",
+          "reuse_warning": "Avoid for final unless the creator explicitly wants a club lane."
+        }
+      ]
+    },
+    {
+      "slide_number": 2,
+      "exact_on_image_text": "Some people don't just enter your life,\nthey become the place\nyour heart keeps returning to.",
+      "options": [
+        {
+          "scene_option_id": "2.2A",
+          "description": "Same cafe table; Aachu turns slightly toward the entrance or empty beside-space while friends continue talking around her.",
+          "score": 4.8,
+          "selected": true,
+          "why_it_works": "Her eyeline and body angle physically show the heart returning without using phone-message cliches.",
+          "risk": "Door/entrance must not become too cinematic or shrink her face."
+        },
+        {
+          "scene_option_id": "2.2B",
+          "description": "Aachu at the cafe counter while friends wait behind; she looks past the barista toward the door.",
+          "score": 3.9,
+          "selected": false,
+          "reason_rejected": "Counter service introduces too many extra figures and weakens the shared-table continuity.",
+          "reuse_warning": "Avoid unless the table composition fails."
+        },
+        {
+          "scene_option_id": "2.2C",
+          "description": "Friends taking a group photo while Aachu's gaze drifts away.",
+          "score": 3.2,
+          "selected": false,
+          "reason_rejected": "Group-photo staging risks becoming performative and generic.",
+          "reuse_warning": "No phone/camera prop for this iteration."
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "exact_on_image_text": "Without them,\neven the most familiar corners\nfeel empty.",
+      "options": [
+        {
+          "scene_option_id": "2.3A",
+          "description": "Same cafe corner/booth; friends and cups are still present but softened, while Aachu sits at the edge and lightly touches the empty beside-space.",
+          "score": 4.6,
+          "selected": true,
+          "why_it_works": "It makes the familiar corner public, not domestic, while still proving the emptiness through Aachu's body.",
+          "risk": "Empty chair can become too obvious if it replaces Aachu's expression."
+        },
+        {
+          "scene_option_id": "2.3B",
+          "description": "A crowded cafe restroom mirror moment where Aachu fixes her hair alone between friends.",
+          "score": 3.5,
+          "selected": false,
+          "reason_rejected": "Mirror staging is fragile for identity and can feel music-video sad instead of lived.",
+          "reuse_warning": "Avoid reflective compositions."
+        },
+        {
+          "scene_option_id": "2.3C",
+          "description": "Aachu standing outside the cafe window looking in at her friends.",
+          "score": 3.7,
+          "selected": false,
+          "reason_rejected": "It makes her physically excluded from the group, which is simpler and less true than being inside but still lost.",
+          "reuse_warning": "Do not turn emotional loneliness into literal exclusion."
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "exact_on_image_text": "And with them,\neven silence feels safe.\n\nGhar was never a place.\nIt was always that one person.",
+      "options": [
+        {
+          "scene_option_id": "2.4A",
+          "description": "Same cafe/friends table near the end of the evening; Zuv never appears. Aachu remains beside the unfilled space while the crowd keeps moving around her.",
+          "score": 4.9,
+          "selected": true,
+          "why_it_works": "It preserves the real impact: no comeback, no resolution, only the realization that a full place still cannot become ghar without him.",
+          "risk": "Must avoid becoming only a sad-girl-in-crowd poster; Aachu's specific body behavior carries the ache."
+        },
+        {
+          "scene_option_id": "2.4B",
+          "description": "Aachu steps outside the cafe alone into a quiet street while friends remain inside.",
+          "score": 4.1,
+          "selected": false,
+          "reason_rejected": "It removes her from the full place too neatly; the stronger ache is being inside the full place and still not feeling home.",
+          "reuse_warning": "Use only if the cafe-table final becomes visually unreadable."
+        },
+        {
+          "scene_option_id": "2.4C",
+          "description": "Zuv arrives at the entrance and Aachu sees him from across the cafe.",
+          "score": 1.6,
+          "selected": false,
+          "reason_rejected": "Creator explicitly rejected a comeback payoff because it deceives/weakens the real impact.",
+          "reuse_warning": "Hard reject: no Zuv arrival, no comeback, no reunion."
+        }
+      ]
+    }
+  ]
+}

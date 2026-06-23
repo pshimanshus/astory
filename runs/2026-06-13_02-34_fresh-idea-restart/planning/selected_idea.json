@@ -1,0 +1,9 @@
+{
+  "run_id": "2026-06-13_02-34_fresh-idea-restart",
+  "status": "pending_creator_choice",
+  "selected_candidate": null,
+  "creator_choice_mode": "shortlist_review_required_before_idea_lock",
+  "choice_shortlist_path": "runs/2026-06-13_02-34_fresh-idea-restart/planning/idea_choice_shortlist.md",
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded",
+  "note": "No idea locked yet. Fresh restart produced divergent emotional engines for creator review."
+}

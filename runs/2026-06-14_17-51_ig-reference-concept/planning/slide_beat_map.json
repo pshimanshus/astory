@@ -1,0 +1,72 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "slide_count": 5,
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "why do you have my clip?",
+      "speaker": "Aachu",
+      "story_beat": "Aachu catches the object before the reason exists.",
+      "visual_job": "Food has just arrived. Aachu's hair is falling into her face as one hand reaches toward her bag. Zuv's hand enters the frame holding the old clip before his face is fully revealed.",
+      "swipe_reason": "The clip-in-hand creates an immediate mystery.",
+      "must_not_do": [
+        "do not explain why he has it yet",
+        "do not make the frame a generic dinner date",
+        "do not show Zuv fixing her hair"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "exact_on_image_text": "wait. my old one?",
+      "speaker": "Aachu",
+      "story_beat": "The clip becomes personal evidence, not a random accessory.",
+      "visual_job": "Close enough to see the clip is familiar and slightly worn. Aachu pauses mid-reach, food still untouched.",
+      "swipe_reason": "The viewer now knows the object has history.",
+      "must_not_do": [
+        "do not turn it into a lost-and-found explanation",
+        "do not over-render the clip as a perfect new prop",
+        "do not add sentimental narration"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "exact_on_image_text": "it lives in my pocket now.",
+      "speaker": "Zuv",
+      "story_beat": "Zuv reveals this is a recurring system.",
+      "visual_job": "Zuv casually taps or opens his pocket while looking at the food, not at her like a hero. The clip has clearly come from his side, not her bag.",
+      "swipe_reason": "A one-time surprise becomes a habit.",
+      "must_not_do": [
+        "do not make Zuv smug",
+        "do not make it look like he stole it",
+        "do not rush into the food explanation yet"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "exact_on_image_text": "for first-bite emergencies.",
+      "speaker": "Zuv",
+      "story_beat": "The remembered detail lands as a funny physical pattern.",
+      "visual_job": "Aachu's hair is visibly in the way right as she is about to eat. The plate is close, the timing is ridiculous, and the clip is now in her hand.",
+      "swipe_reason": "The audience understands exactly why he remembered.",
+      "must_not_do": [
+        "do not make the line sound like a grand confession",
+        "do not hide the food timing",
+        "do not make Aachu helpless"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "exact_on_image_text": "fine. keep it there.",
+      "speaker": "Aachu",
+      "story_beat": "Aachu accepts being known this specifically while pretending to be annoyed.",
+      "visual_job": "Aachu clips her own hair slightly crooked and starts eating, still pretending to be annoyed. Zuv is already eating like this was normal inventory.",
+      "swipe_reason": "The final line becomes the send-to-your-person button.",
+      "must_not_do": [
+        "do not add a moral",
+        "do not show a perfect romantic pose",
+        "do not end with a hug or forehead kiss"
+      ]
+    }
+  ],
+  "status": "draft_ready_for_hitl_story_lock"
+}

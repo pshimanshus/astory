@@ -16,20 +16,29 @@ the run blocked instead of generating final artwork.
 
 ## view_image Queue
 
-- `references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg`
-- `references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg`
-- `references/identity/aachu/face/aachu-face-crop-home-black-01.jpg`
-- `references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg`
-- `references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg`
-- `references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg`
-- `references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg`
-- `references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg`
-- `references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg`
-- `references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg`
-- `references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg`
-- `references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg`
-- `references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg`
-- `references/identity/together/face-and-body-language/together-cabin-hug-01.jpg`
-- `references/style/observational-intimacy-premium/contact-sheet.png`
-- `references/style/observational-intimacy-premium/slide-01.png`
-- `references/style/observational-intimacy-premium/slide-02.png`
+- `references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg`
+- `references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg`
+- `references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg`
+- `references/identity/aachu/aachu-face-crop-home-black-01.jpg`
+- `references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg`
+- `references/identity/aachu/aachu-face-front-close-selfie-2026-06-18-01.jpg`
+- `references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg`
+- `references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg`
+- `references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg`
+- `references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg`
+- `references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg`
+- `references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg`
+- `references/style/best-illustration/encoded-check-000.png`
+- `references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png`
+- `references/style/best-illustration/slide-01.png`
+
+## Supplemental Binder Packets
+
+These packets are generated for audit/review only. They do not satisfy the final
+identity input gate by themselves.
+
+- `runs/2026-06-10_22-22_heart-rent/references-used/reference-binder/aachu-identity-binder.png` (aachu_identity_binder)
+- `runs/2026-06-10_22-22_heart-rent/references-used/reference-binder/zuv-identity-binder.png` (zuv_identity_binder)
+- `runs/2026-06-10_22-22_heart-rent/references-used/reference-binder/couple-body-language-binder.png` (couple_body_language_binder)
+- `runs/2026-06-10_22-22_heart-rent/references-used/reference-binder/style-binder.png` (style_binder)
+- `runs/2026-06-10_22-22_heart-rent/references-used/reference-binder/expression-support-binder.png` (expression_support_binder)

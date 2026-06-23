@@ -1,0 +1,552 @@
+{
+  "agent_role": "Visual Story Director / Tara",
+  "persona_file": ".agents/skills/astory/personas/idea-room/visual-story-director.md",
+  "evidence_ledger": [
+    {
+      "source": "AGENTS.md",
+      "evidence": "The studio rule is not to ship generic; A Story work must be specific to Aachu and Zuv and must not feel like a random competent model made it.",
+      "visual_use": "Reject quote-card staging and any frame that only illustrates the abstract phrase 'home is a person'."
+    },
+    {
+      "source": ".agents/skills/astory/personas/idea-room/visual-story-director.md",
+      "evidence": "Tara accepts only ideas with stageable hands, eyelines, props, camera distance, readable space, and imagegen-safe body logic.",
+      "visual_use": "Every candidate names a concrete first frame, payoff frame, identity-safety route, and failure risk."
+    },
+    {
+      "source": "runs/2026-06-19_21-09_ghar-line/input/creative_brief.json",
+      "evidence": "Slide 1 must use exactly: 'khaali hai jo tere bina, main woh ghar hoon tera'. Slide 2 should deepen the same line into an aching, comforting note; no more song lyrics may be added.",
+      "visual_use": "The lyric is preserved as the first-slide anchor and all payoff ideas stay on the same emotional premise without extending the song."
+    },
+    {
+      "source": "runs/2026-06-19_21-09_ghar-line/planning/memory_recall.md",
+      "evidence": "The recall warns that compatible winner-bank evidence exists for 'home is a person', but that this is also the generic trap; the new reveal should be the physical emptiness of a place that has everything except the person.",
+      "visual_use": "Candidates show a complete room with one missing presence, not a decorative empty house."
+    },
+    {
+      "source": "references/brain/pages/outcome-attribution.md",
+      "evidence": "A Story selection should rank shares and saves over likes. The cited leader DYJpjt9CQYY reached 40.15 shares per 1k and 13.14 saves per 1k.",
+      "visual_use": "Frames are judged by whether someone would send them to their person, not whether they are pretty."
+    },
+    {
+      "source": "data/instagram/carousel_posts/DY9SfANiXWc/carousel_export.json",
+      "evidence": "An owned A Story ordinary-time post earned 27.90 shares per 1k and 10.00 saves per 1k with a caption about wanting normal time with the right person.",
+      "visual_use": "The most compatible owned engine is ordinary time becoming emotionally necessary, so the top candidate uses a normal shared corner rather than a grand romantic symbol."
+    },
+    {
+      "source": "references/brain/policies/current-copy-contract-2026-06-18.md",
+      "evidence": "Lines should feel sendable, source-bank forms stay visible without becoming templates, and visual wrappers should be restrained instead of object-led.",
+      "visual_use": "No candidate leads with chappal, dhaniya, roti, spoon, or quirky object invention; objects only support body logic."
+    },
+    {
+      "source": "references/text-style/winner-bank-index-2026-06-14.json",
+      "evidence": "Compatible external winners include rank 121 from werenotreallystrangers with the theme 'sometimes home is a person' and rank 136 from hereverydaymotherhood with the theme 'Home is wherever he's at'.",
+      "visual_use": "These prove theme travel, but the candidates avoid repeating their static quote mechanics."
+    },
+    {
+      "source": "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md",
+      "evidence": "A familiar relationship truth needs a new reveal, contrast frame, close proof, viewer outcome, and protection from over-explaining.",
+      "visual_use": "Old topic: home as a person. New reveal: the house is visibly complete but still has one unfilled habitual space."
+    },
+    {
+      "source": ".agents/skills/astory/references/house-style-contract.md",
+      "evidence": "Final illustrations require generous warm negative space for integrated readable text, identity-safe faces from real references later, and scene logic that proves the written line.",
+      "visual_use": "All first frames leave upper-middle negative space and keep faces away from crowded close-up romance."
+    },
+    {
+      "source": ".agents/skills/astory/references/failure-taxonomy.md",
+      "evidence": "Hard visual failures include QUOTE_CARD_NOT_ILLUSTRATION, TEXT_UNREADABLE, SCENE_LOGIC_CONTRADICTION, VISUAL_SETTING_CONTRADICTION, AI_SLOP_COPY_DRIFT, and WEAK_PAYOFF.",
+      "visual_use": "Each candidate names prevention notes before it can move to story room."
+    },
+    {
+      "source": "runs/2026-06-19_21-09_ghar-line/debates/agent_assignment_matrix.md",
+      "evidence": "Tara is assigned as Visual Story Director for the Idea Room with output ownership at this file; final prompt and imagegen remain blocked until later gates.",
+      "visual_use": "This artifact stays idea-stage only and does not write prompts, final beats, or imagegen instructions."
+    }
+  ],
+  "premise_lock": {
+    "locked_first_slide_text": "khaali hai jo tere bina, main woh ghar hoon tera",
+    "creator_setup": "The creator loves the Ghar line and wants slide 1 anchored on it, with slide 2 becoming a more emotional and comforting note on the same line.",
+    "visual_thesis": "The house is not empty because it lacks furniture; it is empty because one exact person is not in their usual place.",
+    "speaker_receiver_logic": "One partner is quietly saying this to the other. The scene should feel like a message someone sends to their person, not a public definition of love.",
+    "must_preserve": [
+      "Exact first-slide lyric line only",
+      "Aching-but-comforting tone",
+      "The feeling that one specific person is real ghar",
+      "Readable text with enough upper-middle negative space",
+      "A lived Aachu/Zuv scene wrapper"
+    ],
+    "must_reject": [
+      "A typography quote-card with a house silhouette",
+      "A generic hug on a sofa with no visual proof",
+      "A decorative cozy room called 'home'",
+      "Any extra song lyric or continuation",
+      "Tiny phone text or object-led cleverness",
+      "Therapy-page explanation of what home means"
+    ],
+    "brainstorming_result": {
+      "first_obvious_staging_rejected": "A couple hugging in a cozy living room under the lyric.",
+      "why_rejected": "It shows comfort after the fact, but not the ache of emptiness before the person arrives; it would collapse into generic romantic watercolor.",
+      "working_design_choice": "Use absence, one habitual body space, and a restrained return/payoff so the viewer completes the ache."
+    }
+  },
+  "source_winner_basis": {
+    "primary_source": {
+      "type": "creator_permissioned_line",
+      "description": "The creator-provided Ghar lyric is the copy engine for slide 1.",
+      "what_stays": "Exact first-slide line, normalized as in the brief.",
+      "what_does_not_expand": "No additional song lyrics are added."
+    },
+    "owned_performance_anchor": {
+      "source": "DY9SfANiXWc",
+      "url": "https://www.instagram.com/p/DY9SfANiXWc/",
+      "signal": "27.90 shares per 1k reach, 10.00 saves per 1k reach, 1.07 follows per 1k reach.",
+      "usable_engine": "Ordinary time with the right person is the share reason.",
+      "translation": "The Ghar line should land through one ordinary place becoming incomplete without the right person."
+    },
+    "send_behavior_anchor": {
+      "source": "DYJpjt9CQYY",
+      "url": "https://www.instagram.com/p/DYJpjt9CQYY/",
+      "signal": "40.15 shares per 1k reach and 13.14 saves per 1k reach.",
+      "usable_engine": "A private line that names one person's specific emotional handling can travel harder than a polished universal quote.",
+      "translation": "Slide 2 should feel like something one partner needed to say, not a caption explaining the lyric."
+    },
+    "compatible_external_winners": [
+      {
+        "rank": 121,
+        "source_account": "werenotreallystrangers",
+        "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+        "metric_signal": "winner_score 69046.21, 49670 likes, 161 comments, 346606 views_or_plays",
+        "compatible_engine": "The phrase-level idea that home can be a person has proven travel.",
+        "risk": "Repeating the static statement becomes generic immediately."
+      },
+      {
+        "rank": 136,
+        "source_account": "hereverydaymotherhood",
+        "source_url": "https://www.instagram.com/p/DXPqpI7idvG/",
+        "metric_signal": "winner_score 28206.0, 21726 likes, 144 comments",
+        "compatible_engine": "Home as the location of a specific partner has proof.",
+        "risk": "The house/person claim is too familiar unless Aachu/Zuv make it physically visible."
+      }
+    ],
+    "decision": "Use the external winners as theme proof and generic-risk warning, not as copy to repeat. The candidate engine is creator lyric plus A Story ordinary-time evidence."
+  },
+  "candidates": [
+    {
+      "id": "tara_01",
+      "title": "The Empty Usual Spot",
+      "one_line_concept": "A complete room still has one visibly unfilled place: the exact side where the other person belongs.",
+      "suggested_slide_arc": "Two-slide micro-carousel: slide 1 holds the lyric over a lived room with one partner and one empty habitual spot; slide 2 fills that same spot with the person, making the note feel like relief instead of explanation.",
+      "suggested_slide_1_moment": "Aachu sits low on the sofa or floor, turned toward the empty right side of the frame where Zuv usually sits. The room is otherwise complete. The lyric sits in quiet upper-middle negative space, not on a poster or wall art.",
+      "suggested_payoff_moment": "The same frame returns with Zuv occupying the empty spot, not dramatically hugging her; just close enough that the room finally reads as inhabited. The second-slide note can become a private comfort line about the house feeling full only when he is there.",
+      "visual_potential": {
+        "first_frame_stop": "The viewer understands absence before reading the whole line: one person, one empty place, too much room around both.",
+        "visual_proof": "The missing habitual side proves 'tere bina' without a decorative symbol.",
+        "text_integration": "Strong; the upper-middle space can carry the long lyric in 3-4 clean handwritten lines.",
+        "identity_safety": "High; Aachu can be three-quarter or profile, Zuv can enter in payoff at readable medium distance without crowded face overlap.",
+        "prop_world": "Sofa, rug, one cushion at most; no object leads the premise."
+      },
+      "execution_difficulty_score": 2,
+      "visual_evidence": [
+        "Fits house-style negative-space rule.",
+        "Matches owned ordinary-time winner engine from DY9SfANiXWc.",
+        "Avoids the external winner-bank trap of repeating 'home is a person' as a static quote."
+      ],
+      "share_or_comment_trigger": "People can send it as 'this is your place in my life' without typing a confession.",
+      "why_not_generic": "The frame is not saying home is a person; it shows the one exact unfilled space where that person belongs.",
+      "source_engine": {
+        "primary": "creator_provided_ghar_line",
+        "owned_reference": "DY9SfANiXWc ordinary-time/right-person engine",
+        "external_theme_proof": [
+          "winner-bank rank 121",
+          "winner-bank rank 136"
+        ],
+        "copy_status": "creator line exact on slide 1; no external winner copy reused"
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Home is a person.",
+        "new_reveal": "The room is already furnished, but one normal body-space is still empty.",
+        "viewer_outcome": "Send to the person whose absence changes the whole room.",
+        "contrast_frame": "Not an empty house; a full house with one missing presence.",
+        "bullseye_proof": "The unoccupied habitual side of the sofa/floor.",
+        "urgency": "Emotional, not time-based: the late quiet moment when missing them becomes visible.",
+        "what_not_to_explain": "Do not define ghar or turn the payoff into a lesson."
+      },
+      "a_story_wrappers": {
+        "couple_behavior": "One partner has a side, a distance, and a daily place in the room.",
+        "scene_wrapper": "Lower-frame living-room composition with the person and the empty spot doing the emotional work.",
+        "payoff_wrapper": "The same negative space is gently occupied.",
+        "caption_or_note_direction": "Private, simple, sendable; no added lyric."
+      },
+      "selection_scores": {
+        "send_potential": 4.7,
+        "save_potential": 4.3,
+        "first_frame_stop": 4.6,
+        "source_alignment": 4.8,
+        "creator_setup_preservation": 5.0,
+        "visual_feasibility": 4.7,
+        "overall": 4.68
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "rejected_generic_staging": "Two people hugging in a cozy room while the lyric floats above them.",
+        "repair": "Keep slide 1 lonely and specific; let slide 2 comfort by filling the same exact space."
+      },
+      "failure_risks": [
+        {
+          "code": "QUOTE_CARD_NOT_ILLUSTRATION",
+          "severity": "high",
+          "prevention": "The room and body position must prove the lyric before typography does."
+        },
+        {
+          "code": "TEXT_UNREADABLE",
+          "severity": "medium",
+          "prevention": "Use generous upper-middle negative space and keep background simple."
+        },
+        {
+          "code": "WEAK_PAYOFF",
+          "severity": "medium",
+          "prevention": "The payoff must visibly occupy the exact empty spot, not switch to a generic hug."
+        }
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 4,
+        "anatomy_safety": 5,
+        "slide_payoff": 5,
+        "overall": 4.75
+      }
+    },
+    {
+      "id": "tara_02",
+      "title": "The Doorway That Still Waits",
+      "one_line_concept": "The house is drawn from inside, looking toward the open doorway where the missing person should have appeared.",
+      "suggested_slide_arc": "Two or three slides if needed: first, a room waiting at the door; second, the comforting note lands with the person finally crossing the threshold. A third slide is optional only if story room needs a breath between ache and arrival.",
+      "suggested_slide_1_moment": "Aachu stands inside near the entryway with keys still in hand, body angled toward an open but empty door. The lyric floats above the quiet interior, with the doorway low enough not to compete with text.",
+      "suggested_payoff_moment": "Zuv appears at the threshold or just inside it, seen in medium distance. The emotional shift is not a cinematic reunion; it is the room stopping its wait.",
+      "visual_potential": {
+        "first_frame_stop": "The empty doorway gives immediate swipe tension: someone is expected, and they are not there yet.",
+        "visual_proof": "The open door becomes the absence, not a metaphor pasted onto the scene.",
+        "text_integration": "Good if the door stays lower-third and text sits in the clean upper wall space.",
+        "identity_safety": "Medium-high; doorway depth can keep faces smaller, but payoff needs enough reference-safe detail.",
+        "prop_world": "Keys and door only; avoid adding luggage, flowers, or dramatic rain."
+      },
+      "execution_difficulty_score": 3,
+      "visual_evidence": [
+        "The illusion-of-novelty contrast is clear: not the building, the expected arrival.",
+        "A door gives readable swipe tension without microtext.",
+        "The frame can remain uncluttered for the long lyric."
+      ],
+      "share_or_comment_trigger": "The send reason is 'I wait for you like this even when I don't say it.'",
+      "why_not_generic": "It does not use a house icon or couple hug; it turns the door into a real waiting action.",
+      "source_engine": {
+        "primary": "creator_provided_ghar_line",
+        "owned_reference": "DYJpjt9CQYY private-send behavior engine",
+        "external_theme_proof": [
+          "winner-bank rank 121"
+        ],
+        "copy_status": "creator line exact on slide 1; no additional lyric"
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Waiting for the person who feels like home.",
+        "new_reveal": "A doorway can make the whole house feel unfinished.",
+        "viewer_outcome": "Send to the person whose arrival changes the room without needing a big speech.",
+        "contrast_frame": "A house can be physically open and still emotionally empty.",
+        "bullseye_proof": "One partner's body turned toward an empty threshold.",
+        "urgency": "Real only if the story room frames it as the minute before they come home.",
+        "what_not_to_explain": "Do not write a moral about belonging."
+      },
+      "a_story_wrappers": {
+        "couple_behavior": "One partner listening for the other person at the door.",
+        "scene_wrapper": "Interior doorway perspective with open threshold and restrained body language.",
+        "payoff_wrapper": "The same threshold becomes occupied, showing the house receiving its person.",
+        "caption_or_note_direction": "Comforting, low-volume, private."
+      },
+      "selection_scores": {
+        "send_potential": 4.4,
+        "save_potential": 4.0,
+        "first_frame_stop": 4.7,
+        "source_alignment": 4.4,
+        "creator_setup_preservation": 4.8,
+        "visual_feasibility": 4.1,
+        "overall": 4.4
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "rejected_generic_staging": "A person looking wistfully out a rainy window.",
+        "repair": "Keep the scene domestic and physically plausible: hand on keys, body toward door, empty threshold."
+      },
+      "failure_risks": [
+        {
+          "code": "VISUAL_SETTING_CONTRADICTION",
+          "severity": "medium",
+          "prevention": "Door placement, eyeline, and hand position must make concrete sense."
+        },
+        {
+          "code": "TEXT_UNREADABLE",
+          "severity": "medium",
+          "prevention": "Do not put text across the doorway or detailed background."
+        },
+        {
+          "code": "AI_SLOP_COPY_DRIFT",
+          "severity": "medium",
+          "prevention": "Payoff note should not become 'home is not a place'; keep it personal."
+        }
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 4,
+        "prop_usefulness": 3,
+        "anatomy_safety": 4,
+        "slide_payoff": 5,
+        "overall": 4.13
+      }
+    },
+    {
+      "id": "tara_03",
+      "title": "The Call Light Is Not Enough",
+      "one_line_concept": "A phone call can light the room, but it cannot fill the space where the person should be.",
+      "suggested_slide_arc": "Two-slide version: first, one partner on the floor or bed edge with a phone glow nearby and too much empty space; second, the same area with the person physically present, making the comfort land without needing extra words.",
+      "suggested_slide_1_moment": "Zuv or Aachu sits near a wall at night, phone face-down or screen turned away so there is no microtext. A cool rectangle of light reaches them, but the other side of the room remains empty. The lyric sits above the scene.",
+      "suggested_payoff_moment": "The payoff replaces phone-glow distance with real body presence: the other person sits beside them in the same pool of light, quiet and close, not a dramatic embrace.",
+      "visual_potential": {
+        "first_frame_stop": "Long-distance ache is readable without showing a chat screenshot.",
+        "visual_proof": "The phone light proves connection is present but not enough.",
+        "text_integration": "Strong if the night wall is plain and the phone stays low.",
+        "identity_safety": "Medium; low light and small faces may threaten reference match if overdone.",
+        "prop_world": "One phone only, screen content hidden."
+      },
+      "execution_difficulty_score": 4,
+      "visual_evidence": [
+        "The brief's ache can be staged as distance without using more lyrics.",
+        "Phone-screen content is explicitly avoided to protect readability.",
+        "The house-style palette can handle a muted blue light accent if not too dark."
+      ],
+      "share_or_comment_trigger": "Long-distance viewers can send it as 'calls help, but I still need you here.'",
+      "why_not_generic": "The phone is not the premise; it is the failed substitute for presence.",
+      "source_engine": {
+        "primary": "creator_provided_ghar_line",
+        "owned_reference": "DY9SfANiXWc ordinary-time/right-person engine",
+        "external_theme_proof": [
+          "winner-bank rank 121",
+          "winner-bank rank 136"
+        ],
+        "copy_status": "creator line exact on slide 1; no chat text or extra lyric"
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Missing someone over distance.",
+        "new_reveal": "Even connection can make the room feel emptier when the person is not physically there.",
+        "viewer_outcome": "Send to a partner when 'I miss you' feels too small.",
+        "contrast_frame": "A lit phone versus an unfilled room.",
+        "bullseye_proof": "Phone light reaches the body, but not the empty side.",
+        "urgency": "Emotional, tied to late-night calling windows.",
+        "what_not_to_explain": "Do not turn it into a long-distance lesson."
+      },
+      "a_story_wrappers": {
+        "couple_behavior": "They are connected, but the room still knows the difference between voice and presence.",
+        "scene_wrapper": "One seated figure, one hidden phone, one empty floor area.",
+        "payoff_wrapper": "The person arrives into the same space the phone could not fill.",
+        "caption_or_note_direction": "Tender and direct, but not a chat screenshot."
+      },
+      "selection_scores": {
+        "send_potential": 4.6,
+        "save_potential": 4.2,
+        "first_frame_stop": 4.2,
+        "source_alignment": 4.2,
+        "creator_setup_preservation": 4.5,
+        "visual_feasibility": 3.6,
+        "overall": 4.22
+      },
+      "anti_slop_risk": {
+        "risk_level": "high",
+        "rejected_generic_staging": "A sad person staring at a glowing phone with tiny unreadable messages.",
+        "repair": "Hide screen content; use light and body distance only."
+      },
+      "failure_risks": [
+        {
+          "code": "TEXT_UNREADABLE",
+          "severity": "high",
+          "prevention": "No phone microtext; lyric stays in clean upper negative space."
+        },
+        {
+          "code": "STYLE_DRIFT",
+          "severity": "medium",
+          "prevention": "Do not let night lighting become dark digital cinematic art; keep watercolor paper visible."
+        },
+        {
+          "code": "IDENTITY_DRIFT",
+          "severity": "medium",
+          "prevention": "Avoid excessive shadow on faces; keep reference-safe medium distance."
+        }
+      ],
+      "scores": {
+        "visual_clarity": 4,
+        "scene_variety": 5,
+        "imagegen_feasibility": 3,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 4,
+        "prop_usefulness": 4,
+        "anatomy_safety": 4,
+        "slide_payoff": 4,
+        "overall": 4.0
+      }
+    },
+    {
+      "id": "tara_04",
+      "title": "The Quiet Counter",
+      "one_line_concept": "The kitchen has all its ordinary noise, but the counter feels wrong because the other person's place across it is empty.",
+      "suggested_slide_arc": "Two-slide micro-arc: slide 1 uses a normal kitchen pause to show absence; slide 2 brings the person back into the same across-the-counter position, turning the line into comfort.",
+      "suggested_slide_1_moment": "One partner stands at a small counter with hands resting still, looking at the empty opposite side rather than at the viewer. No cooking gag, no busy utensils. The lyric has clean space above.",
+      "suggested_payoff_moment": "The second person occupies the opposite side of the counter in the same frame. The emotional payoff is the return of ordinary noise: a look, a leaned elbow, a familiar across-the-counter presence.",
+      "visual_potential": {
+        "first_frame_stop": "A kitchen should feel busy; the still hands and empty opposite side make it feel paused.",
+        "visual_proof": "Absence is carried by eyeline and body position, not by a prop pile.",
+        "text_integration": "Good if the counter stays lower-third and the background is spare.",
+        "identity_safety": "Medium-high; figures can be separated and readable without face crowding.",
+        "prop_world": "Counter only, maybe one cup; no object-led joke."
+      },
+      "execution_difficulty_score": 3,
+      "visual_evidence": [
+        "Ordinary domestic setting aligns with owned A Story send behavior.",
+        "Restrained wrapper follows the current copy contract's warning against object-led invention.",
+        "Scene variety is stronger than another sofa/bed absence."
+      ],
+      "share_or_comment_trigger": "Viewers who miss everyday kitchen-side companionship can send it without needing a dramatic romance caption.",
+      "why_not_generic": "It makes the ache live in a paused daily habit, not a soft-focus romantic room.",
+      "source_engine": {
+        "primary": "creator_provided_ghar_line",
+        "owned_reference": "DY9SfANiXWc normal-time/right-person engine",
+        "external_theme_proof": [
+          "winner-bank rank 111 ordinary-love/domestic proof",
+          "winner-bank rank 136 home/partner proof"
+        ],
+        "copy_status": "creator line exact on slide 1; payoff copy remains non-lyric"
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Home is ordinary domestic life.",
+        "new_reveal": "The room's routine pauses when the person across the counter is missing.",
+        "viewer_outcome": "Send to the person whose presence makes normal chores feel alive.",
+        "contrast_frame": "The kitchen has everything needed for routine, but not the person who makes it feel like ghar.",
+        "bullseye_proof": "Still hands and an empty opposite counter position.",
+        "urgency": "Skipped; this works as quiet recognition, not timeliness.",
+        "what_not_to_explain": "Do not say 'ordinary things matter' or make the counter symbolic."
+      },
+      "a_story_wrappers": {
+        "couple_behavior": "Across-the-counter companionship, not chore content.",
+        "scene_wrapper": "Lower-third counter composition with hands and eyeline proving absence.",
+        "payoff_wrapper": "Same counter, second person leaning in naturally.",
+        "caption_or_note_direction": "Simple, domestic, private."
+      },
+      "selection_scores": {
+        "send_potential": 4.2,
+        "save_potential": 4.0,
+        "first_frame_stop": 4.0,
+        "source_alignment": 4.3,
+        "creator_setup_preservation": 4.5,
+        "visual_feasibility": 4.2,
+        "overall": 4.2
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "rejected_generic_staging": "A cute cooking scene where the kitchen props become the point.",
+        "repair": "No recipe, no utensil gag, no messy domestic performance; just the missing across-the-counter person."
+      },
+      "failure_risks": [
+        {
+          "code": "AI_SLOP_COPY_DRIFT",
+          "severity": "medium",
+          "prevention": "Keep payoff note private; avoid 'small moments make a home' wording."
+        },
+        {
+          "code": "VISUAL_ONLY_MOOD_WORDS",
+          "severity": "medium",
+          "prevention": "Staging must specify hands, eyeline, counter position, and empty opposite side."
+        },
+        {
+          "code": "SCENE_LOGIC_CONTRADICTION",
+          "severity": "low",
+          "prevention": "Keep counter height and body positions natural."
+        }
+      ],
+      "scores": {
+        "visual_clarity": 4,
+        "scene_variety": 5,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 4,
+        "prop_usefulness": 3,
+        "anatomy_safety": 4,
+        "slide_payoff": 4,
+        "overall": 4.0
+      }
+    }
+  ],
+  "top_pick": {
+    "candidate_id": "tara_01",
+    "title": "The Empty Usual Spot",
+    "why_it_wins": "It is the cleanest visual proof of the lyric: a complete room with one unfilled habitual place. It protects the creator's two-slide request, gives the long first-slide text room to breathe, avoids microtext and object-led cleverness, and has the strongest payoff because slide 2 can fill the exact absence slide 1 created.",
+    "scene_landing_preview_hint": {
+      "first_frame_visual": "One partner low in frame, facing the empty side where the other should be; text above.",
+      "swipe_reason": "The viewer wants to see whether the empty space becomes comfort or stays ache.",
+      "payoff_frame": "Same room, same framing, the missing person occupying the space.",
+      "share_trigger": "Send to the person whose absence changes a whole room."
+    },
+    "why_not_the_others": [
+      "The Doorway That Still Waits has strong swipe tension but slightly higher scene-logic and threshold-composition risk.",
+      "The Call Light Is Not Enough is sendable for long distance but carries higher style, shadow, and phone-microtext risk.",
+      "The Quiet Counter is lived and specific, but can drift into domestic-object staging if the story room is not disciplined."
+    ]
+  },
+  "visual_risks": [
+    {
+      "risk": "The lyric is long enough to become cramped.",
+      "failure_code": "TEXT_UNREADABLE",
+      "mitigation": "Keep the figure and room in the lower half, preserve upper-middle negative space, and avoid detailed wallpaper or window clutter behind text."
+    },
+    {
+      "risk": "The theme can collapse into a quote-card or generic 'home is a person' poster.",
+      "failure_code": "QUOTE_CARD_NOT_ILLUSTRATION",
+      "mitigation": "Require one visible body position, one unfilled habitual space, and a payoff that changes the same space."
+    },
+    {
+      "risk": "A sad empty-room frame can feel like grief, breakup, or abandonment instead of aching comfort.",
+      "failure_code": "WEAK_PAYOFF",
+      "mitigation": "Use quiet waiting rather than devastation; make slide 2 visibly comforting and close to the same frame."
+    },
+    {
+      "risk": "Both faces close together in payoff can cause identity drift or crowded romance.",
+      "failure_code": "IDENTITY_DRIFT",
+      "mitigation": "Use medium distance, separated bodies, and reference-safe angles; do not force forehead-touch or tight hug framing."
+    },
+    {
+      "risk": "Scene ideas may overuse props to prove home.",
+      "failure_code": "AI_SLOP_COPY_DRIFT",
+      "mitigation": "Let posture, eyeline, distance, and negative space carry the feeling; props stay minimal and non-premise."
+    }
+  ],
+  "slide_count_hints": {
+    "recommended_count": 2,
+    "reason": "The creator requested two slides and the strongest visual structure is absence then comfort. A third slide would likely explain what the same-frame payoff can already make felt.",
+    "when_3_slides_could_work": "Only if Story Room needs a tiny transition between ache and arrival, such as room-empty, person-waiting, person-present. This should be used only if the two-slide version feels abrupt.",
+    "why_fewer_fails": "One slide would become a lyric illustration without the comforting note.",
+    "why_more_dilutes": "Four or more slides would turn a clean ache into a lesson about home."
+  },
+  "failure_codes": [
+    "QUOTE_CARD_NOT_ILLUSTRATION",
+    "TEXT_UNREADABLE",
+    "TEXT_NOT_EXACT",
+    "AI_SLOP_COPY_DRIFT",
+    "VISUAL_ONLY_MOOD_WORDS",
+    "SCENE_LOGIC_CONTRADICTION",
+    "VISUAL_SETTING_CONTRADICTION",
+    "IDENTITY_DRIFT",
+    "WEAK_PAYOFF",
+    "TOO_MANY_SLIDES"
+  ]
+}

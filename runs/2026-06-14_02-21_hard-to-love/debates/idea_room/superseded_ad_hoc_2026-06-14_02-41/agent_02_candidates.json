@@ -1,0 +1,92 @@
+{
+  "agent_role": "Shareability Strategist - Kabir",
+  "candidates": [
+    {
+      "title": "The Question He Answers Badly",
+      "one_line_concept": "Aachu asks the fragile question indirectly through normal tiny moments, and Zuv keeps answering with ordinary proof instead of a perfect speech.",
+      "suggested_text_hook": "am i hard to love, or just hard to reassure?",
+      "why_people_may_share": "The send-trigger is for the partner who does show up but freezes when asked for words. Someone sends it as a softer way of saying, 'I do not need a grand answer, I need proof I can feel.'",
+      "why_people_may_comment": "Warm bait: 'this is me asking for reassurance in the worst possible way' and 'he answers by fixing things, not talking.' It invites confession without making either person the villain.",
+      "likely_audience_reaction": "People in anxious-but-loved relationships will feel caught, then relieved. It says the scary thing without accusing the partner of failing.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 4,
+        "swipe_through_curiosity": 5,
+        "simplicity": 4,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "Not Too Much, Just Untranslated",
+      "one_line_concept": "The carousel reframes 'hard to understand' as two people learning each other's private language: silence, overthinking, checking in, retreating, returning.",
+      "suggested_text_hook": "am i hard to understand, or did no one learn my language?",
+      "why_people_may_share": "This is a send to the person who finally understands your weird signals: the half-text, the quiet mood shift, the 'nothing' that very much means something.",
+      "why_people_may_comment": "Warm bait: 'he knows my face before I say anything' and 'I am fluent in her silence now.' Couples get to brag gently about being known.",
+      "likely_audience_reaction": "High save energy for people who want to feel less broken. The share is intimate, almost like saying thank you for translating me.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 4,
+        "save_potential": 5,
+        "swipe_through_curiosity": 4,
+        "simplicity": 4,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "The Risk Was Staying",
+      "one_line_concept": "Instead of asking 'am I worth the risk?' the story shows love as the risk of staying soft with someone who has seen your mess and still reaches back.",
+      "suggested_text_hook": "what if the risk was letting me be seen?",
+      "why_people_may_share": "This travels when one person wants to say, 'thank you for not making me audition for love after I got scared.' It is more sendable than a direct 'am I worth it' because it carries gratitude, not pressure.",
+      "why_people_may_comment": "Warm bait: 'being seen is terrifying' and 'this one hurt nicely.' It opens comments from people who are loved well but still flinch.",
+      "likely_audience_reaction": "A little heavier, more save-forward than tag-forward. Strong for followers who like the brand's quiet cinematic ache.",
+      "scores": {
+        "shareability": 4,
+        "comment_potential": 4,
+        "save_potential": 5,
+        "swipe_through_curiosity": 4,
+        "simplicity": 3,
+        "hook_strength": 4,
+        "freshness": 5,
+        "brand_fit": 5
+      }
+    },
+    {
+      "title": "Handle With Familiar Hands",
+      "one_line_concept": "Aachu worries she is hard to handle, but the carousel shows Zuv already knows the tiny care instructions: water by the bed, space after an argument, coming closer without cornering her.",
+      "suggested_text_hook": "am i hard to handle, or do i come with instructions?",
+      "why_people_may_share": "The tag reason is specific: 'you literally know all my care instructions.' It lets someone thank their partner while teasing themselves for being particular.",
+      "why_people_may_comment": "Warm bait: 'mine knows snacks first, questions later' and 'my care label says do not talk to me until I have eaten.' Commenters can name their own instructions.",
+      "likely_audience_reaction": "This is the lightest, most taggable version of the premise. It turns insecurity into couple folklore instead of a breakup threat.",
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 5,
+        "save_potential": 4,
+        "swipe_through_curiosity": 4,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "The Question He Answers Badly",
+    "reason": "Best send-not-like engine. The first line hooks the insecurity in three seconds, but the payoff can be ordinary proof instead of a therapy quote. It gives both sides dignity: she is not needy, he is not cold, they are just mismatched in reassurance style.",
+    "send_trigger": "A partner sends this when they want reassurance without starting a heavy talk.",
+    "tag_reason": "He may recognize himself as the person who loves through actions but needs help saying the thing out loud.",
+    "warm_comment_bait": "this is me asking for reassurance in the worst possible way"
+  },
+  "engagement_rationale": "The strongest candidates make the follower feel socially safe sending the post. 'Am I hard to love?' by itself can become generic sad-girl wallpaper; the share comes when the carousel names a real couple mechanic: reassurance styles, private languages, fear of being seen, or care instructions. Top pick wins because it creates swipe tension immediately: will he answer wrong, or will the story reveal he has been answering in his own language the whole time?",
+  "distribution_risks": [
+    "If the text stays only in abstract self-worth language, it will earn likes but not sends.",
+    "If Zuv is framed as emotionally useless, the send becomes a fight-starter instead of a soft nudge.",
+    "If every slide forces both Aachu and Zuv into frame, the story may feel staged instead of intimate; some slides should let absence, objects, or one person's body language carry the point.",
+    "If the visuals borrow the concept screenshots' foreign painterly style, the post will feel off-brand; approved direction stays warm off-white watercolor-and-ink with visible paper grain and hand-drawn text later.",
+    "If the hook over-explains therapy language, it loses the three-second scroll catch."
+  ]
+}

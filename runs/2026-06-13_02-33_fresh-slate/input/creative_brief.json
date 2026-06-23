@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-06-13_02-33_fresh-slate",
+  "raw_input": "lets start fresh with fresh ideas",
+  "idea_mode": "auto",
+  "core_idea": "Generate a fresh multi-option A Story of Two idea shortlist, explicitly avoiding the previous run's shortlisted concepts.",
+  "tone": "intimate, funny, soft, emotionally warm, premium, observational",
+  "relationship_dynamic": "specific everyday couple behavior between Aachu and Zuv",
+  "target_audience": "people who send relationship posts to their partner with 'this is us'",
+  "desired_feeling": "fresh recognition, warm teasing, and a small behavior that feels seen",
+  "must_include": [
+    "multiple options before idea lock",
+    "behavior-level concepts, not abstract sentiments",
+    "stageable visual evidence",
+    "clear send/comment trigger",
+    "story-led slide-count hints"
+  ],
+  "must_avoid": [
+    "previous run: shared pocket or bag redistribution",
+    "previous run: private can-we-leave signal",
+    "previous run: scooter helmet/safety strap ritual",
+    "previous run: still-mad water/care gesture",
+    "coffee theft",
+    "hoodie theft",
+    "missed texts or reels",
+    "men cannot find things",
+    "generic cozy morning",
+    "love-language lists",
+    "quote-card romance"
+  ],
+  "platform": "instagram",
+  "requested_surface": "both",
+  "initial_slide_count_preference": "story_led",
+  "output_format": "fresh_choice_shortlist_with_run_artifacts"
+}

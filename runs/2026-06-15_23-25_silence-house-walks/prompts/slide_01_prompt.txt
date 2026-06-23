@@ -1,0 +1,26 @@
+GENERATION PRIORITY:
+Create a native 1080x1350 px portrait @a.storyof.two single illustration. Use the loaded raw Aachu face-anchor images and loaded raw Zuv face-anchor images as the highest-priority visual inputs. Use the loaded best-illustration style images only for watercolor-and-ink finish, neutral paper, integrated handwriting, and composition. Do not let binders, style images, or text descriptions replace raw face anchors.
+
+ON-IMAGE TEXT:
+Render this exact bilingual text in warm hand-drawn charcoal, baked into the paper, with no added or missing words:
+तू चुप हो जाए तो घर में आवाज़ें भी डर-डर के चलती हैं।”
+When you go silent,
+even the house starts walking carefully.
+
+SCENE:
+A quiet home hallway opens into a bedroom/living-room corner after a small fight. Use a medium-wide lower composition with both faces readable; keep Aachu in a front three-quarter profile in the lower right, silent and withdrawn but not theatrical, face unobscured, eyes down or away, hands still in her lap, long dark hair natural. Zuv is close enough for a readable medium shot in the lower left/mid doorway, upright and natural on socks, one foot only slightly lifted before it touches the floor. One hand lightly holds the half-open door edge/handle so it will not swing or creak; the other hand carries a cup with the teaspoon pinned still against the rim so it will not clink. A still curtain and slightly angled chair stay secondary. The image should still communicate cautious silence if the text is covered: Aachu's quiet, Zuv's careful footstep, and one house object being kept quiet.
+
+IDENTITY ANCHORS:
+Aachu must preserve the loaded Aachu face anchors: visible eyes, brows, nose, lips, cheek structure, soft oval/round face, long dark hair with natural volume, real-person charm. Zuv must preserve the loaded Zuv face anchors: face not tiny or blurred, thick dark wavy hair, thick brows, recognizable eyes and nose, trimmed beard and mustache, rounded/oval face, gentle gaze. Keep clothing simple home-wear and do not let style-reference outfits replace the scene. Do not reverse roles, merge features, change age/ethnicity/skin tone, hide faces in profile or hair, or over-beautify either person into different people.
+
+STYLE AND COLOR:
+Premium hand-drawn romantic watercolor-and-ink, fine pencil/ink linework, transparent muted washes, tactile clothing and prop detail, visible paper grain, soft faded edges, expressive clean faces. Neutral white/off-white paper only: no yellow, mustard, sepia, beige/tan dominance, parchment, coffee-stained, or heavy cream cast. Any warm light stays local to faces/props and must not tint the paper.
+
+COMPOSITION AND TEXT:
+Keep generous clean upper-middle negative space for the exact quote. Place the scene in the lower half/lower two-thirds. The text must feel handwritten into the illustration, not digitally overlaid. Include tiny low-contrast handwritten @a.storyof.two at the top-right corner.
+
+HARD NO:
+No quote-card/poster design, no generic sad couple, no anime, no cartoon doll faces, no photorealism, no flat vector, no glossy render, no yellow/parchment cast, no extra text or random letters, no wrong Devanagari, no speech bubbles, no missing brandmark, no distorted eyes, no bad hands/fingers, no extra limbs, no cramped crouching, no dramatic tiptoe, no tiny unreadable Zuv, no hidden Aachu face, no face merge, no role reversal.
+
+GENERATION HARD GATE:
+Generate one native 1080x1350 px image only. Do not generate final Aachu/Zuv artwork from text descriptions or file paths alone. If loaded raw Aachu/Zuv face anchors and style references are not usable as image inputs in this conversation, stop with IDENTITY_REFERENCE_INPUT_UNPROVEN. If the prompt loses native 1080x1350 px or @a.storyof.two, stop with the relevant failure code.

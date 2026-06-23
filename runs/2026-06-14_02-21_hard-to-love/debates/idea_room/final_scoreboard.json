@@ -1,0 +1,135 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "source_agent_outputs": [
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_01_candidates.json",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_02_candidates.json",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_03_candidates.json"
+  ],
+  "prompt_packet": ".agents/skills/astory/templates/agents/idea_room_agent_prompt.md",
+  "minimum_required_overall_score": 4.0,
+  "threshold": 4.0,
+  "scoring_notes": "Scores merge agent rubrics for emotional truth, shareability, visual clarity, specificity, brand fit, feasibility, and anti-generic risk after the cross-critique repair pass.",
+  "candidates": [
+    {
+      "rank": 1,
+      "title": "The Chair Outside The Door",
+      "overall_score": 4.86,
+      "selection_status": "selected",
+      "source_agents": [
+        "Relatability Ethnographer - Meera",
+        "Visual Story Director - Tara",
+        "Shareability Strategist - Kabir repair input"
+      ],
+      "strengths": [
+        "Most behavior-led answer to the concept",
+        "Strongest no-forced-both visual logic",
+        "Clear object continuity",
+        "Low identity-drift and microtext risk",
+        "Send trigger improved by learned-care-rule repair"
+      ],
+      "risks": [
+        "Can become too solemn if the chair and objects do not change",
+        "Can make Zuv look saintly if waiting is over-dramatized",
+        "Needs a behavior-specific hook to travel"
+      ],
+      "required_repair": "No sleeping martyr, no final hug, no reassurance speech. Payoff must be Aachu using the water/charger/cloth and the changed door/chair arrangement."
+    },
+    {
+      "rank": 2,
+      "title": "The Little Instructions He Learned",
+      "overall_score": 4.72,
+      "selection_status": "strong_alternative",
+      "source_agents": [
+        "Shareability Strategist - Kabir"
+      ],
+      "strengths": [
+        "Best comment bait",
+        "Clear tag reason",
+        "Socially safe send"
+      ],
+      "risks": [
+        "Can become care-label meme language",
+        "Can frame Aachu as a difficult object with settings",
+        "Can depend on phone drafts or internal realization"
+      ],
+      "required_repair": "Use its send engine inside the selected chair idea rather than selecting the whole care-instructions frame."
+    },
+    {
+      "rank": 3,
+      "title": "The Bag That Knew Already",
+      "overall_score": 4.50,
+      "selection_status": "alternative",
+      "source_agents": [
+        "Relatability Ethnographer - Meera",
+        "Visual Story Director - Tara"
+      ],
+      "strengths": [
+        "Strong prop engine",
+        "Good scene variety",
+        "Light, taggable care behavior"
+      ],
+      "risks": [
+        "Pinterest care-kit generic risk",
+        "Too many objects can clutter phone readability"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "The Lamp Left Low",
+      "overall_score": 4.42,
+      "selection_status": "alternative",
+      "source_agents": [
+        "Visual Story Director - Tara",
+        "Relatability Ethnographer - Meera"
+      ],
+      "strengths": [
+        "Reassurance as environment, not speech",
+        "Strong Aachu solo frame potential"
+      ],
+      "risks": [
+        "May drift into pure atmosphere",
+        "Lighting could import the darker concept style if mishandled"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "The Best Bite Under The Bowl",
+      "overall_score": 4.25,
+      "selection_status": "rejected_for_this_run",
+      "source_agents": [
+        "Visual Story Director - Tara",
+        "Relatability Ethnographer - Meera"
+      ],
+      "strengths": [
+        "Safe anatomy and composition",
+        "Specific everyday ritual"
+      ],
+      "risks": [
+        "Can imply Aachu proves worth by giving",
+        "Less directly tied to hard-to-love/handle/understand"
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "The Exit Already Open",
+      "overall_score": 4.15,
+      "selection_status": "rejected_for_this_run",
+      "source_agents": [
+        "Relatability Ethnographer - Meera",
+        "Visual Story Director - Tara"
+      ],
+      "strengths": [
+        "Strong edge-of-room belonging metaphor",
+        "Good match for worth-the-risk text"
+      ],
+      "risks": [
+        "Crowd and phone UI complexity",
+        "Savior staging risk",
+        "Higher scene logic fragility"
+      ]
+    }
+  ],
+  "selected_title": "The Chair Outside The Door",
+  "selection_status": "passes_threshold",
+  "second_round_required": false
+}

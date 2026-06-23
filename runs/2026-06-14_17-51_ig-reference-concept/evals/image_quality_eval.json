@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-14T13:47:22Z",
+  "prompt_path": "runs/2026-06-14_17-51_ig-reference-concept/prompts/exact-copy-single-illustration-1080x1350.md",
+  "candidate_path": "runs/2026-06-14_17-51_ig-reference-concept/images/exact-copy-single-illustration-1080x1350-attempt-01.png",
+  "final_export_path": "runs/2026-06-14_17-51_ig-reference-concept/exports/exact-copy-single-illustration-1080x1350-final.png",
+  "exact_on_image_text": "The intimacy of “You remembered?” “Of course I did.”",
+  "checks": {
+    "final_canvas_px": {
+      "status": "pass",
+      "expected": "1080 x 1350",
+      "actual": "1080 x 1350"
+    },
+    "raw_model_candidate_canvas_px": {
+      "status": "note",
+      "actual": "1122 x 1402",
+      "handling": "Exported to exact 1080 x 1350 from a portrait 4:5 candidate; no square padding, crop, or extension was used."
+    },
+    "exact_text_readability": {
+      "status": "pass",
+      "note": "Exact source line is readable and no extra copy was added."
+    },
+    "brandmark": {
+      "status": "pass",
+      "expected": "@a.storyof.two",
+      "note": "Tiny handwritten brandmark appears in the bottom-right corner."
+    },
+    "source_card_contamination": {
+      "status": "pass",
+      "note": "No WE THE URBAN text and no pink fabric quote-card background."
+    },
+    "scene_text_proof": {
+      "status": "pass",
+      "note": "Zuv placing a small prepared bowl in front of Aachu gives the remembered-detail proof without adding explanation."
+    },
+    "a_story_style": {
+      "status": "pass",
+      "note": "Hand-drawn watercolor-and-ink treatment with paper texture and soft editorial spacing."
+    }
+  },
+  "decision": "ready_for_creator_review",
+  "failure": null
+}

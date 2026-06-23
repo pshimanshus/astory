@@ -1,0 +1,6 @@
+{"timestamp":"2026-06-13T02:34:00+05:30","state":"INIT_RUN","status":"ok","artifact":"runs/2026-06-13_02-34_fresh-idea-restart","note":"Fresh idea restart after prior shortlist collapsed into care/logistics/usefulness theme."}
+{"timestamp":"2026-06-13T02:34:00+05:30","state":"PARSE_CREATIVE_INPUT","status":"ok","artifact":"input/creative_brief.json","note":"Creator requested fresh idea start; anti-collapse brief written."}
+{"timestamp":"2026-06-13T02:34:00+05:30","state":"DISCOVER_AND_ASSIGN_AGENTS","status":"fallback_local_passes_with_limitation_recorded","artifact":"debates/agent_assignment_matrix.md","note":"multi_agent_v1 visible but not spawned because user did not explicitly request delegation/subagents."}
+{"timestamp":"2026-06-13T02:35:00+05:30","state":"GENERATE_OR_REFINE_IDEAS","status":"ok","artifact":"debates/idea_room","note":"Generated local persona candidates across divergent emotional engines."}
+{"timestamp":"2026-06-13T02:35:00+05:30","state":"SCORE_IDEAS","status":"shortlist_only","artifact":"debates/idea_room/final_scoreboard.json","note":"No idea locked; shortlist preserves divergence for creator review."}
+{"timestamp":"2026-06-13T02:35:00+05:30","state":"HITL_IDEA_LOCK","status":"pending","artifact":"planning/idea_choice_shortlist.md","note":"Awaiting creator review, revision, rejection, or idea lock."}

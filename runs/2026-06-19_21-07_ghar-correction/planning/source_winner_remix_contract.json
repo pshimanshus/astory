@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-06-19_21-07_ghar-correction",
+  "brief": "Two-slide A Story copy inspired by the user's favorite line from Ghar.",
+  "selected_source_engines": [
+    {
+      "source_id": "ig:DZTTSUBEaRr",
+      "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+      "account": "thirdeyethoughts",
+      "rank_signal": "winner-bank/content-dump match for domestic direct-you love expressed through everyday phrases",
+      "what_stays": "The emotional engine that ordinary care sentences can mean 'I love you' without saying it directly.",
+      "what_changes": "Move from general partner-care examples into the Ghar-specific inversion: the speaker is the house waiting for the one person who makes it home."
+    },
+    {
+      "source_id": "ig:DW9g9ZGCRu-",
+      "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+      "account": "werenotreallystrangers",
+      "rank_signal": "winner-bank/content-dump match for partner-as-home theme",
+      "what_stays": "The viewer-recognized desire to call one person home.",
+      "what_changes": "Do not reuse the stale surface phrase. Use it as the cliche to beat."
+    },
+    {
+      "source_id": "ig:DYG9a-FEuBQ",
+      "source_url": "https://www.instagram.com/p/DYG9a-FEuBQ/",
+      "account": "atticuspoetry",
+      "rank_signal": "winner-bank/content-dump match for ordinary things carrying deep love",
+      "what_stays": "Deep love should be proven through ordinary things that keep showing up.",
+      "what_changes": "Make the ordinary thing the empty-but-waiting house: slippers, latch, cup, side of bed, cupboard."
+    }
+  ],
+  "locked_first_slide": "Khaali hai jo tere bina, main woh ghar hoon tera.",
+  "do_not_repeat": [
+    "You feel like home.",
+    "Without you everything exists but does not feel like home.",
+    "Room, light, day, but no home.",
+    "Generic comfort-note language."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "status": "blocked_after_slide_01_retries",
+  "generation_mode": "built_in_imagegen",
+  "stopped_before_slide": 2,
+  "attempts": [
+    {
+      "slide_number": 1,
+      "attempt": 1,
+      "source_generated_path": "/Users/himanshusharma/.codex/generated_images/019ee0b2-e889-7141-bcb0-f47908b32f67/ig_0f2a02cef9b9030f016a358015619081919f572bf7c75ac900.png",
+      "workspace_path": "runs/2026-06-19_21-09_ghar-line/images/slide_01_iteration_02_attempt_01_candidate.png",
+      "pixel_width": 1122,
+      "pixel_height": 1402,
+      "decision": "rejected",
+      "failure_codes": [
+        "WRONG_CANVAS_SIZE",
+        "IDENTITY_REFERENCE_POSE_COPY",
+        "SMILING_CONTRADICTS_ACHE"
+      ],
+      "notes": "Rejected. The output was not native 1080x1350 px, and it copied the cafe identity reference's smile/cup/table/jacket energy instead of using the reference only for face structure."
+    },
+    {
+      "slide_number": 1,
+      "attempt": 2,
+      "source_generated_path": "/Users/himanshusharma/.codex/generated_images/019ee0b2-e889-7141-bcb0-f47908b32f67/ig_0f2a02cef9b9030f016a3580f12580819196a7928fc83e8a1d.png",
+      "workspace_path": "runs/2026-06-19_21-09_ghar-line/images/slide_01_iteration_02_attempt_02_candidate.png",
+      "pixel_width": 1122,
+      "pixel_height": 1402,
+      "decision": "rejected",
+      "failure_codes": [
+        "WRONG_CANVAS_SIZE",
+        "IDENTITY_REFERENCE_POSE_COPY",
+        "SMILING_CONTRADICTS_ACHE"
+      ],
+      "notes": "Rejected. Targeted retry still came out 1122x1402 and still carried a pleasant/smiling Aachu energy too close to the loaded cafe identity reference."
+    }
+  ],
+  "accepted_candidates": [],
+  "blocked_reason": "The built-in imagegen output did not honor native 1080x1350 px after two slide-1 attempts, and the candidates copied the cafe identity reference's smile/pose energy. Per A Story contract, do not resize/crop/pad or accept identity-reference superimposition as final."
+}

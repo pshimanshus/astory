@@ -1,0 +1,55 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "created_at": "2026-06-19T23:40:00+05:30",
+  "status": "process_failed",
+  "creator_challenge": "Those milestones cannot exist. How did agents/reviewers/QA pass this and why did generation happen?",
+  "root_cause_summary": "The workflow treated artifact completion and checklist gates as approval, while the actual creative/visual truth was wrong. The iteration 2 prompt-room review was a fallback local pass, not a fresh independent agent review, and it failed to catch emotional-state contradiction and identity-reference pose copying before imagegen.",
+  "invalidated_milestones": [
+    {
+      "state": "PRE_GENERATION_EVAL",
+      "reason": "It passed prompt syntax and route checks while missing the scene's emotional contradiction: Aachu smiling in a missing-person ache beat."
+    },
+    {
+      "state": "REVIEW_ROOM_QA",
+      "reason": "It focused on route artifacts and did not adversarially compare the prompt against loaded identity references for pose/expression collision."
+    },
+    {
+      "state": "HITL_PROMPT_LOCK",
+      "reason": "Prompt lock was inferred from 'proceed' after the corrected story, but the concrete prompt still contained a smile/cup pose and had not been re-approved after creator-visible prompt review."
+    },
+    {
+      "state": "GENERATE_IMAGES_WITH_IMAGEGEN",
+      "reason": "Generation should not have started from fallback local prompt-room passes after a major visual correction."
+    }
+  ],
+  "specific_failures": [
+    {
+      "failure_code": "EMOTIONAL_STATE_CONTRADICTION",
+      "evidence": "Slide 1 prompt asked for 'smiles a fraction too late' even though the beat is loneliness in a full place."
+    },
+    {
+      "failure_code": "IDENTITY_REFERENCE_POSE_COPY",
+      "evidence": "The active Aachu cafe identity reference had smile, cup/table, jacket, and cafe composition overlap with the prompt, so imagegen copied the reference as a scene template."
+    },
+    {
+      "failure_code": "FALLBACK_REVIEW_TREATED_AS_AGENT_PASS",
+      "evidence": "The prompt-room review for iteration 2 says fallback_local_passes_with_limitation_recorded, but downstream gates still allowed imagegen."
+    },
+    {
+      "failure_code": "CHECKLIST_OVER_JUDGMENT",
+      "evidence": "Repo QA passed because it checks artifact route, prompt phrases, canvas wording, and reference proof; it does not prove the prompt is emotionally right."
+    },
+    {
+      "failure_code": "HUMAN_CREATOR_BECAME_QA",
+      "evidence": "The creator caught the obvious smile/reference-copy issue only after generated output, meaning the internal reviewers did not protect the creator's time."
+    }
+  ],
+  "new_hard_rules": [
+    "No fallback local prompt-room pass may unlock imagegen after a major creator visual correction. It can only produce a draft pending real prompt reapproval.",
+    "Before imagegen, run a reference-pose-collision check: if a loaded identity anchor shares the proposed scene, object, wardrobe, expression, camera angle, or background, either exclude/crop that anchor or block generation.",
+    "Before imagegen, run an emotional-state contradiction check: the face expression must match the line's ache. For this run, any smile in slide 1 is a hard reject.",
+    "Do not infer prompt lock from a broad 'proceed' when the prompt content has not been shown or audited after a correction.",
+    "Generated image QA starts with emotional truth and reference-copying, not canvas size or brandmark."
+  ],
+  "current_decision": "No more imagegen from this prompt pack. The run is blocked and must be re-gated from prompt review with a safer identity-reference route before any new generation."
+}

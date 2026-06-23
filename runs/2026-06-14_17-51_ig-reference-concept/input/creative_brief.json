@@ -1,0 +1,65 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-14T12:24:53Z",
+  "mode": "reference_to_concept",
+  "platform": "instagram",
+  "creator_request": "Use https://www.instagram.com/p/DUtQzmaj9Rw/?img_index=3 as reference and create the concept for next carousel. Use Apify API key.",
+  "source_reference": {
+    "url": "https://www.instagram.com/p/DUtQzmaj9Rw/",
+    "requested_img_index": 3,
+    "scrape_method": "Apify actor apify/instagram-scraper using APIFY_API_TOKEN from local A Story config; token not stored in artifacts.",
+    "raw_artifact": "runs/2026-06-14_17-51_ig-reference-concept/input/apify_reference_raw.json",
+    "downloaded_reference_image": "runs/2026-06-14_17-51_ig-reference-concept/input/reference_img_index_3.jpg",
+    "wrong_actor_attempt_artifact": "runs/2026-06-14_17-51_ig-reference-concept/input/apify_error.json"
+  },
+  "reference_observation": {
+    "account": "wetheurban",
+    "posted_at": "2026-02-13T17:55:15.000Z",
+    "post_type": "Sidecar",
+    "child_count": 19,
+    "post_level_signal": {
+      "likes_count": 615337,
+      "comments_count": 1417
+    },
+    "slide_3_text_read": "The intimacy of \"You remembered?\" \"Of course I did.\"",
+    "mechanic_to_extract": "A tiny remembered detail becomes intimacy because one person did not have to explain it twice.",
+    "mechanic_not_to_copy": "Do not copy the quote-card format, pink fabric texture, typography, or We The Urban phrasing."
+  },
+  "a_story_adaptation_lock": {
+    "must_preserve": [
+      "the remembered-detail intimacy mechanic",
+      "the two-line emotional turn: surprise that they remembered, then quiet certainty",
+      "sendable recognition for couples who keep tiny preferences in memory"
+    ],
+    "must_avoid": [
+      "quote-card romance",
+      "therapy-page explanation",
+      "generic \"love is remembering the little things\" moral",
+      "copying the reference visual style",
+      "forcing both Aachu and Zuv into every slide"
+    ],
+    "target_output_for_this_turn": "Idea-room concept and scene-landing preview only; no story lock, prompt lock, or image generation."
+  },
+  "evidence_basis": [
+    {
+      "path": "references/brain/pages/outcome-attribution.md",
+      "used_for": "Rank ideas by shares per 1k reach and send behavior, not likes."
+    },
+    {
+      "path": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+      "used_for": "Winner pattern: specific emotional behavior and send prompt, 40.15 shares per 1k reach."
+    },
+    {
+      "path": "data/instagram/carousel_posts/DY9SfANiXWc/carousel_export.json",
+      "used_for": "Winner pattern: ordinary-time fantasy, 27.90 shares per 1k reach."
+    },
+    {
+      "path": "data/instagram/carousel_posts/DY4tGrQCXRA/carousel_export.json",
+      "used_for": "Winner pattern: being listened to as behavior, 27.04 shares per 1k reach."
+    },
+    {
+      "path": "references/brain/pages/run-lessons.md",
+      "used_for": "Do not copy concept-reference visual style; require scene-landing preview before idea lock."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "rejected",
+  "timestamp": "2026-06-14T00:31:24+05:30",
+  "candidate_path": "/Users/himanshusharma/.codex/generated_images/019ec19a-4753-7ac1-adc8-e8073ef5507b/ig_0f4f674e631f7fe5016a2da80412088191a87bd5f24185c6f8.png",
+  "failure_codes": [
+    "IMAGEGEN_TOOL_FAILURE",
+    "SCENE_LOGIC_CONTRADICTION",
+    "TEXT_NOT_EXACT"
+  ],
+  "failure_summary": "Imagegen ignored the A Story rain-road prompt and produced an unrelated ecosystem infographic. Candidate is not saved as a usable slide and must not enter exports.",
+  "repair": "Retry with a shorter prompt that puts native 1080x1350 and locked scene constraints first."
+}

@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-06-11_23-05_promise-in-three",
+  "selected_idea": "Promise, Proved In Three Rooms",
+  "status": "pass",
+  "overall_score": 4.78,
+  "threshold": 4.0,
+  "agent_assignment_status": "actual_multi_agent",
+  "scores": {
+    "relatability": 5,
+    "emotional_truth": 5,
+    "specificity": 4,
+    "warmth": 5,
+    "shareability": 4,
+    "comment_potential": 4,
+    "save_potential": 4,
+    "swipe_through_curiosity": 4,
+    "visual_clarity": 5,
+    "imagegen_feasibility": 5,
+    "brand_fit": 5
+  },
+  "risks": [
+    "Avoid hand-only generic crops.",
+    "Avoid forced linked-pinky poses after Post 1.",
+    "Do not let Post 3 become a suffering-romance scene.",
+    "Preserve exact source text unless creator approves rewriting."
+  ]
+}

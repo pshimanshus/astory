@@ -1,0 +1,230 @@
+{
+  "agent_role": "Visual Story Director - Tara",
+  "persona_file": ".agents/skills/astory/personas/idea-room/visual-story-director.md",
+  "assignment_mode": "fallback_local_pass_closed_packet",
+  "evidence_ledger": [
+    {
+      "artifact": "Studio mind",
+      "path": "AGENTS.md",
+      "what_you_used": "The frame must not look like generic AI romance.",
+      "gap_or_risk": "None."
+    },
+    {
+      "artifact": "Closed prompt packet",
+      "path": ".agents/skills/astory/templates/agents/idea_room_agent_prompt.md",
+      "what_you_used": "Feasibility pass and scene-landing seed requirements.",
+      "gap_or_risk": "Actual subagent rerun failed on usage limit; local pass is labeled."
+    },
+    {
+      "artifact": "Persona",
+      "path": ".agents/skills/astory/personas/idea-room/visual-story-director.md",
+      "what_you_used": "Reject feeling-without-action, forced crowding, microtext, and stale close-angle two-face staging.",
+      "gap_or_risk": "None."
+    },
+    {
+      "artifact": "Creative brief",
+      "path": "runs/2026-06-14_02-21_hard-to-love/input/creative_brief.json",
+      "what_you_used": "Hard-to-love concept and no forced both-person slide constraint.",
+      "gap_or_risk": "Final images still need reference visibility."
+    },
+    {
+      "artifact": "Creator corrections",
+      "path": "runs/2026-06-14_02-21_hard-to-love/planning/creator_direction_notes.md",
+      "what_you_used": "Do not copy concept style; do not use ad hoc Idea Room prompts.",
+      "gap_or_risk": "None."
+    },
+    {
+      "artifact": "Memory recall",
+      "path": "runs/2026-06-14_02-21_hard-to-love/planning/memory_recall.md",
+      "what_you_used": "Avoid stale close-angle two-face compositions; concept refs are premise not style.",
+      "gap_or_risk": "Automated recall not usable as truth."
+    },
+    {
+      "artifact": "House style",
+      "path": ".agents/skills/astory/references/house-style-contract.md",
+      "what_you_used": "Airy off-white watercolor-and-ink with readable text and scene logic.",
+      "gap_or_risk": "Text and brandmark enforced later by prompts."
+    }
+  ],
+  "premise_lock": {
+    "must_preserve": [
+      "A visible, stageable answer to the hard-to-love question.",
+      "No forced full couple framing on every slide.",
+      "A Story best-illustration style later, not foreign concept style."
+    ],
+    "must_not_change": [
+      "Do not make the opening a sad centered portrait.",
+      "Do not use microtext, complicated phone UI, or crowded crowd scenes.",
+      "Do not make a dramatic hug the automatic payoff."
+    ],
+    "rejected_generic_version": "Aachu and Zuv stare sadly at each other in a soft room while text explains the feeling."
+  },
+  "candidates": [
+    {
+      "title": "The Chair Outside The Door",
+      "one_line_concept": "Aachu is not made visually hard to understand; the frame shows the exact care required when she cannot explain herself yet.",
+      "suggested_slide_arc": [
+        "Slide 1: Quiet hallway, closed door, empty chair, question text.",
+        "Slide 2: Zuv's hand leaves water and charger on the chair, then exits frame.",
+        "Slide 3: Time passes through chair distance, changed light, and object placement.",
+        "Slide 4: Door cracked open, water half empty, charger in use.",
+        "Slide 5: Morning payoff with cloth pulled inside and Zuv partly asleep in chair."
+      ],
+      "suggested_slide_1_moment": "Closed door on one side, chair outside, off-white negative space.",
+      "suggested_payoff_moment": "A hand from inside pulls the cloth while the chair proves he stayed nearby.",
+      "visual_evidence": "Door, chair, light strip, water, charger, folded cloth, morning light.",
+      "share_or_comment_trigger": "People recognize the person who stays close without demanding access.",
+      "why_not_generic": "The scene has a physical behavior and repeated objects; it is not a quote over a mood.",
+      "visual_potential": "Excellent: clean, legible, low crowding, low identity-drift risk, strong prop continuity.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Too empty if the hallway lacks prop evidence.",
+        "Door crack/hand must be simple.",
+        "Zuv must not look like a martyr.",
+        "Payoff must not become a hug."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "A quiet off-white hallway; closed door; empty chair; thin warm light under the door.",
+        "hook_text_direction": "am i hard to love when i go quiet?",
+        "mini_arc": [
+          "Question through closed door.",
+          "Care object placed.",
+          "Patient distance.",
+          "Care accepted.",
+          "Still there in morning."
+        ],
+        "payoff_frame": "Used water/charger and cloth pulled inside; Zuv partial, not centered.",
+        "send_or_comment_trigger": "This is what gentle presence looks like.",
+        "flat_or_generic_risk": "Sad empty hallway without object continuity."
+      },
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 5
+      }
+    },
+    {
+      "title": "The Bag That Knew Already",
+      "one_line_concept": "Aachu wonders if she is hard to handle while Zuv's bag quietly reveals he learned her real care instructions.",
+      "suggested_slide_arc": [
+        "Slide 1: Open sling bag flat-lay with care objects and hook.",
+        "Slide 2: Aachu alone near the edge of a public place.",
+        "Slide 3: One object appears in use.",
+        "Slide 4: Zuv partly shown opening bag or creating space.",
+        "Slide 5: Quiet corner with bag between them."
+      ],
+      "suggested_slide_1_moment": "Open bag, water, snack, scarf, charger; no faces needed.",
+      "suggested_payoff_moment": "Used bag sits between them like a third character.",
+      "visual_evidence": "Bag and care objects repeated across slides.",
+      "share_or_comment_trigger": "Comment your care instructions.",
+      "why_not_generic": "Props carry the relationship rather than a generic reassurance line.",
+      "visual_potential": "Very strong if the object count is disciplined.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Too many small objects.",
+        "Can become aesthetic care-kit.",
+        "Public place should be silhouettes only.",
+        "Needs one object to matter twice."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "Open bag on off-white textured ground, clear text space above.",
+        "hook_text_direction": "am i hard to handle, or do i come with instructions?",
+        "mini_arc": [
+          "Bag evidence.",
+          "Public overwhelm.",
+          "Object used.",
+          "Space made.",
+          "Quiet corner payoff."
+        ],
+        "payoff_frame": "Bag open and used between them.",
+        "send_or_comment_trigger": "Tag the person who knows your care kit.",
+        "flat_or_generic_risk": "Pretty flat-lay without story motion."
+      },
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 5,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 4
+      }
+    },
+    {
+      "title": "The Lamp Left Low",
+      "one_line_concept": "The fear is not being too much; it is whether someone will make the room gentle when Aachu cannot be gentle yet.",
+      "suggested_slide_arc": [
+        "Slide 1: Aachu alone with phone face-down and too-bright room.",
+        "Slide 2: Zuv's hand lowers the lamp or switches overhead light off.",
+        "Slide 3: Cup, curtain, pillow or fan changes.",
+        "Slide 4: Aachu's guarded posture opens slightly.",
+        "Slide 5: Two cups in softened room, one figure partial or absent."
+      ],
+      "suggested_slide_1_moment": "Aachu alone, phone face-down, strong negative space.",
+      "suggested_payoff_moment": "Same room gentler, with two cups and no forced embrace.",
+      "visual_evidence": "Light switch/lamp, phone, tea cup, curtain, changed posture.",
+      "share_or_comment_trigger": "For partners fluent in silence.",
+      "why_not_generic": "Reassurance is shown through the environment changing.",
+      "visual_potential": "High but more atmospheric than the door idea.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Lighting can become dark concept-style mood.",
+        "May drift into pure atmosphere.",
+        "Hands near lamp/cup must stay simple."
+      ],
+      "scene_landing_preview_seed": {
+        "first_frame_visual": "Aachu alone with phone face-down in an ordinary room.",
+        "hook_text_direction": "am i hard to understand, or just hard to translate?",
+        "mini_arc": [
+          "Question.",
+          "Light lowered.",
+          "Room softened.",
+          "Posture shifts.",
+          "Two cups wait."
+        ],
+        "payoff_frame": "Two cups in gentle room; one partial figure.",
+        "send_or_comment_trigger": "He knows my silence.",
+        "flat_or_generic_risk": "Soft room with no repeated proof."
+      },
+      "scores": {
+        "visual_clarity": 4,
+        "scene_variety": 4,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 4,
+        "anatomy_safety": 4,
+        "slide_payoff": 4
+      }
+    }
+  ],
+  "top_pick": "The Chair Outside The Door",
+  "visual_risks": [
+    "Do not let the opener become a sad portrait.",
+    "Do not copy the dark concept style.",
+    "Do not force both people into every frame.",
+    "No microtext.",
+    "Avoid martyr/rescuer staging."
+  ],
+  "slide_count_hints": {
+    "recommended_range": "4-5 slides",
+    "best_fit": {
+      "The Chair Outside The Door": 5,
+      "The Bag That Knew Already": 5,
+      "The Lamp Left Low": 4
+    },
+    "why_not_fewer": "Three slides makes it setup/action/answer and too neat.",
+    "why_not_more": "Six or more repeats quiet-care beats."
+  },
+  "required_room_critiques": [
+    "Kabir should keep the first line sendable but plain.",
+    "Meera should make sure the behavior does not become saint/rescue."
+  ],
+  "failure_codes": []
+}

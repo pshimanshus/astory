@@ -1,0 +1,504 @@
+{
+  "agent_role": "Shareability Strategist",
+  "persona_file": ".agents/skills/astory/personas/idea-room/shareability-strategist.md",
+  "evidence_ledger": {
+    "agent_voice": "Kabir",
+    "method_applied": [
+      "anti-ai-slop-human-copy-filter: research first, context lock, rejected generic version, send/save/comment job before copy",
+      "superpowers:brainstorming spirit: interrogated the send trigger and compared several approaches before selecting candidates",
+      "astory source-winner loop: checked compatible winner-bank posts before fresh invention"
+    ],
+    "local_performance_evidence": [
+      {
+        "source": "references/brain/pages/outcome-attribution.md",
+        "finding": "A Story ideas should be ranked by shares per 1k reach and saves, not likes. DYJpjt9CQYY is the strongest cited send-behavior winner at 40.15 shares per 1k reach and 13.14 saves per 1k."
+      },
+      {
+        "source": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+        "finding": "The top local winner used a direct send-to-person posture and emotionally specific partner behavior. It had 21,351 shares on 531,805 reach."
+      },
+      {
+        "source": "data/instagram/carousel_posts/DY9SfANiXWc/carousel_export.json",
+        "finding": "Ordinary-life-with-the-right-person framing travelled: 1,821 shares on 65,274 reach, 27.9 shares per 1k."
+      },
+      {
+        "source": "data/instagram/carousel_posts/DY_t4Dek0pq/carousel_export.json",
+        "finding": "Specific ordinary details drove saves: 1,590 saves on 93,580 reach, 16.99 saves per 1k."
+      }
+    ],
+    "winner_bank_evidence": [
+      {
+        "source": "references/text-style/winner-bank-index-2026-06-14.json",
+        "rank": 121,
+        "source_account": "werenotreallystrangers",
+        "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+        "metric_signal": "49,670 likes, 161 comments, 1,247,616 plays, winner_score 69046.21",
+        "usable_engine": "The familiar topic 'home is a person' has proven travel, but it is also the obvious generic trap."
+      },
+      {
+        "source": "references/text-style/winner-bank-index-2026-06-14.json",
+        "rank": 136,
+        "source_account": "hereverydaymotherhood",
+        "source_url": "https://www.instagram.com/p/DXPqpI7idvG/",
+        "metric_signal": "21,726 likes, 144 comments, comment_to_like_ratio 0.00663",
+        "usable_engine": "Direct person-as-home captioning can pull tags and comments when it feels like a line someone can send."
+      },
+      {
+        "source": "references/text-style/winner-bank-index-2026-06-14.json",
+        "rank": 105,
+        "source_account": "thirdeyethoughts",
+        "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+        "metric_signal": "52,514 likes, 164 comments, 10-slide carousel, explicit direct-you/send mechanic",
+        "usable_engine": "Small care phrases work as love because they let someone send an unsaid feeling without making a speech."
+      },
+      {
+        "source": "references/text-style/winner-bank-index-2026-06-14.json",
+        "rank": 119,
+        "source_account": "hereverydaymotherhood",
+        "source_url": "https://www.instagram.com/p/DXUl_sLidPr/",
+        "metric_signal": "77,309 likes, 102 comments, domestic/static winner",
+        "usable_engine": "House-to-home transformation is proven, but the A Story version must avoid becoming a generic gratitude quote."
+      }
+    ],
+    "copy_contract_evidence": [
+      {
+        "source": "references/brain/policies/current-copy-contract-2026-06-18.md",
+        "finding": "Every line should feel like something someone could send; the copy should aim for 'I needed to say this' before 'this is a carousel.'"
+      },
+      {
+        "source": "runs/2026-06-19_21-09_ghar-line/planning/memory_recall.md",
+        "finding": "The old topic is 'home is a person'; the new reveal must be the physical emptiness of a place that has everything except the person."
+      }
+    ],
+    "evidence_gap": "No live platform research was used. This pass relies on local A Story outcomes, the permissioned winner bank, and the run memory recall.",
+    "rejected_generic_version": "Slide 1: the lyric. Slide 2: 'home is not a place, it is a person.' That version is true, dead, and too easy for any quote page.",
+    "named_send_trigger": "Send this to the person you miss because saying 'I miss you' feels too small, but saying 'the whole place feels wrong without you' lands."
+  },
+  "premise_lock": {
+    "creator_setup_to_preserve": "Slide 1 must use exactly: khaali hai jo tere bina, main woh ghar hoon tera",
+    "slide_2_job": "Turn the lyric into a simple note that carries both ache and comfort: the place has things, routines, maybe people, but the one real ghar-person is missing.",
+    "speaker": "One partner speaking to the other as a private message, not as a public lesson about love.",
+    "receiver": "The person whose presence changes a room from address to ghar.",
+    "human_situation": "Someone is in a familiar place that should feel complete, but it does not feel like home until one specific person is there.",
+    "must_not_move_away_from": [
+      "No added song lyrics beyond the creator-provided line",
+      "No generic 'home is a person' quote-card",
+      "No therapy-page explanation",
+      "No object-led domestic cleverness",
+      "No over-polished romantic poetry"
+    ],
+    "locked_emotional_job": [
+      "make someone send it to their person",
+      "make someone feel missing-them ache",
+      "make someone feel safe enough to come back tired, quiet, or imperfect",
+      "bait warm comments like 'this is us' or a tagged name"
+    ],
+    "idea_stage_boundary": "These are shareability directions only: no final story beats, no prompt writing, no image generation."
+  },
+  "source_winner_basis": {
+    "primary_basis": "Use the winner-bank's proven 'home/person' travel, but repair the genericness by making slide 2 a private Aachu/Zuv message with lived absence and a sendable return line.",
+    "compatible_sources": [
+      {
+        "source_account": "werenotreallystrangers",
+        "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+        "what_stays": "The familiar emotional truth: sometimes one person is the real home.",
+        "what_changes": "A Story version cannot stop at the slogan; it must show the emptiness caused by one specific absence."
+      },
+      {
+        "source_account": "hereverydaymotherhood",
+        "source_url": "https://www.instagram.com/p/DXPqpI7idvG/",
+        "what_stays": "The simple sendable grammar of naming one person as home.",
+        "what_changes": "Make it about Aachu/Zuv longing, not a general married-life quote."
+      },
+      {
+        "source_account": "thirdeyethoughts",
+        "source_url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+        "what_stays": "Love expressed through small, direct care language.",
+        "what_changes": "The care phrase becomes 'come back as you are' rather than a list of domestic acts."
+      }
+    ],
+    "not_using_as_primary": [
+      {
+        "source_account": "thegoodquote",
+        "source_url": "https://www.instagram.com/p/DIx6irovp7R/",
+        "reason": "Solitude-as-home moves away from the creator's specific one-person ache."
+      },
+      {
+        "source_account": "hereverydaymotherhood",
+        "source_url": "https://www.instagram.com/p/DXUl_sLidPr/",
+        "reason": "House-to-home gratitude is compatible but risks becoming family/milestone content instead of this specific romantic absence."
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "kabir_01_bas_aa_jaana",
+      "title": "Bas Aa Jaana",
+      "suggested_text_hook": "Slide 1: khaali hai jo tere bina, main woh ghar hoon tera. Slide 2 direction: sab kuch hai yahan. bas tum nahi ho. thak ke bhi aa jaana. yeh ghar tumhara hi hai.",
+      "one_line_concept": "The lyric opens the ache; the payoff turns it into the safest possible invitation: come back imperfect, this place is still yours.",
+      "suggested_slide_arc": [
+        "Slide 1 keeps the creator's exact lyric as the stop-scroll ache.",
+        "Slide 2 turns the lyric into a private note: everything is here except you, and you do not need to arrive perfect to belong here."
+      ],
+      "suggested_slide_1_moment": "A quiet frame where the place feels lived in but paused; the absence is readable through space, not through a decorative prop.",
+      "suggested_payoff_moment": "The emotional turn is not 'I miss you' but 'come back as you are; this home has kept your place.'",
+      "share_or_comment_trigger": "Send trigger: for couples apart, late, fighting softly, or tired of pretending they are okay. Comment trigger: 'bas aa jaana' and tagged names.",
+      "why_people_may_share": "It gives people a gentler way to say 'I need you here' without sounding needy or dramatic.",
+      "why_people_may_comment": "The line invites direct tagging and small confession comments: 'this is us', 'come home', 'I am sending this to him.'",
+      "likely_audience_reaction": "A soft chest-hit first, then immediate send to the person whose absence changes the room.",
+      "why_not_generic": "It does not stop at 'home is a person.' It adds the riskier, more sendable detail: you can come back tired and still be wanted.",
+      "source_engine": {
+        "source_type": "source-preserving remix plus A Story performance memory",
+        "source_winners": [
+          {
+            "account": "werenotreallystrangers",
+            "url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+            "engine_used": "home-as-person theme travel"
+          },
+          {
+            "account": "thirdeyethoughts",
+            "url": "https://www.instagram.com/p/DZTTSUBEaRr/",
+            "engine_used": "sendable care language as love"
+          },
+          {
+            "account": "a.storyof.two",
+            "url": "https://www.instagram.com/p/DYJpjt9CQYY/",
+            "engine_used": "direct send-to-person framing beats like-only romance"
+          }
+        ],
+        "permission_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "copy_status": "creator-provided lyric preserved; slide 2 is an A Story original note, not more song lyric"
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Home is a person.",
+        "new_reveal": "The missing person does not just make the room empty; they are the person the room is saving space for.",
+        "viewer_outcome": "The viewer can send a comforting invitation instead of a needy 'where are you?'",
+        "contrast_frame": "Not address versus person; complete-looking place versus the one absence that makes it incomplete.",
+        "bullseye_proof": "The payoff line creates a DM someone can send after missing their partner or after a hard day."
+      },
+      "a_story_wrappers": [
+        "Aachu/Zuv private note energy, not quote-card typography.",
+        "Restrained lived-home frame with negative space doing the emotional work.",
+        "The second slide feels like one partner speaking, not the brand explaining."
+      ],
+      "selection_scores": {
+        "source_fit": 4.8,
+        "creator_setup_preservation": 5.0,
+        "send_trigger_strength": 4.9,
+        "comment_trigger_strength": 4.5,
+        "novelty": 4.3,
+        "two_slide_viability": 4.8,
+        "anti_slop_control": 4.5,
+        "overall": 4.69
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "risk": "Could become a pretty quote about home if the comfort line gets over-polished.",
+        "rejected_generic_version": "Home is not a place, it is you.",
+        "repair_rule": "Keep the human phrase 'bas aa jaana' and the imperfect-return comfort."
+      },
+      "failure_risks": [
+        "AI_SLOP_COPY_DRIFT if the note becomes a moral about love",
+        "ORIGINAL_SETUP_DRIFT if slide 2 stops responding to the lyric",
+        "VISUAL_ONLY_MOOD_WORDS if the frame is only cozy/romantic instead of readable absence"
+      ],
+      "scores": {
+        "shareability": 5,
+        "comment_potential": 4.5,
+        "save_potential": 4.5,
+        "swipe_through_curiosity": 4.5,
+        "simplicity": 4.5,
+        "hook_strength": 5,
+        "freshness": 4,
+        "brand_fit": 5,
+        "overall": 4.63
+      }
+    },
+    {
+      "candidate_id": "kabir_02_bas_tum_nahi_ho",
+      "title": "Bas Tum Nahi Ho",
+      "suggested_text_hook": "Slide 1: khaali hai jo tere bina, main woh ghar hoon tera. Slide 2 direction: sab kuch hai yahan. bas tum nahi ho. isliye ghar bhi ghar nahi lagta.",
+      "one_line_concept": "The place is not empty because nothing exists there; it is empty because the only person who makes it ghar is missing.",
+      "suggested_slide_arc": [
+        "Slide 1 gives the lyric as ache.",
+        "Slide 2 lands the blunt emotional proof: the house has everything except the person."
+      ],
+      "suggested_slide_1_moment": "A room that should feel complete but feels too still; enough life to prove this is not poverty of objects, only absence of person.",
+      "suggested_payoff_moment": "The reader realizes the emptiness is not architectural. It is one-name specific.",
+      "share_or_comment_trigger": "Send trigger: the simplest 'I miss you' replacement. Comment trigger: people naming their person or saying 'ghar bhi ghar nahi lagta.'",
+      "why_people_may_share": "It is painfully easy to send because it says the exact missing-person feeling without requiring a long message.",
+      "why_people_may_comment": "The line gives people a safe way to admit dependence: 'same', 'this line', 'ghar is him/her.'",
+      "likely_audience_reaction": "Immediate recognition from long-distance couples and anyone sitting in a familiar place that feels wrong.",
+      "why_not_generic": "It avoids the slogan and gives the viewer the specific contradiction: everything is present, but the place is still incomplete.",
+      "source_engine": {
+        "source_type": "compatible source winner remix",
+        "source_winners": [
+          {
+            "account": "werenotreallystrangers",
+            "url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+            "engine_used": "person-as-home premise"
+          },
+          {
+            "account": "hereverydaymotherhood",
+            "url": "https://www.instagram.com/p/DXPqpI7idvG/",
+            "engine_used": "direct home/person send grammar"
+          },
+          {
+            "account": "a.storyof.two",
+            "url": "https://www.instagram.com/p/DY9SfANiXWc/",
+            "engine_used": "ordinary place/time becomes meaningful with the right person"
+          }
+        ],
+        "permission_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "copy_status": "creator-provided lyric preserved; payoff is original Hinglish note"
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Home is a person.",
+        "new_reveal": "The place is materially full but emotionally empty because one person is absent.",
+        "viewer_outcome": "A sendable missing-you line that feels less dramatic than a confession.",
+        "contrast_frame": "Full house versus empty-feeling ghar.",
+        "bullseye_proof": "The phrase 'bas tum nahi ho' is short enough to be a DM and specific enough to tag."
+      },
+      "a_story_wrappers": [
+        "Let Aachu/Zuv's absence be felt in the frame rather than explained.",
+        "Keep slide 2 as a private spoken line.",
+        "Use quiet domestic logic without making an object the premise."
+      ],
+      "selection_scores": {
+        "source_fit": 4.7,
+        "creator_setup_preservation": 5.0,
+        "send_trigger_strength": 4.8,
+        "comment_trigger_strength": 4.4,
+        "novelty": 4.0,
+        "two_slide_viability": 5.0,
+        "anti_slop_control": 4.4,
+        "overall": 4.61
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "risk": "The idea is close to the generic source phrase, so the final wrapper must prove 'bas tum nahi ho' through lived absence.",
+        "rejected_generic_version": "This house is empty without you because you are my home.",
+        "repair_rule": "Keep the contradiction: everything is here, only you are not."
+      },
+      "failure_risks": [
+        "GENERIC_IDEA if it becomes only 'home is you'",
+        "WEAK_PAYOFF if slide 2 repeats slide 1 without adding the full-house/empty-heart contrast",
+        "SHARE_TRIGGER_MISSING if the line becomes too polished to send"
+      ],
+      "scores": {
+        "shareability": 4.8,
+        "comment_potential": 4.4,
+        "save_potential": 4.3,
+        "swipe_through_curiosity": 4.6,
+        "simplicity": 5,
+        "hook_strength": 5,
+        "freshness": 3.9,
+        "brand_fit": 4.8,
+        "overall": 4.6
+      }
+    },
+    {
+      "candidate_id": "kabir_03_tumhari_jagah",
+      "title": "Tumhari Jagah",
+      "suggested_text_hook": "Slide 1: khaali hai jo tere bina, main woh ghar hoon tera. Slide 2 direction: ghar mein ek jagah aisi hai jo kisi aur se nahi bharni. woh tumhari hai.",
+      "one_line_concept": "The home is not empty everywhere; it has one precise place that only this person can fill.",
+      "suggested_slide_arc": [
+        "Slide 1 names the empty-home ache.",
+        "Slide 2 makes the ache specific: not loneliness, not decoration, one reserved emotional place."
+      ],
+      "suggested_slide_1_moment": "A still pause in the home with room for the missing person; not a melodramatic lonely pose.",
+      "suggested_payoff_moment": "The sendable comfort is 'your place is still yours.'",
+      "share_or_comment_trigger": "Send trigger: for couples who want to reassure each other after distance or a rough patch. Comment trigger: 'meri jagah', 'saved this', tagged initials.",
+      "why_people_may_share": "It lets someone say 'you are irreplaceable here' without sounding like a formal anniversary caption.",
+      "why_people_may_comment": "People will tag their person because 'tumhari jagah' sounds like a private inside claim.",
+      "likely_audience_reaction": "Less instant than candidate 1, but deeper saves from people who want a softer reassurance post.",
+      "why_not_generic": "Instead of claiming a universal truth, it points to one exact unfilled place and lets the viewer feel it.",
+      "source_engine": {
+        "source_type": "A Story local outcomes plus home/person winner bank",
+        "source_winners": [
+          {
+            "account": "a.storyof.two",
+            "url": "https://www.instagram.com/p/DY_t4Dek0pq/",
+            "engine_used": "specific ordinary details create save behavior"
+          },
+          {
+            "account": "werenotreallystrangers",
+            "url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+            "engine_used": "home/person premise"
+          }
+        ],
+        "permission_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "copy_status": "creator lyric preserved; slide 2 is original A Story wrapper"
+      },
+      "novelty_model": {
+        "old_familiar_topic": "You are my home.",
+        "new_reveal": "The ache is not broad loneliness; it is one reserved space that refuses substitutes.",
+        "viewer_outcome": "The receiver feels wanted without being idealized.",
+        "contrast_frame": "A place that can be occupied by many people versus a place only one person fills.",
+        "bullseye_proof": "The phrase gives commenters an easy handle: 'tumhari jagah.'"
+      },
+      "a_story_wrappers": [
+        "Negative space as proof, not gimmick.",
+        "Aachu/Zuv implied through one reserved side/place rather than both forced into frame.",
+        "Private message tone with no public lesson."
+      ],
+      "selection_scores": {
+        "source_fit": 4.3,
+        "creator_setup_preservation": 5.0,
+        "send_trigger_strength": 4.3,
+        "comment_trigger_strength": 4.2,
+        "novelty": 4.5,
+        "two_slide_viability": 4.4,
+        "anti_slop_control": 4.3,
+        "overall": 4.43
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "risk": "Could become too poetic if 'place' turns abstract.",
+        "rejected_generic_version": "No one can take your place in my heart.",
+        "repair_rule": "Keep it grounded as ghar-space, not heart-space."
+      },
+      "failure_risks": [
+        "TOO_POLISHED if the reserved-place line becomes literary",
+        "VISUAL_ONLY_MOOD_WORDS if the scene does not make the reserved space readable",
+        "LOW_SCORE_NO_SELECTION if other agents need a sharper three-second hook"
+      ],
+      "scores": {
+        "shareability": 4.3,
+        "comment_potential": 4.2,
+        "save_potential": 4.6,
+        "swipe_through_curiosity": 4.2,
+        "simplicity": 4.4,
+        "hook_strength": 4.4,
+        "freshness": 4.5,
+        "brand_fit": 4.8,
+        "overall": 4.43
+      }
+    },
+    {
+      "candidate_id": "kabir_04_address_nahi",
+      "title": "Address Nahi",
+      "suggested_text_hook": "Slide 1: khaali hai jo tere bina, main woh ghar hoon tera. Slide 2 direction: ghar mera address nahi hai. ghar woh feeling hai jo sirf tumhare aane se aati hai.",
+      "one_line_concept": "It moves the lyric from a house metaphor to a body feeling: the address stays the same, but ghar only arrives with the person.",
+      "suggested_slide_arc": [
+        "Slide 1 gives the line as ache.",
+        "Slide 2 reframes ghar as the feeling that arrives with one person."
+      ],
+      "suggested_slide_1_moment": "The first frame should feel like a known place waiting, not like a designed quote background.",
+      "suggested_payoff_moment": "The comfort is that home is not lost; it comes back when they do.",
+      "share_or_comment_trigger": "Send trigger: good for people who live away, shift cities, or feel safe only with one person. Comment trigger: 'address nahi', 'this is my person.'",
+      "why_people_may_share": "It gives city/long-distance couples a clean way to say the place is secondary and the person is the real anchor.",
+      "why_people_may_comment": "People can tag their person with minimal context because the line explains itself quickly.",
+      "likely_audience_reaction": "Broadly relatable and very easy to understand, though a little closer to known quote territory.",
+      "why_not_generic": "The A Story wrapper must keep the lyric's emptiness first, then use address as a contrast, not as a clever slogan.",
+      "source_engine": {
+        "source_type": "winner-bank compatible broad-share candidate",
+        "source_winners": [
+          {
+            "account": "hereverydaymotherhood",
+            "url": "https://www.instagram.com/p/DXPqpI7idvG/",
+            "engine_used": "wherever-the-person-is home grammar"
+          },
+          {
+            "account": "a.storyof.two",
+            "url": "https://www.instagram.com/p/DY9SfANiXWc/",
+            "engine_used": "ordinary time with right person"
+          }
+        ],
+        "permission_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "copy_status": "creator lyric preserved; payoff is original but adjacent to proven source language"
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Home is not a place.",
+        "new_reveal": "The address can be correct and still not feel like ghar until one person enters it.",
+        "viewer_outcome": "A broad sendable line for long-distance, moving, or waiting couples.",
+        "contrast_frame": "Address versus feeling.",
+        "bullseye_proof": "The phrase is instantly legible on slide 2, but needs visual specificity to avoid quote-card blandness."
+      },
+      "a_story_wrappers": [
+        "Use Aachu/Zuv's lived environment to avoid a poster-style address metaphor.",
+        "Keep the tone private and unslick.",
+        "Do not make maps, keys, signs, or address props the premise."
+      ],
+      "selection_scores": {
+        "source_fit": 4.4,
+        "creator_setup_preservation": 4.8,
+        "send_trigger_strength": 4.1,
+        "comment_trigger_strength": 4.0,
+        "novelty": 3.7,
+        "two_slide_viability": 4.7,
+        "anti_slop_control": 3.8,
+        "overall": 4.21
+      },
+      "anti_slop_risk": {
+        "risk_level": "high",
+        "risk": "This is the most quote-page-adjacent candidate.",
+        "rejected_generic_version": "Home is not an address, it is a feeling.",
+        "repair_rule": "Only keep this if the scene and line stay tied to the creator's lyric and the person's arrival."
+      },
+      "failure_risks": [
+        "GENERIC_IDEA if address/feeling becomes the whole premise",
+        "AI_SLOP_COPY_DRIFT if it turns into motivational copy",
+        "SHARE_TRIGGER_MISSING if it sounds like a caption people admire but do not send"
+      ],
+      "scores": {
+        "shareability": 4.1,
+        "comment_potential": 4,
+        "save_potential": 4.2,
+        "swipe_through_curiosity": 4,
+        "simplicity": 4.8,
+        "hook_strength": 4.4,
+        "freshness": 3.5,
+        "brand_fit": 4.5,
+        "overall": 4.19
+      }
+    }
+  ],
+  "top_pick": {
+    "candidate_id": "kabir_01_bas_aa_jaana",
+    "title": "Bas Aa Jaana",
+    "why_this_wins": "It has the cleanest send reason: it does not merely say 'you are home'; it gives the receiver somewhere to return. That is both ache and comfort in one swipe.",
+    "three_second_hook": "The creator's lyric catches the Ghar-memory audience; 'bas aa jaana' gives everyone else the DM reason.",
+    "named_send_trigger": "Send to the person you want home, especially if they are tired, late, distant, or emotionally hard to reach.",
+    "comment_bait": [
+      "bas aa jaana",
+      "this is us",
+      "tagging the person whose place is still kept"
+    ],
+    "score": 4.69,
+    "selection_note": "Pick this if the room wants the most comfort. Pick candidate 02 if the room wants the sharpest ache."
+  },
+  "engagement_rationale": {
+    "share_logic": "The strongest route is not a clever lyric translation. It is a message someone can forward because it says 'I need you here' without sounding demanding.",
+    "comment_logic": "Warm comments will come from tags and tiny confessions, not debate. The candidate should invite 'come home', 'this is us', and name-tag comments.",
+    "save_logic": "The post can save well if slide 2 becomes a line people want to keep for later, especially after distance, a hard day, or a quiet fight.",
+    "swipe_logic": "Slide 1 has built-in curiosity because it is a known beloved line. Slide 2 must reward the swipe with a private note, not a paraphrase.",
+    "distribution_prediction": "Best audience: long-distance couples, married/committed couples with routine separations, people who use Hindi/Hinglish emotional language, and viewers who save missing-you posts."
+  },
+  "distribution_risks": [
+    {
+      "risk": "The theme is already widely proven, so the generic version will feel like a quote account.",
+      "mitigation": "Keep the second slide as a private spoken note with 'bas aa jaana' or 'bas tum nahi ho' specificity."
+    },
+    {
+      "risk": "Using a song line may attract recognition but also raise expectation for more lyrics.",
+      "mitigation": "Do not add more song lyrics. Make slide 2 original A Story copy."
+    },
+    {
+      "risk": "Too much Hinglish may reduce reach for non-Hindi viewers, but too little loses the creator's setup.",
+      "mitigation": "Keep the key feeling in simple Hinglish and make the visual emotion readable without translation."
+    },
+    {
+      "risk": "Two slides can feel thin if slide 2 only explains slide 1.",
+      "mitigation": "Slide 2 must add a new emotional turn: return-as-you-are, everything-here-except-you, or your-place-stayed-open."
+    }
+  ],
+  "failure_codes": [
+    "AI_SLOP_COPY_DRIFT",
+    "ORIGINAL_SETUP_DRIFT",
+    "SHARE_TRIGGER_MISSING",
+    "GENERIC_IDEA",
+    "WEAK_PAYOFF",
+    "VISUAL_ONLY_MOOD_WORDS"
+  ]
+}

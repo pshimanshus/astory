@@ -1,0 +1,514 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "scene_discussion_status": "ready_for_story_lock",
+  "method": "visual_scene_discussion_local_orchestrator_pass_using_closed_packet_requirements",
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "am i hard to love when i go quiet?",
+      "visual_proof_needed": "A closed door and practical chair must make quiet feel like a threshold, not abandonment theatre.",
+      "scene_options": [
+        {
+          "scene_option_id": "1A",
+          "scene_type": "safe_classic",
+          "environment": "Airy off-white hallway with one closed bedroom door and a simple wooden chair near the threshold.",
+          "camera_distance": "medium-wide",
+          "camera_angle": "straight-on hallway view",
+          "face_visibility_plan": "No faces.",
+          "body_language": "No body visible; chair angle carries presence.",
+          "eyeline": "None.",
+          "prop_read": "Chair close to door but not touching; thin warm light under door.",
+          "visual_setting_logic": "The door can open freely, and the chair reads as available presence.",
+          "wardrobe_continuity": "No wardrobe visible.",
+          "background_restraint": "Only door, chair, baseboard, floor texture, and paper grain.",
+          "text_placement_plan": "Upper-middle negative space above chair and door.",
+          "style_translation": "Warm off-white watercolor wash, fine ink door lines, soft paper grain.",
+          "scores": {
+            "scene_text_proof": 4,
+            "identity_preservation": 5,
+            "visual_freshness": 3,
+            "visual_setting_logic": 4,
+            "phone_readability": 5,
+            "wardrobe_continuity": 5,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 4,
+            "overall": 4.4
+          },
+          "failure_risks": [
+            "VISUAL_GENERIC_RISK"
+          ]
+        },
+        {
+          "scene_option_id": "1B",
+          "scene_type": "fresh_observed",
+          "environment": "Quiet apartment corridor cropped diagonally: door on right third, chair lower-left, soft floor tiles showing distance.",
+          "camera_distance": "medium-wide",
+          "camera_angle": "slight high-angle diagonal from hallway corner",
+          "face_visibility_plan": "No faces.",
+          "body_language": "Absence is the body logic; the chair is angled toward the door but leaves space.",
+          "eyeline": "Viewer's eye moves from text to light under the door to chair.",
+          "prop_read": "Chair is practical, scuffed slightly, positioned one chair-width away from the door swing.",
+          "visual_setting_logic": "The diagonal crop proves the chair is near but not blocking access.",
+          "wardrobe_continuity": "No wardrobe visible.",
+          "background_restraint": "Muted floor tile, pale wall, door seam, no dark drama.",
+          "text_placement_plan": "Upper-left/upper-middle paper space, away from the door seam.",
+          "style_translation": "Best-illustration airy square with pencil linework and watercolor texture.",
+          "scores": {
+            "scene_text_proof": 5,
+            "identity_preservation": 5,
+            "visual_freshness": 4,
+            "visual_setting_logic": 5,
+            "phone_readability": 5,
+            "wardrobe_continuity": 5,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 5,
+            "overall": 4.9
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "1C",
+          "scene_type": "risky_interesting",
+          "environment": "View from inside the room toward the closed door, with the light strip reversed and chair shadow faint outside.",
+          "camera_distance": "close-medium",
+          "camera_angle": "low inside-room threshold view",
+          "face_visibility_plan": "No faces.",
+          "body_language": "Aachu is implied behind the viewer, not shown.",
+          "eyeline": "Viewer is placed inside Aachu's quiet.",
+          "prop_read": "Chair visible only as soft silhouette/shadow beyond the door gap.",
+          "visual_setting_logic": "Emotionally interesting but weakens chair clarity.",
+          "wardrobe_continuity": "No wardrobe visible.",
+          "background_restraint": "Very sparse interior floor and door base.",
+          "text_placement_plan": "Upper-middle interior wall.",
+          "style_translation": "Soft watercolor interior, but must avoid dark claustrophobic mood.",
+          "scores": {
+            "scene_text_proof": 3,
+            "identity_preservation": 5,
+            "visual_freshness": 5,
+            "visual_setting_logic": 3,
+            "phone_readability": 3,
+            "wardrobe_continuity": 5,
+            "style_fit": 4,
+            "imagegen_risk_reduction": 2,
+            "overall": 3.8
+          },
+          "failure_risks": [
+            "TEXT_UNREADABLE",
+            "VISUAL_GENERIC_RISK"
+          ]
+        }
+      ],
+      "selected_scene_option_id": "1B",
+      "selection_reason": "Best balance of chair logic, text space, and non-theatrical quiet.",
+      "rejected_scene_memory": [
+        "Avoid centered sad-door poster framing.",
+        "Avoid inside-room silhouette if the chair becomes unreadable."
+      ],
+      "prompt_builder_notes": "Keep hallway pale and airy; the chair must feel recently placed, not symbolic."
+    },
+    {
+      "slide_number": 2,
+      "exact_on_image_text": "or did you learn where to leave the water?",
+      "visual_proof_needed": "Zuv must place care within reach while clearly not trying to enter.",
+      "scene_options": [
+        {
+          "scene_option_id": "2A",
+          "scene_type": "safe_classic",
+          "environment": "Same corridor, chair near door, water and charger being set on floor beside chair.",
+          "camera_distance": "medium close",
+          "camera_angle": "side view of threshold",
+          "face_visibility_plan": "Zuv hand and forearm only.",
+          "body_language": "Hand lowers objects; body mostly cropped out.",
+          "eyeline": "Not visible.",
+          "prop_read": "Glass and charger clear but may look arranged.",
+          "visual_setting_logic": "Objects are outside door swing and reachable from a crack.",
+          "wardrobe_continuity": "Neutral sleeve cuff only.",
+          "background_restraint": "Door edge, chair leg, one outlet.",
+          "text_placement_plan": "Upper-right negative space.",
+          "style_translation": "Soft linework on hand and objects; off-white wash.",
+          "scores": {
+            "scene_text_proof": 4,
+            "identity_preservation": 5,
+            "visual_freshness": 3,
+            "visual_setting_logic": 4,
+            "phone_readability": 5,
+            "wardrobe_continuity": 4,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 4,
+            "overall": 4.3
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "2B",
+          "scene_type": "fresh_observed",
+          "environment": "Low diagonal view from chair height: Zuv's partial body turns away while one hand leaves water and the charger cable beside the chair.",
+          "camera_distance": "medium close",
+          "camera_angle": "low diagonal from outside the door swing",
+          "face_visibility_plan": "Zuv face omitted; identity not critical here.",
+          "body_language": "One shoulder already rotating away; hand open after placing the glass, not gripping the handle.",
+          "eyeline": "No direct eyeline; body direction says leaving space.",
+          "prop_read": "Water glass in front of chair leg, charger cable routed toward outlet and threshold but clear of door.",
+          "visual_setting_logic": "The camera proves water placement and door clearance at once.",
+          "wardrobe_continuity": "Simple everyday dark/navy or neutral sleeve, not formalwear.",
+          "background_restraint": "Only chair, door edge, outlet, and faint floor tile.",
+          "text_placement_plan": "Upper-left clean wall/paper area.",
+          "style_translation": "Fine ink contour on hand, transparent watercolor shadows, no cinematic darkness.",
+          "scores": {
+            "scene_text_proof": 5,
+            "identity_preservation": 5,
+            "visual_freshness": 4,
+            "visual_setting_logic": 5,
+            "phone_readability": 5,
+            "wardrobe_continuity": 5,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 5,
+            "overall": 4.9
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "2C",
+          "scene_type": "risky_interesting",
+          "environment": "Overhead still-life of chair seat, glass, charger, and door gap without Zuv visible.",
+          "camera_distance": "close-up",
+          "camera_angle": "top-down",
+          "face_visibility_plan": "No faces.",
+          "body_language": "No body; only objects.",
+          "eyeline": "Object-led.",
+          "prop_read": "Very clear water and charger, weaker action.",
+          "visual_setting_logic": "It shows care left behind but not the act of leaving.",
+          "wardrobe_continuity": "No wardrobe visible.",
+          "background_restraint": "Chair seat, tile, door base.",
+          "text_placement_plan": "Text on open floor/paper space.",
+          "style_translation": "Could be elegant, but risks care-kit flat lay.",
+          "scores": {
+            "scene_text_proof": 4,
+            "identity_preservation": 5,
+            "visual_freshness": 4,
+            "visual_setting_logic": 3,
+            "phone_readability": 5,
+            "wardrobe_continuity": 5,
+            "style_fit": 4,
+            "imagegen_risk_reduction": 3,
+            "overall": 4.1
+          },
+          "failure_risks": [
+            "VISUAL_GENERIC_RISK"
+          ]
+        }
+      ],
+      "selected_scene_option_id": "2B",
+      "selection_reason": "It proves both the water placement and the restraint in one readable action.",
+      "rejected_scene_memory": [
+        "Avoid flat-lay care-kit energy.",
+        "Avoid Zuv kneeling sadly or touching the handle."
+      ],
+      "prompt_builder_notes": "Make hand anatomy simple; use one open hand, not a reaching/clutching pose."
+    },
+    {
+      "slide_number": 3,
+      "exact_on_image_text": "you learned the chair distance",
+      "visual_proof_needed": "The chair distance must read as learned care, not a repeated hallway drawing.",
+      "scene_options": [
+        {
+          "scene_option_id": "3A",
+          "scene_type": "safe_classic",
+          "environment": "Same hallway from slide 1 with chair farther from door and folded cloth on the seat.",
+          "camera_distance": "medium-wide",
+          "camera_angle": "straight-on",
+          "face_visibility_plan": "No faces.",
+          "body_language": "None.",
+          "eyeline": "None.",
+          "prop_read": "Chair, cloth, water level, and door light changes.",
+          "visual_setting_logic": "Works if distance is visible, but may repeat slide 1.",
+          "wardrobe_continuity": "No wardrobe visible.",
+          "background_restraint": "Door, chair, cloth, water only.",
+          "text_placement_plan": "Upper-middle space.",
+          "style_translation": "Soft floor texture and pencil chair lines.",
+          "scores": {
+            "scene_text_proof": 4,
+            "identity_preservation": 5,
+            "visual_freshness": 2,
+            "visual_setting_logic": 4,
+            "phone_readability": 4,
+            "wardrobe_continuity": 5,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 3,
+            "overall": 4.0
+          },
+          "failure_risks": [
+            "VISUAL_GENERIC_RISK"
+          ]
+        },
+        {
+          "scene_option_id": "3B",
+          "scene_type": "fresh_observed",
+          "environment": "High-angle hallway view with floor tiles clearly measuring the chair one tile farther from the door.",
+          "camera_distance": "medium-wide",
+          "camera_angle": "gentle high angle",
+          "face_visibility_plan": "No faces.",
+          "body_language": "No body; distance is the action.",
+          "eyeline": "Viewer reads from text to door gap to chair legs.",
+          "prop_read": "Folded cloth over chair back, lower water level, charger cable now neatly coiled beside wall.",
+          "visual_setting_logic": "Tile spacing and chair-leg position make the moved-back action readable.",
+          "wardrobe_continuity": "No wardrobe visible.",
+          "background_restraint": "Pale floor grid, door base, chair, two objects maximum.",
+          "text_placement_plan": "Upper-left/upper-middle, away from floor details.",
+          "style_translation": "Airy wash with delicate tile lines, no clutter.",
+          "scores": {
+            "scene_text_proof": 5,
+            "identity_preservation": 5,
+            "visual_freshness": 4,
+            "visual_setting_logic": 5,
+            "phone_readability": 5,
+            "wardrobe_continuity": 5,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 5,
+            "overall": 4.9
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "3C",
+          "scene_type": "risky_interesting",
+          "environment": "Subtle before/after implied by two faint chair-leg marks on the floor and the chair now farther back.",
+          "camera_distance": "close-medium",
+          "camera_angle": "floor-level close-up",
+          "face_visibility_plan": "No faces.",
+          "body_language": "None.",
+          "eyeline": "Object-led.",
+          "prop_read": "Chair-leg marks are clever but may be too tiny.",
+          "visual_setting_logic": "Emotionally exact, readability uncertain.",
+          "wardrobe_continuity": "No wardrobe visible.",
+          "background_restraint": "Floor marks, chair legs, door base.",
+          "text_placement_plan": "Upper area above door base.",
+          "style_translation": "Fine pencil detail, gentle watercolor shadows.",
+          "scores": {
+            "scene_text_proof": 3,
+            "identity_preservation": 5,
+            "visual_freshness": 5,
+            "visual_setting_logic": 4,
+            "phone_readability": 2,
+            "wardrobe_continuity": 5,
+            "style_fit": 4,
+            "imagegen_risk_reduction": 2,
+            "overall": 3.8
+          },
+          "failure_risks": [
+            "TEXT_UNREADABLE"
+          ]
+        }
+      ],
+      "selected_scene_option_id": "3B",
+      "selection_reason": "It makes the chair-distance beat physically legible on a phone.",
+      "rejected_scene_memory": [
+        "Avoid repeating slide 1's exact angle.",
+        "Avoid tiny chair-leg clues as the only evidence."
+      ],
+      "prompt_builder_notes": "Floor/tile spacing is the visual proof. Keep supporting objects secondary."
+    },
+    {
+      "slide_number": 4,
+      "exact_on_image_text": "the words came later. the charger came first.",
+      "visual_proof_needed": "Aachu must accept care before speaking, with clean threshold geometry.",
+      "scene_options": [
+        {
+          "scene_option_id": "4A",
+          "scene_type": "safe_classic",
+          "environment": "Door cracked open with Aachu's fingers pulling a charger cable inside; chair visible in hallway.",
+          "camera_distance": "medium close",
+          "camera_angle": "side threshold view",
+          "face_visibility_plan": "Aachu hand only; face hidden.",
+          "body_language": "Fingers tentative but active.",
+          "eyeline": "Not visible.",
+          "prop_read": "Charger cable crossing threshold.",
+          "visual_setting_logic": "Simple and readable if the cable does not tangle.",
+          "wardrobe_continuity": "Only a soft sleeve edge if needed.",
+          "background_restraint": "Door edge, cable, chair blurred lightly.",
+          "text_placement_plan": "Upper-left wall/paper area.",
+          "style_translation": "Fine line threshold, soft hand watercolor.",
+          "scores": {
+            "scene_text_proof": 5,
+            "identity_preservation": 4,
+            "visual_freshness": 3,
+            "visual_setting_logic": 4,
+            "phone_readability": 5,
+            "wardrobe_continuity": 4,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 4,
+            "overall": 4.3
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "4B",
+          "scene_type": "fresh_observed",
+          "environment": "Clean threshold close-up from just outside: cracked door at left, charger crossing in foreground, backed-away chair softly visible beyond.",
+          "camera_distance": "close-medium",
+          "camera_angle": "3/4 threshold view",
+          "face_visibility_plan": "Aachu's fingers and a small partial cheek/eye sliver may appear; keep it optional and identity-safe if used.",
+          "body_language": "Aachu's hand pulls the charger inward; no full reveal.",
+          "eyeline": "If partial eye appears, it looks down toward charger, not at viewer.",
+          "prop_read": "Charger is the hero object; water and cloth remain background continuity.",
+          "visual_setting_logic": "The door crack, cable path, and backed-away chair prove acceptance and distance simultaneously.",
+          "wardrobe_continuity": "Soft everyday sleeve, muted neutral or pale lavender; no formalwear.",
+          "background_restraint": "Only chair edge, door seam, cable, and a hint of glass.",
+          "text_placement_plan": "Upper-right clean wall/paper space.",
+          "style_translation": "Tender linework, pale watercolor, no cinematic reveal.",
+          "scores": {
+            "scene_text_proof": 5,
+            "identity_preservation": 4,
+            "visual_freshness": 5,
+            "visual_setting_logic": 5,
+            "phone_readability": 5,
+            "wardrobe_continuity": 5,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 4,
+            "overall": 4.8
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "4C",
+          "scene_type": "risky_interesting",
+          "environment": "Inside-room view of Aachu's hand plugging in the phone, with hallway chair visible through a narrow door crack.",
+          "camera_distance": "close-up",
+          "camera_angle": "inside-room over-hand view",
+          "face_visibility_plan": "No face.",
+          "body_language": "Hand actively plugs charger into phone.",
+          "eyeline": "Object-led.",
+          "prop_read": "Phone charging is clear, but threshold acceptance may be less clear.",
+          "visual_setting_logic": "Strong 'charger first' proof but weakens chair distance.",
+          "wardrobe_continuity": "Only hand/sleeve visible.",
+          "background_restraint": "Phone, cable, door crack, faint chair.",
+          "text_placement_plan": "Upper wall/negative space inside room.",
+          "style_translation": "Intimate close-up, risk of becoming product-like.",
+          "scores": {
+            "scene_text_proof": 4,
+            "identity_preservation": 4,
+            "visual_freshness": 5,
+            "visual_setting_logic": 3,
+            "phone_readability": 4,
+            "wardrobe_continuity": 4,
+            "style_fit": 4,
+            "imagegen_risk_reduction": 3,
+            "overall": 3.9
+          },
+          "failure_risks": [
+            "SCENE_LOGIC_CONTRADICTION"
+          ]
+        }
+      ],
+      "selected_scene_option_id": "4B",
+      "selection_reason": "It proves the accepted charger and the backed-away chair in the same frame.",
+      "rejected_scene_memory": [
+        "Avoid overdramatic face reveal.",
+        "Avoid cable/door geometry that makes no physical sense."
+      ],
+      "prompt_builder_notes": "Use a simple 3/4 threshold angle. Charger cable must be the hero object."
+    },
+    {
+      "slide_number": 5,
+      "exact_on_image_text": "i was not hard to love. i was hard to rush.",
+      "visual_proof_needed": "The final frame must answer the hook through used objects and quiet availability, not reconciliation theatre.",
+      "scene_options": [
+        {
+          "scene_option_id": "5A",
+          "scene_type": "safe_classic",
+          "environment": "Door partly open from hallway side; chair outside, glass half-empty, charger in use just inside.",
+          "camera_distance": "medium-wide",
+          "camera_angle": "hallway 3/4 view",
+          "face_visibility_plan": "Aachu may be implied behind the door; Zuv omitted.",
+          "body_language": "No full bodies; acceptance shown by objects.",
+          "eyeline": "None.",
+          "prop_read": "Used glass, charger crossing threshold, open door, chair nearby.",
+          "visual_setting_logic": "Clear payoff but may feel anonymous without Aachu presence.",
+          "wardrobe_continuity": "No wardrobe visible.",
+          "background_restraint": "Door, chair, glass, charger, soft light.",
+          "text_placement_plan": "Upper-middle open paper.",
+          "style_translation": "Quiet off-white watercolor, no dramatic glow.",
+          "scores": {
+            "scene_text_proof": 4,
+            "identity_preservation": 4,
+            "visual_freshness": 3,
+            "visual_setting_logic": 5,
+            "phone_readability": 5,
+            "wardrobe_continuity": 5,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 4,
+            "overall": 4.4
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "5B",
+          "scene_type": "fresh_observed",
+          "environment": "View from inside the room looking out through the partly open door: charging phone and used glass in foreground, chair visible outside at the learned distance.",
+          "camera_distance": "medium-wide",
+          "camera_angle": "inside-to-hallway threshold view",
+          "face_visibility_plan": "Aachu can be a soft partial profile or shoulder at frame edge; Zuv is implied down the hall or omitted.",
+          "body_language": "Aachu is not collapsed; she is quiet and present, close to the accepted objects.",
+          "eyeline": "If visible, Aachu's gaze rests toward the chair or charger, not directly at viewer.",
+          "prop_read": "Phone charging, half-empty glass, cloth partly inside, chair outside unoccupied and unblocking.",
+          "visual_setting_logic": "The viewer stands where Aachu is, making 'hard to rush' feel owned by her.",
+          "wardrobe_continuity": "Soft everyday clothes, muted warm-neutral or gentle lavender; no formal styling.",
+          "background_restraint": "Doorframe, chair, two care objects, pale hallway wash.",
+          "text_placement_plan": "Upper-middle interior wall/paper area above the open threshold.",
+          "style_translation": "Airy watercolor-and-ink with intimate threshold perspective.",
+          "scores": {
+            "scene_text_proof": 5,
+            "identity_preservation": 4,
+            "visual_freshness": 5,
+            "visual_setting_logic": 5,
+            "phone_readability": 5,
+            "wardrobe_continuity": 5,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 5,
+            "overall": 4.9
+          },
+          "failure_risks": []
+        },
+        {
+          "scene_option_id": "5C",
+          "scene_type": "risky_interesting",
+          "environment": "Aachu seated just inside the open door with the charger in use; Zuv's feet or bag are faintly visible down the hall.",
+          "camera_distance": "medium",
+          "camera_angle": "low interior angle",
+          "face_visibility_plan": "Aachu partial readable face; Zuv only implied by feet/bag.",
+          "body_language": "Aachu relaxed but still quiet; no hug.",
+          "eyeline": "Aachu looks at the chair or down the hall.",
+          "prop_read": "Chair outside, charger connected, glass used.",
+          "visual_setting_logic": "Can work, but extra body detail risks clutter and identity pressure.",
+          "wardrobe_continuity": "Everyday indoor clothes.",
+          "background_restraint": "Doorframe and soft hallway only.",
+          "text_placement_plan": "Upper-left negative space.",
+          "style_translation": "Intimate but risks over-directing faces.",
+          "scores": {
+            "scene_text_proof": 4,
+            "identity_preservation": 3,
+            "visual_freshness": 4,
+            "visual_setting_logic": 4,
+            "phone_readability": 4,
+            "wardrobe_continuity": 4,
+            "style_fit": 5,
+            "imagegen_risk_reduction": 3,
+            "overall": 3.9
+          },
+          "failure_risks": [
+            "IDENTITY_REFERENCE_INPUT_UNPROVEN",
+            "VISUAL_GENERIC_RISK"
+          ]
+        }
+      ],
+      "selected_scene_option_id": "5B",
+      "selection_reason": "It makes the payoff belong to Aachu while preserving the no-forced-two-person constraint.",
+      "rejected_scene_memory": [
+        "Avoid final hug, apology, or face-to-face reconciliation.",
+        "Avoid showing Zuv as a glowing patient saint."
+      ],
+      "prompt_builder_notes": "The camera should feel like Aachu's quiet has opened, not like the couple is performing a resolution."
+    }
+  ],
+  "failure_codes": []
+}

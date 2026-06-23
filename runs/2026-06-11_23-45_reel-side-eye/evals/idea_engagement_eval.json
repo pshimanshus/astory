@@ -1,0 +1,15 @@
+{
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "selected": "merged_reel_side_eye_v2",
+  "overall_score": 4.6,
+  "rubric_scores": {
+    "recognition_specificity": 4.8,
+    "send_trigger": 4.7,
+    "picture_proves_line": 4.6,
+    "real_turn": 4.4,
+    "stageability_identity_safety": 4.5
+  },
+  "threshold": 4.0,
+  "pass": true,
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded"
+}

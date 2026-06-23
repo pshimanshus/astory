@@ -1,0 +1,38 @@
+{
+  "run_id": "2026-06-18_21-21_winner-bank-brainstorm",
+  "selected_id": "barefoot_chappal_return",
+  "title": "she said main ja rahi hoon... barefoot",
+  "exact_first_slide_text": "she said 'main ja rahi hoon'... barefoot.",
+  "source_engine": {
+    "primary_owned_source": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+    "primary_owned_metrics": {
+      "shares_per_1k": 40.15,
+      "saves_per_1k": 13.14,
+      "reach": 531805,
+      "shares": 21351,
+      "saves": 6988
+    },
+    "external_mechanics_only": [
+      "staying to figure it out",
+      "after-fight contradiction",
+      "ordinary care receipt"
+    ]
+  },
+  "concept": "Aachu storms toward the door saying she is leaving, but her chappals are still inside. Zuv does not chase or lecture; he quietly turns the chappals toward the door and leaves water near the threshold. She returns 'only for the chappals.' The fight is not magically solved, but the distance gets smaller.",
+  "slide_count": 7,
+  "why_selected": "It keeps the strongest owned send-behavior engine while adding a fresh visual object. The chappals carry the contradiction: anger wants distance, habit still expects care.",
+  "emotional_job": "Make someone send it to their partner after a petty fight or tag the dramatic one with affection.",
+  "must_not_polish_away": [
+    "Aachu's pride",
+    "Zuv's quiet non-verbal care",
+    "the absurdity of leaving barefoot",
+    "the unresolved-but-softer ending"
+  ],
+  "hard_rejects": [
+    "crying hug",
+    "patience lesson",
+    "Zuv blocking the door",
+    "making Aachu childish",
+    "quote-card text with decorative couple"
+  ]
+}

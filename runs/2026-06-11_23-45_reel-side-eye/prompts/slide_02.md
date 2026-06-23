@@ -1,0 +1,35 @@
+# Slide 2 Prompt - reel-side-eye
+
+- run: 2026-06-11_23-45_reel-side-eye
+- slide: 2 of 4
+- surface: native 4:5 Instagram post
+- exact on-image text: `and you're laughing at YOUR phone`
+- source: compact priority-stack repair after creator rejection
+
+```text
+GENERATION PRIORITY:
+Create a native 4:5 @a.storyof.two illustration for slide 2 of 4. Use raw Aachu/Zuv face anchors as the highest-priority visual input. Use observational-intimacy-premium style references only for watercolor-and-ink finish, neutral paper, text style, and composition. Do not let binders, contact sheets, or text descriptions replace raw face anchors.
+
+ON-IMAGE TEXT:
+and you're laughing at YOUR phone
+
+SCENE:
+Same evening, same sofa, same small lamp position, same outfits. Mid shot favoring Aachu. Zuv is mid-laugh at his own phone screen, head tipped back slightly, eyes crinkled with open delight, face lit by plain phone glow. Aachu's head is turned toward him in a first deadpan side-eye: smile gone completely flat, eyes slid toward him, her phone now dropped face-up in her lap. The cushion gap remains between them.
+
+IDENTITY ANCHORS:
+Aachu: preserve her real face from the Aachu face-anchor inputs: large expressive dark eyes, natural brows, soft oval/round face, fuller lips, long dark hair with natural volume, playful real-person charm.
+Zuv: preserve his real face from the Zuv face-anchor inputs: thick dark wavy hair, thick brows, recognizable eyes and nose, trimmed beard and mustache, rounded/oval face, gentle gaze.
+The same two people must appear in every slide. Do not reverse the roles. Do not create new faces, merge their features, change ethnicity/age/skin tone, or over-beautify them into different people.
+
+STYLE AND COLOR:
+Premium hand-drawn romantic watercolor-and-ink, fine ink/pencil linework, visible paper grain, transparent muted washes, tactile clothing/prop detail, soft faded edges, clean expressive faces. Neutral white/off-white paper only: no yellow, mustard, sepia, beige/tan, parchment, coffee-stained, or heavy cream cast. Keep lamp and phone glow localized to faces/props; never tint the paper or background.
+
+COMPOSITION AND TEXT:
+Place exact hand-drawn charcoal text in clean upper-middle negative space, preserving spelling, punctuation, capitalization, and line breaks. The proof is the contrast: his open joy versus her flat sideways stare in one frame. Her side-eye is dry and playful, not hostile. Add tiny low-contrast handwritten @a.storyof.two at bottom-right.
+
+HARD NO:
+No anime, cartoon, doll/model face, photorealism, flat vector, quote-card/poster design, generic AI watercolor, rendered phone UI, exaggerated cartoon expression, frown/anger lines on Aachu, extra text, wrong text, missing brandmark, distorted eyes, bad hands/fingers, extra limbs, face merge, face drift, role reversal, yellow/parchment cast.
+
+GENERATION HARD GATE:
+Do not generate final Aachu/Zuv artwork from text descriptions or file paths alone. If actual raw Aachu/Zuv face anchors and style references are not loaded as usable image inputs in this conversation, stop and mark IDENTITY_REFERENCE_INPUT_UNPROVEN. Generate slide 2 only if slide 1 passed image QA.
+```

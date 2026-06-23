@@ -1,0 +1,73 @@
+{
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "remix_mode": "permissioned_source_preserving_remix",
+  "contract_type": "source_lead_supported_by_owned_winner",
+  "source_winner": {
+    "source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+    "source_account": "hereverydaymotherhood",
+    "source_shortcode": "DZS2GuipLku"
+  },
+  "primary_source": {
+    "source_id": "ig:DZS2GuipLku",
+    "source_account": "hereverydaymotherhood",
+    "source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+    "local_paths": [
+      "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZS2GuipLku/record.json",
+      "references/text-style/winner-bank/posts_merged.json"
+    ],
+    "format": "static image source lead",
+    "metric_signal": {
+      "likes": 3374,
+      "comments": 13,
+      "saves": null,
+      "shares": null,
+      "gap": "No scraped saves/shares; not treated as sole performance proof."
+    },
+    "permissioned": true,
+    "copy_or_premise_allowed_to_stay": [
+      "The direct request/premise: `please vent more`.",
+      "The emotional job: make someone feel wanted in the part where they thought they were annoying."
+    ]
+  },
+  "supporting_owned_sources": [
+    {
+      "source_id": "ig:DYJpjt9CQYY",
+      "local_path": "data/instagram/carousel_posts/DYJpjt9CQYY/carousel_export.json",
+      "metric_signal": "21351 shares on 531805 reach; 40.15 shares per 1k reach.",
+      "what_it_supports": "High-share A Story lane where emotional intensity is held gently instead of treated as too much."
+    },
+    {
+      "source_id": "ig:DY4tGrQCXRA",
+      "local_path": "data/instagram/carousel_posts/DY4tGrQCXRA/carousel_export.json",
+      "metric_signal": "14180 shares on 524443 reach; 27.04 shares per 1k reach.",
+      "what_it_supports": "Listening as a proven sendable A Story theme."
+    }
+  ],
+  "what_stays": [
+    "The phrase/premise `please vent more` remains visible.",
+    "The post gives permission to continue rather than praise for being quiet.",
+    "The emotional job is private-send reassurance, not public advice."
+  ],
+  "what_changes": [
+    "The source's static permission line becomes a 5-slide Aachu/Zuv lived scene.",
+    "The A Story wrapper adds the moment where Aachu tries to edit herself and Zuv refuses the short version.",
+    "The final payoff becomes `no. say the rest.`"
+  ],
+  "a_story_wrapper": {
+    "scene": "A quiet room after something happened off-frame. Aachu is venting and starting to feel like too much; Zuv stays physically and emotionally present without solving.",
+    "conversation_move": "He does not say a polished reassurance. He asks for the rest of the story.",
+    "visual_receipts": [
+      "phone face-down",
+      "untouched cup",
+      "Aachu mid-gesture",
+      "Zuv fully turned toward her",
+      "a final small pause when she stops apologizing"
+    ]
+  },
+  "must_not_be_polished_away": [
+    "Do not replace `vent` with `share your feelings`.",
+    "Do not replace `short version` with a therapy phrase.",
+    "Do not explain active listening.",
+    "Do not turn the frame into a quote-card or a couple cuddle."
+  ]
+}

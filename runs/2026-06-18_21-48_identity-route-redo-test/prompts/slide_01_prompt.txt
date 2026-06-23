@@ -1,0 +1,24 @@
+GENERATION PRIORITY:
+Create a native 1080x1350 px @a.storyof.two illustration for slide 1 of 2. Use raw Aachu/Zuv face anchors as the highest-priority visual input. Do not let style images, binders, contact sheets, or text descriptions replace raw face anchors. Use multiple face anchors for identity structure only; do not copy any single anchor's pose, head angle, eye state, expression, wardrobe, lighting, background, camera position, or scene composition.
+
+ON-IMAGE TEXT:
+Story contract phrase: Him / Her / Blah.. / blah.. / Blah..
+Add integrated handwritten labels exactly: Him above Zuv, Her above Aachu. Add three small speech bubbles near Aachu reading exactly: Blah.., blah.., Blah..
+
+SCENE:
+Aachu and Zuv stand side by side in a loose everyday banter moment, full bodies visible in the lower/middle-lower frame with clean upper-middle negative space. Aachu is turned toward Zuv, speaking animatedly, one hand lightly resting on his upper arm and her other hand lifted in a casual talking gesture. Zuv stands relaxed with both hands in pockets, shoulders easy, head turned toward her with a small amused side-eye and patient half-smile. Keep both faces readable in a medium-wide front three-quarter composition; the source illustration guides only the joke setup, not identity, wardrobe, exact pose, head angle, expression, lighting, background, camera position, or scene composition.
+
+IDENTITY:
+Preserve Aachu and Zuv from the loaded raw face-anchor images only. Same two people, no role reversal, no new faces, no feature merge, no age/skin-tone drift, no model-beautified faces.
+
+STYLE:
+Premium hand-drawn romantic watercolor-and-ink, fine pencil/ink linework, transparent muted washes, visible paper grain, tactile clothing detail, clean expressive faces. Neutral white/off-white paper only: no yellow, mustard, sepia, beige/tan, parchment, coffee-stained, or heavy cream cast.
+
+COMPOSITION:
+Labels and bubbles must be hand-drawn charcoal/muted mint marks baked into the paper, not digital stickers or overlay typography. Keep bubbles small and readable, away from faces. Add tiny low-contrast handwritten @a.storyof.two at top-right.
+
+GENERATION HARD GATE:
+Do not generate final Aachu/Zuv artwork from text descriptions or file paths alone. If loaded raw face anchors and style references are not usable in this conversation, stop and mark IDENTITY_REFERENCE_INPUT_UNPROVEN.
+
+HARD NO:
+No anime, cartoon, photorealism, flat vector, quote-card/poster design, generic AI watercolor, extra text, wrong text, missing brandmark, distorted eyes, bad hands/fingers, extra limbs, face drift, face merge, role reversal, source-image face copying, single-reference pose cloning.

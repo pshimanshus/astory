@@ -1,0 +1,23 @@
+{
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "identity_source": "references/identity/aachu/face/, references/identity/zuv/face/ (face anchors, highest priority); references/identity/together/face-and-body-language/ (body language only); references/identity/*/reactions/ for slide 2-3 expressions",
+  "aachu": {
+    "face": "per master prompt identity lock; reference-driven, no text-only identity",
+    "hair": "long dark hair, loose with natural volume, consistent all four slides",
+    "wardrobe_locked": "white oversized shirt, blue jeans, small gold earrings — identical in all four slides (single-evening continuity)",
+    "expression_arc": ["bright expectant smile", "first deadpan side-eye, smile gone flat", "full playful unblinking side-eye, one eyebrow raised, lips pressed — playful NOT angry", "glare collapsing into incredulous laughter"],
+    "props": "her phone with small heart sticker"
+  },
+  "zuv": {
+    "face": "per master prompt identity lock; trimmed beard, thick wavy hair, reference-driven",
+    "wardrobe_locked": "navy hoodie, tan pants — identical in all four slides",
+    "expression_arc": ["relaxed, absorbed in his own phone", "laughing warmly at his own screen, head tipped back slightly", "oblivious soft-focus profile at frame edge", "turned fully to her, delighted mid-laugh"],
+    "props": "his phone, plain"
+  },
+  "continuity_rules": [
+    "Same sofa, same lamp, same cushions in slides 1, 2 and 4; slide 3 is a close crop of the same space with minimal background wash.",
+    "Wardrobe identical across all slides; no accessory changes.",
+    "Phone screens are plain warm glow only — never rendered UI, never readable screen content.",
+    "Slide 3 is the identity-drift hot zone: exaggerated eye acting must stay within reference-driven features; eye shape, brows, nose, lips per anchors."
+  ]
+}

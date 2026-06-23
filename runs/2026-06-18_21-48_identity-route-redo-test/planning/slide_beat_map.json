@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-18_21-48_identity-route-redo-test",
+  "slides": [
+    {
+      "slide": 1,
+      "id": "standing_banter",
+      "exact_text": "Him / Her / Blah.. / blah.. / Blah..",
+      "beat": "Aachu is talking through the moment; Zuv is listening with amused patience."
+    },
+    {
+      "slide": 2,
+      "id": "station_reunion",
+      "exact_text": "Years apart.\nSeconds to fall.",
+      "beat": "They have just pulled apart after the first hug, still holding each other, both faces readable."
+    }
+  ]
+}

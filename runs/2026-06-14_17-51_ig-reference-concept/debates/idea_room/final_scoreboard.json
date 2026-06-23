@@ -1,0 +1,54 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "threshold": 4.0,
+  "scoring_note": "Scores combine agent scores, send/comment mechanics, visual proof, freshness, and A Story fit.",
+  "survivors": [
+    {
+      "rank": 1,
+      "title": "The Hair Clip He Started Carrying",
+      "overall_score": 4.78,
+      "agent_support": ["Relatability Ethnographer", "Shareability Strategist", "Visual Story Director"],
+      "why_it_scores": "Three-agent convergence; strong object proof; raw first-slide accusation; commentable tiny-emergency-object trigger; low imagegen complexity.",
+      "primary_risk": "Can become generic if staged as romantic hair-fixing instead of object-led remembered behavior.",
+      "status": "selected"
+    },
+    {
+      "rank": 2,
+      "title": "The Phone Was Already Charging",
+      "overall_score": 4.58,
+      "agent_support": ["Relatability Ethnographer", "Visual Story Director"],
+      "why_it_scores": "Strong ordinary-life proof with clear charger geography and bedtime anxiety trigger.",
+      "primary_risk": "May feel too quiet or tech-object flat unless the visual makes the remembered timing obvious.",
+      "status": "alternative"
+    },
+    {
+      "rank": 3,
+      "title": "No Chutney On Her Half",
+      "overall_score": 4.42,
+      "agent_support": ["Relatability Ethnographer", "Visual Story Director"],
+      "why_it_scores": "Food preference is commentable and visually proofable through plate setup.",
+      "primary_risk": "Can become generic dinner/order content if the exact preference is not canonically Aachu.",
+      "status": "alternative"
+    },
+    {
+      "rank": 4,
+      "title": "The AC Number He Pretends Is Random",
+      "overall_score": 4.35,
+      "agent_support": ["Relatability Ethnographer", "Shareability Strategist"],
+      "why_it_scores": "High comment bait around exact temperature and remembered domestic friction.",
+      "primary_risk": "Overlaps recent AC direction and can drift into hot-vs-cold stereotype.",
+      "status": "parked"
+    },
+    {
+      "rank": 5,
+      "title": "The Seat He Saved",
+      "overall_score": 4.25,
+      "agent_support": ["Shareability Strategist", "Visual Story Director"],
+      "why_it_scores": "Fresh seating-preference proof with comment potential.",
+      "primary_risk": "May be too subtle in the first frame.",
+      "status": "parked"
+    }
+  ],
+  "selected_title": "The Hair Clip He Started Carrying",
+  "failure_codes": []
+}

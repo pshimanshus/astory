@@ -1,0 +1,31 @@
+{
+  "run_id": "2026-06-13_02-34_fresh-shareable-ideas",
+  "raw_input": "[$astory] need fresh new shareable ideas",
+  "idea_mode": "auto",
+  "core_idea": "Generate fresh high-engagement, shareable A Story of Two carousel ideas.",
+  "tone": "intimate, funny, soft, emotionally warm, premium, observational",
+  "relationship_dynamic": "Aachu and Zuv as a specific couple; mutual affection, everyday behavior, no one-sided fool/saint dynamic",
+  "target_audience": "Instagram followers who share couple posts with their partner because the behavior is recognizably theirs",
+  "desired_feeling": "send this to him / why is this us / gently exposed but loved",
+  "must_include": [
+    "specific everyday behavior",
+    "clear visual proof",
+    "warm send trigger",
+    "phone-screen-readable hook potential",
+    "shortlist of multiple ideas before idea lock"
+  ],
+  "must_avoid": [
+    "generic romantic sentiment",
+    "quote-card concept",
+    "shared pocket or bag logistics from the previous fresh-idea run",
+    "reel side-eye or watched-my-video dynamics",
+    "heart rent joke",
+    "promise-in-three structure",
+    "shawl-before-she-asks care premise",
+    "one-sided gender stereotype"
+  ],
+  "platform": "instagram",
+  "requested_surface": "both",
+  "initial_slide_count_preference": "story_led",
+  "output_format": "idea_artifacts_only_until_creator_idea_lock"
+}

@@ -1,0 +1,103 @@
+{
+  "run_id": "2026-06-13_02-34_fresh-shareable-ideas",
+  "score_threshold": 4.0,
+  "agent_assignment_status": "actual_multi_agent",
+  "scored_at": "2026-06-13T12:20:04+05:30",
+  "score_dimensions": [
+    "relatability",
+    "shareability",
+    "comment_potential",
+    "visual_clarity",
+    "emotional_truth",
+    "humor_warmth_balance",
+    "freshness",
+    "brand_fit",
+    "simplicity",
+    "carousel_payoff",
+    "production_safety"
+  ],
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "idea_id": "idea_01_packet_pause",
+      "title": "The Packet Pause",
+      "overall": 4.82,
+      "selected": true,
+      "why": "Freshest behavior, strongest visual proof, warm send trigger, and easy mutual repair."
+    },
+    {
+      "rank": 2,
+      "idea_id": "idea_02_door_never_fully_closed",
+      "title": "The Door Was Never Fully Closed",
+      "overall": 4.71,
+      "selected": false,
+      "why_not": "Emotionally strong, but adjacent to the prior still-mad-still-careful lane and tonally delicate."
+    },
+    {
+      "rank": 3,
+      "idea_id": "idea_03_real_date_after_we_leave",
+      "title": "The Real Date Starts After We Leave",
+      "overall": 4.66,
+      "selected": false,
+      "why_not": "Excellent send hook, but visually weaker until a specific vehicle/threshold scene is locked and somewhat adjacent to can-we-leave social-event territory."
+    },
+    {
+      "rank": 4,
+      "idea_id": "idea_04_charger_favorite_person",
+      "title": "The Charger Has A Favorite Person",
+      "overall": 4.62,
+      "selected": false,
+      "why_not": "Best visual prop, but lighter emotional truth and less immediate comment bait than the winner."
+    },
+    {
+      "rank": 5,
+      "idea_id": "idea_05_subtitles_without_discussion",
+      "title": "The Subtitles Came On Without Discussion",
+      "overall": 4.49,
+      "selected": false,
+      "why_not": "Funny and specific, but may drift into TV-sitcom energy unless carefully staged."
+    },
+    {
+      "rank": 6,
+      "idea_id": "idea_06_assigned_seats",
+      "title": "Assigned Seats, Denied Publicly",
+      "overall": 4.42,
+      "selected": false,
+      "why_not": "Strong comments, but lower carousel payoff unless story room invents a fresh sequence."
+    },
+    {
+      "rank": 7,
+      "idea_id": "idea_07_remote_custody",
+      "title": "The Remote Control Custody Battle",
+      "overall": 4.41,
+      "selected": false,
+      "why_not": "Stageable but more familiar; needs intimate handoff rituals to escape sitcom-generic."
+    },
+    {
+      "rank": 8,
+      "idea_id": "idea_08_no_context_screenshot",
+      "title": "No-Context Screenshot Department",
+      "overall": 4.35,
+      "selected": false,
+      "why_not": "Great modern shorthand, but too phone-led unless repaired heavily."
+    },
+    {
+      "rank": 9,
+      "idea_id": "idea_09_fan_speed_25",
+      "title": "Fan Speed 2.5",
+      "overall": 4.29,
+      "selected": false,
+      "why_not": "Very commentable but visually repetitive and sleep-temperature content is familiar."
+    },
+    {
+      "rank": 10,
+      "idea_id": "idea_10_correct_bite_treaty",
+      "title": "The Correct Bite Treaty",
+      "overall": 4.27,
+      "selected": false,
+      "why_not": "Warm and true, but food-sharing needs sharper specificity to beat the winner."
+    }
+  ],
+  "selection_allowed": true,
+  "second_round_required": false
+}

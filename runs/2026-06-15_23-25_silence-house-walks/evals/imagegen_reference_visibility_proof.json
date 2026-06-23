@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-15_23-25_silence-house-walks",
+  "created_at": "2026-06-15T23:30:00+05:30",
+  "load_plan_path": "runs/2026-06-15_23-25_silence-house-walks/evals/imagegen_reference_load_plan.json",
+  "load_plan_sha256": "7e69f81fd023e892c0711cf58ea219aa846bc9ddd7fd7e822d90a4f8ed73d656",
+  "loading_method": "view_image",
+  "view_image_queue_count": 11,
+  "expected_count": 11,
+  "loaded_count": 11,
+  "loaded_in_current_conversation": true,
+  "active_generation_path_can_use_loaded_image_context": true,
+  "reference_roles_confirmed": [
+    "aachu_face_identity",
+    "zuv_face_identity",
+    "style"
+  ],
+  "loaded_paths": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-car-purple-01.jpg",
+    "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+    "references/identity/zuv/face-01.png",
+    "references/identity/zuv/face-03.png",
+    "references/identity/zuv/zuv-face-crop-balcony-laugh-01.jpg",
+    "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "role_counts": {
+    "aachu_face_identity": 4,
+    "zuv_face_identity": 4,
+    "style": 3
+  },
+  "prompt_files_covered": [
+    "runs/2026-06-15_23-25_silence-house-walks/prompts/slide_01_prompt.txt"
+  ],
+  "status": "visible_reference_context_ready"
+}

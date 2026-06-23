@@ -1,0 +1,99 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "slide_count": 4,
+  "story_lock_status": "approved_for_prompt_pack",
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded",
+  "slides": [
+    {
+      "slide_number": 1,
+      "story_role": "crowded_but_hollow_setup",
+      "exact_on_image_text": "Khaali hai jo tere bina,\nmain woh ghar hoon tera.",
+      "visual_scene": "Aachu sits at a lively cafe table with friends around her, but she feels slightly outside the group. The space beside her is visibly unclaimed and no one else fills it.",
+      "character_action": "A cup sits untouched near her hands; her shoulders are slightly closed, her lips stay relaxed and unsmiling, and her eyes do not join the conversation.",
+      "emotional_expression": "Quietly lost, unsmiling, held back; not crying, not theatrical, not cute.",
+      "environment": "Bright neutral cafe with soft crowd movement, table edges, cups, and window light. Friends are loose background shapes, not detailed identity subjects.",
+      "identity_references_needed": [
+        "raw Aachu face anchors",
+        "raw Zuv face anchors as absence boundary only"
+      ],
+      "style_references_needed": [
+        "best-illustration style references"
+      ],
+      "scene_logic_proof": "The place is full, but Aachu still reads hollow because the one person who makes it feel like home is missing.",
+      "risks": [
+        "SAD_GIRL_IN_CROWD_GENERIC",
+        "BACKGROUND_FACES_DISTRACTION",
+        "IDENTITY_REFERENCE_POSE_COPY",
+        "SMILING_CONTRADICTS_ACHE",
+        "TEXT_UNREADABLE"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "story_role": "heart_keeps_returning",
+      "exact_on_image_text": "Some people don't just enter your life,\nthey become the place\nyour heart keeps returning to.",
+      "visual_scene": "Same cafe/friends setting. Aachu is turned slightly away from the table, eyes drawn toward the entrance or the empty beside-space while conversation continues around her.",
+      "character_action": "Her body remains at the table, but her attention has quietly left the group.",
+      "emotional_expression": "A small caught-soft realization.",
+      "environment": "Cafe entrance/window line visible enough to explain her searching gaze, with the group softened behind her.",
+      "identity_references_needed": [
+        "raw Aachu face anchors",
+        "raw Zuv face anchors as absence boundary only"
+      ],
+      "style_references_needed": [
+        "best-illustration style references"
+      ],
+      "scene_logic_proof": "The line says the heart keeps returning; her gaze and posture show that return without using a phone, ghost, or literal memory figure.",
+      "risks": [
+        "PHONE_PROP_CLICHE",
+        "VISUAL_ONLY_MOOD_WORDS",
+        "FACE_TOO_SMALL"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "story_role": "familiar_public_corner_empty",
+      "exact_on_image_text": "Without them,\neven the most familiar corners\nfeel empty.",
+      "visual_scene": "A familiar cafe corner or booth that should feel comfortable. Friends and cups are still present, but Aachu sits slightly apart at the edge of the group.",
+      "character_action": "She lightly touches the edge of the empty chair or table space beside her without pulling it closer.",
+      "emotional_expression": "Stillness and restraint.",
+      "environment": "The same cafe corner from earlier slides, now quieter in composition, with background figures softened into motion.",
+      "identity_references_needed": [
+        "raw Aachu face anchors",
+        "raw Zuv face anchors as absence boundary only"
+      ],
+      "style_references_needed": [
+        "best-illustration style references"
+      ],
+      "scene_logic_proof": "The corner is familiar because it repeats the cafe setting; it feels empty because everyone else is present except the one person who makes her feel placed.",
+      "risks": [
+        "OBJECT_LED_EMPTY_CHAIR_CLICHE",
+        "CROWD_TOO_BUSY",
+        "QUOTE_CARD_NOT_ILLUSTRATION"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "story_role": "realization_without_return",
+      "exact_on_image_text": "And with them,\neven silence feels safe.\n\nGhar was never a place.\nIt was always that one person.",
+      "visual_scene": "Same cafe/friends table near the end of the evening. The place is still socially full, but Aachu is still beside the unfilled space. No Zuv appears. Her face holds the realization that all this noise still cannot become safe silence without him.",
+      "character_action": "Aachu sits still while friends soften around her; one hand rests near the empty beside-space but does not claim it.",
+      "emotional_expression": "Quiet realization, ache, no resolution.",
+      "environment": "The cafe remains full enough to prove she is not physically alone, but the composition creates a small pocket of absence around Aachu.",
+      "identity_references_needed": [
+        "raw Aachu face anchors",
+        "raw Zuv face anchors as absence boundary only"
+      ],
+      "style_references_needed": [
+        "best-illustration style references"
+      ],
+      "scene_logic_proof": "Nothing resolves. The final line lands because the viewer sees that even a full place cannot become ghar without the one absent person.",
+      "risks": [
+        "COMEBACK_PAYOFF_WEAKENS_ACHE",
+        "ZUV_GHOSTING_OR_IMPLIED_RETURN",
+        "TEXT_DENSITY"
+      ]
+    }
+  ]
+}

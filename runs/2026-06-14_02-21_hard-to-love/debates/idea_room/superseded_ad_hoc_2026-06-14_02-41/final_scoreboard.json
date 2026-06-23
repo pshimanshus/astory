@@ -1,0 +1,87 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "minimum_selection_threshold": 4.0,
+  "scoring_notes": "Scores merge agent rubrics for emotional truth, shareability, visual clarity, specificity, brand fit, feasibility, and anti-generic risk.",
+  "scoreboard": [
+    {
+      "rank": 1,
+      "title": "The Chair Outside The Door",
+      "overall_score": 4.86,
+      "strengths": [
+        "Most behavior-led answer to the concept",
+        "Strongest no-forced-both visual logic",
+        "Clear prop continuity",
+        "Low identity-drift risk",
+        "Strong send trigger after hook repair"
+      ],
+      "risks": [
+        "Could become too solemn if props are not specific",
+        "Could make Zuv look saintly if chair-as-sacrifice is overplayed"
+      ],
+      "decision": "selected"
+    },
+    {
+      "rank": 2,
+      "title": "The Bag That Knew Already",
+      "overall_score": 4.54,
+      "strengths": [
+        "Highly taggable care-instructions hook",
+        "Strong prop engine",
+        "Good scene variety"
+      ],
+      "risks": [
+        "Can become Pinterest care-kit generic",
+        "Too many objects can clutter phone readability"
+      ],
+      "decision": "strong_alternative"
+    },
+    {
+      "rank": 3,
+      "title": "The Lamp Left Low",
+      "overall_score": 4.42,
+      "strengths": [
+        "Good emotional specificity",
+        "Reassurance as environment, not speech",
+        "Strong Aachu solo frame potential"
+      ],
+      "risks": [
+        "May drift into pure atmosphere",
+        "Lighting could import the darker concept style if mishandled"
+      ],
+      "decision": "alternative"
+    },
+    {
+      "rank": 4,
+      "title": "The Last Bite Still Waiting",
+      "overall_score": 4.30,
+      "strengths": [
+        "Strong everyday couple ritual",
+        "Very safe anatomy and composition",
+        "Good non-face prop storytelling"
+      ],
+      "risks": [
+        "Can imply Aachu must prove worth by giving",
+        "Less directly connected to hard-to-love/handle concept"
+      ],
+      "decision": "rejected_for_this_run"
+    },
+    {
+      "rank": 5,
+      "title": "The Exit Already Open",
+      "overall_score": 4.15,
+      "strengths": [
+        "Strong edge-of-room belonging metaphor",
+        "Good match for worth-the-risk text",
+        "Potentially cinematic"
+      ],
+      "risks": [
+        "Crowd and phone UI complexity",
+        "Savior staging risk",
+        "Higher scene logic fragility"
+      ],
+      "decision": "rejected_for_this_run"
+    }
+  ],
+  "selected_title": "The Chair Outside The Door",
+  "selection_status": "passes_threshold"
+}

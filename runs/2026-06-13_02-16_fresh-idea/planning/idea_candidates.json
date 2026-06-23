@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-06-13_02-16_fresh-idea",
+  "mode": "auto",
+  "candidates_source": [
+    "debates/idea_room/agent_01_candidates.json",
+    "debates/idea_room/agent_02_candidates.json",
+    "debates/idea_room/agent_03_candidates.json",
+    "debates/idea_room/repair_round.md"
+  ],
+  "candidate_clusters": [
+    {
+      "cluster": "private couple signals",
+      "ideas": [
+        "The Can We Leave Language",
+        "The Party Debrief"
+      ],
+      "room_take": "High shareability, but party/social settings risk generic staging unless the signal is highly specific."
+    },
+    {
+      "cluster": "logistical care before leaving",
+      "ideas": [
+        "The Helmet Strap Tax",
+        "The Collar Thread Delay",
+        "The Pocket Migration Before Leaving",
+        "The Shared Pocket System"
+      ],
+      "room_take": "Strongest A Story fit: care hidden inside ordinary leaving-the-house logistics."
+    },
+    {
+      "cluster": "domestic micro-conflict",
+      "ideas": [
+        "The Fan Regulator Witness",
+        "Still Mad, Still Careful",
+        "The Fridge Tetris Treaty"
+      ],
+      "room_take": "Relatable and warm, but either more common or more execution-risky than the selected candidate."
+    }
+  ],
+  "selected_candidate": "idea_03_shared_pocket_system"
+}

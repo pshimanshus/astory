@@ -1,0 +1,74 @@
+{
+  "agent_role": "Visual Story Director",
+  "persona_name": "Tara",
+  "source_agent_id": "019ec619-3a24-7e83-9da4-7ce8352d6c13",
+  "premise_lock": {
+    "must_preserve": [
+      "remembered detail as intimacy",
+      "surprise followed by quiet obviousness",
+      "object, placement, gesture, or setup as proof",
+      "ordinary Indian/domestic rhythm",
+      "send-to-partner/comment trigger"
+    ],
+    "must_not_change": [
+      "no quote card",
+      "no copied pink texture or typography",
+      "no moral about little things",
+      "no tiny unreadable microtext",
+      "no default close-angle sideways couple composition"
+    ],
+    "rejected_generic_version": "Aachu and Zuv sitting close with a soft line about love remembering small things."
+  },
+  "candidates": [
+    {
+      "title": "The Hair Clip He Started Carrying",
+      "one_line_concept": "Aachu is irritated by hair falling into her face; Zuv silently produces her exact black clip from his wallet or key loop.",
+      "suggested_slide_1_moment": "Aachu near a cafe door with hair stuck across her cheek; Zuv's hand enters low frame with a wallet opening.",
+      "suggested_payoff_moment": "The clip is in her hair; the open wallet/key loop remains in the lower corner as proof.",
+      "visual_potential": "Very strong. One small prop carries the whole intimacy.",
+      "execution_difficulty_score": 2,
+      "scores": {"visual_clarity": 5, "scene_variety": 4, "imagegen_feasibility": 5, "character_consistency_potential": 4, "text_integration_potential": 4, "prop_usefulness": 5, "anatomy_safety": 5, "slide_payoff": 5}
+    },
+    {
+      "title": "Her Side Was Already Plugged In",
+      "one_line_concept": "Before Aachu sits down, Zuv has dragged the charger to her exact sofa side with her bottle and remote where her hand reaches.",
+      "suggested_slide_1_moment": "Prepared sofa seat, cable end waiting, Aachu entering from frame edge.",
+      "suggested_payoff_moment": "Cable reaches her phone; Zuv's casual body language says he remembered without wanting applause.",
+      "visual_potential": "Clean, low-risk domestic staging with strong negative space.",
+      "execution_difficulty_score": 1,
+      "scores": {"visual_clarity": 5, "scene_variety": 3, "imagegen_feasibility": 5, "character_consistency_potential": 5, "text_integration_potential": 5, "prop_usefulness": 4, "anatomy_safety": 5, "slide_payoff": 4}
+    },
+    {
+      "title": "Window Seat Without The Negotiation",
+      "one_line_concept": "In a cab or bus, Zuv has already put Aachu's bag on the window side and kept the less comfortable seat for himself.",
+      "suggested_slide_1_moment": "Open vehicle door, window seat marked by Aachu's bag, Zuv holding the door from the aisle side.",
+      "suggested_payoff_moment": "Aachu by the window, Zuv in the other seat, bag and water still visible as proof.",
+      "visual_potential": "Strong travel composition, but vehicle interiors can get busy.",
+      "execution_difficulty_score": 3,
+      "scores": {"visual_clarity": 4, "scene_variety": 5, "imagegen_feasibility": 3, "character_consistency_potential": 4, "text_integration_potential": 4, "prop_usefulness": 4, "anatomy_safety": 4, "slide_payoff": 5}
+    },
+    {
+      "title": "No Chutney On Her Half",
+      "one_line_concept": "Takeout is opened and Zuv has already protected Aachu's half from the one topping she never wants.",
+      "suggested_slide_1_moment": "Takeout parcel opened; Zuv's fingers move the unwanted topping away from Aachu's side.",
+      "suggested_payoff_moment": "Her clean half and his messy fingers/plate remain visible together.",
+      "visual_potential": "Good prop-world and commentable food preference.",
+      "execution_difficulty_score": 3,
+      "scores": {"visual_clarity": 4, "scene_variety": 4, "imagegen_feasibility": 4, "character_consistency_potential": 4, "text_integration_potential": 4, "prop_usefulness": 5, "anatomy_safety": 4, "slide_payoff": 4}
+    }
+  ],
+  "top_pick": "The Hair Clip He Started Carrying",
+  "visual_risks": [
+    "Do not let any candidate become a centered quote-card translation.",
+    "Do not rely on phone screens, receipts, order notes, or tiny labels as the emotional proof.",
+    "Keep at least one slide action-led or object-led.",
+    "Final prompt/image phases still need visible identity/style references."
+  ],
+  "slide_count_hints": {
+    "The Hair Clip He Started Carrying": "4-5 slides",
+    "Her Side Was Already Plugged In": "3-4 slides",
+    "Window Seat Without The Negotiation": "4-5 slides",
+    "No Chutney On Her Half": "4 slides"
+  },
+  "failure_codes": []
+}

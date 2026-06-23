@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "title": "Full Place, Missing Home",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "status": "approved_for_prompt_pack",
+  "one_line_summary": "Aachu is surrounded by people in a lively cafe, but the place still feels hollow because the person who makes it home is absent.",
+  "emotional_hook": "The ache is not being alone. It is being with everyone and still feeling that home is one person who is not there.",
+  "setup": "Aachu sits at a full cafe/friends table, present in the group but slightly late to every laugh, with an unclaimed space beside her.",
+  "escalation": "Her attention keeps returning to the entrance or the empty beside-space, then the same familiar cafe corner starts feeling empty even while people remain around her.",
+  "payoff": "Zuv does not come back. The final slide stays on Aachu in the full cafe, realizing that the noise still cannot become safe silence without him.",
+  "relationship_truth": "Ghar was never the room, cafe, party, or crowd. It was always the person whose absence changes every place.",
+  "why_people_will_share": "It gives someone a quiet way to say: I can be surrounded by people and still not feel home without you.",
+  "rejected_generic_version": "A sad girl alone in a cafe with a polished quote about home not being a place.",
+  "active_constraints": [
+    "Girl's POV across all slides.",
+    "Zuv must not physically appear in any slide.",
+    "No comeback, reunion, silhouette, ghost, memory figure, phone wallpaper, reflection, or photo of Zuv.",
+    "The full public setting must remain visible enough to prove Aachu is not physically alone.",
+    "Aachu's readable face and specific body behavior must carry the ache."
+  ],
+  "evidence_basis": [
+    "runs/2026-06-19_21-09_ghar-line/input/creative_brief.json",
+    "runs/2026-06-19_21-09_ghar-line/planning/creator_direction_notes.md",
+    "runs/2026-06-19_21-09_ghar-line/planning/memory_recall.md",
+    "references/brain/pages/run-lessons.md"
+  ],
+  "agent_assignment_status": "fallback_local_passes_with_limitation_recorded",
+  "failure_codes": []
+}

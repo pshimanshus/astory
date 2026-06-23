@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-06-19_23-10_next-carousel-recommendation",
+  "status": "draft",
+  "framework_reference": "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md",
+  "selected_candidate_id": "please_vent_more_long_version",
+  "source_winner": {
+    "source_url": "https://www.instagram.com/p/DZS2GuipLku/",
+    "source_account": "hereverydaymotherhood",
+    "source_shortcode": "DZS2GuipLku",
+    "old_familiar_topic": "A partner listening while the other person vents."
+  },
+  "illusion_of_novelty_model": {
+    "new_reveal": "Instead of merely allowing a vent, the line asks for more of it.",
+    "viewer_outcome": "The viewer feels less annoying and can send the post to the person they want permission from.",
+    "contrast_frame": "People usually shorten themselves because they feel like a burden; this line asks for the part they were about to cut.",
+    "urgency": {
+      "used": true,
+      "reason": "The vulnerable moment happens when someone is about to stop talking and apologize for being too much."
+    },
+    "bullseye_proof": "Comments and source framing show the burden/annoying feeling; owned A Story winners prove not-too-much and listening lanes drive shares.",
+    "protect_the_illusion": "Do not explain active listening, holding space, emotional safety, or communication. Let the permission feel like something a partner actually says."
+  },
+  "a_story_translation": {
+    "what_stays_from_source": "The source's permission engine stays visible: `please vent more`.",
+    "what_changes_for_aachu_zuv": "The source line becomes an Aachu/Zuv scene where Aachu offers the short version and Zuv asks for the full one.",
+    "lived_scene_wrapper": "Aachu talks too much after something hurt her; Zuv keeps his phone face-down and asks for the part she was about to edit out.",
+    "lines_to_remove_because_they_explain_the_lesson": [
+      "be with someone who makes you feel heard",
+      "healthy partners hold space",
+      "communication is the key",
+      "love means emotional safety"
+    ]
+  }
+}

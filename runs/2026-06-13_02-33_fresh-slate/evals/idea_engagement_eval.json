@@ -1,0 +1,22 @@
+{
+  "run_id": "2026-06-13_02-33_fresh-slate",
+  "recommended_idea_id": "idea_01_corner_watch",
+  "score_threshold": 4.0,
+  "scores": {
+    "relatability": 5.0,
+    "shareability": 4.6,
+    "comment_potential": 4.5,
+    "visual_clarity": 4.8,
+    "emotional_truth": 5.0,
+    "humor_warmth_balance": 4.9,
+    "freshness": 5.0,
+    "brand_fit": 5.0,
+    "simplicity": 4.7,
+    "carousel_payoff": 4.7,
+    "overall": 4.82
+  },
+  "selection_allowed": true,
+  "second_round_required": false,
+  "agent_assignment_status": "actual_multi_agent",
+  "notes": "Fresh shortlist generated through actual multi-agent idea room. Creator choice is pending; recommended option is The Corner Watch."
+}

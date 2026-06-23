@@ -1,0 +1,41 @@
+{
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "slides": [
+    {
+      "slide": 1,
+      "on_image_text": "POV: I sent you a reel 0.2 seconds ago",
+      "beat": "The send. Hope is still alive.",
+      "shot": "wide",
+      "emotion_aachu": "bright, expectant, thumb just lifted off send",
+      "emotion_zuv": "relaxed, already absorbed in his own phone",
+      "crime": "none yet — anticipation"
+    },
+    {
+      "slide": 2,
+      "on_image_text": "and you're laughing at YOUR phone",
+      "beat": "He is visibly delighted — at the wrong content.",
+      "shot": "mid",
+      "emotion_aachu": "first side-eye, head turned, smile gone flat",
+      "emotion_zuv": "laughing warmly at his own screen, utterly oblivious",
+      "crime": "wrong-phone joy"
+    },
+    {
+      "slide": 3,
+      "on_image_text": "you watched it. and said NOTHING.",
+      "beat": "Peak. The receipt exists; the reaction does not.",
+      "shot": "extreme close on Aachu",
+      "emotion_aachu": "full unblinking playful side-eye filling the frame; one eyebrow up; betrayal as comedy",
+      "emotion_zuv": "soft-focus oblivious profile at frame edge",
+      "crime": "seen, no reaction"
+    },
+    {
+      "slide": 4,
+      "on_image_text": "...you were sending me the SAME reel.",
+      "beat": "Pivot punchline. His reaction finally arrives — he was sending her the exact same reel. Parallel discovery, not neglect.",
+      "shot": "wide, two-shot",
+      "emotion_aachu": "glare collapsing into incredulous laughter, phone still raised toward him",
+      "emotion_zuv": "turned fully to her, holding his phone out toward her face-to-face with hers, delighted, mid-laugh",
+      "crime": "symmetric — the whole fight was mutual"
+    }
+  ]
+}

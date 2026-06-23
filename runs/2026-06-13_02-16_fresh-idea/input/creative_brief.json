@@ -1,0 +1,30 @@
+{
+  "run_id": "2026-06-13_02-16_fresh-idea",
+  "raw_input": "share a fresh idea [$astory](/Users/himanshusharma/A Story of Two V2/.agents/skills/astory/SKILL.md)",
+  "idea_mode": "auto",
+  "core_idea": "Generate one fresh, high-engagement A Story of Two idea from brand rules and memory context.",
+  "tone": "intimate, funny, soft, emotionally warm, premium, observational",
+  "relationship_dynamic": "specific everyday couple behavior between Aachu and Zuv",
+  "target_audience": "people who send relationship posts to their partner with 'this is us'",
+  "desired_feeling": "gentle recognition, warm teasing, and a tiny domestic truth",
+  "must_include": [
+    "a behavior, not an abstract sentiment",
+    "stageable visual evidence",
+    "share/send trigger",
+    "phone-readable baked-in handwritten text if developed into prompts"
+  ],
+  "must_avoid": [
+    "generic quote-card romance",
+    "sunset silhouettes",
+    "coffee theft",
+    "hoodie theft",
+    "missed texts or reels",
+    "men cannot find things",
+    "love-language lists",
+    "one partner as fool and the other as saint"
+  ],
+  "platform": "instagram",
+  "requested_surface": "both",
+  "initial_slide_count_preference": "story_led",
+  "output_format": "idea_lock_with_run_artifacts"
+}

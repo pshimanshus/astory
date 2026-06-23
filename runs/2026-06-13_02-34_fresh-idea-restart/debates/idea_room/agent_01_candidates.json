@@ -1,0 +1,75 @@
+{
+  "agent_role": "Relatability Ethnographer / Meera",
+  "mode": "local_pass",
+  "method_note": "Generated raw situations first and rejected care/logistics/usefulness as the central engine.",
+  "candidates": [
+    {
+      "id": "meera_01_chairs_disagreed",
+      "title": "The Chairs Disagreed",
+      "emotional_engine": "new-love denial",
+      "raw_situation": "They keep saying they are just talking, just friends, just meeting casually, but every time they sit somewhere, the chairs end up closer than the story they are telling themselves.",
+      "possible_hook": "we were just friends. the chairs disagreed.",
+      "relatable_trigger": "People who pretended a connection was casual while their body language quietly confessed first.",
+      "visual_evidence": "Cafe or home-table sequence: two chairs start politely apart, then angle inward, then one bag/dupatta/foot crosses the invisible border, while both faces pretend nothing happened.",
+      "why_not_generic": "The confession lives in furniture movement, not in a love quote.",
+      "risk_notes": "Must avoid generic cafe-date prettiness; the chair positions must do the storytelling.",
+      "scores": {
+        "relatability": 4.6,
+        "emotional_truth": 4.7,
+        "specificity": 4.6,
+        "warmth": 4.5,
+        "everyday_visual_evidence": 4.8,
+        "brand_fit": 4.7,
+        "risk_of_stereotype_reversal": 5.0
+      }
+    },
+    {
+      "id": "meera_02_sock_fight",
+      "title": "The Sock Fight Was Not About The Sock",
+      "emotional_engine": "attention drama",
+      "raw_situation": "Aachu starts a tiny dramatic fight about a sock on the floor, but the real point is that she wants Zuv to follow her into the room and make the mood unserious again.",
+      "possible_hook": "some fights are just 'come here' written badly.",
+      "relatable_trigger": "Couples who know the fight is not the real subject, but still have to perform it properly.",
+      "visual_evidence": "Bedroom doorway, one abandoned sock, Aachu pointing at it like evidence, Zuv half-guilty half-amused, final beat where she is still scolding but leaning toward him.",
+      "why_not_generic": "It turns a fake domestic prosecution into affection without making one partner a fool.",
+      "risk_notes": "Can become too quote-like if the sock is not treated as absurdly serious evidence.",
+      "scores": {
+        "relatability": 4.4,
+        "emotional_truth": 4.8,
+        "specificity": 4.3,
+        "warmth": 4.6,
+        "everyday_visual_evidence": 4.4,
+        "brand_fit": 4.6,
+        "risk_of_stereotype_reversal": 4.2
+      }
+    },
+    {
+      "id": "meera_03_full_name_weather",
+      "title": "The Full Name Weather Warning",
+      "emotional_engine": "private couple code",
+      "raw_situation": "In public, nothing looks wrong. But the second Aachu calls him 'Zuv' instead of whatever soft name she normally uses, he knows there is a whole post-event debrief waiting.",
+      "possible_hook": "when she uses your full name, check the weather inside the car.",
+      "relatable_trigger": "Couples with private danger-signals: full names, one-word replies, a specific smile that means the real conversation is later.",
+      "visual_evidence": "Restaurant or car-ride after: public smile in the background, then inside the car she looks out the window while he realizes the full-name alarm has gone off.",
+      "why_not_generic": "It is about one private signal, not a generic 'women are angry' joke.",
+      "risk_notes": "Needs tenderness and specificity or it becomes old husband-wife danger humor.",
+      "scores": {
+        "relatability": 4.7,
+        "emotional_truth": 4.2,
+        "specificity": 4.1,
+        "warmth": 4.0,
+        "everyday_visual_evidence": 4.2,
+        "brand_fit": 4.2,
+        "risk_of_stereotype_reversal": 3.6
+      }
+    }
+  ],
+  "top_pick": "meera_01_chairs_disagreed",
+  "rejected_patterns": [
+    "usefulness as love",
+    "care through packing or carrying",
+    "winner hook imitation",
+    "generic married-life danger jokes"
+  ],
+  "risk_notes": "The freshest path is new-love denial or affection disguised as petty performance, not another proof-of-care idea."
+}

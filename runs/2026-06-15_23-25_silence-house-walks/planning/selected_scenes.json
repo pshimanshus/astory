@@ -1,0 +1,14 @@
+{
+  "run_id": "2026-06-15_23-25_silence-house-walks",
+  "selected_scenes": [
+    {
+      "slide_number": 1,
+      "scene_option_id": "1B",
+      "scene": "Quiet home hallway opening into a bedroom/living-room corner. Aachu sits in the lower right in soft three-quarter profile, withdrawn but not theatrically sad, with her face unobscured. Zuv is close enough for a readable medium shot in the lower left/mid doorway, upright on socks with one foot only slightly lifted. One hand lightly holds the half-open door edge/handle so it will not swing or creak; the other carries a cup with the teaspoon pinned still against the rim so it will not clink. The curtain and angled chair stay secondary.",
+      "text_placement": "Upper-middle negative space, warm charcoal handwritten text baked into the paper.",
+      "identity_plan": "Use loaded raw Aachu and Zuv face anchors; Aachu face slightly larger and clear, Zuv no farther than readable medium shot, no hidden profile, no tiny doorway face.",
+      "style_plan": "Premium A Story watercolor-and-ink, neutral off-white paper, no yellow/parchment, tiny top-right brandmark.",
+      "status": "ready_for_prompt"
+    }
+  ]
+}

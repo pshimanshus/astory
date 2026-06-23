@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "slides": [
+    {
+      "slide_number": 1,
+      "keep_or_cut": "keep",
+      "story_role": "setup",
+      "exact_on_image_text": "he said \"i'm not hungry\"\nso why is my plate nervous?",
+      "micro_action": "Aachu holds the plate close; Zuv pretends to look at his phone while looking at the food.",
+      "swipe_reason": "The frame promises the theft before it happens.",
+      "face_visibility_requirement": "Both faces readable in a medium-wide domestic frame; Aachu front/three-quarter, Zuv three-quarter side.",
+      "visual_risk": "If the plate is not visibly protected or Zuv's eyeline is not clear, it becomes generic eating-together romance."
+    }
+  ]
+}

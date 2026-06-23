@@ -1,0 +1,185 @@
+{
+  "agent_role": "Visual Story Director - Tara",
+  "candidates": [
+    {
+      "title": "The Chair Outside The Door",
+      "one_line_concept": "Aachu is not made visually 'hard to understand'; the frame shows the exact care required when she cannot explain herself yet.",
+      "suggested_slide_arc": [
+        "Slide 1: Aachu on one side of a closed door, mostly implied by light under the door and a small shadow; the question sits in the quiet hallway space.",
+        "Slide 2: Zuv does not knock or crowd the frame; a chair appears outside the door with water, charger, and one folded cloth.",
+        "Slide 3: The chair shifts closer over time, then farther back, proving patience without a speech.",
+        "Slide 4: The door is cracked open; the glass is half empty and the charger is in use.",
+        "Slide 5: Payoff is not a hug; it is Zuv asleep sideways in the chair, still there, with the door open enough for morning light."
+      ],
+      "suggested_slide_1_moment": "A quiet hallway composition, closed door on one side, empty chair shadow on the other, large breathable negative space for the opening question.",
+      "suggested_payoff_moment": "Aachu's hand reaches through the opened door to pull the chair blanket toward herself while Zuv is asleep in the chair, visible but not hero-framed.",
+      "visual_potential": "Excellent. It gives the premise a physically legible action: love as restraint, placement, and staying nearby. It avoids the stale two-face confrontation and lets absence carry tenderness.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Can become too somber if the hallway is empty without prop evidence.",
+        "Door crack and hand placement must stay simple to avoid anatomy weirdness.",
+        "Zuv should not be staged as a martyr; he is present, not saintly.",
+        "The final frame must not turn into a dramatic embrace, which would flatten the restraint."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 5
+      }
+    },
+    {
+      "title": "The Bag That Knew Already",
+      "one_line_concept": "Aachu wonders if she is hard to handle, while Zuv's bag quietly reveals he has learned her real care instructions.",
+      "suggested_slide_arc": [
+        "Slide 1: Flat lay on off-white paper texture: an open sling bag, water bottle, hair tie, small snack, pain balm, charger, and a folded scarf arranged like evidence.",
+        "Slide 2: Aachu in a noisy public place, framed alone at the edge of a table, hand near her bag strap, not performatively distressed.",
+        "Slide 3: One item from the bag appears without ceremony: the scarf over her shoulders, the snack in her hand, the charger plugged in.",
+        "Slide 4: Zuv is only partly shown, hand opening the bag again or standing between her and the crowd.",
+        "Slide 5: Payoff in a quiet corner: the bag sits between them like a third character, open, used, ordinary."
+      ],
+      "suggested_slide_1_moment": "The opening frame is not a face; it is the care kit laid out with one big question in the empty center, readable and clean.",
+      "suggested_payoff_moment": "Aachu sits calmer in a quieter corner with the scarf and snack, while Zuv's bag remains open beside her, proving he planned for her without making her ask.",
+      "visual_potential": "Very strong for this brand because props can carry intimacy without crowding faces. The flat-lay opener is fresh against the concept references and gives text a natural home.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Too many bag items can become clutter; cap at four to six large readable objects.",
+        "Avoid tiny labels on objects; the story should read from shape and placement, not microtext.",
+        "Public place must be suggested with silhouettes and chairs, not a full crowd.",
+        "Can become Pinterest-care-kit generic unless the objects feel slightly specific and lived-in."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 5,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 4
+      }
+    },
+    {
+      "title": "The Lamp Left Low",
+      "one_line_concept": "The fear is not 'am I too much?' but 'will you still make the room gentle when I cannot be gentle yet?'",
+      "suggested_slide_arc": [
+        "Slide 1: Aachu alone on the bed or floor beside the bed, phone face-down, harsh light making too much empty space around her.",
+        "Slide 2: Zuv's hand enters only as an action: switching off the overhead light or lowering a lamp shade.",
+        "Slide 3: The room changes in small ways: curtain pulled, tea placed, fan slowed, extra pillow set down.",
+        "Slide 4: Aachu does not instantly smile; she shifts from defensive posture to one open hand near the cup.",
+        "Slide 5: Payoff is two cups on the floor and the low lamp making a warm pool, with one figure partially cropped or absent."
+      ],
+      "suggested_slide_1_moment": "Aachu framed with the phone face-down and too-bright light, leaving a clear upper-third space for the question.",
+      "suggested_payoff_moment": "The same room after the light is softened: two cups on the floor, Aachu's hand near one cup, Zuv only implied by a knee or hand, no forced full couple pose.",
+      "visual_potential": "High. The carousel can show reassurance as environmental change, which is visually readable and less generic than a direct answer. Strong use of light, cups, curtains, and body distance.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Lighting change must stay subtle in the approved watercolor style, not dark dramatic concept-style mood.",
+        "Aachu cannot be drawn as a collapsed sad figure; posture should be guarded but natural.",
+        "Hands near lamp, cup, and phone must be simple and uncrowded.",
+        "The payoff needs one concrete object repeated from slide 1 or it risks becoming pure atmosphere."
+      ],
+      "scores": {
+        "visual_clarity": 4,
+        "scene_variety": 4,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 4,
+        "anatomy_safety": 4,
+        "slide_payoff": 4
+      }
+    },
+    {
+      "title": "The Last Bite Still Waiting",
+      "one_line_concept": "Aachu asks if she is not enough while the frame quietly shows her love has already been sitting on the plate.",
+      "suggested_slide_arc": [
+        "Slide 1: A plate at a table with the best bite saved to one side; Aachu's tired hand rests nearby, face optional.",
+        "Slide 2: She covers the bite with a small bowl or napkin before leaving the table.",
+        "Slide 3: Zuv returns later to the table, not a big reaction, just his hand lifting the bowl.",
+        "Slide 4: The saved bite is now on a small saucer beside his tea or coffee.",
+        "Slide 5: Payoff returns to Aachu, who is not performing love; she is simply asleep or reading, and the empty saucer sits near Zuv."
+      ],
+      "suggested_slide_1_moment": "A quiet tabletop frame: one plate, one saved bite, Aachu's hand, large clean space for 'am I not enough?'",
+      "suggested_payoff_moment": "Zuv notices the saved bite under the bowl and leaves the empty saucer beside Aachu's cup later, a tiny receipt that he saw her.",
+      "visual_potential": "Strong and safe. It is intimate without needing two faces, easy for phone readability, and the prop logic is simple enough to survive imagegen.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Can slip into self-sacrifice if the story implies Aachu proves worth by giving everything away.",
+        "Food and table details must be simple; no ornate dining setup.",
+        "Needs one human gesture per slide or it becomes a still-life quote card.",
+        "The payoff must be recognition, not repayment."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 3,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 4
+      }
+    },
+    {
+      "title": "The Exit Already Open",
+      "one_line_concept": "Aachu fears she is not worth the risk, and the story shows Zuv making an exit part of the plan instead of treating it like failure.",
+      "suggested_slide_arc": [
+        "Slide 1: A crowded cafe, family function, or street corner suggested by soft silhouettes; Aachu stands near the edge of the frame with the exit door visible.",
+        "Slide 2: A phone in Zuv's hand shows a simple ride screen shape or route line, not readable microtext.",
+        "Slide 3: He does not pull her out dramatically; he angles his body to make space and points gently toward the quieter stairs or doorway.",
+        "Slide 4: A staircase landing or outdoor bench, two cups, less noise, her shoulders lower.",
+        "Slide 5: Payoff is the open door behind them, not a rescue pose: they are still part of the day, just from the edge."
+      ],
+      "suggested_slide_1_moment": "Aachu alone near a visible exit, with the question placed in the open wall/sky space, crowd reduced to soft background shapes.",
+      "suggested_payoff_moment": "Two cups on a quiet landing beside an open door, Aachu and Zuv shown at comfortable distance, proving leaving the room did not end belonging.",
+      "visual_potential": "Good but more fragile. The visual metaphor is strong for 'worth the risk,' and the door/stairs/cups give concrete proof, but crowd and phone UI need discipline.",
+      "execution_difficulty_score": 4,
+      "failure_risks": [
+        "Crowd complexity can break the airy house style; use silhouettes only.",
+        "Phone route details must not depend on tiny text.",
+        "Avoid savior staging where Zuv drags or shields Aachu theatrically.",
+        "Door, stairs, body angle, and eyeline must make physical sense or the scene collapses."
+      ],
+      "scores": {
+        "visual_clarity": 4,
+        "scene_variety": 5,
+        "imagegen_feasibility": 3,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 4,
+        "prop_usefulness": 4,
+        "anatomy_safety": 3,
+        "slide_payoff": 5
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "The Chair Outside The Door",
+    "reason": "It is the cleanest visual answer to the whole question family. 'Hard to love / understand / handle' becomes one stageable behavior: staying close without forcing access. It can carry a five-slide carousel with no crowded faces, no microtext, no generic sad portrait, and no copycat concept styling.",
+    "production_reason": "Lowest identity-drift risk with the strongest object continuity: door, chair, water, charger, blanket, morning light. The frame can stay airy, warm, and off-white, with handwritten text placed in real negative space."
+  },
+  "visual_risks": [
+    "Do not let the opening slide become a centered sad Aachu portrait with a question pasted over it; that is the concept screenshot trap.",
+    "Do not copy the foreign dark magenta/orange painterly style; use the approved warm off-white watercolor-and-ink finish later.",
+    "Do not force Aachu and Zuv into every frame. The best visual proof here may be a chair, a cup, a bag, a lamp, a door, or a hand.",
+    "No microtext on phones, labels, notes, maps, or care instructions. If a prop cannot be understood by shape and placement, it is not carrying the scene.",
+    "Avoid cramped bed/floor poses and profile-close two-face compositions. Keep bodies natural, readable, and separated enough for identity anchors.",
+    "Do not make Zuv a saintly rescuer or Aachu a problem to be solved. The staging should show shared care, not emotional repair work as heroism."
+  ],
+  "slide_count_hints": {
+    "recommended_range": "4-5 slides",
+    "why_not_fewer": "Three slides would make the visual proof feel like setup, action, answer; too neat, too quote-card.",
+    "why_not_more": "Six or more risks repeating quiet-care beats and diluting the prop payoff.",
+    "best_fit_by_candidate": {
+      "The Chair Outside The Door": 5,
+      "The Bag That Knew Already": 5,
+      "The Lamp Left Low": 4,
+      "The Last Bite Still Waiting": 4,
+      "The Exit Already Open": 5
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "selected_scenes": [
+    {
+      "slide_number": 1,
+      "scene_option_id": "1B",
+      "environment": "low living-room floor/rug, small side table, one plate of fries/snacks",
+      "camera_distance": "medium-wide two-shot",
+      "camera_angle": "slightly high front three-quarter",
+      "body_language": "Aachu sits cross-legged or low on the rug, holding the plate close; Zuv sits behind/side with phone loose in one hand, pretending casual.",
+      "eyeline": "Aachu glances toward Zuv with suspicious amusement; Zuv's eyes drift toward the plate, not toward his phone.",
+      "text_placement_plan": "upper-middle negative space, integrated hand-drawn charcoal text",
+      "style_translation": "premium watercolor-and-ink on neutral off-white paper; restrained domestic background"
+    }
+  ]
+}

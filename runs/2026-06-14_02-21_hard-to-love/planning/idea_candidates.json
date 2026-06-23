@@ -1,0 +1,219 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "idea_mode": "specific",
+  "source_agent_outputs": [
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_01_candidates.json",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_02_candidates.json",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_03_candidates.json",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/cross_critique.md",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/repair_round.md"
+  ],
+  "prompt_packet": ".agents/skills/astory/templates/agents/idea_room_agent_prompt.md",
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "idea_id": "idea_001",
+      "source_agent": "room_consensus",
+      "title": "The Chair Outside The Door",
+      "one_line_concept": "Aachu worries that going quiet makes her hard to love; Zuv answers by staying nearby without forcing the door open.",
+      "emotional_truth": "Some people are not asking to be decoded immediately. They are asking not to be abandoned while they become speakable again.",
+      "relatable_trigger": "The partner who shuts down but still wants to be found gently.",
+      "visual_potential": "Closed door, practical chair, water, charger, folded cloth, light under the door, and a door crack can carry the whole story without forcing both faces.",
+      "why_people_may_share": "A partner can send this as a soft thank-you or request: thank you for not making me explain before I can.",
+      "why_people_may_comment": "People can name the private care rule their partner learned after shutdown or overwhelm.",
+      "risk_of_being_generic": "Can become sad hallway wallpaper or saintly waiting unless the objects visibly change and the payoff stays ordinary.",
+      "suggested_text_hook": "am i hard to love when i go quiet?",
+      "suggested_slide_arc": [
+        "Closed door and chair ask the question.",
+        "Water, charger, and cloth appear without a second knock.",
+        "Chair distance, light, and object placement show learned restraint.",
+        "Door cracks open; Aachu uses what he left.",
+        "The changed hallway proves she was not abandoned while quiet."
+      ],
+      "scores": {
+        "relatability": 5.0,
+        "shareability": 4.6,
+        "comment_potential": 4.4,
+        "visual_clarity": 5.0,
+        "emotional_truth": 5.0,
+        "humor_warmth_balance": 4.6,
+        "freshness": 4.8,
+        "brand_fit": 5.0,
+        "simplicity": 4.8,
+        "carousel_payoff": 4.9,
+        "overall": 4.86
+      },
+      "execution_difficulty_score": 2
+    },
+    {
+      "idea_id": "idea_002",
+      "source_agent": "Shareability Strategist - Kabir",
+      "title": "The Little Instructions He Learned",
+      "one_line_concept": "Aachu worries she is hard to handle, but Zuv has quietly learned the exact care rules that help her feel safe.",
+      "emotional_truth": "Being known can look like boring logistics.",
+      "relatable_trigger": "Couples with private care rules: snacks first, silence first, hold my hand but do not ask yet.",
+      "visual_potential": "Water, charger, blanket, open doorway, and low light can show learned care without a speech.",
+      "why_people_may_share": "It is the most taggable option because people can send it as 'you know my little instructions.'",
+      "why_people_may_comment": "Comment bait is built in: what is your care instruction?",
+      "risk_of_being_generic": "Can become care-label meme language or make Aachu look like a difficult object with settings.",
+      "suggested_text_hook": "am i hard to handle, or did you learn me gently?",
+      "suggested_slide_arc": [
+        "Aachu fears she is too much.",
+        "The room reveals tiny care rules he remembers.",
+        "He gives space without disappearing.",
+        "She realizes the care was learned, not improvised.",
+        "The object proof carries the answer."
+      ],
+      "scores": {
+        "relatability": 4.7,
+        "shareability": 5.0,
+        "comment_potential": 5.0,
+        "visual_clarity": 4.2,
+        "emotional_truth": 4.5,
+        "humor_warmth_balance": 4.8,
+        "freshness": 4.5,
+        "brand_fit": 4.8,
+        "simplicity": 4.8,
+        "carousel_payoff": 4.4,
+        "overall": 4.72
+      },
+      "execution_difficulty_score": 3
+    },
+    {
+      "idea_id": "idea_003",
+      "source_agent": "Visual Story Director - Tara",
+      "title": "The Bag That Knew Already",
+      "one_line_concept": "Aachu worries she is hard to handle, while Zuv's ordinary bag reveals he already planned for her pressure points.",
+      "emotional_truth": "Being loved by someone observant makes needs feel less like a performance and more like part of the route.",
+      "relatable_trigger": "The partner who always packs the snack, charger, scarf, water, or exit plan.",
+      "visual_potential": "Open bag, readable care objects, public place reduced to soft silhouettes, quiet corner payoff.",
+      "why_people_may_share": "A lighter send to the partner whose bag is basically a love language.",
+      "why_people_may_comment": "People can comment with the item their partner always remembers.",
+      "risk_of_being_generic": "Can become Pinterest care-kit romance if the objects are too aesthetic or too many.",
+      "suggested_text_hook": "am i hard to handle, or do i come with instructions?",
+      "suggested_slide_arc": [
+        "Open bag introduces care objects.",
+        "Aachu is at the edge of a noisy place.",
+        "One object appears in use.",
+        "Zuv makes quiet space without performing rescue.",
+        "The used bag is the proof."
+      ],
+      "scores": {
+        "relatability": 4.7,
+        "shareability": 4.7,
+        "comment_potential": 4.6,
+        "visual_clarity": 5.0,
+        "emotional_truth": 4.4,
+        "humor_warmth_balance": 4.7,
+        "freshness": 4.3,
+        "brand_fit": 4.5,
+        "simplicity": 4.6,
+        "carousel_payoff": 4.5,
+        "overall": 4.5
+      },
+      "execution_difficulty_score": 3
+    },
+    {
+      "idea_id": "idea_004",
+      "source_agent": "Visual Story Director - Tara",
+      "title": "The Lamp Left Low",
+      "one_line_concept": "Aachu asks whether she is hard to love, and the answer is the room becoming gentler before she has to.",
+      "emotional_truth": "Reassurance can be environmental before it becomes verbal.",
+      "relatable_trigger": "The partner who lowers the light, brings tea, and waits before asking what happened.",
+      "visual_potential": "Light switch, lamp, phone face-down, cup, blanket, and guarded-to-open body language.",
+      "why_people_may_share": "A quieter save-forward idea for people whose partner can read the room.",
+      "why_people_may_comment": "People may comment with what their partner does before talking.",
+      "risk_of_being_generic": "Can drift into pure bedroom atmosphere if object continuity is weak.",
+      "suggested_text_hook": "am i hard to understand, or just hard to translate?",
+      "suggested_slide_arc": [
+        "A too-bright room asks the question.",
+        "A hand lowers the lamp.",
+        "Tea, curtain, fan, and blanket change the room.",
+        "Aachu's hand accepts one care object.",
+        "Two cups sit in the softened light."
+      ],
+      "scores": {
+        "relatability": 4.5,
+        "shareability": 4.3,
+        "comment_potential": 4.1,
+        "visual_clarity": 4.4,
+        "emotional_truth": 4.8,
+        "humor_warmth_balance": 4.4,
+        "freshness": 4.4,
+        "brand_fit": 4.8,
+        "simplicity": 4.5,
+        "carousel_payoff": 4.4,
+        "overall": 4.42
+      },
+      "execution_difficulty_score": 3
+    },
+    {
+      "idea_id": "idea_005",
+      "source_agent": "room_alternative",
+      "title": "The Best Bite Under The Bowl",
+      "one_line_concept": "Aachu asks if she is not enough while one saved bite shows her love has already been on the plate.",
+      "emotional_truth": "Tiny offerings can contradict the fear of not being enough.",
+      "relatable_trigger": "The couple ritual where the best bite silently belongs to the other person.",
+      "visual_potential": "Plate, saved bite, small bowl, saucer, cup, and hands can tell a safe, quiet story.",
+      "why_people_may_share": "People may send or comment with their best-bite rituals.",
+      "why_people_may_comment": "Strong ritual comments, but less tied to the main hard-to-love concept.",
+      "risk_of_being_generic": "Can imply Aachu proves worth by giving or self-erasing.",
+      "suggested_text_hook": "am i not enough?",
+      "suggested_slide_arc": [
+        "A saved bite asks the question.",
+        "Aachu covers the care before anyone thanks her.",
+        "Zuv notices.",
+        "The saucer proves recognition.",
+        "The returned object says the love was received."
+      ],
+      "scores": {
+        "relatability": 4.3,
+        "shareability": 4.0,
+        "comment_potential": 4.4,
+        "visual_clarity": 5.0,
+        "emotional_truth": 4.5,
+        "humor_warmth_balance": 4.3,
+        "freshness": 4.0,
+        "brand_fit": 4.4,
+        "simplicity": 4.8,
+        "carousel_payoff": 4.3,
+        "overall": 4.25
+      },
+      "execution_difficulty_score": 2
+    },
+    {
+      "idea_id": "idea_006",
+      "source_agent": "room_alternative",
+      "title": "The Exit Already Open",
+      "one_line_concept": "Aachu fears she is not worth the risk, and Zuv makes an exit part of the plan so leaving the noise does not mean leaving the love.",
+      "emotional_truth": "Real safety includes a way out without punishment.",
+      "relatable_trigger": "The partner who knows the exit route, water bottle, and look that means now.",
+      "visual_potential": "Exit door, soft silhouettes, route shape or keys, quiet landing, two cups.",
+      "why_people_may_share": "A more intimate send to the person who plans exits without embarrassment.",
+      "why_people_may_comment": "People can comment about space without punishment.",
+      "risk_of_being_generic": "Can become rescue fantasy or break on crowd/phone/door logic.",
+      "suggested_text_hook": "am i worth the risk?",
+      "suggested_slide_arc": [
+        "A visible exit asks the question.",
+        "The plan exists before she asks.",
+        "Zuv creates space, not drama.",
+        "They step to a quiet edge.",
+        "The open door says leaving the room did not end belonging."
+      ],
+      "scores": {
+        "relatability": 4.4,
+        "shareability": 4.0,
+        "comment_potential": 3.9,
+        "visual_clarity": 4.0,
+        "emotional_truth": 4.6,
+        "humor_warmth_balance": 4.0,
+        "freshness": 4.4,
+        "brand_fit": 4.3,
+        "simplicity": 3.8,
+        "carousel_payoff": 4.6,
+        "overall": 4.15
+      },
+      "execution_difficulty_score": 4
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "created_at": "2026-06-19T23:14:12+05:30",
+  "status": "loaded",
+  "loaded_in_current_conversation": true,
+  "loading_method": "functions.view_image",
+  "load_plan_sha256": "dfe060191d9d85ecee06d5a81e018d26559d1f9327d5c9b8b9e4691a37f5a03d",
+  "expected_count": 15,
+  "loaded_count": 15,
+  "active_generation_path_can_use_loaded_image_context": true,
+  "prompt_files_covered": [
+    "runs/2026-06-19_21-09_ghar-line/prompts/slide_01_prompt.txt",
+    "runs/2026-06-19_21-09_ghar-line/prompts/slide_02_prompt.txt",
+    "runs/2026-06-19_21-09_ghar-line/prompts/slide_03_prompt.txt",
+    "runs/2026-06-19_21-09_ghar-line/prompts/slide_04_prompt.txt"
+  ],
+  "reference_roles_confirmed": [
+    "aachu_face_identity",
+    "zuv_face_identity",
+    "style_reference"
+  ],
+  "loaded_paths": [
+    "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+    "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+    "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+    "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+    "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+    "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+    "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "notes": [
+    "All active view_image_queue paths from selected_references.json were viewed again in this Codex conversation before iteration 2 imagegen.",
+    "Raw Aachu and Zuv face anchors are identity inputs; style references are linework, paper, watercolor, composition, and typography inputs only."
+  ]
+}

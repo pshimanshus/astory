@@ -1,0 +1,33 @@
+{
+  "claims": [
+    {
+      "applies_to": [
+        "imagegen",
+        "reference_visibility"
+      ],
+      "claim_id": "claim:4512e434ad6dc475",
+      "claim_type": "production_constraint",
+      "confidence": 0.96,
+      "evidence_paths": [
+        "runs/2026-06-11_23-45_reel-side-eye/references-used/selected_references.json"
+      ],
+      "promotion_policy": "auto_apply",
+      "rationale": "Selected reference manifest explicitly forbids prompt-only generation.",
+      "risk_level": "medium",
+      "run_id": "2026-06-11_23-45_reel-side-eye",
+      "scope": "run",
+      "status": "candidate",
+      "text": "Final Aachu/Zuv imagegen for this run requires loading the queued local reference images with view_image; prompt-only generation is forbidden."
+    }
+  ],
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "schema_version": "1.0",
+  "summary": {
+    "auto_apply": 1,
+    "candidate": 1,
+    "human_review": 0,
+    "quarantine": 0,
+    "quarantined": 0,
+    "total": 1
+  }
+}

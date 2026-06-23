@@ -1,0 +1,105 @@
+{
+  "agent_role": "Visual Story Director (Tara)",
+  "candidates": [
+    {
+      "title": "The Pocket Migration Before Leaving",
+      "suggested_slide_arc": [
+        "Entryway: Zuv is ready to leave, keys in hand, while Aachu arrives with a tiny serious collection of lip balm, hair tie, tissue, and one mysterious small object.",
+        "Aachu silently loads his jacket pockets like she is packing a very handsome emergency kit.",
+        "Zuv discovers he is now carrying half her world and gives her the look; she adds one more thing anyway.",
+        "Payoff: outside the door, she reaches for something and he produces it instantly, absurdly proud."
+      ],
+      "suggested_slide_1_moment": "Zuv stands by the door in a clean three-quarter pose, one hand holding keys, while Aachu stands beside him placing a hair tie into his jacket pocket with complete seriousness.",
+      "suggested_payoff_moment": "Aachu holds out her hand without looking; Zuv places the exact tiny item into her palm like a trained magician, both faces readable and warm.",
+      "visual_potential": "Strong single-location doorway staging, clear hands, tactile props, clean upper-middle negative space for text, and a recurring pocket gag that can escalate without crowding the frame.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Tiny props could become unreadable if over-specified.",
+        "Too many pocket items could clutter the lower frame.",
+        "Needs restraint so it does not become a generic leaving-the-house checklist."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 5,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 5
+      }
+    },
+    {
+      "title": "The Wet-Nails Assistant Shift",
+      "suggested_slide_arc": [
+        "Aachu sits at the table with freshly painted nails held up like fragile evidence; Zuv clocks that both her hands are now unavailable.",
+        "He opens snacks, turns a page, and holds a glass with exaggerated care while she stays perfectly still.",
+        "The helper job expands until he is holding too many harmless little things, still trying to look composed.",
+        "Payoff: Zuv has one accidental painted pinky nail and is still proudly feeding her a bite."
+      ],
+      "suggested_slide_1_moment": "Aachu sits upright at a small table, fingers spread to dry, nail polish bottle visible; Zuv leans in from the side holding an opened snack packet like he has accepted a sacred duty.",
+      "suggested_payoff_moment": "Zuv presents his accidentally painted pinky with mock dignity while Aachu laughs, her hands still hovering safely above the table.",
+      "visual_potential": "Very stageable, intimate, funny, and object-led. The hands carry the joke, but faces stay separated and readable. Tabletop gives excellent negative space for handwritten text.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Hands and fingers need simplified natural anatomy.",
+        "Nail details should not become tiny beauty-product clutter.",
+        "Avoid servant/queen staging that feels mean instead of tender."
+      ],
+      "scores": {
+        "visual_clarity": 5,
+        "scene_variety": 4,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 5,
+        "text_integration_potential": 5,
+        "prop_usefulness": 5,
+        "anatomy_safety": 4,
+        "slide_payoff": 5
+      }
+    },
+    {
+      "title": "The Fridge Tetris Treaty",
+      "suggested_slide_arc": [
+        "Kitchen: the fridge is open, containers are lined on the counter, and both of them are pretending this is not a serious engineering problem.",
+        "Aachu rotates one container into the only correct position while Zuv confidently offers the wrong round bowl.",
+        "They pause over one impossible gap, hands hovering, faces readable from the side.",
+        "Payoff: the fridge is perfectly arranged, with one dessert box placed in the easiest front spot for Aachu."
+      ],
+      "suggested_slide_1_moment": "Open fridge on one side, counter on the other, Aachu holding a square container and Zuv holding a round bowl, both looking at the shelf like it personally betrayed them.",
+      "suggested_payoff_moment": "Zuv presents the finished fridge arrangement with quiet pride; Aachu notices her favorite little dessert box placed front and center.",
+      "visual_potential": "Fresh domestic puzzle with strong prop geometry, clean kitchen staging, and a payoff that proves care without needing explanatory microtext.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Open fridge shelves can become visually busy.",
+        "Container shapes must stay readable without labels.",
+        "Lighting from the fridge should not push the style toward digital glow."
+      ],
+      "scores": {
+        "visual_clarity": 4,
+        "scene_variety": 4,
+        "imagegen_feasibility": 4,
+        "character_consistency_potential": 4,
+        "text_integration_potential": 4,
+        "prop_usefulness": 5,
+        "anatomy_safety": 5,
+        "slide_payoff": 4
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "The Pocket Migration Before Leaving",
+    "reason": "It has the cleanest frame language: doorway, hands, pockets, tiny props, readable faces, and a payoff that is immediately visual. It can be funny without becoming loud, and warm without needing a quote-card rescue."
+  },
+  "visual_risks": [
+    "Keep small props symbolic and low-count: hair tie, lip balm, tissue, keys, one extra object maximum per slide.",
+    "Do not place faces too close together in doorway compositions.",
+    "Reserve upper-middle negative space for exact baked-in handwritten text.",
+    "Avoid pocket labels, phone screens, receipts, or any microtext-dependent joke.",
+    "Keep every idea to one main location unless Story Room proves a second location is necessary."
+  ],
+  "slide_count_hints": {
+    "The Pocket Migration Before Leaving": "4 slides is ideal; 3 would rush the escalation, 5 would over-explain the pocket gag.",
+    "The Wet-Nails Assistant Shift": "4 slides; the helper escalation needs one middle beat before the painted-pinky payoff.",
+    "The Fridge Tetris Treaty": "3 or 4 slides; choose 3 if the visual puzzle is strong, 4 only if the dessert payoff needs setup."
+  }
+}

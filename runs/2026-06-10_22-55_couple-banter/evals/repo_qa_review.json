@@ -1,14 +1,39 @@
 {
   "blocking_findings": [
     {
-      "failure_code": "IMAGE_QA_BLOCKS_FINAL_PACKAGE_FAILED",
-      "id": "image_qa_blocks_final_package",
-      "summary": "Failed Image QA is blocking final packaging."
+      "failure_code": "MEMORY_RECALL_MISSING",
+      "id": "memory_recall",
+      "summary": "Memory recall artifact is missing for this run."
     },
     {
-      "failure_code": "FINAL_PACKAGE_STARTED_WHILE_BLOCKED",
-      "id": "final_package_not_started",
-      "summary": "Final Package gate remains not started while image QA is failed."
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate."
+    },
+    {
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate."
+    },
+    {
+      "failure_code": "PROMPT_OVERLOAD",
+      "id": "prompt_overload",
+      "summary": "Prompt instruction stack is overloaded with too many competing constraints."
+    },
+    {
+      "failure_code": "REFERENCE_VISIBILITY_PROOF_STALE",
+      "id": "reference_visibility_proof",
+      "summary": "Reference visibility proof is stale for the current load plan."
+    },
+    {
+      "failure_code": "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+      "id": "gold_standard_identity_route_gate",
+      "summary": "Gold-standard identity route is incomplete; stop before imagegen/final progression."
+    },
+    {
+      "failure_code": "SCENE_LANDING_MISSING",
+      "id": "scene_landing_preview",
+      "summary": "Scene landing preview is missing or too abstract before idea lock."
     }
   ],
   "checks": [
@@ -35,7 +60,13 @@
         ".agents/skills/astory/templates/evals/pre_generation_eval.json",
         ".agents/skills/astory/templates/evals/image_quality_eval.json",
         ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
+        ".agents/skills/astory/templates/agents/story_room_agent_prompt.md",
+        ".agents/skills/astory/templates/agents/visual_scene_discussion_prompt.md",
+        ".agents/skills/astory/templates/agents/review_room_agent_prompt.md",
         ".agents/skills/astory/templates/prompts/slide_prompt.txt",
+        ".agents/skills/astory/templates/planning/memory_recall.md",
+        ".agents/skills/astory/templates/planning/scene_landing_preview.md",
+        ".agents/skills/astory/templates/docs/retro.md",
         ".agents/skills/astory/references/failure-taxonomy.md",
         ".agents/skills/astory/references/house-style-contract.md",
         ".agents/skills/astory/references/imagegen-contract.md"
@@ -53,21 +84,75 @@
       "missing_paths": [],
       "path": "runs/2026-06-10_22-55_couple-banter/references-used/selected_references.json",
       "reference_summary": {
-        "aachu_face_identity_count": 4,
+        "aachu_face_identity_count": 6,
         "expression_support_count": 4,
         "prompt_only_allowed": false,
         "style_reference_count": 3,
         "text_and_brand_reference_count": 4,
         "together_body_language_count": 2,
-        "view_image_queue_actual_count": 19,
-        "view_image_queue_count": 19,
-        "zuv_face_identity_count": 4
+        "view_image_queue_actual_count": 17,
+        "view_image_queue_count": 17,
+        "zuv_face_identity_count": 6
       },
       "role_errors": [],
       "severity": "blocker",
       "sha_mismatches": [],
       "status": "pass",
       "summary": "Selected reference manifest resolves to existing hashed references."
+    },
+    {
+      "active_view_image_queue": [
+        "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "runs/2026-06-10_22-55_couple-banter/input/source_01_video-watch.jpeg",
+        "runs/2026-06-10_22-55_couple-banter/input/source_02_annoy-you.jpeg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_active_identity_inputs",
+      "identity_input_errors": [],
+      "identity_view_summary": {
+        "aachu_face_identity": [
+          "front",
+          "side",
+          "three_quarter"
+        ],
+        "zuv_face_identity": [
+          "front",
+          "side",
+          "three_quarter"
+        ]
+      },
+      "path": "runs/2026-06-10_22-55_couple-banter/references-used/selected_references.json",
+      "raw_aachu_face_anchor_count": 6,
+      "raw_zuv_face_anchor_count": 6,
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Active imagegen queue includes diverse raw Aachu/Zuv face anchors."
+    },
+    {
+      "expected_artifacts": [
+        "runs/2026-06-10_22-55_couple-banter/planning/memory_recall.md"
+      ],
+      "failure_code": "MEMORY_RECALL_MISSING",
+      "id": "memory_recall",
+      "severity": "blocker",
+      "status": "blocked",
+      "summary": "Memory recall artifact is missing for this run.",
+      "workflow_type": "imagegen_story_run"
     },
     {
       "contract_source": "run_artifacts",
@@ -192,42 +277,421 @@
       "workflow_type": "imagegen_story_run"
     },
     {
-      "expected_artifact": "runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_visibility_proof.json",
+      "failed_prompt_count": 4,
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "prompt_results": [
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 4,
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "prompt_results": [
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 0,
       "failure_code": null,
-      "final_imagegen_allowed": true,
-      "id": "reference_visibility_proof",
+      "id": "prompt_palette_conflict",
+      "prompt_results": [
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory",
+            "camel"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": true,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "camel"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory",
+            "camel"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": true,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "camel"
+          ]
+        }
+      ],
       "severity": "blocker",
       "status": "pass",
-      "summary": "Reference visibility proof exists and records image roles.",
-      "view_image_queue_count": 19
+      "summary": "Prompt palette language avoids yellow-prone positive conflicts.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "failed_prompt_count": 4,
+      "failure_code": "PROMPT_OVERLOAD",
+      "id": "prompt_overload",
+      "prompt_results": [
+        {
+          "major_section_count": 23,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "PRIMARY REQUEST:",
+            "SHAREABILITY HOOK:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "TEXT STYLE GUARD:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "CONTROLLED CHAOS:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "STYLE HARDENER:",
+            "PAPER TONE RULE:",
+            "PAPER TONE HARDENER:",
+            "BRANDMARK:",
+            "SCENE LOGIC:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 58,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 23,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "REFERENCE HARD GATE:",
+            "PRIMARY REQUEST:",
+            "SHAREABILITY HOOK:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "TEXT STYLE GUARD:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "CONTROLLED CHAOS:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "STYLE HARDENER:",
+            "PAPER TONE RULE:",
+            "PAPER TONE HARDENER:",
+            "BRANDMARK:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 58,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 24,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "PRIMARY REQUEST:",
+            "SHAREABILITY HOOK:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "TEXT STYLE GUARD:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "HEART PROP RULE:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "CONTROLLED CHAOS:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "STYLE HARDENER:",
+            "PAPER TONE RULE:",
+            "PAPER TONE HARDENER:",
+            "BRANDMARK:",
+            "SCENE LOGIC:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 61,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 24,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "REFERENCE HARD GATE:",
+            "PRIMARY REQUEST:",
+            "SHAREABILITY HOOK:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "TEXT STYLE GUARD:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "HEART PROP RULE:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "CONTROLLED CHAOS:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "STYLE HARDENER:",
+            "PAPER TONE RULE:",
+            "PAPER TONE HARDENER:",
+            "BRANDMARK:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 61,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Prompt instruction stack is overloaded with too many competing constraints.",
+      "workflow_type": "imagegen_story_run"
+    },
+    {
+      "expected_artifact": "runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_visibility_proof.json",
+      "failure_code": "REFERENCE_VISIBILITY_PROOF_STALE",
+      "final_imagegen_allowed": false,
+      "id": "reference_visibility_proof",
+      "load_plan_sha256": "c7ac8ab9cb64a8278fc28b064f4fc060152100fa0e615a3c23070614d3f9b4b5",
+      "missing_loaded_paths": [
+        "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "proof_load_plan_sha256": null,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Reference visibility proof is stale for the current load plan.",
+      "unexpected_loaded_paths": [
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+        "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+        "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+        "references/style/observational-intimacy-premium/contact-sheet.png",
+        "references/style/observational-intimacy-premium/slide-01.png",
+        "references/style/observational-intimacy-premium/slide-02.png"
+      ],
+      "validation_errors": [
+        "load_plan_sha256_mismatch"
+      ],
+      "view_image_queue_count": 17
+    },
+    {
+      "aachu_face_identity_count": 6,
+      "active_view_image_path_count": 17,
+      "failure_code": "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+      "final_imagegen_allowed": false,
+      "id": "gold_standard_identity_route_gate",
+      "missing_requirements": [
+        "imagegen_reference_visibility_proof_valid",
+        "planning/scene_landing_preview.md",
+        "prompt_raw_identity_priority",
+        "prompt_blocks_binder_text_replacement",
+        "prompt_blocks_single_anchor_pose_copy",
+        "prompt_face_readable_composition",
+        "logs/trace.jsonl.CREATE_SCENE_LANDING_PREVIEW",
+        "logs/trace.jsonl.DISCOVER_AND_ASSIGN_AGENTS",
+        "logs/trace.jsonl.PRE_GENERATION_EVAL"
+      ],
+      "path": "runs/2026-06-10_22-55_couple-banter/references-used/selected_references.json",
+      "prompt_evidence": {
+        "prompt_blocks_binder_text_replacement": false,
+        "prompt_blocks_single_anchor_pose_copy": false,
+        "prompt_face_readable_composition": false,
+        "prompt_raw_identity_priority": false
+      },
+      "prompt_files": [
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt"
+      ],
+      "prompt_room_outputs": [
+        "debates/prompt_room/shareability_strategist_audit.md",
+        "debates/prompt_room/visual_story_director_audit.md",
+        "debates/prompt_room/style_guardian_audit.md"
+      ],
+      "proof_artifact": "runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_visibility_proof.json",
+      "proof_validation_errors": [
+        "load_plan_sha256_mismatch"
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "style_reference_count": 3,
+      "summary": "Gold-standard identity route is incomplete; stop before imagegen/final progression.",
+      "trace_errors": [],
+      "trace_state_presence": {
+        "CREATE_SCENE_LANDING_PREVIEW": false,
+        "DISCOVER_AND_ASSIGN_AGENTS": false,
+        "LOAD_REFERENCE_IMAGES_IN_CONTEXT": true,
+        "PRE_GENERATION_EVAL": false
+      },
+      "view_image_queue_count": 17,
+      "workflow_type": "imagegen_story_run",
+      "zuv_face_identity_count": 6
     },
     {
       "candidates_reviewed": 0,
-      "failure_code": null,
-      "final_artifacts": [
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png"
-      ],
+      "failure_code": "IMAGE_QA_FAILED",
+      "final_artifacts": [],
       "hard_gate_result": null,
       "id": "image_qa_blocks_final_package",
-      "image_quality_status": "pass_pending_creator_image_qa_approval",
+      "image_quality_status": "failed_creator_image_qa_revision_required",
       "path": "runs/2026-06-10_22-55_couple-banter/evals/image_quality_eval.json",
       "severity": "blocker",
-      "status": "fail",
-      "summary": "Failed Image QA is blocking final packaging."
+      "status": "pass",
+      "summary": "Image QA is blocking final packaging until creator approval."
     },
     {
-      "final_artifacts": [
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png"
-      ],
+      "final_artifacts": [],
       "id": "final_package_not_started",
       "severity": "blocker",
-      "status": "fail",
+      "status": "pass",
       "summary": "Final Package gate remains not started while image QA is failed."
     },
     {
@@ -240,13 +704,52 @@
       "unsafe_statuses": []
     },
     {
-      "event_count": 30,
+      "failure_code": null,
+      "id": "generation_stops_after_hard_reject",
+      "path": "runs/2026-06-10_22-55_couple-banter/images/generation_attempts.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No generation attempts artifact exists for sequencing review."
+    },
+    {
+      "failure_code": null,
+      "id": "prompt_repair_reapproval",
+      "reapproval_required": false,
+      "reapproved_after_repair": false,
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No repaired prompt reapproval gate is active for this run."
+    },
+    {
+      "event_count": 33,
       "id": "trace_jsonl_valid",
       "parse_errors": [],
       "path": "runs/2026-06-10_22-55_couple-banter/logs/trace.jsonl",
       "severity": "blocker",
       "status": "pass",
       "summary": "Trace JSONL is parseable."
+    },
+    {
+      "failure_code": "SCENE_LANDING_MISSING",
+      "id": "scene_landing_preview",
+      "idea_lock_approved": true,
+      "missing_requirements": [
+        "planning/scene_landing_preview.md",
+        "exact_hook_text",
+        "first_frame_visual",
+        "swipe_reason",
+        "mini_slide_arc",
+        "payoff_frame",
+        "share_trigger",
+        "flat_generic_risk",
+        "correction",
+        "docs/approvals.md.scene_landing_preview_path"
+      ],
+      "path": "runs/2026-06-10_22-55_couple-banter/planning/scene_landing_preview.md",
+      "preview_trace_present": false,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Scene landing preview is missing or too abstract before idea lock."
     },
     {
       "event_indices": {
@@ -257,6 +760,7 @@
       },
       "failure_code": null,
       "id": "hitl_order_before_imagegen",
+      "order_state": "post_imagegen_ordered",
       "severity": "blocker",
       "status": "pass",
       "summary": "Idea, story, and prompt locks are recorded before image generation."
@@ -275,7 +779,7 @@
       ],
       "severity": "blocker",
       "status": "pass",
-      "summary": "Agent assignment proof exists before prompt lock or imagegen.",
+      "summary": "Agent assignment proof is complete before prompt lock or imagegen.",
       "trace_errors": []
     },
     {
@@ -325,7 +829,7 @@
       ],
       "severity": "blocker",
       "status": "pass",
-      "summary": "Agent assignment proof exists before prompt lock or imagegen.",
+      "summary": "Agent assignment proof is complete before prompt lock or imagegen.",
       "trace_errors": []
     },
     "approvals_cover_required_gates": {
@@ -344,16 +848,73 @@
       "summary": "Approvals file records required HITL gates and current stopped gates."
     },
     "final_package_not_started": {
-      "final_artifacts": [
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png"
-      ],
+      "final_artifacts": [],
       "id": "final_package_not_started",
       "severity": "blocker",
-      "status": "fail",
+      "status": "pass",
       "summary": "Final Package gate remains not started while image QA is failed."
+    },
+    "generation_stops_after_hard_reject": {
+      "failure_code": null,
+      "id": "generation_stops_after_hard_reject",
+      "path": "runs/2026-06-10_22-55_couple-banter/images/generation_attempts.json",
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No generation attempts artifact exists for sequencing review."
+    },
+    "gold_standard_identity_route_gate": {
+      "aachu_face_identity_count": 6,
+      "active_view_image_path_count": 17,
+      "failure_code": "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+      "final_imagegen_allowed": false,
+      "id": "gold_standard_identity_route_gate",
+      "missing_requirements": [
+        "imagegen_reference_visibility_proof_valid",
+        "planning/scene_landing_preview.md",
+        "prompt_raw_identity_priority",
+        "prompt_blocks_binder_text_replacement",
+        "prompt_blocks_single_anchor_pose_copy",
+        "prompt_face_readable_composition",
+        "logs/trace.jsonl.CREATE_SCENE_LANDING_PREVIEW",
+        "logs/trace.jsonl.DISCOVER_AND_ASSIGN_AGENTS",
+        "logs/trace.jsonl.PRE_GENERATION_EVAL"
+      ],
+      "path": "runs/2026-06-10_22-55_couple-banter/references-used/selected_references.json",
+      "prompt_evidence": {
+        "prompt_blocks_binder_text_replacement": false,
+        "prompt_blocks_single_anchor_pose_copy": false,
+        "prompt_face_readable_composition": false,
+        "prompt_raw_identity_priority": false
+      },
+      "prompt_files": [
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+        "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt"
+      ],
+      "prompt_room_outputs": [
+        "debates/prompt_room/shareability_strategist_audit.md",
+        "debates/prompt_room/visual_story_director_audit.md",
+        "debates/prompt_room/style_guardian_audit.md"
+      ],
+      "proof_artifact": "runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_visibility_proof.json",
+      "proof_validation_errors": [
+        "load_plan_sha256_mismatch"
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "style_reference_count": 3,
+      "summary": "Gold-standard identity route is incomplete; stop before imagegen/final progression.",
+      "trace_errors": [],
+      "trace_state_presence": {
+        "CREATE_SCENE_LANDING_PREVIEW": false,
+        "DISCOVER_AND_ASSIGN_AGENTS": false,
+        "LOAD_REFERENCE_IMAGES_IN_CONTEXT": true,
+        "PRE_GENERATION_EVAL": false
+      },
+      "view_image_queue_count": 17,
+      "workflow_type": "imagegen_story_run",
+      "zuv_face_identity_count": 6
     },
     "hitl_order_before_imagegen": {
       "event_indices": {
@@ -364,26 +925,22 @@
       },
       "failure_code": null,
       "id": "hitl_order_before_imagegen",
+      "order_state": "post_imagegen_ordered",
       "severity": "blocker",
       "status": "pass",
       "summary": "Idea, story, and prompt locks are recorded before image generation."
     },
     "image_qa_blocks_final_package": {
       "candidates_reviewed": 0,
-      "failure_code": null,
-      "final_artifacts": [
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_9x16.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_02_4x5.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_4x5.png",
-        "runs/2026-06-10_22-55_couple-banter/exports/slide_01_9x16.png"
-      ],
+      "failure_code": "IMAGE_QA_FAILED",
+      "final_artifacts": [],
       "hard_gate_result": null,
       "id": "image_qa_blocks_final_package",
-      "image_quality_status": "pass_pending_creator_image_qa_approval",
+      "image_quality_status": "failed_creator_image_qa_revision_required",
       "path": "runs/2026-06-10_22-55_couple-banter/evals/image_quality_eval.json",
       "severity": "blocker",
-      "status": "fail",
-      "summary": "Failed Image QA is blocking final packaging."
+      "status": "pass",
+      "summary": "Image QA is blocking final packaging until creator approval."
     },
     "local_identity_execution_report": {
       "id": "local_identity_execution_report",
@@ -399,6 +956,105 @@
       "severity": "blocker",
       "status": "pass",
       "summary": "Master prompt reference is present."
+    },
+    "memory_recall": {
+      "expected_artifacts": [
+        "runs/2026-06-10_22-55_couple-banter/planning/memory_recall.md"
+      ],
+      "failure_code": "MEMORY_RECALL_MISSING",
+      "id": "memory_recall",
+      "severity": "blocker",
+      "status": "blocked",
+      "summary": "Memory recall artifact is missing for this run.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_brandmark_gate": {
+      "failed_prompt_count": 4,
+      "failure_code": "PROMPT_BRANDMARK_MISSING",
+      "id": "prompt_brandmark_gate",
+      "prompt_results": [
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "brandmark_errors": [
+            "missing_top_right_placement"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_canvas_size": {
+      "failed_prompt_count": 4,
+      "failure_code": "PROMPT_CANVAS_SIZE_MISSING",
+      "id": "prompt_canvas_size",
+      "prompt_results": [
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": false,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "canvas_size_errors": [
+            "missing_1080x1350_px",
+            "non_portrait_surface_language"
+          ],
+          "has_1080x1350_px_gate": false,
+          "has_non_portrait_surface_language": true,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate.",
+      "workflow_type": "imagegen_story_run"
     },
     "prompt_forbidden_role_reversal": {
       "failure_code": null,
@@ -444,6 +1100,212 @@
       "severity": "blocker",
       "status": "pass",
       "summary": "Every prompt keeps Aachu/Zuv roles explicit and unreversed.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_overload": {
+      "failed_prompt_count": 4,
+      "failure_code": "PROMPT_OVERLOAD",
+      "id": "prompt_overload",
+      "prompt_results": [
+        {
+          "major_section_count": 23,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "PRIMARY REQUEST:",
+            "SHAREABILITY HOOK:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "TEXT STYLE GUARD:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "CONTROLLED CHAOS:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "STYLE HARDENER:",
+            "PAPER TONE RULE:",
+            "PAPER TONE HARDENER:",
+            "BRANDMARK:",
+            "SCENE LOGIC:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 58,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 23,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "REFERENCE HARD GATE:",
+            "PRIMARY REQUEST:",
+            "SHAREABILITY HOOK:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "TEXT STYLE GUARD:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "CONTROLLED CHAOS:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "STYLE HARDENER:",
+            "PAPER TONE RULE:",
+            "PAPER TONE HARDENER:",
+            "BRANDMARK:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 58,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 24,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "PRIMARY REQUEST:",
+            "SHAREABILITY HOOK:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "TEXT STYLE GUARD:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "HEART PROP RULE:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "CONTROLLED CHAOS:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "STYLE HARDENER:",
+            "PAPER TONE RULE:",
+            "PAPER TONE HARDENER:",
+            "BRANDMARK:",
+            "SCENE LOGIC:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 61,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "fail"
+        },
+        {
+          "major_section_count": 24,
+          "major_sections": [
+            "USE CASE:",
+            "ASSET TYPE:",
+            "REFERENCE IMAGE ROLES:",
+            "REFERENCE HARD GATE:",
+            "PRIMARY REQUEST:",
+            "SHAREABILITY HOOK:",
+            "ON-IMAGE TEXT:",
+            "TEXT PLACEMENT / TYPOGRAPHY:",
+            "TEXT STYLE GUARD:",
+            "SCENE:",
+            "POSE / BODY LANGUAGE:",
+            "WARDROBE:",
+            "PROPS:",
+            "HEART PROP RULE:",
+            "BACKGROUND:",
+            "EMOTION:",
+            "CONTROLLED CHAOS:",
+            "IDENTITY LOCK:",
+            "STYLE LOCK:",
+            "STYLE HARDENER:",
+            "PAPER TONE RULE:",
+            "PAPER TONE HARDENER:",
+            "BRANDMARK:",
+            "AVOID:"
+          ],
+          "max_major_sections": 10,
+          "max_nonempty_lines": 115,
+          "nonempty_line_count": 61,
+          "overload_reasons": [
+            "too_many_major_sections"
+          ],
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "fail"
+        }
+      ],
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Prompt instruction stack is overloaded with too many competing constraints.",
+      "workflow_type": "imagegen_story_run"
+    },
+    "prompt_palette_conflict": {
+      "failed_prompt_count": 0,
+      "failure_code": null,
+      "id": "prompt_palette_conflict",
+      "prompt_results": [
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_4x5_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory",
+            "camel"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": true,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_01_9x16_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "camel"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": false,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_4x5_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "warm ivory",
+            "camel"
+          ]
+        },
+        {
+          "has_neutral_paper_constraint": true,
+          "has_no_yellow_constraint": true,
+          "path": "runs/2026-06-10_22-55_couple-banter/prompts/slide_02_9x16_prompt.txt",
+          "status": "pass",
+          "yellow_prone_terms": [
+            "camel"
+          ]
+        }
+      ],
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Prompt palette language avoids yellow-prone positive conflicts.",
       "workflow_type": "imagegen_story_run"
     },
     "prompt_reference_gate": {
@@ -500,6 +1362,15 @@
       "summary": "Every prompt preserves the reference-image delivery gate.",
       "workflow_type": "imagegen_story_run"
     },
+    "prompt_repair_reapproval": {
+      "failure_code": null,
+      "id": "prompt_repair_reapproval",
+      "reapproval_required": false,
+      "reapproved_after_repair": false,
+      "severity": "info",
+      "status": "not_applicable",
+      "summary": "No repaired prompt reapproval gate is active for this run."
+    },
     "prompt_story_contract": {
       "contract_source": "run_artifacts",
       "evidence": {
@@ -522,6 +1393,49 @@
       "summary": "Prompts preserve the run-specific locked story contract.",
       "workflow_type": "imagegen_story_run"
     },
+    "reference_active_identity_inputs": {
+      "active_view_image_queue": [
+        "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "runs/2026-06-10_22-55_couple-banter/input/source_01_video-watch.jpeg",
+        "runs/2026-06-10_22-55_couple-banter/input/source_02_annoy-you.jpeg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "failure_code": null,
+      "final_imagegen_allowed": true,
+      "id": "reference_active_identity_inputs",
+      "identity_input_errors": [],
+      "identity_view_summary": {
+        "aachu_face_identity": [
+          "front",
+          "side",
+          "three_quarter"
+        ],
+        "zuv_face_identity": [
+          "front",
+          "side",
+          "three_quarter"
+        ]
+      },
+      "path": "runs/2026-06-10_22-55_couple-banter/references-used/selected_references.json",
+      "raw_aachu_face_anchor_count": 6,
+      "raw_zuv_face_anchor_count": 6,
+      "severity": "blocker",
+      "status": "pass",
+      "summary": "Active imagegen queue includes diverse raw Aachu/Zuv face anchors."
+    },
     "reference_manifest_integrity": {
       "count_errors": [],
       "id": "reference_manifest_integrity",
@@ -529,15 +1443,15 @@
       "missing_paths": [],
       "path": "runs/2026-06-10_22-55_couple-banter/references-used/selected_references.json",
       "reference_summary": {
-        "aachu_face_identity_count": 4,
+        "aachu_face_identity_count": 6,
         "expression_support_count": 4,
         "prompt_only_allowed": false,
         "style_reference_count": 3,
         "text_and_brand_reference_count": 4,
         "together_body_language_count": 2,
-        "view_image_queue_actual_count": 19,
-        "view_image_queue_count": 19,
-        "zuv_face_identity_count": 4
+        "view_image_queue_actual_count": 17,
+        "view_image_queue_count": 17,
+        "zuv_face_identity_count": 6
       },
       "role_errors": [],
       "severity": "blocker",
@@ -547,13 +1461,54 @@
     },
     "reference_visibility_proof": {
       "expected_artifact": "runs/2026-06-10_22-55_couple-banter/evals/imagegen_reference_visibility_proof.json",
-      "failure_code": null,
-      "final_imagegen_allowed": true,
+      "failure_code": "REFERENCE_VISIBILITY_PROOF_STALE",
+      "final_imagegen_allowed": false,
       "id": "reference_visibility_proof",
+      "load_plan_sha256": "c7ac8ab9cb64a8278fc28b064f4fc060152100fa0e615a3c23070614d3f9b4b5",
+      "missing_loaded_paths": [
+        "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+        "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+        "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+        "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/style/best-illustration/encoded-check-000.png",
+        "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+        "references/style/best-illustration/slide-01.png"
+      ],
+      "proof_load_plan_sha256": null,
       "severity": "blocker",
-      "status": "pass",
-      "summary": "Reference visibility proof exists and records image roles.",
-      "view_image_queue_count": 19
+      "status": "fail",
+      "summary": "Reference visibility proof is stale for the current load plan.",
+      "unexpected_loaded_paths": [
+        "references/identity/aachu/face/aachu-face-crop-car-purple-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-cafe-neutral-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-home-black-01.jpg",
+        "references/identity/aachu/face/aachu-face-crop-kitchen-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-01.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-03.jpg",
+        "references/identity/zuv/face/zuv-face-crop-balcony-neutral-02.jpg",
+        "references/identity/zuv/face/zuv-face-crop-dinner-smile-02.jpg",
+        "references/identity/aachu/smiles/aachu-smile-tan-shirt-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-close-01.jpg",
+        "references/identity/aachu/smiles/aachu-smile-jewelry-necklace-01.jpg",
+        "references/identity/aachu/reactions/aachu-reaction-cafe-pout-01.jpg",
+        "references/identity/together/face-and-body-language/together-casual-icecream-standing-01.jpg",
+        "references/identity/together/face-and-body-language/together-cabin-hug-01.jpg",
+        "references/style/observational-intimacy-premium/contact-sheet.png",
+        "references/style/observational-intimacy-premium/slide-01.png",
+        "references/style/observational-intimacy-premium/slide-02.png"
+      ],
+      "validation_errors": [
+        "load_plan_sha256_mismatch"
+      ],
+      "view_image_queue_count": 17
     },
     "required_templates_present": {
       "checked_paths": [
@@ -562,7 +1517,13 @@
         ".agents/skills/astory/templates/evals/pre_generation_eval.json",
         ".agents/skills/astory/templates/evals/image_quality_eval.json",
         ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
+        ".agents/skills/astory/templates/agents/story_room_agent_prompt.md",
+        ".agents/skills/astory/templates/agents/visual_scene_discussion_prompt.md",
+        ".agents/skills/astory/templates/agents/review_room_agent_prompt.md",
         ".agents/skills/astory/templates/prompts/slide_prompt.txt",
+        ".agents/skills/astory/templates/planning/memory_recall.md",
+        ".agents/skills/astory/templates/planning/scene_landing_preview.md",
+        ".agents/skills/astory/templates/docs/retro.md",
         ".agents/skills/astory/references/failure-taxonomy.md",
         ".agents/skills/astory/references/house-style-contract.md",
         ".agents/skills/astory/references/imagegen-contract.md"
@@ -573,6 +1534,28 @@
       "status": "pass",
       "summary": "Required skill templates and contracts are present."
     },
+    "scene_landing_preview": {
+      "failure_code": "SCENE_LANDING_MISSING",
+      "id": "scene_landing_preview",
+      "idea_lock_approved": true,
+      "missing_requirements": [
+        "planning/scene_landing_preview.md",
+        "exact_hook_text",
+        "first_frame_visual",
+        "swipe_reason",
+        "mini_slide_arc",
+        "payoff_frame",
+        "share_trigger",
+        "flat_generic_risk",
+        "correction",
+        "docs/approvals.md.scene_landing_preview_path"
+      ],
+      "path": "runs/2026-06-10_22-55_couple-banter/planning/scene_landing_preview.md",
+      "preview_trace_present": false,
+      "severity": "blocker",
+      "status": "fail",
+      "summary": "Scene landing preview is missing or too abstract before idea lock."
+    },
     "skill_contract_present": {
       "id": "skill_contract_present",
       "missing_phrases": [],
@@ -582,7 +1565,7 @@
       "summary": "A Story skill contract is present and contains the identity/HITL gates."
     },
     "trace_jsonl_valid": {
-      "event_count": 30,
+      "event_count": 33,
       "id": "trace_jsonl_valid",
       "parse_errors": [],
       "path": "runs/2026-06-10_22-55_couple-banter/logs/trace.jsonl",
@@ -591,18 +1574,18 @@
       "summary": "Trace JSONL is parseable."
     }
   },
-  "created_at": "2026-06-10T18:48:35+00:00",
+  "created_at": "2026-06-18T15:58:01+00:00",
   "overall_status": "blocked",
   "reference_summary": {
-    "aachu_face_identity_count": 4,
+    "aachu_face_identity_count": 6,
     "expression_support_count": 4,
     "prompt_only_allowed": false,
     "style_reference_count": 3,
     "text_and_brand_reference_count": 4,
     "together_body_language_count": 2,
-    "view_image_queue_actual_count": 19,
-    "view_image_queue_count": 19,
-    "zuv_face_identity_count": 4
+    "view_image_queue_actual_count": 17,
+    "view_image_queue_count": 17,
+    "zuv_face_identity_count": 6
   },
   "repo_root": "/Users/himanshusharma/A Story of Two V2",
   "run_dir": "/Users/himanshusharma/A Story of Two V2/runs/2026-06-10_22-55_couple-banter",

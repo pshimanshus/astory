@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-18T00:00:00+05:30",
+  "rejected_paths": [
+    "runs/2026-06-14_17-51_ig-reference-concept/final-carousel/",
+    "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-02-final.png",
+    "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-03-final.png",
+    "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-04-final.png",
+    "runs/2026-06-14_17-51_ig-reference-concept/exports/slide-05-final.png"
+  ],
+  "reason": "Creator wanted exact source carousel content as-is in A Story visual/design style. The package used invented variant copy and is not approved.",
+  "failure_code": "ORIGINAL_SETUP_DRIFT",
+  "decision": "rejected_do_not_publish"
+}

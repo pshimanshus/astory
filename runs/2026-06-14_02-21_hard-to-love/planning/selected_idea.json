@@ -1,0 +1,46 @@
+{
+  "run_id": "2026-06-14_02-21_hard-to-love",
+  "selected_idea_id": "idea_001",
+  "title": "The Chair Outside The Door",
+  "status": "recommended_for_hitl_idea_lock",
+  "overall_score": 4.86,
+  "first_slide_hook": "am i hard to love when i go quiet?",
+  "one_line_concept": "Aachu worries that going quiet makes her hard to love; Zuv answers by staying nearby without forcing the door open.",
+  "emotional_truth": "Some people are not asking to be decoded immediately. They are asking not to be abandoned while they become speakable again.",
+  "share_trigger": "A partner can send this as a soft way of saying: thank you for not forcing me to explain before I can.",
+  "comment_trigger": "People can name the care rule their partner learned when they shut down or need quiet.",
+  "visual_proof": "Closed door, practical chair, water, charger, folded cloth, light under the door, changed chair distance, and a door cracked open later.",
+  "why_it_wins": [
+    "It turns the attached vulnerable question concept into specific couple behavior.",
+    "It honors the creator's constraint not to force both people into every slide.",
+    "It avoids sad quote-card energy by making objects and restraint carry the answer.",
+    "It is feasible in the approved best-illustration style with clear negative space for handwritten text.",
+    "It has low identity-drift risk because not every slide requires crowded face-forward couple rendering.",
+    "It absorbed Kabir's stronger share engine without inheriting care-label meme phrasing."
+  ],
+  "risks": [
+    "May become too somber if the chair and objects do not feel lived-in.",
+    "May accidentally frame Zuv as saintly if the waiting is over-dramatized.",
+    "May become too subtle if the hook is not behavior-specific.",
+    "Must not copy the concept screenshots' dark/magenta/orange style."
+  ],
+  "required_corrections_for_story_room": [
+    "Keep the chair practical, not sacrificial.",
+    "Use one-person, object, and partial-presence frames naturally.",
+    "Avoid sleeping-martyr staging.",
+    "Avoid dramatic embrace as the payoff.",
+    "Make the object continuity visible: chair position, glass level, charger path, cloth location, door crack, and light.",
+    "Preserve airy off-white watercolor style and readable handwritten text."
+  ],
+  "source_artifacts": [
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_01_candidates.json",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_02_candidates.json",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/agent_03_candidates.json",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/cross_critique.md",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/repair_round.md",
+    "runs/2026-06-14_02-21_hard-to-love/debates/idea_room/final_scoreboard.json",
+    "runs/2026-06-14_02-21_hard-to-love/planning/scene_landing_preview.md"
+  ],
+  "hitl_status": "approved",
+  "hitl_approved_at": "2026-06-14T11:14:34+05:30"
+}

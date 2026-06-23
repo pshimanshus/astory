@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "created_at": "2026-06-16T18:35:10Z",
+  "scope": "slides_02_to_05_rest_of_carousel",
+  "agent_assignment_status": "actual_multi_agent",
+  "source_artifacts": [
+    "runs/2026-06-14_17-51_ig-reference-concept/planning/same_line_visual_repair.md",
+    "runs/2026-06-14_17-51_ig-reference-concept/planning/same_line_slide_content.json"
+  ],
+  "prompt_paths": [
+    "runs/2026-06-14_17-51_ig-reference-concept/prompts/slide-02-you-noticed-1080x1350.md",
+    "runs/2026-06-14_17-51_ig-reference-concept/prompts/slide-03-you-saved-it-1080x1350.md",
+    "runs/2026-06-14_17-51_ig-reference-concept/prompts/slide-04-you-still-know-1080x1350.md",
+    "runs/2026-06-14_17-51_ig-reference-concept/prompts/slide-05-i-always-do-1080x1350.md"
+  ],
+  "checks": {
+    "creator_request_direct_generation": "pass",
+    "no_new_copy_invented": "pass",
+    "prompt_canvas_size": "pass",
+    "brandmark_required": "pass",
+    "raw_face_anchors_highest_priority": "pass",
+    "style_reference_limited_to_finish": "pass",
+    "source_card_contamination_rejected": "pass",
+    "anti_slop_scene_specificity": "pass"
+  },
+  "decision": "ready_for_imagegen",
+  "failure": null
+}

@@ -1,0 +1,92 @@
+{
+  "agent_role": "Visual Story Director / Tara",
+  "mode": "local_pass",
+  "method_note": "Judged by whether the image can prove the exact joke without crowded staging or tiny unreadable details.",
+  "candidates": [
+    {
+      "id": "tara_01_chairs_disagreed",
+      "title": "The Chairs Disagreed",
+      "emotional_engine": "new-love denial",
+      "suggested_slide_arc": "Slide 1: two chairs politely far apart. Slide 2: chairs angle inward while they pretend normal. Slide 3: knees/bag/dupatta cross the invisible border. Slide 4: both still say 'casual' while the room has already confessed.",
+      "suggested_slide_1_moment": "A small cafe table with Aachu and Zuv sitting too correctly, too politely, with awkward space between them.",
+      "suggested_payoff_moment": "The two chairs are almost touching; both look away with guilty half-smiles.",
+      "visual_potential": "Excellent: the furniture movement is the proof, not the caption.",
+      "execution_difficulty_score": 2,
+      "failure_risks": [
+        "Must avoid generic date cafe staging.",
+        "Chair positions need to stay readable across slides.",
+        "Do not overfill the background."
+      ],
+      "scores": {
+        "visual_clarity": 4.9,
+        "scene_variety": 4.2,
+        "imagegen_feasibility": 4.7,
+        "character_consistency_potential": 4.8,
+        "text_integration_potential": 4.8,
+        "prop_usefulness": 4.9,
+        "anatomy_safety": 4.7,
+        "slide_payoff": 4.8
+      }
+    },
+    {
+      "id": "tara_02_blanket_border",
+      "title": "The Blanket Border Dispute",
+      "emotional_engine": "married domestic war",
+      "suggested_slide_arc": "Slide 1: bed divided by a pillow border. Slide 2: one foot invades. Slide 3: blanket tug-of-war. Slide 4: morning, both tangled in the same blanket, still blaming each other.",
+      "suggested_slide_1_moment": "Aachu and Zuv lying stiffly with a dramatic pillow line between them like a border.",
+      "suggested_payoff_moment": "They wake up fully tangled, hair messy, one still clutching blanket like evidence.",
+      "visual_potential": "Very clear and funny, but common unless text and expressions are specific.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Bed poses can create anatomy risk.",
+        "Could become too cartoonish or broad.",
+        "Needs premium restraint to avoid meme-panel energy."
+      ],
+      "scores": {
+        "visual_clarity": 4.8,
+        "scene_variety": 3.8,
+        "imagegen_feasibility": 4.0,
+        "character_consistency_potential": 4.3,
+        "text_integration_potential": 4.5,
+        "prop_usefulness": 4.6,
+        "anatomy_safety": 3.8,
+        "slide_payoff": 4.4
+      }
+    },
+    {
+      "id": "tara_03_compliment_failed",
+      "title": "Compliment Failed Successfully",
+      "emotional_engine": "patao incompetence",
+      "suggested_slide_arc": "Slide 1: Zuv rehearses a compliment. Slide 2: Aachu enters. Slide 3: he says the wrong normal thing. Slide 4: she understands anyway and smiles first.",
+      "suggested_slide_1_moment": "Zuv in a kitchen/hallway holding a spoon like a microphone, rehearsing silently in a reflective cabinet or phone screen.",
+      "suggested_payoff_moment": "Aachu catches the panic and smiles while he looks betrayed by his own mouth.",
+      "visual_potential": "Strong face-expression idea, but text must not over-explain.",
+      "execution_difficulty_score": 3,
+      "failure_risks": [
+        "Facial expression is load-bearing.",
+        "Avoid phone-screen microtext.",
+        "Needs one simple failed line, not a paragraph."
+      ],
+      "scores": {
+        "visual_clarity": 4.3,
+        "scene_variety": 4.1,
+        "imagegen_feasibility": 4.2,
+        "character_consistency_potential": 4.5,
+        "text_integration_potential": 4.3,
+        "prop_usefulness": 4.0,
+        "anatomy_safety": 4.6,
+        "slide_payoff": 4.6
+      }
+    }
+  ],
+  "top_pick": "tara_01_chairs_disagreed",
+  "visual_risks": [
+    "New-love ideas can become generic if the object proof is weak.",
+    "Married-fight ideas can become too meme-like if expressions are exaggerated."
+  ],
+  "slide_count_hints": {
+    "The Chairs Disagreed": 4,
+    "Compliment Failed Successfully": 4,
+    "The Blanket Border Dispute": 4
+  }
+}

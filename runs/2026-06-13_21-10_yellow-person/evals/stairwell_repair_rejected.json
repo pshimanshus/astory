@@ -1,0 +1,17 @@
+{
+  "run_id": "2026-06-13_21-10_yellow-person",
+  "status": "rejected_by_creator",
+  "review_timestamp": "2026-06-13T23:00:10+05:30",
+  "rejected_candidates": [
+    "/Users/himanshusharma/.codex/generated_images/019ec19a-4753-7ac1-adc8-e8073ef5507b/ig_0f4f674e631f7fe5016a2d8f768b7081918ada7ebb9c5822c8.png",
+    "/Users/himanshusharma/.codex/generated_images/019ec19a-4753-7ac1-adc8-e8073ef5507b/ig_0f4f674e631f7fe5016a2d908cc7908191875f4c956a425ae8.png"
+  ],
+  "creator_feedback": "Too many visual mistakes. Scene 1 must be both standing and hugging each other in rain on a Bangalore road. Scene 2 must be a back-side balcony shot where Aachu sits on Zuv's lap, face not visible, hugging him vulnerably while it rains outside.",
+  "failure_codes": [
+    "SCENE_LOGIC_CONTRADICTION",
+    "GENERIC_IDEA",
+    "STYLE_DRIFT"
+  ],
+  "root_cause": "The generation substituted an invented stairwell action scene for the creator's intended rain-road and balcony-lap-hug scenes.",
+  "repair_constraint": "Follow the creator's locked scene brief literally; do not invent alternate settings, props, or blocking."
+}

@@ -1,0 +1,149 @@
+{
+  "run_id": "2026-06-14_17-51_ig-reference-concept",
+  "scoring_scale": "1 to 5",
+  "criteria": [
+    "scene_text_proof",
+    "identity_preservation",
+    "visual_freshness",
+    "phone_screen_readability",
+    "wardrobe_continuity",
+    "style_fit"
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "why do you have my clip?",
+      "options": [
+        {
+          "option_id": "1A",
+          "scene": "Table-level restaurant frame. Food has just landed. Aachu's hand is halfway to her bag, hair slipping forward. Zuv's hand enters from the side holding the old clip.",
+          "score": 4.9,
+          "selected": true,
+          "reason": "Best object mystery and strongest phone-screen read."
+        },
+        {
+          "option_id": "1B",
+          "scene": "Overhead plate shot with the clip placed next to the cutlery while Aachu notices it.",
+          "score": 3.8,
+          "selected": false,
+          "reason": "Interesting object placement, but weaker accusation because Zuv's possession is less clear."
+        },
+        {
+          "option_id": "1C",
+          "scene": "Aachu at the mirror of a cafe washroom doorway, seeing Zuv behind her holding the clip.",
+          "score": 3.2,
+          "selected": false,
+          "reason": "Too staged and moves away from the food-timing mechanic."
+        }
+      ]
+    },
+    {
+      "slide_number": 2,
+      "exact_on_image_text": "wait. my old one?",
+      "options": [
+        {
+          "option_id": "2A",
+          "scene": "Close crop on Aachu holding the clip, with a tiny scratch or worn edge visible. Her expression is suspicion turning into recognition.",
+          "score": 4.8,
+          "selected": true,
+          "reason": "Makes the object personal without needing extra words."
+        },
+        {
+          "option_id": "2B",
+          "scene": "The clip in Zuv's open palm, with Aachu's fingers reaching in from the opposite side.",
+          "score": 4.1,
+          "selected": false,
+          "reason": "Clear, but less emotionally specific than her recognizing it."
+        },
+        {
+          "option_id": "2C",
+          "scene": "A small flashback-like insert of the same clip on Aachu's dresser.",
+          "score": 2.7,
+          "selected": false,
+          "reason": "Flashback treatment risks breaking the simple restaurant reality."
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "exact_on_image_text": "it lives in my pocket now.",
+      "options": [
+        {
+          "option_id": "3A",
+          "scene": "Zuv casually taps his pocket while still looking at the food, as if explaining where a napkin lives.",
+          "score": 4.9,
+          "selected": true,
+          "reason": "Shows the habit without making him perform sweetness."
+        },
+        {
+          "option_id": "3B",
+          "scene": "Close crop of the clip partly tucked beside keys in Zuv's pocket.",
+          "score": 4.3,
+          "selected": false,
+          "reason": "Strong prop logic, but fewer facial cues for the joke."
+        },
+        {
+          "option_id": "3C",
+          "scene": "Zuv proudly holding up the clip like a trophy.",
+          "score": 2.5,
+          "selected": false,
+          "reason": "Too performative and smug for the brand tone."
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "exact_on_image_text": "for first-bite emergencies.",
+      "options": [
+        {
+          "option_id": "4A",
+          "scene": "Aachu leans toward the first bite and her hair falls directly between her and the food. The clip is now in her hand.",
+          "score": 5.0,
+          "selected": true,
+          "reason": "The image proves the joke immediately."
+        },
+        {
+          "option_id": "4B",
+          "scene": "Zuv points at the plate while Aachu realizes what he means.",
+          "score": 3.6,
+          "selected": false,
+          "reason": "Too explanatory and less visually funny."
+        },
+        {
+          "option_id": "4C",
+          "scene": "A montage-like row of tiny previous meal moments where her hair fell forward.",
+          "score": 3.4,
+          "selected": false,
+          "reason": "Readable risk on phone and too clever for the simple beat."
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "exact_on_image_text": "fine. keep it there.",
+      "options": [
+        {
+          "option_id": "5A",
+          "scene": "Aachu clips her own hair slightly crooked and starts eating, pretending to be annoyed. Zuv is already eating like this was normal inventory.",
+          "score": 5.0,
+          "selected": true,
+          "reason": "Best payoff: affection, annoyance, and routine in one frame."
+        },
+        {
+          "option_id": "5B",
+          "scene": "The clip rests in Zuv's pocket again after lunch, with Aachu's hand lightly pushing it back in.",
+          "score": 4.0,
+          "selected": false,
+          "reason": "Cute, but less immediate than her using it while eating."
+        },
+        {
+          "option_id": "5C",
+          "scene": "Aachu smiles at Zuv across the table after clipping her hair.",
+          "score": 3.1,
+          "selected": false,
+          "reason": "Risks generic soft romance and loses the annoyed-funny final line."
+        }
+      ]
+    }
+  ]
+}

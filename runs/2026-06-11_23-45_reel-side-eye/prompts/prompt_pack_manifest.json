@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "slides": [
+    {
+      "slide": 1,
+      "prompt_file": "prompts/slide_01.md",
+      "on_image_text": "POV: I sent you a reel 0.2 seconds ago"
+    },
+    {
+      "slide": 2,
+      "prompt_file": "prompts/slide_02.md",
+      "on_image_text": "and you're laughing at YOUR phone"
+    },
+    {
+      "slide": 3,
+      "prompt_file": "prompts/slide_03.md",
+      "on_image_text": "you watched it. and said NOTHING."
+    },
+    {
+      "slide": 4,
+      "prompt_file": "prompts/slide_04.md",
+      "on_image_text": "...you were sending me the SAME reel."
+    }
+  ]
+}

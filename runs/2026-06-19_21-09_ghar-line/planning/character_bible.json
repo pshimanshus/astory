@@ -1,0 +1,68 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "identity_status": "ready_after_visibility_proof",
+  "aachu": {
+    "visibility_role": "only visible identity subject in all four slides",
+    "reference_paths": [
+      "references/identity/aachu/aachu-face-cafe-neutral-01.jpg",
+      "references/identity/aachu/aachu-face-crop-lavender-smile-01.jpg",
+      "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+      "references/identity/aachu/aachu-face-crop-cafe-neutral-01.jpg",
+      "references/identity/aachu/aachu-face-crop-home-black-01.jpg",
+      "references/identity/aachu/aachu-face-crop-kitchen-neutral-01.jpg"
+    ],
+    "face_anchors": [
+      "front, three-quarter, and side raw face anchors must synthesize one stable Aachu face",
+      "large expressive dark eyes, natural brows, soft oval/round face, fuller lips",
+      "long dark hair with natural volume, real-person charm"
+    ],
+    "skin_tone_anchor": "preserve actual skin tone from raw Aachu face anchors",
+    "wardrobe_anchors": [
+      "restrained everyday cafe/friends outfit",
+      "consistent outfit family across all slides",
+      "do not copy wardrobe from any single identity photo"
+    ],
+    "emotion_arc": [
+      "quietly lost in a full setting",
+      "attention returning to the absent person",
+      "restrained ache",
+      "realization without relief"
+    ],
+    "do_not_change": [
+      "do not over-beautify",
+      "do not change age, ethnicity, facial proportions, skin tone, or hairstyle",
+      "do not make her generic, anime, doll-like, or photorealistic",
+      "do not copy the cafe identity reference's smile, cup-holding pose, jacket, table setup, lighting, background, or camera angle"
+    ]
+  },
+  "zuv": {
+    "visibility_role": "absent person only; use references as absence boundary and identity exclusion guard",
+    "reference_paths": [
+      "references/identity/zuv/zuv-face-front-blue-overshirt-selfie-2026-06-18-01.jpg",
+      "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+      "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+      "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg",
+      "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+      "references/identity/zuv/zuv-face-crop-balcony-neutral-01.jpg"
+    ],
+    "absence_boundary": [
+      "Zuv must not appear as face, body, silhouette, reflection, memory figure, photo, phone wallpaper, or ghost",
+      "no substitute male character should occupy his emotional role",
+      "background people must remain anonymous and must not resemble Zuv"
+    ],
+    "do_not_change": [
+      "do not invent a visible Zuv comeback",
+      "do not turn the final slide into reunion relief",
+      "do not merge his features into Aachu or background figures"
+    ]
+  },
+  "side_characters_policy": "soft anonymous friends/background figures only; no detailed new identity faces",
+  "continuity_rules": [
+    "same cafe/friends setting across all slides",
+    "Aachu remains the primary readable face",
+    "Zuv absent in slides 1-4 by creator correction",
+    "the unfilled beside-space recurs as absence proof",
+    "no phone, ghost, memory figure, reflection, or arrival beat"
+  ]
+}

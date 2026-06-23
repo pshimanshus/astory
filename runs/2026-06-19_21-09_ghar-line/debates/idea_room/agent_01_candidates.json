@@ -1,0 +1,523 @@
+{
+  "agent_role": "Relatability Ethnographer / Meera",
+  "persona_file": ".agents/skills/astory/personas/idea-room/relatability-ethnographer.md",
+  "evidence_ledger": [
+    {
+      "source": "AGENTS.md",
+      "evidence": "The studio rejects anything a generic competent model could have produced. Creative work must come through a named persona, real method, and the war on generic.",
+      "usable_rule": "Do not submit a clean romantic abstraction. Every candidate needs a photographed behavior, not a dressed-up sentiment."
+    },
+    {
+      "source": ".agents/skills/astory/personas/idea-room/relatability-ethnographer.md",
+      "evidence": "Meera passes behavior, visual proof, affectionate specificity, and scenes that make sense without the caption.",
+      "usable_rule": "The idea must survive as a scene: body position, distance, object, silence, doorway, or absence must carry the feeling."
+    },
+    {
+      "source": "runs/2026-06-19_21-09_ghar-line/input/creative_brief.json",
+      "evidence": "Creator wants slide 1 anchored on the exact provided Ghar line. Slide 2 should be more emotional and comforting, preserving the ache and need of one person as real ghar.",
+      "usable_rule": "Keep the creator's line as the only song lyric. Do not add lyrics, do not replace the premise, and do not drift into a general home/person quote."
+    },
+    {
+      "source": "runs/2026-06-19_21-09_ghar-line/planning/memory_recall.md",
+      "evidence": "Recall says the old topic is 'home is a person'; the new reveal must be physical emptiness in a place that has everything except the person.",
+      "usable_rule": "Stage lived absence. The room must be functional but emotionally unfinished."
+    },
+    {
+      "source": "references/brain/policies/current-copy-contract-2026-06-18.md",
+      "evidence": "Every line should feel sendable, visual wrappers should be restrained, and object-led invention should not lead the premise.",
+      "usable_rule": "Let objects prove the behavior, not become the clever idea. Slide 2 should sound like something someone needed to send."
+    },
+    {
+      "source": "references/brain/pages/outcome-attribution.md",
+      "evidence": "A Story carousel decisions rank shares per 1k reach and saves over likes. The strongest cited winner has 40.15 shares per 1k reach and 13.14 saves per 1k reach.",
+      "usable_rule": "Choose the idea most likely to be sent to one specific person, not the prettiest quote."
+    },
+    {
+      "source": "references/text-style/winner-bank-index-2026-06-14.json",
+      "evidence": "Compatible source evidence exists: rank 121 from werenotreallystrangers with the caption preview 'sometimes home is a person'; rank 136 from hereverydaymotherhood with the preview 'Home is wherever he's at.'",
+      "usable_rule": "Use these as appetite proof only. The A Story version must add a lived Aachu/Zuv scene and avoid the static quote-card surface."
+    },
+    {
+      "source": "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md",
+      "evidence": "Familiar truths need a new reveal, close proof, viewer outcome, and protection from being flattened into an old lesson.",
+      "usable_rule": "The novelty is not 'home is a person.' The novelty is how the room exposes the missing person before anyone explains it."
+    }
+  ],
+  "premise_lock": {
+    "run_id": "2026-06-19_21-09_ghar-line",
+    "locked_creator_setup": "A two-slide A Story of Two carousel where slide 1 uses the creator-provided Ghar line and slide 2 turns the same ache into a simple, comforting note.",
+    "exact_slide_1_text": "khaali hai jo tere bina, main woh ghar hoon tera",
+    "no_additional_song_lyrics": true,
+    "human_situation": "One partner is physically inside a house that is otherwise normal, but one ordinary place or habit quietly exposes that the house has not become ghar until the other person is there.",
+    "speaker": "The partner who is missing the other person, without becoming dramatic or self-pitying.",
+    "receiver": "The one person whose presence makes the room feel inhabited.",
+    "emotional_job": [
+      "make someone send it to their person",
+      "make someone feel the ache of absence",
+      "make someone feel comforted by being someone's ghar",
+      "make someone say 'this is us' because the absence has a physical receipt"
+    ],
+    "slide_count_read": "Creator requested 2 slides. Meera accepts 2 if slide 2 carries a full emotional turn; a third slide is only useful if the story room later needs one more proof receipt.",
+    "rejected_generic_version": "Slide 1: empty room with the lyric. Slide 2: a neat line about home not being a place but a person. That version is correct and dead."
+  },
+  "source_winner_basis": {
+    "primary_copy_anchor": {
+      "type": "creator_provided_song_line",
+      "use": "preserve exactly once as slide 1 text",
+      "constraint": "do not add or continue lyrics"
+    },
+    "compatible_source_winners": [
+      {
+        "rank": 121,
+        "source_account": "werenotreallystrangers",
+        "source_url": "https://www.instagram.com/p/DW9g9ZGCRu-/",
+        "format": "Video",
+        "metric_signal": {
+          "likes": 49670,
+          "comments": 161,
+          "views_or_plays": 346606,
+          "winner_score": 69046.21
+        },
+        "usable_engine": "The theme travels when it is short, direct, and person-centered.",
+        "surface_to_avoid": "Repeating the phrase as a static quote or generic room mood."
+      },
+      {
+        "rank": 136,
+        "source_account": "hereverydaymotherhood",
+        "source_url": "https://www.instagram.com/p/DXPqpI7idvG/",
+        "format": "Image",
+        "metric_signal": {
+          "likes": 21726,
+          "comments": 144,
+          "winner_score": 28206.0
+        },
+        "usable_engine": "A simple person-as-home statement has domestic share potential.",
+        "surface_to_avoid": "Soft-home caption energy without a specific Aachu/Zuv behavior."
+      }
+    ],
+    "local_a_story_performance_basis": "Outcome attribution says shares and saves outrank likes; the top local cited winner reached 40.15 shares per 1k reach.",
+    "evidence_gap": "No live platform research was used. Source-bank and local memory are the evidence basis for this idea-room pass."
+  },
+  "candidates": [
+    {
+      "title": "Your Side Still Stays Yours",
+      "one_line_concept": "Even when one partner is alone, they still do not spread into the other person's usual place, so the empty side becomes proof that the house is waiting for its real person.",
+      "emotional_truth": "Missing someone is not always crying. Sometimes it is your body refusing to act like their place is available.",
+      "relatable_trigger": "People who still leave their partner's side of the bed, sofa, table, or car untouched when the partner is away will feel caught.",
+      "visual_evidence": "One partner sits on only their usual half of a sofa or bed; the other half is visibly empty, uncreased, and respected. No dramatic longing, just a body keeping the boundary out of habit.",
+      "suggested_slide_arc": {
+        "slide_count_recommendation": 2,
+        "slide_1": "The locked lyric sits over a quiet frame where one half of a shared place is empty but not taken over.",
+        "slide_2": "The note lands on the comfort that the empty side is not emptiness alone; it is a place still kept for the person who makes it ghar.",
+        "story_room_note": "If a third slide is added later, it should be one more physical receipt of the kept place, not a moral explanation."
+      },
+      "suggested_slide_1_moment": "Aachu or Zuv is alone on a shared sofa or bed, unconsciously staying on their own side while the other side remains open.",
+      "suggested_payoff_moment": "The empty side is reframed as loyalty, not loneliness: the house has room because the person still belongs there.",
+      "share_or_comment_trigger": "Send trigger: 'I literally still leave your side.' Comment trigger: people naming the place they never take over.",
+      "why_not_generic": "The idea does not say home is a person; it shows the tiny bodily habit of reserving someone's place when nobody is watching.",
+      "source_engine": {
+        "primary": "creator-provided Ghar lyric as copy anchor",
+        "source_winner_support": [
+          "winner-bank rank 121 proves appetite for person-as-home phrasing",
+          "winner-bank rank 136 proves domestic home/person framing travels"
+        ],
+        "remix_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "what_stays": "The emotional engine that home becomes attached to one person.",
+        "what_changes": "A Story turns the phrase into a reserved physical space between Aachu and Zuv."
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Home is a person.",
+        "generic_rejected_version": "A pretty empty room saying the person is home.",
+        "new_reveal": "The body keeps the other person's place even when the room is technically free.",
+        "viewer_outcome": "They can send it as proof of a private habit without writing a confession.",
+        "contrast_frame": "The house has space everywhere, but the one empty side is not available to anyone else.",
+        "bullseye_proof": "A side of the bed or sofa remains untouched because it still belongs to them.",
+        "urgency": "No fake urgency; the ache is everyday and recurring.",
+        "what_not_to_explain": "Do not explain that small gestures matter or that home is not a place."
+      },
+      "a_story_wrappers": [
+        "Aachu/Zuv shared-space habit, not anonymous quote-card romance",
+        "negative space as emotional proof",
+        "comforting payoff: the missing person is still held in the room"
+      ],
+      "selection_scores": {
+        "sendability": 4.9,
+        "save_potential": 4.3,
+        "comment_trigger": 4.7,
+        "novelty": 4.7,
+        "source_alignment": 4.6,
+        "creator_brief_fit": 4.9,
+        "overall": 4.75
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium-low",
+        "risk": "Could become too neat if slide 2 says the lesson out loud.",
+        "repair": "Keep the payoff close to the reserved-side behavior and make the line sound like a private note."
+      },
+      "failure_risks": [
+        "AI_SLOP_COPY_DRIFT",
+        "VISUAL_ONLY_MOOD_WORDS"
+      ],
+      "risk_of_being_generic": "Low if the kept-side behavior remains central; medium if the scene becomes a plain empty-room illustration.",
+      "scores": {
+        "relatability": 5,
+        "emotional_truth": 4.8,
+        "specificity": 4.9,
+        "warmth": 4.8,
+        "everyday_visual_evidence": 5,
+        "brand_fit": 4.8,
+        "risk_of_stereotype_reversal": 5
+      }
+    },
+    {
+      "title": "The Door Sound Changes The House",
+      "one_line_concept": "The room is not transformed by decor or romance; it becomes ghar in the tiny second one partner hears the other person's key, footsteps, or door sound.",
+      "emotional_truth": "Sometimes the most comforting part of love is not the hug. It is the body relaxing before the person has even entered.",
+      "relatable_trigger": "Anyone who knows their person's footsteps, lift sound, key turn, or gate noise will recognize the feeling immediately.",
+      "visual_evidence": "One partner is in a quiet room, looking up from where they were waiting without admitting it; the door is just beginning to open or the handle is turning.",
+      "suggested_slide_arc": {
+        "slide_count_recommendation": 2,
+        "slide_1": "The locked lyric lands on a room that looks paused, with attention pulled toward the door.",
+        "slide_2": "The note turns the door sound into comfort: the house starts feeling like ghar before the person even fully walks in.",
+        "story_room_note": "Avoid reunion melodrama; the strongest version is one small exhale, not a cinematic run."
+      },
+      "suggested_slide_1_moment": "Aachu or Zuv sits in a quiet living room or bedroom, eyes lifted toward the door, caught in the half-second of recognition.",
+      "suggested_payoff_moment": "The person has not even entered fully, but the waiting partner's face and shoulders have already changed.",
+      "share_or_comment_trigger": "Send trigger: 'I know your door sound.' Comment trigger: people naming the exact sound that means their person is home.",
+      "why_not_generic": "It makes home a sensory recognition, not a slogan. The house becomes ghar through one sound only this couple would know.",
+      "source_engine": {
+        "primary": "creator-provided Ghar lyric as copy anchor",
+        "source_winner_support": [
+          "rank 136 supports the person-as-location engine",
+          "illusion novelty lens supports a fresh reveal on an old truth"
+        ],
+        "remix_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "what_stays": "The person is the condition that makes home feel real.",
+        "what_changes": "A Story locates the condition in a familiar sound and a bodily reaction."
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Your person feels like home.",
+        "generic_rejected_version": "A couple hugging in a doorway with a home quote.",
+        "new_reveal": "Home begins at the sound before the person is visible.",
+        "viewer_outcome": "Viewers send it because it names a private sensory habit.",
+        "contrast_frame": "The door is ordinary to everyone else; to one person, it changes the whole room.",
+        "bullseye_proof": "Eyes lifting at the handle turn or footsteps outside.",
+        "urgency": "Real emotional micro-window: the second before entry.",
+        "what_not_to_explain": "Do not say 'love is feeling safe.' Let the body relaxation show it."
+      },
+      "a_story_wrappers": [
+        "threshold moment instead of quote card",
+        "recognition before reunion",
+        "Aachu/Zuv's private sound as proof of ghar"
+      ],
+      "selection_scores": {
+        "sendability": 4.7,
+        "save_potential": 4.1,
+        "comment_trigger": 4.8,
+        "novelty": 4.6,
+        "source_alignment": 4.5,
+        "creator_brief_fit": 4.7,
+        "overall": 4.62
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "risk": "Doorway reunion can become stock romance fast.",
+        "repair": "Keep the frame before the reunion and avoid big hugs, bags, sunsets, or cinematic longing."
+      },
+      "failure_risks": [
+        "GENERIC_IDEA",
+        "VISUAL_ONLY_MOOD_WORDS"
+      ],
+      "risk_of_being_generic": "Medium if staged as a hug; low if staged as recognition before entry.",
+      "scores": {
+        "relatability": 4.8,
+        "emotional_truth": 4.7,
+        "specificity": 4.5,
+        "warmth": 4.7,
+        "everyday_visual_evidence": 4.6,
+        "brand_fit": 4.7,
+        "risk_of_stereotype_reversal": 5
+      }
+    },
+    {
+      "title": "The House Is Full, I Am The Empty Part",
+      "one_line_concept": "The room has everything it needs, but the person inside it looks slightly out of place, making the lyric about being an empty ghar feel physical instead of decorative.",
+      "emotional_truth": "You can be surrounded by your own things and still feel like the missing thing is you, because the person who makes you settle is not there.",
+      "relatable_trigger": "The viewer who has sat in a clean room, with nothing technically wrong, and still felt unable to land.",
+      "visual_evidence": "A made bed, a normal room, nothing broken; one partner sits on the floor or edge instead of using the room naturally, as if the house is ready but they are not.",
+      "suggested_slide_arc": {
+        "slide_count_recommendation": 2,
+        "slide_1": "The locked lyric sits over a room that looks complete except for the person who cannot settle inside it.",
+        "slide_2": "The note clarifies that the ache is not about the house lacking objects; it is about the speaker lacking the one person who makes them feel placed.",
+        "story_room_note": "This is the most inward option; keep it simple or it may become too heavy for a two-slide comfort post."
+      },
+      "suggested_slide_1_moment": "Aachu or Zuv sits awkwardly on the floor beside a bed or sofa they could easily use, making their own house feel unfamiliar.",
+      "suggested_payoff_moment": "The same room feels almost ready, but the viewer understands the last missing piece is the other person's presence.",
+      "share_or_comment_trigger": "Send trigger: 'This is how it feels when you're away.' Save trigger: people keep it for missing-them days.",
+      "why_not_generic": "It avoids the decorative empty house and instead makes the speaker's body the evidence of emptiness.",
+      "source_engine": {
+        "primary": "creator-provided Ghar lyric as copy anchor",
+        "source_winner_support": [
+          "rank 121 supports the simple home/person theme",
+          "local memory asks for physical emptiness in a place that otherwise has everything"
+        ],
+        "remix_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "what_stays": "The ache of emptiness without the person.",
+        "what_changes": "A Story makes the emptiness visible through posture and inability to settle."
+      },
+      "novelty_model": {
+        "old_familiar_topic": "A home feels empty without someone.",
+        "generic_rejected_version": "A lonely person by a window with a sad quote.",
+        "new_reveal": "The house is not empty; the speaker is the part that cannot settle.",
+        "viewer_outcome": "Viewers send it when they want to admit missing someone without sounding dramatic.",
+        "contrast_frame": "Everything in the room is in place except the person in it.",
+        "bullseye_proof": "Sitting on the floor beside usable furniture because comfort is absent.",
+        "urgency": "No external urgency; the pull is the ache.",
+        "what_not_to_explain": "Do not use therapy words about grounding, safety, or attachment."
+      },
+      "a_story_wrappers": [
+        "one-person frame allowed by A Story rules",
+        "domestic absence without prop comedy",
+        "comfort through the idea that the missing person places the speaker back into the world"
+      ],
+      "selection_scores": {
+        "sendability": 4.4,
+        "save_potential": 4.5,
+        "comment_trigger": 3.8,
+        "novelty": 4.5,
+        "source_alignment": 4.5,
+        "creator_brief_fit": 4.8,
+        "overall": 4.42
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "risk": "Can turn too poetic or therapy-page if the payoff explains the metaphor.",
+        "repair": "Keep the slide 2 note private and plain; let posture carry the abstract idea."
+      },
+      "failure_risks": [
+        "PREACHY_THERAPY_LANGUAGE",
+        "TOO_POLISHED"
+      ],
+      "risk_of_being_generic": "Medium; the body-position proof must be strong or it collapses into a sad-room quote.",
+      "scores": {
+        "relatability": 4.3,
+        "emotional_truth": 4.8,
+        "specificity": 4.2,
+        "warmth": 4.3,
+        "everyday_visual_evidence": 4.4,
+        "brand_fit": 4.6,
+        "risk_of_stereotype_reversal": 5
+      }
+    },
+    {
+      "title": "The Light Is Waiting, Not The Room",
+      "one_line_concept": "One partner leaves a small light on because the house looks wrong before the other person comes back, turning waiting into quiet care instead of loneliness.",
+      "emotional_truth": "You do small things for someone before they arrive because your mind has already made space for them.",
+      "relatable_trigger": "People who keep one light on, stay awake a little longer, or cannot fully shut the room down until their person is back.",
+      "visual_evidence": "A mostly settled room with one lamp or hallway light left on; one partner is awake but not performatively sad, oriented toward the place the other person will enter.",
+      "suggested_slide_arc": {
+        "slide_count_recommendation": 2,
+        "slide_1": "The locked lyric lands on the tiny light left for the absent person.",
+        "slide_2": "The note reveals the light is not about fear or decor; it is the house keeping itself ready for the person who makes it ghar.",
+        "story_room_note": "Use light as proof, not as a poetic metaphor. No golden cinematic glow."
+      },
+      "suggested_slide_1_moment": "Aachu or Zuv in a quiet night room, one small light left on toward the door or corridor.",
+      "suggested_payoff_moment": "The light becomes a visible way of saying the person is expected, missed, and still included.",
+      "share_or_comment_trigger": "Comment trigger: people admitting they keep one light on. Send trigger: 'I do this for you.'",
+      "why_not_generic": "It uses an ordinary waiting habit as proof instead of saying 'you are my safe place.'",
+      "source_engine": {
+        "primary": "creator-provided Ghar lyric as copy anchor",
+        "source_winner_support": [
+          "rank 121's short home/person engine",
+          "A Story outcome memory prioritizing sendable domestic receipts"
+        ],
+        "remix_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "what_stays": "The absence/presence condition of home.",
+        "what_changes": "A Story makes it a restrained night habit between Aachu and Zuv."
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Waiting for the person who feels like home.",
+        "generic_rejected_version": "A glowing room and a soft line about missing them.",
+        "new_reveal": "The house is not asleep because the person has not come back yet.",
+        "viewer_outcome": "Viewers send it as a tender confession that does not sound grand.",
+        "contrast_frame": "The house could be dark and done for the night, but one light says it is still expecting someone.",
+        "bullseye_proof": "The last small lamp or hallway light left on.",
+        "urgency": "Real time window: late-night waiting.",
+        "what_not_to_explain": "Do not say 'small gestures are love.' The light is the gesture."
+      },
+      "a_story_wrappers": [
+        "night waiting without melodrama",
+        "one restrained object serving the feeling",
+        "Aachu/Zuv's domestic care as emotional evidence"
+      ],
+      "selection_scores": {
+        "sendability": 4.5,
+        "save_potential": 4.2,
+        "comment_trigger": 4.4,
+        "novelty": 4.1,
+        "source_alignment": 4.3,
+        "creator_brief_fit": 4.5,
+        "overall": 4.33
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium",
+        "risk": "Light can become an overused soft-romance symbol.",
+        "repair": "Anchor the visual in the behavior of leaving it on for their return, not in mood."
+      },
+      "failure_risks": [
+        "VISUAL_ONLY_MOOD_WORDS",
+        "GENERIC_IDEA"
+      ],
+      "risk_of_being_generic": "Medium unless the waiting behavior is explicit and the room stays ordinary.",
+      "scores": {
+        "relatability": 4.5,
+        "emotional_truth": 4.5,
+        "specificity": 4.1,
+        "warmth": 4.7,
+        "everyday_visual_evidence": 4.4,
+        "brand_fit": 4.5,
+        "risk_of_stereotype_reversal": 5
+      }
+    },
+    {
+      "title": "The First Place You Look Is Empty",
+      "one_line_concept": "The ache of ghar is caught in the reflex of looking toward the one spot where the other person usually is, before remembering they are not there.",
+      "emotional_truth": "Absence hurts most in the automatic moments, before the brain has time to protect you.",
+      "relatable_trigger": "The habit of glancing at their chair, side of the bed, desk, balcony spot, or doorway even when you know they are away.",
+      "visual_evidence": "One partner enters or turns inside the room and instinctively looks toward the other person's usual spot, which is empty.",
+      "suggested_slide_arc": {
+        "slide_count_recommendation": 2,
+        "slide_1": "The locked lyric pairs with the first automatic glance toward an empty familiar spot.",
+        "slide_2": "The note softens the ache: the empty place hurts because the person is the first place the heart checks for home.",
+        "story_room_note": "This should be staged as a reflex, not as posing beside an empty chair."
+      },
+      "suggested_slide_1_moment": "Aachu or Zuv has just entered the room and is already looking toward the other person's usual spot before fully thinking.",
+      "suggested_payoff_moment": "The viewer understands that the person has become the first orientation point of the house.",
+      "share_or_comment_trigger": "Send trigger: 'I still look there first.' Comment trigger: people naming their person's usual spot.",
+      "why_not_generic": "It makes absence a reflexive action, not a decorative empty chair.",
+      "source_engine": {
+        "primary": "creator-provided Ghar lyric as copy anchor",
+        "source_winner_support": [
+          "rank 121 supports person-as-home appetite",
+          "illusion novelty lens asks for close proof and viewer outcome"
+        ],
+        "remix_mode": "permissioned_source_preserve_then_astory_wrapper",
+        "what_stays": "The person defines home.",
+        "what_changes": "A Story shows that definition through where the eyes go first."
+      },
+      "novelty_model": {
+        "old_familiar_topic": "Missing someone in the house.",
+        "generic_rejected_version": "An empty chair with sad text.",
+        "new_reveal": "The eyes search for the person before the mind remembers the absence.",
+        "viewer_outcome": "Viewers can send it because it names a private reflex.",
+        "contrast_frame": "The room has many things to look at; the first check is still their spot.",
+        "bullseye_proof": "Eyeline to a specific empty place.",
+        "urgency": "Momentary urgency: the split second of looking.",
+        "what_not_to_explain": "Do not explain that habits reveal love. Let the glance do it."
+      },
+      "a_story_wrappers": [
+        "eyeline as emotional proof",
+        "one empty familiar spot",
+        "private reflex between Aachu and Zuv"
+      ],
+      "selection_scores": {
+        "sendability": 4.6,
+        "save_potential": 4.1,
+        "comment_trigger": 4.6,
+        "novelty": 4.4,
+        "source_alignment": 4.4,
+        "creator_brief_fit": 4.6,
+        "overall": 4.45
+      },
+      "anti_slop_risk": {
+        "risk_level": "medium-low",
+        "risk": "Could become generic if the empty spot is not personal enough.",
+        "repair": "The story room should choose a spot that feels recurring in Aachu/Zuv's life, not a random chair."
+      },
+      "failure_risks": [
+        "SCENE_LOGIC_CONTRADICTION",
+        "GENERIC_IDEA"
+      ],
+      "risk_of_being_generic": "Low to medium; it depends on making the spot feel habitual, not symbolic.",
+      "scores": {
+        "relatability": 4.7,
+        "emotional_truth": 4.6,
+        "specificity": 4.4,
+        "warmth": 4.5,
+        "everyday_visual_evidence": 4.6,
+        "brand_fit": 4.6,
+        "risk_of_stereotype_reversal": 5
+      }
+    }
+  ],
+  "top_pick": {
+    "title": "Your Side Still Stays Yours",
+    "why_meera_picks_it": "It has the smallest real behavior and the cleanest photographic proof. A stranger could say 'home is a person'; only someone who has missed their person keeps sitting on one half of a shared place when nobody is there to notice.",
+    "score": 4.75,
+    "protect_this": [
+      "the reserved side as the emotional receipt",
+      "the two-slide restraint",
+      "slide 2 as a private note, not a lesson",
+      "absence that feels comforting because the person still belongs"
+    ],
+    "if_it_starts_feeling_flat": "Make the body behavior more obvious before changing the copy: the alone partner must visibly avoid taking the other person's place."
+  },
+  "rejected_patterns": [
+    {
+      "pattern": "Empty-room quote card",
+      "why_rejected": "It proves nothing except that a room is empty. The viewer needs a human receipt, not decor around a lyric.",
+      "failure_codes": [
+        "GENERIC_IDEA",
+        "VISUAL_ONLY_MOOD_WORDS"
+      ]
+    },
+    {
+      "pattern": "Home is not a place, it is you",
+      "why_rejected": "This is the known generic version. It explains the premise and gives the viewer no reason to send it except agreement.",
+      "failure_codes": [
+        "AI_SLOP_COPY_DRIFT",
+        "TOO_POLISHED"
+      ]
+    },
+    {
+      "pattern": "Cinematic hug at the doorway",
+      "why_rejected": "Too easy, too stock, and it erases the more interesting ache before the person arrives.",
+      "failure_codes": [
+        "GENERIC_IDEA"
+      ]
+    },
+    {
+      "pattern": "Object-led domestic cleverness",
+      "why_rejected": "The copy contract explicitly warns against making random objects lead the premise. Objects can prove the behavior, not become the hook.",
+      "failure_codes": [
+        "ORIGINAL_SETUP_DRIFT"
+      ]
+    },
+    {
+      "pattern": "Therapy-page safety explanation",
+      "why_rejected": "Words like safety, grounding, attachment, and healing would flatten the song ache into a lesson.",
+      "failure_codes": [
+        "PREACHY_THERAPY_LANGUAGE"
+      ]
+    }
+  ],
+  "risk_notes": [
+    "The core theme already exists in the winner bank, so novelty must come from the Aachu/Zuv lived wrapper, not from smoother phrasing.",
+    "The creator requested two slides; do not expand unless the story room finds one genuinely necessary extra receipt.",
+    "Only the creator-provided lyric is allowed. No additional song lyrics should appear in any later slide, prompt, caption, or QA note.",
+    "The strongest candidates use absence, but absence must be readable as devotion and belonging, not abandonment or grief.",
+    "Final image work remains blocked by later identity/reference gates; this artifact is idea-stage only."
+  ],
+  "failure_codes": {
+    "active": [],
+    "watch": [
+      "AI_SLOP_COPY_DRIFT",
+      "GENERIC_IDEA",
+      "ORIGINAL_SETUP_DRIFT",
+      "SHARE_TRIGGER_MISSING",
+      "VISUAL_ONLY_MOOD_WORDS",
+      "PREACHY_THERAPY_LANGUAGE",
+      "SCENE_LOGIC_CONTRADICTION"
+    ]
+  }
+}

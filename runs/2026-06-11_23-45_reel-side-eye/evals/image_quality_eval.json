@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-11_23-45_reel-side-eye",
+  "timestamp": "2026-06-12T23:36:30+05:30",
+  "status": "blocked",
+  "hard_gate_result": "rejected_after_creator_review",
+  "creator_feedback": [
+    "No yellow; candidates have yellow/parchment cast.",
+    "Face consistency failed.",
+    "Real face match failed despite supplied references.",
+    "Visual style reads anime/cartoon/generic rather than approved A Story style."
+  ],
+  "candidates_reviewed": [
+    {
+      "slide": 1,
+      "path": "runs/2026-06-11_23-45_reel-side-eye/images/slide_01_4x5_attempt_01_candidate.png",
+      "status": "rejected_after_creator_review",
+      "failure_codes": [
+        "YELLOW_PAPER_CAST",
+        "IDENTITY_DRIFT",
+        "STYLE_DRIFT"
+      ],
+      "review_notes": "Paper/background is yellow/parchment-heavy. Faces are generic illustrated approximations and do not match Aachu/Zuv references. Overall style is not acceptable as final A Story artwork."
+    },
+    {
+      "slide": 2,
+      "path": "runs/2026-06-11_23-45_reel-side-eye/images/slide_02_4x5_attempt_01_candidate.png",
+      "status": "rejected_after_creator_review",
+      "failure_codes": [
+        "YELLOW_PAPER_CAST",
+        "IDENTITY_DRIFT",
+        "STYLE_DRIFT"
+      ],
+      "review_notes": "Paper/background is yellow/parchment-heavy. Faces are generic illustrated approximations and do not match Aachu/Zuv references. Style is anime/cartoon-adjacent and violates the hard reject list."
+    }
+  ],
+  "root_cause_summary": [
+    "The active view_image queue used 1200x900 reference-binder contact sheets, not the raw high-resolution identity/style photos. Each identity photo was reduced to a 260x260 thumbnail inside a labeled sheet, weakening face-match signal.",
+    "The QA gate proved binder visibility but did not prove that the active generation path used high-fidelity identity inputs strongly enough to satisfy real face matching.",
+    "The prompt repeated warm/yellow-prone concepts such as warm lamplight, warm glow, warm ivory, paper grain, camel/tan, terracotta, and vintage palette. The negative 'no yellow' instruction was present but lost against stronger positive warm-scene/style cues.",
+    "The prompt over-combined identity, style, scene, typography, palette, brandmark, and negative constraints in one long request; imagegen optimized for an appealing generic watercolor scene and text accuracy instead of strict identity preservation.",
+    "Operator error: slide 1 already showed hard-reject failures, but generation continued to slide 2 instead of immediately blocking and recording Image QA rejection."
+  ],
+  "blocked_failure_codes": [
+    "YELLOW_PAPER_CAST",
+    "IDENTITY_DRIFT",
+    "STYLE_DRIFT",
+    "PROMPT_OVERLOAD"
+  ],
+  "retry_allowed_without_pipeline_repair": false,
+  "required_repair_before_retry": [
+    "Use raw selected Aachu/Zuv face anchors as first-class visible image inputs, not only binder contact sheets, or mark IDENTITY_REFERENCE_INPUT_UNPROVEN.",
+    "Reduce warm/yellow language and require neutral white/off-white paper with no lamp wash bleeding into background.",
+    "Add a preflight output-quality gate that rejects yellow/anime/generic faces after the first candidate and prevents continuing the batch.",
+    "Separate identity-lock prompt from style/scene prompt or otherwise give identity references stronger generation priority."
+  ],
+  "final_exports_created": false
+}

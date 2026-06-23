@@ -1,0 +1,76 @@
+{
+  "agent_role": "Shareability Strategist / Kabir",
+  "mode": "local_pass",
+  "method_note": "Each candidate names who sends it and what social risk the sender is outsourcing to the post.",
+  "candidates": [
+    {
+      "id": "kabir_01_compliment_failed",
+      "title": "Compliment Failed Successfully",
+      "emotional_engine": "patao incompetence",
+      "suggested_text_hook": "he had a compliment ready. his mouth chose weather.",
+      "raw_situation": "Zuv rehearses something smooth, Aachu appears, and he panics into the least romantic sentence possible.",
+      "why_people_may_share": "A girl sends it to the guy who tries to flirt and becomes a malfunctioning person. A guy sends it to confess, 'this is me, unfortunately.'",
+      "why_people_may_comment": "People will confess their worst almost-flirts and awkward first-date lines.",
+      "likely_audience_reaction": "Laugh, cringe, then soften because the failure proves he cared enough to panic.",
+      "visual_evidence": "Kitchen or hallway: Zuv rehearsing with a spoon/phone reflection, Aachu enters, he blurts something painfully practical or weather-related while the prepared compliment dies in his face.",
+      "scores": {
+        "shareability": 4.9,
+        "comment_potential": 4.8,
+        "save_potential": 3.8,
+        "swipe_through_curiosity": 4.6,
+        "simplicity": 4.7,
+        "hook_strength": 4.9,
+        "freshness": 4.6,
+        "brand_fit": 4.5
+      }
+    },
+    {
+      "id": "kabir_02_not_waiting",
+      "title": "Not Waiting, Obviously",
+      "emotional_engine": "new-love surveillance",
+      "suggested_text_hook": "i was not waiting for his text. i was just holding my phone emotionally.",
+      "raw_situation": "New love stage: both are pretending not to wait for the other person's message, while their whole evening is built around that tiny notification.",
+      "why_people_may_share": "Girls and guys can both send it as a confession without saying 'I miss you.'",
+      "why_people_may_comment": "Comments become 'me refreshing WhatsApp' / 'the phone was in my hand for academic reasons.'",
+      "likely_audience_reaction": "New-love recognition, mild embarrassment, high sendability.",
+      "visual_evidence": "Split but same-room-feel composition: Aachu holding phone upside down while pretending to read; Zuv staring at a silent phone while pretending to work.",
+      "scores": {
+        "shareability": 4.8,
+        "comment_potential": 4.7,
+        "save_potential": 4.2,
+        "swipe_through_curiosity": 4.3,
+        "simplicity": 4.8,
+        "hook_strength": 4.8,
+        "freshness": 4.0,
+        "brand_fit": 4.5
+      }
+    },
+    {
+      "id": "kabir_03_last_bite_court",
+      "title": "The Last Bite Court Case",
+      "emotional_engine": "petty married war",
+      "suggested_text_hook": "no one ate the last bite. it simply disappeared with witnesses.",
+      "raw_situation": "One last bite is gone. Both are innocent. Both have evidence. The relationship briefly becomes a courtroom.",
+      "why_people_may_share": "Married and live-in couples send it because food theft is a daily legal system.",
+      "why_people_may_comment": "People will tag the partner who always says 'I only took a little.'",
+      "likely_audience_reaction": "Instant everyday recognition; more funny than tender unless the payoff softens.",
+      "visual_evidence": "Dining table, one plate with a missing last bite, two over-serious expressions, maybe a fork held like evidence.",
+      "scores": {
+        "shareability": 4.6,
+        "comment_potential": 4.9,
+        "save_potential": 3.4,
+        "swipe_through_curiosity": 4.2,
+        "simplicity": 4.9,
+        "hook_strength": 4.5,
+        "freshness": 3.9,
+        "brand_fit": 4.1
+      }
+    }
+  ],
+  "top_pick": "kabir_01_compliment_failed",
+  "engagement_rationale": "The failed-compliment idea has a sender on both sides and a clean confession payload: 'I like you, but I am not smooth.'",
+  "distribution_risks": [
+    "Texting/waiting ideas can feel familiar unless the visual is very specific.",
+    "Food-court jokes are commentable but may be less premium."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "run_id": "2026-06-23_im-fine-first-move",
+  "schema": "astory.handoff.v1-lean",
+  "lane": "illustrated-story",
+  "story": {
+    "unsaid_feeling": "I say 'I'm fine' because I'm afraid no one will notice I'm not. I want to be with someone who hears the lie and stays anyway.",
+    "engine": "C — direct send-spec (Be with someone who ___)",
+    "origin": "originate-from-true-feeling",
+    "turn": "'I'm fine' is reframed from the smallest everyday lie into the highest standard of love: someone who reads what you don't say.",
+    "receipt": "the unasked chai — he set a cup by her hand without being asked",
+    "target_behavior": "send (to the one person who reads you) + save (aspirational standard)",
+    "length": 1,
+    "baseline_to_beat": "Find someone who understands you without saying a word. Real love is being seen for who you truly are. — soft solo portrait, no scene, no receipt, no turn."
+  },
+  "render": {
+    "engine": "codex-imagegen",
+    "canvas": "1080x1350 px portrait",
+    "one_at_a_time": true,
+    "save_candidates_to": "runs/2026-06-23_im-fine-first-move/images/",
+    "save_accepted_to": "runs/2026-06-23_im-fine-first-move/exports/"
+  },
+  "view_image_queue": {
+    "note": "Make ALL of these visible via view_image in the conversation BEFORE imagegen. Raw multi-angle face anchors are first-class active inputs. NO binders / contact sheets.",
+    "aachu_face_identity": [
+      "references/identity/aachu/aachu-face-front-green-tee-smile-2026-06-18-01.jpg",
+      "references/identity/aachu/aachu-face-three-quarter-cafe-down-glance-2026-06-18-01.jpg",
+      "references/identity/aachu/aachu-face-side-bridal-glance-2026-06-18-01.jpg",
+      "references/identity/aachu/aachu-face-front-home-black-2026-06-18-01.jpg"
+    ],
+    "zuv_face_identity": [
+      "references/identity/zuv/zuv-face-front-black-outfit-full-2026-06-18-01.jpg",
+      "references/identity/zuv/zuv-face-three-quarter-blue-overshirt-selfie-2026-06-18-01.jpg",
+      "references/identity/zuv/zuv-face-side-indoor-white-tee-2026-06-18-01.jpg",
+      "references/identity/zuv/zuv-face-front-hand-hair-blue-overshirt-2026-06-18-01.jpg"
+    ],
+    "style_refs": [
+      "references/style/best-illustration/slide-01.png",
+      "references/style/best-illustration/slide-02.png",
+      "references/style/best-illustration/slide-07.png"
+    ]
+  },
+  "on_image_text": {
+    "primary": "Be with someone who reads the \"I'm fine\" you don't mean.",
+    "hinglish_variant": "Be with someone who reads the \"main theek hoon\" you don't mean.",
+    "rules": "Render EXACTLY as written, including quotes, apostrophe, capitalization. Romanized only (Devanagari fails). No extra words, no labels, no speech bubbles."
+  },
+  "paste_prompt": "Premium hand-drawn romantic editorial watercolor-and-ink illustration, native 1080x1350 px portrait. Use the loaded raw face anchors as the highest-priority identity reference: this is Aachu (woman) and Zuv (man) — preserve eye shape, eyebrow shape, nose, lips, jawline, cheek structure, hairline, skin tone, hairstyle, beard shape, and body type exactly. Do NOT merge their features, invent new faces, over-beautify into different people, or change ethnicity/age/proportions. The scene drives the pose; never copy any single anchor's pose or expression. SCENE: a warm evening living room, the two of them on a sofa. Aachu sits in the lower-middle of the frame, turned slightly away, knees drawn in toward herself, gaze lowered — the quiet, guarded posture of someone who just said 'I'm fine' and didn't mean it. Zuv sits close beside her, his body angled toward her, eyes reading her face with quiet attention; without being asked he has already set a small steaming cup of chai on the side table right by her hand, and his other hand rests gently near hers. The unspoken care is the point: he heard the lie and answered it before she finished. Use a fresh intimate domestic frame (slightly wide / over-the-shoulder), NOT a flat sideways two-face close-up. STYLE: soft transparent watercolor blooms, fine ink and pencil linework, warm neutral ivory / off-white paper with visible paper grain, delicate sketch texture, gentle crosshatching, imperfect organic edges, soft faded edges. It must feel intimate, tender, cozy, editorial, emotionally warm and premium — not a generic AI watercolor, quote-card, poster, anime, 3D render, flat vector, photoreal portrait, or cartoon. PALETTE: warm ivory and soft off-white paper; allowed light accents — muted denim blue, soft navy, faded sage, peach blush, dusty coral, warm camel used sparingly. AVOID yellow, mustard, sepia, tan/beige dominance, parchment, coffee-stain, heavy cream, neon, harsh contrast, glossy digital finish. COMPOSITION: couple in lower / middle-lower canvas; leave generous warm negative space in the upper-middle for the text. TEXT (render exactly, integrated as polished hand-drawn typography in the upper-middle negative space): Be with someone who reads the \"I'm fine\" you don't mean. — preserve spelling, quotes, apostrophe and capitalization; add no other words, letters, labels, UI, or speech bubbles. BRANDMARK: tiny low-contrast handwritten @a.storyof.two in the top-right corner, part of the artwork. OUTPUT: native 1080x1350 px portrait only — no square, 1:1, 9:16, or 1080x1080 surface.",
+  "avoid": [
+    "yellow/mustard/sepia/tan/parchment paper cast",
+    "solo figure or only one person",
+    "both subjects facing the camera / posed portrait",
+    "her smiling brightly (contradicts the line)",
+    "square, 1:1, 9:16, 1080x1080",
+    "photorealistic, 3D, anime, flat vector, quote-card, poster",
+    "speech bubbles, UI chrome, captions, watermarks other than the brandmark",
+    "Devanagari script; random or extra letters; misspelled text",
+    "merged or invented faces; over-beautified different people",
+    "second prop competing with the chai"
+  ],
+  "vision_judge": {
+    "who": "Claude (Opus 4.8) looks at the rendered PNG",
+    "max_retries": 3,
+    "feeling": "Does the frame show the gap — she is clearly not fine, and he already knows / has already acted? Is the chai the readable receipt?",
+    "failure_corpus": "Not the solo 'AI mood-portrait' flop register; no yellow cast; faces are recognizably Aachu & Zuv (not invented/merged); romanized text not Devanagari; exactly 1080x1350.",
+    "house_style": "Watercolor-and-ink finish, ivory palette, generous upper-middle negative space, brandmark present top-right.",
+    "taste_north_star": "Two people interacting + a turn + one specific receipt + earns the send; visibly beats the plain-LM baseline.",
+    "mechanical": [
+      "on-image text rendered exactly and readable",
+      "canvas exactly 1080x1350",
+      "both faces present and identity-preserved",
+      "brandmark @a.storyof.two present top-right"
+    ]
+  }
+}

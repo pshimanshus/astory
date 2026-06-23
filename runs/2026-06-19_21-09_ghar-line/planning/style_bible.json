@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-06-19_21-09_ghar-line",
+  "iteration": "iteration_02_girls_pov_crowded_cafe_no_comeback",
+  "style_status": "ready_after_visibility_proof",
+  "reference_paths": [
+    "references/style/best-illustration/encoded-check-000.png",
+    "references/style/best-illustration/road-trip-best-reduced-tan-50-4x5.png",
+    "references/style/best-illustration/slide-01.png"
+  ],
+  "illustration_style": "premium hand-drawn romantic watercolor-and-ink editorial illustration",
+  "palette": [
+    "neutral white/off-white paper",
+    "muted denim blue",
+    "soft navy",
+    "faded sage",
+    "peach blush",
+    "dusty coral used lightly"
+  ],
+  "paper_rule": "neutral white/off-white only; no yellow, mustard, sepia, parchment, beige/tan dominance, coffee-stained, or heavy cream cast",
+  "line_quality": "fine ink and pencil linework with natural variation",
+  "background_style": "soft cafe/friends environment fading into paper; background figures stay secondary and anonymous",
+  "texture": "visible paper grain, transparent watercolor blooms, soft faded edges",
+  "text_style": "readable hand-drawn charcoal typography baked into the image",
+  "brandmark_rule": "tiny low-contrast handwritten @a.storyof.two top-right",
+  "negative_style_rules": [
+    "no quote-card/poster design",
+    "no generic sad-girl-in-crowd poster",
+    "no generic AI watercolor",
+    "no anime, cartoon, doll/model face, flat vector, or photorealism",
+    "no extra words, random letters, captions, speech bubbles, UI, or labels",
+    "do not copy tan/brown dominance, boxed brandmark, or bottom-right brandmark placement from style references"
+  ]
+}

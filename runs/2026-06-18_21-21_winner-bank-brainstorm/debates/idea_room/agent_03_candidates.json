@@ -1,0 +1,53 @@
+{
+  "agent_role": "Visual Story Director",
+  "agent_id": "019edb6f-38b0-7fc0-97e7-1ef5dc37f9f7",
+  "nickname": "McClintock",
+  "top_pick": "she said main ja rahi hoon... barefoot",
+  "top_patterns": [
+    {
+      "title": "she said main ja rahi hoon... barefoot",
+      "exact_first_slide_text": "she said 'main ja rahi hoon'... barefoot.",
+      "source_engine": "owned DYJpjt9CQYY emotional chaos/Hinglish/patience + staying-to-figure-it-out contradiction",
+      "first_frame_visual": "Open apartment door, Aachu half outside barefoot, abandoned chappals large in foreground, Zuv sitting inside holding one chappal.",
+      "visual_proof_object": "abandoned chappals",
+      "suggested_slide_count": 7,
+      "payoff_frame": "Aachu wearing the chappals, sitting beside Zuv at the doorway; he offers water without a speech.",
+      "visual_score": 4.5
+    },
+    {
+      "title": "the spoon he exiled",
+      "exact_first_slide_text": "he remembers the spoon i hate.",
+      "source_engine": "owned DY4tGrQCXRA listening + DY_t4Dek0pq tiny unnoticed details",
+      "first_frame_visual": "Dining table; Zuv quietly removes one bent spoon from Aachu's place.",
+      "visual_proof_object": "the hated bent spoon",
+      "suggested_slide_count": 5,
+      "payoff_frame": "Zuv eats with the bent spoon himself while Aachu uses the good one.",
+      "visual_score": 4.6
+    },
+    {
+      "title": "my things moved in before i did",
+      "exact_first_slide_text": "my things moved in before i did.",
+      "source_engine": "home-as-person grounded in objects + DY_t4Dek0pq observational intimacy",
+      "first_frame_visual": "A second toothbrush cup, hair tie, snack drawer, charger, and slippers slowly occupying Zuv's place.",
+      "visual_proof_object": "second toothbrush cup and hair tie",
+      "suggested_slide_count": 5,
+      "payoff_frame": "Aachu's bag unopened near the door, but all her small things already have places.",
+      "visual_score": 4.75
+    },
+    {
+      "title": "3:07 am are you awake",
+      "exact_first_slide_text": "3:07 am: 'are you awake?' he was right there.",
+      "source_engine": "3am message-native awkwardness + DYJpjt9CQYY silence-needs-softness",
+      "first_frame_visual": "Aachu awake beside sleeping Zuv, one large phone line visible, blanket gap between them.",
+      "visual_proof_object": "phone glow with one large unsent line",
+      "suggested_slide_count": 6,
+      "payoff_frame": "Morning phone face down, hands loosely connected between pillows.",
+      "visual_score": 4.25
+    }
+  ],
+  "visual_risks": [
+    "No microtext fake chats.",
+    "Bed scenes need simple limb geometry.",
+    "Object-led ideas still need enough Aachu/Zuv identity anchors before imagegen."
+  ]
+}

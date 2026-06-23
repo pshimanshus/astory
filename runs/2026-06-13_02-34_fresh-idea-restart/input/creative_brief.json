@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-06-13_02-34_fresh-idea-restart",
+  "raw_input": "lets start fresh idea",
+  "idea_mode": "fresh_restart",
+  "core_idea": "Generate fresh A Story of Two carousel concepts after rejecting the prior care/logistics/usefulness cluster.",
+  "tone": "intimate, funny, soft, emotionally warm, premium, observational, but allowed to be messy, teasing, awkward, petty, and new-love nervous",
+  "target_audience": "people who send relationship posts to their partner because the scene exposes a private behavior they recognize",
+  "must_include": [
+    "a concrete lived behavior or incident, not a relationship lesson",
+    "distinct emotional engines across candidates",
+    "stageable visual proof",
+    "a send reason from girl-to-guy, guy-to-girl, new-love, or married-couple everyday conflict"
+  ],
+  "hard_rejects_for_this_restart": [
+    "care hidden in logistics",
+    "he remembers / she remembers as the main idea",
+    "usefulness as flirting",
+    "healthy relationship advice",
+    "be with someone",
+    "he did not marry / she did not marry hook shapes",
+    "tag your person hook shapes",
+    "coffee theft",
+    "hoodie theft",
+    "missed texts or reels",
+    "men cannot find things",
+    "love-language lists",
+    "one partner as fool and the other as saint",
+    "multiple candidates with the same emotional engine"
+  ],
+  "desired_process": "raw situations first, hooks second, scoring only after variety is proven",
+  "platform": "instagram",
+  "requested_surface": "idea shortlist only",
+  "initial_slide_count_preference": "story_led"
+}

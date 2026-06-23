@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-06-15_19-09_plate-nervous",
+  "scene_discussion_status": "ready",
+  "slides": [
+    {
+      "slide_number": 1,
+      "exact_on_image_text": "he said \"i'm not hungry\"\nso why is my plate nervous?",
+      "visual_proof_needed": "The plate must look emotionally endangered before Zuv takes anything.",
+      "scene_options": [
+        {
+          "scene_option_id": "1A",
+          "scene_type": "safe_classic",
+          "environment": "living-room sofa with plate between them",
+          "camera_distance": "medium two-shot",
+          "camera_angle": "front three-quarter",
+          "face_visibility_plan": "both faces readable; Aachu closer to viewer",
+          "prop_read": "plate visible at lower center",
+          "main_risk": "could become generic couple-on-sofa",
+          "overall_score": 3.8,
+          "verdict": "reject"
+        },
+        {
+          "scene_option_id": "1B",
+          "scene_type": "fresh_observed",
+          "environment": "low living-room floor/rug with a small side table and one plate",
+          "camera_distance": "medium-wide two-shot",
+          "camera_angle": "slightly high front three-quarter, phone-screen-scroll native",
+          "face_visibility_plan": "Aachu's face readable front/three-quarter; Zuv visible behind/side with clear eyes toward plate",
+          "prop_read": "Aachu holds plate close with one hand; Zuv's phone is a fake distraction; fries/snack clearly visible",
+          "main_risk": "hands must remain simple and anatomically believable",
+          "overall_score": 4.6,
+          "verdict": "select"
+        },
+        {
+          "scene_option_id": "1C",
+          "scene_type": "risky_interesting",
+          "environment": "top-down bed snack scene",
+          "camera_distance": "overhead medium",
+          "camera_angle": "top-down",
+          "face_visibility_plan": "faces less readable, identity risk",
+          "prop_read": "plate is strong but faces weaken",
+          "main_risk": "identity preservation too weak for final Aachu/Zuv art",
+          "overall_score": 3.5,
+          "verdict": "reject"
+        }
+      ],
+      "selected_scene_option_id": "1B",
+      "selection_reason": "It proves the line with the guarded plate and betrayed eyeline while keeping both faces visible and avoiding the stale close-up romance composition.",
+      "rejected_scene_memory": [
+        "Do not stage a generic sofa cuddle.",
+        "Do not use top-down faces if identity has to matter.",
+        "Do not add an actual bite theft yet; slide 1 is pre-theft tension."
+      ]
+    }
+  ]
+}

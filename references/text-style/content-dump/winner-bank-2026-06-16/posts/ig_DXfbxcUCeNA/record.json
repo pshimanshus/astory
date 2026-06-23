@@ -1,0 +1,137 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXfbxcUCeNA:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-phl2-1.cdninstagram.com/v/t51.82787-15/671119899_18585735970000418_2250302301159631528_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-phl2-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gE8c5D9t1sf7-SJqXuwQdBx0p45gNqKsiZuqo7MNZixHedZmsL0oqOt9drO2d0kSBQ&_nc_ohc=KhVGH-Bkk60Q7kNvwGzutFP&_nc_gid=jHctm58p-srAoli61FUO9g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-7ySJrLVhUotkyNHqxjOk-Fj1f7C6k1uth4W8MQgrr6w&oe=6A345E2F&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXfbxcUCeNA:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXfbxcUCeNA:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "we don’t say “i love you” enough",
+    "word_count": 8
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️❤️",
+    "latest_comments": [
+      "❤️❤️❤️",
+      "@fitrirumodar Tell them you love them, you getting old. 😜",
+      "We die once we live everyday 🫡",
+      "I love you.",
+      "Wear sunscreen",
+      "wow",
+      "This coming Monday will make 10 years since I lost my childhood dog and the most intense regret I had was that I EVER let a day go by without telling her I loved her or cuddling with her. I’ve never gone a day without doing those things with all animals since.",
+      "@its.aditya.arch Sorry darling… I am Asian, Melanesian too.. We never getting old.. 🤣"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXfbxcUCeNA",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXfbxcUCeNA/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXfbxcUCeNA/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXfbxcUCeNA",
+  "metrics": {
+    "comments": 77,
+    "likes": 142911,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 146376.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-04-23T22:35:54.000Z",
+  "published_label": null,
+  "rank": 75,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXfbxcUCeNA",
+  "source_url": "https://www.instagram.com/p/DXfbxcUCeNA/"
+}

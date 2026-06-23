@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "alex aubrey",
+    "instagram_user_id": null,
+    "username": "alexaubreypoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZYmwjjvRtJ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-xxc1-1.cdninstagram.com/v/t51.71878-15/716110245_4397010157249302_8576981863950946955_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-xxc1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gECxcsU9mhx-n1-WZvuNp01jbSUqG2kMx18az9uK4Dz9jRYHaP8gPE7fRmnVpsQOeM&_nc_ohc=96vO0XYn8RwQ7kNvwEHEXsA&_nc_gid=T95TTWxUSu1Se1lJOZDvPg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-Ka5x5gGtZz_PbCbDaiMq5OG0sN-ImOOh8S36zWxSuzA&oe=6A3489AC&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my poetry book “learning to love myself”, available on amazon",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "✨",
+    "latest_comments": [
+      "✨",
+      "💖✨💖✨💖",
+      "I’m proud of who you are becoming❣️",
+      "Completely agree, are you better than yesterday? You are doing well 🔥"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZYmwjjvRtJ",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZYmwjjvRtJ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZYmwjjvRtJ",
+  "metrics": {
+    "comments": 4,
+    "likes": 678,
+    "plays": 30417,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 7029,
+    "winner_score": 1104.02
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T00:00:09.000Z",
+  "published_label": null,
+  "rank": 673,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZYmwjjvRtJ",
+  "source_url": "https://www.instagram.com/p/DZYmwjjvRtJ/"
+}

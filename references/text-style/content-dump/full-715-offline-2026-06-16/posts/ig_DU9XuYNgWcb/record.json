@@ -1,0 +1,98 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DU9XuYNgWcb:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-1.cdninstagram.com/v/t51.82787-15/639830678_18564423373039494_7709830913105322810_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gE11koUEopHyBgCKL95iwLxdejkmDjDoqFqwxsNBV4IqdDlLjoLOei0F2XBGrFeNp8&_nc_ohc=BIBycgg66cMQ7kNvwHnp0n3&_nc_gid=2WX7OdVQUmgA_Sxr7ZB-WQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-DgZLoocU1QqTqc5pJomHKWmOG-3CtPYKTH-DkE4jumg&oe=6A3473E9&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "before you walk out that door, always change your contact name in his phone",
+    "word_count": 14
+  },
+  "communication_seed": {
+    "first_comment": "@textsfromyourex check your DMs",
+    "latest_comments": [
+      "@textsfromyourex check your DMs",
+      "Hey, I recently wrote a humorous book about the absurdities of online dating called From Dial-Up to Swiped Out. It looks at everything from AOL chat rooms to modern app culture — the archetypes, weird dates, and patterns we all recognize.\n\nI thought it might resonate with your audience.",
+      "🤷🏻‍♀️",
+      "😂",
+      "🙃🙃"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DU9XuYNgWcb",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DU9XuYNgWcb/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DU9XuYNgWcb",
+  "metrics": {
+    "comments": 14,
+    "likes": 1300,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1930.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-02-20T00:03:57.000Z",
+  "published_label": null,
+  "rank": 635,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DU9XuYNgWcb",
+  "source_url": "https://www.instagram.com/p/DU9XuYNgWcb/"
+}

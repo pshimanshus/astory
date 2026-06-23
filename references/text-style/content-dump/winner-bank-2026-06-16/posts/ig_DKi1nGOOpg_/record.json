@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DKi1nGOOpg_:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/503438014_18510347032039494_4654029855689537281_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gEzAEC5vKuWX-JOu0BMaoS6pzdHXrtJj1vlSljvdP6O_JWAHhyqYuOaLZXwUOuQnEU&_nc_ohc=9_zrBI7k69kQ7kNvwGboN4J&_nc_gid=Wlctl4h4UgcGZZLsrvuCQQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8TbWGpFn7lRwfp06wvBdI2ZEBjc5UF_h7QsXNC8PQCtw&oe=6A348BC6&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "it’s just a spelling error I guess",
+    "word_count": 8
+  },
+  "communication_seed": {
+    "first_comment": "HAHAHAH🔥",
+    "latest_comments": [
+      "HAHAHAH🔥",
+      "Some of us do have a 6th sense 🤨🤨🤨",
+      "😂😂",
+      "😭",
+      "To be fair, the difference between psychic and psychotic is not that significant.",
+      "I think it’s your 5th sense, bro cause it already ended. 😂",
+      "Guaranteed red flag: “I seen...”"
+    ],
+    "mechanic_tags": [
+      "static",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DKi1nGOOpg_",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DKi1nGOOpg_/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DKi1nGOOpg_/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DKi1nGOOpg_",
+  "metrics": {
+    "comments": 28,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1260.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-06-06T03:31:16.000Z",
+  "published_label": null,
+  "rank": 156,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DKi1nGOOpg_",
+  "source_url": "https://www.instagram.com/p/DKi1nGOOpg_/"
+}

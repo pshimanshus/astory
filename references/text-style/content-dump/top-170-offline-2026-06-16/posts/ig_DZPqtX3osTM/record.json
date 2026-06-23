@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "𝐋𝐄𝐕𝐈𝐒𝐍𝐂𝐎𝐅𝐅𝐄𝐄 || Vintage Glamour & Quotes 🥃",
+    "instagram_user_id": null,
+    "username": "levisncoffee"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZPqtX3osTM:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.frst1-1.fna.fbcdn.net/v/t51.82787-15/717168779_18424224547134585_3801672298078724254_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.frst1-1.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gE6XHlm5iREHT1RdbY39_OmfZoDcr0BOpvoQnJ3wtNzHk_rTs2luOjiymhAsYCg12E&_nc_ohc=tb_MFJ3HhJ8Q7kNvwFFNeKa&_nc_gid=Dj1yj4HuoECVczjxcT1ZAA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_nUv7kRl1J1h-lq0BvJQBs31T9ypb3ih3HqkgFSBbmlA&oe=6A345916&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "typewriterquotes",
+      "vintageaesthetics",
+      "quotesandsaying",
+      "quotesoftheday",
+      "levisncoffee"
+    ],
+    "public_preview": null,
+    "text": "I’m outstanding 😎 What about you? \n\n#typewriterquotes #vintageaesthetics #quotesandsaying #quotesoftheday #levisncoffee",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "🌞 🙌",
+    "latest_comments": [
+      "🌞 🙌",
+      "Love the wit😂",
+      "@byjuliefaulkner ✨☀️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DZPqtX3osTM",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DZPqtX3osTM/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZPqtX3osTM",
+  "metrics": {
+    "comments": 4,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 180.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-06T12:44:41.000Z",
+  "published_label": null,
+  "rank": 166,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZPqtX3osTM",
+  "source_url": "https://www.instagram.com/p/DZPqtX3osTM/"
+}

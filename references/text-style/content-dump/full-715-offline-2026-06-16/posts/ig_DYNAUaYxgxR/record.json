@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYNAUaYxgxR:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/688549685_1522600432840484_3527911299194584262_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGMfrJBc2QNuxQJsBic1WLmevZ6N-lrZJ8-YW5n35tfYoix6tbPM0QSCLhuNVzSZwY&_nc_ohc=OEot2K4GLpsQ7kNvwHvEObC&_nc_gid=lF63zjR6mrnkYuaHKLW1Ug&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af86Vpu6_W0vTJUmiEsZjidDC3icsWLJ_AruBQ4UWAiUwg&oe=6A3477A1&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "If your heart has been hurting lately, read this slowly ❤️ You can find a copy of this book on our website or on Amazon ‘Stay Single’ by Rebecca Simon.",
+    "word_count": 29
+  },
+  "communication_seed": {
+    "first_comment": "It’s amazing I am seeing this ❤️. \nThis has been the disposition of my mind. Every experience is want to teach you something. It is meant to help you understand your needs better. In the end, you don’t lose anything as it may seem…you gain a wealth of wisdom and understanding. Thank you for this post❤️",
+    "latest_comments": [
+      "It’s amazing I am seeing this ❤️. \nThis has been the disposition of my mind. Every experience is want to teach you something. It is meant to help you understand your needs better. In the end, you don’t lose anything as it may seem…you gain a wealth of wisdom and understanding. Thank you for this post❤️",
+      "sometimes our hearts need to get broken in order to open them up to what is truly meant for us❤️",
+      "Ιf your heart is hearting open more feel more see who you are more and free yourself from fear..every kind of love is you and it is more than welcome...every part of you every connection is here to light up your path and help you go further..love all your \"loves\"-pieces of you -hug them",
+      "But isnt that sad",
+      "The wrong love hurts, but it can also wake us up to what we truly deserve.",
+      "Some people break your heart just to introduce you to yourself 🍂"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYNAUaYxgxR",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYNAUaYxgxR/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYNAUaYxgxR",
+  "metrics": {
+    "comments": 7,
+    "likes": 1659,
+    "plays": 89161,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 21553,
+    "winner_score": 2728.36
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-11T15:22:58.000Z",
+  "published_label": null,
+  "rank": 597,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYNAUaYxgxR",
+  "source_url": "https://www.instagram.com/p/DYNAUaYxgxR/"
+}

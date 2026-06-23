@@ -1,0 +1,111 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXZhh9FhQtg:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/670482576_18578943814012837_5593217516545681981_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gGtgC75F81GBf7igyaXwOgsuVM6m6_emDnfGo_mCauaSi369QxDJhCNHRciPgtzaw8&_nc_ohc=VLyYwGy7Wy4Q7kNvwFxivt3&_nc_gid=fxZENysEZKNWOCXepVhlZQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9zp-4Oyp7DOR0akvzRgPcqlDiPcV3-bcR0-BF8KtBFwQ&oe=6A346A58&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "There comes a moment in your life when you stop explaining yourself. Not because you have nothing left to say, but because you finally understand that the right people will never need an explanation for your worth. \n\nGrowth doesn’t always look like healing in soft, beautiful ways. Sometimes it looks like exhaustion. Like finally being tired enough to walk away from what you once tolerated. Tired of overgiving, overproving, and overextending yourself for people who only meet you halfway. And that kind of tired? It’s not weakness. It’s awakening. \n\nBecause the moment you stop accepting less is the moment everything begins to realign. You create space for what is actually meant for you—not what you begged for, not what you tried to fix, but what arrives naturally, peacefully, and fully. \n\nAnd maybe you don’t see it yet. Maybe it hasn’t arrived. But becoming the version of you who knows her worth will always come before receiving what she deserves. And once you reach that point… everything changes. \n\n❤️ Comment “I feel this” if this resonated with you. \n📖 Read more in the book ‘Stay Single’ by Rebecca Simon.",
+    "word_count": 192
+  },
+  "communication_seed": {
+    "first_comment": "I feel this",
+    "latest_comments": [
+      "I feel this",
+      "Amen ❤️",
+      "Amen",
+      "AD enjoy your life I know it's going to be amazing ❤️ sorry for my issues",
+      "❤️",
+      "🙏🏽",
+      "No it's not I'm convinced",
+      "Thank you 🙌",
+      "Thanks 👍",
+      "❤️❤️❤️🙌🙌🙏🙏she finally believed she deserved better"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXZhh9FhQtg",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXZhh9FhQtg/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXZhh9FhQtg",
+  "metrics": {
+    "comments": 70,
+    "likes": 7903,
+    "plays": 278729,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 59908,
+    "winner_score": 13149.78
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-21T15:30:00.000Z",
+  "published_label": null,
+  "rank": 362,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXZhh9FhQtg",
+  "source_url": "https://www.instagram.com/p/DXZhh9FhQtg/"
+}

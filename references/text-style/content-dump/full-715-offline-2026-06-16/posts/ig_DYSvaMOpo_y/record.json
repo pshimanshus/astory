@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYSvaMOpo_y:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fmem1-1.fna.fbcdn.net/v/t51.71878-15/688237569_1609004650190412_5306311204033640746_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fmem1-1.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gEzvATPcqyLjZJR7i5MCDB6RFtgym6zeB6a25meaa9e1GGZ0l6DF4-XjCRuVTYiBT8&_nc_ohc=eQfybpvzE4gQ7kNvwEeaUGd&_nc_gid=LEM3IaH-4uHgyaFdinuWUQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9HcuKpeD5aijYebzIKSxldtNKGFkitsiQBQUftEOHOKA&oe=6A345DDB&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "this poem was meant to find you today.\n\nsometimes the greatest act of love\nis not holding on—\nbut letting go with grace.\n\nmaking peace with what was.\nmaking room for what’s next.\n\nif this found you at the right moment,\nkeep it close.",
+    "word_count": 45
+  },
+  "communication_seed": {
+    "first_comment": "🪶 ♥️",
+    "latest_comments": [
+      "🪶 ♥️",
+      "❤️❤️❤️You are so talented. Thank you for sharing your gift with the world 😍",
+      "Is this available in South Africa ?",
+      "Happy it did❤️❤️❤️",
+      "Love has no start or end\nIt is eternal like a Jupiter wind\nThis chain will forever remain \nMy neck always the hook with pain \nEven a gelatine wouldn't free\nMy arms are tied, my heart can't see\nTo let go of love is but an illusion \nOnly those with lust, can forget this sea",
+      "♥️",
+      "ขอบคุณนะคะพี่ ❤️",
+      "❤️",
+      "😭❤️"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYSvaMOpo_y",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYSvaMOpo_y/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYSvaMOpo_y",
+  "metrics": {
+    "comments": 9,
+    "likes": 339,
+    "plays": 27440,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 4378,
+    "winner_score": 897.23
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-13T20:54:34.000Z",
+  "published_label": null,
+  "rank": 682,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYSvaMOpo_y",
+  "source_url": "https://www.instagram.com/p/DYSvaMOpo_y/"
+}

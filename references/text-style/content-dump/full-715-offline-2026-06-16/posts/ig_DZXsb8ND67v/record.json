@@ -1,0 +1,171 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZXsb8ND67v:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/721699791_18474532504100132_8570232716617929932_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gHWtmMUFh6c7ttBFfhN7pTA2yDI08Axs06LYbji0E9AbfZvb4c1dLjOwiR40cKeITs&_nc_ohc=t_yBdfLt2YUQ7kNvwHfPcMC&_nc_gid=PeqkLINRRK-ByGJb2E0_7w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9GUVXnshDioAsCobUtcWOgQc2BwKlx4j_pJukdbjnwxg&oe=6A348044&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb8ND67v:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb8ND67v:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb8ND67v:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb8ND67v:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb8ND67v:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb8ND67v:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "The easiest way to set yourself up for success, is by curating your environment.. 👇\n\nThat includes your feed too.\n\nHere are my favorite creators who consistently post valuable content around psychology, business, health, and self-improvement.\n\nI highly recommend you follow them all: 👇\n\n1) @aiautomationchannels\n\n2) @ronwritings\n\n3) @robdanceofficial\n\n4) @realjoemccarthy\n\n5) @drscottlyons\n\n6) @tiffanyachang\n\n7) @maria.wendt\n\n8) @lukestorey\n\n9) @breakthecyclewithkim\n\n10) @1stoptimal\n\n11) @wannercashcow\n\n12) @alimillercoaching\n\n13) @hannahipower\n\n14) @thepersonaldevelopmentschool\n\n15) @drorbeaustin\n\n16) @doctor_staci\n\n17) @drhanydemian\n\n18) @mehta_a\n\n19) @lukettobin\n\n20) @vexking\n\n21) @timbiohacker\n\n22) @thomasdelauer\n\n23) @jillianturecki\n\n24) @millionaire_mentor\n\n25) @whereyoulearnai\n\n26) @psychologypeers\n\nComment your favorite! 👇❤️💬",
+    "word_count": 102
+  },
+  "communication_seed": {
+    "first_comment": "",
+    "latest_comments": [],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZXsb8ND67v",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZXsb8ND67v/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZXsb8ND67v",
+  "metrics": {
+    "comments": null,
+    "likes": 1644,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1644.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-09T15:30:02.000Z",
+  "published_label": null,
+  "rank": 648,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZXsb8ND67v",
+  "source_url": "https://www.instagram.com/p/DZXsb8ND67v/"
+}

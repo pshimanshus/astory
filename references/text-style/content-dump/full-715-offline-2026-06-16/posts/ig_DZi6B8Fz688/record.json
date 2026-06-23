@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "alex aubrey",
+    "instagram_user_id": null,
+    "username": "alexaubreypoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZi6B8Fz688:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-2.cdninstagram.com/v/t51.71878-15/719770198_27251555064478279_1688461547104158014_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGwGffLkqBD74M21kMXspEpIkh9oHhe8VZ-yd3CuQT8z9jF0yaFGDW0j8qncZ8LMGc&_nc_ohc=eDJKEWz008YQ7kNvwEXcBhh&_nc_gid=ySoWuPZSDNZojMsiFoXS8Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af87RbMtiZUTH6QyIP2WT4DGQnlo-9O5fI_YXaSQO4oL-g&oe=6A345952&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my poetry book “learning to love myself”, available on amazon",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "Doesn't exist in my opinion",
+    "latest_comments": [
+      "Doesn't exist in my opinion",
+      "I mean, everyone deserves it, but that doesn't mean I actually get to have it. It's possible, in theory, that someone could love me equally as unconditionally as I love them, but for them to really want to choose me over anyone else, they would need to be insane, I think... Everything is too messed up for it to ever happen. Hope is nice, but being alone and at peace is less disappointing.",
+      "In case of a person who needs to change yourself in order to became mature read that. They probably will agree with that. Most of the time the immature people don’t know that they are. So, is not that beautiful!",
+      "Strongly disagree True love changes people"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZi6B8Fz688",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZi6B8Fz688/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZi6B8Fz688",
+  "metrics": {
+    "comments": 4,
+    "likes": 700,
+    "plays": 23569,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 5223,
+    "winner_score": 1062.81
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-14T00:00:11.000Z",
+  "published_label": null,
+  "rank": 675,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZi6B8Fz688",
+  "source_url": "https://www.instagram.com/p/DZi6B8Fz688/"
+}

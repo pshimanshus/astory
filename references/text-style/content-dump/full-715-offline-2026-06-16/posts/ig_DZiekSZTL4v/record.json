@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZiekSZTL4v:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/721757601_2261788914594930_2640628862099854945_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHeuZ7rpVXlOrU8sD8x9ZRU66SWfR3DorUlQ2DxHP4ST4xQJpogBXdxYZXVYn7TIJs&_nc_ohc=EzxGx7u1RPAQ7kNvwHy_WT4&_nc_gid=MMv2FJB_wTnWomKpsrghPg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9P4EGzeBaGE0vL880uNAm1Rdjj1TP_n84lOnITmPcC-Q&oe=6A347047&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "This hits hard",
+    "word_count": 3
+  },
+  "communication_seed": {
+    "first_comment": "This world is full of darkness. Be a firefly in someone's life. You may burn to bring light to others, but that is the essence of martyrdom, to give yourself so that someone else may see. Only the rare ones are built for this. Strong enough to burn. Brave enough to let it mean something. You're extraordinary 🤍 ✨🪷",
+    "latest_comments": [
+      "This world is full of darkness. Be a firefly in someone's life. You may burn to bring light to others, but that is the essence of martyrdom, to give yourself so that someone else may see. Only the rare ones are built for this. Strong enough to burn. Brave enough to let it mean something. You're extraordinary 🤍 ✨🪷",
+      "👏👏👏❤️",
+      "Beautiful perspective 🤍",
+      "They knew what they were doing 💯💯💯",
+      "🤍",
+      "😢",
+      "💯",
+      "👏👏👏👏👏👏",
+      "You can’t compared your capacity with someone else’s. Everyone’s journey is different and everyone who is healing starts at a different level. Give people grace and set boundaries and most importantly, certain people don’t need to be in your life if you don’t want them to."
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZiekSZTL4v",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZiekSZTL4v/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZiekSZTL4v",
+  "metrics": {
+    "comments": 34,
+    "likes": 7870,
+    "plays": 239481,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 47676,
+    "winner_score": 11068.66
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-13T20:00:10.000Z",
+  "published_label": null,
+  "rank": 391,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZiekSZTL4v",
+  "source_url": "https://www.instagram.com/p/DZiekSZTL4v/"
+}

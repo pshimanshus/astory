@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYbjwOenPkR:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fmkc1-1.fna.fbcdn.net/v/t51.82787-15/701906261_18597224653031367_997544616317110962_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fmkc1-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gFmcI0HRi6VjrviTPICEiGXHKRFGhLaO_MsxRiLrfAdQGbTUL8yRTPw5qC_OSgTPxw&_nc_ohc=dSwZgVspNlIQ7kNvwG4FCjs&_nc_gid=OwTyGhC742NAnO5wHqX9zg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-FUlYU53r9NemAZr8Wss3a7L96Tc8YY11LPVTu9CmzNQ&oe=6A348543&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Some people arrive quietly.⁠\n⁠\nNo grand entrance.⁠\nNo warning.⁠\n⁠\nAnd somehow the room feels different.⁠\nThe air feels lighter.⁠\nThe world feels a little more possible.⁠\n⁠\nSometimes love begins like that—⁠\nnot with fireworks,⁠\nbut with a shift you can feel before you understand it.",
+    "word_count": 45
+  },
+  "communication_seed": {
+    "first_comment": "I love this typography 🤍",
+    "latest_comments": [
+      "I love this typography 🤍",
+      "Love this!",
+      "♥️🙌♥️",
+      "Some people arrive like a season; suddenly everything blooms without knowing why 👀",
+      "Sometimes is because we don't understand them",
+      "Agree",
+      "True",
+      "Gorgeous",
+      "For better or worse 😂",
+      "Right"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYbjwOenPkR",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYbjwOenPkR/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYbjwOenPkR",
+  "metrics": {
+    "comments": 67,
+    "likes": 22610,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 25625.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-17T07:00:12.000Z",
+  "published_label": null,
+  "rank": 264,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYbjwOenPkR",
+  "source_url": "https://www.instagram.com/p/DYbjwOenPkR/"
+}

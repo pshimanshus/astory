@@ -7,17 +7,39 @@ from dataclasses import asdict
 from pathlib import Path
 
 try:
+    from .astory_brain.autopilot import run_memory_autopilot
+    from .astory_brain.claim_store import (
+        apply_claim_decision,
+        load_claim_records,
+        summarize_claim_records,
+    )
     from .astory_brain.eval import run_retrieval_eval
     from .astory_brain.indexer import build_index
     from .astory_brain.learning import extract_learning_report, write_learning_artifacts
     from .astory_brain.lint import lint_brain
+    from .astory_brain.outcomes import (
+        compute_outcome_report,
+        load_carousel_outcomes,
+        write_outcome_artifacts,
+    )
     from .astory_brain.retrieval import recall
     from .astory_brain.synthesis import synthesize_recall
 except ImportError:
+    from astory_brain.autopilot import run_memory_autopilot
+    from astory_brain.claim_store import (
+        apply_claim_decision,
+        load_claim_records,
+        summarize_claim_records,
+    )
     from astory_brain.eval import run_retrieval_eval
     from astory_brain.indexer import build_index
     from astory_brain.learning import extract_learning_report, write_learning_artifacts
     from astory_brain.lint import lint_brain
+    from astory_brain.outcomes import (
+        compute_outcome_report,
+        load_carousel_outcomes,
+        write_outcome_artifacts,
+    )
     from astory_brain.retrieval import recall
     from astory_brain.synthesis import synthesize_recall
 
@@ -51,6 +73,37 @@ def main(argv: list[str] | None = None) -> int:
     learn_parser.add_argument("--repo-root", default=".")
     learn_parser.add_argument("--run-id", required=True)
     learn_parser.add_argument("--write", action="store_true")
+
+    autopilot_parser = subparsers.add_parser("autopilot")
+    autopilot_parser.add_argument("--repo-root", default=".")
+    autopilot_parser.add_argument("--run-id", required=True)
+    autopilot_parser.add_argument(
+        "--phase",
+        choices=["pre_imagegen", "post_run", "write_reports"],
+        default="post_run",
+    )
+
+    claims_parser = subparsers.add_parser("claims")
+    claims_subparsers = claims_parser.add_subparsers(dest="claims_command", required=True)
+    claims_list_parser = claims_subparsers.add_parser("list")
+    claims_list_parser.add_argument("--repo-root", default=".")
+    claims_list_parser.add_argument("--status", default="open")
+    claims_list_parser.add_argument("--json", action="store_true")
+    claims_decide_parser = claims_subparsers.add_parser("decide")
+    claims_decide_parser.add_argument("--repo-root", default=".")
+    claims_decide_parser.add_argument("--claim-id", required=True)
+    claims_decide_parser.add_argument(
+        "--decision",
+        choices=["promote", "reject", "defer", "quarantine"],
+        required=True,
+    )
+    claims_decide_parser.add_argument("--reason", required=True)
+    claims_decide_parser.add_argument("--reviewer", default="codex")
+    claims_decide_parser.add_argument("--target-page")
+
+    outcomes_parser = subparsers.add_parser("outcomes")
+    outcomes_parser.add_argument("--repo-root", default=".")
+    outcomes_parser.add_argument("--write", action="store_true")
 
     doctor_parser = subparsers.add_parser("doctor")
     doctor_parser.add_argument("--repo-root", default=".")
@@ -93,6 +146,55 @@ def main(argv: list[str] | None = None) -> int:
         }
         print(json.dumps(payload, indent=2, sort_keys=True))
         return 0
+    if args.command == "autopilot":
+        report = run_memory_autopilot(args.repo_root, args.run_id, phase=args.phase)
+        print(json.dumps(report, indent=2, sort_keys=True))
+        return 0
+    if args.command == "claims":
+        if args.claims_command == "list":
+            records = load_claim_records(args.repo_root)
+            filtered = _filter_claim_records(records, args.status)
+            payload = {
+                "status": "ok",
+                "summary": summarize_claim_records(records),
+                "claims": [_claim_record_payload(record) for record in filtered],
+            }
+            if args.json:
+                print(json.dumps(payload, indent=2, sort_keys=True))
+            else:
+                print(_render_claim_list(payload))
+            return 0
+        if args.claims_command == "decide":
+            event = apply_claim_decision(
+                args.repo_root,
+                claim_id=args.claim_id,
+                decision=args.decision,
+                reason=args.reason,
+                reviewer=args.reviewer,
+                target_page=args.target_page,
+            )
+            print(
+                json.dumps(
+                    {"status": "decision_recorded", "event": event},
+                    indent=2,
+                    sort_keys=True,
+                )
+            )
+            return 0
+    if args.command == "outcomes":
+        records = load_carousel_outcomes(args.repo_root)
+        report = compute_outcome_report(records)
+        artifacts = (
+            write_outcome_artifacts(args.repo_root, report) if args.write else {}
+        )
+        print(
+            json.dumps(
+                {"status": "ok", "artifacts": artifacts, "report": report},
+                indent=2,
+                sort_keys=True,
+            )
+        )
+        return 0
     if args.command == "doctor":
         report = _doctor(Path(args.repo_root).resolve())
         print(report)
@@ -127,6 +229,7 @@ def _doctor(root: Path) -> str:
         if learning["status"] != "ready"
         else runtime_status
     )
+    required_human_decisions = _required_human_decisions(learning["claim_review_queue"])
     excluded_run_gates = [
         "reference_visibility_proof",
         "agent_assignment_gate",
@@ -145,9 +248,7 @@ def _doctor(root: Path) -> str:
         "required_learning_runs": required_learning_runs,
         "lint": lint_report,
         "retrieval_eval": eval_report,
-        "required_human_decisions": [
-            "Review human_review and quarantine memory claims before promoting them into canonical brain pages."
-        ],
+        "required_human_decisions": required_human_decisions,
         "excluded_run_gates": excluded_run_gates,
     }
     (reports / "retrieval_eval.json").write_text(
@@ -202,7 +303,7 @@ def _doctor(root: Path) -> str:
             "",
             "## Required Human Decisions",
             "",
-            "- Review human_review and quarantine memory claims before promoting them into canonical brain pages.",
+            "\n".join(f"- {decision}" for decision in required_human_decisions) or "- None.",
             "",
         ]
     )
@@ -227,29 +328,22 @@ def _qrels_include_runs(qrels_path: Path) -> list[str]:
 
 
 def _learning_pipeline_status(root: Path, required_runs: list[str]) -> dict:
-    summary: dict[str, int] = {
-        "total": 0,
-        "auto_apply": 0,
-        "human_review": 0,
-        "quarantine": 0,
-        "quarantined": 0,
-    }
     missing_runs: list[str] = []
     runs_to_check = required_runs or []
     for run_id in runs_to_check:
         claims_path = root / "runs" / run_id / "memory/claim_candidates.json"
         if not claims_path.exists():
             missing_runs.append(run_id)
-            continue
-        payload = json.loads(claims_path.read_text(encoding="utf-8"))
-        claim_summary = payload.get("summary") or {}
-        for key, value in claim_summary.items():
-            if isinstance(value, int):
-                summary[key] = summary.get(key, 0) + value
+    records = [
+        record
+        for record in load_claim_records(root)
+        if not runs_to_check or record.claim.run_id in set(runs_to_check)
+    ]
+    summary = summarize_claim_records(records)
 
     if missing_runs:
         status = "needs_extraction"
-    elif summary.get("human_review", 0) or summary.get("quarantine", 0) or summary.get("quarantined", 0):
+    elif summary.get("open_human_review", 0) or summary.get("open_quarantine_review", 0):
         status = "operational_with_review_queue"
     else:
         status = "ready"
@@ -260,12 +354,72 @@ def _learning_pipeline_status(root: Path, required_runs: list[str]) -> dict:
     }
 
 
+def _required_human_decisions(claim_review_queue: dict[str, int]) -> list[str]:
+    if claim_review_queue.get("open_human_review", 0) or claim_review_queue.get(
+        "open_quarantine_review", 0
+    ):
+        return [
+            "Review open human-review and quarantine memory claims before promoting them into canonical brain pages."
+        ]
+    return []
+
+
 def _claim_summary(claims) -> dict[str, int]:
     summary = {"total": len(claims)}
     for claim in claims:
         summary[claim.promotion_policy] = summary.get(claim.promotion_policy, 0) + 1
         summary[claim.status] = summary.get(claim.status, 0) + 1
     return summary
+
+
+def _filter_claim_records(records, status: str):
+    if status == "all":
+        return records
+    if status == "open":
+        return [
+            record
+            for record in records
+            if record.effective_status in {"candidate", "quarantined"}
+            and record.latest_event is None
+            and record.claim.promotion_policy in {"human_review", "quarantine"}
+        ]
+    return [record for record in records if record.effective_status == status]
+
+
+def _claim_record_payload(record):
+    return {
+        "claim_id": record.claim.claim_id,
+        "run_id": record.claim.run_id,
+        "claim_type": record.claim.claim_type,
+        "text": record.claim.text,
+        "evidence_paths": record.claim.evidence_paths,
+        "confidence": record.claim.confidence,
+        "scope": record.claim.scope,
+        "risk_level": record.claim.risk_level,
+        "promotion_policy": record.claim.promotion_policy,
+        "source_status": record.claim.status,
+        "effective_status": record.effective_status,
+        "applies_to": record.claim.applies_to,
+        "rationale": record.claim.rationale,
+    }
+
+
+def _render_claim_list(payload: dict) -> str:
+    lines = ["# Memory Claims", "", json.dumps(payload["summary"], indent=2, sort_keys=True), ""]
+    for claim in payload["claims"]:
+        lines.extend(
+            [
+                f"## `{claim['claim_id']}`",
+                "",
+                f"- Status: `{claim['effective_status']}`",
+                f"- Policy: `{claim['promotion_policy']}`",
+                f"- Risk: `{claim['risk_level']}`",
+                "",
+                claim["text"],
+                "",
+            ]
+        )
+    return "\n".join(lines)
 
 
 if __name__ == "__main__":

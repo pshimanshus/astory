@@ -1,0 +1,116 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DGrUxgzMVBu:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-15/482301785_17994207299782076_1974999606861618651_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gEH-092DPxuUyDmGO092ipavMWRLkoOwlV66Juca7gONUnp3IaRj6xD8zXGDo3k9UbvXtUtHVhoCA5ONIp9oON7&_nc_ohc=G07czDP-vOsQ7kNvwE7xr9u&_nc_gid=O9YaEL73UByVc_rNk3s7VA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af98krpWc5Zi_MvuXR3Vkrumb30T9zxvcPwof-P6Dvwmmg&oe=6A346BE6&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "MyPenguin",
+      "PenguinLove",
+      "RelationshipGoals",
+      "ForeverLove",
+      "RomanticQuotes",
+      "TrueLoveExists",
+      "Soulmate",
+      "YouAndMe",
+      "HeartfeltMoments",
+      "LoveBirds",
+      "RelationshipInspo",
+      "LoveThatLasts"
+    ],
+    "public_preview": null,
+    "text": "🐧💖 “Did you know? Penguins mate for life! When they find their person, they stay together forever. 💕 You are my penguin—my forever love. 🥰 Who’s your penguin? Tag them below! ⬇️”\n\n🔔 Double-tap if you believe in true love! ❤️\n\n#MyPenguin #PenguinLove #RelationshipGoals #ForeverLove #RomanticQuotes #TrueLoveExists #Soulmate #YouAndMe #HeartfeltMoments #LoveBirds #RelationshipInspo #LoveThatLasts",
+    "word_count": 50
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️❤️❤️❤️",
+    "latest_comments": [
+      "❤️❤️❤️❤️❤️",
+      "Que dizes?????",
+      "We are 😘😉😁😂🤣",
+      "😢",
+      "❤️🔥",
+      "Me total cortisone maybe that te amo mi amor",
+      "@scchristian",
+      "I want to tell you I love you and miss you everyday you are my everything still to this very day you inspired me and made me feel secure and you also taught me how to be kind and nice and thankyou for helping me not face my challenges alone and one more thing I just want to tell you, you are loved deeply and cared for by me just remember that because your my whole life not just my whole life but my world because you had a positive impact on me in which I would give you a big virtual hug saying I"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DGrUxgzMVBu",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DGrUxgzMVBu/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DGrUxgzMVBu",
+  "metrics": {
+    "comments": 769,
+    "likes": 112751,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 147356.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-03-02T00:31:55.000Z",
+  "published_label": null,
+  "rank": 75,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DGrUxgzMVBu",
+  "source_url": "https://www.instagram.com/p/DGrUxgzMVBu/"
+}

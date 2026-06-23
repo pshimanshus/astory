@@ -1,0 +1,181 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYI4Azfiasx:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/691173667_17899987713431061_3549359683877554416_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFpnQVBwi-DWnht7G2v6crnKjaXkjszNX2jMk6EnGKhYif7DGlhUlRFyyLpliidULM&_nc_ohc=AXrU2sFpqdkQ7kNvwEvoLiI&_nc_gid=eRAuzDTtANA5VEooC3gyWA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8JOH_7R74UzzI-6ppCZ3IM8AKvRJQ5749HM5Q9ksMQiQ&oe=6A345F24&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYI4Azfiasx:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYI4Azfiasx:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYI4Azfiasx:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYI4Azfiasx:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYI4Azfiasx:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYI4Azfiasx:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "How do you express your gratitude for your mom in one day when she deserves a whole dam* island 😭🤍\n\nFollow @hereverydaymotherhood for more relatable everyday motherhood + marriage moments 🤍\n\nLetter to my mom as a mother, Mother’s Day letter, mother daughter motherhood",
+    "word_count": 42
+  },
+  "communication_seed": {
+    "first_comment": "That's beautiful! There is nothing like motherhood!  And now you know!",
+    "latest_comments": [
+      "That's beautiful! There is nothing like motherhood!  And now you know!",
+      "Love this!  Thank you.",
+      "🥰🥰🥰🥰💕",
+      "🥹🥹",
+      "Katie Girl, this is beautiful and very true! I love you so much and I love seeing you experiencing motherhood. There is nothing like it in the world and the love I have for our family is honestly indescribable 🩷",
+      "@kempasue",
+      "You mean the world to me that’s all that matters. You do that for me just to be here and see you and talk to you.",
+      "Awww 🥰 just seeing this! Love it💕🌸",
+      "Awww thank you Brittany but you are already the best most patient mother. Much more patient than I was."
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "first_person",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYI4Azfiasx",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYI4Azfiasx/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYI4Azfiasx",
+  "metrics": {
+    "comments": 173,
+    "likes": 14011,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 21796.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-10T00:51:31.000Z",
+  "published_label": null,
+  "rank": 288,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYI4Azfiasx",
+  "source_url": "https://www.instagram.com/p/DYI4Azfiasx/"
+}

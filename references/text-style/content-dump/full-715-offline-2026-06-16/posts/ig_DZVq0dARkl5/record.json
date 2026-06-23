@@ -1,0 +1,111 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZVq0dARkl5:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/721224178_18049667540782076_5808649757154859437_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGIZKTfO1BhErxiq8Dz8SKJw5s35wRcV3qQM_4R6BrikjgoVqjJV8_0yhgAnVAxuRM&_nc_ohc=UVzbluczEFcQ7kNvwEbWzTc&_nc_gid=nhPqyJWFLgswHtrq5QLRyg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-PV0o7XuNM5mK8AiTGcnC4ywP04s5DOVSwKWTkcy01sA&oe=6A3468F0&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "PassionateLoveMessages",
+      "BetterTogether",
+      "Soulmates",
+      "RelationshipGoals",
+      "TogetherForever"
+    ],
+    "public_preview": null,
+    "text": "Life is good, but it’s so much better with you by my side. ❤️✨ Tag your better half below! 👇  #PassionateLoveMessages #BetterTogether #Soulmates #RelationshipGoals #TogetherForever",
+    "word_count": 24
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️💞🌞",
+    "latest_comments": [
+      "❤️❤️💞🌞",
+      "Ja toch een kus dan 😂😂😂😂",
+      "よろぴく(*^▽^*)💘💘💘",
+      "❤️❤️❤️❤️❤️",
+      "Yes, forever ❤️💕❤",
+      "😭🙏❣️❣️✨🤝🫂💫🔥",
+      "@bigbaldhead much better❤️",
+      "😍😍😍",
+      "❣️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+      "P❤️🙏"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZVq0dARkl5",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZVq0dARkl5/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZVq0dARkl5",
+  "metrics": {
+    "comments": 38,
+    "likes": 701,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2411.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-08T20:38:15.000Z",
+  "published_label": null,
+  "rank": 615,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZVq0dARkl5",
+  "source_url": "https://www.instagram.com/p/DZVq0dARkl5/"
+}

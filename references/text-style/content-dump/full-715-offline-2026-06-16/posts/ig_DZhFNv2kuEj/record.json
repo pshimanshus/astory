@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZhFNv2kuEj:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/724251586_18605372590031367_5773830723863674330_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gH_A8GQ55VjMGaf0qlW7GDwFGPvqga4lp7PssO72i_Ysm3XO4ivmCHCOjrGz88Xjug&_nc_ohc=xk8UlFipHW0Q7kNvwHUpNjK&_nc_gid=LSfnDSJrPwk3jxe8c6g71g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af91UEuWyVqMpda3oKWMrrIpA7kWR4h_KpYSDv5q3yyezQ&oe=6A345AD8&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "some people will tell you to be careful with your life.⁠\nto stay untouched.⁠\nto stay unmarked.⁠\n⁠\nbut life was never meant to be perfect.⁠\n⁠\nit was meant to be lived—⁠\nfully, messily, honestly.⁠\n⁠\nand maybe in the end,⁠\nit’s not the absence of scars that matters,⁠\nbut the presence of a story.",
+    "word_count": 54
+  },
+  "communication_seed": {
+    "first_comment": "If one has no scars, one has merely existed - not lived. 🔥🔥🔥",
+    "latest_comments": [
+      "If one has no scars, one has merely existed - not lived. 🔥🔥🔥",
+      "❤️🖤🔥🖤❤️",
+      "❤️❤️❤️",
+      "regrets are the only thing that don't leave a mark and somehow hurt the most.",
+      "❤️❤️❤️❤️❤️❤️❤️❤️",
+      "Beautiful. Life is experiential. Keep living intentionally everyone.",
+      "🎯💯",
+      "Me too.",
+      "I already have."
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZhFNv2kuEj",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZhFNv2kuEj/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZhFNv2kuEj",
+  "metrics": {
+    "comments": 18,
+    "likes": 5231,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 6041.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-13T07:00:17.000Z",
+  "published_label": null,
+  "rank": 495,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZhFNv2kuEj",
+  "source_url": "https://www.instagram.com/p/DZhFNv2kuEj/"
+}

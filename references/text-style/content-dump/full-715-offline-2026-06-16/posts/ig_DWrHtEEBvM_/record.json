@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWrHtEEBvM_:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/656816208_1574640406958133_999480999472329772_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFIRLOJSReY9Op6SpLNeiq6wIKXDAzvQR594Vw4tk_JDgf_W-ZP8sCPcqJXtDQ-6h8&_nc_ohc=I-z75ugbGYEQ7kNvwESjxWB&_nc_gid=2XUmpyZu20H9lfBTG00DEg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8m8wBTPMvDdDlHEZXtSP4FZpsoRE6sHnfG5BvJ23PDzQ&oe=6A34876E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "And the truth is—once you have experienced peace, chaos will feel like a threat. It will not be something you run towards any longer; it will not be something you strive to keep. Once you have built a home within yourself, you stop accepting visitors who treat it without intention, and without tenderness. You stop letting inconsistency trick you into believing you have found connection. You stop mistaking intensity for intimacy. Because you’ve felt what it is like to be seen by God—to be loved in the quiet, to be held in the waiting, to be understood without performing, and after that, the almosts lose their magic. They fade in the light of what is real.\n\nOne day, love will find you again, but it will not look like the love that came before it. It will not arrive in your life with the intention of completing you—it will arrive with the intention of complementing what God has already completed within you. It will meet you in your peace, not your longing. It will recognize the life you have built on your own, and it will want to be a constructive part of it. It will be gentle. It will be intuitive. It will be clear. It will remind you that love was never supposed to be anchored to an almost—it was always meant to be about alignment.\n\nUntil then, keep choosing yourself.\n\n— Get a copy of this book on Amazon ‘Stay Single’ by Rebecca Simon 🖤📖",
+    "word_count": 251
+  },
+  "communication_seed": {
+    "first_comment": "🖤🖤",
+    "latest_comments": [
+      "🖤🖤",
+      "Once you choose yourself, including sexually (masturbation), the half love system loses all power over steering you.",
+      "Building a life that feels full on its own because I have Jesus ❤️",
+      "True❤️🙌"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWrHtEEBvM_",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWrHtEEBvM_/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWrHtEEBvM_",
+  "metrics": {
+    "comments": 4,
+    "likes": 3307,
+    "plays": 122477,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 23320,
+    "winner_score": 4303.2
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-03T15:00:00.000Z",
+  "published_label": null,
+  "rank": 544,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWrHtEEBvM_",
+  "source_url": "https://www.instagram.com/p/DWrHtEEBvM_/"
+}

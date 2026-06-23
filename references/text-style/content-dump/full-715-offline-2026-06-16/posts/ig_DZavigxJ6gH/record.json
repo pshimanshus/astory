@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZavigxJ6gH:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/719852589_18604689478031367_8094717446660408155_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEVsjjoEtLhkH2WT-zS5qLu5O7R3pn6VpJl-pXNkzAwM0EmAEdg58E2rh65hf4IT1Q&_nc_ohc=WEp2KSNYKVIQ7kNvwFckVhJ&_nc_gid=sH25b9_HhI6Z6TlsFfOqsg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_N8ILRUHdmKIiMR-H9GTMqDwOFkpUYZj394nUyT4cuAQ&oe=6A3482DF&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "i wrote a new book.\n\ni’ll show you the cover, but you’ll have to guess the title.\n\ndrop your best guess below.\n\ni’ll give you a hint:\nit’s the kind of thing that sounds like a bad idea\nuntil it becomes a good story 🖤 \n\ncoming september 15, 2026.\n\ntap the link in bio for another hint and to pre-order.\n\nlove from the shadows, Atticus 🖤",
+    "word_count": 69
+  },
+  "communication_seed": {
+    "first_comment": "😍😍😍😍",
+    "latest_comments": [
+      "😍😍😍😍",
+      "Just Beneath the Surface",
+      "Skinny dipping 🫢",
+      "Ive been wondering where you were!!! I can’t wait for this new one 😌✨",
+      "Cannot wait to get my hands on this 🤍",
+      "DIVE",
+      "Yes🙌🙌🙌",
+      "Deep dive",
+      "Drowning’"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZavigxJ6gH",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZavigxJ6gH/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZavigxJ6gH",
+  "metrics": {
+    "comments": 124,
+    "likes": 2047,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 7627.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T19:55:56.000Z",
+  "published_label": null,
+  "rank": 454,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZavigxJ6gH",
+  "source_url": "https://www.instagram.com/p/DZavigxJ6gH/"
+}

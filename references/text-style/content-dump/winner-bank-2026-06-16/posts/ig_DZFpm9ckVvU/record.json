@@ -1,0 +1,138 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZFpm9ckVvU:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-phl2-1.cdninstagram.com/v/t51.82787-15/712410280_18592828105012837_1784758764484530858_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-phl2-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFEjxtwejSzlrDzkQbCiO5HBnv8tW2hsDFXuRVwRQ2_lSTyKefe9KCKyycaSJWtFhI&_nc_ohc=-dPe8L9MdOEQ7kNvwHN_bKw&_nc_gid=zb8ZqQlVwiGcZ-OjK3CFaA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_49IrWLXMM3gEfbSGwk0oiR6OgGlbsPa0E8m_8luyIFg&oe=6A346C28&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZFpm9ckVvU:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZFpm9ckVvU:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You are not behind in life. You are not late. You are not missing some secret timeline everyone else seems to understand. You are simply becoming.\n\nThe truth is, some of the most important transformations happen quietly. They happen in the moments nobody celebrates. In the boundaries you finally set. In the people you finally stop chasing. In the peace you choose over proving yourself. In the way you keep showing up for your life, even when you have no guarantee that things will work out.\n\nMaybe this season hasn’t looked the way you hoped it would. Maybe there are still prayers unanswered, plans unfinished, and dreams that feel farther away than they did at the beginning of the year. But growth isn’t only found in arrival. Sometimes growth is found in the waiting. Sometimes it is found in trusting that what is meant for you is still finding its way to you.\n\nOne day, you’ll look back at this version of yourself with so much tenderness. You’ll realize that while you were worrying about how far you still had to go, you were already becoming the person you prayed to be.\n\nIf you needed a reminder today: the best chapters of your story do not belong to your past. They belong to your future.\n\nInspired by the book ‘Stay Single’ by Rebecca Simon — a book about choosing yourself, trusting your timing, and building a life so full that love becomes an addition to it, not a rescue from it 🖤",
+    "word_count": 254
+  },
+  "communication_seed": {
+    "first_comment": "@azrn.aly ❤️",
+    "latest_comments": [
+      "@azrn.aly ❤️",
+      "❤️",
+      "🥹🥹",
+      "Ok, this got me 🥺🥺🥺🥺🥺😭😭😭😭😭",
+      "I need this 💔 oh how I wish to speak to Him more than anything",
+      "I love you Jesus ❤️",
+      "Okay. This was so cute and so true. God is so amazing to us ❤️",
+      "❤️",
+      "❤️",
+      "Love this 🔥"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZFpm9ckVvU",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZFpm9ckVvU/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZFpm9ckVvU/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZFpm9ckVvU",
+  "metrics": {
+    "comments": 104,
+    "likes": 59083,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 63763.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-06-02T15:19:20.000Z",
+  "published_label": null,
+  "rank": 109,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZFpm9ckVvU",
+  "source_url": "https://www.instagram.com/p/DZFpm9ckVvU/"
+}

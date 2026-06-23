@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY0BsUcPJiq:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/706874534_941489295608922_7971867040475108872_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gGSBvY1kstJSgoMRYjV6VgDoiCBjW-w-zYJtX1onwx-NdOEphaJFXJQ7i0k96ZoUQ4&_nc_ohc=QskvzLeSyMYQ7kNvwHBvU1y&_nc_gid=DXToV47fzY9IyIabQZB57g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_kh5tVbrZqYWZIGle41tGRnAHx3pm6vT8p6gfJnyXQOw&oe=6A348DFE&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "so what are your answers👀 questions from my don’t overthink it cardgam",
+    "word_count": 13
+  },
+  "communication_seed": {
+    "first_comment": "I would rather be cheated on physically \nPost my blank statements \nLose all my friends \nSee one important event in the future \nStay single forever",
+    "latest_comments": [
+      "I would rather be cheated on physically \nPost my blank statements \nLose all my friends \nSee one important event in the future \nStay single forever",
+      "Physically, statements, friends ( bc, what are those?), major decision, ex(?? Idk tbh. I rather be alone, but at the same time... I don't...)",
+      "MARRY MY EX PLEASEEE",
+      "I'd rather, be cheated on physically, post my bank statements, lose all my friends, change one major decision in the past, stay single forever.",
+      "That last one is fukn criminal",
+      "Double it and pass it on",
+      "Emotionally\nBank staements\nFriends\nPast\nFirst ex",
+      "physically, bank statements, memories, see one important event, marry first ex",
+      "Right, right, left, left, left. Divorce is an option",
+      "1 for all"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY0BsUcPJiq",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY0BsUcPJiq/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY0BsUcPJiq",
+  "metrics": {
+    "comments": 304,
+    "likes": 15456,
+    "plays": 2411569,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 573226,
+    "winner_score": 49198.91
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-26T19:06:18.000Z",
+  "published_label": null,
+  "rank": 173,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY0BsUcPJiq",
+  "source_url": "https://www.instagram.com/p/DY0BsUcPJiq/"
+}

@@ -1,0 +1,168 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYY_DNGIHJI:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/672381308_18596913817031367_8175852363409945955_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHeDkQlaH-HZuV6OvDxVyeLs-uUGYObF5r4R-aoqbbNa-BcrjeVRbaeKqAiwe8WQ6A&_nc_ohc=cwH7LT2yUfAQ7kNvwGzVEen&_nc_gid=cB_kC8KSrVtCKbdx-sj_ww&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-bLJGLFUOR9p_Dx6C08a0vByutzt3AweDUi5UiRB6XZQ&oe=6A3471A8&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYY_DNGIHJI:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYY_DNGIHJI:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYY_DNGIHJI:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYY_DNGIHJI:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYY_DNGIHJI:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Healing didn’t always look dramatic.⁠\n⁠\nSometimes it looked like saying no.⁠\nLike walking away from what kept hurting.⁠\nLike resting without apologizing for it.⁠\n⁠\nAnd sometimes it was quieter than that—⁠\ntrusting yourself again.⁠\nListening to the voice inside you that knew the way forward.⁠\n⁠\nMost of the time, healing doesn’t arrive all at once.⁠\n⁠\nIt happens in small choices.⁠\nQuietly.⁠\nUntil one day you realize how far you’ve come.⁠\n⁠\nxx Atticus⁠\n⁠\nSave this for the days you need the reminder 🖤",
+    "word_count": 84
+  },
+  "communication_seed": {
+    "first_comment": "After reading this I'll completely say now I'm completely healed and ready to achieve everything that I deserve ❤️❤️❤️❤️❤️",
+    "latest_comments": [
+      "After reading this I'll completely say now I'm completely healed and ready to achieve everything that I deserve ❤️❤️❤️❤️❤️",
+      "❤️❤️🙌",
+      "healing feels like returning to yourself\nafter carrying sadness for too long❤️‍🩹",
+      "It happened to me this year🥹❤️‍🩹",
+      "❤️ 🙌 🔥🔥🔥",
+      "👏👏👏👏👏👏❤️",
+      "Atticus I love you. I have all of your books from the moment you came out with each one. Give us a healing book🤍",
+      "Thank you for this. This is so true. Healing is so messy at times.",
+      "Saying no without guilt. Recently, I blocked someone on my phone for the first time and it took all the courage I had. What I spent on courage, I got back in peace.",
+      "❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYY_DNGIHJI",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYY_DNGIHJI/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYY_DNGIHJI",
+  "metrics": {
+    "comments": 17,
+    "likes": 3944,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 4709.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-16T07:01:14.000Z",
+  "published_label": null,
+  "rank": 527,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYY_DNGIHJI",
+  "source_url": "https://www.instagram.com/p/DYY_DNGIHJI/"
+}

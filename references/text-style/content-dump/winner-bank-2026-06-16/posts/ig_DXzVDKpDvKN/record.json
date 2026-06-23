@@ -1,0 +1,136 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXzVDKpDvKN:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-hou1-1.cdninstagram.com/v/t51.82787-15/683118842_18587873824000418_1959910653824909813_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gH-6P37IGgSPoHQhbmcnPOHHOjLZVu7PIVwnh2CoYDC6XIj_ditZZyn3pGpaouwdrA&_nc_ohc=Ixx7UEdwsEQQ7kNvwFKym_F&_nc_gid=7WRMJ2f8Dt44KQGl5ukuaw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_Ovk7c2R6dwGalLuxSRZS8-1cI-bl3wecPzw2MTsH6IQ&oe=6A347A81&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXzVDKpDvKN:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXzVDKpDvKN:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "we’re so excited to finally share our latest drop together!! we created this collection to encourage spreading small, comforting reminders to every stranger you cross paths with ❤️ the @Comfrt x WNRS collection is officially live on site 💌",
+    "word_count": 38
+  },
+  "communication_seed": {
+    "first_comment": "Returns\n\nWe understand that sometimes your order isn’t quite right - and that’s okay.\nAt Comfrt, we’ve made returns simple, flexible, and stress free.\nEligible items can be returned for an exchange or store credit in the form of a Comfrt Gift Card.\n\nReturn Window: 30 days from delivery\nReturn Options: Exchange or Store Credit\nRefunds: Not offered at this time\n\nStart your return below - you’ll just need your order number and zip code used to place the order.",
+    "latest_comments": [
+      "Returns\n\nWe understand that sometimes your order isn’t quite right - and that’s okay.\nAt Comfrt, we’ve made returns simple, flexible, and stress free.\nEligible items can be returned for an exchange or store credit in the form of a Comfrt Gift Card.\n\nReturn Window: 30 days from delivery\nReturn Options: Exchange or Store Credit\nRefunds: Not offered at this time\n\nStart your return below - you’ll just need your order number and zip code used to place the order.",
+      "This company is straight up bullshit. It does not do returns let alone stress free. It puts you in a loop doesn't recognize your order number and makes returns impossible. They",
+      "HORRIBLE customer service.  I ordered on May 5 (a month ago) and still have not received my order.  When I try to track the order it says it’s in transit.  It has been so long it says the link to track my order has expired and I cannot get a response from customer service. 😡",
+      "I love this collection 😍",
+      "Do they have kid sizes",
+      "SCAM - their returns policy is a total SCAM and they are 50% polyester!! They are TEMU quality at most",
+      "❤❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXzVDKpDvKN",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXzVDKpDvKN/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXzVDKpDvKN/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXzVDKpDvKN",
+  "metrics": {
+    "comments": 224,
+    "likes": 31231,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 41311.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-05-01T16:01:58.000Z",
+  "published_label": null,
+  "rank": 125,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXzVDKpDvKN",
+  "source_url": "https://www.instagram.com/p/DXzVDKpDvKN/"
+}

@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYJiMX7jByQ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.71878-15/687026550_859040253909507_3608372927938963366_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEc9VJiPa9BL9eVU9k86Yyfe8z0VJl_dsVmWS9cyaV2Mv44WftreSu7Px_GPP8p5GM&_nc_ohc=4lx900jE3_wQ7kNvwGkXvFj&_nc_gid=5YZoyg4RMlsCJfl_XLabaA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8lk0L9rRQXMw14G92SSJhXSkTwQ-noKVZ2S99Ti1O6IA&oe=6A347EE9&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Some of the deepest love doesn’t announce itself.⁠\n⁠\nIt lives in the rides home, the lights left on, the way someone remembered what you needed before you knew how to ask.⁠\n⁠\nAnd years later, you realize—⁠\nthey weren’t just loving you.⁠\n⁠\nThey were teaching you how to feel at home in the world.⁠\n⁠\n🖤 Thinking of the ones who raised us, stayed, and loved us quietly today.",
+    "word_count": 68
+  },
+  "communication_seed": {
+    "first_comment": "Thats the beauty of love 😍",
+    "latest_comments": [
+      "Thats the beauty of love 😍",
+      "Very well said ❤️",
+      "“The pulse may fade, but the echo remains.”\nI’m truly inspired by your work! Your posts always carry so much depth and emotion. Everyone who appreciates true artistry should follow this page for more incredible content like this. ✨\nFollow @echoesthroughtimes for more poetic reflections.",
+      "🙏🏻🤍",
+      "Well said 🍀",
+      "Adorable 🌻🥰",
+      "🖤..",
+      "✊",
+      "🇧🇷",
+      "✨💯🤌👌"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "domestic",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYJiMX7jByQ",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYJiMX7jByQ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYJiMX7jByQ",
+  "metrics": {
+    "comments": 12,
+    "likes": 958,
+    "plays": 40403,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 9503,
+    "winner_score": 1830.61
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-10T07:03:09.000Z",
+  "published_label": null,
+  "rank": 639,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYJiMX7jByQ",
+  "source_url": "https://www.instagram.com/p/DYJiMX7jByQ/"
+}

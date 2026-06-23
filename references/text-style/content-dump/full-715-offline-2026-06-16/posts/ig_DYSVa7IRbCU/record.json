@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYSVa7IRbCU:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/696693535_17900524491431061_5726045160847732183_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gG9PBkhqZn_YQnxTuSgfoeRfx961QS1PfHfE6uMpHtbYqsgmAVGpxzeoJYsFPPYbTA&_nc_ohc=rKwud6NsMCEQ7kNvwEZuAeN&_nc_gid=_OvHtrkzg8m6dJEXl1TCJw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8aYyFaaOgJKDlSlYYfHiQWS1iWbOKruPt7kIZq824sLQ&oe=6A346A98&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "From 18 year old kids to raising a whole family together. 🥹🤍\n\nFollow @hereverydaymotherhood for more relatable motherhood + marriage moments 🤍",
+    "word_count": 19
+  },
+  "communication_seed": {
+    "first_comment": "@rajareddychintala ❤️❤️",
+    "latest_comments": [
+      "@rajareddychintala ❤️❤️",
+      "16 and 18 ❤️ now we're 51 and 53 ❤️ still together ❤️ he's still the one ❤️ @icoolhotboxes",
+      "@nausherkhan ❤️",
+      "@nibin_jayan 💎😘",
+      "@deepakk2309 ❤️❤️❤️❤️",
+      "❤️ @arsh_singh_97",
+      "@brahma_.g 🔥❤️😍👏",
+      "@mike.csmn 😍"
+    ],
+    "mechanic_tags": [
+      "static",
+      "domestic",
+      "nostalgia"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYSVa7IRbCU",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYSVa7IRbCU/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYSVa7IRbCU",
+  "metrics": {
+    "comments": 59,
+    "likes": 7796,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 10451.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-13T17:02:36.000Z",
+  "published_label": null,
+  "rank": 403,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYSVa7IRbCU",
+  "source_url": "https://www.instagram.com/p/DYSVa7IRbCU/"
+}

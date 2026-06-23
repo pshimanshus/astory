@@ -1,0 +1,131 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY98XNXEvbY:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-det1-1.cdninstagram.com/v/t51.82787-15/709035645_18599272879016016_6630561517972998477_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-det1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHf-qNhGB-T5WEK1Jxe1yM1CtpDoLkVpGczJMlmdkvgWKBvrU-SYI6zcOIHrVu_vkc&_nc_ohc=oWQFURMugLQQ7kNvwEq-GWY&_nc_gid=bNoCWI4-bqkc93T6cT7AdA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-UsXSq659Jhmqs0mjtVbbHuhvwkE-VWiqBtuXAw5c5Fg&oe=6A345FC6&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY98XNXEvbY:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY98XNXEvbY:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my book “embrace” 🖤\n\ncomment “EMBRACE” and I’ll send you the link",
+    "word_count": 13
+  },
+  "communication_seed": {
+    "first_comment": "100% agree",
+    "latest_comments": [
+      "100% agree",
+      "Y talking u with  waset time",
+      "Embrace",
+      "Embrace",
+      "Thank you for sharing ❤️",
+      "Embrace",
+      "👏"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY98XNXEvbY",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY98XNXEvbY/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY98XNXEvbY",
+  "metrics": {
+    "comments": 88,
+    "likes": 4848,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 8808.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-30T15:29:17.000Z",
+  "published_label": null,
+  "rank": 430,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY98XNXEvbY",
+  "source_url": "https://www.instagram.com/p/DY98XNXEvbY/"
+}

@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZZrXRgRaBL:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/719301935_18049881266782076_5550539547123351881_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gEbWVuNr0kLRGIJ_Y5agb6n7PRn-qq1SizBV1kHmTyTKeDSRBJoiU_frpZOd75u3-w&_nc_ohc=ysUx2LIagQEQ7kNvwFEm190&_nc_gid=5ybO6sfBoi3tLjdHfLlfCg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_F2mnyRbKdFiuvHEgswwfD88HXmNtPPjhXYKI2Ew1CzA&oe=6A34856D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "lovequotes",
+      "relationshipgoals",
+      "couplegoals",
+      "lovemessages",
+      "iloveyo"
+    ],
+    "public_preview": null,
+    "text": "Some people come into your life and change everything without even trying. ❤️\n\nThe way they make you smile.\nThe way they make ordinary days feel special.\nThe way they somehow become your favorite part of every day.\n\nIf you have someone like that...\n\nSend this to them. 💌\n\nAnd if you’re lucky enough to be loved by someone who chooses you today, tomorrow, and always, never take it for granted.\n\nTag your person below. ❤️👇\n\n#lovequotes #relationshipgoals #couplegoals #lovemessages #iloveyo",
+    "word_count": 79
+  },
+  "communication_seed": {
+    "first_comment": "😍",
+    "latest_comments": [
+      "😍",
+      "I love you more ❤️",
+      "Ты очень милый на этом фото",
+      "@shimmering_lavender 💞☯️",
+      "Alexis Chris 💖❤️❤️❤️🙏❤️",
+      "❤️❤️💞🌞🌹",
+      "Always my loveeee😍😍😍@lorecibz ❤️❤️❤️❤️❤️",
+      "My sweet samurai 🗾💖🦀🌊👑🙏🏾. I love you my king K 👑💖🦀🌊"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZZrXRgRaBL",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZZrXRgRaBL/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZZrXRgRaBL",
+  "metrics": {
+    "comments": 44,
+    "likes": 997,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2977.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T09:59:48.000Z",
+  "published_label": null,
+  "rank": 582,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZZrXRgRaBL",
+  "source_url": "https://www.instagram.com/p/DZZrXRgRaBL/"
+}

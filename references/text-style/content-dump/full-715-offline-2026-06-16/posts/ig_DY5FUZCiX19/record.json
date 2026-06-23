@@ -1,0 +1,142 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY5FUZCiX19:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/707523202_18595557049000418_3277475989426008117_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gHqNYEaRdGl3r0EufDgdPVtOGE6Qe5FK0jA5y8GDVOEeZMOqfiGgkuWy3pbNbT9744&_nc_ohc=6d6b2FBxdjYQ7kNvwFJDjpI&_nc_gid=7r8Y1wfX387RntBiIsPzmw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9RKn4HCTZJB8xqDp2f_ayMYYxw-nUQ3OZCqNbM0Ha3IA&oe=6A345B2C&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY5FUZCiX19:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY5FUZCiX19:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY5FUZCiX19:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "what if we wear matching hoodies and spread good energy together?",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "Fuck I miss her.",
+    "latest_comments": [
+      "Fuck I miss her.",
+      "Check out @loveflag_paradetracker",
+      "❤️",
+      "Thanks",
+      "🫶🏻",
+      "Amen",
+      "@l_aimee09_x 09",
+      "Sadhu… sadhu… sadhu…",
+      "😍"
+    ],
+    "mechanic_tags": [
+      "carousel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY5FUZCiX19",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY5FUZCiX19/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY5FUZCiX19",
+  "metrics": {
+    "comments": 27,
+    "likes": 13244,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 14459.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-28T18:11:20.000Z",
+  "published_label": null,
+  "rank": 345,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY5FUZCiX19",
+  "source_url": "https://www.instagram.com/p/DY5FUZCiX19/"
+}

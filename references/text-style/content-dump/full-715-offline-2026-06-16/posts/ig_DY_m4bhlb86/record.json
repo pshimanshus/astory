@@ -1,0 +1,99 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY_m4bhlb86:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/706504472_18601504000031367_466042540735465970_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gH3hH9E4cEDL8hEwgAUdpEp1C1v_e8U1XV_8dr73f8JI6NHLKdMr1gEM-5mHLmznjA&_nc_ohc=7q-ZLF6iiogQ7kNvwGizo14&_nc_gid=jttiRiI-_k8Oea81dck1Qw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9Z7Ua-SYkTIVSOkp71i8PIrMs7HXAuZRHz_eWNUU7Xog&oe=6A345FBF&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "living asks something of you.⁠\n⁠\nto keep going when it hurts.⁠\nto stay soft in a hard world.⁠\nto risk loving again after loss.⁠\nto wake up and try one more time.⁠\n⁠\nmaybe that’s the trick of it all.",
+    "word_count": 40
+  },
+  "communication_seed": {
+    "first_comment": "Yes",
+    "latest_comments": [
+      "Yes",
+      "and yet here we all are. showing up. doing the trick !!",
+      "❤️",
+      "“Dying is easy, young man. Living is harder.”",
+      "Beautiful",
+      "Figuring life out seems to be tge most difficult thing……"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY_m4bhlb86",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY_m4bhlb86/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY_m4bhlb86",
+  "metrics": {
+    "comments": 50,
+    "likes": 11394,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 13644.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-31T07:00:13.000Z",
+  "published_label": null,
+  "rank": 358,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY_m4bhlb86",
+  "source_url": "https://www.instagram.com/p/DY_m4bhlb86/"
+}

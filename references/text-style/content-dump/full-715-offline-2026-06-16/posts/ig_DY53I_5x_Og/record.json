@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY53I_5x_Og:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-xxc1-1.cdninstagram.com/v/t51.82787-15/711115871_17902848651431061_1950921012814112592_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-xxc1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gEfolv79bcPQTLoFgmyPLp4XNX7SnOv068O9zRho5BtIMMTKEZiMMEvycouYbqo4Tg&_nc_ohc=dtyQboMiInwQ7kNvwF1jY7-&_nc_gid=FSqgWSgYRos2ZZxCf5mbvA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-OuoTNzYf1FAz_0_M3wKGbK3BnWY1F1_Xl8mJseRB8dw&oe=6A3465C5&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "It’s choosing each other. Every single day. 🫶🏼✨\n\nFollow @hereverydaymotherhood for more relatable motherhood + marriage moments 🤍",
+    "word_count": 16
+  },
+  "communication_seed": {
+    "first_comment": "So very true. Single but still.",
+    "latest_comments": [
+      "So very true. Single but still.",
+      "😍😍😍",
+      "@plasjoostvande ❤️",
+      "🙌👏❤️",
+      "@husamcom ❤️",
+      "@dommarcello10 you and I babe ❤️ (and a lot of help from above 👏 )",
+      "@colum_brady ❤️",
+      "@patrick_law25"
+    ],
+    "mechanic_tags": [
+      "static",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY53I_5x_Og",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY53I_5x_Og/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY53I_5x_Og",
+  "metrics": {
+    "comments": 35,
+    "likes": 11709,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 13284.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-29T01:26:51.000Z",
+  "published_label": null,
+  "rank": 361,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY53I_5x_Og",
+  "source_url": "https://www.instagram.com/p/DY53I_5x_Og/"
+}

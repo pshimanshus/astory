@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXE7HcRB6-h:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/662642363_18578222251012837_4674562905185310924_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gE5ybzbWjFnxK82B10X6DZ3qdm4YFYLKkXrjiI8XdeAdeJNMC9gZ2Y5aKZLfwPYkUc&_nc_ohc=LDqxrc7DWC4Q7kNvwEI1hm4&_nc_gid=NLuYzImRcvC54wG5Nx6jkw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_eLAFOWSG1vhR5C5BVNDV7khDPet0BpZbXrGWCYYFEQg&oe=6A347B12&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes the hardest thing to believe is that what’s meant for you doesn’t require you to chase it. That you don’t have to prove your worth, overextend your heart, or hold onto something that keeps slipping through your hands. But what is real, what is rooted, will meet you in peace — not in confusion, not in pressure. \n\nWe spend so much time questioning why things didn’t work, why doors closed, why something we wanted so badly didn’t stay. But not everything that leaves is a loss. Some things leave because they were never meant to remain — they were only there to teach you, shape you, or redirect you. \n\nEven when it feels quiet, even when nothing seems to be happening, life is still moving things into place. The right people, the right timing, the right opportunities — they are finding their way to you in ways you cannot always see yet. \n\nYou are not being overlooked. You are being prepared. So keep your heart open, even when it’s hard. What is meant for you will not pass you by — it will find you, and when it does, it will feel like peace. 🖤\n\n📚 Read more in the book ‘Stay Single’ by Rebecca Simon",
+    "word_count": 207
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️❤️❤️",
+    "latest_comments": [
+      "❤️❤️❤️❤️",
+      "Amen ❤️🕊🌅✝️",
+      "Ameen",
+      "Ameen claim manifest",
+      "Amen",
+      "❤️❤️❤️",
+      "I met this guy who rides 🏍️🎶 and life’s been so hectic lately it felt so nice to have a shared experience . But turns out he ended up dipping. He eventually said “I’m not in the right frame of mind to continue”…. So what I felt, tho the love was real. Was always mine. Meant to be mine and stay w me.",
+      "❤️",
+      "@jennie08.ji sometimes we are moving on a wrong path, like something you already know you should not be choosing with the type of job or work you genuinely want to do. Maybe try shifting your perspective or your approach and see what exactly you want. You might be rejecting something that keeps coming your way but your mind looks for logic or may assume it's not for you. Maybe you are meant for something absolutely different what you are pursuing right now. Maybe your path is unconventional this"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXE7HcRB6-h",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXE7HcRB6-h/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXE7HcRB6-h",
+  "metrics": {
+    "comments": 30,
+    "likes": 10896,
+    "plays": 322569,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 71119,
+    "winner_score": 14735.17
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-13T15:30:00.000Z",
+  "published_label": null,
+  "rank": 341,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXE7HcRB6-h",
+  "source_url": "https://www.instagram.com/p/DXE7HcRB6-h/"
+}

@@ -1,0 +1,144 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVqzUhQkYyR:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sea1-1.cdninstagram.com/v/t51.82787-15/648982746_18569403976012837_5065674690138232454_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFl5BbYOqgsRxp10u-NMylB8WGHLBoVKqLmuOg1O2ZY0LFAyPBTs3C-pApuK5tt70U&_nc_ohc=SxBMwDeq9mEQ7kNvwHKkQZy&_nc_gid=-mJYD_hqATCFkLR6zE_fKQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-nj1SgVu2hraHTR3yYTzkiR6sCcx_2e3KsI3qig6rdYQ&oe=6A348506&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DVqzUhQkYyR:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DVqzUhQkYyR:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DVqzUhQkYyR:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Pages from the book ‘A Gentle Reminder’ by Bianca Sparacino 🖤\nFind your copy in our link in bio.",
+    "word_count": 18
+  },
+  "communication_seed": {
+    "first_comment": "@trustluv07 ❤️‍🩹",
+    "latest_comments": [
+      "@trustluv07 ❤️‍🩹",
+      "I love this soo much! It’s like it’s ment for me right now. I lost someone very special to me, someone I thought I had a future with and it’s been a hard journey, but after reading this, it’s like the clouds are starting to fade away and I can see a small glimpse of light and hope. I know I’ll be okay, I just need to keep pushing and reminding myself and not give up on myself. 🥹😔❤️‍🩹 thank you.",
+      "Thank you for this ❤️",
+      "No, for me love was a part of building my character or knowing who I was unfortunately",
+      "Such a beautiful post.",
+      "🖤🖤",
+      "So so freaking good .",
+      "Fck percintaan",
+      "needed this",
+      "I am absolutely in love with this alone season. I have never been so loved and cared for, and I have the honor of being the one to do it."
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVqzUhQkYyR",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVqzUhQkYyR/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVqzUhQkYyR",
+  "metrics": {
+    "comments": 25,
+    "likes": 7949,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 9074.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-09T15:30:00.000Z",
+  "published_label": null,
+  "rank": 417,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVqzUhQkYyR",
+  "source_url": "https://www.instagram.com/p/DVqzUhQkYyR/"
+}

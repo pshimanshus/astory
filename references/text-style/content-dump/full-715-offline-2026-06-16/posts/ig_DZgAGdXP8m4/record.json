@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZgAGdXP8m4:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.71878-15/719622597_2242559236555361_5485634111190910783_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gGIGQ6M5Vs4DrgcZlFGtVYqxMzAcDd0j3eE6DHIRtdYOGomEkQTuAwOw8wwLfkywiQ&_nc_ohc=0JnLV1OrCcwQ7kNvwGDmNGx&_nc_gid=HYdTlVt6cgyQUJWfKNy3jQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-McbA3iwkafh-xNBBqUe-mvTalBNCPuCCMjx_3ReUuIg&oe=6A347A65&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Fun fact: In Monsters, Inc., Sulley has over 2.3 million individually animated hairs.\n\nThat means every time he moves, walks, breathes, or gets scared, Pixar had to make his fur react like it was real.\n\nBasically, one of the hardest working actors in the movie was his hair.",
+    "word_count": 49
+  },
+  "communication_seed": {
+    "first_comment": "It is what it is but why it gotta be 😅",
+    "latest_comments": [
+      "It is what it is but why it gotta be 😅",
+      "😊",
+      "It is",
+      "😂😂😂",
+      "😂",
+      "@weeerach omfg",
+      "😂😂😂",
+      "😢",
+      "Basically what my dads always said in Spanish “asi es la vida”. Literally what I live by.",
+      "I'm not quite the happy-go-lucky guy I used to be 💔"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZgAGdXP8m4",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZgAGdXP8m4/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZgAGdXP8m4",
+  "metrics": {
+    "comments": 17,
+    "likes": 12024,
+    "plays": 358524,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 110110,
+    "winner_score": 16642.85
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T20:56:58.000Z",
+  "published_label": null,
+  "rank": 324,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZgAGdXP8m4",
+  "source_url": "https://www.instagram.com/p/DZgAGdXP8m4/"
+}

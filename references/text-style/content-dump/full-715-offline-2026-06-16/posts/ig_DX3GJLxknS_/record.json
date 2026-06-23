@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DX3GJLxknS_:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/685999488_18591245320016016_54823301024472689_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHdaek4DzAeQc_etWf-ZjSL0upENCxHlUR9ydM4_VT_fQxzUZvJYRHKRITi2OB10JY&_nc_ohc=YO4tLcP9nJIQ7kNvwEt0Qs4&_nc_gid=yah_JFR1Sj8zSAN4MD6dzg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9W5i7X9DNZH_wyC5LNwX-TkrRXQSkBO44IpCnembVx3w&oe=6A34566C&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "what are your goals for May?",
+    "word_count": 6
+  },
+  "communication_seed": {
+    "first_comment": "4.Survive",
+    "latest_comments": [
+      "4.Survive",
+      "Amen",
+      "🔥🔥🔥",
+      "🙌",
+      "❤️",
+      "100% 🙌🏼",
+      "Great stuff!",
+      "❤️",
+      "😃 💕 👌 🙏🏾",
+      "✨"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX3GJLxknS_",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX3GJLxknS_/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DX3GJLxknS_",
+  "metrics": {
+    "comments": 49,
+    "likes": 14323,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 16528.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-03T03:08:51.000Z",
+  "published_label": null,
+  "rank": 326,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DX3GJLxknS_",
+  "source_url": "https://www.instagram.com/p/DX3GJLxknS_/"
+}

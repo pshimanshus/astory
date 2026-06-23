@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DGUMvstS2A7:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.2885-15/480742818_18489940072039494_1603184198185425589_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gH4j1DyJbOMwPlueWjMd8FWnCVcDxDMKtnMIqmJQcm6TkaZK69BWJwYa2f-LTAiRi0&_nc_ohc=wauSysyKlYQQ7kNvwHmiC9K&_nc_gid=jpK1o-n1p8IpMFe_q8_GFg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8VvoV92IgWtm1aM859Qw82e-A5VZKRXkssZ5HaftTHyg&oe=6A348B19&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "if you’re gonna try to reach me via Venmo you’re gonna have to make it at least $20",
+    "word_count": 20
+  },
+  "communication_seed": {
+    "first_comment": "😂😂😂😂😂😂😂",
+    "latest_comments": [
+      "😂😂😂😂😂😂😂",
+      "@ngorski15 can you try this next",
+      "Facts lol",
+      "$20? At least $200, tf…",
+      "Last week my ex send me Uber gift card to do exactly same thing 😂",
+      "@jodeeeneves",
+      "More like $200",
+      "A few*"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DGUMvstS2A7",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DGUMvstS2A7/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DGUMvstS2A7/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DGUMvstS2A7",
+  "metrics": {
+    "comments": 53,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2385.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-02-21T00:59:14.000Z",
+  "published_label": null,
+  "rank": 151,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DGUMvstS2A7",
+  "source_url": "https://www.instagram.com/p/DGUMvstS2A7/"
+}

@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZkCwk0xCjc:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/724225853_18050461742782076_7985259972965603616_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGqEDkUU73UF46LkujuyYK9nL5PbrbZ7vvVbqweFq0tlZ3IdI1oPrWpP-5uNY_rc4s&_nc_ohc=x5M6dLI15vUQ7kNvwHcnOsy&_nc_gid=xZj35Efn5A5KR03gh-iKMw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_1T7OV0cgSI2-Fvo-hDIGoKbRUsuS1Aj1_Im998NDLuQ&oe=6A347425&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessages",
+      "MorningLove",
+      "CatLovers",
+      "CuteCats",
+      "PassionateLoveMessages"
+    ],
+    "public_preview": null,
+    "text": "Sending you some Meowrning Love. ❤️\n\nJust a little reminder that you are loved, appreciated, and thought about more than you know.\n\nTag someone who deserves a little extra love today. 🐾❤️\n\n#LoveMessages #MorningLove #CatLovers #CuteCats #PassionateLoveMessages",
+    "word_count": 35
+  },
+  "communication_seed": {
+    "first_comment": "Good Morning, Enjoy this beautiful day the Lord has make.",
+    "latest_comments": [
+      "Good Morning, Enjoy this beautiful day the Lord has make.",
+      "❤️❤️❤️",
+      "Good morning baby hope you slept well sorry about last night I was tired too the bone I needed 💗 some desperate sleep but I want you to know that I love you with all my heart ❤️ 💙 and always love you so deeply 💖 💗 💕 ♥️ have a beautiful day with your friends and family love you always 💖 💗 💕",
+      "❤️❤️",
+      "❤️❤️❤️❤️❤️😍❤️",
+      "This officially made my morning. 🐱❤️\"\"Consider the love received. Best morning reminder ever.\"\"The cat definitely got my attention. Thank you. 🥰\"",
+      "❤️❤️❤️🔥"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZkCwk0xCjc",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZkCwk0xCjc/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZkCwk0xCjc",
+  "metrics": {
+    "comments": 7,
+    "likes": 174,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 489.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-14T10:36:30.000Z",
+  "published_label": null,
+  "rank": 704,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZkCwk0xCjc",
+  "source_url": "https://www.instagram.com/p/DZkCwk0xCjc/"
+}

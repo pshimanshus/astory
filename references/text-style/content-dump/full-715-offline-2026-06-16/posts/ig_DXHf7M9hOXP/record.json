@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXHf7M9hOXP:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/669917234_1103576911970437_2893740423914731295_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gGyXMBSv3NJSe9Lpp_-LDajxoyarCqoZIe8EYNmE26z2U-y5BAgAig8EVAJjb6Ugb4&_nc_ohc=PzKbIBe8KlEQ7kNvwEjhlNo&_nc_gid=8utkw7tftMFDiKEAFBVO_w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af85gpk_cMhBCyo6Hb6HaI5ztdX1Qaqv0cf2B2eRosSsVA&oe=6A34614D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "What’s meant for you will never miss you. You don’t have to chase it, force it, or prove yourself for it to stay. What is real will meet you in peace, not confusion. 🖤\n\nIf this spoke to you, the book ‘Stay Single’ by Rebecca Simon is a reminder of exactly this 📖",
+    "word_count": 53
+  },
+  "communication_seed": {
+    "first_comment": "Amen 🙌🙏🛐👏👏👏👏❤️",
+    "latest_comments": [
+      "Amen 🙌🙏🛐👏👏👏👏❤️",
+      "In Jesus name Amen!!!❤️",
+      "Amen❤️",
+      "🙌",
+      "Amen",
+      "amen. i don’t know what im doing when it comes to love. i just try to show up everyday for me and her and that’s all i can do 💔",
+      "I will no longer seek satisfaction and validation from empty wells, I will focus on my faith and through that god will provide me with living water. “I know the plans I have for you says the lord. Plans to prosper you, not to harm you. Plans to give you hope and a future” -Jeremiah 29:11 has gotten me through every hardship in my life 🤍",
+      "Please God",
+      "Amen.",
+      "Amem"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXHf7M9hOXP",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXHf7M9hOXP/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXHf7M9hOXP",
+  "metrics": {
+    "comments": 40,
+    "likes": 18613,
+    "plays": 397218,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 122071,
+    "winner_score": 24685.49
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-14T15:30:00.000Z",
+  "published_label": null,
+  "rank": 271,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXHf7M9hOXP",
+  "source_url": "https://www.instagram.com/p/DXHf7M9hOXP/"
+}

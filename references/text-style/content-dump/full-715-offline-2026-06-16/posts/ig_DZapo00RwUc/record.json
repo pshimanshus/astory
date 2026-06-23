@@ -1,0 +1,100 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZapo00RwUc:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/721995847_18049942715782076_3226425967994881004_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gH3xp01wCGaqv0hpkjSltGfiZELtWtwXxr-JIg9oiMP--wF9p0V-QrxBPV79C-bOm4&_nc_ohc=qho2fSFEdLQQ7kNvwGEuXtl&_nc_gid=2hhUwq4yb0TWHfoZ8pIWlg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_6ZGWUj1cZVWqFb-su8RtpaA3XksPj2jBV5pnCupWnNw&oe=6A34886F&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "❤️❤️❤️",
+    "word_count": 0
+  },
+  "communication_seed": {
+    "first_comment": "I na ovo ....no coment",
+    "latest_comments": [
+      "I na ovo ....no coment",
+      "🙏🏽🤲🥰",
+      "Amen",
+      "❤️❤️❤️❤️",
+      "True. Amen 🙏🙏❤️❤️",
+      "❤️ Alles individuel ❤️❤️. 😍 ❤️. ❤️.",
+      "DISTANC ist manchmal hilfreich  vordenken,denken nach , was pasierte , pasiert bei Gefühl ,  einfach, ❤️ manchmsl hilft.",
+      "Our love will overcome any distance and obstacles ❤️❤️❤️"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZapo00RwUc",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZapo00RwUc/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZapo00RwUc",
+  "metrics": {
+    "comments": 37,
+    "likes": 849,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2514.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T19:03:51.000Z",
+  "published_label": null,
+  "rank": 607,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZapo00RwUc",
+  "source_url": "https://www.instagram.com/p/DZapo00RwUc/"
+}

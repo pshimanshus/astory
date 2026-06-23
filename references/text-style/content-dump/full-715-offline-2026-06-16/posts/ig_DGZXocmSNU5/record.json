@@ -1,0 +1,98 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DGZXocmSNU5:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-15/481243005_18490290976039494_2413467422463366657_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHIfv0p0ZMPmwz-A3obvnyf4FC6MPEJZvY5okTrBGN7Q123nFxJmXowoWdDBUWTRbo&_nc_ohc=yEWR7R_J4JMQ7kNvwHY6f74&_nc_gid=ClJTKVrxCK4pOiGVfEhF0Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af910cWYD38Sw1q8gDd1V1tAvl2qah3FPvYg8bcn0Yh0mw&oe=6A3480A9&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "What the fuck does he think im doing at 4:31am?",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "Brother go to bed",
+    "latest_comments": [
+      "Brother go to bed",
+      "Manifest harder lol",
+      "Hess depends how drunk and horny I am lol",
+      "followed by tame Impala 😭😭😭",
+      "430 am? Go to bed my boy Jesus Christ it’s not that serious",
+      "@onyx_ruby_ surprised they didn’t say, “Sorry, that wasn’t meant for you”"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DGZXocmSNU5",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DGZXocmSNU5/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DGZXocmSNU5",
+  "metrics": {
+    "comments": 24,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1080.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-02-23T01:10:34.000Z",
+  "published_label": null,
+  "rank": 674,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DGZXocmSNU5",
+  "source_url": "https://www.instagram.com/p/DGZXocmSNU5/"
+}

@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYBz0b-nAHh:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/691602467_18594421126031367_1653267667200734977_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFuADKjWAJ6NEjgUSUy7nd95dt8-H8uZz8qjfizM35M9AmtKZu7G7jwXrioKDQovFY&_nc_ohc=4Dz1hjjI72YQ7kNvwFJk0It&_nc_gid=hLBiE_TPs1F0hqQR1FlVBA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8D1yF8v-JMrwxOkV3YJ6-BJGAjaI10yiqtz5LL61zFLg&oe=6A348B9A&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes beginning again doesn’t look brave.⁠\n⁠\nSometimes it looks like resting.⁠\nLike changing your mind.⁠\nLike walking away from what no longer fits.⁠\nLike trying once more after thinking you couldn’t.⁠\n⁠\nThere is no limit to how many times you’re allowed to return to yourself.⁠\n⁠\nStart where you are.⁠\nThat is enough.",
+    "word_count": 55
+  },
+  "communication_seed": {
+    "first_comment": "🙌🙌❤️❤️",
+    "latest_comments": [
+      "🙌🙌❤️❤️",
+      "Screw beginning again, walking forward with you now is all that matters.❤️❤️❤️",
+      "What if you have no strength left?",
+      "There is so much grace in this reminder. We often get trapped thinking we have to stick to a script we've outgrown. Starting over isn’t failure; it’s a sign of courage and growth.",
+      "For Sure!!!",
+      "Yes, Yes & Yes 🙌",
+      "Some endings and just hidden beginnings! ❤️",
+      "Wasn’t beginning anytbjng",
+      "Wake up and try again❤️",
+      "This is exactly what we talked at length on our latest episode. You have the power to rewrite your story when you are not happy with the one you are living"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYBz0b-nAHh",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYBz0b-nAHh/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYBz0b-nAHh",
+  "metrics": {
+    "comments": 88,
+    "likes": 14878,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 18838.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-07T07:00:28.000Z",
+  "published_label": null,
+  "rank": 301,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYBz0b-nAHh",
+  "source_url": "https://www.instagram.com/p/DYBz0b-nAHh/"
+}

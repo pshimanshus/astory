@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZQZkgFyQMO:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-1.cdninstagram.com/v/t51.71878-15/716702610_1030282976096711_8239708038891781367_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGL1rhwndpJjmZbf8XQ-n6X3EPOKi514ZvN8uxaTx-DLJxanK9Y51-y6Td65ftHku4&_nc_ohc=oTW0CzAHMZAQ7kNvwHfpW8X&_nc_gid=cRaPcysUYEzc9Rycm_eDUw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9XMGQS089u7h-o1KI-vkyfbqmzlESwT5kCiShbcxCsAw&oe=6A346A4E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "❤️",
+    "word_count": 0
+  },
+  "communication_seed": {
+    "first_comment": "No one does.",
+    "latest_comments": [
+      "No one does.",
+      "@sorethi_bams lahams kitaaa💋",
+      "@deniseria i wish na mabalik pa Yung college days na love na love mo Pako hehehehe",
+      "My kind of love language 😭 it really is the little things",
+      "@shanu_bhaiya",
+      "❤️🙌🔥",
+      "❤️",
+      "Amen",
+      "So beautifully written",
+      "❤️❤️"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZQZkgFyQMO",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZQZkgFyQMO/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZQZkgFyQMO",
+  "metrics": {
+    "comments": 22,
+    "likes": 13928,
+    "plays": 340061,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 63968,
+    "winner_score": 17156.88
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-06T19:30:08.000Z",
+  "published_label": null,
+  "rank": 315,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZQZkgFyQMO",
+  "source_url": "https://www.instagram.com/p/DZQZkgFyQMO/"
+}

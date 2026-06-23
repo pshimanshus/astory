@@ -1,0 +1,240 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/710537167_18426811870133491_4893865975163779381_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gFKLfkuM2BoSVQAFXiX682re4FSCzg0u0poZB8qAP6dWk0_hJg6hE2GX_mIJWIt2Pc&_nc_ohc=LtrDcUylTb8Q7kNvwG3B6xP&_nc_gid=K0OFV7l8jQLG4pC8haxZbA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8inyKHKkX9LvgNhIZ1feauNXYljSEiRTonRDphMO98Og&oe=6A347DB8&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:08",
+      "index": 8,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:09",
+      "index": 9,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:10",
+      "index": 10,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZA66JcldOd:asset:11",
+      "index": 11,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "✨Taken from @danielchidiac’s new book, ‘Stop Letting Everything Affect You.’ If you don’t own this book yet, get on it! 💛 The best read for over-thinkers and people who want more control over their  emotions. Click the link in @danielchidiac’s bio to grab your copy!",
+    "word_count": 48
+  },
+  "communication_seed": {
+    "first_comment": "♥️😻",
+    "latest_comments": [
+      "♥️😻",
+      "My cat attacks when overstimulated",
+      "But cats always eat",
+      "Just another confirmation that I am indeed a cat",
+      "Fantastisch boek! Ook bezig met lezen .Heel informatief en praktisch 🔥",
+      "Cats> ❤️",
+      "Ok so I gotta leave from work everytime I feel like",
+      "Ador",
+      "👌",
+      "So be a cat🥰💆"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZA66JcldOd",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZA66JcldOd/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZA66JcldOd",
+  "metrics": {
+    "comments": 32,
+    "likes": 7720,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 9160.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-31T19:14:18.000Z",
+  "published_label": null,
+  "rank": 415,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZA66JcldOd",
+  "source_url": "https://www.instagram.com/p/DZA66JcldOd/"
+}

@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DMGPR9iz2uo:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-den2-1.cdninstagram.com/v/t51.82787-15/519402644_18539001007023341_1584906656387567059_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gE17iX84nPrjQwkqG_N9k-oU1xbMqBcWQy5BQ6LsyA5wja8xO5sGomeZ5ZHpTwtJq8&_nc_ohc=wlvI5ZIvCn8Q7kNvwGVL6iM&_nc_gid=lcEflprVZfjb_U8Y8vUJFw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-T1JvjSMxPp_ISlrepGbGwYhZ0ux9KiC0NOuuSLn1ZyQ&oe=6A345879&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "When you surrender to the divine plan, peace replaces frustration. Trust the process, it’s all aligning for your highest good. ⁠\n⁠\nType \"Yes\" if you agree 🌻",
+    "word_count": 26
+  },
+  "communication_seed": {
+    "first_comment": "🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽❤️",
+    "latest_comments": [
+      "🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽❤️",
+      "✅👍",
+      "Stay away from my daughter",
+      "Yes 🙌",
+      "Confidence is key🔥",
+      "🙏🏼",
+      "❤️❤️❤️",
+      "Yes , my God"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DMGPR9iz2uo",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DMGPR9iz2uo/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DMGPR9iz2uo",
+  "metrics": {
+    "comments": 365,
+    "likes": 98547,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 114972.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-07-14T18:00:43.000Z",
+  "published_label": null,
+  "rank": 100,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DMGPR9iz2uo",
+  "source_url": "https://www.instagram.com/p/DMGPR9iz2uo/"
+}

@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZHVRCEDlZ2:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/715435792_18602487277031367_8606253843729776073_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFplVOoiBxJBgAhDk13Pqf2Be9kntp5aE2Luhn-yn19KbgFnwEi5TXEAixNWM01c6k&_nc_ohc=Zc-h1LiwL-sQ7kNvwECOpys&_nc_gid=3EkUYf8aty7O4K4AuAFqSA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-sfJxzc-Th89JLHtdNR4qUX3AcFNneSdOygdQPfpxGxQ&oe=6A346200&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "stop chasing what keeps running.⁠\n⁠\ngo where the light is.⁠\ncollect beautiful moments.⁠\nbuild a life that feels like yours.⁠\n⁠\nsome things are meant to be pursued.⁠\nsome things arrive when you stop.⁠\n⁠\nxx Atticus",
+    "word_count": 35
+  },
+  "communication_seed": {
+    "first_comment": "Some people are worth chasing❤️",
+    "latest_comments": [
+      "Some people are worth chasing❤️",
+      "Blah 😑",
+      "❤️❤️",
+      "Die",
+      "While I’m waiting to doe",
+      "True",
+      "i love this",
+      "@themadmanstitch"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZHVRCEDlZ2",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZHVRCEDlZ2/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZHVRCEDlZ2",
+  "metrics": {
+    "comments": 30,
+    "likes": 7390,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 8740.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-03T07:00:14.000Z",
+  "published_label": null,
+  "rank": 431,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZHVRCEDlZ2",
+  "source_url": "https://www.instagram.com/p/DZHVRCEDlZ2/"
+}

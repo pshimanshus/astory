@@ -1,0 +1,134 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DW9Ms7mEXjz:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/669766922_18578217103012837_1691251710395882625_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFB3dTsFmTNgxpQr1ijAFPUwe8QHUc0E_bGH_XP7uAr2tI91YkePCUGyO3eYrFRcOc&_nc_ohc=RnxvYbfBehIQ7kNvwHLhDn6&_nc_gid=Rj5TeLc-LMDcCM6y-5Vp5Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8LaGx9BRgGCSLixQHkeOXA8epYHoC_2v9RgSq4TwkkCA&oe=6A347337&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DW9Ms7mEXjz:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DW9Ms7mEXjz:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Missing them will try to convince you that you made a mistake. That maybe you should go back, that maybe you let go too soon, that maybe it could still work if you just tried one more time. But missing someone is not the same thing as being meant to be with them. It just means what you felt was real. \n\nIt means there was love there, connection, something that mattered enough to leave an imprint on you. And of course you feel it now — in the silence, in the absence, in the spaces they used to fill. But pain has a way of romanticizing what hurt you, making you forget why you had to walk away in the first place. \n\nYou didn’t leave without a reason. You didn’t choose distance without knowing something wasn’t right for you. And that truth doesn’t disappear just because you’re lonely, just because healing feels heavier than staying ever did. You can miss them and still know they are not where you belong. \n\nSo if you’re thinking about going back, read this again. Let yourself feel it, but don’t let it lead you somewhere that already broke you. It’s okay to miss them. It’s okay to wish it had worked. But it’s also okay — and necessary — to keep choosing yourself anyway. 🖤\n\nA page from the book ‘Daring To Take Up Space’ by \nDaniell Koepke 📖",
+    "word_count": 240
+  },
+  "communication_seed": {
+    "first_comment": "I can’t ❤️‍🩹",
+    "latest_comments": [
+      "I can’t ❤️‍🩹",
+      "There’s something beautiful about love that feels calm instead of chaotic.",
+      "Needed to read this 🌸🌸",
+      "Its been 7 years! I am about to get married, I have moved on, I have done it all and sometimes still hurts, I still cry, sometimes the pain returns. At this point I can’t explain this feeling anymore.",
+      "Thank you for these beautiful words",
+      "👌🏻",
+      "Tonight is one of the heavy night for me since he want to stop and looking for his own path, the one I know that I’m not included in there. It’s been a really long fought battle between me against the world. Everyone even him just want me to give up and let go while I’m here holding the rope that cutting myself into pieces and he just stand there watching and said “ god want us separate for the best coming back”, I hate the phrase people used “ new people will come to your life and pay you back”",
+      "I don’t have his digits.",
+      "💝💝",
+      "❤️❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DW9Ms7mEXjz",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DW9Ms7mEXjz/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DW9Ms7mEXjz",
+  "metrics": {
+    "comments": 64,
+    "likes": 21108,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 23988.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-10T15:30:00.000Z",
+  "published_label": null,
+  "rank": 144,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DW9Ms7mEXjz",
+  "source_url": "https://www.instagram.com/p/DW9Ms7mEXjz/"
+}

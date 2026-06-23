@@ -1,0 +1,157 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZc6EVsEaxc:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.frst1-1.fna.fbcdn.net/v/t51.82787-15/721323154_18428552851133491_7431567624969148395_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.frst1-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gGl_EnHNHhTixkvj1vLbOZIK7wSpUVQaAfSW1cJZK1yomHAzeVbBwLd-2LJsAaZIfo&_nc_ohc=E9vksGKhvQoQ7kNvwG0RD8U&_nc_gid=SF7XdAgFpG8a2UqiWlj5AQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-FB8B4xb5zzeoEwjYS_9_7oQ3DT9AKuS4k05nAt8h9DA&oe=6A348491&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZc6EVsEaxc:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZc6EVsEaxc:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZc6EVsEaxc:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZc6EVsEaxc:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You don’t have to have everything figured out right now.\n\nYou don’t need a five-year plan. You don’t need to suddenly become a different person overnight. You don’t need to prove that you’re making perfect use of every day.\n\nYou’ve already made it through things you once thought would break you. There are versions of you from the past that would be relieved to know you made it this far.\n\nI know it’s easy to look around and feel behind. To wonder if everyone else understands something you somehow missed. To think you should be doing more, becoming more, fixing more.\n\nBut maybe you’re allowed to be a work in progress without treating yourself like a problem.\n\nMaybe your life isn’t late.\n\nMaybe you’re just living through a chapter that doesn’t make much sense while you’re inside it.\n\nYou are still growing, even on the days that feel ordinary. You are still changing, even when it seems like nothing is happening. And you are allowed to trust that not every good thing has already happened.\n\nThere are conversations you haven’t had yet that will stay with you for years. There are people you haven’t met yet who will be grateful you came into their lives. There are moments waiting for you that would make all this worrying feel strangely distant.\n\nYou don’t have to force your future into existence.\n\nJust keep showing up.\n\nKeep being curious.\n\nKeep giving yourself the same patience you would give someone you love.\n\nYou might be a lot closer to the life you’re hoping for than you realize. ✨",
+    "word_count": 280
+  },
+  "communication_seed": {
+    "first_comment": "🙏🏾❤️✨🧡💯💛🤲🏾",
+    "latest_comments": [
+      "🙏🏾❤️✨🧡💯💛🤲🏾",
+      "❤️",
+      "4th one 🤍",
+      "If you are a loser you cannot try to be a winner. You either win or you lose. Tried, try are not doing. You do it, be it, there is no trying.",
+      "🔥",
+      "Without winners, there are no losers.",
+      "❤️",
+      "✨🧠✨",
+      "✨🧠✨",
+      "💯💯💯"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZc6EVsEaxc",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZc6EVsEaxc/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZc6EVsEaxc",
+  "metrics": {
+    "comments": 49,
+    "likes": 25758,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 27963.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-11T16:05:41.000Z",
+  "published_label": null,
+  "rank": 247,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZc6EVsEaxc",
+  "source_url": "https://www.instagram.com/p/DZc6EVsEaxc/"
+}

@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFMbND8h_jE:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-2.cdninstagram.com/v/t39.30808-6/474765960_932861048999485_7393276528766509966_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gEUbdcHpuJ0ZeHnixUu0CRymrzAL0Lh7OQxD9RzOIZCcVcilvobDPo5tb7X8BmSydQ&_nc_ohc=XZLuR9z_XycQ7kNvwGYYiss&_nc_gid=pP6iU0lGEmio8SBO5windw&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af8CF1BiStHNRRigRrT-Uqc4c1NaN1Z2o13gudRjamKDMw&oe=6A347026&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Choose yourself over temporary emotions. Self-worth comes first.\nDrop a ❤ if you agree",
+    "word_count": 14
+  },
+  "communication_seed": {
+    "first_comment": "✅🙏👍",
+    "latest_comments": [
+      "✅🙏👍",
+      "🤲🏾",
+      "@isabellarosenloev 💘",
+      "💯",
+      "Yes ♥️",
+      "Yups!",
+      "Needed this",
+      "❤"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFMbND8h_jE",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFMbND8h_jE/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFMbND8h_jE",
+  "metrics": {
+    "comments": 170,
+    "likes": 66068,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 73718.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-24T04:00:16.000Z",
+  "published_label": null,
+  "rank": 133,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFMbND8h_jE",
+  "source_url": "https://www.instagram.com/p/DFMbND8h_jE/"
+}

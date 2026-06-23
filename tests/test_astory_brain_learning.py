@@ -84,7 +84,7 @@ class AStoryBrainLearningTests(unittest.TestCase):
                 all(event["claim_id"].startswith("claim:") for event in ledger_events)
             )
 
-    def test_learning_claims_are_indexable_for_future_recall(self):
+    def test_active_learning_claims_are_indexable_for_future_recall(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             _copy_minimal_repo(root)
@@ -95,16 +95,17 @@ class AStoryBrainLearningTests(unittest.TestCase):
             build_index(root, index, include_runs=[RUN_ID])
             results = recall(
                 index,
-                "Aachu looked old couple energy missing rejected output",
+                "prompt only generation forbidden view image queued local references",
                 run_id=RUN_ID,
                 limit=10,
             )
 
             paths = {result.chunk.path for result in results}
             self.assertIn(
-                f"runs/{RUN_ID}/memory/claim_candidates.json",
+                f"runs/{RUN_ID}/memory/active_claims.md",
                 paths,
             )
+            self.assertNotIn(f"runs/{RUN_ID}/memory/claim_candidates.json", paths)
 
     def test_cli_learn_writes_claim_queue_and_ledger(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -160,20 +161,18 @@ class AStoryBrainLearningTests(unittest.TestCase):
                 doctor_json["learning_pipeline_status"],
                 "operational_with_review_queue",
             )
-            self.assertGreaterEqual(doctor_json["claim_review_queue"]["human_review"], 1)
-            self.assertGreaterEqual(doctor_json["claim_review_queue"]["quarantine"], 1)
+            self.assertGreaterEqual(doctor_json["claim_review_queue"]["active_runtime"], 1)
+            self.assertGreaterEqual(doctor_json["claim_review_queue"]["open_human_review"], 1)
+            self.assertGreaterEqual(doctor_json["claim_review_queue"]["open_quarantine_review"], 1)
 
 
 def _copy_minimal_repo(root: Path) -> None:
     for rel in [
         "references/brain/schema/type_taxonomy.json",
         "references/brain/schema/version.json",
-        "references/brain/pages/run-lessons.md",
         "tests/fixtures/brain/qrels.json",
         "scripts/astory_repo_qa.py",
-        "references/identity/aachu/README.md",
-        "references/identity/zuv/README.md",
-        "references/style/observational-intimacy-premium/README.md",
+        "references/style/README.md",
         f"runs/{RUN_ID}/docs/approvals.md",
         f"runs/{RUN_ID}/evals/image_quality_eval.json",
         f"runs/{RUN_ID}/evals/pre_generation_eval.json",
@@ -185,6 +184,65 @@ def _copy_minimal_repo(root: Path) -> None:
         target = root / rel
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(source.read_bytes())
+    _write_minimal_brain_pages(root)
+
+
+def _write_minimal_brain_pages(root: Path) -> None:
+    pages = root / "references/brain/pages"
+    characters = pages / "characters"
+    characters.mkdir(parents=True, exist_ok=True)
+    (characters / "aachu.md").write_text(
+        "---\n"
+        "type: character\n"
+        "role: aachu\n"
+        "---\n\n"
+        "# Aachu\n\n"
+        "# Current Truth\n\n"
+        "- Aachu face identity references are role-separated for retrieval. Evidence: `references/brain/pages/characters/aachu.md`.\n\n"
+        "---\n\n"
+        "# Timeline / Evidence\n\n"
+        "- 2026-06-10 | `references/brain/pages/characters/aachu.md` | Minimal test fixture.\n",
+        encoding="utf-8",
+    )
+    (characters / "zuv.md").write_text(
+        "---\n"
+        "type: character\n"
+        "role: zuv\n"
+        "---\n\n"
+        "# Zuv\n\n"
+        "# Current Truth\n\n"
+        "- Zuv face identity references are role-separated for retrieval. Evidence: `references/brain/pages/characters/zuv.md`.\n\n"
+        "---\n\n"
+        "# Timeline / Evidence\n\n"
+        "- 2026-06-10 | `references/brain/pages/characters/zuv.md` | Minimal test fixture.\n",
+        encoding="utf-8",
+    )
+    (characters / "together.md").write_text(
+        "---\n"
+        "type: character\n"
+        "role: together\n"
+        "---\n\n"
+        "# Together\n\n"
+        "# Current Truth\n\n"
+        "- Together references describe body language and couple scale. Evidence: `references/brain/pages/characters/together.md`.\n\n"
+        "---\n\n"
+        "# Timeline / Evidence\n\n"
+        "- 2026-06-10 | `references/brain/pages/characters/together.md` | Minimal test fixture.\n",
+        encoding="utf-8",
+    )
+    (pages / "run-lessons.md").write_text(
+        "---\n"
+        "type: run_lesson\n"
+        "role: text\n"
+        "---\n\n"
+        "# Run Lessons\n\n"
+        "# Current Truth\n\n"
+        f"- Repo QA preserves blockers instead of manufacturing proof artifacts. Evidence: `runs/{RUN_ID}/evals/repo_qa_review.json`.\n\n"
+        "---\n\n"
+        "# Timeline / Evidence\n\n"
+        f"- 2026-06-10 | `runs/{RUN_ID}/evals/repo_qa_review.json` | Minimal test fixture.\n",
+        encoding="utf-8",
+    )
 
 
 if __name__ == "__main__":

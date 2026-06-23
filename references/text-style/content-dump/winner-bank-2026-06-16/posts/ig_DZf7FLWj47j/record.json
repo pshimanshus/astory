@@ -1,0 +1,245 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/722313982_18428737618133491_5637643907043000865_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGfwWAUP1xDhIUnOQNE-B_YRWtSjnuNKxz4FjKjajJAvbEvS67fuLllrBwjyGO9DIs&_nc_ohc=MUSBhVhv-YAQ7kNvwE8ZF9V&_nc_gid=k8cekBd-r45FZe6oUPNHBA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8VgELhd2KxHcITLUUZDO9ot0-r2vtAvU8vAlnu4dmF8Q&oe=6A34581A&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:08",
+      "index": 8,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:09",
+      "index": 9,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:10",
+      "index": 10,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZf7FLWj47j:asset:11",
+      "index": 11,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "The strange thing about being alive is how quickly it starts to feel normal.\n\nYou wake up inside a body you didn’t build, answer to a name someone gave you, carry a face you’ve never seen directly, and move through a world full of people having lives as private and complicated as your own.\n\nAt first, facts like these feel like little glitches in reality. Interesting, unsettling, almost funny. The kind of thing you read and then immediately want to tell someone else.\n\nBut the deeper point is not that life is strange.\n\nThe deeper point is that we stop noticing.\n\nThe brain is built to turn miracles into background noise. It has to. If you were constantly aware of how improbable and temporary everything is, you’d never get anything done. You’d just stand in the kitchen staring at your hands.\n\nSo the mind simplifies. It makes the moon ordinary. It makes your body ordinary. It makes time ordinary. It makes other people ordinary. It makes today feel like just another day.\n\nThen one small fact breaks through and reminds you where you actually are.\n\nOn a planet.\nIn a body.\nInside time.\nSurrounded by strangers who are also entire worlds.\nMade out of matter older than memory.\nLiving a life that will someday feel impossible to explain.",
+    "word_count": 222
+  },
+  "communication_seed": {
+    "first_comment": "👍🏼👍🏼👍🏼",
+    "latest_comments": [
+      "👍🏼👍🏼👍🏼",
+      "Wow 😮",
+      "This is so cool.",
+      "Mind blowing! In a very good way! ❤️",
+      "heavy & dark",
+      "😍😍😍😍",
+      "@keithvishal Whoa 💜🤯",
+      "❤️❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "nostalgia"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZf7FLWj47j",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZf7FLWj47j/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZf7FLWj47j/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZf7FLWj47j",
+  "metrics": {
+    "comments": 99,
+    "likes": 17683,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 22138.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-06-12T20:12:16.000Z",
+  "published_label": null,
+  "rank": 145,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZf7FLWj47j",
+  "source_url": "https://www.instagram.com/p/DZf7FLWj47j/"
+}

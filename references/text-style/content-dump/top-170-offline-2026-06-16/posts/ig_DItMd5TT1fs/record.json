@@ -1,0 +1,154 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DItMd5TT1fs:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/490846464_18505523995016016_1607517201131548220_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFS02TjyptF-Gn8fE-xJUfJEgoCHfPgDw9iJ0mpfZEVMFFa2mpFdjf5HfJSZEX9WS0&_nc_ohc=M4Qq37IJOEYQ7kNvwEg92eR&_nc_gid=o-_w-mYrVg7tnOkD6ka-IQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af86CNBV-Ae-qgA_A2sAQkulQuZFtBjc9PI-6plQP7ZARw&oe=6A34827E&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DItMd5TT1fs:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DItMd5TT1fs:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DItMd5TT1fs:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "ronwritings",
+      "twentysomething",
+      "motivationalquotes",
+      "growthmindset",
+      "messageforyou",
+      "bookquotes",
+      "quotesaboutlife"
+    ],
+    "public_preview": null,
+    "text": "Book: “twenty something” by @ronwritings \n\nLeave a ❤️ if any of these pages speak to you. \n\nAvailable link in bio or on Amazon 📚\n\n#ronwritings #twentysomething #motivationalquotes #growthmindset #messageforyou #bookquotes #quotesaboutlife",
+    "word_count": 29
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "Loved the inspiring quotes! 💕���",
+      "#likeback",
+      "Great!",
+      "Absolutely resonating with those words—definitely a must-read!",
+      "🙌",
+      "😍",
+      "❤️",
+      "❤️",
+      "Risk doesn't mean diving unknowingly, it's about trying new , bearing small changes and just feeling free to learn more..."
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DItMd5TT1fs",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DItMd5TT1fs/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DItMd5TT1fs",
+  "metrics": {
+    "comments": 246,
+    "likes": 147193,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 158263.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-04-21T11:00:00.000Z",
+  "published_label": null,
+  "rank": 70,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DItMd5TT1fs",
+  "source_url": "https://www.instagram.com/p/DItMd5TT1fs/"
+}

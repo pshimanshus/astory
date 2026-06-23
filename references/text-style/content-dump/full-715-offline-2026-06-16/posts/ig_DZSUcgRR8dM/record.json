@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZSUcgRR8dM:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/719452249_18049484801782076_3342589195716362123_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gEISMz5lxbsTEifghB_6ETYSMMESShw5FW3qNp91lvOjp93FhoTdUDW_BHx-4TNNjc&_nc_ohc=IoN3eMw3q0MQ7kNvwHHQcRc&_nc_gid=Hetwb4fnq5t9sRUUdk-Hzw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af948JBz2abHlll1sdC_-Pi9QE7NOYlLZbucdFOE5qjS_g&oe=6A348E22&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessages",
+      "RelationshipGoals",
+      "ILoveYou",
+      "CoupleGoals",
+      "CuteMessages"
+    ],
+    "public_preview": null,
+    "text": "Just a friendly warning... 💋\n\nIf you’re special to me, there’s a very high chance you’ll receive random kisses, random affection, and random reminders that you’re loved. ❤️\n\nNo schedule.\nNo reason.\nNo explanation.\n\nIt can happen at any time. 😘\n\nTag the person who should consider themselves warned. 💕👇\n\n#LoveMessages #RelationshipGoals #ILoveYou #CoupleGoals #CuteMessages",
+    "word_count": 55
+  },
+  "communication_seed": {
+    "first_comment": "❤️ Love this song 💞❤️😍❤️😍❤️😍",
+    "latest_comments": [
+      "❤️ Love this song 💞❤️😍❤️😍❤️😍",
+      "And will except every kiss and return the favor your way",
+      "😁",
+      "Hey ❤️Vava❤️...IYKYK. You fill my heart with so much love. Thank you soo much 😘😘😘😘. Take care da ❤️❤️",
+      "😂😂❤️❤️❤️❤️",
+      "❤️🥰🌞",
+      "😍nice music",
+      "Warning and kisses received, my baby 😘💕👑💖🗾♂️♋💍😚",
+      "You're just too adorable. Thank you! And yes I did laugh 😂😂😂❣️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZSUcgRR8dM",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZSUcgRR8dM/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZSUcgRR8dM",
+  "metrics": {
+    "comments": 45,
+    "likes": 2335,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 4360.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-07T13:24:48.000Z",
+  "published_label": null,
+  "rank": 539,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZSUcgRR8dM",
+  "source_url": "https://www.instagram.com/p/DZSUcgRR8dM/"
+}

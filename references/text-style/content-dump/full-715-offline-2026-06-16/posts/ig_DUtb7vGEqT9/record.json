@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DUtb7vGEqT9:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/629994489_2000265057371443_1790629779564581595_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEt6IKqxsbJ0KppZPiwHyumeUHiKtTIBZyfn8aI2gyy89yXHs08Mm1cdl_sl6EC8qc&_nc_ohc=QXS9mYwG5t8Q7kNvwEUx0SD&_nc_gid=beTGHOHezEyKGkajItbDXg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9QxhEZyY2AMcQL_JHDCqSRXr5ST4al8GM7sZmki4Xheg&oe=6A345DD3&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes we don’t let go because we’re weak. We don’t let go because we invested time, hope, love, identity. We convince ourselves that if we try harder, hold tighter, stay longer — we can save it. But not everything is meant to be saved.\n\nWhen something is already ending, forcing it to stay only drains you. A relationship that has run its course. A version of you that you’ve outgrown. A dream that no longer fits. The hardest truth is this: what is dying in your life is not asking to be revived — it’s asking to be released.\n\nLetting go is not failure. It is alignment. It is choosing your peace over your fear of starting over. It is trusting that what falls away is creating space for something stronger, healthier, more true.\n\nIf this resonates, read more in Brianna Wiest’s books 🖤 Start with ‘The Pivot Year’ or ‘The Mountain Is You’ — both are powerful places to begin.",
+    "word_count": 163
+  },
+  "communication_seed": {
+    "first_comment": "🖤🖤",
+    "latest_comments": [
+      "🖤🖤",
+      "I can feel this 😢",
+      "❤️❤️",
+      "❤️❤️❤️❤️❤️",
+      "Yes, harsh but beautiful",
+      "Yes that is so true",
+      "❤️",
+      "🙌❤️",
+      "💔💔💔",
+      "That's why, sometimes letting go is the best possible option 🙌"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DUtb7vGEqT9",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DUtb7vGEqT9/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DUtb7vGEqT9",
+  "metrics": {
+    "comments": 14,
+    "likes": 7827,
+    "plays": 202769,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 64333,
+    "winner_score": 10708.66
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-02-13T19:33:26.000Z",
+  "published_label": null,
+  "rank": 399,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DUtb7vGEqT9",
+  "source_url": "https://www.instagram.com/p/DUtb7vGEqT9/"
+}

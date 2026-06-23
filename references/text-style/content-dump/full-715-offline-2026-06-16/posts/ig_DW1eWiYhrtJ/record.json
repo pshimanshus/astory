@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DW1eWiYhrtJ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/661477127_18577386775012837_3831567588622879099_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHuA31J1GdAi0JnBRAp6T5qnnZtBZIrhpaeoQJG7BG35CD87Vn12NZRGKQtucqh4Tk&_nc_ohc=zJ0wvFaS6bEQ7kNvwEHBEfW&_nc_gid=sxdvknSfBQAauRXiyN3ogg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9VZO0U9J0_DUFrPoxEl16NI9S--lyM9hg2Npbgl5cJPA&oe=6A347231&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "The hardest thing you will have to do in life is to let go of the people you may want to hold onto. Sometimes, you will have to settle for loving someone from a distance, and that is okay. Because if you cannot show up for another human being the way you know you should, if someone cannot love you the way you need to be loved right now, if circumstance or space or the messiness of life is getting in the way of giving your whole self and nothing less than that to another human being, then you have to be honest. Do not suffocate your love. Do not ignore the way someone makes you feel about yourself in order to keep them in your life. Do not ask for something to be more than it can be right now. Instead, appreciate it for what it was, appreciate the lessons it grew within you, appreciate the beauty you were able to feel, and appreciate the fact that in those ways, in those memories, it will be yours forever.\n\nBook: A Gentle Reminder by Bianca Sparacino 🖤📖",
+    "word_count": 186
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️",
+    "latest_comments": [
+      "❤️❤️",
+      "@franklydear ❤️",
+      "❤️",
+      "❤️",
+      "✨🦋💝🥰🌈💎✨",
+      "❤️❤️",
+      "Mmmmm \"snaps fingers\" ❤️",
+      "❤️❤️",
+      "One day.... 🤍",
+      "💯 ❤️🙌"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DW1eWiYhrtJ",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DW1eWiYhrtJ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DW1eWiYhrtJ",
+  "metrics": {
+    "comments": 54,
+    "likes": 11116,
+    "plays": 387054,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 105682,
+    "winner_score": 17244.87
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-07T15:30:00.000Z",
+  "published_label": null,
+  "rank": 314,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DW1eWiYhrtJ",
+  "source_url": "https://www.instagram.com/p/DW1eWiYhrtJ/"
+}

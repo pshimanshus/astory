@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY6dTKJnG6S:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/708653058_18600870226031367_2799629262395577927_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFui5iXYB5v1OmtTGABMqIGUG7TEqHcSeADDVIPD-w8LRCmSth0wvv6CnMf1mIe8bg&_nc_ohc=1CQo5JGEW-IQ7kNvwEYFz7j&_nc_gid=zB-96e7kcCpzvCwIs9UhSA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8mbaulqEdSSocNSP-1JpNBKjYeYeZFUW5WX0AFsBdhow&oe=6A3471FB&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "poetry challenge.⁠\n⁠\nwrite a poem⁠\nusing the first 3 words you find.⁠\n⁠\ndon’t overthink it.⁠\n⁠\ndrop yours in the comments 🖤",
+    "word_count": 21
+  },
+  "communication_seed": {
+    "first_comment": "Cug came Roe to Slug then the cities were snug",
+    "latest_comments": [
+      "Cug came Roe to Slug then the cities were snug",
+      "Truth • Love • Stars\n•\nMy love lives in the stars\n•\nMy stars live in the truth\n•\nMy truth lives in my love",
+      "Fuubgiii inhvx joubu 🔥🔥🔥",
+      "(stars), passes by, \nas (truth) reveals, \nthe real (God), \nunveiling the light.",
+      "I tend to gaze upon the night sky to find comfort when I struggle to (love) myself, but the (truth) is that I see the (stars) much better when I look at you.",
+      "love we truth",
+      "LOVE is proof that THERE is a GOD",
+      "stars do go",
+      "There by quiet stream\nTruth settles on the sole soft\nMorning light agrees"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY6dTKJnG6S",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY6dTKJnG6S/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY6dTKJnG6S",
+  "metrics": {
+    "comments": 883,
+    "likes": 2493,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 42228.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-29T07:00:20.000Z",
+  "published_label": null,
+  "rank": 189,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY6dTKJnG6S",
+  "source_url": "https://www.instagram.com/p/DY6dTKJnG6S/"
+}

@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DIrw3e2OOTG:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-15/491441621_18501786259039494_7020553834952056289_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gECapIpx66owS-fAxvmSHI7U8S5F5goWqT4oE16oogZB36y5U8mPFhOskzINkXG7Vs&_nc_ohc=lr0SS1m4rSoQ7kNvwE-bBpj&_nc_gid=RSJIPeKBs5RYcdg5UmVh_A&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_7QfP5mKhTz6LD5hgl1-MqmEn3pVwrBoal6WXBsYmhqw&oe=6A346797&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "sometimes a break up can turn you into Katy Perry",
+    "word_count": 10
+  },
+  "communication_seed": {
+    "first_comment": "Everyone wants honesty until honesty gets uncomfortable.",
+    "latest_comments": [
+      "Everyone wants honesty until honesty gets uncomfortable.",
+      "Brb printing this out and handing it to my therapist.",
+      "looks like somebody just watched american beauty",
+      "Fiona Apple vibes",
+      "I hated Katy Perry before it was cool.",
+      "this person has just watched American Beauty and has decided to make it their personality",
+      "Do you ever feel...",
+      "Never go full Katy Perry."
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DIrw3e2OOTG",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DIrw3e2OOTG/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DIrw3e2OOTG/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DIrw3e2OOTG",
+  "metrics": {
+    "comments": 12,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 540.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-04-20T21:40:12.000Z",
+  "published_label": null,
+  "rank": 163,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DIrw3e2OOTG",
+  "source_url": "https://www.instagram.com/p/DIrw3e2OOTG/"
+}

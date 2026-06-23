@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYjjWhtSRvU:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/703474169_18596127520016016_7168734472557043622_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGAnI4iGxTwR_kHq_EyN4JtatBu6XY9oeqDGLKXY2He8_OGCL-O177G5qtoILBSeR4&_nc_ohc=D6mo9ek-1TwQ7kNvwEtCcWP&_nc_gid=IPfhECCuFhRtSUuae80AOg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_JPvRnQs2z77tZOaPDSQZWK32XKf13GUHdAklA0uspRg&oe=6A345640&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "choose wisely",
+    "word_count": 2
+  },
+  "communication_seed": {
+    "first_comment": "ፍሬብሯንጨረሰችለተንኮልአላለላትምምንአይነትጅልነትነውብልግናምነውፊልምምእንደዚህየለየመጥፎሰውመጨረሻውሞትነውፍሬቅናትሽበልክይሁንአስናቄቦጨቀችሽአስናቄመናጢናትእስከበሽታዋይሰራችውንብርጨረሰችለተንኮልነጃትቡዳናትሀዋባለየናትሄርሜላመናጢናትክፍታፍወሬዋሲያስጠላአያድርስማነውእሷንሰውብሎየሚሰማው",
+    "latest_comments": [
+      "ፍሬብሯንጨረሰችለተንኮልአላለላትምምንአይነትጅልነትነውብልግናምነውፊልምምእንደዚህየለየመጥፎሰውመጨረሻውሞትነውፍሬቅናትሽበልክይሁንአስናቄቦጨቀችሽአስናቄመናጢናትእስከበሽታዋይሰራችውንብርጨረሰችለተንኮልነጃትቡዳናትሀዋባለየናትሄርሜላመናጢናትክፍታፍወሬዋሲያስጠላአያድርስማነውእሷንሰውብሎየሚሰማው",
+      "Every time y'all together I hear you sobbing",
+      "At you lol",
+      "TRUE 🙌🏼",
+      "Very true 👏",
+      "Go get it",
+      "True that.",
+      "That’s very true",
+      "The question I've started asking isn't 'are they good or bad?' It's 'who am I when I walk away from them?' That answer usually tells me everything I need to know.",
+      "We are supposed to bloom together 😍"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYjjWhtSRvU",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYjjWhtSRvU/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYjjWhtSRvU",
+  "metrics": {
+    "comments": 16,
+    "likes": 12980,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 13700.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-20T09:30:35.000Z",
+  "published_label": null,
+  "rank": 356,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYjjWhtSRvU",
+  "source_url": "https://www.instagram.com/p/DYjjWhtSRvU/"
+}

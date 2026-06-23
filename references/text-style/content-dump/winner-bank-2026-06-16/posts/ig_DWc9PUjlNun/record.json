@@ -1,0 +1,226 @@
+{
+  "account": {
+    "full_name": "WE THE URBAN",
+    "instagram_user_id": null,
+    "username": "wetheurban"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/659982231_18582743653041751_1415544139251239820_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gFtbr5zRJiP81wTwTSPuBWpuS_aoW3EXIxLfM4-7JI2rszGb5r_mlfk5nYArZ8YzFE&_nc_ohc=2D0CXda-x5oQ7kNvwEt0Drh&_nc_gid=6GoSn95hHKgna03OJkhGMQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-dOzSTvlr_BuKsYf-FZ6AcHBONNbMFv_34bP50F7gCyQ&oe=6A3481CB&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:08",
+      "index": 8,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWc9PUjlNun:asset:09",
+      "index": 9,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Leave a 💙 below to affirm! Say it with me: I did enough in March. I am free to move forward, peacefully. 🧡\n\nLast call: For more daily healing, we made 49 wallpapers for your phone and laptop. More in bio. 🔗🫶🏽\n\nWords: @williegreene_",
+    "word_count": 41
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "❤️❤️",
+      "💙",
+      "💙",
+      "Showing up is all you need & theres no good or way to show up",
+      "💙✨",
+      "💙",
+      "✨🙏✨",
+      "✨✨✨✨✨",
+      "🔥🔥🔥 ayyee yall might have to be a daily checkin! 💯"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "heartbreak",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWc9PUjlNun",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWc9PUjlNun/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWc9PUjlNun/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWc9PUjlNun",
+  "metrics": {
+    "comments": 660,
+    "likes": 207308,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 237008.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-03-29T02:59:13.000Z",
+  "published_label": null,
+  "rank": 39,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWc9PUjlNun",
+  "source_url": "https://www.instagram.com/p/DWc9PUjlNun/"
+}

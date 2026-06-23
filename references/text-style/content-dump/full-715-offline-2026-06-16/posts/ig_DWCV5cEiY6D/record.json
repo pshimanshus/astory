@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWCV5cEiY6D:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/654582641_1266096502290049_5230742368955939897_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gEfJQB7gqmUwx4SAG-j8Idhd2pmGkH-1HiXTyPiwE-st1BmM50WFhnfdVx5f6P9bH8&_nc_ohc=8UDkrNW0hYQQ7kNvwFXz7bh&_nc_gid=G1TesR01LfglZuimEUUEPQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_pzkZtV3cTmaQRM20mi1bCuSprjVlPPov_G9hphu-h_Q&oe=6A347F09&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "i guess i’m a winner!!",
+    "word_count": 6
+  },
+  "communication_seed": {
+    "first_comment": "Love this",
+    "latest_comments": [
+      "Love this",
+      "So beautiful♥️",
+      "👏👏👏",
+      "She always pulls out remarkable quotes or memes from the interviewees😍 I love her interviews",
+      ":)",
+      "🥺🤍",
+      "Didn’t he cheat on uma Thurman ? 😂 pretty words though I guess",
+      "God I love this",
+      "Says the guy who cheated on Uma Thurman with the nanny.",
+      "This is sweet and all but I'm not taking any relationship advice from the guy who cheated on Uma Thurman 😆"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWCV5cEiY6D",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWCV5cEiY6D/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWCV5cEiY6D",
+  "metrics": {
+    "comments": 537,
+    "likes": 320047,
+    "plays": 5629491,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 2322386,
+    "winner_score": 425495.51
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-18T18:56:15.000Z",
+  "published_label": null,
+  "rank": 11,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWCV5cEiY6D",
+  "source_url": "https://www.instagram.com/p/DWCV5cEiY6D/"
+}

@@ -1,0 +1,158 @@
+{
+  "account": {
+    "full_name": "Meggan Roxanne",
+    "instagram_user_id": null,
+    "username": "earthtoroxanne"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:C9I5yfCqETg:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia5-2.cdninstagram.com/v/t39.30808-6/472738729_18479336785047660_8672557813502670406_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-mia5-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHRdy2F_wvbblCc4TvdYXokxojJl96uBqoIveyVJ8WIqxXjnoUIcO4FAOXyhot3W0I&_nc_ohc=5f4aRBqHemEQ7kNvwE_SaTR&_nc_gid=MnHVc19hKoBolgulkaN6kw&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af-NY7zsK7fN45ktefPCECYHLpHnhBkWwtyMfwxvDYF_IA&oe=6A3468BC&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:C9I5yfCqETg:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:C9I5yfCqETg:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:C9I5yfCqETg:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:C9I5yfCqETg:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "This morning, my first paperback book, “How To Stop Breaking Your Own Heart” became a Sunday Times Best Seller. All praise to the Most High. This was such a transformative journey and I’m incredibly honoured for the opportunity to share my story. Thank you to @hayhouseuk and @walekalejaiye for absolutely everything. And Thank you to everyone who pre-ordered my book, none of this would’ve been possible without your support. \n\n—— How to Stop Breaking Your Own Heart \n\nMeg ❤️🌻",
+    "word_count": 80
+  },
+  "communication_seed": {
+    "first_comment": "❤️🔥❤️🔥🔥",
+    "latest_comments": [
+      "❤️🔥❤️🔥🔥",
+      "Congratulations on such a milestone. 🎉",
+      "I've just started reading your book on a 'change of scenery' break. I knew I needed this one. Thank you 😊 🙏",
+      "👏",
+      "Congratulations 🔥🔥🔥",
+      "🔥🔥🔥",
+      "🤘🏽 🏽",
+      "7/7",
+      "Thank you Megan for you account. Insparing in many ways. You might consider helping me to get known  and follow me. Again thank you. May you be happy!",
+      "Its good❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_C9I5yfCqETg",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_C9I5yfCqETg/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:C9I5yfCqETg",
+  "metrics": {
+    "comments": 119,
+    "likes": 6412,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 11767.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2024-07-07T22:59:24.000Z",
+  "published_label": null,
+  "rank": 377,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "C9I5yfCqETg",
+  "source_url": "https://www.instagram.com/p/C9I5yfCqETg/"
+}

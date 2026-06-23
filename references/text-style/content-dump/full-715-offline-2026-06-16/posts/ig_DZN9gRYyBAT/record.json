@@ -1,0 +1,113 @@
+{
+  "account": {
+    "full_name": "The Wild Beauty Foundation",
+    "instagram_user_id": null,
+    "username": "wildbeautyspirit"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZN9gRYyBAT:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.82787-15/715610194_18108608810296666_3007176476317322972_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gEy4hfxKifBI75Cn9dJ3O1rN1qBUe9wAdfzbfdhSvSC9z0TelXb2vytC9yp4yrGYts&_nc_ohc=SjFIV0HcMY4Q7kNvwFp06WY&_nc_gid=OAKp601j33tBwK2gODnuvQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af81XW3bXP3jIn5eQbC5P3ZA1uOdoMdjgTmcIQTxas3L0Q&oe=6A346931&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "TheLostHorses",
+      "WildBeautyFoundation",
+      "SAFEAct"
+    ],
+    "public_preview": null,
+    "text": "We are so proud to stand beside these partners.\n\nA few weeks ago in Washington, D.C., the Wild Beauty Foundation returned to Capitol Hill for another Lost Horses fly-in; meeting with Members of Congress and their staff to continue advancing protections for America’s horses.\n\nWe were joined by ASPCA, Animal Welfare Institute, 1/ST, The Jockey Club, and many others to raise awareness about the pipeline that claimed more than 25,000 horses in 2025 alone.\n\nIt was inspiring to be part of such collaboration and teamwork.\n\nWe were also honored to present Congresswoman Dina Titus with the Wild Beauty Foundation Legacy Award in recognition of her tireless work to protect America’s equines.\n\nThank you, Congresswoman Titus.\n\nAnd thank you to every single person who has stood with The Lost Horses campaign.\n\nYour letters, calls, shares, and engagement are truly making a difference. We know they are breaking through because just weeks ago, a legislative strategy we helped champion with our partners resulted in core SAFE Act protections advancing through the House Transportation and Infrastructure Committee - a significant milestone to end horse slaughter.\n\nThe fight is far from over.  But we have extraordinary momentum, and together we are moving this issue forward.\n\nIn honor of our horses, even if you’ve already sent a letter, please send another today by clicking TAKE ACTION at losthorses.org.\n\nNo horse deserves to be lost again.\n\n#TheLostHorses #WildBeautyFoundation #SAFEAct",
+    "word_count": 240
+  },
+  "communication_seed": {
+    "first_comment": "@congressmanmikesimpson @congressmanpalazzo @repknott @repmaxmiller @repbrandongill @repstefanik @repmikerogersal @repnancymace @congressmankean @repjohnrose @repstevechabot  @replangworthy @repbethvanduyne @repcarolmiller 🐴🤍🐴🤍",
+    "latest_comments": [
+      "@congressmanmikesimpson @congressmanpalazzo @repknott @repmaxmiller @repbrandongill @repstefanik @repmikerogersal @repnancymace @congressmankean @repjohnrose @repstevechabot  @replangworthy @repbethvanduyne @repcarolmiller 🐴🤍🐴🤍",
+      "Amazing work ❤️",
+      "Omg thank you all SO much!!! This incredible project is their voice 🐴💙🌟🐴",
+      "Thank you so much. Many blessings.",
+      "👏❤️👏",
+      "I'm confident that SAFE act will passed Congress and sign into law. :-)",
+      "Proud to be part of the team and working to make change."
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "direct_you",
+      "domestic",
+      "message_native",
+      "fight_repair"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZN9gRYyBAT",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZN9gRYyBAT/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZN9gRYyBAT",
+  "metrics": {
+    "comments": 13,
+    "likes": 179,
+    "plays": 2512,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 619,
+    "winner_score": 785.66
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-05T20:54:47.000Z",
+  "published_label": null,
+  "rank": 691,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZN9gRYyBAT",
+  "source_url": "https://www.instagram.com/p/DZN9gRYyBAT/"
+}

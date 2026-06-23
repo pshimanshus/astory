@@ -1,0 +1,207 @@
+{
+  "account": {
+    "full_name": "WE THE URBAN",
+    "instagram_user_id": null,
+    "username": "wetheurban"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/673255196_18589030816041751_3686089110961007248_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEck7AEbH3O6M-g9XKSboMuxD7MRalaIipmq9Wvj87qP9h0pNyrT9YUamM95hg6H8U&_nc_ohc=6KNNzdnfAc0Q7kNvwE6Qlpb&_nc_gid=ug9x0o11WF25TqjmltcrhQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9MmmeV7QbQK7qQvmTfmSY3pG-h5mXJWx14bas0j1jZtQ&oe=6A347B88&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXhR8ralCSg:asset:08",
+      "index": 8,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Leave a 💜 below to affirm! \n\nSay it with me: I love myself enough to embrace the discomfort of growth. \n\nFor more daily healing, we made 49 wallpapers for your phone and computer. Get yours in our bio. 🔗🫶🏽\n\nWords: @williegreene_",
+    "word_count": 39
+  },
+  "communication_seed": {
+    "first_comment": "💜💜💜💜💜",
+    "latest_comments": [
+      "💜💜💜💜💜",
+      "slide 3. instant tears. i miss my late dad. 💔",
+      "grief has a way of stretching u before u prepared for it just like  stretch marks on skin it leaves evidence that something expanded too quickly +  deeply\n\n something tore a little while trying to grow around the weight of it all +  healing is not returning to who you were before but learning how to live inside the shape it changed you into",
+      "💜",
+      "💜",
+      "😢",
+      "💜",
+      "🫂",
+      "All of it.",
+      "Grieving badly"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DXhR8ralCSg",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DXhR8ralCSg/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXhR8ralCSg",
+  "metrics": {
+    "comments": 811,
+    "likes": 195075,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 231570.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-24T15:48:32.000Z",
+  "published_label": null,
+  "rank": 40,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXhR8ralCSg",
+  "source_url": "https://www.instagram.com/p/DXhR8ralCSg/"
+}

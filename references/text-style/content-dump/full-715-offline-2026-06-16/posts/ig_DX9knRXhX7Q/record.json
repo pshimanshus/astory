@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DX9knRXhX7Q:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-hou1-1.cdninstagram.com/v/t51.71878-15/682202804_3194323387437434_2307588745919225066_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFUAfkql2VQdXzl5xEtY52G2dfaOjrRBGpmixbUhEix1CbSZZpt-qlLsMwG2tJnW-o&_nc_ohc=EM0Ynn1PvcUQ7kNvwEuwywi&_nc_gid=wYKw5mlfvs29UdkZrs3mGg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8BiflQhj-dRCiu4nH2FITqqsBSpdEvCuBq15DpmRBTuA&oe=6A347895&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "The kind of love that stays, the kind that mirrors God’s love—it will not confuse you. It will not ask for you to water yourself down. It will not make you feel like you have to compete with an idealized version of yourself. Real love, holy love, shows up in your life with clarity. It shows up with presence. It shows up with willingness. It will choose you in the light, not just when it is convenient and full of virtue, but when it is dark all over, when it aches. Real love roots. It endures. \n\nIf a human being failed to offer you that, no matter how much you hoped they would—they are not your destiny. They may have been a beautiful part of your becoming, but that does not mean that they were meant to stay. Some connections mark chapters in our lives, but they do not define the book itself. That doesn’t make the story any less valuable, any less tender; it just means that you can turn the page, it just means that you can trust that you have something special still ahead.\n\n🖤 Continue reading in the book ‘Stay Single’ by Rebecca Simon.",
+    "word_count": 201
+  },
+  "communication_seed": {
+    "first_comment": "So many beautiful words",
+    "latest_comments": [
+      "So many beautiful words",
+      "🤍🤍🤍",
+      "Some stories feel too real to be fiction.",
+      "It’s a misalignment of frequency not you being wrong when someone does not pick up your signal 🤍💭",
+      "You can’t ask to be wanted while showing zero interest.😢😢",
+      "There is so much quiet magic in your words",
+      "Being friends with the one you love is equal to digging your own grave.",
+      "Es fühlt sich an wie Ablehnung.\n\nAber vielleicht\nwar es einfach der Moment,\nin dem du nicht länger dort bleiben solltest,\nwo du dich selbst verlierst.\n\nDu wurdest nicht abgelehnt.\nDu wurdest zurückgeführt",
+      "🙏🏼🤍✨",
+      "@m_typingg"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX9knRXhX7Q",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX9knRXhX7Q/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DX9knRXhX7Q",
+  "metrics": {
+    "comments": 14,
+    "likes": 6015,
+    "plays": 153074,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 34694,
+    "winner_score": 7859.29
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-04T15:35:02.000Z",
+  "published_label": null,
+  "rank": 453,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DX9knRXhX7Q",
+  "source_url": "https://www.instagram.com/p/DX9knRXhX7Q/"
+}

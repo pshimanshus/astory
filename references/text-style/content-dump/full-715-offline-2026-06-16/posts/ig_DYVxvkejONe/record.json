@@ -1,0 +1,158 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYVxvkejONe:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/695787429_17900703573431061_1362773746787663368_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gE77QR8fVGnvVYqw7VdwfDVbq0Xok-s2eUjCn5uxdt41APWkGSPFX0NLQ5RfEfyzM4&_nc_ohc=yqVCbd-rK-MQ7kNvwEmAWx8&_nc_gid=5l62dfsTAVheBEN3L4vFKQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-oBEYfQkLSnQXdq-UNqz9D5OYf-VnEumJhvxHjnuLZVg&oe=6A347457&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYVxvkejONe:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYVxvkejONe:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYVxvkejONe:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYVxvkejONe:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Tell me your worst postpartum visitor story 🫠\n\nI promise to be the kind of mother in law that doesn’t make this season feel harder. \n\nFollow @hereverydaymotherhood for more relatable motherhood + marriage moments 🤍",
+    "word_count": 33
+  },
+  "communication_seed": {
+    "first_comment": "My MIL decided on her own to stay with us for 7 weeks 🥹 haha i love her but I’m so ready for her to go home!",
+    "latest_comments": [
+      "My MIL decided on her own to stay with us for 7 weeks 🥹 haha i love her but I’m so ready for her to go home!",
+      "❤️❤️",
+      "❤️",
+      "Crying me too. Especially being a boy mom. Handling our sons off to let go of us and make their own family. With all the support from me they need! No strings attached 👏",
+      "❤️",
+      "👏👏👏👏👏",
+      "Well, this isn’t my mother-in-law, my own mother tried to hide in the delivery room so she could witness one of her grandchildren being delivered and they literally had to ask her multiple times to leave. (My little sister asked me to stay in the labor room with her a year later) my mom was so mad.",
+      "YES. Louder plz🙏🏻",
+      "I am not alone ❤️",
+      "THIS❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "first_person",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYVxvkejONe",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYVxvkejONe/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYVxvkejONe",
+  "metrics": {
+    "comments": 534,
+    "likes": 44008,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 68038.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-15T01:06:52.000Z",
+  "published_label": null,
+  "rank": 143,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYVxvkejONe",
+  "source_url": "https://www.instagram.com/p/DYVxvkejONe/"
+}

@@ -1,0 +1,157 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYFbdaIAPPh:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fosu3-1.fna.fbcdn.net/v/t51.82787-15/686381472_18594798598031367_1915064568097119968_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fosu3-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gH7pNVkmkQ16Q8LGEJq2UZd1KZ78CFvjCRyZ3ZnmsjuQPSGRvec8LfSdrjRV66fZvU&_nc_ohc=gJlzrs5dDlwQ7kNvwFPowJu&_nc_gid=NhGML2fX9NuIh0n_S4l0KQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8yt9nrKURZTXVSfNX667gWf0FKsw_C_3-KLlQaSiMbtQ&oe=6A348490&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYFbdaIAPPh:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYFbdaIAPPh:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYFbdaIAPPh:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYFbdaIAPPh:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "“when I first met you\nI remembered you\nfrom a hundred different dreams\nand there you were\nfor me to love\nall over again\nfor the very first time.” – @atticuspoetry\n\nPhotos by @hannahparkerphotography",
+    "word_count": 33
+  },
+  "communication_seed": {
+    "first_comment": "It was an eclipse <3",
+    "latest_comments": [
+      "It was an eclipse <3",
+      "😍",
+      "❤️❤️❤️",
+      "YEP 😍",
+      "Oh this is so heavy. Weighs on me for some reason.",
+      "I’m obsessed!!",
+      "Beatifull 😍",
+      "Oh to fall in love again and again❤️❤️",
+      "If there were a Bible for love this would be in it.",
+      "🤍🤍🤍"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYFbdaIAPPh",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYFbdaIAPPh/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYFbdaIAPPh",
+  "metrics": {
+    "comments": 16,
+    "likes": 3030,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 3750.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-08T16:44:18.000Z",
+  "published_label": null,
+  "rank": 559,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYFbdaIAPPh",
+  "source_url": "https://www.instagram.com/p/DYFbdaIAPPh/"
+}

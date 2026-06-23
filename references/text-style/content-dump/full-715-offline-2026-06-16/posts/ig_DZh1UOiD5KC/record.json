@@ -1,0 +1,131 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZh1UOiD5KC:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/719900192_18474835456100132_451615947690818720_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gEQ_ZJKpAqo_HC4V_VYKeL4G4fVg78lqGeDbPrs3RMfngqafVVfB6RvP5-xCx_tjvQ&_nc_ohc=GTTZPOlVxPEQ7kNvwHqWUMD&_nc_gid=EarICKkN7Bxd-v3RCrF3gA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9BmKnqFTMSjpsBXGcmKm9mzGJOVFtQPS3aUzgj-BLKoQ&oe=6A347648&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZh1UOiD5KC:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZh1UOiD5KC:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "buy a copy of this book “embrace” – link in @ronwritings’s bio or search on amazon 📚",
+    "word_count": 16
+  },
+  "communication_seed": {
+    "first_comment": "Beautiful perspective ❤️",
+    "latest_comments": [
+      "Beautiful perspective ❤️",
+      "This is 100% true. Living in survival mode is killing you slowly day by day.",
+      "I mean yeah .. I figured that out when I was 6.",
+      "🙌🙌🙌",
+      "💯",
+      "❤️❤️❤️",
+      "✨🧠✨",
+      "✨🧠✨",
+      "Thank you so so much @papa_zuzu01 for bringing my stubborn boyfriend back.",
+      "survival mode is a waiting room."
+    ],
+    "mechanic_tags": [
+      "carousel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZh1UOiD5KC",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZh1UOiD5KC/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZh1UOiD5KC",
+  "metrics": {
+    "comments": 21,
+    "likes": 11825,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 12770.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-13T14:00:12.000Z",
+  "published_label": null,
+  "rank": 368,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZh1UOiD5KC",
+  "source_url": "https://www.instagram.com/p/DZh1UOiD5KC/"
+}

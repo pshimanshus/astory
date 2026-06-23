@@ -1,0 +1,120 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DMEhakhtniE:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/519548879_18538876525023341_5192003995564255673_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHECQNQc6NPVL16Jy-UaoxYcp2Y2zOnzwR3Ap6e-Nzh1I3Wovjvbp0DHwIJlGf9tuk&_nc_ohc=4QF-8X7A0mIQ7kNvwFm6pT-&_nc_gid=gya1eVoBy3_xutptT6ab2w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8dV6ExyjjD3i5sSYfZd9un0Cvh5_8kj5cfFjgNJR-K7Q&oe=6A347472&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DMEhakhtniE:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes choosing what’s right for your peace feels like punishment. It can feel heavy. Lonely. Even wrong. Especially when it’s tied to people you care about. But you have to remind yourself why you chose distance, why you stopped explaining, why you let go. If something or someone brings more chaos than calm, more self-doubt than self-worth, what are you really holding on to?⁠\n⁠\nCommunity is supposed to feel like safety. Like home. If you have to shrink to stay, if you’re constantly second-guessing your worth just to be accepted, then that’s not love. That’s survival. And you deserve more than just making yourself tolerable to people who can’t hold space for your fullness. That’s not living. That’s erasing yourself.",
+    "word_count": 131
+  },
+  "communication_seed": {
+    "first_comment": "🙌",
+    "latest_comments": [
+      "🙌",
+      "❤️👏😍",
+      "🙏",
+      "So true but I always put my wellbeing first 🤷🏽‍♀️",
+      "🙌🏽🙏🏽🙌🏽🙏🏽",
+      "It is emancipating",
+      "💯",
+      "Hides or replace🔥"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "domestic",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DMEhakhtniE",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DMEhakhtniE/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DMEhakhtniE",
+  "metrics": {
+    "comments": 403,
+    "likes": 123253,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 141388.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-07-14T02:00:24.000Z",
+  "published_label": null,
+  "rank": 79,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DMEhakhtniE",
+  "source_url": "https://www.instagram.com/p/DMEhakhtniE/"
+}

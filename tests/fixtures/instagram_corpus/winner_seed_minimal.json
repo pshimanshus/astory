@@ -1,0 +1,44 @@
+[
+  {
+    "ownerUsername": "wetheurban",
+    "ownerFullName": "WE THE URBAN",
+    "url": "https://www.instagram.com/p/DUtQzmaj9Rw/",
+    "shortCode": "DUtQzmaj9Rw",
+    "type": "Sidecar",
+    "productType": null,
+    "timestamp": "2026-02-13T17:55:15.000Z",
+    "caption": "Leave a yellow heart below if any of these resonated. We are living through heavy times. In a world that feels loud, uncertain, and increasingly disconnected, intimacy becomes an anchor.",
+    "hashtags": [],
+    "commentsCount": 1417,
+    "likesCount": 615337,
+    "videoViewCount": 0,
+    "videoPlayCount": 0,
+    "dimensionsHeight": 1440,
+    "dimensionsWidth": 1080,
+    "childCount": 3,
+    "childTypes": [
+      "Image",
+      "Image",
+      "Image"
+    ],
+    "displayUrl": "https://example.test/display.jpg",
+    "alt": "",
+    "firstComment": "also the same kind of weed (slide 5)",
+    "latestComments": [
+      "also the same kind of weed (slide 5)",
+      "yellow hearts",
+      "such a beautiful reminder"
+    ],
+    "mechanicTags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "heartbreak"
+    ],
+    "captionWords": 26,
+    "winnerScore": 679102.0,
+    "commentToLikeRatio": 0.0023,
+    "commentTagProxy": 0,
+    "commentSendProxy": 6
+  }
+]

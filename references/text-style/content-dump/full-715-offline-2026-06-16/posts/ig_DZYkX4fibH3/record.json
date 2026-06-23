@@ -1,0 +1,118 @@
+{
+  "account": {
+    "full_name": "r.h. Sin",
+    "instagram_user_id": null,
+    "username": "r.h.sin"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZYkX4fibH3:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/718631944_18597996655007488_2184837425206505352_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gFNXRkEADa2L4IEOZeAqGiDxf4041AGQbOOmxbRWcof3zQabEb5pXoYNor1XT-3xjc&_nc_ohc=vwzEK1df_60Q7kNvwFu0Tib&_nc_gid=Elo-mkXnqsEoF88JHjwKMg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9tys_VoZ3UgYEXOtiQBzO8f8Rp_vpErn99UzOmgHbUpw&oe=6A34678A&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZYkX4fibH3:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "",
+    "word_count": 0
+  },
+  "communication_seed": {
+    "first_comment": "👏😂❤️😍 is that that your quote there Bianca it's a good one I like it",
+    "latest_comments": [
+      "👏😂❤️😍 is that that your quote there Bianca it's a good one I like it",
+      "So true",
+      "👏👏👏👏👏",
+      "❤️",
+      "🔥❤️",
+      "Depth or nothing",
+      "yes!",
+      "I know that’s right!!",
+      "🙌🏼🙌🏼🙌🏼"
+    ],
+    "mechanic_tags": [
+      "carousel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZYkX4fibH3",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZYkX4fibH3/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZYkX4fibH3",
+  "metrics": {
+    "comments": 51,
+    "likes": 5913,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 8208.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-09T23:39:09.000Z",
+  "published_label": null,
+  "rank": 446,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZYkX4fibH3",
+  "source_url": "https://www.instagram.com/p/DZYkX4fibH3/"
+}

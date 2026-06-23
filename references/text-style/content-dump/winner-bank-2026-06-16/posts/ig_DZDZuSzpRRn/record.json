@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZDZuSzpRRn:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/708927331_17903439477431061_419983991893384969_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gEmyc3ImF5-RBMJnA0szROhk4WLjaIQrPQZ-Wa3WaRiS1-bY_smohEk8FHEpEKQBUM&_nc_ohc=UsuFAC9BVVAQ7kNvwG18exL&_nc_gid=XYw9P1xUDiMqb9Xwb1XEEw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8_JYyPpWSzMEnAbf_Fm8ocF9MUV1RB89hbplo9HVdhqA&oe=6A348730&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Respectfully…. miss us with anything that steals our peace and attention from our babies. ❗️\n\nFollow @hereverydaymotherhood for more relatable motherhood + marriage moments 🤍",
+    "word_count": 22
+  },
+  "communication_seed": {
+    "first_comment": "💯@ranh.80 ❤️❤️",
+    "latest_comments": [
+      "💯@ranh.80 ❤️❤️",
+      "@thelancashiretoastmaster 😍",
+      "Amen !!!!! 🙌🏽🙌🏽🙌🏽🙌🏽🙌🏽 It’s gets lonely in love and peace",
+      "❤️",
+      "@kirkbuxton ❤️",
+      "I lovee youu bubbuu🤍🤍",
+      "@infamous357 💯",
+      "♾️ @jason_parraga",
+      "@neilandrewdavidshaw"
+    ],
+    "mechanic_tags": [
+      "static",
+      "domestic",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZDZuSzpRRn",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZDZuSzpRRn/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZDZuSzpRRn/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZDZuSzpRRn",
+  "metrics": {
+    "comments": 220,
+    "likes": 70948,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 80848.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-06-01T18:22:07.000Z",
+  "published_label": null,
+  "rank": 100,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZDZuSzpRRn",
+  "source_url": "https://www.instagram.com/p/DZDZuSzpRRn/"
+}

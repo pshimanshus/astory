@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXXMUi2CbkF:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/672368696_17897009358431061_103401780534559181_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHQrq8k6saxJUyvdW4_Y4qtAZHoKDoJXja-aoCe7lKsaH5Py0F1ATjo8Ke5xCiCqtA&_nc_ohc=0lpEIaN-h2QQ7kNvwE6DOzt&_nc_gid=JF4d4wjV_sqM1YRlc9OPdw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8FyHFRpg4O4AnmNxxq47-qaVY-YY4clYlawS2JgslpDA&oe=6A3457DB&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "In our “prioritizing the ones that prioritize us” era. ✌🏼\n\nFollow @hereverydaymotherhood for more relatable everyday motherhood + marriage moments 🤍",
+    "word_count": 18
+  },
+  "communication_seed": {
+    "first_comment": "👏👏 2026 = matching energy!!",
+    "latest_comments": [
+      "👏👏 2026 = matching energy!!",
+      "Absolutely true! ❤️💯",
+      "“That’s too far” yet we are expected to drive to them . 🙃 make it make sense",
+      "✨✨",
+      "This. We have friends who drive over an hour to show up for our kids and yet family can’t even drive 10 mins to show up for our kids.",
+      "Pretty much ❤️",
+      "@charlotte_dignam_89",
+      "10/10",
+      "💯"
+    ],
+    "mechanic_tags": [
+      "static",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXXMUi2CbkF",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXXMUi2CbkF/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXXMUi2CbkF",
+  "metrics": {
+    "comments": 27,
+    "likes": 5674,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 6889.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-20T17:47:13.000Z",
+  "published_label": null,
+  "rank": 472,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXXMUi2CbkF",
+  "source_url": "https://www.instagram.com/p/DXXMUi2CbkF/"
+}

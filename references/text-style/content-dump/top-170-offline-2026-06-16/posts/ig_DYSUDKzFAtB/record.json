@@ -1,0 +1,193 @@
+{
+  "account": {
+    "full_name": "WE THE URBAN",
+    "instagram_user_id": null,
+    "username": "wetheurban"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fmci1-3.fna.fbcdn.net/v/t51.82787-15/692595036_18594540997041751_5556993201244901087_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fmci1-3.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gH2AeVqtFXABeNklkdUaYKuoXrNUXAwDvqBlDQO4XX6xNSJa9Ap9wmiTSTrFWrQrxE&_nc_ohc=0tBBN2ToUdEQ7kNvwFI9LFx&_nc_gid=mW2TeGXN2qXKZ1om2hQp0g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-IEl59jollHDSazH-KDrN0UgFXoRxHDvy0E6b-7Xc8eQ&oe=6A346184&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYSUDKzFAtB:asset:08",
+      "index": 8,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Some days it feels like the world asks far too much of the human heart.\n\nA lot of people are emotionally exhausted right now. Not just from personal struggles, but from constantly witnessing cruelty, division, instability, and the erosion of basic humanity in real time. That kind of overwhelm changes the nervous system. It changes the body. It changes how safe the future feels.\n\nPlease be gentle with yourself.\n\nProtect your peace, but not at the cost of your humanity. Rest when you need to. Log off when you need to. Feel what you need to feel. But do not let this world convince you that tenderness, compassion, truth, community, or hope are meaningless. Don’t let it strip you of the things that make you human. They still matter deeply.\n\nThere are still people trying. There are still people choosing love. There are still people resisting cruelty. There are still people protecting each other. People just like you.\n\nAnd that matters too. 🧡\n\nWritten by @williegreene_",
+    "word_count": 166
+  },
+  "communication_seed": {
+    "first_comment": "",
+    "latest_comments": [],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DYSUDKzFAtB",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DYSUDKzFAtB/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYSUDKzFAtB",
+  "metrics": {
+    "comments": null,
+    "likes": 429539,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 429539.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-13T16:49:41.000Z",
+  "published_label": null,
+  "rank": 9,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYSUDKzFAtB",
+  "source_url": "https://www.instagram.com/p/DYSUDKzFAtB/"
+}

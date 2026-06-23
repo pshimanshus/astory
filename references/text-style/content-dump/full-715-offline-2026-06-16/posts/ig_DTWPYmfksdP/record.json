@@ -1,0 +1,99 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DTWPYmfksdP:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-hou1-1.cdninstagram.com/v/t51.82787-15/611304449_18552052174039494_9183305371255526535_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHlZYNg5fTKLMTZhh8NQYTemCIsGURtBTKZTMMo7t6GVa_fK6mPjfAccko1tiG3NGo&_nc_ohc=TELzVWMqw5AQ7kNvwE8udPF&_nc_gid=p0bf6XSVGq7o3N7dVFQcdw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9fLKXd1-QPiJUV4BW-2P8eczpePP9JWbNL0Q6y_R_vFA&oe=6A348A98&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "the mythical self aware fuckboy",
+    "word_count": 5
+  },
+  "communication_seed": {
+    "first_comment": "Follow for more closeness in your relationship 🤍\nSmall conversations that bring couples closer",
+    "latest_comments": [
+      "Follow for more closeness in your relationship 🤍\nSmall conversations that bring couples closer",
+      "Totally worth it😎",
+      "I feel so much better now. Thank you",
+      "It’s crazy that harry styles follows this page😭",
+      "Okay mate, blocked straight away, what were you thinking? Ah, I know! With the wrong head!",
+      "💀",
+      "He better be extremely handsome to be saying that"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DTWPYmfksdP",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DTWPYmfksdP/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DTWPYmfksdP",
+  "metrics": {
+    "comments": 47,
+    "likes": 2027,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 4142.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-01-10T22:48:54.000Z",
+  "published_label": null,
+  "rank": 548,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DTWPYmfksdP",
+  "source_url": "https://www.instagram.com/p/DTWPYmfksdP/"
+}

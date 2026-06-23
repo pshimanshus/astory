@@ -1,0 +1,15 @@
+{
+  "url": "https://www.instagram.com/reel/APIFYreel01/",
+  "shortCode": "APIFYreel01",
+  "caption": "Fixture caption from Apify.",
+  "text": "Fallback text from Apify.",
+  "likesCount": 94210,
+  "commentsCount": 804,
+  "videoViewCount": 712345,
+  "videoPlayCount": 812345,
+  "type": "Video",
+  "productType": "clips",
+  "displayUrl": "https://cdn.example.test/apify/reel-cover.jpg",
+  "videoUrl": "https://cdn.example.test/apify/reel.mp4",
+  "childPosts": []
+}

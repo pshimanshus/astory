@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZNHvusRYq-:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.82787-15/718190170_18049206278782076_7861526224366113949_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gH-QGGOQfoPG-lfYDOq1w7417CvW3AYuuA8jMR6c49lBgdbK05kqMBOaBd31f8qe_o&_nc_ohc=0Jz_Amj9lW8Q7kNvwEWYnKY&_nc_gid=9895d7MmqQd_EOqlfRgWYw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_S6oTAJQ8B-kPP30FUdYRXrgosAeiQcwrF7lmXxUCMLg&oe=6A3459B7&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveQuotes",
+      "RelationshipGoals",
+      "SoulmateLove",
+      "LoveMessages",
+      "TrueLove"
+    ],
+    "public_preview": null,
+    "text": "Some people come into your life and change everything.\n\nNo matter how many love songs are written, how many poems are spoken, or how many words exist in this world, they still don’t feel like enough when it comes to describing what that person means to you.\n\nMaybe that’s the beautiful thing about love. Some feelings are simply bigger than words.\n\nTag the person who means more to you than words could ever explain. ❤️\n\n#LoveQuotes #RelationshipGoals #SoulmateLove #LoveMessages #TrueLove",
+    "word_count": 81
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️❤️❤️❤️😍😍😍",
+    "latest_comments": [
+      "❤️❤️❤️❤️❤️😍😍😍",
+      "@synneripe ❤️",
+      "❤️❤️❤️🙌",
+      "❤️❤️",
+      "❤️❤️❤️❤️",
+      "Traducir",
+      "Loves ♥️♥️♥️",
+      "How are you my sweeheart I don t miss you youare heart ♥️♥️",
+      "That you my loves and can’t stop you  but I loves you so much"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZNHvusRYq-",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZNHvusRYq-/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZNHvusRYq-",
+  "metrics": {
+    "comments": 62,
+    "likes": 1740,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 4530.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-05T12:58:11.000Z",
+  "published_label": null,
+  "rank": 531,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZNHvusRYq-",
+  "source_url": "https://www.instagram.com/p/DZNHvusRYq-/"
+}

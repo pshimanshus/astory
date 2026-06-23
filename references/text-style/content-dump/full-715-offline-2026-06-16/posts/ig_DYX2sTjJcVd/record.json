@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "r.h. Sin",
+    "instagram_user_id": null,
+    "username": "r.h.sin"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYX2sTjJcVd:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/696921618_1298980628355468_4572213096948584615_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGjcSaRfkP1jGsONoiETbB5lAQ2C5VY8tEUDgXorrW2YfN5BGu3jzc_cKg2IYg3lzQ&_nc_ohc=XES-dGQgmNUQ7kNvwF5C_gf&_nc_gid=dHnmJgri73c2DEUFX3jJ9A&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_rawjP2gT-Y_zW9k68aVR06Q6SysYa00K4E-4P5R2iYA&oe=6A347B5A&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "",
+    "word_count": 0
+  },
+  "communication_seed": {
+    "first_comment": "R u even real ? Good men doesn’t exist anymore 😢",
+    "latest_comments": [
+      "R u even real ? Good men doesn’t exist anymore 😢",
+      "So fine 🔥",
+      "It just doesn’t feel special anymore because of how many times this company and me have been used to do this very thing when it was just supposed to be for me and someone. So honestly. I want to start over please 🙏",
+      "Chills",
+      "❤️❤️❤️",
+      "🙏🙏🙏 I needed this❤️",
+      "You speak to my heart… ❤️",
+      "You uplifted me when I was doing 5 years in prison thanks for the words that healed me",
+      "❤️❤️❤️",
+      "i want to feel like this again. And be able to write poetry in this way 🥹"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYX2sTjJcVd",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYX2sTjJcVd/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYX2sTjJcVd",
+  "metrics": {
+    "comments": 39,
+    "likes": 1154,
+    "plays": 116626,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 12650,
+    "winner_score": 3351.75
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-15T20:29:59.000Z",
+  "published_label": null,
+  "rank": 568,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYX2sTjJcVd",
+  "source_url": "https://www.instagram.com/p/DYX2sTjJcVd/"
+}

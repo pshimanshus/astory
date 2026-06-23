@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZgHc7LTnGE:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/719490589_1909594786410042_3325757393833879908_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gE2TUYY2KuyHAFW_cRFvHZqn4j8T1ukqTyb9OXapqJ9QDReAJYksuC4JqsqjzPzoLY&_nc_ohc=3o1V3MKdi7UQ7kNvwFA5xmh&_nc_gid=qtWH2CTlmIVcw2tEFDWYog&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8tJGWlKWoAgBQwESw4p4zj_oymTuzaIDEIzHsemByGpQ&oe=6A348414&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Send this to someone ❤️",
+    "word_count": 4
+  },
+  "communication_seed": {
+    "first_comment": "@best254",
+    "latest_comments": [
+      "@best254",
+      "🙌",
+      "my self ❤️",
+      "@mariam.mh70 ❤️",
+      "@kiranatrock",
+      "Thank you so so much @papa_zuzu01 for bringing my stubborn boyfriend back.",
+      "@manojkalaimani ❤️❤️",
+      "@papa_aosanife I'm thankful for your spell. It helped me reunite with my husband and brought love back to our family.",
+      "I’ll never forget how hopeless I felt before this. Now my husband and I are reconnecting in a way I didn’t think was possible. Forever thankful to you sir @papa_zuzu01",
+      "@papa_ojiege9 I thank you for bringing my ex back. God bless you, sir. I will ensure everyone knows what you've accomplished."
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZgHc7LTnGE",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZgHc7LTnGE/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZgHc7LTnGE",
+  "metrics": {
+    "comments": 17,
+    "likes": 5196,
+    "plays": 175218,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 40041,
+    "winner_score": 7362.44
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T22:00:11.000Z",
+  "published_label": null,
+  "rank": 462,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZgHc7LTnGE",
+  "source_url": "https://www.instagram.com/p/DZgHc7LTnGE/"
+}

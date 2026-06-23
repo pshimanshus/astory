@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZZ_-N_Rfp3:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/720846565_18049901510782076_5993410115867575889_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGzo3gfN8A0wgdpzi6DVq78rD000qU-ZW3BVNr3gYUWiqiEMs9L0O1V_6YJJLqIFwM&_nc_ohc=F0RPzgliUOAQ7kNvwHKUfan&_nc_gid=uJ3mftuXrHqwt3kWO2v8BQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9xANgZB1GsIpFonOM0mMwqLjaNOBJBBu6N9JgaOeZq3Q&oe=6A346CB1&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessages",
+      "RelationshipGoals",
+      "CoupleGoals",
+      "LoveQuotes",
+      "PassionateLoveMessages"
+    ],
+    "public_preview": null,
+    "text": "Some people spend a lifetime searching for a love that feels safe, genuine, and easy.\n\nI’m just grateful I found mine. ❤️\n\nNot because you’re perfect.\nNot because every day is easy.\nBut because life feels a little brighter, a little softer, and a lot more meaningful with you in it.\n\nIf you’re lucky enough to have someone who makes your heart feel at home, don’t take them for granted. ☘️\n\nTag them, send this to them, or simply remind them today:\n\n“I’m so lucky to have you in my life.” ❤️\n\n👇 Tell me…\nWho are you grateful for today?\n\n#LoveMessages #RelationshipGoals #CoupleGoals #LoveQuotes #PassionateLoveMessages",
+    "word_count": 107
+  },
+  "communication_seed": {
+    "first_comment": "✨️🍀💞",
+    "latest_comments": [
+      "✨️🍀💞",
+      "Life🙏😘❤️🫶",
+      "@niloofar.sh❤️ @mosio.official ❤️",
+      "❤️❤️💞💐🕊",
+      "😍",
+      "Me 2 ❤️",
+      "@adheedalazzawi ♥️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZZ_-N_Rfp3",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZZ_-N_Rfp3/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZZ_-N_Rfp3",
+  "metrics": {
+    "comments": 66,
+    "likes": 6570,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 9540.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T12:59:42.000Z",
+  "published_label": null,
+  "rank": 410,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZZ_-N_Rfp3",
+  "source_url": "https://www.instagram.com/p/DZZ_-N_Rfp3/"
+}

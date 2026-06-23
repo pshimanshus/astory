@@ -1,0 +1,100 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DMJqMSGOh2n:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/519530083_18517603348039494_2671744076820259140_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gEj0VO9-lMLsXi_nvNEIYEDyKwgQqwkS-MmPvM0_0tVYR708dk5Cs8mNSFoXAV0p7o&_nc_ohc=RXR9746oiukQ7kNvwFsF_qj&_nc_gid=X05xydGKPpPI0WnqWFQMyQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_Ai6vYe0W7P9ZIAYhDlmgYeVM0nOKmEjfB7jMjM8Wygg&oe=6A347024&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "I don’t want to know what “I want fistrd” means but I think I’ve got a good guess",
+    "word_count": 20
+  },
+  "communication_seed": {
+    "first_comment": "if she was ‘busy with the kids’ he would’ve been the first person she attends to !",
+    "latest_comments": [
+      "if she was ‘busy with the kids’ he would’ve been the first person she attends to !",
+      "HARRY STYLES FOLLOWS THIS 😭",
+      "True love😂",
+      "He either wants to be first or fisted. He definitely wants to be fisted",
+      "FirstAid of course",
+      "I want...custard??",
+      "🤜 Delete please. Delete. Delete."
+    ],
+    "mechanic_tags": [
+      "static",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DMJqMSGOh2n",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DMJqMSGOh2n/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DMJqMSGOh2n",
+  "metrics": {
+    "comments": 28,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1260.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-07-16T01:53:16.000Z",
+  "published_label": null,
+  "rank": 155,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DMJqMSGOh2n",
+  "source_url": "https://www.instagram.com/p/DMJqMSGOh2n/"
+}

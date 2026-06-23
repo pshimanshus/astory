@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZVYC4Yp8T3:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/718687040_17904466746431061_3523743080207052025_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gH-ekjXS9eYVj9O9swkuf-B352HoB2ZLmVzfYSzMFXV0GBJa6-4rgwfvxe_KaLGbGE&_nc_ohc=8VftzTSxV9QQ7kNvwGDZJX1&_nc_gid=y8dP1drEiZWHHA_ElKACqg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8i5-v6pmQxxZyar5NWEpxCbglAwxkpVSi598WoDv-cjA&oe=6A3479B6&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Queen of the Irish goodbye. 👋🏼🤍\nWhy would I want to be anywhere else…?\n\nFollow @hereverydaymotherhood for more relatable motherhood + marriage moments 🤍",
+    "word_count": 21
+  },
+  "communication_seed": {
+    "first_comment": "Amen!!🙏🏼",
+    "latest_comments": [
+      "Amen!!🙏🏼",
+      "👏👏👏👏",
+      "Except ur mom.  Haha",
+      "Amen 🙌",
+      "@really.sarah.j ❤️",
+      "💯",
+      "🙌yep",
+      "🙌🙌🙌🙌🙌right and sometimes I am . Thank  God I have a nice place to live amen 🙏",
+      "👏👏👏"
+    ],
+    "mechanic_tags": [
+      "static",
+      "first_person",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZVYC4Yp8T3",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZVYC4Yp8T3/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZVYC4Yp8T3/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZVYC4Yp8T3",
+  "metrics": {
+    "comments": 89,
+    "likes": 53898,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 57903.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-06-08T17:54:03.000Z",
+  "published_label": null,
+  "rank": 114,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZVYC4Yp8T3",
+  "source_url": "https://www.instagram.com/p/DZVYC4Yp8T3/"
+}

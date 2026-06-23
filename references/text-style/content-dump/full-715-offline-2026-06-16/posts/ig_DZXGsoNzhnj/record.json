@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZXGsoNzhnj:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/719482934_942837705457145_2013056612359925728_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gH0t_u2kRxqOBfqeXhI7h5_rILH_V8tw65aLc3BVJaP9f89xDKi9QfsK-emF7WS_1A&_nc_ohc=YrvvDNkDSYYQ7kNvwGw-DR8&_nc_gid=e5PjCrrDWsF9e-Fda7Bldw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_SasoaiSFoX6r5EqFEaTPFD-2lXDpAOiJ6fT0DnUf0lw&oe=6A3481A4&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Do you agree?",
+    "word_count": 3
+  },
+  "communication_seed": {
+    "first_comment": "True",
+    "latest_comments": [
+      "True",
+      "🔥",
+      "Amen",
+      "Just be as real to your self as you are to others 😎",
+      "I approve this message! ❤️🔥",
+      "💯once its done its done",
+      "💯 👏👏👏👏🔥",
+      "❤️",
+      "👏"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZXGsoNzhnj",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZXGsoNzhnj/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZXGsoNzhnj",
+  "metrics": {
+    "comments": 29,
+    "likes": 10284,
+    "plays": 294982,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 59057,
+    "winner_score": 13656.0
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-09T10:00:12.000Z",
+  "published_label": null,
+  "rank": 357,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZXGsoNzhnj",
+  "source_url": "https://www.instagram.com/p/DZXGsoNzhnj/"
+}

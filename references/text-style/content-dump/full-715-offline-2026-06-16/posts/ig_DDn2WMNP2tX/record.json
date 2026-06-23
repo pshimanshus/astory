@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DDn2WMNP2tX:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/625084043_18105608440773859_5801194867413161678_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGpq4pPiWAiB-c0EXBN4GcTefkQUpeCDa3dO8jqHLwHzM22qazHn4WYq9u-uBlvAf4&_nc_ohc=hPz7PQBO7t4Q7kNvwFcdvDZ&_nc_gid=UpFZGXizK9q5krQqT_WoPw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8ME7xdQLdfkLoVfyJU8zyI868o4rauoTO92coOpDRZMQ&oe=6A34677C&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "what prompted this 3am text tho????",
+    "word_count": 6
+  },
+  "communication_seed": {
+    "first_comment": "Amazing",
+    "latest_comments": [
+      "Amazing",
+      "That’s rough 🙃",
+      "This better not be some post nut clarity istg bro",
+      "Right to the point",
+      "i need more of this on my feed YA HEAR INSTAGRAMM☠️☠️",
+      "When you don't want to add to your block list but let them live.",
+      "Fake accidental text, testing for a reaction?",
+      "😂😂😂😂😂",
+      "He probably meant the text for someone else",
+      "Just block. Don’t respond."
+    ],
+    "mechanic_tags": [
+      "static",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DDn2WMNP2tX",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DDn2WMNP2tX/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DDn2WMNP2tX",
+  "metrics": {
+    "comments": 21,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 945.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2024-12-16T02:34:09.000Z",
+  "published_label": null,
+  "rank": 680,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DDn2WMNP2tX",
+  "source_url": "https://www.instagram.com/p/DDn2WMNP2tX/"
+}

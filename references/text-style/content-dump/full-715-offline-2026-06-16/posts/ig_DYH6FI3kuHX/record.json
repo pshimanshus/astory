@@ -1,0 +1,132 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYH6FI3kuHX:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia5-2.cdninstagram.com/v/t51.82787-15/685370034_18593044573016016_4829864730253204361_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-mia5-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gG-5N9QQV97kPR8gPZil8pqJi4ZaBq-qssFZ1pNNZhiJqC0fLyV2mo38ltHAxdDH1k&_nc_ohc=zLgWN04xif8Q7kNvwEA4twX&_nc_gid=KMQJujLJfHb_M9JfHm-WaQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8rVOy0JrVtAxqa_mZGQciPM7hkd6Lwl8cOyDzM9brVCA&oe=6A345CB7&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYH6FI3kuHX:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYH6FI3kuHX:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my book “twenty something” – available link in my bio or search on Amazon 🖤",
+    "word_count": 14
+  },
+  "communication_seed": {
+    "first_comment": "What does that mean? I just turned 20 a month ago and I’m still living with my parents 😭😭",
+    "latest_comments": [
+      "What does that mean? I just turned 20 a month ago and I’m still living with my parents 😭😭",
+      "i definitely agree with you that twenties are probably one of the most difficult and stressful periods in our lives since we’re drastically going through obstacles, changes, and things that we have to overcome and deal with as we go through them. and i think that we can be more flexible and resilient with ourselves as well because we can handle things differently than others and we have to be able to do things that we can do better than ourselves.",
+      "Name of the book?",
+      "💫",
+      "Crazy kapag walang pera",
+      "Iv seen the words of this post unfold .. cant wait for whats untold 🔥 life has been & will be fun if you lock in on yourself and whoever is genuinely loyal to you .. people get love and loyalty confused in their 20s but if you can understand the two are different you will discern whats evil and virtuous.",
+      "Nah bro",
+      "Definitely don’t forget to have fun in this crazy process we call life 👏",
+      "So true❤️",
+      "🤍"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYH6FI3kuHX",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYH6FI3kuHX/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYH6FI3kuHX",
+  "metrics": {
+    "comments": 36,
+    "likes": 27465,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 29085.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-09T15:50:21.000Z",
+  "published_label": null,
+  "rank": 240,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYH6FI3kuHX",
+  "source_url": "https://www.instagram.com/p/DYH6FI3kuHX/"
+}

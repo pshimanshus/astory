@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY61bhEyhLt:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/709405731_1538120188098095_7354632062166384217_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gFW3Ee2rSauJ_VNQy5PgKe38iFQuR0srPporlCpvXZMNrxkODuW665yxUTP9nEsv9U&_nc_ohc=V1708Oexg5IQ7kNvwGm2FLc&_nc_gid=UzAIHNmStge5XMFsqPSVDg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-FaW0Te_48qH7aPLJRyEwA3mqiPEWKm8EWUVc5CPIk-g&oe=6A346BC5&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "This ❤️",
+    "word_count": 1
+  },
+  "communication_seed": {
+    "first_comment": "🔥🔥🔥",
+    "latest_comments": [
+      "🔥🔥🔥",
+      "🎯🎯🎯",
+      "🙌",
+      "I love the idea of this. In reality, there are exactly zero people who are transparent.",
+      "You know it even if you don’t want to accept it.",
+      "Bars 🔥",
+      "👏👏👏",
+      "That part. 🙌",
+      "👏👏🔥🔥100%",
+      "🙌🙌"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY61bhEyhLt",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY61bhEyhLt/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY61bhEyhLt",
+  "metrics": {
+    "comments": 24,
+    "likes": 16946,
+    "plays": 418359,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 98634,
+    "winner_score": 21478.19
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-29T10:30:08.000Z",
+  "published_label": null,
+  "rank": 289,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY61bhEyhLt",
+  "source_url": "https://www.instagram.com/p/DY61bhEyhLt/"
+}

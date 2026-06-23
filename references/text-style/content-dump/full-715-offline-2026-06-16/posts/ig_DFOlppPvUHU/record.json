@@ -1,0 +1,100 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFOlppPvUHU:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fmem1-2.fna.fbcdn.net/v/t39.30808-6/474743397_932861562332767_5319796380106859365_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fmem1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gEl8_0MgXqht98ZS8ugr-WFxZUZjRvjb5EpDLkTcgiePCMRw7Fz5kvl05wmyt6_OeU&_nc_ohc=v1GO1Ih6_cgQ7kNvwEi2Ei2&_nc_gid=G5Irq_4epNJENu7s7isU8Q&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af_znmGORUu3FDEurUzQ2nu9XSBbTWTPI59tiJ86X3A67A&oe=6A347E68&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Trust that your vision exists for a reason, the universe believes in your ability to make it real.\nDrop a ❤ if this resonates",
+    "word_count": 23
+  },
+  "communication_seed": {
+    "first_comment": "What a beautiful thought 🤍✨",
+    "latest_comments": [
+      "What a beautiful thought 🤍✨",
+      "❤️❤️",
+      "❤️",
+      "❤️✨❤️",
+      "💯",
+      "❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFOlppPvUHU",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFOlppPvUHU/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFOlppPvUHU",
+  "metrics": {
+    "comments": 195,
+    "likes": 76744,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 85519.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-25T00:10:02.000Z",
+  "published_label": null,
+  "rank": 118,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFOlppPvUHU",
+  "source_url": "https://www.instagram.com/p/DFOlppPvUHU/"
+}

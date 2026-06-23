@@ -1,0 +1,132 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZVHna6kR2F:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia5-1.cdninstagram.com/v/t51.82787-15/716290869_18593153581012837_3907738061119687351_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-mia5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gG6uIj4Qc3SfQ4FA-sgw8nTYJeDoeVgn-U8mMN3aauEhy0FrdkuyA0ZnX_RTi6sY2A&_nc_ohc=pRnGyzlNOXgQ7kNvwEPn-gW&_nc_gid=iGe2uZJF1N-oCoqMCverZQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_9oDBpLsC35XbAd8wPr9lJLvb7r7SHSkK9Vc_E8hlzXg&oe=6A348861&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZVHna6kR2F:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZVHna6kR2F:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "ad"
+    ],
+    "public_preview": null,
+    "text": "Some souls instantly click. \n\nWhether you’re lovers, best friends, soulmates, or something so special that words can’t quite explain it. You accept this person for everything they are, and they would never let you be anything other than your beautiful, imperfect self. These are the souls that you encounter and just know in the very first moment that you were supposed to cross paths. Their presence makes you feel safe and calm, like you are home whenever you’re with them. They are without a doubt the most special person you’ve had the privilege to love—no distance, time, or person could come between the bond you share. Their kindness, softness, sincerity, and unconditional love makes you feel like a better person, because life is simply better with them in it. Whatever form they may come in, these souls are your happy place, your comfort, your sunshine, your everything, and you genuinely could not imagine life without them in it.\n\nWatch Every Year After starring Sadie Soverall and Matt Cornett premiering on June 10th exclusively on Prime. @PrimeVideo #ad",
+    "word_count": 182
+  },
+  "communication_seed": {
+    "first_comment": "What are you talking about ? He spent most of the show breaking up with her",
+    "latest_comments": [
+      "What are you talking about ? He spent most of the show breaking up with her",
+      "🖤",
+      "@megaverb ❤️",
+      "✨",
+      "❤️❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "domestic",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZVHna6kR2F",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZVHna6kR2F/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZVHna6kR2F",
+  "metrics": {
+    "comments": 5,
+    "likes": 4987,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 5212.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-08T15:30:02.000Z",
+  "published_label": null,
+  "rank": 513,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZVHna6kR2F",
+  "source_url": "https://www.instagram.com/p/DZVHna6kR2F/"
+}

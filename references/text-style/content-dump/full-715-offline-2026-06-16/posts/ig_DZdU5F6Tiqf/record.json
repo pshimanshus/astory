@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZdU5F6Tiqf:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/720784694_795212233558898_686804475946256719_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gGAN_f63Td7rsDuTiN4XpNJS8b5qHw_qzyy5Ugj7XnOzlwDdTaZvFOVTp-XIvQkF-U&_nc_ohc=yKI8x61DY-8Q7kNvwHYRTe-&_nc_gid=mlxAikrcT3fnpdtyoEX8RA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9layxJ2aNSSkplMaxDBrLvQhZMwk8e7tsXQjfdyqrL7A&oe=6A347156&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Tag someone 💕",
+    "word_count": 2
+  },
+  "communication_seed": {
+    "first_comment": "❤️🧿",
+    "latest_comments": [
+      "❤️🧿",
+      "👏🏼💯",
+      "❤️",
+      "❤️",
+      "❤️",
+      "🍒🫠",
+      "@papa_ojiege9 It's has been a great thing having my EX back, this has always been what I wish for... thank you",
+      "🙌",
+      "@sofi.camn 🤍🤍"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZdU5F6Tiqf",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZdU5F6Tiqf/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZdU5F6Tiqf",
+  "metrics": {
+    "comments": 19,
+    "likes": 5876,
+    "plays": 195685,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 36677,
+    "winner_score": 8014.69
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-11T20:00:11.000Z",
+  "published_label": null,
+  "rank": 449,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZdU5F6Tiqf",
+  "source_url": "https://www.instagram.com/p/DZdU5F6Tiqf/"
+}

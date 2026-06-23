@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZffoLXR0bf:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.82787-15/723999821_18050207726782076_6852071011193760196_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG-5kr0_AnEtaL5jtOxqF63t1Ek5czl5wnMmhk3APV8m73GaESk12YvYUezu4QZdwfXoO_yZxGg1_EFUyWLuW_I&_nc_ohc=6tuguEImihsQ7kNvwF7FQ0R&_nc_gid=Z51MewLEcLMpzOOOgmYDag&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9UFssdG1OigQDS895Rv1y0uxcbyuJh_nJwRJofBso7zg&oe=6A3477C7&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessages",
+      "RelationshipGoals",
+      "RomanticQuotes",
+      "CoupleLove",
+      "TrueLove"
+    ],
+    "public_preview": null,
+    "text": "This heart is yours.\n\nPlease be careful with it. ❤️\n\nTag the one who has your heart. 🥹\n\nFollow @PassionateLoveMessages for more sweet love messages and romantic quotes.\n\n#LoveMessages #RelationshipGoals #RomanticQuotes #CoupleLove #TrueLove",
+    "word_count": 31
+  },
+  "communication_seed": {
+    "first_comment": "I’ll keep it forevermore ❤️🦋",
+    "latest_comments": [
+      "I’ll keep it forevermore ❤️🦋",
+      "Not loše never...!!!!!!!❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+      "Can I kiss your heart",
+      "Not in my worst dream",
+      "Greg McCoy",
+      "Love you more",
+      "❤️❤️❤️❤️",
+      "😍😍❤️❤️",
+      "@maryh.1983 she never lost faith in you and still believes in you. Only you ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️😘😘😘😘😘😘😘😘😘😘😘😘😘💓💓💓💓💓💓💓💓💓💞💞💞💞💞💞💞💞",
+      "@maryh.1983 How do you feel? We promised to share everything and don't hide anything from each other 🫂🫂🫂"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZffoLXR0bf",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZffoLXR0bf/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZffoLXR0bf",
+  "metrics": {
+    "comments": 27,
+    "likes": 622,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1837.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T16:12:33.000Z",
+  "published_label": null,
+  "rank": 638,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZffoLXR0bf",
+  "source_url": "https://www.instagram.com/p/DZffoLXR0bf/"
+}

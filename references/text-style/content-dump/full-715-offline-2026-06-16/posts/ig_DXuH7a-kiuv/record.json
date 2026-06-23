@@ -1,0 +1,100 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXuH7a-kiuv:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.71878-15/686319292_1134093012219762_4245776027504689959_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gG81lsmpkdp7SGB-qyd3xpXJfn4XpIXe11EShWjrdjhvzvJDwxEjat5cSnOJy7ZY5I&_nc_ohc=EYh23M8KxUQQ7kNvwEkLp_Q&_nc_gid=zzsZnJNHxacfSwDCHVeT4w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8aL9VXOzc1n7l5ZieEqJWFpMrHswnHAN1I3k6_ds3dNA&oe=6A345F07&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my book “twenty something” 🤍\n\navailable link in bio or search on Amazon",
+    "word_count": 13
+  },
+  "communication_seed": {
+    "first_comment": "True that, You are enough 👏👏👌",
+    "latest_comments": [
+      "True that, You are enough 👏👏👌",
+      "🙌"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXuH7a-kiuv",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXuH7a-kiuv/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXuH7a-kiuv",
+  "metrics": {
+    "comments": 2,
+    "likes": 1124,
+    "plays": 38239,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 9446,
+    "winner_score": 1544.61
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-29T15:31:38.000Z",
+  "published_label": null,
+  "rank": 652,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXuH7a-kiuv",
+  "source_url": "https://www.instagram.com/p/DXuH7a-kiuv/"
+}

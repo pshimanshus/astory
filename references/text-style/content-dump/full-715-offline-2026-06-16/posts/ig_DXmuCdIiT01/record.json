@@ -1,0 +1,156 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXmuCdIiT01:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/675352637_18586490680000418_1986985495249127452_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gF2wZ0_7TtfpNMaZ8KjJXpu5uhtxo_zgHg2c3N-tAI4qE7Uww66g8aUI0cPpbCZyvE&_nc_ohc=26NPjxvEQT0Q7kNvwEINdEL&_nc_gid=N7awzCDnP1Xg8u__PsDgOA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_88HMc2BOl5qsXtLMlfPEKOCaEBfxWb3_DmblVvY_tnQ&oe=6A3476E5&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXmuCdIiT01:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXmuCdIiT01:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXmuCdIiT01:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXmuCdIiT01:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "healing my inner child one day at a time 🫂",
+    "word_count": 9
+  },
+  "communication_seed": {
+    "first_comment": "I am getting a book for my dad and my mom",
+    "latest_comments": [
+      "I am getting a book for my dad and my mom",
+      "one of them is the hardest though",
+      "“Dear dad” wrap it up",
+      "😢",
+      "The carefree me version. Dint know when that left my hand ✋🏻",
+      "my sister just played in my face and my dad and mom just sat and watched like guys are we serious",
+      "😢",
+      "yup",
+      "I NEED THIS BOOK NEEEOWWWWWWWWW!!!!",
+      "🥹"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXmuCdIiT01",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXmuCdIiT01/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXmuCdIiT01",
+  "metrics": {
+    "comments": 38,
+    "likes": 24318,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 26028.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-26T18:30:11.000Z",
+  "published_label": null,
+  "rank": 263,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXmuCdIiT01",
+  "source_url": "https://www.instagram.com/p/DXmuCdIiT01/"
+}

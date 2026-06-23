@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DIbxqzvoXgm:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-phl2-1.cdninstagram.com/v/t39.30808-6/491607320_991109813174608_2155403087060979340_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-phl2-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGoP0TezdyF2eTjboD5qvEyFhFr2DHGXfpFnH16SBk_PNfh6OLp5M-vAhtIaBw6IMQ&_nc_ohc=Kt2lpbvwcWgQ7kNvwFqsk2t&_nc_gid=wwUbjd8tceaWjADLY--17A&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af-pHaujgqZN5QEJyZmAP80qQiW-K7P6B5mlQHlC0Hj-2Q&oe=6A346974&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "There’s a kind of freedom that comes when you stop waiting for people to show up how you needed them to. There’s a kind of freedom that comes when you stop waiting for people to show up how you needed them to. You stop checking your phone for the message. You stop overthinking silence. You start enjoying your own company so much, their absence no longer feels like abandonment.\n.\n.\n.\n.\n.\nWhat’s something you’ve learned to enjoy alone lately? 🌻",
+    "word_count": 81
+  },
+  "communication_seed": {
+    "first_comment": "Peaceful life",
+    "latest_comments": [
+      "Peaceful life",
+      "so peaceful",
+      ".",
+      "This is the ultimate peace fr",
+      "Very peaceful",
+      "Trueeeeee",
+      "❤️",
+      "Peaceful moment",
+      "👏👏"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DIbxqzvoXgm",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DIbxqzvoXgm/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DIbxqzvoXgm",
+  "metrics": {
+    "comments": 279,
+    "likes": 128882,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 141437.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-04-14T16:39:22.000Z",
+  "published_label": null,
+  "rank": 78,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DIbxqzvoXgm",
+  "source_url": "https://www.instagram.com/p/DIbxqzvoXgm/"
+}

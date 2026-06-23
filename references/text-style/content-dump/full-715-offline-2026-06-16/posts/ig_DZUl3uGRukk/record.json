@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZUl3uGRukk:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/719891651_18049605524782076_9146041385779978948_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gEk1Q9ptXdXx9vu1I_HNrRTB-0gT-mBK1Oob5yoGO_OE-awIIcL4J4VvpTuuSC4LT4&_nc_ohc=fw_tvHjU_P8Q7kNvwEIXVlM&_nc_gid=w_41A4le_wX_QIwOIowAQA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8xtX86NgsCIgjDqv4Gnf4_i_EXhIIipC5oVeye-ajeCg&oe=6A34840F&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "I love you ❤️",
+    "word_count": 3
+  },
+  "communication_seed": {
+    "first_comment": "I love you, my only one. I love you so much ❤️❤️❤️❤️❤️❤️❤️❤️ limitless, endless, forever.",
+    "latest_comments": [
+      "I love you, my only one. I love you so much ❤️❤️❤️❤️❤️❤️❤️❤️ limitless, endless, forever.",
+      "❤️❤️❤️",
+      "I l❤️VE Y❤️U T❤️",
+      "❤️❤️😍😍",
+      "😍😍❤️❤️",
+      "💐🩷🩷❤️❤️❤️",
+      "I love u too",
+      "…🇰🇷K💖…",
+      "I will always thinking of you. Sally",
+      "Ja neznam jesi li svjesna kakve si mi poruke slala....Al ajd...nekak gutam trpim....do tog dana....vjeruj svaki čovjek vrijedi ja ili netko drugi....bar doći i stisnut ruku...Al ono....NEOBJASNJIVO"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZUl3uGRukk",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZUl3uGRukk/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZUl3uGRukk",
+  "metrics": {
+    "comments": 39,
+    "likes": 542,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2297.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-08T10:35:32.000Z",
+  "published_label": null,
+  "rank": 619,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZUl3uGRukk",
+  "source_url": "https://www.instagram.com/p/DZUl3uGRukk/"
+}

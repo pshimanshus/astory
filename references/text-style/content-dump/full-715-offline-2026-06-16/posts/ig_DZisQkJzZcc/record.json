@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZisQkJzZcc:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/719523694_1487360825936790_7597239623590385810_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gF_KvIlmJHKscXjXseN3fMjJSE9IEHe96XHghkn29TsHkL_8wSBkSmgz2jL7Jt2VTg&_nc_ohc=K8O05cieULQQ7kNvwFzCFK_&_nc_gid=BqYIVDhgbf9gBVcqHN5iZQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-IEHyIXpPHx0GL-Aq84yNjTqOmdiU7DUQKa81nj5VlYg&oe=6A346A79&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "❤️",
+    "word_count": 0
+  },
+  "communication_seed": {
+    "first_comment": "Beautiful perspective 🤍",
+    "latest_comments": [
+      "Beautiful perspective 🤍",
+      "♥️♥️♥️♥️",
+      "Funny how goals move. Three years ago, today’s problems might have looked like privileges. The salary, the confidence, the relationships, even the ordinary routines. Growth has a way of making old dreams feel small, which is why gratitude sometimes needs a better memory.",
+      "I did 🥹🩷",
+      "I don’t think so but in 3 years we’ll both be unrecognizable 🙌",
+      "✨🧠✨",
+      "✨🧠✨",
+      "The work ethic showing",
+      "She really would be"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZisQkJzZcc",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZisQkJzZcc/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZisQkJzZcc",
+  "metrics": {
+    "comments": 19,
+    "likes": 3964,
+    "plays": 133197,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 23464,
+    "winner_score": 5640.24
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-13T22:00:09.000Z",
+  "published_label": null,
+  "rank": 504,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZisQkJzZcc",
+  "source_url": "https://www.instagram.com/p/DZisQkJzZcc/"
+}

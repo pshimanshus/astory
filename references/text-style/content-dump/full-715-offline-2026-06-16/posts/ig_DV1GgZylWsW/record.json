@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DV1GgZylWsW:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/649819825_1886236148692334_8440254620382076997_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gEcmCsdHbHG2scPZe-lJgim1AVNBebiC1j4aVfo6iDe4NhUv2alyKJkydNimkGxi3E&_nc_ohc=AvrhnfJbHBoQ7kNvwEiHXEn&_nc_gid=4e_gfXyIPnJ_ycj2Dz-Vtw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_R1fm7cRazbZTQGbmjOlrDJtVB1-wSsoiLLeooafMkXw&oe=6A348B44&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes the people who hurt us the most didn’t feel wrong in the beginning. They felt familiar. They felt exciting. They felt like chemistry. But often what we call “chemistry” is simply our nervous system recognizing patterns it learned long before we understood what love was supposed to feel like. When inconsistency, emotional distance, or chaos were once part of what we experienced as connection, our bodies can begin to mistake those things for passion. And so the wrong person can feel right — not because they are good for us, but because they are recognizable. \n\nHealing begins when we start questioning those patterns. When we realize that love was never meant to feel like anxiety, confusion, or constant uncertainty. Real love is steady. It is calm. It is consistent. And sometimes, when we are used to chaos, that calm can feel unfamiliar at first. But unfamiliar does not mean wrong — it often means healthy. \n\nLearning to choose differently requires retraining your nervous system, rewriting the story of what love should look like, and allowing yourself to believe that you deserve something softer, safer, and more secure than what you once accepted. The right person will not feel like a rollercoaster. They will feel like peace. \n\n📖 This reflection was inspired by the book ‘Detached’ by Sabrina Bendory, a powerful exploration of emotional patterns, healing, and learning to recognize the difference between familiarity and real love. 🖤",
+    "word_count": 235
+  },
+  "communication_seed": {
+    "first_comment": "True",
+    "latest_comments": [
+      "True",
+      "I have taken care of people band showed so much concern and love to these people, that what I done almost all my life.",
+      "I'm realizing that now that I'm hearing all these stories, and I look back and have nothing to look back at that had to do with loving someone. The right way.",
+      "Bowlby called this the internal working model — your nervous system builds a blueprint for love before you can even speak. so when chaos shows up wearing the same mask as your first attachment, your body doesn't register danger. it registers home. the real work isn't finding the right person. it's teaching your body that safety isn't the absence of feeling — it's the presence of it without the flinch.",
+      "❤️❤️",
+      "@yar__rik you just made me trauma bonded to you",
+      "They healed compley.\nThe chose the same person with new name. \nHealing fixed the wound .\nNot the pain ."
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "heartbreak",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DV1GgZylWsW",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DV1GgZylWsW/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DV1GgZylWsW",
+  "metrics": {
+    "comments": 7,
+    "likes": 1886,
+    "plays": 121424,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 21721,
+    "winner_score": 2961.24
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-13T15:30:00.000Z",
+  "published_label": null,
+  "rank": 584,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DV1GgZylWsW",
+  "source_url": "https://www.instagram.com/p/DV1GgZylWsW/"
+}

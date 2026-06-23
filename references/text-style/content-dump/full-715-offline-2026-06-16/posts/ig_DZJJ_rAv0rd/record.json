@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "alex aubrey",
+    "instagram_user_id": null,
+    "username": "alexaubreypoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZJJ_rAv0rd:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-1.cdninstagram.com/v/t51.71878-15/713524245_1612637609832875_8682432142694437513_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gH3oFv5kSk7YTyAAeKjEzZqpnmbiSf8cLOvCTVLDTGLJ5b8SQgBolhwm4OSMlCOBdY&_nc_ohc=UbZ-XJ3Q-JAQ7kNvwHASh2i&_nc_gid=l81rCDQJKgGzZt9wk7U4Uw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-G3pnggrwBjbLBjofSq5uJTh9VhaVglgnfuef44XRMew&oe=6A348951&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my poetry book “searching for myself”, available on amazon",
+    "word_count": 10
+  },
+  "communication_seed": {
+    "first_comment": "That’s not true for me . Once I was  pure , I was kinder , I wasn’t afraid of letting my guard down. Life tought me otherwise . I wasn’t afraid proud of being myself.",
+    "latest_comments": [
+      "That’s not true for me . Once I was  pure , I was kinder , I wasn’t afraid of letting my guard down. Life tought me otherwise . I wasn’t afraid proud of being myself.",
+      "❤️",
+      "✨"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZJJ_rAv0rd",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZJJ_rAv0rd/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZJJ_rAv0rd",
+  "metrics": {
+    "comments": 3,
+    "likes": 399,
+    "plays": 22481,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 4298,
+    "winner_score": 684.43
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-04T00:00:09.000Z",
+  "published_label": null,
+  "rank": 697,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZJJ_rAv0rd",
+  "source_url": "https://www.instagram.com/p/DZJJ_rAv0rd/"
+}

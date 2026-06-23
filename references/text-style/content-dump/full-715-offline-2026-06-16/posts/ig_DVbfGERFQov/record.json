@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVbfGERFQov:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.71878-15/642648018_1474214890952026_1523624710663933859_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gF9_y3D6LsENqQPcVCUEEnO5Tx5Z56J4hCjNGx2VJgCBO4g6q82xfjqAGK2ek5Y9WI&_nc_ohc=HzCNMTsvV-8Q7kNvwHuiJnQ&_nc_gid=DPvfp6vDNtvQgr4kS7fDCA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-ecONhjbhkb4P5jg2GBwlqwq_nrOWSf1BZDXRIsNHQUg&oe=6A347EA5&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You don’t get enough credit for surviving what you don’t talk about. For waking up when it would’ve been easier to disappear. For trying again when yesterday almost broke you. For being the strong one, the kind one, the one who makes others feel safe — even when you’re still learning how to feel safe yourself. \n\nIf no one has told you lately: I’m proud of you. Keep going. The world is softer because you are in it. 🖤\n\nFind a copy of this book on our website “All That You Deserve” by Jacqueline Whitney 📖",
+    "word_count": 98
+  },
+  "communication_seed": {
+    "first_comment": "🖤",
+    "latest_comments": [
+      "🖤",
+      "@missginadarling",
+      "Sometimes I’m tired of fighting. Tired of fighting for myself everyday. It gets really hard especially as a single mom. The only thing that’s really keeping going now is my daughter",
+      "🙏🏾❤️",
+      "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️🙌🙌🙌🔥🔥🔥",
+      "Needed this today! ❤️",
+      "@walshyy07",
+      "❤️",
+      "Thank you ❤️",
+      "@_art.by.christine @iam.cjl ❤️"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVbfGERFQov",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVbfGERFQov/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVbfGERFQov",
+  "metrics": {
+    "comments": 22,
+    "likes": 4324,
+    "plays": 134016,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 24692,
+    "winner_score": 6178.22
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-03T16:45:00.000Z",
+  "published_label": null,
+  "rank": 492,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVbfGERFQov",
+  "source_url": "https://www.instagram.com/p/DVbfGERFQov/"
+}

@@ -1,0 +1,121 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXKY5t_ie8L:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/669827494_18583795108000418_7755857876288922854_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gGZyLC3BERnZGP_3eW6RB7Diz_Kkf90vvzXGF4ZPQ6vgUxpn-48H-IeoAbWC8l9QYU&_nc_ohc=FY-9U5vZbwoQ7kNvwGPDqN5&_nc_gid=RqRNG-L8SXoSK72Vh-W98A&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-nm-s836s1DxJtKsmGWAUP7unrEOL-d12CEmMUTpaDTQ&oe=6A346152&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXKY5t_ie8L:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "thank you for staying to figure it out with me",
+    "word_count": 10
+  },
+  "communication_seed": {
+    "first_comment": "🤲✨️",
+    "latest_comments": [
+      "🤲✨️",
+      "🔥🔥",
+      "Lil Kmv ; Approves 🥀",
+      "It’s nice when people are actually kind and not just performative. When they actually stay and work on differences and communicate to repair. To not win an argument, but to resolve it. ❤️",
+      "🤍🕯️",
+      "😢🙏🏻😔❣️❣️✨🤝🫂💫❤️‍🔥",
+      "@kasbalba 🫂🤍🥺",
+      "@hanarailey",
+      "I just want to love myself the way I love her but I just don’t know how",
+      "@shadowboi____ some people show us what love really means"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DXKY5t_ie8L",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DXKY5t_ie8L/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXKY5t_ie8L",
+  "metrics": {
+    "comments": 45,
+    "likes": 54758,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 56783.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-15T18:26:46.000Z",
+  "published_label": null,
+  "rank": 115,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXKY5t_ie8L",
+  "source_url": "https://www.instagram.com/p/DXKY5t_ie8L/"
+}

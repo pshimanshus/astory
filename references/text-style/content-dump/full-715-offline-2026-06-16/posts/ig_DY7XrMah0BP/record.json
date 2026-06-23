@@ -1,0 +1,113 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY7XrMah0BP:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/707510315_18590307811012837_8555477060571164329_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFp3wOzwz3mcPuH4FB7RnXBtA4j7hxbt_C10dpfFgoY1qUo8nb8YhSr4PbkNiCf6_s&_nc_ohc=2r7GfDTF4ykQ7kNvwGY7pbr&_nc_gid=75tBQpXiNbe0Mjlbz0D6Jw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_GPozHDUiyEw3cK-m7k8puzDembl1PagY1zvnsXGHkHw&oe=6A3481D7&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "trustyourjourney",
+      "inspiringwords",
+      "trustgod",
+      "love"
+    ],
+    "public_preview": null,
+    "text": "Maybe this is exactly the reminder you needed to hear today 🖤 Inspired by the book ‘Stay Single’ by Rebecca Simon, find it in our link in the bio 📖\n\n#trustyourjourney #inspiringwords #trustgod #love",
+    "word_count": 32
+  },
+  "communication_seed": {
+    "first_comment": "Thank you. God got me. I trust",
+    "latest_comments": [
+      "Thank you. God got me. I trust",
+      "❤️🙌🔥",
+      "❤️❤️❤️❤️❤️",
+      "❤️❤️❤️❤️❤️",
+      "👏",
+      "❤️❤️❤️",
+      "I’m listening. 🙌",
+      "🙏🏻🙌🏻",
+      "Fuck this reality",
+      "Just sounds like an abusive manipulative relationship."
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY7XrMah0BP",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY7XrMah0BP/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY7XrMah0BP",
+  "metrics": {
+    "comments": 51,
+    "likes": 8042,
+    "plays": 316311,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 72276,
+    "winner_score": 12866.66
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-29T15:30:08.000Z",
+  "published_label": null,
+  "rank": 367,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY7XrMah0BP",
+  "source_url": "https://www.instagram.com/p/DY7XrMah0BP/"
+}

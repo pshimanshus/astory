@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWHIGQah5iq:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/654035524_2157302775012613_3843799077920457839_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gGVK5hjKqtdikJ2k9Eo2zJex2M_8hWBXM9E35CZ0ZfWQK5hXl1TTGVzmfbQcPWYEnc&_nc_ohc=UErKSvQZq50Q7kNvwHGbIIy&_nc_gid=P0jawuQ-OpKSb72EeoRuLA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_uQMn84FEApTCgpBVf3jUczCwF1LSkkEaQufW1YpNTLA&oe=6A345C7C&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You didn’t fall in love with who they were — you fell in love with who they could be. But you deserve someone who already is. 🖤\nBook: This Was Meant To Find You by Charlotte Freeman. Find the link in our bio.",
+    "word_count": 42
+  },
+  "communication_seed": {
+    "first_comment": "Thank you",
+    "latest_comments": [
+      "Thank you",
+      "❤️",
+      "Yeah, turns out potential isn't personality...",
+      "🤍",
+      "🖤🖤",
+      "Yep.. it was only words with no action, stayed way too long.",
+      "Dm me",
+      "Dm me",
+      "We often go broke trying to deposit love into someone who is emotionally bankrupt. Stop waiting for them to grow into the person you need"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWHIGQah5iq",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWHIGQah5iq/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWHIGQah5iq",
+  "metrics": {
+    "comments": 9,
+    "likes": 1480,
+    "plays": 82922,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 19646,
+    "winner_score": 2572.61
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-20T15:30:00.000Z",
+  "published_label": null,
+  "rank": 605,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWHIGQah5iq",
+  "source_url": "https://www.instagram.com/p/DWHIGQah5iq/"
+}

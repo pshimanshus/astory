@@ -1,0 +1,116 @@
+{
+  "account": {
+    "full_name": "The Wild Beauty Foundation",
+    "instagram_user_id": null,
+    "username": "wildbeautyspirit"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DT3DaGljqU1:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/620658313_18093536360296666_7415666983975448632_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gFJovH3_lB3QI_9WMhbibDQzf9At-p2ySDDO49C8kwoub6kpHPrxdcmIjAcVbF2Euc&_nc_ohc=A4N-Gdkpm8IQ7kNvwHLWj-p&_nc_gid=17Y3PrAEyxzhQwK5qQmZrg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_fFD6ZzCt5Wa_-SuAhQIWmAx3_GFUmDg-Op8O8RTsVdQ&oe=6A347D43&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "TheLostHorses",
+      "WhatWasIMadeFor",
+      "BillieEilish",
+      "ProtectHorses"
+    ],
+    "public_preview": null,
+    "text": "Today, we are honored to debut The Lost Horses: Anthem Film set to Billie Eilish’s Oscar-winning song “What Was I Made For?”\n\nIt tells the story of horses who served us, trusted us — and were forgotten.\n\nEvery year, tens of thousands of horses — Thoroughbreds, ex–show jumpers, discarded lesson ponies, wild horses, and even donkeys — are lost to the darkness of the export pipeline.\n\nThey are companions.  Athletes.  Therapy partners.\nLives who gave everything, only to be thrown away.\n\nAnd in their final moments, one haunting question lingers: \nWhat was I made for?\n\nThis powerful song carries that truth forward.  Horses have been our partners for centuries — and no life deserves to be discarded.\n\nThank you, Billie, for sharing your compassion, grace, and artistry with The Lost Horses.  Storytelling combined with advocacy has the extraordinary power to make lasting change in our world.\n\nIf this moved you, we ask you to join us in this movement.  Raise your voice, share this film, and take action —\nso no horse is ever lost again.\n\nwww.losthorses.org\n\n. . .\n\n“What Was I Made For?” [From the Motion Picture Barbie]\nPerformed by Billie Eilish\nCourtesy of Interscope Records\nUnder license from Universal Music Enterprises\n\nDirected by Ashley Avis for The Wild Beauty Foundation\n@ashleyavis\n\n#TheLostHorses #WhatWasIMadeFor #BillieEilish \n#ProtectHorses HorseStories",
+    "word_count": 216
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️❤️",
+    "latest_comments": [
+      "❤️❤️❤️",
+      "😢😢😢",
+      "Amaz!",
+      "Please contact the members of the US House Subcommittee on Livestock, Dairy & Poultry concerning Equine Legislation\n\nUS House Subcommittee on Livestock, Dairy, & Poultry\n\nThe Save America’s Forgotten Equines (SAFE) Act (HR 1661/Senate 775), STALLED in the HR Subcommittee on Livestock, Dairy and Poultry since March 28, 2025, Chairman Tracy Mann\nhttps://agriculture.house.gov/about/committee_members.htm\nUS House Subcommittee on Livestock, Dairy, & Poultry\nMembers\n\nChairman Tracy Mann\t344 Cannon Hou",
+      "Please contact the members of the US House Subcommittee on Livestock, Dairy & Poultry concerning Equine Legislation\n\nUS House Subcommittee on Livestock, Dairy, & Poultry\n\nThe Save America’s Forgotten Equines (SAFE) Act (HR 1661/Senate 775), STALLED in the HR Subcommittee on Livestock, Dairy and Poultry since March 28, 2025, Chairman Tracy Mann\nhttps://agriculture.house.gov/about/committee_members.htm\nUS House Subcommittee on Livestock, Dairy, & Poultry\nMembers\n\nChairman Tracy Mann\t344 Cannon Hou",
+      "❤️🙌",
+      "Incredible, every time.",
+      "My heart. This is why I ride. The connection with these incredibly animals. We need to do better for them. Let’s do this! ❤️❤️❤️",
+      "So many tears ! 😢",
+      "🙏🙏🙏🙏🙏"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DT3DaGljqU1",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DT3DaGljqU1/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DT3DaGljqU1",
+  "metrics": {
+    "comments": 133,
+    "likes": 2497,
+    "plays": 86726,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 15874,
+    "winner_score": 9037.59
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-01-23T16:55:27.000Z",
+  "published_label": null,
+  "rank": 420,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DT3DaGljqU1",
+  "source_url": "https://www.instagram.com/p/DT3DaGljqU1/"
+}

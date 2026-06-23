@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "alex aubrey",
+    "instagram_user_id": null,
+    "username": "alexaubreypoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZOTmloPk3f:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-2.cdninstagram.com/v/t51.71878-15/712583578_2182886689231635_3813138901252231168_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gE9Fv2RQCXE7NNsr2STz_JKcN8RT4sXnrUzBKk1C3S0LmpmjXR9skNLFknCwehyzvc&_nc_ohc=SuJVo_ziJM8Q7kNvwHvlOMD&_nc_gid=eZca8hZTlssw6RQDAgfB6A&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_26Vwa5SsEfUVOcLP9cK5r4R9V4NChIL-y361J-2npkg&oe=6A34620D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my poetry book “searching for myself”, available on amazon",
+    "word_count": 10
+  },
+  "communication_seed": {
+    "first_comment": "It’s beautiful when a message comes from awareness.✨💜",
+    "latest_comments": [
+      "It’s beautiful when a message comes from awareness.✨💜",
+      "❤️❤️",
+      "💯",
+      "🧡",
+      "✨",
+      "Yes🔥"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZOTmloPk3f",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZOTmloPk3f/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZOTmloPk3f",
+  "metrics": {
+    "comments": 6,
+    "likes": 632,
+    "plays": 29819,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 6168,
+    "winner_score": 1117.88
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-06T00:00:10.000Z",
+  "published_label": null,
+  "rank": 672,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZOTmloPk3f",
+  "source_url": "https://www.instagram.com/p/DZOTmloPk3f/"
+}

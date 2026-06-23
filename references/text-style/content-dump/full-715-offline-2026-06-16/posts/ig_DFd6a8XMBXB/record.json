@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFd6a8XMBXB:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-1.cdninstagram.com/v/t39.30808-6/474763956_937547411864182_1419181254563766172_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gED7PkoNn73dxqFbzvO7wXi01FqSf9Y6jmObyP7c93PQQB6Cjn-erlkSg_UyjlM0GA&_nc_ohc=MTlrqPSA6jUQ7kNvwFOAQxV&_nc_gid=xhqzCG-YDES_7RDvQ6HxXw&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af8QQjyjKHjVv938_U6pjJh3g_61ENHte_BQhyUNcuB-sw&oe=6A347776&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Reminder: You are not obligated to fit into someone else’s idea of who you are. ou. Your journey doesn’t require their validation. 🌻\n\nDrop a ❤ if you agree",
+    "word_count": 29
+  },
+  "communication_seed": {
+    "first_comment": "🔥🔥",
+    "latest_comments": [
+      "🔥🔥",
+      "Yes ♥️",
+      "I know who I am without them 🩷",
+      "❤️🙌",
+      "❤️",
+      "🤍",
+      "❤️",
+      "💚🩵✨"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFd6a8XMBXB",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFd6a8XMBXB/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFd6a8XMBXB",
+  "metrics": {
+    "comments": 97,
+    "likes": 51319,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 55684.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-30T23:00:08.000Z",
+  "published_label": null,
+  "rank": 161,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFd6a8XMBXB",
+  "source_url": "https://www.instagram.com/p/DFd6a8XMBXB/"
+}

@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZU86fqR5hR:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fpia1-1.fna.fbcdn.net/v/t51.82787-15/720761101_18049624208782076_6244582334466459305_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fpia1-1.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2gFYzFdLEstcZcLaPm93I9sdUF8RJdBAhq05XTXFM-Mv8Yq_WqjXv08TOs3SwCDerSI&_nc_ohc=fDCeOfqUQz8Q7kNvwFC99qJ&_nc_gid=He0eCebtaYnFjtoRMtBU7w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-3rr5rmArG0zj-v1M3pDWaKPyPJLLr4QEDFF4TYU5PkQ&oe=6A348732&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessages",
+      "RelationshipGoals",
+      "ILoveYou",
+      "CoupleGoals",
+      "RomanticQuotes"
+    ],
+    "public_preview": null,
+    "text": "My therapist said, “Go after what you want.” ❤️\n\nSo here I am... running straight toward my favorite person with a heart full of love and flowers in hand. 💐\n\nTag the person you’d run through a crowd to see. 🥹💕\n\nSometimes love is simple:\nWhen you know, you know.\n\n#LoveMessages #RelationshipGoals #ILoveYou #CoupleGoals #RomanticQuotes",
+    "word_count": 53
+  },
+  "communication_seed": {
+    "first_comment": "Hey ❤️Vava❤️...IYKYK. Wish I could give you bouquet of flowers but then, just to make you smile and laugh, don't you think holding the flowers and walking down the street in hot weather would make me look like a fool. The positive side to this is -- could be that girls walking in the street may admire me (just teasing you) 😉😀😀. I love you lots. Take care, en kannmani kutti-vava ❤️❤️",
+    "latest_comments": [
+      "Hey ❤️Vava❤️...IYKYK. Wish I could give you bouquet of flowers but then, just to make you smile and laugh, don't you think holding the flowers and walking down the street in hot weather would make me look like a fool. The positive side to this is -- could be that girls walking in the street may admire me (just teasing you) 😉😀😀. I love you lots. Take care, en kannmani kutti-vava ❤️❤️",
+      "❤️🎼🌸💞💓",
+      "❤️🥰🌹🕊💐",
+      "😂",
+      "❤️",
+      "Thank you love!",
+      "😍😍❤️❤️",
+      "Or YOUR WIFE CUZ I'M NOT FOUND BY YOU",
+      "❤️❤️❤️🥰😍"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZU86fqR5hR",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZU86fqR5hR/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZU86fqR5hR",
+  "metrics": {
+    "comments": 25,
+    "likes": 566,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1691.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-08T13:56:49.000Z",
+  "published_label": null,
+  "rank": 644,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZU86fqR5hR",
+  "source_url": "https://www.instagram.com/p/DZU86fqR5hR/"
+}

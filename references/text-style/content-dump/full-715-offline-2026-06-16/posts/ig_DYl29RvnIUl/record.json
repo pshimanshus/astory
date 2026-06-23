@@ -1,0 +1,132 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYl29RvnIUl:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-phl2-1.cdninstagram.com/v/t51.82787-15/704287577_18598425313031367_4480501091230801623_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-phl2-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFmQ6w27BYXaboEObIiOhRYnSd95m958TjKJPlLINYC-Ww4VcBbGVMbNxiTwYvuulA&_nc_ohc=VXMgbhERaHIQ7kNvwHx6T-L&_nc_gid=tfTse5mn_3aWd6e19Hiiag&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9k1UE1fsVYMkavtGQQUn6prw7tlg6AwzpffbRN0Pv75g&oe=6A348695&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYl29RvnIUl:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYl29RvnIUl:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "things worth keeping aren’t always loud.⁠\n⁠\nsometimes they’re the people who stayed.⁠\nthe lessons that changed you quietly.⁠\nthe mornings that made you believe again.⁠\nthe courage to begin—more than once.⁠\n⁠\nthat was never small.⁠\n⁠\nlove from the shadows, Atticus xx",
+    "word_count": 44
+  },
+  "communication_seed": {
+    "first_comment": "🤍🎶🩶🎶💝",
+    "latest_comments": [
+      "🤍🎶🩶🎶💝",
+      "❤️",
+      "❤️❤️🙌🙌",
+      "❤️❤️",
+      "The accuracy 🖤",
+      "Fuck! The amount of sugar in your writing is addictive. Kind of like.. sugar",
+      "That is very good 👏👏👏👏👏",
+      "😢",
+      "heavy on the courage to keep beginning 🔥👏",
+      "Courage ❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYl29RvnIUl",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYl29RvnIUl/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYl29RvnIUl",
+  "metrics": {
+    "comments": 25,
+    "likes": 5252,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 6377.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-21T07:00:43.000Z",
+  "published_label": null,
+  "rank": 486,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYl29RvnIUl",
+  "source_url": "https://www.instagram.com/p/DYl29RvnIUl/"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.instagram.com/p/DUtQzmaj9Rw/",
+  "shortcode": "DUtQzmaj9Rw",
+  "description": "Fixture caption from Bright Data.",
+  "likes": 163284,
+  "num_comments": 528,
+  "content_type": "Carousel",
+  "photos": [
+    {
+      "url": "https://cdn.example.test/brightdata/slide-1.jpg"
+    },
+    {
+      "src": "https://cdn.example.test/brightdata/slide-2.jpg"
+    }
+  ],
+  "videos": [],
+  "post_content": [
+    {
+      "type": "photo",
+      "url": "https://cdn.example.test/brightdata/slide-1.jpg"
+    },
+    {
+      "type": "photo",
+      "url": "https://cdn.example.test/brightdata/slide-2.jpg"
+    },
+    {
+      "type": "photo",
+      "url": "https://cdn.example.test/brightdata/slide-3.jpg"
+    }
+  ]
+}

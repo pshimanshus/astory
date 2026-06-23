@@ -1,0 +1,128 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DLfEVj0OLPB:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.2885-15/503717917_18008171288782076_8207397044170935938_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG2tGcrNtI9PpiICem3fRXhjC22Tx6t806POFR7ZSbUPIwVBvjFijuowL4XjLswXxU&_nc_ohc=sMGZcv_YY_4Q7kNvwEGQWZl&_nc_gid=VjKBHpGjpPMzKhMwevV5Jg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-JAJM8MeHTK6i7ygqcqInklakjX7tq13Du-vek7fYFUg&oe=6A3463CE&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessage",
+      "RomanticQuotes",
+      "AcrosticPoem",
+      "ILoveYou",
+      "DailyLove",
+      "RelationshipQuotes",
+      "HeartfeltWords",
+      "ForeverLove",
+      "CuteLovePost",
+      "EmotionalQuotes",
+      "PassionateLoveMessages",
+      "CoupleGoals",
+      "SoulmateVibes",
+      "ModernLove",
+      "WordsThatTouch",
+      "ViralLovePost"
+    ],
+    "public_preview": null,
+    "text": "L💜VE — A little word that says everything.\nL — Love you\nO — Only you\nV — Very, very much\nE — Every day, more and more 🫶\n\nThis isn’t just a message—it’s a whole feeling wrapped into four little letters. 💌\nTag someone you love more every single day. 💖\nSave this post to remind them just how deep your love goes.\n\n#LoveMessage #RomanticQuotes #AcrosticPoem #ILoveYou #DailyLove #RelationshipQuotes #HeartfeltWords #ForeverLove #CuteLovePost #EmotionalQuotes #PassionateLoveMessages #CoupleGoals #SoulmateVibes #ModernLove #WordsThatTouch #ViralLovePost",
+    "word_count": 76
+  },
+  "communication_seed": {
+    "first_comment": "😭🤝🫂💫❤️‍🔥✨🙏",
+    "latest_comments": [
+      "😭🤝🫂💫❤️‍🔥✨🙏",
+      "@chaityani__newalkar___3012  I LOVE YOU❤️ Please come in my life you are my life chaityani",
+      "❤️❤️❤️❤️❤️❤️",
+      "@zai1nooo ☺️",
+      "@_17thang4.09 all my life",
+      "♥️",
+      "@natka_3178",
+      "❤️❤️",
+      "@siliya4_9🤍🤍",
+      "Just remember I love you always you have bin such a nice girl when I look at your posts I realized you felt so sad and alone facing many challenges and guess what your not alone  and I wanted to comfort you and give you the biggest hug  and tell you how much I love you, because I always will love you no matter what happens I’m here for you and I always will be available for you today tommorow always forever ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DLfEVj0OLPB",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DLfEVj0OLPB/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DLfEVj0OLPB/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DLfEVj0OLPB",
+  "metrics": {
+    "comments": 536,
+    "likes": 180167,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 204287.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-06-29T12:54:23.000Z",
+  "published_label": null,
+  "rank": 48,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DLfEVj0OLPB",
+  "source_url": "https://www.instagram.com/p/DLfEVj0OLPB/"
+}

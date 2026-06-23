@@ -1,0 +1,99 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DV1oWRtkSln:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fluk1-1.fna.fbcdn.net/v/t51.71878-15/652762383_26284390394554312_1390256915464670506_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2gEoCmaiwXgcezKuCRdA6Vrm9DJ5L-pczAGMs6TFXY52Bd1W_yt1owrcN112-fVz5q8&_nc_ohc=BNc-QjAIDloQ7kNvwFXz86T&_nc_gid=nWijjN6jNI4vm6aDphc-fw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af811nwZxh1xm_nBUIVPhqkXVcit8taVznoE8IqPXaYs0Q&oe=6A3463D6&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "A page from the book ‘Detached’ by Sabrina Bendory 🖤📖",
+    "word_count": 9
+  },
+  "communication_seed": {
+    "first_comment": "❤️‍🩹✨",
+    "latest_comments": [
+      "❤️‍🩹✨",
+      "❤️"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DV1oWRtkSln",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DV1oWRtkSln/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DV1oWRtkSln",
+  "metrics": {
+    "comments": 3,
+    "likes": 450,
+    "plays": 40212,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 10095,
+    "winner_score": 938.33
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-13T20:26:59.000Z",
+  "published_label": null,
+  "rank": 681,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DV1oWRtkSln",
+  "source_url": "https://www.instagram.com/p/DV1oWRtkSln/"
+}

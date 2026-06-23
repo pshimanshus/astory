@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DUHu4cekSqe:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-1.cdninstagram.com/v/t51.82787-15/624237245_18556099690039494_965534436816738877_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFDT3lOaJNnbLlFUxYThKWdzaAdkg4jAkBwNmoBSUAocxGYjSBueVjDxdhkMqdPBws&_nc_ohc=96NZi82QLSAQ7kNvwFMCvtb&_nc_gid=6CK2-TK_pw6noXkaSb1oOg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_HW6gsabTvO00vu_9SIxBDc5FmELlzuDc5-Si_0NUu9w&oe=6A34694D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "everything about this is so fn chaotic",
+    "word_count": 7
+  },
+  "communication_seed": {
+    "first_comment": "it's rough out there",
+    "latest_comments": [
+      "it's rough out there",
+      "Clean out those texts, mama. You will feel sooooo much better, I promise. 🤷🏻‍♀️",
+      "At least they’re trying to get a job",
+      "It’s the contact “unemployed af” 💀",
+      "I dont see anything wrong with that. Just cause someone is your ex doesn’t mean u have to be enemies",
+      "Group iMessages can stack up if you haven’t opened the group chat in a while. My work phone is at 200+ unread messages every week bc of a single group chat"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DUHu4cekSqe",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DUHu4cekSqe/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DUHu4cekSqe/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DUHu4cekSqe",
+  "metrics": {
+    "comments": 28,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1260.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-01-30T04:07:09.000Z",
+  "published_label": null,
+  "rank": 154,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DUHu4cekSqe",
+  "source_url": "https://www.instagram.com/p/DUHu4cekSqe/"
+}

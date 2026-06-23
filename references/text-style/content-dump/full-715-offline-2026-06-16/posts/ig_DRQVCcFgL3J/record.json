@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Meggan Roxanne",
+    "instagram_user_id": null,
+    "username": "earthtoroxanne"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DRQVCcFgL3J:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/584352482_18541777810047660_2519669575687820214_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHzfOtfLdhwysKb0Ux6g0TWd7l10jD8PAsnBjWFarBVcheb6oY2_59GMR8QOrrp2aA&_nc_ohc=6MF0544AjggQ7kNvwFBRVhL&_nc_gid=UIk_Vowe7MDfPsdeBVAxww&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_NRTj6Fa1-SvZCisoCrVRmY33-E7F1YvPUGaH6EMf9JA&oe=6A346CB2&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "After the storm, everything you rebuild is done with intention, including your community. 🌻",
+    "word_count": 13
+  },
+  "communication_seed": {
+    "first_comment": "Also that if people blamed you for the storms in your life, they don't have any right to talk when you build yourself a shield and change your personality",
+    "latest_comments": [
+      "Also that if people blamed you for the storms in your life, they don't have any right to talk when you build yourself a shield and change your personality",
+      "🔥🔥",
+      "Protect yourself at all costs. We worked hard for this peace.",
+      "Needed this at this moment 🔥🙌",
+      "👏👏🔥",
+      "💯💯💯",
+      "🔥🔥yes",
+      "She’s back!",
+      "Ooof 🗣️✨",
+      "Amen 🤎"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DRQVCcFgL3J",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DRQVCcFgL3J/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DRQVCcFgL3J",
+  "metrics": {
+    "comments": 13,
+    "likes": 14469,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 15054.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-11-19T22:40:05.000Z",
+  "published_label": null,
+  "rank": 337,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DRQVCcFgL3J",
+  "source_url": "https://www.instagram.com/p/DRQVCcFgL3J/"
+}

@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZhbiNeRZaX:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-hou1-1.cdninstagram.com/v/t51.82787-15/723976982_18050315342782076_5785097978315159693_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gEaOrcqivoZwKlGf-QI5sSPuGQqEaB-ZKj4T17oOzZ0_vX7LWMGmFeLoKIUpec2Pz0&_nc_ohc=2hnDq0SZJuoQ7kNvwFIopR0&_nc_gid=n-6YLAJLZoqPuhgUV4TbYw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9RrZelFd_m4bfNegyIOyPTNTzna6Li2R56TyrbBAfqrg&oe=6A346BCF&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LittleBlessings",
+      "KindnessMatters",
+      "PositiveVibes",
+      "GoodMorning",
+      "BlessedDay"
+    ],
+    "public_preview": null,
+    "text": "🌸 Sometimes the biggest blessings arrive in the smallest moments.\n\nA kind word.\nA warm hug.\nA good laugh.\nA text from someone you love.\n\nMay your day be full of little blessings. 💖\n\nTag someone you’d like to send a little blessing to today. 🌷\n\n#LittleBlessings #KindnessMatters #PositiveVibes #GoodMorning #BlessedDay",
+    "word_count": 49
+  },
+  "communication_seed": {
+    "first_comment": "My love, you are my blessing ❤️",
+    "latest_comments": [
+      "My love, you are my blessing ❤️",
+      "❤️❤️❤️",
+      "I ´am afraid",
+      "Thanku ❤️",
+      "Nice🤩🙌😄👍",
+      "❤️❤️❤️❤️❤️❤️❤️",
+      "🙏🙏",
+      "Same to you thanks much appreciated blessings blessings 😍😍❤️❤️❤️❤️❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZhbiNeRZaX",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZhbiNeRZaX/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZhbiNeRZaX",
+  "metrics": {
+    "comments": 22,
+    "likes": 1471,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2461.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-13T10:15:13.000Z",
+  "published_label": null,
+  "rank": 614,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZhbiNeRZaX",
+  "source_url": "https://www.instagram.com/p/DZhbiNeRZaX/"
+}

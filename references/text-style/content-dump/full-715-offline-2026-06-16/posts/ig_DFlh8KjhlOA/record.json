@@ -1,0 +1,105 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFlh8KjhlOA:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fric1-2.fna.fbcdn.net/v/t39.30808-6/475835923_939077031711220_4519358665617126293_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fric1-2.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2gFfKEXqw27yJEAWtzXdRdmimgNJeHXPdKlZpSZamWa2viJ8LDD1Cp6bMQJHwWsonaA&_nc_ohc=jR0roKjIGRIQ7kNvwE6GgYw&_nc_gid=7i8qB3XDvm_zC4dRh5UmKA&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af-ZkGIj3IeP4R3JtsQO_wt2X_3bJazg6-ADY7XhzEcJ5w&oe=6A3461AC&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Repeat after me: I may not have all the answers, but trust me, I’ll always find a way. 🌻 Type \"Yes\" if you agree",
+    "word_count": 24
+  },
+  "communication_seed": {
+    "first_comment": "Yes",
+    "latest_comments": [
+      "Yes",
+      "Amen 🙏🏽",
+      "YES🙏💗",
+      "Yes",
+      "💯",
+      "Amen! ❤️",
+      "just keep goin",
+      "Yes!",
+      "Yesss🔥❤️",
+      "Yessssssssss👏"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFlh8KjhlOA",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFlh8KjhlOA/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFlh8KjhlOA",
+  "metrics": {
+    "comments": 207,
+    "likes": 125874,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 135189.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-02-02T22:00:09.000Z",
+  "published_label": null,
+  "rank": 89,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFlh8KjhlOA",
+  "source_url": "https://www.instagram.com/p/DFlh8KjhlOA/"
+}

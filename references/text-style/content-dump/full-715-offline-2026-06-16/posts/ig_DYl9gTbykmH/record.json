@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYl9gTbykmH:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-hou1-1.cdninstagram.com/v/t51.82787-15/702250502_18596410663016016_1460236154650408069_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHnzVGJk_cpBRCoFeK-nxNP8Q-qCZLuK3PhMJvJmPNchR7QPBg0V0cL1uLCgsKUaaI&_nc_ohc=NriS-IfAubcQ7kNvwGYlz-c&_nc_gid=WDQyumUtGdZEF6wzI8XEBA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-swzWZU0yA7gNKygEcJUH1IHnzfIABxUMWSyyd6waDig&oe=6A345E49&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "forget the past\njust keep moving forward",
+    "word_count": 7
+  },
+  "communication_seed": {
+    "first_comment": "🥹",
+    "latest_comments": [
+      "🥹",
+      "@valerina.tsy",
+      "I made a mess of plenty of it. Left things late, got things wrong, started over more than once. I'm still here, and the life on the other side of all that messing up is the best one I've had. 🪶",
+      "I hope.",
+      "🎯💯",
+      "If you don’t mess anything up you probably didn’t live full contact 💭🤍",
+      "I hope it will be okay",
+      "aww. i agree",
+      "@nisa.alzana okaiii, thank you sayang 🫶🏻"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYl9gTbykmH",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYl9gTbykmH/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYl9gTbykmH",
+  "metrics": {
+    "comments": 9,
+    "likes": 14216,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 14621.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-21T07:57:54.000Z",
+  "published_label": null,
+  "rank": 343,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYl9gTbykmH",
+  "source_url": "https://www.instagram.com/p/DYl9gTbykmH/"
+}

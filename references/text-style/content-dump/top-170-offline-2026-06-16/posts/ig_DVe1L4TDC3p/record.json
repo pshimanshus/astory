@@ -1,0 +1,119 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVe1L4TDC3p:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fsac1-2.fna.fbcdn.net/v/t51.82787-15/645836410_18591546298023341_4369472972594021430_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fsac1-2.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2gFrjK3WMv2IE0ZaocSCtNSghYaEtVcICApWQi4MK5kJvTcoblh_dnM9fCDPlgxJC-Q&_nc_ohc=BKv5vv_7SbMQ7kNvwH1U_Dr&_nc_gid=w_8ffQXZJdgVRiWuJX5-ZQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9x1onY4oZCOso-SYOdv_Hy9amx3afKw5XvRIGr8-EXgw&oe=6A347C9D&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DVe1L4TDC3p:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes choosing what’s right for your peace feels like punishment. It can feel heavy. Lonely. Even wrong. Especially when it’s tied to people you care about. But you have to remind yourself why you chose distance, why you stopped explaining, why you let go. If something or someone brings more chaos than calm, more self-doubt than self-worth, what are you really holding on to?⁠\n⁠\nCommunity is supposed to feel like safety. Like home. If you have to shrink to stay, if you’re constantly second-guessing your worth just to be accepted, then that’s not love. That’s survival. And you deserve more than just making yourself tolerable to people who can’t hold space for your fullness. That’s not living. That’s erasing yourself.",
+    "word_count": 131
+  },
+  "communication_seed": {
+    "first_comment": "👏👏",
+    "latest_comments": [
+      "👏👏",
+      "Bahut sach bola 🔥 Apni peace ke liye kabhi hard decisions lene padte hain.🥺",
+      "Wow!🙌🙌",
+      "Agree 💯",
+      "the grief doesn’t mean the choice was wrong",
+      "I felt this peace.",
+      "Yup. This is right."
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "domestic",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DVe1L4TDC3p",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DVe1L4TDC3p/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVe1L4TDC3p",
+  "metrics": {
+    "comments": 455,
+    "likes": 119553,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 140028.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-04T23:55:56.000Z",
+  "published_label": null,
+  "rank": 80,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVe1L4TDC3p",
+  "source_url": "https://www.instagram.com/p/DVe1L4TDC3p/"
+}

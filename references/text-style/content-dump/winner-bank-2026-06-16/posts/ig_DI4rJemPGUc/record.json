@@ -1,0 +1,150 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DI4rJemPGUc:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fboi1-1.fna.fbcdn.net/v/t39.30808-6/493413486_999337292351860_2644448657203805411_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fboi1-1.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2gH6sAdj5r6r0mftTXurQCf741SXqwhReSQSYdaVfoMdQZ2STgD2UinAbxM21fNmX-M&_nc_ohc=n32zNGUrqOEQ7kNvwFVUbu4&_nc_gid=PTyZHsphMkm4RhwyfHD8og&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af_AbtkBHki4tf6aPONQ4SwWT5RmiEpO5R5XrnDiKZCf3A&oe=6A348136&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DI4rJemPGUc:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DI4rJemPGUc:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DI4rJemPGUc:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Stick to the plan, not your mood!\nTag someone who needs this reminder 🌻",
+    "word_count": 13
+  },
+  "communication_seed": {
+    "first_comment": "This mindset changes everything",
+    "latest_comments": [
+      "This mindset changes everything",
+      "Gallery of trying ✨",
+      "👏🏼👏🏼👏🏼👏🏼",
+      "🔥🔥",
+      "❤️❤️❤️❤️❤️❤️",
+      "🔥🔥",
+      "well said 👏",
+      "👏",
+      "🙌"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DI4rJemPGUc",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DI4rJemPGUc/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DI4rJemPGUc/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DI4rJemPGUc",
+  "metrics": {
+    "comments": 88,
+    "likes": 55357,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 59317.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-04-25T22:00:21.000Z",
+  "published_label": null,
+  "rank": 113,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DI4rJemPGUc",
+  "source_url": "https://www.instagram.com/p/DI4rJemPGUc/"
+}

@@ -1,0 +1,105 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZfa1bet1m9:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/716510561_3978540729113708_2342629988638426357_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gF314dCXBfOU_imsdGGv_CT9MUb7oOVcYeyRPPgzYJ8o1C1SR_PRaGITbZFdskJcak&_nc_ohc=-Ou9HPddG1sQ7kNvwG4u5Gx&_nc_gid=b3lylMFtphdDTg8TL2ojkQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8L77Y8c6OXIE0ZiI5LsF8-yrSggrurG5u2kNptWRSL9g&oe=6A34729E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes the sign you are asking for isn’t a new person. Sometimes the sign is the peace you feel when you finally stop chasing what was never meant to stay. The right love will never require you to abandon yourself in order to keep it. It won’t ask you to become smaller, quieter, less emotional, less ambitious, or less you. The right love won’t feel like a puzzle you have to solve every day. It will feel like a safe place to rest.\n\nUntil then, keep building a life you are proud to wake up to. Keep choosing your healing. Keep choosing your growth. Keep becoming the person you were always meant to be. Love is not something you have to earn through suffering. It is something that meets you when you no longer believe you must sacrifice yourself to receive it.\n\nAnd maybe that’s the reminder today: never settle for a connection that costs you your peace. The love meant for you will never make you question your worth. It will remind you of it.\n\nWords inspired by the book ‘Stay Single’ by Rebecca Simon — a beautiful reminder that the healthiest love is never rushed, forced, or chased. It arrives when you are no longer willing to trade your peace for potential.",
+    "word_count": 217
+  },
+  "communication_seed": {
+    "first_comment": "🔥",
+    "latest_comments": [
+      "🔥",
+      "God is is love ❤️",
+      "❤️‍🔥🙏🏼",
+      "😍❤️",
+      "Beautifully said 🥺",
+      "❤️❤️❤️",
+      "Peace is blessing 🕊️"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZfa1bet1m9",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZfa1bet1m9/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZfa1bet1m9",
+  "metrics": {
+    "comments": 7,
+    "likes": 3492,
+    "plays": 132446,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 26107,
+    "winner_score": 4720.74
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T16:53:47.000Z",
+  "published_label": null,
+  "rank": 526,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZfa1bet1m9",
+  "source_url": "https://www.instagram.com/p/DZfa1bet1m9/"
+}

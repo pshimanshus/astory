@@ -1,0 +1,148 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWR0E3Yie7B:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/657289141_18578758123000418_4777815523277557943_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFXrf9h45qXuLO9k0D6f_x7tHWJgS-RxXen_72JH_ZSklM1N4Di5dHjb73zb4Z1_ew&_nc_ohc=bpsamznZV5gQ7kNvwHPEf1i&_nc_gid=nOEWfLfZuB050OqhtPnsKA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-39B6IAXli9yczNGGpBzOr2L-bQCEza83jUhRZLEe9Mw&oe=6A348565&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWR0E3Yie7B:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWR0E3Yie7B:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWR0E3Yie7B:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "what would your younger self not believe about your life today?",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "😢",
+    "latest_comments": [
+      "😢",
+      "\"we got away from him?????\"",
+      "We lived past 25?!!\nWe married and have kids?!",
+      "Im never lazy, I am punished for everything I do.",
+      "Finally we become somebody’s husband?",
+      "Most people are lazy",
+      "It’s all going to happen. As it was to happen since the beginning. God level. The spirit of God is hovering over the Earth. It’s you bro.",
+      "🙌🙌🙌🙌"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWR0E3Yie7B",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWR0E3Yie7B/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWR0E3Yie7B/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWR0E3Yie7B",
+  "metrics": {
+    "comments": 179,
+    "likes": 190863,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 198918.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-03-24T19:07:30.000Z",
+  "published_label": null,
+  "rank": 53,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWR0E3Yie7B",
+  "source_url": "https://www.instagram.com/p/DWR0E3Yie7B/"
+}

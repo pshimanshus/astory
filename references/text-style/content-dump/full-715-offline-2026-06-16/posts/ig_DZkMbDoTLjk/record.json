@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZkMbDoTLjk:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-phx1-1.cdninstagram.com/v/t51.71878-15/720611648_28249083854680910_2280373011482445353_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-phx1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFl1VaKkm3MtR4ttHLoI2FX2XxPn5bBcFvRq0tjkclSFr1rHS6Spsloc1W7XJHk7Uo&_nc_ohc=9pfPfVCWF7MQ7kNvwEpw60e&_nc_gid=OIfrsR-NDQ0dVgn_vQsAiQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af86iAjx2pwn8ep7xBC3yx2D5CyAJlkhz_am-NZiJWDYdA&oe=6A348CEA&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Be kind anyway",
+    "word_count": 3
+  },
+  "communication_seed": {
+    "first_comment": "Nah.",
+    "latest_comments": [
+      "Nah.",
+      "No",
+      "❤️❤️❤️❤️👏👏👏",
+      "Everything has a purpose, even waiting. I was happy because I was patient, and @papa_ojiege9 fixed my marriage"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZkMbDoTLjk",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZkMbDoTLjk/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZkMbDoTLjk",
+  "metrics": {
+    "comments": 4,
+    "likes": 1218,
+    "plays": 44311,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 7869,
+    "winner_score": 1673.41
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-14T12:00:20.000Z",
+  "published_label": null,
+  "rank": 646,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZkMbDoTLjk",
+  "source_url": "https://www.instagram.com/p/DZkMbDoTLjk/"
+}

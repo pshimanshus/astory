@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZK32zyTeMu:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/714486340_903026312807384_8082105304672981860_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGj4D5jBORQNSfOonj78SFy8cu3i203qxUe-21zPfOYFPXxbDD24gSHkoSXxmerEMs&_nc_ohc=xexu4ZLgxEMQ7kNvwFOp8vI&_nc_gid=4yddF37bAuIy_AZXIpNpKw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8KtNvA9LFfToYxezBVg25nzQgwYxseONPOc6IM-9ovJA&oe=6A3460D0&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Send this to someone ❤️",
+    "word_count": 4
+  },
+  "communication_seed": {
+    "first_comment": "Me, myself and I",
+    "latest_comments": [
+      "Me, myself and I",
+      "Just sent it to myself ❤️😘",
+      "Sending it to ME",
+      "Everyone who sees it. Be it high profile cunt or a gutter dewler or the rainbow people not gae but middle classes. Too. So 🔥❤️❤️ bless you all but more belssing to street dogs and cats and other animals.",
+      "accidentally sent it to myself 😞",
+      "Thank you my love ! Momma",
+      "@joselynrivera",
+      "🐚",
+      "@marta_photostone_pl"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZK32zyTeMu",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZK32zyTeMu/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZK32zyTeMu",
+  "metrics": {
+    "comments": 39,
+    "likes": 11040,
+    "plays": 269588,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 65632,
+    "winner_score": 15092.12
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-04T16:00:09.000Z",
+  "published_label": null,
+  "rank": 336,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZK32zyTeMu",
+  "source_url": "https://www.instagram.com/p/DZK32zyTeMu/"
+}

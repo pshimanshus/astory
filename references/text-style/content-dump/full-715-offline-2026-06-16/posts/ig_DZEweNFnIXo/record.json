@@ -1,0 +1,97 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZEweNFnIXo:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/712944794_18602175427031367_4134499253807527903_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gF8HUQa05MfEGIuTOHvNr08jYvWlikI66vOxMtVE5dsjk3P4l8wFfq22-IIhWBKTwM&_nc_ohc=qJw7gSqnBxIQ7kNvwH6FjDr&_nc_gid=AiuC1Wv_nxhPkwnBGojVlA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-KJEBHW1qO6i2jNyDtdue4iEvwrfERIvDLK5l2FFnrqg&oe=6A34897D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Never forget it ☀️",
+    "word_count": 3
+  },
+  "communication_seed": {
+    "first_comment": "Go on a Treasure Hunt 🤙🦜",
+    "latest_comments": [
+      "Go on a Treasure Hunt 🤙🦜",
+      "🔥",
+      "Yes!! Summer is my new beginning!!! Thank you @atticuspoetry",
+      "“Instead we would have shivers\nNot from the chill of the late summer night\nBut from the thrill of this flawlessly calm night” 🌚\nFrom my new poetry book “The Moon, Unveiled” 🌘",
+      "And somehow, the warmth always finds a way to remind you — you’re still here, still trying, still becoming. 🌿"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZEweNFnIXo",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZEweNFnIXo/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZEweNFnIXo",
+  "metrics": {
+    "comments": 23,
+    "likes": 5681,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 6716.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-02T07:00:13.000Z",
+  "published_label": null,
+  "rank": 474,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZEweNFnIXo",
+  "source_url": "https://www.instagram.com/p/DZEweNFnIXo/"
+}

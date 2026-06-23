@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZYZIcLzt3z:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/719822300_2179196372838297_954861549839630467_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHGzn82SHphMULhg74ZbR9ToBRBDiBeNgpT-rc-zsYt5nW_vWSGjrGIdKK6omhc4qw&_nc_ohc=PPGoPdWLcnUQ7kNvwEHXXmc&_nc_gid=-kKbG8Y_brfszdA0qGqCmg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8o-q032mkiYHrLpz5NlnpmlL8XLCw0LfizR4wi_Zb_ig&oe=6A345830&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "An important reminder",
+    "word_count": 3
+  },
+  "communication_seed": {
+    "first_comment": "some people learn from mistakes if they are actually realize it and change to be better, some other just still hold their ego and looking for someone else who can tolerate their behavior",
+    "latest_comments": [
+      "some people learn from mistakes if they are actually realize it and change to be better, some other just still hold their ego and looking for someone else who can tolerate their behavior",
+      "It's a sign, it's a sign. Perfect timings. 🙌🙌",
+      "🙌",
+      "❤️",
+      "💯",
+      "💔💔💔",
+      "❤️",
+      "That is what cancers do! Betray and be phonies.",
+      "Thank you @papa_zuzu01 , my boyfriend and I are together, stronger, and wiser. You're indeed as powerful as they say. Your spells are exceptional.",
+      "💯"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZYZIcLzt3z",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZYZIcLzt3z/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZYZIcLzt3z",
+  "metrics": {
+    "comments": 32,
+    "likes": 9610,
+    "plays": 269112,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 55543,
+    "winner_score": 12994.01
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-09T22:00:08.000Z",
+  "published_label": null,
+  "rank": 365,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZYZIcLzt3z",
+  "source_url": "https://www.instagram.com/p/DZYZIcLzt3z/"
+}

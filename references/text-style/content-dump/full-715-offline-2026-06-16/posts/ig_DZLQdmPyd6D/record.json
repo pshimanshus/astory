@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZLQdmPyd6D:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/713963353_846603285191377_7640518709694667976_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gEkYYXM6TVp6S1tpsmXpn_viyqg0CjN91mRuxLIQDP9xA_2fyox5BVcAnY5XDsZTfo&_nc_ohc=vwwV2lJACxgQ7kNvwEKEon3&_nc_gid=pj7tjgZLL3QdZBv0CDIo1g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_4VxC7EPKzLQI0d9pPUd9poydeK3Z4qnRNuNdWCOU3Lg&oe=6A345C29&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You’re going to be fine",
+    "word_count": 6
+  },
+  "communication_seed": {
+    "first_comment": "Ikr i’ll be fine.🖤",
+    "latest_comments": [
+      "Ikr i’ll be fine.🖤",
+      "Thank you! I need this today!!",
+      "@spcarmen",
+      "lmao i sure as hell hope so...this pain like physical pain from what i call human torture and poison and maybe even mercury and cyanide sure is a bitch to cope through but okay🤷🏻‍♀️😅✌️💗",
+      "lol but let’s me cry for now 😂",
+      "👏🏼👏🏼👏🏼",
+      "🥹🥹",
+      "Does it goes for male too?😅"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZLQdmPyd6D",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZLQdmPyd6D/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZLQdmPyd6D",
+  "metrics": {
+    "comments": 85,
+    "likes": 32807,
+    "plays": 643616,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 168629,
+    "winner_score": 42534.01
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-04T19:35:10.000Z",
+  "published_label": null,
+  "rank": 188,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZLQdmPyd6D",
+  "source_url": "https://www.instagram.com/p/DZLQdmPyd6D/"
+}

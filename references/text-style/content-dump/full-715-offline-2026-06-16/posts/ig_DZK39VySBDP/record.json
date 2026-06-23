@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZK39VySBDP:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/716798963_1317174063270914_6783589133821136630_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFGBDSjYixCNTsO7jViAFzD8zcrXQR8w9ZKJ10c_jlb-RW2y83BP2nQTwmJhQ6cAbo&_nc_ohc=Q70UT6Z3xPEQ7kNvwFuHNE_&_nc_gid=HTxsHv2xr6_XfNYMQ2flLg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_VaZi52Ynt41euJRDfaWtVLclBxH-Z3Keqm6DmLidu7w&oe=6A346A68&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "This",
+    "word_count": 1
+  },
+  "communication_seed": {
+    "first_comment": "@the._.riya",
+    "latest_comments": [
+      "@the._.riya",
+      "Nope. Not anymore. I'm tired, fam. Time to protect my own peace.",
+      "Then don’t do it again hahaha 😆",
+      "You're still quoting me huh?",
+      "It’s very draining. No matter how secure and strong you behave.",
+      "Yess and appreciate if someone ever comes in your life that does the same. ❤️",
+      "Absolutely not",
+      "80s vibes ❤️‍🔥",
+      "Tired of gaining nofhing but here I am giving like a damn fool lol",
+      "Powerful ❤️🙌"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZK39VySBDP",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZK39VySBDP/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZK39VySBDP",
+  "metrics": {
+    "comments": 123,
+    "likes": 23141,
+    "plays": 870109,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 189748,
+    "winner_score": 35317.18
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-04T16:00:10.000Z",
+  "published_label": null,
+  "rank": 214,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZK39VySBDP",
+  "source_url": "https://www.instagram.com/p/DZK39VySBDP/"
+}

@@ -1,0 +1,132 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZIroDED7V-:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/714716617_18427303204133491_432590373149938247_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEfIHIXkASQODKIr1hnXXjUNklWDLBa8-iEf7OLFDeHnn1mH7NUixg3zoR6UwE2gsk&_nc_ohc=-u2d1UISmGQQ7kNvwGXQ9ch&_nc_gid=tnfr2xJHwhMsHLZLSt3TMg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8z6kl_LLkzICDZ1NlL4KLT8ZfV6FSuFVd_ZmsG-mjAIA&oe=6A3479E9&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZIroDED7V-:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZIroDED7V-:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "It’s okay to let people go when it’s your peace and sanity at sake. You can still have love for people, even from a distance.",
+    "word_count": 27
+  },
+  "communication_seed": {
+    "first_comment": "🧿",
+    "latest_comments": [
+      "🧿",
+      "amazingly said.",
+      "❤️",
+      "Will put",
+      "❤️",
+      "Perfect",
+      "Realize your Self Worth 💕💕",
+      "🙌❤️",
+      "People should learn harder from you... thank for sharing 🙏🏼"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZIroDED7V-",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZIroDED7V-/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZIroDED7V-",
+  "metrics": {
+    "comments": 11,
+    "likes": 7796,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 8291.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-03T19:34:41.000Z",
+  "published_label": null,
+  "rank": 442,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZIroDED7V-",
+  "source_url": "https://www.instagram.com/p/DZIroDED7V-/"
+}

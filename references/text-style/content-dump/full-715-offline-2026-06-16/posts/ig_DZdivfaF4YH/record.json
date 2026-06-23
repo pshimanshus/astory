@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZdivfaF4YH:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/721466375_18428595913133491_443750845574737800_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE9O5dbziMIE2mfCWlUwXoh_yvSra-jwcd42tZVclC4Np2lWk8qZfsYLe1RX1FtYcI&_nc_ohc=_zTl9zLfqX4Q7kNvwHpe7-n&_nc_gid=_bwU7eMoSOZnDk1VthRPOA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_cGGO8Px_lCa6KUs3MUTfW80d1Ml4CA8dmyvEkA1ITEw&oe=6A345C8D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Save this one for later 🌸",
+    "word_count": 5
+  },
+  "communication_seed": {
+    "first_comment": "💗",
+    "latest_comments": [
+      "💗",
+      "Yes, we need to reframe our experience.  Our self-talk is either building or destroying ❤️",
+      "This feels like one of those reminders you don’t realize you needed. Growth, healing, rest, and starting over all take more patience than we give ourselves.",
+      "❤️❤️❤️❤️❤️❤️❤️",
+      "🙏🏻🕯️🤍",
+      "❤️",
+      "❤️",
+      "the older I get, the more I realise happiness is usually something small and quiet, not something you have to chase 🤍",
+      "❤️",
+      "🥹🙏"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZdivfaF4YH",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZdivfaF4YH/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZdivfaF4YH",
+  "metrics": {
+    "comments": 33,
+    "likes": 12736,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 14221.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-11T22:01:10.000Z",
+  "published_label": null,
+  "rank": 348,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZdivfaF4YH",
+  "source_url": "https://www.instagram.com/p/DZdivfaF4YH/"
+}

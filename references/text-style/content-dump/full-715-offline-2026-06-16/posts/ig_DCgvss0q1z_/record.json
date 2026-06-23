@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Meggan Roxanne",
+    "instagram_user_id": null,
+    "username": "earthtoroxanne"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DCgvss0q1z_:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/467586288_18469876864047660_3031621428677816069_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHcgXoVX4vfP4Oftto3_tJ7uve--l_RtHQEgDE_DDZecSqQE1_ec7AbIrBc8dhzgtM&_nc_ohc=ESY9HrTGg-MQ7kNvwEmfAOu&_nc_gid=3QXVLmqEJfVAM4BGvurpeQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_81iGkJnZ6qupru4CAXc66KUb91_WZ1T6KH-owkFLGJw&oe=6A3456FD&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "How do you start over? Let it fall apart.",
+    "word_count": 9
+  },
+  "communication_seed": {
+    "first_comment": "This one. 🙌",
+    "latest_comments": [
+      "This one. 🙌",
+      "Thank you 💕",
+      "🔥🔥🔥🔥",
+      "As a man... God built me from dust once, He can do it again. ✍🏽",
+      "Wow.",
+      "🙌",
+      "❤️🙏🏾",
+      "very true",
+      "🙌🏾",
+      "👏💯🌻"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DCgvss0q1z_",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DCgvss0q1z_/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DCgvss0q1z_",
+  "metrics": {
+    "comments": 49,
+    "likes": 44910,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 47115.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2024-11-18T11:49:59.000Z",
+  "published_label": null,
+  "rank": 177,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DCgvss0q1z_",
+  "source_url": "https://www.instagram.com/p/DCgvss0q1z_/"
+}

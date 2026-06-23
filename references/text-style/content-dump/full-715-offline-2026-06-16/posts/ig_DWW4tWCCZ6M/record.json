@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWW4tWCCZ6M:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/656298605_2918273241704469_1932386118205067425_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFVGHK7XWH5yWQTg71X6i_mJxVmSkaFSAcXW4RjOk2FYPzIxVK2rfkCt6ipotIrcQw&_nc_ohc=SHIbkQBI8y0Q7kNvwEm2eOy&_nc_gid=dg9V-z4ZicAvxV59F_wGbw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_RiGId0xu9tk8fvXwE99--aXERgYHrMCu_LF4_9H81aQ&oe=6A346BF4&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "there are so many people you haven’t met yet who you’re going to love and places you haven’t been where you’re going to belong!!",
+    "word_count": 28
+  },
+  "communication_seed": {
+    "first_comment": "🔥",
+    "latest_comments": [
+      "🔥",
+      "🔥🔥",
+      "😺🕺",
+      "Not even close",
+      "Hope so lmao",
+      "❤️",
+      "🥹❤️",
+      "Making them every single day!"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWW4tWCCZ6M",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWW4tWCCZ6M/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWW4tWCCZ6M",
+  "metrics": {
+    "comments": 70,
+    "likes": 151118,
+    "plays": 1998485,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 630972,
+    "winner_score": 176352.02
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-26T18:25:10.000Z",
+  "published_label": null,
+  "rank": 65,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWW4tWCCZ6M",
+  "source_url": "https://www.instagram.com/p/DWW4tWCCZ6M/"
+}

@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DU1BRqekaeL:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.71878-15/633974958_1406166257867233_1703492954626768485_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gGprF7GcXwnFKgbevso5kTc8E-d4dng5_81o_WkdUw1iF2saJU-KFNwBipjx85ax50&_nc_ohc=EX8pm9vd7isQ7kNvwFCN77b&_nc_gid=1Z8xDqcGriGKyxB1lUex-Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8mgJPV3tqDfn9o-jLst5OpVSLDqTi4gv9aEIYAzNjjEw&oe=6A345E9B&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "inspiringwords",
+      "wordstoinspire",
+      "love",
+      "lovelessons",
+      "lifelessons"
+    ],
+    "public_preview": null,
+    "text": "When you are with the right person, time falls away. You don’t worry about fitting them into your complicated schedule because they become a part of that schedule. They become the backbone of it. Your happiness becomes your priority, and so long as they are contributing to it, you can work around the rest.\n\nThe right people don’t stand in the way of the things you once wanted and make you choose them over those things. The right people encourage you to try harder, dream bigger, and do better. They bring out the most incredible parts of yourself and make you want to fight harder than ever before. The right people don’t impose limits on your time, your dreams, or your abilities. They want to tackle those mountains with you, and they don’t care how long it takes. With the right person, you have all the time in the world.\n\nThe truth is, when we pass someone up because the timing is wrong, what we are really saying is that we don’t care to spend our time on that person. There will never be a magical time when everything falls into place and fixes all our broken relationships. But there may someday be a person who makes the issue of timing irrelevant.\n\nBecause when someone is right for us, we make the time to let them into our lives. And that kind of timing is always right.\n\n📖 Book: This Is Me Letting You Go by Heidi Priebe (find your copy by following the link in our bio 🖤)\n\n#inspiringwords #wordstoinspire #love #lovelessons #lifelessons",
+    "word_count": 267
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "Wait..i need the next page",
+      "🔥🔥🔥"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person",
+      "heartbreak",
+      "fight_repair"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DU1BRqekaeL",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DU1BRqekaeL/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DU1BRqekaeL",
+  "metrics": {
+    "comments": 3,
+    "likes": 2027,
+    "plays": 118975,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 23839,
+    "winner_score": 2996.37
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-02-16T18:15:47.000Z",
+  "published_label": null,
+  "rank": 580,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DU1BRqekaeL",
+  "source_url": "https://www.instagram.com/p/DU1BRqekaeL/"
+}

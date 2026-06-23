@@ -19,4 +19,4 @@ aliases:
 # Timeline / Evidence
 
 - 2026-06-08 | `docs/setup_status.md` | Together/body-language, wardrobe, and place inventories were recorded.
-- 2026-06-10 | `references/identity/together/README.md` | Together local reference root exists in this repo.
+- 2026-06-10 | `docs/setup_status.md` | Together local reference root exists in this repo.

@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DEfaqHuPxcq:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-1.cdninstagram.com/v/t51.82787-15/623501238_18100792372882055_5932055391992876902_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gG6EOLY4X7AaQrie6doS9Vt5NC3nhhdf8lS9aKxTN1YZCtTMZPoXbkwfxjtvdHMcUI&_nc_ohc=PsKZxZiLNVYQ7kNvwGEYCdU&_nc_gid=JsyUdqX3r_n8DvVnQa1M8A&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8UyDltbpOQbXNieol5CbdhT80NBGBT295ABwPt_rqHeQ&oe=6A3464BA&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "new year, same them",
+    "word_count": 4
+  },
+  "communication_seed": {
+    "first_comment": "i fear this is me",
+    "latest_comments": [
+      "i fear this is me",
+      "They dont want it they just want attention. If you reply your only make it worse for yourself.",
+      "They dont want it they just want attention. If you reply your only make it worse for yourself.",
+      "I almost sent this text. Instead I sent “I fucking hate you” and blocked him back before he could respond. 🤷🏽‍♀️",
+      "He or she dont even miss him or her they miss the sex thats it !! 😂",
+      "Why aren’t these people blocking their exes….",
+      "Look can relate 😂",
+      "@briancronin1 @elimccrthy_ lool",
+      "@mommyg0thel lol probably bc I didn’t say unalive"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DEfaqHuPxcq",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DEfaqHuPxcq/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DEfaqHuPxcq",
+  "metrics": {
+    "comments": 63,
+    "likes": 6567,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 9402.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-06T16:29:40.000Z",
+  "published_label": null,
+  "rank": 412,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DEfaqHuPxcq",
+  "source_url": "https://www.instagram.com/p/DEfaqHuPxcq/"
+}

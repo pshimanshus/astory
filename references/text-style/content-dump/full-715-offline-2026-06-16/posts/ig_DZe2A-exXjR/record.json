@@ -1,0 +1,111 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZe2A-exXjR:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/723746768_18050172164782076_1746708843908791358_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFYVWSYeiGID_9Qmdwqc3C1ANjKGyUfIjOxZqu5mZlAwMup1c8Xg2z4L7TqK1I5V60&_nc_ohc=9S7pufHezWEQ7kNvwETPA2L&_nc_gid=UEBCHdgh6VFVQ3g4FZI38g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8oynJ4ffqBl8rPfvZh-IQGEsebOaVhDe1ZdqCSpV855A&oe=6A3463D3&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "GoodMorningLove",
+      "LoveMessages",
+      "RelationshipGoals",
+      "CoupleGoals",
+      "MorningThough"
+    ],
+    "public_preview": null,
+    "text": "Some mornings start with coffee.\n\nSome mornings start with a to-do list.\n\nAnd some mornings start with one person quietly taking over your thoughts. ❤️\n\nGood morning to the person who makes my heart smile.\n\nTag them, send this to them, or just let them know they’re your first thought today. ☀️❤️\n\n#GoodMorningLove #LoveMessages #RelationshipGoals #CoupleGoals #MorningThough",
+    "word_count": 57
+  },
+  "communication_seed": {
+    "first_comment": "🤍✨",
+    "latest_comments": [
+      "🤍✨",
+      "Good morning 🌞",
+      "🔥🔥🔥🔥",
+      "Pusa pusa pusa pusa pusa......uvijek ćeš. Mi bit....posebna.....a znaš zašto....???..",
+      "Good morning",
+      "❤️❤️",
+      "🔥🔥🔥❤️",
+      "Good morning 😊",
+      "❤️",
+      "Good morning, my love. My morning always starts with thoughts of you ❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZe2A-exXjR",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZe2A-exXjR/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZe2A-exXjR",
+  "metrics": {
+    "comments": 32,
+    "likes": 1537,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2977.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T10:08:51.000Z",
+  "published_label": null,
+  "rank": 581,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZe2A-exXjR",
+  "source_url": "https://www.instagram.com/p/DZe2A-exXjR/"
+}

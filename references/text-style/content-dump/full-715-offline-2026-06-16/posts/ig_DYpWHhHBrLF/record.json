@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYpWHhHBrLF:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/703222476_1309770700690416_1682631445695731411_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGoJCuP59dIwR-O6aYTc5rDvovdoepHk9EgbstENSBMUsoMVDTW9DOTxXnI-Kg79co&_nc_ohc=oEIFc65ID0YQ7kNvwGKfvTI&_nc_gid=7bzQHzdMRVosA1QRGpwqxw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_cKvZ8yHLbbFKQt3kyYI4cPMgQV15BBGGWr7nJWbA5hw&oe=6A346072&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You will realize that at some point—perhaps during a long lapse of attention—your life has become only your own again. Your triumphs and failures belong to you in a way that is enticing, invigorating, and just the slightest bit sad all at once. But it doesn’t make you want to run back to the past. You have grown comfortable in your autonomy, and it’s somewhere you kind of want to stay.\n\nYou’ll get over your ex when you meet someone new. Not when you hook up or shack up or even fall in love with another human being, but the first time you find yourself sitting across a crowded café table from someone whose smile melts you and whose arms you’d fit perfectly into, and yet some part of you is holding back. You’ll realize at that moment that life has ceased to be a frantic dash to find someone who can replace your ex or fill the aching hole they left inside of you. You’re putting your heart back together, and you want to do it properly before you jump feet-first into something new. You know that someday you will love someone else—that the capacity for affection and belonging is not lost on you and that you’re not going to end up alone. You’re not broken or hopeless or loveless just because your heart is aching—you are simply healing yourself. And when you’re done, there will be a whole new world waiting for you.\n\nYou will not get over your ex all at once. You’ll get over them through a series of tiny, tender moments that bring you quietly back to yourself. And in some ways, they’ll never really leave you. The people who change us in those big, irrevocable ways never do. To get over them, we’d have to alter ourselves into people so unrecognizable that we’d lose who we are in the process. And so instead, we learn to integrate the influence they had—the books you now read because of topics that they turned you on to. The music you now download because of the lyrics they loved. The ways you now look at the world that would never have occurred to you if they had not opened your eyes up to seeing and doing things differently.\n\n📖 Continue reading in the book ‘This Is Me Letting You Go’ by Heidi Priebe",
+    "word_count": 413
+  },
+  "communication_seed": {
+    "first_comment": "You don’t need to forget a birthday to get over",
+    "latest_comments": [
+      "You don’t need to forget a birthday to get over",
+      "The fact that June 17th is his birthday. 🤦🏻‍♀️",
+      "june 17 is my bday...",
+      "His mom and i have the same birthday and his birthday is Christmas Day 😔 so the likelihood of me not remembering those two instances are pretty much nonexistent",
+      "My ex’s mum’s bday was in the same month as mine but no idea what day 😂",
+      "😌",
+      "Her mom has the same birthday as my mom, her brother has the same birthday as me, how the fuck am i gonna forget that"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYpWHhHBrLF",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYpWHhHBrLF/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYpWHhHBrLF",
+  "metrics": {
+    "comments": 7,
+    "likes": 3110,
+    "plays": 319194,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 81481,
+    "winner_score": 6276.84
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-22T15:30:08.000Z",
+  "published_label": null,
+  "rank": 490,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYpWHhHBrLF",
+  "source_url": "https://www.instagram.com/p/DYpWHhHBrLF/"
+}

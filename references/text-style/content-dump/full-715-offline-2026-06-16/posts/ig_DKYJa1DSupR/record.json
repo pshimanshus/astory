@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DKYJa1DSupR:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.2885-15/503118337_18509545321039494_1243296095406822936_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gEh8z_4Sk9n2-Dduw0JiWRpJcbI3exYyzIo6TfntXpiH2idceXg92jWABSTYnXODb4&_nc_ohc=f1UZ6OMD5bUQ7kNvwF9F3Tl&_nc_gid=gYsG2XphCj7dHNdOgOre7g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8JJEkWs8Ba2onUgGrabSpuIFJFsX5_0AZgQc0dVM_l4g&oe=6A348E28&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "$150 seems kinda low tbh",
+    "word_count": 5
+  },
+  "communication_seed": {
+    "first_comment": "Dang I would sell my panties for that much ! Where can I sign up",
+    "latest_comments": [
+      "Dang I would sell my panties for that much ! Where can I sign up",
+      "How exactly does the fiancé fit into this equation… I don’t know who you are fiancé but I feel the need to tell you to run.",
+      "Buy new ones. Soak them in seawater. Easy money.",
+      "In this economy?! How many pairs you want babes?",
+      "Girl couldve easily conned him into 700$",
+      "Does the guy even know how much a pair of unworn, high-quality und not ugly panties cost nowadays?",
+      "I’ll sell mine. Send me a message 😂",
+      "Y’all. Please stop using “had” when it isn’t necessary to the sentence…😵‍💫\n🤣🤦🏻‍♀️🤣🤦🏻‍♀️",
+      "For sure for 250 or 300"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DKYJa1DSupR",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DKYJa1DSupR/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DKYJa1DSupR",
+  "metrics": {
+    "comments": 117,
+    "likes": 3470,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 8735.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-06-01T23:52:43.000Z",
+  "published_label": null,
+  "rank": 432,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DKYJa1DSupR",
+  "source_url": "https://www.instagram.com/p/DKYJa1DSupR/"
+}

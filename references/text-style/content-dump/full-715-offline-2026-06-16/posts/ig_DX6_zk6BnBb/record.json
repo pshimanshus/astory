@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DX6_zk6BnBb:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.71878-15/682457936_1622676698842558_161960685262796710_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gFLOjSU4O_Yh-fTtvTnvd0sgWT5rAKH7Z4Ibv5u1MyZUbJJYCEKxMmWsZh0htRqjIs&_nc_ohc=ed_M6vbbVGQQ7kNvwHs7ezo&_nc_gid=NGfCKiTi6n9K26bSye0g7w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_WhEDeoAk6pL7rP7wRS3i58p4EM40t5nenxc0ByrT0lQ&oe=6A3480CB&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "We call it growth when it’s really disconnection. We call it love when it’s really fear—fear of being alone, fear of wasted time, fear that this is the best version of love we will get to experience.\n\nBut God loves you too much to let you stay in a place where you have to quiet your heart. And so, when you didn’t have the words to ask for better—he answered anyway. When you were too afraid to let go, He closed the door for you.\n\nSome goodbyes feel like heartbreak when they are really just a form of guidance. Some endings feel like rejection when they are really just a form of alignment. Some human beings walk away, not because you weren’t valuable or worthy of tenderness, but because your spirit was outgrowing what they were never willing to expand within. Even though it didn’t look like grace at the time, it was. It was the break you needed to finally be set free. It was the unanswered prayer that saved you from settling for less than what you were created for.\n\nBecause the truth is—you were never meant to endure what continually wounds you. You were never meant to feel like love is something you have to settle for or earn through suffering.\n\n📖 Continue reading in the book ‘Stay Single’ by Rebecca Simon (available on Amazon).",
+    "word_count": 235
+  },
+  "communication_seed": {
+    "first_comment": "❤️ so true",
+    "latest_comments": [
+      "❤️ so true",
+      "Bcos “goodbyes are the new hellos” 😍❤️",
+      "🙌🙌",
+      "Manche Abschiede\nsind Antworten."
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "heartbreak",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX6_zk6BnBb",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX6_zk6BnBb/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DX6_zk6BnBb",
+  "metrics": {
+    "comments": 4,
+    "likes": 1455,
+    "plays": 63419,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 13293,
+    "winner_score": 2100.26
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-05T15:30:01.000Z",
+  "published_label": null,
+  "rank": 627,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DX6_zk6BnBb",
+  "source_url": "https://www.instagram.com/p/DX6_zk6BnBb/"
+}

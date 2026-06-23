@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY12E6dSwFZ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/707838282_26710595955235556_3309743518605308887_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGebRKUZdHTG6nSMudItlycP8X7yrNleO8vhikmA33-xXVPaZsU9s0LMNSwnoVW8vw&_nc_ohc=03w9-cfpl8kQ7kNvwHpwuOa&_nc_gid=1XmZrZBpHDn9O4nxnhhdhQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af__FdnRnHjHyZ3jLbl4GRJFaAAaB1VooIujUug-XyEsoQ&oe=6A346E9C&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Trust the universe 💫",
+    "word_count": 3
+  },
+  "communication_seed": {
+    "first_comment": "👏",
+    "latest_comments": [
+      "👏",
+      "Its so true, but so hard.",
+      "✨🌸",
+      "❤️❤️❤️",
+      "😍👏",
+      "@riley.ledford24",
+      "💖✨",
+      "🤮",
+      "I understand now and I'm scared to break free, I hate this....😢",
+      "@kangaroo_kick_in_the_face courage springs from unexpected places sometimes"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY12E6dSwFZ",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY12E6dSwFZ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY12E6dSwFZ",
+  "metrics": {
+    "comments": 18,
+    "likes": 20304,
+    "plays": 418402,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 98498,
+    "winner_score": 24561.43
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-27T12:00:39.000Z",
+  "published_label": null,
+  "rank": 272,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY12E6dSwFZ",
+  "source_url": "https://www.instagram.com/p/DY12E6dSwFZ/"
+}

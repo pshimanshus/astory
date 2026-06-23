@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYFTAvzBPmR:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/688675370_18585516034012837_4601094921301510678_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gG_RGjjjXe3tjkpfmEidMUVMeWn4i4xEgZWcfo0-1WpBBOevY7QpgFxE_7S1pWtHOE&_nc_ohc=Vs-rPpIu_UwQ7kNvwHvMU87&_nc_gid=-6Efl0FjgtZMOqL-hX_5mQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-6IEGW6cP8hUb6YnmkzMSkb3GbDqmy28vehynJ846TMA&oe=6A346CD0&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "It doesn’t feel like protection when it’s happening. It feels like rejection. Like confusion. Like everything you hoped for is quietly falling apart in your hands.\n\nBut not every closed door is a loss. Some are interruptions you didn’t ask for, but needed. Some are redirections away from what would have cost you more than you were willing to lose.\n\nYou won’t always understand it in the moment. You’ll call it bad timing. You’ll call it unfair. You’ll wonder why things didn’t work out the way you prayed they would.\n\nBut one day, you’ll look back and realize—you weren’t being denied. You were being protected. ❤️\n\nIf these words resonated with you, read more in the book ‘Stay Single’ by Rebecca Simon 🫂📖",
+    "word_count": 132
+  },
+  "communication_seed": {
+    "first_comment": "I TRUST GOD ALIGNMENT",
+    "latest_comments": [
+      "I TRUST GOD ALIGNMENT",
+      "Amen",
+      "👏👏",
+      "🥺🥺",
+      "🖤🖤",
+      "🥹",
+      "Amen 🙌❤️"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYFTAvzBPmR",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYFTAvzBPmR/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYFTAvzBPmR",
+  "metrics": {
+    "comments": 7,
+    "likes": 2143,
+    "plays": 88377,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 17145,
+    "winner_score": 3058.07
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-08T15:30:06.000Z",
+  "published_label": null,
+  "rank": 578,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYFTAvzBPmR",
+  "source_url": "https://www.instagram.com/p/DYFTAvzBPmR/"
+}

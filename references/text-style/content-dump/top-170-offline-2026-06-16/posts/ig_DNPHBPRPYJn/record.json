@@ -1,0 +1,100 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DNPHBPRPYJn:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fmem1-1.fna.fbcdn.net/v/t51.82787-15/530834551_18522413659039494_6346943646878226969_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=instagram.fmem1-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2gFUWH9rdKuF1URgaEHhmajc91vPrLgIZrDU5aOeni3wVOAX38BcAklFBvEfLLHWPNM&_nc_ohc=xYmk_ID_fqAQ7kNvwHH39Qf&_nc_gid=HsQXv5xth3VwCWEcOZ5NHg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_pbhJV_zdn9duKLHb6K-t78708dJvEFuzs-2KudkavmA&oe=6A3481A0&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "sir it’s not even 3pm",
+    "word_count": 6
+  },
+  "communication_seed": {
+    "first_comment": "he’s an animal hence is to why he wants it in the middle of afternoon !",
+    "latest_comments": [
+      "he’s an animal hence is to why he wants it in the middle of afternoon !",
+      "😂",
+      "Hey, why not you dont wanna do him 🤷‍♀️",
+      "😂😂😂😂😂",
+      "Awful.",
+      "\"Yes!!! I have the perfect guy in mind!\"",
+      "Lmfaooo",
+      "Who said it was a girl"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DNPHBPRPYJn",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DNPHBPRPYJn/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DNPHBPRPYJn",
+  "metrics": {
+    "comments": 16,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 720.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-08-12T01:12:46.000Z",
+  "published_label": null,
+  "rank": 161,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DNPHBPRPYJn",
+  "source_url": "https://www.instagram.com/p/DNPHBPRPYJn/"
+}

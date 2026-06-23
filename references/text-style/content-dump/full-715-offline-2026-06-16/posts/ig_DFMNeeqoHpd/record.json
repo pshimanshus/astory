@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFMNeeqoHpd:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-1.cdninstagram.com/v/t39.30808-6/474760489_932861018999488_1457956951323525865_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gFsWfW6z8Q4FxYXDOwR25_QQcNrHC1hG7wAmhdA_tjdJr3uh7NlSL3m4Sqvel2rKmU&_nc_ohc=u0NVbp2aDiwQ7kNvwGteTY6&_nc_gid=W49_D4ArMJrnQf3qlV_Gvg&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af_BE4mvHVTnkrKNpW87pDL33-pBUo5I3ALW8LUrKPWiLg&oe=6A347CE7&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You can’t expect peace, honesty, or loyalty from someone who hasn’t found it within themselves.\nDrop a ❤ if this resonates",
+    "word_count": 22
+  },
+  "communication_seed": {
+    "first_comment": "Amen",
+    "latest_comments": [
+      "Amen",
+      "💯",
+      "Amen!🙏",
+      "❤️",
+      "❤️",
+      "🧡🩷🪔",
+      "How beautifully put! Unfortunately the only people that will understand this are those that learnt this lesson the hard way!",
+      "❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFMNeeqoHpd",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFMNeeqoHpd/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFMNeeqoHpd",
+  "metrics": {
+    "comments": 213,
+    "likes": 51408,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 60993.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-24T02:00:19.000Z",
+  "published_label": null,
+  "rank": 153,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFMNeeqoHpd",
+  "source_url": "https://www.instagram.com/p/DFMNeeqoHpd/"
+}

@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY9CFvBIEFH:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/707866724_18601177219031367_2716800864377443174_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gGBNiN9Cba3VkIgKHCEhsPOgH8sESwahYRho_dIwNLI9RP6Obnn_Lcq-GDa4p0vFTk&_nc_ohc=2HM3uqq0wccQ7kNvwHosRCN&_nc_gid=N-30PylzITFnoXuzxuFA_g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-Z5e5PXpwGQgPrNtJaHXBEHFh4jyUTnnhxh_eM8_U2KA&oe=6A347706&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "my atoms love your atoms,⁠\nit’s chemistry 🖤⁠\n⁠\ntag them in the comments xx",
+    "word_count": 14
+  },
+  "communication_seed": {
+    "first_comment": "loving so deep ❤️",
+    "latest_comments": [
+      "loving so deep ❤️",
+      "🥹😮‍💨♥️",
+      "scientists have started making poetry",
+      "❤️❤️❤️❤️",
+      "@_yourmeanlilith_",
+      "more chemistry than MIT 🧊🌸🧊",
+      "🔥🔥🔥❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY9CFvBIEFH",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY9CFvBIEFH/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY9CFvBIEFH",
+  "metrics": {
+    "comments": 31,
+    "likes": 4234,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 5629.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-30T07:00:16.000Z",
+  "published_label": null,
+  "rank": 505,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY9CFvBIEFH",
+  "source_url": "https://www.instagram.com/p/DY9CFvBIEFH/"
+}

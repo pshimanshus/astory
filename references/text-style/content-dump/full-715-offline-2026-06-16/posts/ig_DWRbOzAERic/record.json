@@ -1,0 +1,193 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWRbOzAERic:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.82787-15/655265049_18572003959012837_7963724027555842954_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2gHroyu6z8xbtCA3AitdJrowuIJIH3OcB44FHlOFDMd442CvUaWkFIPYU81G_gBfocA&_nc_ohc=XBM92uW0i-sQ7kNvwFb-pJn&_nc_gid=aWQXMUuC2qKy-91dzXqVOA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_bgyj8jq8I_lhkT2ASU0NaEHKIk5N8RLHxzqUlkemBJA&oe=6A3482ED&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWRbOzAERic:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWRbOzAERic:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWRbOzAERic:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWRbOzAERic:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWRbOzAERic:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWRbOzAERic:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWRbOzAERic:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes the message you need most finds you at the exact right time. Not because everything is figured out, but because something within you is ready to hear it. \n\nYou are allowed to let go of what was not meant to stay. You are allowed to choose what feels right, what feels steady, what feels like peace instead of confusion. The right things in your life will not make you question your worth — they will remind you of it. \n\nWhere you are right now is not the end of your story. It is just a moment that is shaping you, softening you, and guiding you back to yourself. \n\nTake what you need. 🖤 Pages from the book ‘A Gentle Reminder’ by Bianca Sparacino 📖",
+    "word_count": 122
+  },
+  "communication_seed": {
+    "first_comment": "🔥",
+    "latest_comments": [
+      "🔥",
+      "So y’all just left off January?",
+      "Where is November??",
+      "October?",
+      "I ain’t gon lie…I do feel great reading that and it is extremely true too. Thank you!",
+      "September 🔥❤️",
+      "June ?",
+      "Any particular reason you've left out November from both Part 1 & 2 !? 😏",
+      "Love September 😍❤️🙌",
+      "😂"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWRbOzAERic",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWRbOzAERic/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWRbOzAERic",
+  "metrics": {
+    "comments": 22,
+    "likes": 3639,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 4629.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-24T15:30:00.000Z",
+  "published_label": null,
+  "rank": 528,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWRbOzAERic",
+  "source_url": "https://www.instagram.com/p/DWRbOzAERic/"
+}

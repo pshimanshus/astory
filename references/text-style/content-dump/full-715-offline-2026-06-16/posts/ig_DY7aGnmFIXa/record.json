@@ -1,0 +1,154 @@
+{
+  "account": {
+    "full_name": "The Wild Beauty Foundation",
+    "instagram_user_id": null,
+    "username": "wildbeautyspirit"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY7aGnmFIXa:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/708536734_18107753027296666_2295149821479070349_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gE0cIXDwFGYXiuVuWJzU8zh46jFlQv0sxq5Tp1vLVw6Ff3YEGGytu8FtSkdqBI9Pns&_nc_ohc=oeTrkNGdlTkQ7kNvwHEfZ9p&_nc_gid=sDxvtJXtfbHiQo5M1lXxlA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9FS_qdM7xjORzegc7I1aFbzyUVJBfqBsAY7iB7MWACBA&oe=6A348733&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY7aGnmFIXa:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY7aGnmFIXa:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY7aGnmFIXa:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY7aGnmFIXa:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "There is something truly extraordinary about poetry.\n\nPoetry has the ability to reach above the noise and into our hearts to remind us what it means to feel.  That our voices have the power to make change in our world.\n\nThe Wild Beauty Foundation was honored to partner with @atticuspoetry on The Lost Horses campaign.  The New York Times Bestseller wrote an original poem, “Hope Still Runs In Me” - a deeply moving piece that carries the heartbreak of these horses, but also their spirit. \n\n. . .  \n“Horses have carried us not only across land, but through history, through war, through healing—they are symbols of freedom, strength, and grace. And yet, so many of them are funneled into a system that ends in destruction. What stayed with me about The Lost Horses was not only the scale of it, but the betrayal,” says Atticus. \n“These horses were not nameless. They were beings who once had purpose, a deep connection, and trust. They were ridden, cared for, spoken to. Then, somewhere along the line, that relationship is severed, and they are passed along as if none of it mattered.  \nThis Lost Horses movement matters because it is happening now, not in some distant past, and because awareness is the first step in interrupting it. The question is no longer whether we know - it is what we are willing to do with that knowledge.”\n\n. . .\n\nPlease join this movement, and help ensure no horse is ever lost again.\n\nRaise your voice and take action now at losthorses.org",
+    "word_count": 253
+  },
+  "communication_seed": {
+    "first_comment": "Beautiful 💖",
+    "latest_comments": [
+      "Beautiful 💖",
+      "I don't have to worry about my aging horses and wonder if they've fallen into the wrong hands.  I will be here for them, watching over them and caring for them until their last breath.  I buy horses...but rarely, if ever, sell them.",
+      "Blessings to horses and all of the animal kingdom! 🩵🐴",
+      "❤️❤️❤️",
+      "😢😢😢😢",
+      "❤️❤️❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "first_person",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY7aGnmFIXa",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY7aGnmFIXa/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY7aGnmFIXa",
+  "metrics": {
+    "comments": 6,
+    "likes": 225,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 495.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-29T15:51:26.000Z",
+  "published_label": null,
+  "rank": 703,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY7aGnmFIXa",
+  "source_url": "https://www.instagram.com/p/DY7aGnmFIXa/"
+}

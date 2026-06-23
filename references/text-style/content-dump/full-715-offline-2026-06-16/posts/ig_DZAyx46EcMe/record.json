@@ -1,0 +1,131 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZAyx46EcMe:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/710573053_18426801328133491_1517479296859055304_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gF1RR8w1iNNPEaWQwcOTW17qG5FbeWWV4_X5hs0Ih9vCGZ93o50NXWy1gu0CQywvrM&_nc_ohc=YqZ9VBEVF4wQ7kNvwGEGoxU&_nc_gid=uZHKjcSxhirjJEeYpKCEJA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8g4-qY6Q0QW7F2XFp8F18pRbQk9jbuZrtcvsgdSeZWYA&oe=6A3481ED&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZAyx46EcMe:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZAyx46EcMe:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Send this to yourself ❤️",
+    "word_count": 4
+  },
+  "communication_seed": {
+    "first_comment": "I’m already proud of YOU. Look how far you have come 🤩",
+    "latest_comments": [
+      "I’m already proud of YOU. Look how far you have come 🤩",
+      "🔥❤️",
+      "❤️❤️",
+      "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+      "This is so cute🥹🤍✨🙈",
+      "❤️❤️",
+      "🙌❤️",
+      "❤️",
+      "❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZAyx46EcMe",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZAyx46EcMe/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZAyx46EcMe",
+  "metrics": {
+    "comments": 33,
+    "likes": 7078,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 8563.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-31T18:03:16.000Z",
+  "published_label": null,
+  "rank": 435,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZAyx46EcMe",
+  "source_url": "https://www.instagram.com/p/DZAyx46EcMe/"
+}

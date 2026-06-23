@@ -1,0 +1,117 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DPyljTUDTnU:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/564880560_18021395447782076_8394491004277900376_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGtdd8MAO8g7ljwsMPc97d0-0BTCneIKhg1rBbGPhI6apQwSTJVfOe7tHs8XDOTKd8&_nc_ohc=HVKqSCQXxHMQ7kNvwFZQ85z&_nc_gid=soiiBBViF8CLKVzkTnVfhw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_jTcv61_-lOysM7JizV15mwAl9hMFU0kT_wGRXE0fF3Q&oe=6A3475FB&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "PassionateLoveMessages",
+      "ILoveYou",
+      "RomanticQuotes",
+      "LoveMessage",
+      "RelationshipGoals",
+      "LoveQuotes",
+      "CoupleGoals",
+      "CuteQuotes",
+      "HeartfeltMessages",
+      "SweetLove",
+      "EmotionalConnection",
+      "RomanticVibes"
+    ],
+    "public_preview": null,
+    "text": "You didn’t just walk into my life — you lit it up. 🔥💖\nEvery laugh, every moment, every glance… you’ve been my spark through every dark.\nForever grateful for your light. 🕯️❤️\n\n💬 Tag someone who’s your light.\n⬇️ Save this for when words fall short.\n\n#PassionateLoveMessages #ILoveYou #RomanticQuotes #LoveMessage #RelationshipGoals #LoveQuotes #CoupleGoals #CuteQuotes #HeartfeltMessages #SweetLove #EmotionalConnection #RomanticVibes",
+    "word_count": 56
+  },
+  "communication_seed": {
+    "first_comment": "😮😍👏😢🙏❣️❣️✨🕯️💡🔦💫",
+    "latest_comments": [
+      "😮😍👏😢🙏❣️❣️✨🕯️💡🔦💫",
+      "Thankyou so much for being an amazing on my life I believe you are the very sweetest person in the whole world who is kind and has a lot to offer towards me thank you so much and just one more reminder I will never give up on you because I love you and I want you to make sure your comfortable and loved stay strong I miss you so much.❤️❤️❤️‍🔥❤️‍🔥",
+      "I  love 😎🌹🔥",
+      "@hopeirwin72",
+      "Thankyou. Sally",
+      "@frisiangail 😍😍",
+      "@jojo_lately",
+      "🔥❤️🙌🏽💯😇✨️🙏🏽",
+      "To my son ❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DPyljTUDTnU",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DPyljTUDTnU/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DPyljTUDTnU",
+  "metrics": {
+    "comments": 198,
+    "likes": 33954,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 42864.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-10-14T12:55:00.000Z",
+  "published_label": null,
+  "rank": 187,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DPyljTUDTnU",
+  "source_url": "https://www.instagram.com/p/DPyljTUDTnU/"
+}

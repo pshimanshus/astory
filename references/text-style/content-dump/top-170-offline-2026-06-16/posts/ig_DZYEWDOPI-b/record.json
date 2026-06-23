@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZYEWDOPI-b:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fhyw1-1.fna.fbcdn.net/v/t51.71878-15/719828178_1746908906683408_1949869462309853995_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fhyw1-1.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2gGPUuzjOKyyQ0YoKcbtA3K7PRNJ9mvcLIMkM3YFhYUQJiNsqHVjFWNXLENR33xoDX8&_nc_ohc=6Qu3a5FF1qUQ7kNvwF2xAMR&_nc_gid=3W-3o28jdIY2IJ-ziM8xkw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8_dOYxxbpQpFeMftk8qGwG_oxVXj_XxIYM4mSqpDB0_Q&oe=6A3481E0&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "reminder that this is a safe space and we’re all family🫂",
+    "word_count": 12
+  },
+  "communication_seed": {
+    "first_comment": "that’s why pride is important. because “it gets better” only works if you live long enough to see it.",
+    "latest_comments": [
+      "that’s why pride is important. because “it gets better” only works if you live long enough to see it.",
+      "We love you and we are happy that you are truly you. The world is better because of it❤️❤️❤️",
+      "You got homies here. Keep pushing brotha. The worlds better with you in it🤘🏻",
+      "People who cannot love their children whoever they are don't deserve them!",
+      "My heart. 💜",
+      "🩷🩷🩷",
+      "@tylerhenrymedium ?? ♥️",
+      "SENDING YOU GIGANTIC AMOUNTS OF LOVE!!!!! 💕",
+      "❤️❤️❤️",
+      "😢😢😢😢"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DZYEWDOPI-b",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DZYEWDOPI-b/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZYEWDOPI-b",
+  "metrics": {
+    "comments": 200,
+    "likes": 13054,
+    "plays": 418310,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 95177,
+    "winner_score": 25385.19
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-09T19:00:52.000Z",
+  "published_label": null,
+  "rank": 141,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZYEWDOPI-b",
+  "source_url": "https://www.instagram.com/p/DZYEWDOPI-b/"
+}

@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "The Wild Beauty Foundation",
+    "instagram_user_id": null,
+    "username": "wildbeautyspirit"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY2VjpEpWgS:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/707426493_18107522078296666_4919153324261905226_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHxvbhE6-izaJMwn_CN9XDYXD4JqRWBd6_3BuqbOnW3FZn8PrMbKciZsIvV5DdebMc&_nc_ohc=YnNaRn8icykQ7kNvwFi-yy3&_nc_gid=ush6cVWGtrrqMIzPqIsufQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8DCcyahaNTsTAfvbCWodNc5IUyiJwG1Ab27xHKktqIJw&oe=6A347F6E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "TheLostHorses",
+      "WildBeautyFoundation",
+      "EquineAdvocacy",
+      "AtticusPoetry",
+      "contemporarypoetry"
+    ],
+    "public_preview": null,
+    "text": "We are honored to introduce Atticus, the New York Times Bestselling poet as the voice behind our latest Lost Horses PSA.\n\nKnown around the world for words that feel both intimate and infinite, @atticuspoetry has built a devoted following by writing about love in all of its many forms.  The joy and as well as the melancholy, the tenderness and the profound nature of hope.\n\nIn our upcoming film, “Hope Still Runs In Me,” Atticus intertwines that same spirit with the story of our horses.  Loyal animals who once carried us, trusted us, and yet who can still disappear into the shadows of a broken system that no longer sees them.\n\nAt the Wild Beauty Foundation, we believe storytelling holds great purpose - and we honored to partner with Atticus on this campaign so no horse is ever lost again.\n\nWatch for the video tomorrow, and be ready to share. \n\n#TheLostHorses #WildBeautyFoundation #EquineAdvocacy #AtticusPoetry #contemporarypoetry",
+    "word_count": 154
+  },
+  "communication_seed": {
+    "first_comment": "😍 wow",
+    "latest_comments": [
+      "😍 wow",
+      "❤️❤️❤️❤️❤️🙌🙌🙌🙌🙌",
+      "Amazing @bethbehrs @allseatedinabarn @happyheart_happyhomesanctuary @ohkaytacos @freedomreins @rubyspurposeanimalrescue"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "first_person",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY2VjpEpWgS",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY2VjpEpWgS/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY2VjpEpWgS",
+  "metrics": {
+    "comments": 3,
+    "likes": 544,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 679.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-27T16:41:12.000Z",
+  "published_label": null,
+  "rank": 698,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY2VjpEpWgS",
+  "source_url": "https://www.instagram.com/p/DY2VjpEpWgS/"
+}

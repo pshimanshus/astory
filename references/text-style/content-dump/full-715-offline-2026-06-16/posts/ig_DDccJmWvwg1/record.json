@@ -1,0 +1,100 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DDccJmWvwg1:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/623453502_17952108231079433_7719550110118447127_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gGMYjpS2-V4-sJyiIHFZUl0BucwojV8o_0k5ZMXLMZW0Wu6_44A_LULxQnXEN38Cbg&_nc_ohc=oSmcOUU_7HcQ7kNvwGtvMn3&_nc_gid=R84Sk7A8GkN9CP3BOau8VQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_Er7iqXmzYE0upVWzAi6G1Y2geKLaY7R75F8DoRlv7AQ&oe=6A347344&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "WHO should see a therapist!?",
+    "word_count": 5
+  },
+  "communication_seed": {
+    "first_comment": "OMG literally my ex, tho! 😩",
+    "latest_comments": [
+      "OMG literally my ex, tho! 😩",
+      "He is right",
+      "lmao suspect is me 😂",
+      "Only one person is chasing here 😂",
+      "Loll",
+      "‘I don’t have time for these games’…yah right biggest player ever 😅🤭🫠",
+      "😂😂😂",
+      "Who is giving advice to who now?"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DDccJmWvwg1",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DDccJmWvwg1/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DDccJmWvwg1",
+  "metrics": {
+    "comments": 33,
+    "likes": 4856,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 6341.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2024-12-11T16:13:35.000Z",
+  "published_label": null,
+  "rank": 488,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DDccJmWvwg1",
+  "source_url": "https://www.instagram.com/p/DDccJmWvwg1/"
+}

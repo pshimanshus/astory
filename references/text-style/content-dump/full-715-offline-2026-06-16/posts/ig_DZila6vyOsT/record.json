@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZila6vyOsT:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.71878-15/721152343_1036137108868422_1037253447330937044_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHI8ih6TPGnNWlO_m1_OBCu_bvCbKuFuWiOxUdbh5zFwrTs6kpSH2xT5I1wpnjyqjg&_nc_ohc=q2FUq5_ceCkQ7kNvwEOBWe3&_nc_gid=VtZkQK7QvXAHQM62tVp4oA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_peD8AkpA6-mNEMZbBz4dP1KeoFUtYVa3pe35icDr61w&oe=6A3477CB&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Wow",
+    "word_count": 1
+  },
+  "communication_seed": {
+    "first_comment": "True.. how to heal this?",
+    "latest_comments": [
+      "True.. how to heal this?",
+      "Beautiful perspective 🤍",
+      "❤️🙌🔥",
+      "🙌",
+      "Bullshit!",
+      "Ooooooohhh",
+      "exactly",
+      "In every where peace begings with you\nI begin peace to get peace\nYou begin peace to get peace",
+      "Its not about things that are demanding but it’s about making your little part everyday to ensure a safe and secure grounded space for the relationship to thrive !!! \nWe mutually have to honor our commitment and be reliable !!\nAnd also not to be so focus on growing but to express sweetness while we grow !!! I know you don’t want to talk to me anymore , and you don’t want me anymore, but I wanted to ask you if it’s ok for you to start fresh in a next level in a more mature one in harmony of us !!"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZila6vyOsT",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZila6vyOsT/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZila6vyOsT",
+  "metrics": {
+    "comments": 22,
+    "likes": 7503,
+    "plays": 288359,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 66167,
+    "winner_score": 10808.85
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-13T21:00:14.000Z",
+  "published_label": null,
+  "rank": 396,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZila6vyOsT",
+  "source_url": "https://www.instagram.com/p/DZila6vyOsT/"
+}

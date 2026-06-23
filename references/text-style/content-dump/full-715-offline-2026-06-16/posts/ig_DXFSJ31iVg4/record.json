@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXFSJ31iVg4:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.71878-15/670399876_27565136189753128_3084876441817339376_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gHDUsnbDmpf95Ds6iaq7x2hn4haucqdbRUNpyrs8vipGbiet9G1NRB11kssQAJ0la0&_nc_ohc=WOat0V02HaQQ7kNvwFcVRLK&_nc_gid=OHSXT4cha5iO56bP0Gbrhg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-HLex8Egjk0X_7OcXcr3dOw0743WSvUoUWRJkdj8KQRA&oe=6A347410&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "reaching a flow state going through his following",
+    "word_count": 8
+  },
+  "communication_seed": {
+    "first_comment": "😂😂😂😂",
+    "latest_comments": [
+      "😂😂😂😂",
+      "😂",
+      "@laura_pate",
+      "True millennial style 🤣",
+      "exactly",
+      "Wkwkwkwkwkkwkwkwkwkwk😂",
+      "JAJAJSJAJAJAAJ dejen a Justin en paz cabrones !",
+      "@radzikiel",
+      "@werenotreallystrangers asf😂"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXFSJ31iVg4",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXFSJ31iVg4/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXFSJ31iVg4",
+  "metrics": {
+    "comments": 78,
+    "likes": 23374,
+    "plays": 1169887,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 285813,
+    "winner_score": 36887.46
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-13T18:52:11.000Z",
+  "published_label": null,
+  "rank": 208,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXFSJ31iVg4",
+  "source_url": "https://www.instagram.com/p/DXFSJ31iVg4/"
+}

@@ -1,0 +1,137 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZQWbTmGDJE:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/718251113_18598323208000418_1567410814942801872_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gHVIzYVthn2Xbg2IwmPHXk3Mh66cYOb6hK430NsG2qQIWaWbSNqxRDLY02r2JoQQus&_nc_ohc=xB1ipW5n7gAQ7kNvwFFu7kj&_nc_gid=u5Lfxf888yWzI_Pl63FZeQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af92QRghgypE5AZwYUI0nPNvqAUb4vWWzXQD5lcd1jc29g&oe=6A3461CC&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZQWbTmGDJE:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZQWbTmGDJE:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "this is a very personal reminder",
+    "word_count": 6
+  },
+  "communication_seed": {
+    "first_comment": "needed this thank u",
+    "latest_comments": [
+      "needed this thank u",
+      "❤️",
+      "🔥🔥",
+      "❤️",
+      "I already did!",
+      "More to life. Good things are coming yall.",
+      "Your future self will thank you for not giving up! ❤️",
+      "Never 🤍",
+      "😩🧚🏽‍♀️✨",
+      "I think you would love my noticing app:)"
+    ],
+    "mechanic_tags": [
+      "carousel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZQWbTmGDJE",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZQWbTmGDJE/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DZQWbTmGDJE/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZQWbTmGDJE",
+  "metrics": {
+    "comments": 65,
+    "likes": 143090,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 146015.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-06-06T19:03:22.000Z",
+  "published_label": null,
+  "rank": 76,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZQWbTmGDJE",
+  "source_url": "https://www.instagram.com/p/DZQWbTmGDJE/"
+}

@@ -1,0 +1,131 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYhntC2kcQc:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/702325565_18588554395012837_6269946470632170256_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gELmTdDcUOpSvsfPe2baQuGGXKwZFh2yMI4nHipvBvDU5E3LmJofvCcfw2gTdVArSU&_nc_ohc=vqH8uZC_YyMQ7kNvwGVbQw3&_nc_gid=iCwuoXYHLsEFEf5nuD_kBw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_XsBMoMUNKL83iW1ZWUA0wgUSW07fTO_oPOnMc_MLw7w&oe=6A347858&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYhntC2kcQc:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYhntC2kcQc:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "The right love will never make you feel like you have to earn your place in someone’s life. It will not disappear the moment you become difficult to understand. It will not grow cold when you are hurting. The right person will sit beside your sadness without trying to escape it.\n\nBecause real love is not just found in the beautiful moments. It is found in the quiet ones too — the long conversations at midnight, the patience during your overthinking, the reassurance when your mind gets heavy, the way they continue choosing you even when life is not easy.\n\nAnd maybe that is what makes love feel safe in the end. Not the grand gestures. Not the perfect timing. But the simple, steady presence of someone who stays gentle with your heart no matter what season of life you are in.\n\nFind the one who makes love feel like peace instead of confusion. The one who stays. 🖤",
+    "word_count": 158
+  },
+  "communication_seed": {
+    "first_comment": "@sharwari_0109",
+    "latest_comments": [
+      "@sharwari_0109",
+      "❤️",
+      "@kentorriele_",
+      "❤️",
+      "❤️❤️❤️",
+      "❤️❤️❤️",
+      "❤️❤️",
+      "so beautiful",
+      "💕🌷🥰😍"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYhntC2kcQc",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYhntC2kcQc/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYhntC2kcQc",
+  "metrics": {
+    "comments": 20,
+    "likes": 9814,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 10714.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-19T15:30:01.000Z",
+  "published_label": null,
+  "rank": 398,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYhntC2kcQc",
+  "source_url": "https://www.instagram.com/p/DYhntC2kcQc/"
+}

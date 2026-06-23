@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFK0Pj0px-w:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t39.30808-6/473530843_932256892393234_3990274826726524777_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gFNwTnvB4FRUk929_OiQAllNCmgB5hC9_PM2uOqUYyU0x2Kwllcwn--pZNZsqxFTsw&_nc_ohc=fMk_txuTzY0Q7kNvwFIKQ8e&_nc_gid=2qvDDqkB6tnXB6EtXRSXJQ&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af9V3obWo7JWxv9inMd2cp-M7MdTMduStZIOmWo9hts8mQ&oe=6A34631D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Alone time is sacred when you realise you’re never really alone, you’re always with yourself.\nType \"Yes\" if you're learning to enjoy your solitude ❤",
+    "word_count": 26
+  },
+  "communication_seed": {
+    "first_comment": "Yes",
+    "latest_comments": [
+      "Yes",
+      "Fantastic company.",
+      "Yes 🔥",
+      "Always 🤍",
+      "Me, myself and I and comfortable = healed 🙌",
+      "Sheeeesh🔥👏",
+      "👏👏👏"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFK0Pj0px-w",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFK0Pj0px-w/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFK0Pj0px-w",
+  "metrics": {
+    "comments": 69,
+    "likes": 31018,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 34123.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-23T13:00:35.000Z",
+  "published_label": null,
+  "rank": 218,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFK0Pj0px-w",
+  "source_url": "https://www.instagram.com/p/DFK0Pj0px-w/"
+}

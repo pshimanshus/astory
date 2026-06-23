@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "r.h. Sin",
+    "instagram_user_id": null,
+    "username": "r.h.sin"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZZECYFN_Ww:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/721517304_18598127122007488_118496926570411336_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gHciXXNWevfm5GAkRknNVXOy46JiJpM70DbEbyFZdmvRTxwqZpZilj_Fj8OrfeF4qA&_nc_ohc=BwRMCMxioSIQ7kNvwGTDKRO&_nc_gid=A7PJQAA8H0FHss0jfvUs5w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af808rSE6Gr4r9NG-Kss5V7dUUag010v-MrIoiwvpEgIvA&oe=6A347045&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "",
+    "word_count": 0
+  },
+  "communication_seed": {
+    "first_comment": "Steph flurry",
+    "latest_comments": [
+      "Steph flurry",
+      "This makes me smile so much",
+      "🔥🔥🔥🔥🔥",
+      "Are you just good at everything you touch?👏",
+      "Asè",
+      "Sending good vibes ✨",
+      "@iamcoachcourt lol 😅"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZZECYFN_Ww",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZZECYFN_Ww/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZZECYFN_Ww",
+  "metrics": {
+    "comments": 10,
+    "likes": 147,
+    "plays": 105543,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 7568,
+    "winner_score": 861.88
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T04:18:54.000Z",
+  "published_label": null,
+  "rank": 685,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZZECYFN_Ww",
+  "source_url": "https://www.instagram.com/p/DZZECYFN_Ww/"
+}

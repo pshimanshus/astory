@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZaU5ARR7-f:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/721135883_18049924205782076_2865966007044451219_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGjKq-dZyBPrRzh4rPYqZxUKN6VuPyWRTV9_pxYB4YbV-d093XAgXs_r2xdAfFUyB4&_nc_ohc=cZf71RtljjgQ7kNvwGjrRr_&_nc_gid=znPoHPhbAWGLlq5sQL9LVw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_c2yit7rztGv664Xy5OVv9AlEDtDLFLMeAtMAnsXidnw&oe=6A34671E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessages",
+      "RelationshipGoals",
+      "CoupleGoals",
+      "ILoveYou",
+      "RomanticQuo"
+    ],
+    "public_preview": null,
+    "text": "Some days, “I love you” doesn’t feel like enough.\n\nSo here’s a little reminder:\n\n❤️ I love you.\n❤️ So much.\n\nTag the person who instantly came to mind when you read this. 🥹👇\n\nLove isn’t always grand gestures.\nSometimes it’s checking in.\nSometimes it’s staying.\nSometimes it’s choosing the same person over and over again.\n\nAnd honestly...\nI’d choose you every single time. ❤️\n\nFollow @PassionateLoveMessages for daily love messages, relationship quotes, romantic reminders, and wholesome couple content.\n\n#LoveMessages #RelationshipGoals #CoupleGoals #ILoveYou #RomanticQuo",
+    "word_count": 87
+  },
+  "communication_seed": {
+    "first_comment": "🫰🫰",
+    "latest_comments": [
+      "🫰🫰",
+      "@guzza_mamaguz",
+      "❤️❤️",
+      "❤️",
+      "Love you too dear❤️❤️❤️❤️",
+      "🤭",
+      "@bas_kritsanaphong 😍",
+      "😍❤️",
+      "@emilie.lamoureux ❤️❤️❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZaU5ARR7-f",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZaU5ARR7-f/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZaU5ARR7-f",
+  "metrics": {
+    "comments": 38,
+    "likes": 4147,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 5857.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T16:04:14.000Z",
+  "published_label": null,
+  "rank": 501,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZaU5ARR7-f",
+  "source_url": "https://www.instagram.com/p/DZaU5ARR7-f/"
+}

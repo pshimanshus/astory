@@ -1,0 +1,99 @@
+{
+  "account": {
+    "full_name": "r.h. Sin",
+    "instagram_user_id": null,
+    "username": "r.h.sin"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZgK20Qprtj:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fmem1-2.fna.fbcdn.net/v/t51.82787-15/723238738_18598835602007488_5449652405970351774_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fmem1-2.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2gG1eRpEdOLVCpA3fiv-nIsM3CvSWhsxB7V08xMKvWL2PWgqCjoa2d-8JKGaY_A-I3c&_nc_ohc=heBHjgyu8WsQ7kNvwHDv_sW&_nc_gid=aq9uQEhMDHadFXSWCzx7Pw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af83qtdPGgIm-aa-MftL3TkjSu9Wd3olu86IZKHxPJhV5w&oe=6A345927&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "",
+    "word_count": 0
+  },
+  "communication_seed": {
+    "first_comment": "I hope you keep asking wyd so we can turn it into wya and then hbu and then ily everyone communicates differently",
+    "latest_comments": [
+      "I hope you keep asking wyd so we can turn it into wya and then hbu and then ily everyone communicates differently",
+      "This is why I don’t answer anymore",
+      "Sorry but I’ve gotta geek out over this soundbite from Rocky IV… picturing it now, Rocky with trainer Duke getting one last pep talk in his ice cold Russian cabin…the night before he fights Drago… brilliant!! 🔥🙌😂🤪😮‍💨",
+      "Try me 1 damn time on that slick shit. I’m out! FACTS. 😂",
+      "Low effort can’t even type properly 💀",
+      "Period",
+      "This‼️‼️"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZgK20Qprtj",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZgK20Qprtj/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZgK20Qprtj",
+  "metrics": {
+    "comments": 42,
+    "likes": 4550,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 6440.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T22:30:16.000Z",
+  "published_label": null,
+  "rank": 485,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZgK20Qprtj",
+  "source_url": "https://www.instagram.com/p/DZgK20Qprtj/"
+}

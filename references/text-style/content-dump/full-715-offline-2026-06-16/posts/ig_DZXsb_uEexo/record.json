@@ -1,0 +1,145 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZXsb_uEexo:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/714722875_18592865371012837_3435235272383486326_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gGolnqsXqndXlRqcgQD_FRBkVf1vlJt74a9EHcyEESg-xQPg6r5DBLbUG9M7fyXlAQ&_nc_ohc=vSqRUmZxlOEQ7kNvwGzDAae&_nc_gid=aPean90UM03PUw39frCTTA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-WRTfUuxBl6CQB917kcmRRKsadqzuf_0s3TuX5wifyog&oe=6A3486F8&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb_uEexo:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb_uEexo:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZXsb_uEexo:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You are not powerful enough to ruin what is truly meant for you. Read that again. So many of us spend our lives worrying that we missed our chance, made the wrong decision, waited too long, started too late, or somehow stepped outside of the life we were supposed to have. We carry the weight of believing that one mistake could cost us everything.\n\nBut what if what is meant for you is stronger than your fear?\n\nWhat if the doors that belong in your life are not so fragile that they can be closed by one wrong turn? What if the things heaven has written into your story are still finding their way to you, even when you cannot see them?\n\nThere is so much peace in realizing that you do not have to chase every blessing down. You do not have to force timelines. You do not have to exhaust yourself trying to control what was never yours to control. Sometimes faith looks like releasing your grip and trusting that what is meant for you will arrive at the right time, in the right way.\n\nThis beautiful passage is from the book ‘Finding God Every Day’ by Rebecca Simon — a devotional for anyone who feels anxious about the future, struggles with trusting God’s timing, or needs a gentle reminder that they cannot miss what heaven has already set in motion for them. 🖤",
+    "word_count": 235
+  },
+  "communication_seed": {
+    "first_comment": "Thank you! I needed to read this 🙌🏽✨️🤍",
+    "latest_comments": [
+      "Thank you! I needed to read this 🙌🏽✨️🤍",
+      "👏👏",
+      "Needed this. Trusting the timing without trying to control every step is the hard part🙌",
+      "✨",
+      "Amen",
+      "Date 10/6/2026 I am so happy and grateful now that,I am certain that,I will not miss what heaven made for me . Isn't it wonderful. Psalm 46:10 be still and know that,I am GOD. Irenekalukikatonga",
+      "Very beautiful. Thanks for this reading 💙",
+      "❤️",
+      "I need Rebecca’s books to be more available mainstream 😢",
+      "🙏🏾"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZXsb_uEexo",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZXsb_uEexo/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZXsb_uEexo",
+  "metrics": {
+    "comments": 13,
+    "likes": 3850,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 4435.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-09T15:30:02.000Z",
+  "published_label": null,
+  "rank": 535,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZXsb_uEexo",
+  "source_url": "https://www.instagram.com/p/DZXsb_uEexo/"
+}

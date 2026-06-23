@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXHsscZkSQt:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/671138040_18583608550000418_721575451702479146_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gF0kIkSOpI0Fzbf2IfOZscBqFN_iWwc-MrFG8mwX6qY7BdOdLfyY15WuTmtNQG5HrM&_nc_ohc=lIVUGG9pw0sQ7kNvwG2JIO5&_nc_gid=OVgaWYyMBQGY518yuOZlYw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9ZpmAuQWATjcsSN2zg58a5UQOI8ePuRXoESeISQOj0Lw&oe=6A346F58&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "beating yourself up for mistakes",
+    "word_count": 5
+  },
+  "communication_seed": {
+    "first_comment": "Spending long time in heartbreak 😭",
+    "latest_comments": [
+      "Spending long time in heartbreak 😭",
+      "❤️",
+      "🥺🙏🏻😔❣️❣️✨🙌🤝💫",
+      "🙌",
+      "\"Life is too short to work a job you hate\" but I'm poor 🫩 If only up and leaving was so simple 😂💔",
+      "Having an important conversation. Some people truly believe they have all the time in the world and also, they don’t care about wasting people’s time while they “get it together”.",
+      "All of this!! And not trying things you’ve always wanted to try!! 👏",
+      "If could date myself, I would",
+      "Creating your path",
+      "💔"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXHsscZkSQt",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXHsscZkSQt/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXHsscZkSQt",
+  "metrics": {
+    "comments": 37,
+    "likes": 43591,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 45256.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-14T17:22:25.000Z",
+  "published_label": null,
+  "rank": 184,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXHsscZkSQt",
+  "source_url": "https://www.instagram.com/p/DXHsscZkSQt/"
+}

@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVG40i-FfP9:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.71878-15/639773300_2402047983646646_3413458543114826818_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gEUTMmB0JTXZi9xc_7BTS--zJ-539TRixLlXjPY2F0QluR3gyx10P9xdHggou-snr4&_nc_ohc=oOfpp2t-o7cQ7kNvwGIW3m5&_nc_gid=YVw6TZUWjlNuaAdLkw1tQA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-yGDzdug-ZyX9zIpahdgQwfkIV9n2HJBXLFLkeZACXWA&oe=6A347F89&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "We’re quick to call it bad luck. The missed exit. The delayed flight. The plan that falls apart at the last second. We see inconvenience — but what if it’s intervention? What if the delay is protection you can’t see yet? \n\nNot every setback is meant to stop you. Some are meant to steer you. Some are quietly moving you away from something that would have cost you more than you realize. \n\nTrust that where you end up is not random. Even the burnt toast has a purpose. \n\nInspired by the book ‘Let Go, Trust God’ by Rebecca Simon 📖 Find it by following the link in the bio.",
+    "word_count": 110
+  },
+  "communication_seed": {
+    "first_comment": "Honestly I've always loved this thought 🙌",
+    "latest_comments": [
+      "Honestly I've always loved this thought 🙌",
+      "❤️❤️",
+      "amen",
+      "It’s the adjustment bureau 😉",
+      "Try explaining that to the two pieces of toast that got sent to hell",
+      "❤️❤️❤️",
+      "Once, I was hiking when I hit a rock and hurt my foot. I got really angry, but then I saw a red and black snake — it was a coral snake. If I hadn’t hit the rock, I would have stepped on the snake. So now I never complain about rocks in the road.",
+      "@dhananjayan__ What progress did you notice?"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVG40i-FfP9",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVG40i-FfP9/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVG40i-FfP9",
+  "metrics": {
+    "comments": 18,
+    "likes": 15676,
+    "plays": 457895,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 105367,
+    "winner_score": 20173.85
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-02-23T16:45:00.000Z",
+  "published_label": null,
+  "rank": 297,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVG40i-FfP9",
+  "source_url": "https://www.instagram.com/p/DVG40i-FfP9/"
+}

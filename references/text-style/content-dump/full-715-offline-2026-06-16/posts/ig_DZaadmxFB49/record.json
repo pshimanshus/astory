@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "The Wild Beauty Foundation",
+    "instagram_user_id": null,
+    "username": "wildbeautyspirit"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZaadmxFB49:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t39.30808-6/719637210_1321715533437150_3772903119309687610_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2gE5x-heiRPDoWGJOif0MHLnA_iKiaq20iistiPWy2CFdAeG4Yr2N--fe4NhAdU3eZo&_nc_ohc=dHv6VtPBAugQ7kNvwFh_VXI&_nc_gid=DqU515Z9zKaK-k4A6dW-1Q&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af8v9_-9sK7UMYWTK3nT7SD06phvNpjFrSDXKLa5oaIacQ&oe=6A345C8D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "ryderslaw",
+      "carriagehorses",
+      "endhorsedrawncarriages"
+    ],
+    "public_preview": null,
+    "text": "Another carriage horse has died in Central Park.\n\nHis name was Deniz.  According to NYPD officials, he was sixteen years old and was pulling a carriage carrying two passengers when he collapsed.\n\nOfficers who spoke with the driver reported that the horse appeared to suffer a medical emergency.\n\nThe cause of Deniz’s death remains unknown pending a necropsy, and authorities have stated there is no indication of criminality at this time.\n\nWhile horses commonly live well into their twenties, and many reach their late twenties or even thirties, Deniz died at sixteen years old on the streets of Manhattan while working as a carriage horse.\n\nEvery horse deserves our respect and compassion.  Horses are athletes, companions, working animals, and trusted partners.\n\nWhile the circumstances surrounding Deniz’s death have not yet been determined, his passing once again raises important questions about the continued use of horse-drawn carriages in one of the busiest and most congested urban environments in the world.\n\nThe Wild Beauty Foundation stands with advocates supporting Ryder’s Law and efforts to end the horse-drawn carriage industry in New York City.\n\nWe believe there is a difference between honoring history and preserving practices that may no longer reflect modern standards of equine welfare.\n\nToday, our thoughts are with Deniz, and every horse who has died on the streets of New York.\n\n#ryderslaw #carriagehorses #endhorsedrawncarriages",
+    "word_count": 229
+  },
+  "communication_seed": {
+    "first_comment": "ENOUGH!!!!😡",
+    "latest_comments": [
+      "ENOUGH!!!!😡",
+      "oh darling RIP 💔❤️",
+      "@nycmayor @robertfkennedyjr SHUT IT DOWN. Show the world watching that you have compassion and don’t tolerate animal abuse 💔💔💔💔💔💔PASS RYDERS LAW 💔💔💔💔 ENOUGH",
+      "DO BETTER PEOPLE!!!",
+      "😢",
+      "Today, social media is full of campaigns to ban carriage horses.\n\nMany people cheer because they don’t own a carriage horse.\n\nThen attention turns to riding horses.\n\nThe same people cheer because they don’t ride.\n\nThen it turns to competition dogs.\n\nThen breeders.\n\nThen livestock farming.\n\nThen zoos.\n\nThen aquariums.\n\nThen falconry.\n\nThen responsible pet ownership itself.\n\nAt each step, people say, “Good. It doesn’t affect me.”\n\nThe problem is that animal welfare and animal rights are not the sa",
+      "Another carriage horse just died in Central Park. @speakermenin and Health Chair @lynn4nyc had the chance to end this last year with Ryder’s Law — Menin didn’t even show up to vote, and the committee let it die. They sided with the TWU over the 75%+ of New Yorkers who want these horses off the streets. How many more have to collapse? @nycmayor",
+      "😢",
+      "This has to STOP...."
+    ],
+    "mechanic_tags": [
+      "static",
+      "nostalgia"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZaadmxFB49",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZaadmxFB49/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZaadmxFB49",
+  "metrics": {
+    "comments": 87,
+    "likes": 710,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 4625.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T16:51:03.000Z",
+  "published_label": null,
+  "rank": 529,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZaadmxFB49",
+  "source_url": "https://www.instagram.com/p/DZaadmxFB49/"
+}

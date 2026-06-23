@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYobuv0ILT8:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/704266839_18598724914031367_5544930321413483997_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHbGDHwwbCIqlHLQ2eXjMfTqX8kUe1RLEJoNXUffqzVWB01RJ3oNfKQ6KQ1Hbc6LJA&_nc_ohc=gqGW6Qkbv7UQ7kNvwFdS0RN&_nc_gid=LaJO5TmXeSLVsoBwWLmZ3A&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9hBail8pObNzY1ETh3rxbe1gxQV-0k_zK0wwztIcDthg&oe=6A348B5D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Don't look for someone to make you whole—⁠\nlook for someone to share your wholeness with.⁠\n⁠\npg. 90 from LVOE Volume II. Read more at the link in bio xx",
+    "word_count": 30
+  },
+  "communication_seed": {
+    "first_comment": "agreed with that.👏",
+    "latest_comments": [
+      "agreed with that.👏",
+      "@ohmyjash ❤️",
+      "@lisamgjames No-one else can make you \"whole\"...and does \"whole\" exist? Get used to your own company and enjoy that relationship...it will probably last longer than a relationship with anyone else. 🔥",
+      "@dirtneverhurt",
+      "That's a big shift. Stop looking for someone to fix you and start looking for someone who sees you're already enough. @thirteenthsparkle",
+      "❤️✨",
+      "❤️",
+      "@__nikho ❤️❤️❤️❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYobuv0ILT8",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYobuv0ILT8/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYobuv0ILT8",
+  "metrics": {
+    "comments": 8,
+    "likes": 3496,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 3856.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-22T07:00:19.000Z",
+  "published_label": null,
+  "rank": 555,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYobuv0ILT8",
+  "source_url": "https://www.instagram.com/p/DYobuv0ILT8/"
+}

@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXzRdvdhU6Y:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.71878-15/683822360_980783701106885_4979720363938839943_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gFx0A5lTqVN8LVwVUafZWJZRL2T7v7pE0Bree3fXczQBoYNXEND87yNRfl6xR5i4xs&_nc_ohc=UZ4PqWt3NKEQ7kNvwEvWN27&_nc_gid=-sERPFk2bvf7DSDhYYbiMQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9Nhhg6zR9-QKh2b4XZ-RqWDXPlrJ946uzcdjBgDR_n1Q&oe=6A348480&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You thought the waiting meant you were being overlooked. That maybe you weren’t chosen yet. That maybe you weren’t ready yet. That maybe something was wrong with you. But what if the waiting was never punishment—only preparation? What if the time it took wasn’t about delaying what you wanted, but about shaping you into someone who could actually hold it, keep it, and not lose yourself inside of it? Some things don’t arrive when you want them to. They arrive when you no longer need them to define you. And that changes everything.\n\n— Read more in the book ‘Stay Single’ by Rebecca Simon 🖤",
+    "word_count": 108
+  },
+  "communication_seed": {
+    "first_comment": "Amen",
+    "latest_comments": [
+      "Amen",
+      "This feels directly written to me. I’ve felt God holding onto my blessings until I am fully ready for it. He’s kept me in waiting for years, and I’m finally starting to see why it was all needed.",
+      "Thank you God! Amen! 🙏🏽❤️✨",
+      "🥹",
+      "i see what you did universe",
+      "❤️❤️❤️❤️",
+      "📌",
+      "Amen 🙏🏻"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXzRdvdhU6Y",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXzRdvdhU6Y/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXzRdvdhU6Y",
+  "metrics": {
+    "comments": 93,
+    "likes": 15356,
+    "plays": 495169,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 104698,
+    "winner_score": 23205.43
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-01T15:30:09.000Z",
+  "published_label": null,
+  "rank": 279,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXzRdvdhU6Y",
+  "source_url": "https://www.instagram.com/p/DXzRdvdhU6Y/"
+}

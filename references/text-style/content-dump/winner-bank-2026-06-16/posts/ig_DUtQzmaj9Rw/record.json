@@ -1,0 +1,378 @@
+{
+  "account": {
+    "full_name": "WE THE URBAN",
+    "instagram_user_id": null,
+    "username": "wetheurban"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:00",
+      "index": 0,
+      "local_path": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DUtQzmaj9Rw/media/slide_00_c52df69742f7.jpg",
+      "media_sha256": "c52df69742f75c2775d0ab4c734816c18a97f8371773575d085463b24c427d82",
+      "media_type": "image",
+      "ocr_engine": "rapidocr",
+      "ocr_lines": [
+        {
+          "box": [
+            234.0,
+            617.0,
+            835.0,
+            677.0
+          ],
+          "confidence": 0.9576089278511379,
+          "text": "The intimacy of someone"
+        },
+        {
+          "box": [
+            210.0,
+            688.0,
+            856.0,
+            746.0
+          ],
+          "confidence": 0.964272301197052,
+          "text": "protecting your name when"
+        },
+        {
+          "box": [
+            263.0,
+            755.0,
+            812.0,
+            816.0
+          ],
+          "confidence": 0.9224730419076007,
+          "text": "you're not in the room."
+        },
+        {
+          "box": [
+            419.0,
+            823.0,
+            663.0,
+            853.0
+          ],
+          "confidence": 0.942071405324069,
+          "text": "WE THEURBAN"
+        }
+      ],
+      "ocr_mean_confidence": 0.9466064190699649,
+      "ocr_status": "accepted",
+      "ocr_text": "The intimacy of someone\nprotecting your name when\nyou're not in the room.\nWE THEURBAN",
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/632136202_18566859790041751_4247457397038335030_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHmk9W5KSgib3d-MqYx-ZjygYkrH9ISru4LfJU02o9_VDS-V9Jg8G_A_i-mAXiUGSg&_nc_ohc=iltkzgr2NkAQ7kNvwEenM3M&_nc_gid=p-ltVhKRwUW1rXzM88eTHw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_tiNzz2jXkylCAQI-BAWfrCoZww59rPW0-NAdWDzeMzw&oe=6A3459AD&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "downloaded",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:08",
+      "index": 8,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:09",
+      "index": 9,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:10",
+      "index": 10,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:11",
+      "index": 11,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:12",
+      "index": 12,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:13",
+      "index": 13,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:14",
+      "index": 14,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:15",
+      "index": 15,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:16",
+      "index": 16,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:17",
+      "index": 17,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DUtQzmaj9Rw:asset:18",
+      "index": 18,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Leave a 💛 below if any of these resonated. ✨ We’re living through heavy times. In a world that feels loud, uncertain, and increasingly disconnected, intimacy becomes an anchor. A reminder that it still exists; in friendship, in forgiveness, in softness, in choosing each other anyway. Notice the small things. Those moments matter more than ever.\n\nFor more daily healing at your fingertips, get a copy of our debut book now @ wetheurban.com. More in our bio. 🫶🏽\n\nwords: @williegreene_",
+    "word_count": 78
+  },
+  "communication_seed": {
+    "first_comment": "also the same kind of weed (slide 5)",
+    "latest_comments": [
+      "also the same kind of weed (slide 5)",
+      "💛💛💛",
+      "Sacred🤎",
+      "💛",
+      "So much yaaaaassssss! 💛",
+      "This series made me cry so hard for my husband with whom I have not had a normal relationship with for almost 3 years since his stroke that radically changed him. He was all these things and still is, but it’s a more lonely existence for both of us while he is now living in a facility needing to caregivers to help him transfer and that he is completely blind from his stroke . I still adore him and miss him at the same time. I still see his beauty and strength of character.",
+      "beautifully said. gratitude is everything.",
+      "💛✨",
+      "Pride is nasty",
+      "Such a beautiful reminder—so touching and hopeful."
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DUtQzmaj9Rw",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DUtQzmaj9Rw/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DUtQzmaj9Rw/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DUtQzmaj9Rw",
+  "metrics": {
+    "comments": 1417,
+    "likes": 615337,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 679102.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-02-13T17:55:15.000Z",
+  "published_label": null,
+  "rank": 3,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DUtQzmaj9Rw",
+  "source_url": "https://www.instagram.com/p/DUtQzmaj9Rw/"
+}

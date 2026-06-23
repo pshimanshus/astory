@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXrzpBtiaiP:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-3.cdninstagram.com/v/t51.82787-15/681509119_17898272019431061_7573987015004939703_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-mia3-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gE8HMNGLica9cs_az4y-zGu_r-6TXMbRFF0WEl1RS6962srO8NeXB6E9OCrbATukzQ&_nc_ohc=bTVlotthPPwQ7kNvwEEqwik&_nc_gid=9f681LHG6IvrST9r5zTGBQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9agNOPOrb2c02pnqLAUkY98dQn3eM1TXxYKoJeRmlPuA&oe=6A348877&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "PTL 😭🙏🏼\n\nFollow @hereverydaymotherhood for more relatable everyday motherhood + marriage moments 🤍",
+    "word_count": 10
+  },
+  "communication_seed": {
+    "first_comment": "Yes❤️",
+    "latest_comments": [
+      "Yes❤️",
+      "Amen♥️✨",
+      "@silverbullet_m2c 🥹",
+      "Hallelujah",
+      "Amen",
+      "❤️",
+      "Our beautiful Father loves us so much!",
+      "❤️🙌😍",
+      "🙏",
+      "🙏🏽🙏🏽♥️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXrzpBtiaiP",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXrzpBtiaiP/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXrzpBtiaiP",
+  "metrics": {
+    "comments": 18,
+    "likes": 5095,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 5905.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-28T17:55:45.000Z",
+  "published_label": null,
+  "rank": 500,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXrzpBtiaiP",
+  "source_url": "https://www.instagram.com/p/DXrzpBtiaiP/"
+}

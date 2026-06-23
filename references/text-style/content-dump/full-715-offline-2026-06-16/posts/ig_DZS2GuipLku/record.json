@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZS2GuipLku:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.faus1-1.fna.fbcdn.net/v/t51.82787-15/719490163_17904325593431061_7884389869246492776_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.faus1-1.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gG2g6ojwGFLGIRVvIE_hhcAGPPdh8WiP4iWvbsGUnSzegmzGSYQjjc8-FdyUwAjFKA&_nc_ohc=VjbqslxGvgYQ7kNvwGUvmuF&_nc_gid=IZ7XVHgGgbe2OLQYhSG8fQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9H1oR9vO0C5d4hBuZiPbgB6AjQNIK_yA5R5vJIqlQI8Q&oe=6A34788D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Please…… vent more. 🫶🏼\n\nFollow @hereverydaymotherhood for more relatable motherhood + marriage moments 🤍",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "Literally 👏🏼👏🏼 Like I want to hear everything you want to say!",
+    "latest_comments": [
+      "Literally 👏🏼👏🏼 Like I want to hear everything you want to say!",
+      "☺️🫶🏼",
+      "@stephmarie_58 💙💙💙",
+      "I need this I just feel annoying 😢",
+      "🤍🤍",
+      "I stopped when I felt like a burden. But you're right, it is an honor.",
+      "❤️❤️❤️❤️❤️",
+      "❤️❤️❤️❤️",
+      "😍😍😍",
+      "🙌"
+    ],
+    "mechanic_tags": [
+      "static",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZS2GuipLku",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZS2GuipLku/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZS2GuipLku",
+  "metrics": {
+    "comments": 13,
+    "likes": 3374,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 3959.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-07T18:18:52.000Z",
+  "published_label": null,
+  "rank": 551,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZS2GuipLku",
+  "source_url": "https://www.instagram.com/p/DZS2GuipLku/"
+}

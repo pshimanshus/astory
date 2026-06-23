@@ -1,0 +1,185 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZaRN4LgTeL:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-hou1-1.cdninstagram.com/v/t51.82787-15/720805139_18600804631037688_3934345059805885814_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGYmMzAlwjJr72HqA0hkxSfYL6I_RJDQGNp9bSKsVJxHkjnx_U6MPA_RWRV4beGNd4&_nc_ohc=MGqC8-TW3MgQ7kNvwGVSEkc&_nc_gid=tJ3q9IyOfY7epCyA1AR5QA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af81WivBooMf2MfsE9DcBzkpicFV-sLZf-wF_h2cPwp8KA&oe=6A345DC0&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZaRN4LgTeL:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZaRN4LgTeL:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZaRN4LgTeL:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZaRN4LgTeL:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZaRN4LgTeL:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZaRN4LgTeL:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZaRN4LgTeL:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Everyone wants a better environment, but most keep getting distracted by things that hold them back.. 👇\n\nWhen you change what you allow into your mind, your thinking gets better FAST.\n\nThat’s why I highly recommend you follow these accounts and make your feed work for you:\n\n1) @aiautomationchannels\n\n2) @ronwritings\n\n3) @robdanceofficial\n\n4) @realjoemccarthy\n\n5) @drscottlyons\n\n6) @tif.talks\n\n7) @maria.wendt\n\n8) @lukestorey\n\n9) @breakthecyclewithkim\n\n10) @1stoptimal\n\n11) @wannercashcow\n\n12) @empowerfirst\n\n13) @thepersonaldevelopmentschool\n\n14) @doctor_staci\n\n15) @mehta_a\n\n16) @lukettobin\n\n17) @kaylabarnes\n\n18) @vexking\n\n19) @timbiohacker\n\n20) @thomasdelauer\n\n21) @jillianturecki\n\n22) @millionaire_mentor\n\n23) @luxurylifestylemagazine\n\n24) @hustlingadhd\n\n25) @psychologyaspect\n\n26) @psychologyposts_\n\nComment your favorite! 👇❤️💬",
+    "word_count": 107
+  },
+  "communication_seed": {
+    "first_comment": "@papa_ojiege9 I'm thankful for your spell. It helped me reunite with my husband and brought love back to our family.",
+    "latest_comments": [
+      "@papa_ojiege9 I'm thankful for your spell. It helped me reunite with my husband and brought love back to our family."
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZaRN4LgTeL",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZaRN4LgTeL/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZaRN4LgTeL",
+  "metrics": {
+    "comments": 1,
+    "likes": 1166,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1211.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T15:30:05.000Z",
+  "published_label": null,
+  "rank": 667,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZaRN4LgTeL",
+  "source_url": "https://www.instagram.com/p/DZaRN4LgTeL/"
+}

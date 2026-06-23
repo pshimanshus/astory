@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWHIFmthRqp:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/654640660_966530839525494_8478850827039917162_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gGi_kvJUgs-6G9Z3aPouMeZJLjbMruqPJgif-Qxq6hWKDN5uE7CUPYPcf_Gj08JLz8&_nc_ohc=UGYXGr9dO-YQ7kNvwFMj9KX&_nc_gid=cEhL4_0AyGi35G6UVJaREg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_7dZEp0udEx5AoxVV2cJCz8e_JbRWrLf6zS1wq2I47Qg&oe=6A3480DC&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Love is not supposed to feel like guessing.  The right kind of connection brings a sense of ease — not because everything is perfect, but because you feel safe enough to be understood, even in the moments when you don’t fully understand yourself. \n\nYou deserve someone who chooses curiosity over assumption, softness over reaction, and presence over distance. Someone who doesn’t just love you when it’s easy, but leans in closer when it’s not. \n\nThe kind of love meant for you will not make you feel like you have to explain your worth or translate your feelings. It will meet you where you are, and remind you that being deeply seen is not too much — it’s exactly what you were meant to experience. \n\n— Words from the book ‘And Yet — Here You Are’ by Eileen Lamb 🖤📖",
+    "word_count": 139
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️",
+    "latest_comments": [
+      "❤️❤️",
+      "Absolutely, intention is what really matters. 👌🏻✨",
+      "❤️",
+      "❤️❤️",
+      "For myself 🫶🏼",
+      "I feel like I’m always that person, it’s exhausting not getting the same energy back. Rn, I’m learning to focus all energy inward, love me, nature me, show up for me",
+      "🖤🖤",
+      "😢",
+      "This!!",
+      "Thanks for sharing my book 🫶🏻"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWHIFmthRqp",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWHIFmthRqp/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWHIFmthRqp",
+  "metrics": {
+    "comments": 21,
+    "likes": 10175,
+    "plays": 286078,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 70205,
+    "winner_score": 13577.17
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-25T04:00:00.000Z",
+  "published_label": null,
+  "rank": 359,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWHIFmthRqp",
+  "source_url": "https://www.instagram.com/p/DWHIFmthRqp/"
+}

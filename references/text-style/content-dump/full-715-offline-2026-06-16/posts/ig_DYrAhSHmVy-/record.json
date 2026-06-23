@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYrAhSHmVy-:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-den2-1.cdninstagram.com/v/t51.82787-15/683618000_18599013250031367_7362615778762145479_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gGjZkP7b7bZDTyyhNWSNEFJOeRxSVNXTA4P3EunAL4V0RMnJfQlNDl7f2ZnugID7zo&_nc_ohc=WAOuYoNgbaAQ7kNvwGKNi-C&_nc_gid=layBmrVXWWNds2dUmHbOyw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8IEg8LENLgYxIbILqkQFlWlkDAFkGxezmRP0PVLVizkg&oe=6A345A15&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "maybe this is the season⁠\neverything changes.⁠\n⁠\nand maybe that’s what it was always meant to do—⁠\nnot stay the same,⁠\nnot stay certain,⁠\nbut open quietly into something new.⁠\n⁠\nif you’re in a season like that,⁠\nyou’re not alone.",
+    "word_count": 43
+  },
+  "communication_seed": {
+    "first_comment": "Maybe this season, we accept things as they, good or bad, things just happen.",
+    "latest_comments": [
+      "Maybe this season, we accept things as they, good or bad, things just happen.",
+      "❤️",
+      "Please let it be!!!",
+      "My son's name is Atticus. I love your poetry 💖",
+      "It is where he stops returning to what broke him and starts becoming someone it can’t.",
+      "🔥👏",
+      "❤️‍🔥",
+      "❤️❤️🙌",
+      "Not maybe. It is! I believe it is❤️",
+      "So feeling this🫶🏼"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYrAhSHmVy-",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYrAhSHmVy-/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYrAhSHmVy-",
+  "metrics": {
+    "comments": 36,
+    "likes": 3777,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 5397.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-23T07:00:16.000Z",
+  "published_label": null,
+  "rank": 511,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYrAhSHmVy-",
+  "source_url": "https://www.instagram.com/p/DYrAhSHmVy-/"
+}

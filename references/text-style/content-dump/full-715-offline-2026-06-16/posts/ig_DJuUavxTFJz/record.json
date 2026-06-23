@@ -1,0 +1,192 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DJuUavxTFJz:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/497806649_18527585860023341_335906348072985551_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHF-x2hcmR-uaWALz3Mywj5igZtfPMeR5aBcZ0IGnBWZiS69-PqNZy-QZEx7otafMA&_nc_ohc=zVPfSg3U7jEQ7kNvwH-_TQd&_nc_gid=cRpW1mBvqBrgMXpuXWGEqw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8_OWVCKmHzhOHUpm3Cvlgk2AJMcDS2ImZK8gHdhfjuPg&oe=6A345B34&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJuUavxTFJz:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJuUavxTFJz:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJuUavxTFJz:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJuUavxTFJz:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJuUavxTFJz:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJuUavxTFJz:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJuUavxTFJz:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You cannot heal what you refuse to face, and you cannot grow while hiding from the truth.⁠\n⁠\nThis is your reminder:⁠\n – Boundaries are necessary, but so is reflection.⁠\n – You can take space and still take ownership.⁠\n – Avoidance is not self-care, it’s self-protection rooted in fear.⁠\n – Real peace requires honesty with yourself first. 🌻⁠\n⁠\nYou are allowed to choose yourself, but not at the expense of becoming someone you don’t recognise. Make space for your feelings. Sit with your discomfort. Say the hard thing with love.⁠\n⁠\nBecause healing isn’t just about protecting your peace, it’s about learning how to live in alignment with it.⁠\n⁠\nLeave a 💚 if this resonated with you.⁠",
+    "word_count": 115
+  },
+  "communication_seed": {
+    "first_comment": "Yess💯",
+    "latest_comments": [
+      "Yess💯",
+      "👏👏",
+      "❤️",
+      "👏",
+      "💯 Facts",
+      "👏",
+      "Amen 🙌",
+      "@goldy.ess96 #Kenny"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DJuUavxTFJz",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DJuUavxTFJz/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DJuUavxTFJz",
+  "metrics": {
+    "comments": 183,
+    "likes": 89069,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 97304.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-05-16T18:00:46.000Z",
+  "published_label": null,
+  "rank": 110,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DJuUavxTFJz",
+  "source_url": "https://www.instagram.com/p/DJuUavxTFJz/"
+}

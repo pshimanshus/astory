@@ -1,0 +1,136 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXR-31DESTl:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-3.cdninstagram.com/v/t51.82787-15/670832356_17896705455431061_6641465930843073269_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-mia3-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFXRtbsXjZJgc85dk_huGyGstkhBLo60_o-mG-GrQeC9zWk4s7hKw5-yFEJ3ERMWgA&_nc_ohc=GJOK_me7zYsQ7kNvwElMJJo&_nc_gid=OlIVgu0dDuK4qrM8q2lYSw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-HGC0gNkrED1z2koqBPNjZdkjbyGj_LuKU2siRw5UhtA&oe=6A347ED5&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXR-31DESTl:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXR-31DESTl:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "From wild teenagers to building an entire life together. 🥺🤍 \n\nFollow @hereverydaymotherhood for more relatable everyday motherhood + marriage moments 🤍",
+    "word_count": 18
+  },
+  "communication_seed": {
+    "first_comment": "@chri5_rod 🙏🏼🥰",
+    "latest_comments": [
+      "@chri5_rod 🙏🏼🥰",
+      "@_dpalmieri",
+      "@dannywelland",
+      "@rags2riches909 😘",
+      "@jr2sick0 🩵",
+      "@1029litoz ❤️",
+      "@lllbrianvlll",
+      "@vic_letoi ily2tfol❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXR-31DESTl",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXR-31DESTl/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DXR-31DESTl/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXR-31DESTl",
+  "metrics": {
+    "comments": 56,
+    "likes": 23917,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 26437.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-04-18T17:13:14.000Z",
+  "published_label": null,
+  "rank": 140,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXR-31DESTl",
+  "source_url": "https://www.instagram.com/p/DXR-31DESTl/"
+}

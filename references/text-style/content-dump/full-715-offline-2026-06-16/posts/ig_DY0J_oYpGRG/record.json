@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY0J_oYpGRG:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/706931128_1027166289986939_5086122923211446021_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gH00BEap894yANQLxNxpJ4rKiIyfY0eRH-r672Q7Uo0lS6ZQahLZljjvO5wzbCoU-4&_nc_ohc=wQgFLsmhfX0Q7kNvwEA-HBU&_nc_gid=SjC3tY2v310NunRycKChrA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8740OTNKXy6cXwOxi041kuv317FSwrXRBAZjGyuyX51Q&oe=6A348514&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Introducing Atticus x Inked: Inner Voice Tattoos 🖤 \n\nA limited-edition collection of hand-drawn temporary tattoos designed by @inked.bydani and @atticuspoetry , inspired by poetry, mantras, and the quiet truths we carry inside ourselves. \n\n“i am enough.” \n“made of magic.”\n“stay wild.”\n\nWear them for a moment, or let them stay a little longer. Either way, they’re reminders of who you are, and who you’re becoming.",
+    "word_count": 68
+  },
+  "communication_seed": {
+    "first_comment": "✨🤩✨",
+    "latest_comments": [
+      "✨🤩✨",
+      "😍",
+      "the cutest!! @inked.bydani",
+      "❤️❤️❤️",
+      "Cool 👏",
+      "Love these!",
+      "the best reminders 🤍✨"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY0J_oYpGRG",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY0J_oYpGRG/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY0J_oYpGRG",
+  "metrics": {
+    "comments": 8,
+    "likes": 211,
+    "plays": 28872,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 3259,
+    "winner_score": 685.07
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-26T20:17:08.000Z",
+  "published_label": null,
+  "rank": 696,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY0J_oYpGRG",
+  "source_url": "https://www.instagram.com/p/DY0J_oYpGRG/"
+}

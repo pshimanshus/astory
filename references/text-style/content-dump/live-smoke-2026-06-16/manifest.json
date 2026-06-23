@@ -1,0 +1,289 @@
+{
+  "built_at": "2026-06-16T18:17:04.338987+00:00",
+  "post_count": 5,
+  "posts": [
+    {
+      "account": "wetheurban",
+      "asset_slots": 10,
+      "comments": 2495,
+      "gaps": [
+        {
+          "field": "assets[].ocr_text",
+          "reason": "OCR is a separate pass over downloaded images/screenshots.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].visual_notes",
+          "reason": "Visual/style analysis should run after assets are downloaded.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].remote_url",
+          "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "public_html",
+          "reason": "Public page fetch did not return parseable Instagram meta tags.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.saves",
+          "reason": "Third-party saves are not public Instagram metrics.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.shares",
+          "reason": "Third-party shares are not public Instagram metrics.",
+          "status": "not_scraped"
+        }
+      ],
+      "id": "ig:Cu9_zpoJMz3",
+      "likes": 2182236,
+      "post_type": "carousel",
+      "public_html": {
+        "account_username": null,
+        "canonical_url": null,
+        "caption_preview": null,
+        "comments": null,
+        "instagram_media_id": null,
+        "likes": null,
+        "owner_user_id": null,
+        "primary_image_url": null,
+        "published_label": null,
+        "raw_description": "",
+        "status": "public_meta_missing"
+      },
+      "rank": 1,
+      "shortcode": "Cu9_zpoJMz3",
+      "source_url": "https://www.instagram.com/p/Cu9_zpoJMz3/"
+    },
+    {
+      "account": "werenotreallystrangers",
+      "asset_slots": 1,
+      "comments": 1166,
+      "gaps": [
+        {
+          "field": "assets[].ocr_text",
+          "reason": "OCR is a separate pass over downloaded images/screenshots.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].visual_notes",
+          "reason": "Visual/style analysis should run after assets are downloaded.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "public_html",
+          "reason": "Public page fetch did not return parseable Instagram meta tags.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "reel_transcript",
+          "reason": "Transcript extraction needs a video/audio pass.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "metrics.saves",
+          "reason": "Third-party saves are not public Instagram metrics.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.shares",
+          "reason": "Third-party shares are not public Instagram metrics.",
+          "status": "not_scraped"
+        }
+      ],
+      "id": "ig:DWmIMotjuZf",
+      "likes": 679613,
+      "post_type": "reel",
+      "public_html": {
+        "account_username": null,
+        "canonical_url": null,
+        "caption_preview": null,
+        "comments": null,
+        "instagram_media_id": null,
+        "likes": null,
+        "owner_user_id": null,
+        "primary_image_url": null,
+        "published_label": null,
+        "raw_description": "",
+        "status": "public_meta_missing"
+      },
+      "rank": 2,
+      "shortcode": "DWmIMotjuZf",
+      "source_url": "https://www.instagram.com/p/DWmIMotjuZf/"
+    },
+    {
+      "account": "wetheurban",
+      "asset_slots": 19,
+      "comments": 1417,
+      "gaps": [
+        {
+          "field": "assets[].ocr_text",
+          "reason": "OCR is a separate pass over downloaded images/screenshots.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].visual_notes",
+          "reason": "Visual/style analysis should run after assets are downloaded.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].remote_url",
+          "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "public_html",
+          "reason": "Public page fetch did not return parseable Instagram meta tags.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.saves",
+          "reason": "Third-party saves are not public Instagram metrics.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.shares",
+          "reason": "Third-party shares are not public Instagram metrics.",
+          "status": "not_scraped"
+        }
+      ],
+      "id": "ig:DUtQzmaj9Rw",
+      "likes": 615337,
+      "post_type": "carousel",
+      "public_html": {
+        "account_username": null,
+        "canonical_url": null,
+        "caption_preview": null,
+        "comments": null,
+        "instagram_media_id": null,
+        "likes": null,
+        "owner_user_id": null,
+        "primary_image_url": null,
+        "published_label": null,
+        "raw_description": "",
+        "status": "public_meta_missing"
+      },
+      "rank": 3,
+      "shortcode": "DUtQzmaj9Rw",
+      "source_url": "https://www.instagram.com/p/DUtQzmaj9Rw/"
+    },
+    {
+      "account": "wetheurban",
+      "asset_slots": 14,
+      "comments": null,
+      "gaps": [
+        {
+          "field": "assets[].ocr_text",
+          "reason": "OCR is a separate pass over downloaded images/screenshots.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].visual_notes",
+          "reason": "Visual/style analysis should run after assets are downloaded.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].remote_url",
+          "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "public_html",
+          "reason": "Public page fetch did not return parseable Instagram meta tags.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.saves",
+          "reason": "Third-party saves are not public Instagram metrics.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.shares",
+          "reason": "Third-party shares are not public Instagram metrics.",
+          "status": "not_scraped"
+        }
+      ],
+      "id": "ig:DZCPLTlFa_k",
+      "likes": 569441,
+      "post_type": "carousel",
+      "public_html": {
+        "account_username": null,
+        "canonical_url": null,
+        "caption_preview": null,
+        "comments": null,
+        "instagram_media_id": null,
+        "likes": null,
+        "owner_user_id": null,
+        "primary_image_url": null,
+        "published_label": null,
+        "raw_description": "",
+        "status": "public_meta_missing"
+      },
+      "rank": 4,
+      "shortcode": "DZCPLTlFa_k",
+      "source_url": "https://www.instagram.com/p/DZCPLTlFa_k/"
+    },
+    {
+      "account": "wetheurban",
+      "asset_slots": 13,
+      "comments": 1065,
+      "gaps": [
+        {
+          "field": "assets[].ocr_text",
+          "reason": "OCR is a separate pass over downloaded images/screenshots.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].visual_notes",
+          "reason": "Visual/style analysis should run after assets are downloaded.",
+          "status": "not_attempted"
+        },
+        {
+          "field": "assets[].remote_url",
+          "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "public_html",
+          "reason": "Public page fetch did not return parseable Instagram meta tags.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.saves",
+          "reason": "Third-party saves are not public Instagram metrics.",
+          "status": "not_scraped"
+        },
+        {
+          "field": "metrics.shares",
+          "reason": "Third-party shares are not public Instagram metrics.",
+          "status": "not_scraped"
+        }
+      ],
+      "id": "ig:DYJczlHlQmM",
+      "likes": 473527,
+      "post_type": "carousel",
+      "public_html": {
+        "account_username": null,
+        "canonical_url": null,
+        "caption_preview": null,
+        "comments": null,
+        "instagram_media_id": null,
+        "likes": null,
+        "owner_user_id": null,
+        "primary_image_url": null,
+        "published_label": null,
+        "raw_description": "",
+        "status": "public_meta_missing"
+      },
+      "rank": 5,
+      "shortcode": "DYJczlHlQmM",
+      "source_url": "https://www.instagram.com/p/DYJczlHlQmM/"
+    }
+  ],
+  "schema_version": "instagram_content_dump.v1",
+  "sort_by": "likesCount",
+  "source_file": "references/text-style/winner-bank/posts_merged.json"
+}

@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFdbguLPrPp:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t39.30808-6/475524722_937547238530866_2530630523283210110_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEa5zE6trnCBOS1oI01QgsuSqfs-pnL2D6Byfed7lP8NPZ7vC9no2NIw2bbqTK3guY&_nc_ohc=MFzHQ0FfnzwQ7kNvwFLKmhz&_nc_gid=dAY2jorcTudlQaNYBZBVPA&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af_Io3V84COFS9W_vNlfniEymAZYTmptl5gARg1Z69WW8Q&oe=6A348614&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Be patient with yourself. Growth is happening, even when you can’t see it. 🌻\nType \"Yes\" if you agree.",
+    "word_count": 19
+  },
+  "communication_seed": {
+    "first_comment": "Yes",
+    "latest_comments": [
+      "Yes",
+      "❤️❤️",
+      "👌",
+      "❤️❤️❤️",
+      "Yes👏",
+      "Yes",
+      "Keep Going❤️",
+      "Yes"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFdbguLPrPp",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFdbguLPrPp/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFdbguLPrPp",
+  "metrics": {
+    "comments": 186,
+    "likes": 88939,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 97309.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-30T18:30:03.000Z",
+  "published_label": null,
+  "rank": 109,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFdbguLPrPp",
+  "source_url": "https://www.instagram.com/p/DFdbguLPrPp/"
+}

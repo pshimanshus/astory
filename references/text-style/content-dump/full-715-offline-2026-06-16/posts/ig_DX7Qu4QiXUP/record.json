@@ -1,0 +1,142 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DX7Qu4QiXUP:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fboi1-1.fna.fbcdn.net/v/t51.82787-15/684534177_18593731099031367_1140073043208576222_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=instagram.fboi1-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gG00vaSiDirn_iFUzk5ydAddXKLICBxksuhKg1rwNif4G2LdVc8mFqLXjkDIaH4u00&_nc_ohc=HSCVfnnaMVgQ7kNvwHImagD&_nc_gid=kzjCmDVaLd4DbZZcdyXP1w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_F6OaQpIj1fxav-Qfv35dG1zIXd_fbCpR1NEXcsQCsLg&oe=6A347CAE&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DX7Qu4QiXUP:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DX7Qu4QiXUP:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DX7Qu4QiXUP:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "pick a card, any card. what does yours say?\n\nsome words are meant to be kept. some are meant to be lost in the flame.\nand maybe that’s the point— that even what burns still leaves something behind.\n\nwords by @atticuspoetry, images by @elmohood",
+    "word_count": 45
+  },
+  "communication_seed": {
+    "first_comment": "❤️♦️",
+    "latest_comments": [
+      "❤️♦️",
+      "A❤️",
+      "🔥",
+      "🔥good work here",
+      "🔥👏👏👏😍😍",
+      "You are beautiful ❤️❤️",
+      "Wow! This is magical",
+      "4 is my favorite of yours. 🔥❤️",
+      "@periquitatanyalucia thankyou 🙏"
+    ],
+    "mechanic_tags": [
+      "carousel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX7Qu4QiXUP",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX7Qu4QiXUP/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DX7Qu4QiXUP",
+  "metrics": {
+    "comments": 42,
+    "likes": 25393,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 27283.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-04T17:58:10.000Z",
+  "published_label": null,
+  "rank": 248,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DX7Qu4QiXUP",
+  "source_url": "https://www.instagram.com/p/DX7Qu4QiXUP/"
+}

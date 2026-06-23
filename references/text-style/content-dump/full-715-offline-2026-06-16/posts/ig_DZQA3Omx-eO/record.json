@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZQA3Omx-eO:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.faus1-1.fna.fbcdn.net/v/t51.82787-15/718221886_18049369130782076_1674675038894387786_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.faus1-1.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2gHE9SQ4FijGsX8SXPSO5nVYWmL8tZAbeO7NqqAFfS2kL826_hDwsnTyPclaZot3Ui0&_nc_ohc=SGKSvJD_EzcQ7kNvwET-pwm&_nc_gid=5BqomAd-mgy76jgcIVcJOg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-z3NbjtcqhRUOJkNLk2gBcjmmD0lxXgcoNz7nG2Ayx-Q&oe=6A346DBF&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessages",
+      "RelationshipGoals",
+      "ILoveYou",
+      "CoupleGoals",
+      "PassionateLoveMessages"
+    ],
+    "public_preview": null,
+    "text": "Sometimes all it takes is one thought of you to turn an ordinary day into a beautiful one. 💕\n\nYou have a weird habit of making my heart smile without even trying.\n\nTag the person who makes your day 100x cuter. 🥹❤️\n\n#LoveMessages #RelationshipGoals #ILoveYou #CoupleGoals #PassionateLoveMessages",
+    "word_count": 45
+  },
+  "communication_seed": {
+    "first_comment": "This is precious. ❤️😊",
+    "latest_comments": [
+      "This is precious. ❤️😊",
+      "❤️🥰☀️💐",
+      "😊♥️",
+      "…🇰🇷K💖…",
+      "My love, you give me the feeling of happiness. My heart will always smile, thanks to you, my only one ❤️❤️❤️❤️❤️❤️❤️❤️",
+      "❤️❤️❤️❤️",
+      "Nastya Gaitur 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞 💞",
+      "The power of Jesus"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZQA3Omx-eO",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZQA3Omx-eO/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZQA3Omx-eO",
+  "metrics": {
+    "comments": 24,
+    "likes": 637,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1717.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-06T15:55:05.000Z",
+  "published_label": null,
+  "rank": 643,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZQA3Omx-eO",
+  "source_url": "https://www.instagram.com/p/DZQA3Omx-eO/"
+}

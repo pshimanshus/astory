@@ -1,0 +1,114 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DX7Bc0AOJ2g:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/683428954_1654652325777692_1131639451841853941_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gE89nc-mmeSkcyKq7rprhC139RlzS8HTFJynlsXLh3R74NDSzKkF4BSE-SWZKQMSlc&_nc_ohc=QAyREQKO4t4Q7kNvwGj2WOx&_nc_gid=JkQ1P8ySc1UVOHDD6gqZnA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8XhhNnhypOHz8FaPOEPnIMsodQy3WEe0NmUO6zAr8uJg&oe=6A348280&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "reminder: you deserve every good thing that happens to you...\n\np.s. my collab with @comfrt is restocked with this message on the back of the coziest hoodies<3 + matching sweatpants available too this time",
+    "word_count": 35
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "I woke up again today!!! ohhh to be alive.",
+      "I'm at peace",
+      "i've found a will to live once more",
+      "😍😍😍🥹🥹🥹👏👏❤️❤️",
+      "I just received my acceptance letter from my dream university.",
+      "Who the fuck is cutting onions 🥹🧿",
+      "Congratulations to everyone!!"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DX7Bc0AOJ2g",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DX7Bc0AOJ2g/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DX7Bc0AOJ2g/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DX7Bc0AOJ2g",
+  "metrics": {
+    "comments": 1120,
+    "likes": 395624,
+    "plays": 5126540,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 2394523,
+    "winner_score": 529832.31
+  },
+  "post_type": "reel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-05-04T15:45:59.000Z",
+  "published_label": null,
+  "rank": 6,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DX7Bc0AOJ2g",
+  "source_url": "https://www.instagram.com/p/DX7Bc0AOJ2g/"
+}

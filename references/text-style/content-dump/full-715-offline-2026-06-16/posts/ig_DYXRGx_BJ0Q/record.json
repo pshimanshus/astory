@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYXRGx_BJ0Q:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.71878-15/687539874_3262681403909455_1901238468270760626_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEAAGB6Pc13eVL_rDPKT8O-xHk57NF13gmrb56Rzl55Z1rRObMcqXYlrZTPAsGLdnY&_nc_ohc=X4eC93aSfY8Q7kNvwElCXB6&_nc_gid=xeo7Xd8Bt0xx_hN2iIV3Wg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8c-WqWl5jvJCr5eX1HlyBm9FvIOeEGkHm8uP1Bm3zDnQ&oe=6A347888&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "I hope you believe that you can still make a beautiful life for yourself even if you lost many years of it to grief, or darkness, or a wound that wouldn’t close. I understand what it is like to have this world introduce you to your own shadow, to let the ache follow you around long after you have healed, convincing you that you aren’t worthy or capable of holding peace within yourself.\n\nAnd so, if you have forgotten — I hope you know that the things that have battle-scarred you do not disqualify you from being able to experience something deep, and rooted, and tender in your lifetime.\n\nIf you have forgotten, I hope you know that you are worthy of the kind of love that shines warmth into all corners of you. You always have been.\n\nBecause at the end of the day, the most formidable thing about the right kind of love is that it will not just choose you in all that is light filled and perfect in your world. It will crack you open, it will find the rooms within your heart and your mind that are padlocked and hard to touch, and it will hold you there. It will understand you, and see you, and it will not run from you when the wound is scratched. It will stand firmly in front of you and hold your face between its palms and it will say, “It is okay to be who you are with me.”\n\nThe right kind of love will never judge you for who you had to be in order to navigate your sadness, in order to cut the ache from the bone. It will never fault you for the things you went through that you did not deserve, for the ways in which you were weathered by the people you placed your hope within. It wasn’t your fault. It wasn’t your fault.\n\nRemember - your past does not prohibit you from the goodness that is trying to reach you. It does not make you ineligible, or undeserving of love, or connection, or the things you desire. You have the capacity to experience beauty, to nurture it within yourself, and when you are ready to move towards it, know that it will meet you where you are. Know that you have every right to hold it.\n\n— Words by Bianca Sparacino 🖤\nRead more in her book ‘The Strength In Our Scars’ 📖",
+    "word_count": 411
+  },
+  "communication_seed": {
+    "first_comment": "Yan nagpalamon ka. Kala ko ba naniniwala ka kay Jesus? Bakit mo ginawa? You are not me. Wag kang feeling.",
+    "latest_comments": [
+      "Yan nagpalamon ka. Kala ko ba naniniwala ka kay Jesus? Bakit mo ginawa? You are not me. Wag kang feeling.",
+      "Dang Bianca, I hear you🥺",
+      "Yes please ❤️",
+      "i love this ❤️",
+      "It’s a process.",
+      "So true ❤️you are better than that!",
+      "💯"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person",
+      "nostalgia"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYXRGx_BJ0Q",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYXRGx_BJ0Q/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYXRGx_BJ0Q",
+  "metrics": {
+    "comments": 10,
+    "likes": 5903,
+    "plays": 128716,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 31337,
+    "winner_score": 7449.8
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-15T15:00:09.000Z",
+  "published_label": null,
+  "rank": 459,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYXRGx_BJ0Q",
+  "source_url": "https://www.instagram.com/p/DYXRGx_BJ0Q/"
+}

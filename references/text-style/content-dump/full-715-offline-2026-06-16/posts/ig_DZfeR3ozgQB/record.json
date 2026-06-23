@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZfeR3ozgQB:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-1.cdninstagram.com/v/t51.71878-15/720434864_1593582295669286_2882329846111758713_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gEA-lhOJa3bUrs7Wu5erPJJTO6w0KlzWkJvmh8YV4WSPEthwjKzfJtZ7pTy37N7yhw&_nc_ohc=JLuoqybftPcQ7kNvwEsJD7x&_nc_gid=odsFkcm7GN5NW-sc6Hzo4g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8On8M9nLahz51BoZPvoUhkTD2jBy-wVAMQbn_APd4Vfw&oe=6A345730&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "6 luxuries in life",
+    "word_count": 4
+  },
+  "communication_seed": {
+    "first_comment": "I would add gratitude as #7.",
+    "latest_comments": [
+      "I would add gratitude as #7.",
+      "true wealth is the ability to choose silence.",
+      "💯",
+      "🙌",
+      "❤️❤️",
+      "@cvankemp what do you think about it?",
+      "❤️❤️❤️",
+      "Yeah... I agree. But I'd add three more: freedom, a job you love, and the desire and ability to live!",
+      "@_martynapolewczak_ 100% better than anything else ❤️"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZfeR3ozgQB",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZfeR3ozgQB/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZfeR3ozgQB",
+  "metrics": {
+    "comments": 14,
+    "likes": 6158,
+    "plays": 199754,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 32976,
+    "winner_score": 7942.16
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T16:54:43.000Z",
+  "published_label": null,
+  "rank": 451,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZfeR3ozgQB",
+  "source_url": "https://www.instagram.com/p/DZfeR3ozgQB/"
+}

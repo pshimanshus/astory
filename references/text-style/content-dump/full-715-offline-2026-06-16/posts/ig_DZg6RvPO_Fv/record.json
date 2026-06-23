@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZg6RvPO_Fv:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/723704736_18428797933133491_5534921170552833962_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gETfXWLviboOSvTrW7ZafJHpx02gYe2ML7i4m_6CPD9TLC-zXDfWS0ByeJu57tn3yU&_nc_ohc=rTx-buAv_3QQ7kNvwHqKyGL&_nc_gid=RboGWiq6YjakwZP5EfB-mw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_7Vu2rm5evPVMqCokYBvH-kj4X8OiXgbE0OuPr1CXkZQ&oe=6A345726&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Drop a ❤️ if you agree!",
+    "word_count": 5
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "❤️",
+      "❤️",
+      "❤️",
+      "Same!",
+      "❤️",
+      "foreals 😂 hearing my name get yelled was my notification sound",
+      "❤️",
+      "❤️",
+      "I Miss The Old Days 💯"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZg6RvPO_Fv",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZg6RvPO_Fv/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZg6RvPO_Fv",
+  "metrics": {
+    "comments": 19,
+    "likes": 2793,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 3648.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-13T05:24:44.000Z",
+  "published_label": null,
+  "rank": 561,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZg6RvPO_Fv",
+  "source_url": "https://www.instagram.com/p/DZg6RvPO_Fv/"
+}

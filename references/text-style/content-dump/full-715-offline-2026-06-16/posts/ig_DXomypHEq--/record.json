@@ -1,0 +1,169 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXomypHEq--:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-2.cdninstagram.com/v/t51.82787-15/682722320_18591666385031367_5116336137447667289_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gGIHSIqKN2wTqqHa7OV8N3P-q1-J1jqUvChSiZ67nZjrRrto7vBj96p5sr4su8_D4c&_nc_ohc=IgYkEDTG99IQ7kNvwHLcQ4g&_nc_gid=G6cfAjS34PAxIc82mn3JMg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_dsbuocFzViQKbCi6ldEh--D9dyEVUGIc3XWxErV0IrA&oe=6A34707D&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXomypHEq--:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXomypHEq--:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXomypHEq--:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXomypHEq--:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXomypHEq--:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "we all have letters we never send.⁠\n⁠\ntag someone you wish you could say it to, or just feel it quietly together. 💭",
+    "word_count": 22
+  },
+  "communication_seed": {
+    "first_comment": "I loovveee that!!!!",
+    "latest_comments": [
+      "I loovveee that!!!!",
+      "I still write a letters and sending cards made with my own hands . It's so beautiful to be cultural ❤️",
+      "https://www.instagram.com/p/DJ0T_HOoD4w/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==\n@alonealive12025",
+      "Many poets were born from the ashes of those letters.",
+      "Imma take this as a sign \"letters we never sent\"- \"letters never sent\" 😭",
+      "I'm not going anywhere \n💜",
+      "I write my truth in ink, then set it free in flames.✨️💗",
+      "😢😢😢 icanteven",
+      "🩷🩷🩷",
+      "OMG!!! This is basically my account 🥹 I have a lot I want to say but we all know that not everything has to be said or heard. So here I am, turning feelings into poetry. ❤️‍🩹"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXomypHEq--",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXomypHEq--/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXomypHEq--",
+  "metrics": {
+    "comments": 16,
+    "likes": 2502,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 3222.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-27T12:05:24.000Z",
+  "published_label": null,
+  "rank": 573,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXomypHEq--",
+  "source_url": "https://www.instagram.com/p/DXomypHEq--/"
+}

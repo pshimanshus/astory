@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZePI1-hAUm:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/723111008_18050142605782076_7249420382574135354_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gF--QfKw_3Ok1JwLLVZzIpaGxoaqG1CqnZOykPyB_H4c5cxZJr8ne-UXRSpm3Q_hKk&_nc_ohc=85eOVkwhEAYQ7kNvwHvOgWB&_nc_gid=zzM9CnPNnDV9AQOeFMhMaQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9HQ5pGCqEZ7dc8IijHi3KO_R9b0Im8jSaZfHAiaJv-sA&oe=6A34775D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "❤️❤️",
+    "word_count": 0
+  },
+  "communication_seed": {
+    "first_comment": "💋 💞🌙🕊",
+    "latest_comments": [
+      "💋 💞🌙🕊",
+      "Hi nice chance to say Boa Noite and Sweet dreams. 🌻😘",
+      "❤️❤️❤️❤️❤️❤️❤️",
+      "@bigbaldhead forever ❤️",
+      "🙏🏽❤️🥰🌹🕊",
+      "❤️❤️",
+      "Nastya Gaitur,  good night my love. I will dream of you as I always do. I love you hunny, always and forever ❤️❤️❤️😘😘😘😘😘😘😘😘😘😘😘😘😘💞💞💞💞💞💞💞💞💞💞💞",
+      "Nastya Gaitur,  have a great day. Please think of me and be faithful to me. I need you to come home to me now.  I love you so much baby ❤️❤️❤️❤️❤️❤️❤️😘😘😘😘😘😘😘😘😘😘💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞",
+      "Good night my beautiful princess sleep with all the baby angels and dream of us together in the moon light for that moment we shared together. ❤️ love you baby ✨️"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZePI1-hAUm",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZePI1-hAUm/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZePI1-hAUm",
+  "metrics": {
+    "comments": 11,
+    "likes": 309,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 804.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T04:29:24.000Z",
+  "published_label": null,
+  "rank": 689,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZePI1-hAUm",
+  "source_url": "https://www.instagram.com/p/DZePI1-hAUm/"
+}

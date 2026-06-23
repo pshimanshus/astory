@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZaUt_Pyvp2:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://instagram.ftup1-1.fna.fbcdn.net/v/t51.71878-15/718942209_751170624724836_5475607971213353596_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.ftup1-1.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gHIV6T8O8D9_-ws9ts8H1HfgseFXa3SfaLJJ8G1pEKmiPGg_FZ1JQMl3F43eGqq6RA&_nc_ohc=rS2RbgPXaE8Q7kNvwEnkdXp&_nc_gid=02VkRD2UxHtKfGfAmLTqvQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-jHAxsoeYHES0YpguxDIaxSvvJN03fYirs8NsCm81rRQ&oe=6A3468BF&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "This",
+    "word_count": 1
+  },
+  "communication_seed": {
+    "first_comment": "Its always your most favrte people who ends up hurting you “",
+    "latest_comments": [
+      "Its always your most favrte people who ends up hurting you “",
+      "Months apart felt like a lifetime, but today we're finding our way back to each other. Grateful for the encouragement and support from @lovehealing0. ❤️",
+      "But I always am kind because I don’t know what the person next to me is facing. 9/10 people are going through something hard.",
+      "💯 💯 💯",
+      "This",
+      "Lies, anyone who thinks this way needs to humble themselves. To say you've never hurt people while going through issues even accidentally is an actual lie because you'd have to be a literal saint. People say things, people do things, its human to react when hurt or going through things but quoted posts like these just enable people to not take accountability and to carry a victimhood mindset about others and situations. It's very self righteous thinking.",
+      "Right…?😤😔",
+      "@debishackleton",
+      "💯💯🙌🙌"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZaUt_Pyvp2",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZaUt_Pyvp2/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZaUt_Pyvp2",
+  "metrics": {
+    "comments": 20,
+    "likes": 13745,
+    "plays": 342195,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 77961,
+    "winner_score": 17373.64
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-10T16:00:10.000Z",
+  "published_label": null,
+  "rank": 313,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZaUt_Pyvp2",
+  "source_url": "https://www.instagram.com/p/DZaUt_Pyvp2/"
+}

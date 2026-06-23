@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXmkgCpER3I:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/684083469_17897939772431061_8553160942069100062_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFb-EuXLuSvWf_j9w33fwRgsHUrtSB5TD0le5TNJp_KOjU1bkHBMOKffgPrZjiSWLM&_nc_ohc=W-T_1d_bdk4Q7kNvwE6ViWv&_nc_gid=G3GugAFPPu06n-BueWer-g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-ENn31YcYyEQj9sBcyLBrlOyBgMy1RsNlO2W4U-mnMiA&oe=6A3456A6&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Alexa, play front door famous by Luke Combs 😭🏡\n\nFollow @hereverydaymotherhood for more relatable everyday motherhood + marriage moments 🤍",
+    "word_count": 17
+  },
+  "communication_seed": {
+    "first_comment": "Blessed mamas.",
+    "latest_comments": [
+      "Blessed mamas.",
+      "Absolutely!!!❤️",
+      "Being a mom is such a blessing 🫶🏻",
+      "😍 all that we need",
+      "Blessed ❤️",
+      "❤️❤️❤️",
+      "Nothing better then when your kids ran up to you and hug you 🥰",
+      "Wayyy better. It’s not even close🥹",
+      "Simply so blessed 🤍"
+    ],
+    "mechanic_tags": [
+      "static",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXmkgCpER3I",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXmkgCpER3I/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXmkgCpER3I",
+  "metrics": {
+    "comments": 12,
+    "likes": 1227,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1767.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-26T17:07:11.000Z",
+  "published_label": null,
+  "rank": 641,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXmkgCpER3I",
+  "source_url": "https://www.instagram.com/p/DXmkgCpER3I/"
+}

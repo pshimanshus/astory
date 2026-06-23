@@ -28,7 +28,7 @@ ClaimType = Literal[
 ]
 RiskLevel = Literal["low", "medium", "high"]
 PromotionPolicy = Literal["auto_apply", "human_review", "quarantine"]
-ClaimStatus = Literal["candidate", "quarantined", "promoted", "deferred"]
+ClaimStatus = Literal["candidate", "quarantined", "promoted", "deferred", "rejected"]
 
 
 @dataclass(frozen=True)

@@ -1,0 +1,132 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYFSqbbklY4:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/685633904_18592756225016016_9035096599549412443_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gEAVghghIosvo-YqrB5WukzK552qv9gV9I4lurfC3VBZHylJokTuygZzWDmoy98NO07FQmktSNPg0Yvlnz6Q1zV&_nc_ohc=8qayRyCZBtEQ7kNvwFqaq2Y&_nc_gid=3ma4EUkY7D1KiR49bGY1cA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8bKXryoSdSIS6aE2krYoFr20jW-rKaGyLfnj5zYjrDzA&oe=6A347926&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYFSqbbklY4:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYFSqbbklY4:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "let yourself suck at things \n\nfrom my book “embrace” – available link in my bio or search on Amazon 📚",
+    "word_count": 18
+  },
+  "communication_seed": {
+    "first_comment": "You had me until you are young . I am not young but can still allow myself to try and suck at things . ❤️",
+    "latest_comments": [
+      "You had me until you are young . I am not young but can still allow myself to try and suck at things . ❤️",
+      "The willingness to be bad at something is an identity statement. It means you've already decided who you're becoming — before the skill catches up.",
+      "🔥🔥🔥",
+      "Hi Ron can I get a hard copy of your book? Let me know how to buy.",
+      "live alittle",
+      "❣️",
+      "Repetition and staying in the game  when things get hard will take you way further than motivation",
+      "✨",
+      "That’s what i always say, that’s how we learn",
+      "Why do you suck if@you improve"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYFSqbbklY4",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYFSqbbklY4/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYFSqbbklY4",
+  "metrics": {
+    "comments": 22,
+    "likes": 4689,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 5679.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-08T15:27:26.000Z",
+  "published_label": null,
+  "rank": 503,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYFSqbbklY4",
+  "source_url": "https://www.instagram.com/p/DYFSqbbklY4/"
+}

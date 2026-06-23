@@ -1,0 +1,105 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DHoJwiUpB-l:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/486145845_18496453447039494_4189345497771956065_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gGLoQIkoOIKQpBakFU0coPTkmLJRJX0vx3BHPEB0YrAzLVlusMD0t7C1axn0COcGZo&_nc_ohc=ns12FN2diFoQ7kNvwH3fh4e&_nc_gid=t3lGu89MiCxEgoEA-S3-uQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9IhV31WfL6CgbM6uSdIr811OCx1bFgrldkce9Ee_o4yQ&oe=6A34624F&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "wait did one of the exes suddenly gain sentience???",
+    "word_count": 9
+  },
+  "communication_seed": {
+    "first_comment": "He tweaking",
+    "latest_comments": [
+      "He tweaking",
+      "I relate to the person receiving these way too much.. shoulda blocked after the first message but the curiosity and need for entertainment allowed the spiral to flood in",
+      "Sir, this is a Wendy’s.",
+      "Bro really decided he’d rather hate himself than deal with all that mess",
+      "No one gives me the “it’s not you it’s me” routine 😂",
+      "What mental gymnastics is this",
+      "He’s a Scorpio 😂"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DHoJwiUpB-l",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DHoJwiUpB-l/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DHoJwiUpB-l/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DHoJwiUpB-l",
+  "metrics": {
+    "comments": 36,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1620.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-03-25T15:29:21.000Z",
+  "published_label": null,
+  "rank": 153,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DHoJwiUpB-l",
+  "source_url": "https://www.instagram.com/p/DHoJwiUpB-l/"
+}

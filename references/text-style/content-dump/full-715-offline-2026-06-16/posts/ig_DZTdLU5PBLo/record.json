@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "alex aubrey",
+    "instagram_user_id": null,
+    "username": "alexaubreypoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZTdLU5PBLo:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/714805707_4534287123483724_6652280766570978967_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gHlYQSOs2QN3jLZ9EXQHq033awCR5YRDzP_oZf9OPJ8Yel-wdFfqRCWbmpTBWi23Xs&_nc_ohc=_H3_oEwtrJoQ7kNvwG9Gjyr&_nc_gid=Mmc7BYs6ovIbVbC7ApUfDg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-Xm2RTW4OZ0VWF69lYChE5vr0Tt9qutT4-ex_g2TV_dA&oe=6A3474D2&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my poetry book “searching for myself”, available on amazon",
+    "word_count": 10
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "sorry, no brain:)",
+      "Follow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow me ☠️\nFollow",
+      "✨",
+      "I never thought my partner would come back ❤️ thank you @osezua.solutions for bringing us together",
+      "..we can’t help but think. Accept that truth and then you can control your thoughts better"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZTdLU5PBLo",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZTdLU5PBLo/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZTdLU5PBLo",
+  "metrics": {
+    "comments": 6,
+    "likes": 706,
+    "plays": 30381,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 5533,
+    "winner_score": 1169.65
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-08T00:00:14.000Z",
+  "published_label": null,
+  "rank": 668,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZTdLU5PBLo",
+  "source_url": "https://www.instagram.com/p/DZTdLU5PBLo/"
+}

@@ -1,0 +1,5 @@
+{
+  "auto_promote_auto_apply": true,
+  "auto_defer_high_risk": true,
+  "auto_quarantine_rejected_assets": true
+}

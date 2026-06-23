@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFLrHwzN1TM:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t39.30808-6/474214622_932261482392775_7563839907737095514_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gG31yqZQ60dCqif38H7oq5EAHITKcx6JiexchotgVbrDrw27j_eOIkhLlnH1CKwqc0&_nc_ohc=l2rPz5Imcc0Q7kNvwEPrjKL&_nc_gid=xnvdVAXXI3LlAm1a1sQ5VA&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af8ZbaN6CoMCfPXSi71kKs9M4xUsu_WJC4z2Tn2qbYQzhA&oe=6A346394&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Healing is always possible. Delayed dreams, broken hearts, anxious minds, they all find peace and renewal. Trust the process. Tag someone who needs this reminder 🌻",
+    "word_count": 25
+  },
+  "communication_seed": {
+    "first_comment": "This is great 👏",
+    "latest_comments": [
+      "This is great 👏",
+      "❤️",
+      "Again ❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DFLrHwzN1TM",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DFLrHwzN1TM/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DFLrHwzN1TM/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFLrHwzN1TM",
+  "metrics": {
+    "comments": 160,
+    "likes": 118340,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 125540.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-01-23T21:00:07.000Z",
+  "published_label": null,
+  "rank": 87,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFLrHwzN1TM",
+  "source_url": "https://www.instagram.com/p/DFLrHwzN1TM/"
+}

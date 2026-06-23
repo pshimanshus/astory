@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWhoC-TgYUg:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/656834995_18575270158039494_5335150235070101268_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHCUbc_4rpRorpNTTQex57KN75iVmJfJ-8JsLyTkGkyR0lVVQBJSMQ1lxfgoBkpk5Y&_nc_ohc=awL-4H4Ez_YQ7kNvwHVVU62&_nc_gid=wsOO2eMN_s2ENGo19uc0Vw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_Qhi1n-hghwNwNnTuM3l16lVXMrpKiz2r93bwz1G64zw&oe=6A347830&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "always be prepared. you never know when they’ll show up",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "at least the climber has hope !",
+    "latest_comments": [
+      "at least the climber has hope !",
+      "People crave connection but avoid vulnerability. | @thetemperedglass",
+      "Compatibility matters more than temporary excitement.",
+      "Genuine energy stands out in modern dating.",
+      "I'm immediately sending these to the group chat 😹😹😹😹😹😹😹✌🏻",
+      "😂😂",
+      "Fascinating🤩",
+      "Let’s connect",
+      "😂😂",
+      "Dang 😂😂"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWhoC-TgYUg",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWhoC-TgYUg/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWhoC-TgYUg",
+  "metrics": {
+    "comments": 112,
+    "likes": 2213,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 7253.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-30T22:30:33.000Z",
+  "published_label": null,
+  "rank": 464,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWhoC-TgYUg",
+  "source_url": "https://www.instagram.com/p/DWhoC-TgYUg/"
+}

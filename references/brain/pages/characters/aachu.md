@@ -19,4 +19,4 @@ aliases:
 # Timeline / Evidence
 
 - 2026-06-08 | `docs/setup_status.md` | Setup marked the Aachu role library ready for planning and prompt work.
-- 2026-06-10 | `references/identity/aachu/README.md` | Aachu local identity root exists in this repo.
+- 2026-06-10 | `docs/setup_status.md` | Aachu local identity root exists in this repo.

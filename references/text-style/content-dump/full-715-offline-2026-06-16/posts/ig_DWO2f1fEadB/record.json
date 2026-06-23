@@ -1,0 +1,179 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWO2f1fEadB:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia5-1.cdninstagram.com/v/t51.82787-15/653541717_18572002954012837_8113976652055579669_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-mia5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHAcd7xyTSW8ciwMV8X4F2v4oOx-UZv9yqh9003gfzu_T9ayvdBAFa0p2lhtcv2plE&_nc_ohc=0pUlxxjVRkMQ7kNvwHwZdOY&_nc_gid=K9NL--JPSMnQZMTISWqhkQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_2EXW4GruqO8vGRoknh8seb3Vx7JupmPXuDe6fquwWrg&oe=6A346036&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWO2f1fEadB:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWO2f1fEadB:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWO2f1fEadB:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWO2f1fEadB:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWO2f1fEadB:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DWO2f1fEadB:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes the season you are in is not random — it is revealing. It is showing you what you need to let go of, what you need to trust, and what you are finally ready to grow into. The timing of your life is not something working against you, even when it feels like it is. It is often quietly working for you, aligning you with the lessons you are meant to learn right now. \n\nThere are moments when things fall apart, when plans don’t work out, when you feel like you are being redirected without understanding why. But not everything that leaves your life is a loss. Some things are a release. Some things are protection. Some things are making space for something that is more aligned with who you are becoming. \n\nGrowth does not always feel like progress. Sometimes it feels like uncertainty, like starting over, like questioning everything you once believed was meant for you. But even then, something within you is shifting. You are learning to trust what stays, to release what doesn’t, and to believe that what is meant for you will find you without force. \n\nNo matter the chapter you are in, you are not behind. You are not lost. You are being guided into the version of your life that is actually meant for you — one step, one lesson, one moment at a time. \n\n— Pages from the book ‘The Pivot Year’ by Brianna Wiest 🖤📖",
+    "word_count": 242
+  },
+  "communication_seed": {
+    "first_comment": "June is on point ✨",
+    "latest_comments": [
+      "June is on point ✨",
+      "March & day 17 🌹",
+      "I (January) also needed to read this. Thank you 🌸",
+      "Where the heck is September. lol. Unfair",
+      "Happy 💐",
+      "Where the heck is April lol",
+      "Lol i got tricked reading March like it’s February",
+      "Where’s the other months? There’s so many missing lol",
+      "I (October) needed to read this. Thank you 🌸"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWO2f1fEadB",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DWO2f1fEadB/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWO2f1fEadB",
+  "metrics": {
+    "comments": 17,
+    "likes": 4928,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 5693.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-23T15:30:00.000Z",
+  "published_label": null,
+  "rank": 502,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWO2f1fEadB",
+  "source_url": "https://www.instagram.com/p/DWO2f1fEadB/"
+}

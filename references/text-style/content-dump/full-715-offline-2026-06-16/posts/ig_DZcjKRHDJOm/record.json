@@ -1,0 +1,341 @@
+{
+  "account": {
+    "full_name": "𝐋𝐄𝐕𝐈𝐒𝐍𝐂𝐎𝐅𝐅𝐄𝐄 || Vintage Glamour & Quotes 🥃",
+    "instagram_user_id": null,
+    "username": "levisncoffee"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-3.cdninstagram.com/v/t51.82787-15/722204592_18425006434134585_2388482751645825699_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-mia3-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gEkUR2n3snHzISYNRCEHC9PwVrYM2xlJq0K40DaJiO-toIO8pFXfXY99R5dsZekBx4&_nc_ohc=tM_9N2F89JUQ7kNvwF0ZzOD&_nc_gid=1PHbpB62JPUncjV6HEDMYg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af88_tFLWa66MhYfqmk-e-CSzjqIn7aDlSoW6ZanIKL3zg&oe=6A347B8C&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:08",
+      "index": 8,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:09",
+      "index": 9,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:10",
+      "index": 10,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:11",
+      "index": 11,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:12",
+      "index": 12,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:13",
+      "index": 13,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:14",
+      "index": 14,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:15",
+      "index": 15,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:16",
+      "index": 16,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:17",
+      "index": 17,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:18",
+      "index": 18,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZcjKRHDJOm:asset:19",
+      "index": 19,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "marlonbrando",
+      "oldhollywood",
+      "vintageaesthetics",
+      "vintageglamour"
+    ],
+    "public_preview": null,
+    "text": "Marlon Brando was one of the most influential figures in film history — an actor who transformed Hollywood with a style of performance that felt raw, authentic, and deeply human.\n\nBorn in Omaha, Nebraska, in 1924, he grew up in a troubled household marked by instability and emotional hardship. Far removed from the fame that would later define him, Brando spent his early years searching for purpose and belonging.\n\nThrough determination and natural talent, he rose to prominence in the 1950s and became one of the most celebrated actors of his generation. His performances in films such as A Streetcar Named Desire, On the Waterfront, and The Godfather redefined screen acting, bringing an unprecedented level of realism and emotional depth to the cinema.\n\nWhat made Brando different was the complexity behind the legend. He possessed immense charisma and commanded attention wherever he went, yet he often felt uneasy with fame and resisted many of Hollywood’s expectations. \n\nBehind the public image was a thoughtful and often conflicted man who cared deeply about social justice and used his influence to support causes he believed in.\n\nThroughout his life, Brando experienced extraordinary success as well as profound personal struggles. He became the father of eleven children and endured both great joys and heartbreaking losses. The contradictions that shaped his life also contributed to the depth and vulnerability audiences saw in his work.\n\nHe died on July 1, 2004, at the age of 80, but his influence has never faded. Marlon Brando remains a symbol of cinematic excellence — not just because he was a great star, but because he changed the very language of acting.\n\nEven today, his legacy can be found in countless performances inspired by his example: the courage to strip away artifice and reveal something truthful beneath.\n\n#marlonbrando #oldhollywood #vintageaesthetics #vintageglamour",
+    "word_count": 300
+  },
+  "communication_seed": {
+    "first_comment": "wonderful actor 👏👏",
+    "latest_comments": [
+      "wonderful actor 👏👏",
+      "😍😍😍",
+      "Ator extraordinário.👏👏👏",
+      "Tout le monde glorifie ce type et tout le monde a oublié \"le dernier tango à Paris\"",
+      "Fascinating human 👏",
+      "❤️",
+      "❤️🙌🔥👏😢😍❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+      "Particolare",
+      "I see him in Connor Storrie",
+      "The best"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZcjKRHDJOm",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZcjKRHDJOm/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZcjKRHDJOm",
+  "metrics": {
+    "comments": 22,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 990.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-11T12:45:31.000Z",
+  "published_label": null,
+  "rank": 677,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZcjKRHDJOm",
+  "source_url": "https://www.instagram.com/p/DZcjKRHDJOm/"
+}

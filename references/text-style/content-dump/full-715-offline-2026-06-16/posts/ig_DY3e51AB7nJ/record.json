@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Poems Porn",
+    "instagram_user_id": null,
+    "username": "poemsporn_"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY3e51AB7nJ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/709507625_1623256922091877_6046996324076135789_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFxCNQa7ETlKXanW-XMzwpb0f59A12cPIB8CZRqpoTBQU2_dsEBPEhStDD25bX7dF4&_nc_ohc=Kc10LvdS5x0Q7kNvwG5Kbuv&_nc_gid=DcTtWBHEb6CSWcEYsLdHtg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8rjL5VXvO4RyUDj6ZZBF9UcsTSZhFHSMcX9jyqKC5Peg&oe=6A3473F9&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Don’t settle for less",
+    "word_count": 5
+  },
+  "communication_seed": {
+    "first_comment": "AMEN",
+    "latest_comments": [
+      "AMEN",
+      "🙏🙏🛐",
+      "People don’t think about it, but you want someone that’s going to stand by you when one day the family members that you know and love, when both/one of your parents pass away. You want someone that’s gonna be able to hold your hand and stand by you when that time comes. So yes, be picky! Because you deserve the world! ❤️",
+      "Stay picky 🤞🏽🤞🏽",
+      "🤌🏼✨",
+      "👏",
+      "Thank God for picky standards. Bet I won’t shenan again",
+      "A relationship partner is one of the biggest LIFE decisions will ever make. It MUST be taken seriously 🎯",
+      "‼️‼️",
+      "@becomehisfantasy 💯"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY3e51AB7nJ",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY3e51AB7nJ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY3e51AB7nJ",
+  "metrics": {
+    "comments": 54,
+    "likes": 41411,
+    "plays": 731868,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 173239,
+    "winner_score": 49904.36
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-28T03:16:35.000Z",
+  "published_label": null,
+  "rank": 171,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY3e51AB7nJ",
+  "source_url": "https://www.instagram.com/p/DY3e51AB7nJ/"
+}

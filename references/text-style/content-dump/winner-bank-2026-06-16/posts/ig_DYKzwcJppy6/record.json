@@ -1,0 +1,115 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYKzwcJppy6:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-bos5-1.cdninstagram.com/v/t51.71878-15/684829810_1330723298948292_1143113177231405218_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-bos5-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHxpTeJ10gAuQIU31g_pP3cSSvlSpkLwLbAckJgtqGLepKP711-FGheHNibMcAFWPE&_nc_ohc=Iv9QjXl5slIQ7kNvwGtv9Ij&_nc_gid=4WurLIGGx0EuhPfxuppe8g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af84SX1fR-4WQsOMekMVC2_2qp9B1M61jDFqcxXlIsYWOg&oe=6A346A0C&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "however you are spending the day today…i’m sending you love❤️❤️‍🩹",
+    "word_count": 12
+  },
+  "communication_seed": {
+    "first_comment": "awh",
+    "latest_comments": [
+      "awh",
+      "My mother knows that I am gay yes and knows my partner but does not me as person Becusee all she sees is the gay aspect of my life not the person I an because i am much more the just her gay son",
+      "My mom doesn’t know much about me I mean in all aspects but I’m healing ❤️‍🩹",
+      "Sending you hugs and healing ❤️",
+      "Same pain 💔",
+      "❤️❤️❤️",
+      "Parents observe everything",
+      "Damn 🥺",
+      "😢😢😢😢",
+      "My biggest hurting most in my life that my family they rejected me for 36 years."
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DYKzwcJppy6",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DYKzwcJppy6/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DYKzwcJppy6/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYKzwcJppy6",
+  "metrics": {
+    "comments": 638,
+    "likes": 196073,
+    "plays": 4107118,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 1917250,
+    "winner_score": 291886.75
+  },
+  "post_type": "reel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-05-10T18:54:22.000Z",
+  "published_label": null,
+  "rank": 27,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYKzwcJppy6",
+  "source_url": "https://www.instagram.com/p/DYKzwcJppy6/"
+}

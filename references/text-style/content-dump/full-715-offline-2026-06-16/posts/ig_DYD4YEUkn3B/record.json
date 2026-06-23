@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYD4YEUkn3B:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.82787-15/686016317_18592617823016016_6568419038113764559_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHfHYWmTVneH6wmkhKBYzBSsx7cDpjYHByRNPYBo-pOhTaMJ49wf88X8_pAbPt7cUI&_nc_ohc=t9rgLHEKnIgQ7kNvwGU02u4&_nc_gid=NMzN8bXIAkiX59vEq7Nhrg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8vtbUM2LSfCNBDna-F78-Qn-CBYNV_eTgicNkuEYVwWg&oe=6A34592A&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "if you truly want it\nstop waiting for it to come\nget out and find it",
+    "word_count": 16
+  },
+  "communication_seed": {
+    "first_comment": "Yes, we're still breathing ❤️",
+    "latest_comments": [
+      "Yes, we're still breathing ❤️",
+      "Get outside @quite.wealth",
+      "See if I can change my life",
+      "That’s exactly what I’m doing right now",
+      "The tough but gentle love we need to hear",
+      "🙌🙌🙌🙌🙌🙌",
+      "🔥🔥🔥",
+      "Working on it!",
+      "Heard you",
+      "😍#"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYD4YEUkn3B",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYD4YEUkn3B/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYD4YEUkn3B",
+  "metrics": {
+    "comments": 36,
+    "likes": 15253,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 16873.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-08T02:19:02.000Z",
+  "published_label": null,
+  "rank": 319,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYD4YEUkn3B",
+  "source_url": "https://www.instagram.com/p/DYD4YEUkn3B/"
+}

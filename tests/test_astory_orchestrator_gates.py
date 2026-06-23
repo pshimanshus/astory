@@ -36,48 +36,17 @@ class MissingArtifactsTests(unittest.TestCase):
             with self.assertRaises(KeyError):
                 gates.missing_artifacts(tmp, "demo", "NOT_A_STATE")
 
-
-class CheckGateTests(unittest.TestCase):
-    def test_gate_pass(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            _touch(tmp, "demo", "debates/agent_assignment_matrix.md")
-            result = gates.check_gate(tmp, "demo", "DISCOVER_AND_ASSIGN_AGENTS")
-            self.assertTrue(result["ok"])
-            self.assertEqual(result["missing"], [])
-
-    def test_gate_fail_lists_missing(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            result = gates.check_gate(tmp, "demo", "DISCOVER_AND_ASSIGN_AGENTS")
-            self.assertFalse(result["ok"])
-            self.assertEqual(result["missing"], ["debates/agent_assignment_matrix.md"])
-            self.assertEqual(result["state"], "DISCOVER_AND_ASSIGN_AGENTS")
-
-    def test_non_gate_state_is_ok_but_flagged(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            result = gates.check_gate(tmp, "demo", "INIT_RUN")
-            self.assertTrue(result["ok"])
-            self.assertFalse(result["is_gate"])
-
-    def test_non_gate_state_with_missing_produces_reports_not_ok(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            result = gates.check_gate(tmp, "demo", "PARSE_CREATIVE_INPUT")
-            self.assertFalse(result["ok"])
-            self.assertFalse(result["is_gate"])
-            self.assertEqual(result["missing"], ["input/creative_brief.json"])
-
-    def test_multi_artifact_gate_lists_only_the_missing_subset(self):
-        # PRE_GENERATION_EVAL is a gate declaring three produces; with one
-        # present, only the other two should be reported missing.
+    def test_multi_artifact_state_lists_only_missing_subset(self):
+        # PRE_GENERATION_EVAL declares source-winner alignment too; with one
+        # present, only the other required artifacts should be reported missing.
         with tempfile.TemporaryDirectory() as tmp:
             _touch(tmp, "demo", "evals/pre_generation_eval.json")
-            result = gates.check_gate(tmp, "demo", "PRE_GENERATION_EVAL")
-            self.assertTrue(result["is_gate"])
-            self.assertFalse(result["ok"])
             self.assertEqual(
-                sorted(result["missing"]),
+                sorted(gates.missing_artifacts(tmp, "demo", "PRE_GENERATION_EVAL")),
                 [
                     "debates/prompt_room/prompt_review.md",
                     "evals/pre_generation_eval_report.md",
+                    "evals/source_winner_alignment_eval.json",
                 ],
             )
 

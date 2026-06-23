@@ -23,8 +23,8 @@ class AStoryBrainIndexerTests(unittest.TestCase):
         sources = scan_sources(".", include_runs=[])
         role_by_path = {source.path: source.role for source in sources}
 
-        self.assertEqual(role_by_path["references/identity/aachu/README.md"], "aachu")
-        self.assertEqual(role_by_path["references/identity/zuv/README.md"], "zuv")
+        self.assertEqual(role_by_path["references/style/README.md"], "style")
+        self.assertEqual(role_by_path["references/text-style/README.md"], "text")
 
     def test_build_index_writes_sources_pages_and_chunks(self):
         with tempfile.TemporaryDirectory() as tmp:

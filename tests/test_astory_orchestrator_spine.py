@@ -28,6 +28,16 @@ class SpineStructureTests(unittest.TestCase):
             "planning/selected_idea.json",
             spine.by_name("SELECT_BEST_IDEA").produces,
         )
+        self.assertIn(
+            "planning/source_winner_remix_contract.json",
+            spine.by_name("SELECT_BEST_IDEA").produces,
+        )
+
+    def test_score_ideas_produces_novelty_candidate_ledger(self):
+        self.assertIn(
+            "planning/novelty_candidate_ledger.json",
+            spine.by_name("SCORE_IDEAS").produces,
+        )
 
     def test_scene_landing_preview_sits_between_selection_and_idea_lock(self):
         self.assertEqual(
@@ -41,6 +51,28 @@ class SpineStructureTests(unittest.TestCase):
         self.assertIn(
             "planning/scene_landing_preview.md",
             spine.by_name("CREATE_SCENE_LANDING_PREVIEW").produces,
+        )
+        self.assertIn(
+            "planning/winner_landing_comparison.md",
+            spine.by_name("CREATE_SCENE_LANDING_PREVIEW").produces,
+        )
+        self.assertIn(
+            "planning/source_winner_novelty_model.json",
+            spine.by_name("CREATE_SCENE_LANDING_PREVIEW").produces,
+        )
+
+    def test_generation_loop_declares_winner_alignment_checks(self):
+        self.assertIn(
+            "evals/source_winner_alignment_eval.json",
+            spine.by_name("PRE_GENERATION_EVAL").produces,
+        )
+        self.assertIn(
+            "evals/source_winner_image_alignment.json",
+            spine.by_name("IMAGE_QUALITY_EVAL").produces,
+        )
+        self.assertIn(
+            "evals/final_winner_landing_check.json",
+            spine.by_name("FINAL_QA").produces,
         )
 
 

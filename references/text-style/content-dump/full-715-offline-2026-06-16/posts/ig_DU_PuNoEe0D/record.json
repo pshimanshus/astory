@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DU_PuNoEe0D:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/639714374_18563484907012837_158868760813116724_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lax7-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gE8C6Uh4ERAPDmzrOTpUHfOXIQLeoZrTStuGGl3BfgKHBZzhyX9cWqtvr2MsaE5rKg&_nc_ohc=cjrhKBX7pecQ7kNvwEQN5ti&_nc_gid=w8Os8aOOoBdK8B7aaJI_Ag&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af95qmH3iRy4WMguD-9jRx8VuLw09VUOH6t-03QDkHlpug&oe=6A345B6B&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Claiming the life you want 🖤 Start by getting crystal clear on what you truly want. Map it out in detail. Script a scene from your dream life—where you are, what you’re doing, who you’re with, how it feels. Make it vivid, specific, and real. (If you’re more visual, create a vision board—physical or digital. Whatever keeps the vision alive in your daily life.)\n\nThe important part is to see it and feel it every day. Let the emotions of living that life—joy, peace, excitement—become so familiar that it starts to feel inevitable.\n\nThen affirm it to yourself: “I deserve this.” And don’t just say the words—believe them. Let them challenge every outdated belief that ever told you otherwise.\n\nBecause the moment you believe you deserve more, you’ll stop settling for less. You’ll stop chasing what doesn’t align. You’ll move differently, choose differently, and show up as someone who is already living the life they once only dreamed of.\n\n— Words from the book ‘Detached’ by Sabrina Bendory 📖",
+    "word_count": 179
+  },
+  "communication_seed": {
+    "first_comment": "😞 imagine that….. @leen_ibanez",
+    "latest_comments": [
+      "😞 imagine that….. @leen_ibanez",
+      "🙌👏",
+      "❤️",
+      "Amen 🙏 ❤️",
+      "🙏❤️",
+      "🤍",
+      "Amen",
+      "The hard truth is most women reading this already know they deserve these things. The problem isn’t awareness. It’s that somewhere deep down there’s a part of them that doesn’t actually believe it. That has spent so long accepting less that ‘love that stays’ sounds beautiful in theory and terrifying in practice. The affirmation isn’t the work. Learning to believe you’re safe enough to receive it, that’s the work.",
+      "👏",
+      "@sarahkrizz yes. DESERVE!"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DU_PuNoEe0D",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DU_PuNoEe0D/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DU_PuNoEe0D",
+  "metrics": {
+    "comments": 62,
+    "likes": 15388,
+    "plays": 304984,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 72094,
+    "winner_score": 20701.29
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-02-20T17:32:22.000Z",
+  "published_label": null,
+  "rank": 292,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DU_PuNoEe0D",
+  "source_url": "https://www.instagram.com/p/DU_PuNoEe0D/"
+}

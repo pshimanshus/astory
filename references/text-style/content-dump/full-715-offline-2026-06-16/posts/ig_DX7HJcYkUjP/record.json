@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DX7HJcYkUjP:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-hou1-1.cdninstagram.com/v/t51.82787-15/684475804_17899217442431061_8562462276000470584_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFBqbtOjhsxXxs4lii4yCpA89bLk8Rwkn4VTNe_RDpztNyKo1g8EoktHkygv05Dnhs&_nc_ohc=HInKF0Z7MDMQ7kNvwHTgUP8&_nc_gid=Euwl82nD-sBhL6rvynnpRw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8wkMlEg_mPwgXWWyNJJNm0MlWC8MltqjivAaxP0iO6Vg&oe=6A34816F&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Thankful to grow up with parents that didn’t try to be my friend. Because now? We get to be BFFs 🤍\n\nFollow @hereverydaymotherhood for more relatable everyday motherhood + marriage moments 🤍",
+    "word_count": 30
+  },
+  "communication_seed": {
+    "first_comment": "YES🙌",
+    "latest_comments": [
+      "YES🙌",
+      "I used to think my parents were strict because they didn’t allow some of the things other parents did but now I feel like they should’ve been stricter 🤣 I do appreciate & love them because they saved me from a lot",
+      "My mum was strict but in a controlling way! I parent my daughter differently. I let her do what she wants to do (within reason) but i treat her like a human being who needs to experience life and make her own decisions with me there to guide and advise her. We’ve gained trust between us and she’s open and honest with me. I used to sneak around behind my mums back doing the things she said I wasn’t allowed to do and I was scared of her and could never approach her",
+      "Yes I’m appreciative",
+      "I had strict and fun mom, and i had a controlling dad. My mom knew everything and i can open up to her. My dad don't. She gave me rules, but she also understood that i was a growing kid. But in our house my dad was the head of the family so even if my mom says yes, as long as my dad says no that's the final say. I grew up fearing my dad instead of respecting him. I grew up lying to my friends im sick because i wasn't allowed to go out and didn't want my parents to look bad to them. I understand ",
+      "It’s the mark of a loving parent ❤️",
+      "@taniamonae yes 😂 you grow up and think “wow, you guys actually let me do a lot…”"
+    ],
+    "mechanic_tags": [
+      "static",
+      "first_person",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX7HJcYkUjP",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DX7HJcYkUjP/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DX7HJcYkUjP",
+  "metrics": {
+    "comments": 13,
+    "likes": 873,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1458.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-04T16:35:46.000Z",
+  "published_label": null,
+  "rank": 657,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DX7HJcYkUjP",
+  "source_url": "https://www.instagram.com/p/DX7HJcYkUjP/"
+}

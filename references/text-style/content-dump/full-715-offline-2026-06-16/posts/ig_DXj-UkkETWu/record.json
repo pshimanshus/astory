@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXj-UkkETWu:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fagc1-2.fna.fbcdn.net/v/t51.82787-15/675461429_17897768160431061_7466365985125238881_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fagc1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gHpwTf--3YBe95sExzCTYSZAXIyQALG47VWARwWwq75FgaFZRVaFZHxxMZiPqwWjj4&_nc_ohc=pj811AT_IDkQ7kNvwGuxDvj&_nc_gid=tODESq0tPtY8sZADn6WBZA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_7qIub05fomo7uXfhXlIVQ5RWFwa-WSj5xQhpwIRbsUg&oe=6A347F69&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Your chances are slim 🤣🫩\n\nFollow @hereverydaymotherhood for more relatable everyday motherhood + marriage moments 🤍",
+    "word_count": 13
+  },
+  "communication_seed": {
+    "first_comment": "Same... Just she is already three... 🤷🏻‍♀️",
+    "latest_comments": [
+      "Same... Just she is already three... 🤷🏻‍♀️",
+      "😂😂",
+      "3.5 years here 😂",
+      "😂😂i have a 6month old, im built different, try me if you want to😆",
+      "We're just built different 💪🏼",
+      "I mean. Mine is 4 😂",
+      "If you don’t laugh, you cry 😂🥲"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXj-UkkETWu",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXj-UkkETWu/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXj-UkkETWu",
+  "metrics": {
+    "comments": 14,
+    "likes": 236,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 866.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-25T16:54:56.000Z",
+  "published_label": null,
+  "rank": 684,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXj-UkkETWu",
+  "source_url": "https://www.instagram.com/p/DXj-UkkETWu/"
+}

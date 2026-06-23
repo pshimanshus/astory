@@ -1,0 +1,132 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXrmgccmd4P:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fsac1-2.fna.fbcdn.net/v/t51.82787-15/682156068_18591986041031367_9053100251203418551_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fsac1-2.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gETqfs9TDVuYW-2dCjh4k6gfdONQQy0K-w4DQkUlcCfAagaC1dihL7nhkBPS9Exwmxw58tJqfmmJ5FTFwVPfGeI&_nc_ohc=YQHBhFpY28MQ7kNvwFhc0Is&_nc_gid=n5iYdcaGabPyxvZLh5Gtpw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9MxpbWuDz8penS6FwpfYAm5nfaJQrs9JPyNCX45FWK4g&oe=6A34666E&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXrmgccmd4P:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DXrmgccmd4P:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "some gifts are really just another way of saying thank you.⁠\n⁠\nfor the hands that held you.⁠\nfor the love that stayed.⁠\nfor everything words never quite covered.⁠\n⁠\nstarting today, our mother’s day collection is 15% off jewelry with a free gift on orders $50+.⁠\n⁠\nfind something for her, or for the part of you that still remembers.⁠\n⁠\nshop the gift guide at the link in bio.",
+    "word_count": 68
+  },
+  "communication_seed": {
+    "first_comment": "Healing is when he stops mistaking loss for love.",
+    "latest_comments": [
+      "Healing is when he stops mistaking loss for love.",
+      "And that's the best❤️",
+      "Loved it 🔥",
+      "https://www.instagram.com/p/DJ0T_HOoD4w/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==\n@alonealive12025",
+      "Right",
+      "❤️❤️",
+      "@papa_ojiaga9  literally save my marriage, he is so good in all kinds of spiritual work",
+      "Obsessed with your words 🩶",
+      "❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXrmgccmd4P",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXrmgccmd4P/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXrmgccmd4P",
+  "metrics": {
+    "comments": 9,
+    "likes": 2472,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2877.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-28T16:00:39.000Z",
+  "published_label": null,
+  "rank": 591,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXrmgccmd4P",
+  "source_url": "https://www.instagram.com/p/DXrmgccmd4P/"
+}

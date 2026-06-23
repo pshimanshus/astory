@@ -1,0 +1,126 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVtixygEXD2:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/649227683_18574285228000418_6855013391703264680_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gHi5aP7ebySFSZLDytlmhUxXKcznt_HokhZCa8jUGwSXSFVN_6MhkX47-CtGqWI3as&_nc_ohc=WKYHfDZrGGEQ7kNvwFsO1UZ&_nc_gid=dEQID0pyHYCJC7k_VQhfUA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8nN92AiqDDzBjJ8L77yNDFwb8dHpieaKmwnKP6QVuv2w&oe=6A346CAF&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DVtixygEXD2:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "this is your sign !!!",
+    "word_count": 4
+  },
+  "communication_seed": {
+    "first_comment": "@_jackxu",
+    "latest_comments": [
+      "@_jackxu",
+      "How I wish I could",
+      "Friendship breakups are hella underrated",
+      "And also be ready to know that rejections doesn't define you😉💘",
+      "ALL THE BLACK MEN ARE BEAUTIFULL",
+      "I LIKE TWO MEN  INFACT THERES TOO MANY HANDSOME BLACK MEN I TRY NOT LOOK EM.",
+      "HORRIBLE advice.",
+      "😢😢",
+      "🔥🔥",
+      "❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DVtixygEXD2",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DVtixygEXD2/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DVtixygEXD2/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVtixygEXD2",
+  "metrics": {
+    "comments": 169,
+    "likes": 78636,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 86241.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-03-10T17:03:41.000Z",
+  "published_label": null,
+  "rank": 96,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVtixygEXD2",
+  "source_url": "https://www.instagram.com/p/DVtixygEXD2/"
+}

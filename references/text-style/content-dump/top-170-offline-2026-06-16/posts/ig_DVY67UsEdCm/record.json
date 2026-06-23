@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVY67UsEdCm:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-bos5-1.cdninstagram.com/v/t51.71878-15/640415002_3475305515950894_7521211822162754477_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-bos5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHXsh7oMJvKrGJ2yUmhVvLVJ2598E51YuEZ51vHfdMoT4tYdgPAVCVCMdT2fLsVm-ABkCuTQnTI8ThUesdNwxIx&_nc_ohc=Et4EdvzmH1kQ7kNvwGh9YrO&_nc_gid=m8qgg2GHe_oUUO4Hlctruw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8jNZdZ1mxoX9qbtGob85teNWSM7iChjznhJV6hjcNi-Q&oe=6A346461&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "i know it will❤️",
+    "word_count": 4
+  },
+  "communication_seed": {
+    "first_comment": "🔥🔥",
+    "latest_comments": [
+      "🔥🔥",
+      "WHEN!!!????!!!!???!!! I’m losing faith",
+      "No it's not coming...",
+      "❤️‍🩹❤️‍🩹❤️‍🩹",
+      "No it won't",
+      "It’s taking so loooooong",
+      "It's taking a while and im honestly getting tired...",
+      "It doesn’t",
+      "Yeah no."
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DVY67UsEdCm",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DVY67UsEdCm/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVY67UsEdCm",
+  "metrics": {
+    "comments": 271,
+    "likes": 176297,
+    "plays": 3509922,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 883510,
+    "winner_score": 219414.85
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-02T16:51:16.000Z",
+  "published_label": null,
+  "rank": 42,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVY67UsEdCm",
+  "source_url": "https://www.instagram.com/p/DVY67UsEdCm/"
+}

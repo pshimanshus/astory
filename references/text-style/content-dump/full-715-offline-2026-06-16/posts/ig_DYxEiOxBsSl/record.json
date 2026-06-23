@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYxEiOxBsSl:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/707886696_18590302975012837_176863876085351294_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gEMHu6wFyhLmHJDPQf4nCyPgHXPNOuC9NGRZs1Nna4mc7cZCE0mvsJtVuBxWz2F5pk&_nc_ohc=85zX7RiUrtMQ7kNvwEGKy3J&_nc_gid=B8lwmzUx8seNXJmkf73oGA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9XdtUjLZKd1G47wQQymqgSUKZpReOE2URb3digI603Dw&oe=6A345F2E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Words from the book ‘You Were Always Growing’ by Charlotte Freeman ❤️\nIf you have lost someone you love, it’s hard to believe\nyou will be okay again and it’s even harder to imagine\nyour life without them. Honestly, it’s hard to imagine\nanything at all. You may have no interest in living a life without them in it, the truth is, though, life keeps going and so must you. You have to keep living for the ones who loved you. You have to keep loving for the ones who loved you. Whoever you are thinking of when reading this, go and make them proud.",
+    "word_count": 107
+  },
+  "communication_seed": {
+    "first_comment": "This is not for me 😞 I think I'm doing so much bad and stupidity in my life",
+    "latest_comments": [
+      "This is not for me 😞 I think I'm doing so much bad and stupidity in my life",
+      "thanks for your efforts",
+      "❤",
+      "🤍",
+      "❤️",
+      "Easier said",
+      "No! I wanted to see him growing too… and live a life that he can be proud of... I always want and pray the best for him...🤍\nEven if it means losing him coz' sometimes love also means learning how to keep growing even when they’re no longer beside us…",
+      "💛💛💛",
+      "🥺❤️‍🩹"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYxEiOxBsSl",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYxEiOxBsSl/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYxEiOxBsSl",
+  "metrics": {
+    "comments": 16,
+    "likes": 6337,
+    "plays": 234974,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 54223,
+    "winner_score": 8954.81
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-25T15:30:09.000Z",
+  "published_label": null,
+  "rank": 427,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYxEiOxBsSl",
+  "source_url": "https://www.instagram.com/p/DYxEiOxBsSl/"
+}

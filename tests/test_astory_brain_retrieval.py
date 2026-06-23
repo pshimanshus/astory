@@ -78,7 +78,9 @@ class AStoryBrainRetrievalTests(unittest.TestCase):
                         {
                             "query": "Aachu face identity references",
                             "role": "aachu",
-                            "expected_paths": ["references/identity/aachu/README.md"],
+                            "expected_paths": [
+                                "references/brain/pages/characters/aachu.md"
+                            ],
                             "forbidden_paths": ["references/identity/zuv/README.md"],
                         }
                     ]
@@ -103,7 +105,7 @@ class AStoryBrainRetrievalTests(unittest.TestCase):
                             "query": "Aachu face identity references",
                             "role": "aachu",
                             "expected_paths": [
-                                "references/identity/aachu/README.md",
+                                "references/brain/pages/characters/aachu.md",
                                 "references/identity/aachu/definitely-missing.md",
                             ],
                             "forbidden_paths": [],
@@ -117,6 +119,24 @@ class AStoryBrainRetrievalTests(unittest.TestCase):
 
             self.assertEqual(report["status"], "fail")
             self.assertEqual(report["failures"][0]["code"], "expected_path_missing")
+
+    def test_recall_finds_source_winner_novelty_modeling_lesson(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            index = Path(tmp) / "index"
+            build_index(".", index, include_runs=[])
+
+            results = recall(
+                index,
+                "source winner illusion of novelty model before A Story remix",
+                limit=10,
+            )
+
+            self.assertTrue(
+                any(
+                    "source_winner_novelty_model.json" in item.chunk.text
+                    for item in results
+                )
+            )
 
 
 if __name__ == "__main__":

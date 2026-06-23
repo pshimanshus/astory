@@ -1,0 +1,117 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DN3zOoU4lqQ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/539199581_18525124186039494_6175614255793816479_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFWhN1z3FiqbihJDfvFP2jtICj6c_a0E1MDAKrnCfLJmac7B0FBHED2jDEmZx9s2uVfl9AjqoEl2JtYXwyVSyZY&_nc_ohc=2nRBJ0TTNm8Q7kNvwG9YTHw&_nc_gid=KrCHPUxD12PoNzAW6BoYKQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af96fOQSd9mzi-3_g503V1PTuqur0cq76MPt1CoQCPGdgw&oe=6A347C2D&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DN3zOoU4lqQ:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "second slide somehow more cringe than the first 😬😬😬",
+    "word_count": 8
+  },
+  "communication_seed": {
+    "first_comment": "please bury them properly. they’ve seen enough.",
+    "latest_comments": [
+      "please bury them properly. they’ve seen enough.",
+      "Everything is cringe nowadays, u are cringe for posting private messages that are supposed to be private. He just flunked",
+      "He said, “Wuuuuuh er”",
+      "Did someone kill a cheetah?",
+      "Disgusting apt",
+      "Apparently this happened to my first ex HAHA he got in deep shit with his new girl that he cheated on me with 🤡",
+      "This man is 100% innocent",
+      "@lemon.aidey I was wondering why tf the book look so dirty"
+    ],
+    "mechanic_tags": [
+      "carousel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DN3zOoU4lqQ",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DN3zOoU4lqQ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DN3zOoU4lqQ",
+  "metrics": {
+    "comments": 25,
+    "likes": 2394,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 3519.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-08-27T20:28:41.000Z",
+  "published_label": null,
+  "rank": 563,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DN3zOoU4lqQ",
+  "source_url": "https://www.instagram.com/p/DN3zOoU4lqQ/"
+}

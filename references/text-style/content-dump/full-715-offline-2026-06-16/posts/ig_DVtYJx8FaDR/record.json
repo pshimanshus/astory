@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVtYJx8FaDR:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/642941102_2149726595858143_2055748240576826293_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEPlVSWGRC9M7-5eabrjRoDWujaC_LRQZiwwceJXMYALkSuMFkk9VXJD4x0mUD9t4s&_nc_ohc=YZKcSI9BLD0Q7kNvwFE_HP3&_nc_gid=xsIPdz4JHJXkSlgiNTebcg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-8wCxjEQV8-bcKikBkNjOYGcIgNEZNHBMrtbjHso6KWQ&oe=6A346393&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You outgrow many things before you realize you’re allowed to leave them behind. The relationships that feel one-sided. The places that feel smaller than your spirit. The version of yourself that believed you had to accept whatever you were given.\n\nBut growth is quiet at first. It begins the moment you start honoring how you truly feel. The moment you stop convincing yourself that the bare minimum is enough.\nYou deserve effort. You deserve honesty. You deserve a life that actually feels like it belongs to you.\n\n— A page from the book ‘Moments to Hold Close’ by Molly Burford ❤️",
+    "word_count": 101
+  },
+  "communication_seed": {
+    "first_comment": "💙",
+    "latest_comments": [
+      "💙",
+      "Beautiful ❤️",
+      "The “convenience” line is real. Some relationships are just quiet transactions—attention for validation, agreement for acceptance. Real connection happens when two people are already living lives that feel like their own. Then meeting each other isn’t a negotiation… it’s just alignment.",
+      "Sometimes the real work is believing you deserve better. 🌿",
+      "This speaks volumes.",
+      "Powerful 👏"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVtYJx8FaDR",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVtYJx8FaDR/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVtYJx8FaDR",
+  "metrics": {
+    "comments": 6,
+    "likes": 951,
+    "plays": 51444,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 8908,
+    "winner_score": 1532.78
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-10T15:30:00.000Z",
+  "published_label": null,
+  "rank": 653,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVtYJx8FaDR",
+  "source_url": "https://www.instagram.com/p/DVtYJx8FaDR/"
+}

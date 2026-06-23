@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DT3E-PlEbfI:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/622116609_17884771917431061_2079608513524748480_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHD6rXXX-NoxEnN8vRxt5K8qlk9vTiDMEy1v9B31HVwAVgVo3brsVRXEWrny9207w8&_nc_ohc=Pi3sIZxPVYAQ7kNvwHQgN3N&_nc_gid=Y2Kb35iP7DH6z5Bdb7XaIQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-NSkggYqmqM9kHeuMEtqX92iPWACOzCg0HcmZBjiut6A&oe=6A345D4F&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "People say this like it’s an insult…. \n\nBut it’s where I feel safest. \nIt’s where my people are. \nIt’s exactly what I prayed for. \n\nfollow @mindfulmama_method for all things slow, intentional motherhood. 🤍✨\n\n•••\nMotherhood truths, slow motherhood, intentional living, cozy home, present mom, simple family life, mom quotes",
+    "word_count": 52
+  },
+  "communication_seed": {
+    "first_comment": "The same feeling I have about it",
+    "latest_comments": [
+      "The same feeling I have about it",
+      "Ll. Ll l l.",
+      "@scarfe1980 @lladybirdss ❤️",
+      "I love when all my people come to my house. I’m not a homebody but I’ve worked so hard for the home I built, that I just want all my people in it all the time.",
+      "So true",
+      "!!!!!!",
+      "Home is my favorite",
+      "Home ❤️",
+      "Allhumdulillah",
+      "Amen 🫶🏽"
+    ],
+    "mechanic_tags": [
+      "static",
+      "first_person",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DT3E-PlEbfI",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DT3E-PlEbfI/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DT3E-PlEbfI/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DT3E-PlEbfI",
+  "metrics": {
+    "comments": 233,
+    "likes": 159411,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 169896.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-01-23T16:52:52.000Z",
+  "published_label": null,
+  "rank": 67,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DT3E-PlEbfI",
+  "source_url": "https://www.instagram.com/p/DT3E-PlEbfI/"
+}

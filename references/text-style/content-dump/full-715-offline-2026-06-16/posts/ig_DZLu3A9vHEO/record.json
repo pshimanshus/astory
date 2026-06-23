@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "alex aubrey",
+    "instagram_user_id": null,
+    "username": "alexaubreypoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZLu3A9vHEO:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.71878-15/708967344_4462541687294701_3406017458444669429_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2gGW2q5m3Jsb1qneVaWkg7EeT9PFchxYv_gKngTn2TGPct5w4nIO2jUnOQYIwu0W8Cc&_nc_ohc=kp27kPK5x9gQ7kNvwHmlb11&_nc_gid=v55LrGjde0Suur7DVh1Bug&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-KiR2mHjUVxfirw5CSn8nEPac8kFxwUgsUD_qXDK6yZg&oe=6A348638&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "from my poetry book “learning to love myself”, available on amazon",
+    "word_count": 11
+  },
+  "communication_seed": {
+    "first_comment": "Stay only where you're truly valued.🙌",
+    "latest_comments": [
+      "Stay only where you're truly valued.🙌",
+      "Stefuniu my razem na wieczność",
+      "🔥🔥🔥🔥❤️❤️",
+      "It was very very difficult cuz I was genuine and they where not, but I finally let go of the bastard",
+      "❤️",
+      "❤️❤️",
+      "👏👏❤️",
+      "Tama kaya dna kita habulin pa🥺",
+      "❤️",
+      "👏 No point choosing someone that wouldn’t do the same"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZLu3A9vHEO",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZLu3A9vHEO/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZLu3A9vHEO",
+  "metrics": {
+    "comments": 26,
+    "likes": 5666,
+    "plays": 146427,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 39789,
+    "winner_score": 8228.61
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-05T00:00:09.000Z",
+  "published_label": null,
+  "rank": 444,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZLu3A9vHEO",
+  "source_url": "https://www.instagram.com/p/DZLu3A9vHEO/"
+}

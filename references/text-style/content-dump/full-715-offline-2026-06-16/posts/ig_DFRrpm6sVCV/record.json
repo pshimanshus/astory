@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DFRrpm6sVCV:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-bos5-1.cdninstagram.com/v/t39.30808-6/474761863_934164838869106_4496773638052358115_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-bos5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHXSU2pyL8J6DkQygfj8OHQcMGbNBLXwpam2rRUB9m5-oYwC2WHTp8mKmkxGOwr3FU&_nc_ohc=veqlCh8xGdkQ7kNvwE625AV&_nc_gid=VI2pqOzSKK47GZWxz6g1yg&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af8VURth87nVXB__-R9V3coX9_JnTJwgFH8cC-SFJlRhgA&oe=6A348DAA&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You survived what others didn’t see. 🌻\nDrop a ❤️ if this resonates",
+    "word_count": 12
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "❤",
+      "❤️",
+      "@grayz_187 👏",
+      "❤️❤️❤️",
+      "❤️",
+      "❤️🙌🔥",
+      "❤",
+      "❤️❤️❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFRrpm6sVCV",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DFRrpm6sVCV/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DFRrpm6sVCV",
+  "metrics": {
+    "comments": 269,
+    "likes": 76873,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 88978.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-26T05:00:11.000Z",
+  "published_label": null,
+  "rank": 114,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DFRrpm6sVCV",
+  "source_url": "https://www.instagram.com/p/DFRrpm6sVCV/"
+}

@@ -1,0 +1,103 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZcQc7PgOyx:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia3-2.cdninstagram.com/v/t51.82787-15/721667193_18428508367133491_2409802748626485761_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGH2uKsxlnypXZikBGfdqZKF1dY4ZSj8OWVjtsoCoLz-t6F1F6znA3H2CD6h9FPAns&_nc_ohc=T2wZLhF-ZicQ7kNvwFPDAGw&_nc_gid=X7NR4RnRZM14wdCcYc7zaQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_aaMYspASqmTo_lS4Qn8MNvKxJlmxaiIQ2TWkWpqcq0Q&oe=6A345854&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Drop a 🧡 if this resonates!",
+    "word_count": 5
+  },
+  "communication_seed": {
+    "first_comment": "Yes❤️",
+    "latest_comments": [
+      "Yes❤️",
+      "❤️",
+      "YES 🙌🏾 🙌🏾🙌🏾🙌🏾",
+      "YES",
+      "Yes",
+      "🙏🧡✨",
+      "Yes🧡",
+      "🧡yes🧡",
+      "YES 🧡",
+      "YES"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZcQc7PgOyx",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZcQc7PgOyx/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZcQc7PgOyx",
+  "metrics": {
+    "comments": 1042,
+    "likes": 17475,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 64365.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-11T10:02:06.000Z",
+  "published_label": null,
+  "rank": 146,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZcQc7PgOyx",
+  "source_url": "https://www.instagram.com/p/DZcQc7PgOyx/"
+}

@@ -1,0 +1,105 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXPltTLifKQ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/671229509_897381526621613_7029787587003157571_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHZ4AXpunmPygAMvY11DVZH97-CLbdgwh82eX-bV44VP1JIHbJjZUsJ1qMwyhDZjQw&_nc_ohc=ZrgUg2daJ3AQ7kNvwGiVxuS&_nc_gid=i5Y0_5jEjaaOrvsbhYawjA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8Sc2HCx1lyu0Mp2sm6p-R_iEwEP4y9fTqM3gyWF1IzUw&oe=6A345C4E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "daily reminder 🗣️🗣️",
+    "word_count": 2
+  },
+  "communication_seed": {
+    "first_comment": "como que es cdmx!",
+    "latest_comments": [
+      "como que es cdmx!",
+      "👏👏👏👏",
+      "Real",
+      "Periooooodtt",
+      "Yesss!",
+      "MB my love 🚌🚏❤️💛",
+      "👏👏👏",
+      "Bb si los pago jajja"
+    ],
+    "mechanic_tags": [
+      "reel"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXPltTLifKQ",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXPltTLifKQ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXPltTLifKQ",
+  "metrics": {
+    "comments": 26,
+    "likes": 32600,
+    "plays": 767702,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 166085,
+    "winner_score": 39582.97
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-17T18:55:22.000Z",
+  "published_label": null,
+  "rank": 198,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXPltTLifKQ",
+  "source_url": "https://www.instagram.com/p/DXPltTLifKQ/"
+}

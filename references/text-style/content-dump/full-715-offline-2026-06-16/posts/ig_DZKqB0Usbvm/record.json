@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "𝐋𝐄𝐕𝐈𝐒𝐍𝐂𝐎𝐅𝐅𝐄𝐄 || Vintage Glamour & Quotes 🥃",
+    "instagram_user_id": null,
+    "username": "levisncoffee"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZKqB0Usbvm:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/714862103_18423916447134585_1870029909583162839_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFPCadb3Ud_hhwjttTqFE7H16Opn-cOAmRLByyK8CNpQXCbJ4LTqWa2qqGAYs0BwQA&_nc_ohc=zJkeHAziVkYQ7kNvwFiNcnV&_nc_gid=RIWg2fUQkk894yL3oAi1CQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af94nyYEpElDX6aLzveTlyZSR_rA3uoHCnZztczHRAJwDg&oe=6A345775&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "typewriterquotes",
+      "atticuspoetry",
+      "levisncoffee",
+      "smalljoy",
+      "ｔｈｏｕｇｈｔｓ"
+    ],
+    "public_preview": null,
+    "text": "Small joy 🤍 // @atticuspoetry 🌺\n\n#typewriterquotes #atticuspoetry #levisncoffee #smalljoy #ｔｈｏｕｇｈｔｓ",
+    "word_count": 7
+  },
+  "communication_seed": {
+    "first_comment": "I couldn’t agree more 💫",
+    "latest_comments": [
+      "I couldn’t agree more 💫",
+      "First ice cream 🍦 of summer 🤍",
+      "♥️♥️♥️♥️♥️",
+      "Love this ❤️",
+      "the last swim of summer just made me emotional for no reason 🖤\"",
+      "@art.music.dance247 Thank you 🙏🏼💌"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZKqB0Usbvm",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZKqB0Usbvm/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZKqB0Usbvm",
+  "metrics": {
+    "comments": 15,
+    "likes": 2276,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2951.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-04T14:00:17.000Z",
+  "published_label": null,
+  "rank": 585,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZKqB0Usbvm",
+  "source_url": "https://www.instagram.com/p/DZKqB0Usbvm/"
+}

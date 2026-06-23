@@ -17,6 +17,10 @@ EXCLUDED_PARTS = {
     "node_modules",
 }
 DERIVED_PREFIXES = ("references/brain/index/", "references/brain/reports/")
+EXCLUDED_FILENAMES = {
+    "claim_candidates.json",
+    "claim_candidates.md",
+}
 
 
 def scan_sources(repo_root: str | Path, include_runs: list[str]) -> list[BrainSource]:
@@ -69,6 +73,8 @@ def _iter_text_files(base: Path) -> list[Path]:
         if not path.is_file():
             continue
         if any(part in EXCLUDED_PARTS for part in path.parts):
+            continue
+        if path.name in EXCLUDED_FILENAMES:
             continue
         if path.suffix.lower() in TEXT_SUFFIXES:
             paths.append(path)

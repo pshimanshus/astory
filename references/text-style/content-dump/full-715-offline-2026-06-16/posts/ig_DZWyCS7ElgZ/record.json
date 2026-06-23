@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZWyCS7ElgZ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/719863699_18604216303031367_1352981473134064417_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEQ_J-MO__2Crk_5sPQkxehVn68H9qrcoSy6CxK9Xv0QmivuN-8XNMAgdwbz6Mn6Y4&_nc_ohc=1H7Fc1Qk-rMQ7kNvwF4I8IQ&_nc_gid=7tPrWbYJ_dkx5mKnr4_x8w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_-U_Gx8-16rekS3UOLQviLhBZ3Yd1PZIPdE_PPyFAs_Q&oe=6A345B7D&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "maybe we make it harder than it needs to be.⁠\n⁠\nmaybe the good life⁠\nwas always small moments,⁠\ngood people,⁠\na little laughter,⁠\nand finding reasons to stay soft.⁠\n⁠\nhere’s to loving deeply,⁠\nfinding joy where you can,⁠\nand embracing this little journey while we have it 🖤",
+    "word_count": 48
+  },
+  "communication_seed": {
+    "first_comment": "Beautiful🙌",
+    "latest_comments": [
+      "Beautiful🙌",
+      "Peter Raffoul - Call Me 🎶",
+      "Yes, maybe 🔥🔥🔥",
+      "❤️❤️",
+      "♥️♥️",
+      "Sometimes life feels lighter when we stop overcomplicating what truly matters.",
+      "Oi, so apparently the poetry world actually rates this bloke.\n \nTotal pretentious melt in a plastic mask, wearing it thinking he’s proper cool or something.\n \nAnd we’re supposed to take this absolute wanker seriously?\n \nGotta be a wind-up, yeah? This propped-up muppet's literally just there to mock real artists.\n \nThat absolute clown should be writing motivational posters for the back of a toilet door in a bloody Spoons, innit?\n \nCall me cynical, but how’s he even got a following?\n 🤡🤡🤡",
+      "Hey bestie"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZWyCS7ElgZ",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZWyCS7ElgZ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZWyCS7ElgZ",
+  "metrics": {
+    "comments": 12,
+    "likes": 3824,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 4364.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-09T07:00:14.000Z",
+  "published_label": null,
+  "rank": 538,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZWyCS7ElgZ",
+  "source_url": "https://www.instagram.com/p/DZWyCS7ElgZ/"
+}

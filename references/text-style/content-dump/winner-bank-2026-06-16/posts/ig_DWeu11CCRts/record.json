@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DWeu11CCRts:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/661247084_18580234849000418_1273991884607792232_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gGYE-qBbFlG74wYph1DLHpYe4GUNgGEzoWzIsbBBvuHpfkdVS17Lj_vXOhApE4hCyY&_nc_ohc=azEveklYHLMQ7kNvwHxVnoy&_nc_gid=gw3BWmd2RR4SyEmsvvHh4w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-xURUThU5d4Iq198Vgs8wGZbq7aDCryZURe9Y9_nanug&oe=6A345852&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "think of all the people you haven’t met yet that you’re going to love and that are going to love you back!!",
+    "word_count": 24
+  },
+  "communication_seed": {
+    "first_comment": "i love this",
+    "latest_comments": [
+      "i love this",
+      "I haven’t felt like i belonged here for so long, i really hope there is..",
+      "Amen 🙏🏾",
+      "I’m trying to gain followers and likes as I’m starting out check me out please 🙏",
+      "Like out side",
+      "Ye. But also never forget those who love you, always will and really did.",
+      "Lil Kmv; approves🥀",
+      "hope you live to the fullest ♥️💯",
+      "@regisuptown thank youu🥹🤍"
+    ],
+    "mechanic_tags": [
+      "static",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWeu11CCRts",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWeu11CCRts/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DWeu11CCRts/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DWeu11CCRts",
+  "metrics": {
+    "comments": 180,
+    "likes": 198223,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 206323.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-03-29T19:34:05.000Z",
+  "published_label": null,
+  "rank": 47,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DWeu11CCRts",
+  "source_url": "https://www.instagram.com/p/DWeu11CCRts/"
+}

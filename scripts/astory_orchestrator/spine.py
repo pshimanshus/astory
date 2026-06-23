@@ -79,17 +79,26 @@ STATES: tuple[StateSpec, ...] = (
             "debates/idea_room/cross_critique.md",
             "debates/idea_room/repair_round.md",
             "debates/idea_room/final_scoreboard.json",
+            "planning/novelty_candidate_ledger.json",
             "evals/idea_engagement_eval.json",
             "evals/idea_engagement_report.md",
         ),
     ),
     StateSpec(
         "SELECT_BEST_IDEA", 9, "creative", "CREATE_SCENE_LANDING_PREVIEW",
-        ("planning/selected_idea.json", "planning/rejected_ideas.md"),
+        (
+            "planning/selected_idea.json",
+            "planning/source_winner_remix_contract.json",
+            "planning/rejected_ideas.md",
+        ),
     ),
     StateSpec(
         "CREATE_SCENE_LANDING_PREVIEW", 10, "creative", "HITL_IDEA_LOCK",
-        ("planning/scene_landing_preview.md",),
+        (
+            "planning/scene_landing_preview.md",
+            "planning/source_winner_novelty_model.json",
+            "planning/winner_landing_comparison.md",
+        ),
     ),
     StateSpec(
         "HITL_IDEA_LOCK", 11, "hitl", "GENERATE_STORY_CONCEPT",
@@ -140,6 +149,7 @@ STATES: tuple[StateSpec, ...] = (
         (
             "evals/pre_generation_eval.json",
             "evals/pre_generation_eval_report.md",
+            "evals/source_winner_alignment_eval.json",
             "debates/prompt_room/prompt_review.md",
         ),
     ),
@@ -174,6 +184,7 @@ STATES: tuple[StateSpec, ...] = (
         (
             "evals/image_quality_eval.json",
             "evals/image_quality_report.md",
+            "evals/source_winner_image_alignment.json",
             "debates/image_qa_room/image_qa_debate.md",
         ),
     ),
@@ -182,7 +193,10 @@ STATES: tuple[StateSpec, ...] = (
         ("evals/repo_qa_review.json",),
     ),
     StateSpec("RETRY_OR_REVISE_IF_NEEDED", 29, "control", "FINAL_QA"),
-    StateSpec("FINAL_QA", 30, "gate", "EXPORT_AND_PACKAGE"),
+    StateSpec(
+        "FINAL_QA", 30, "gate", "EXPORT_AND_PACKAGE",
+        ("evals/final_winner_landing_check.json",),
+    ),
     StateSpec(
         "EXPORT_AND_PACKAGE", 31, "deterministic", "WRITE_REPORTS",
         ("exports/slide_01_post_4x5.png",),

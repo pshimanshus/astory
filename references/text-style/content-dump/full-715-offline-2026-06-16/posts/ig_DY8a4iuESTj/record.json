@@ -1,0 +1,142 @@
+{
+  "account": {
+    "full_name": "Bryn • Motherhood + Marriage Quotes",
+    "instagram_user_id": null,
+    "username": "hereverydaymotherhood"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DY8a4iuESTj:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.ffcm1-1.fna.fbcdn.net/v/t51.82787-15/710700887_17903004060431061_4057779647011015630_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.ffcm1-1.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gHXx9nMp8nr23iSwS_dYuZVlIcsLul7kLGebnKlUVHJ-cdhS5cx3swvHMUAvnJTjT4&_nc_ohc=ADagg1u8LeMQ7kNvwEGDl7I&_nc_gid=Z63GU83Rj-zKqM2w7qQK2w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8SjH4tKoTxFKK67LUi2CRFHXLfTMMso_-Bi0e4ke3l1Q&oe=6A3465D9&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY8a4iuESTj:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY8a4iuESTj:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DY8a4iuESTj:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Isn’t it funny how we all wanted to have big careers… but now we just want to make the most amount of money we can in the least amount of time possible so we can spend our time where it actually matters... with the people we love most. 🥹\n\nFollow @hereverydaymotherhood for more relatable motherhood + marriage moments 🤍",
+    "word_count": 57
+  },
+  "communication_seed": {
+    "first_comment": "So true!! 🙌",
+    "latest_comments": [
+      "So true!! 🙌",
+      "Yes to all of this!! 👏🏼",
+      "Ugh I feel like in my core about to go back to work in 3 weeks after baby #2 and I’m a wreck",
+      "Thissssss!! ❤️ which is why I’m so grateful and so proud of myself for building a flexible, soul led business that nourishes me and changes with me as I go through these stages of life!",
+      "Exactly!",
+      "This. All of this. I deserve to be a present mother and work. Also why is work and motherhood separate. I have the skills to work alongside my baby. I don’t have to leave them to provide value",
+      "I grew up without my parents. They sacrificed moving to another country to have better jobs. They took me with them permanently when i was 7 but they were still busy working. I have a great life in Canada now. Because of them. But i have the chance to redo it. Im able to only work 3 days thanks to my hubby so i have more days with our child. The 3 days im at work he's with grandparents or my mom. We can have more money next time, maybe go full time again when he's in school full time as well.. b",
+      "My priorities have changed so much ever since I had my oldest. I didn’t think they would but babies will do that to ya. 🥺"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY8a4iuESTj",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DY8a4iuESTj/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DY8a4iuESTj",
+  "metrics": {
+    "comments": 18,
+    "likes": 2024,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2834.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-30T01:17:30.000Z",
+  "published_label": null,
+  "rank": 592,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DY8a4iuESTj",
+  "source_url": "https://www.instagram.com/p/DY8a4iuESTj/"
+}

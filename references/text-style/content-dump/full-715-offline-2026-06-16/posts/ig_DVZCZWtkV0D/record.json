@@ -1,0 +1,104 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVZCZWtkV0D:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/642457108_18567900817012837_1585424350085515214_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFubD6KzCjqxWKTUaMPOAORCgnruT2iAoUC_nDpdnf5TS-El11CpdvBIFRpmT1oGSk&_nc_ohc=u2LP-uIeAX0Q7kNvwH8nzen&_nc_gid=QCghq8wDiAeoxQ0NNvTA0g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8_Sc_GSr9N9jbLVyScUlseFIFG52uofr3RcYLuU8IUvg&oe=6A345F74&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "This became your specialty.\n\nYou mistook intensity for intimacy.\nChaos for connection.\nYour own exhaustion for proof of devotion.\n\nYou became the savior.\nThe therapist.\nThe friend who fixes everything except the breaking in your own chest.\n\nYou have loved so hard that you forgot love should also love you back.\n\nBut hear this, love warrior:\nLove is not martyrdom.\nIt is not the slow disappearance of yourself.\nIt does not ask for your erasure.\n\nReal love does not require you to vanish in order for it to exist.\n\nBook: ALTAR by Tori Gordon 🖤 Find the link in the bio.",
+    "word_count": 100
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️",
+    "latest_comments": [
+      "❤️❤️",
+      "Too much love isn’t love.\nIt’s fear that refuses to let go.",
+      "❤️",
+      "@nickelojons",
+      "Crying 😭😭😭",
+      "👏👏 so excited for this!"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVZCZWtkV0D",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVZCZWtkV0D/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVZCZWtkV0D",
+  "metrics": {
+    "comments": 6,
+    "likes": 1632,
+    "plays": 81305,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 16083,
+    "winner_score": 2464.91
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-03-02T17:56:32.000Z",
+  "published_label": null,
+  "rank": 613,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVZCZWtkV0D",
+  "source_url": "https://www.instagram.com/p/DVZCZWtkV0D/"
+}

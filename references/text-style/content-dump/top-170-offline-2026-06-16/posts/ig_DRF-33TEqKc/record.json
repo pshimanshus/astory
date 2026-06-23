@@ -1,0 +1,112 @@
+{
+  "account": {
+    "full_name": "Meggan Roxanne",
+    "instagram_user_id": null,
+    "username": "earthtoroxanne"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DRF-33TEqKc:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/582262946_18541165324047660_9133551202132911550_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGIO8-aiEaPQ2SeFUldY3bhUYH_k4qdPEXC4pMor40pK3qIsm3pBlFh4YstS9iqnXo&_nc_ohc=5w4wqP99ADIQ7kNvwF4r_-k&_nc_gid=QVd1ayM78TqXcOqALqg2HQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_oBZkPdWg94szGW-aTiClB8rqElWKRtlo1rzW0tOGhAA&oe=6A345824&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "By now, I’m convinced that your soul knows when a season is coming to an end.\n\nI never thought I’d be starting over at 36.\n\nGrief, sadness, and depression held me for 1,706 days.\n\nStagnation. Procrastination. Complete hibernation from the version of me I once knew.\n\nAnd yet, in the midst of all of that, my life’s work still stayed at the centre of my mind; every morning and every night.\n\nI poured my soul into 2025, and with intention, I did everything needed to reclaim my life.\n\nI survived the lowest of lows, and to be honest, rock bottom was the most freedom I’ve ever experienced.\n\nThere’s no urgency, almost everyone has written you off, and essentially, it’s just you vs. you.\n\nThe silence is loud. You’re faced with the reality of who you’ve become, and all you have is time, time to fix it.\n\nThrough all of these experiences, I’ve gained a deeper insight into life and collected so much wisdom.\n\nI am of service, and I have so much to share. My spirit feels 100 years old.\n\nI spoke to my elder Millie last night. We’re both Scorpios. She’s turning 93 next week.\n\nShe laughed when I told her that I feel like my life is over and reminded me that she has 56 years on me.\n\nShe said, “Starting over is just an invitation to return to the root of who you’ve become.”\n\nIt’s nothing to be ashamed of. If anything, it’s the complete opposite. What a privilege it is to be able to start over.\n\nWe’ve been led to believe that starting over is synonymous with failure,\n and because of that, many of us carry such deep levels of shame that we’d rather stay in positions we’ve outgrown than embrace the vulnerability of rebuilding something new.\n\nSo yeah, chipped nails, dry lips still showing up.\n\nTo anyone reading this: life can be rebuilt after loss, after trauma, after convincing ourselves that we aren’t worthy of experiencing it to its fullest extent.\n\nEven if we’ve strayed light-years away from where we’re meant to be, we still have the ability to return home to ourselves.\n\n🌻",
+    "word_count": 380
+  },
+  "communication_seed": {
+    "first_comment": "Currently learning how to not break my own heart 🫶🏼",
+    "latest_comments": [
+      "Currently learning how to not break my own heart 🫶🏼",
+      "Thank you for this 👏",
+      "❤️",
+      "Never a truer word….",
+      "The wonderful thing you must have had a mom who loved you unconditionally. That love is a great gift many don’t have. I’m glad you are able to overcome now and begin anew.",
+      "❤️❤️❤️",
+      "Thank for this ❤️",
+      "Im so sorry you lost your mom, that’s my biggest fear. My God hold you in his love and grace during this time and I’m looking forward to your series, I hope it will change many lives! You are lovely!🙏🏻🫶🏻",
+      "Complete relate to this! I lost my mum 6 years ago and felt and still feel so untethered.... And going back to her home country has been a kind of restoration for me every year so I completely understand this ❤️",
+      "Lost my mum and it's the deepest worst pain. Sending you love and well done for giving yourself time to heal ❤️🙏🏽🫂"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "domestic",
+      "nostalgia"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DRF-33TEqKc",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/top-170-offline-2026-06-16/posts/ig_DRF-33TEqKc/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DRF-33TEqKc",
+  "metrics": {
+    "comments": 653,
+    "likes": 12552,
+    "plays": 693147,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 101455,
+    "winner_score": 45487.93
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-11-15T22:18:53.000Z",
+  "published_label": null,
+  "rank": 120,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DRF-33TEqKc",
+  "source_url": "https://www.instagram.com/p/DRF-33TEqKc/"
+}

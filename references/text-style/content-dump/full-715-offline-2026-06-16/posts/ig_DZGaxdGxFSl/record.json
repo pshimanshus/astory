@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZGaxdGxFSl:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-det1-1.cdninstagram.com/v/t51.82787-15/714652120_18427161106133491_9145518212367232811_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-det1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gFkNXq8VDwPMYimVkj54FwJO0VKo-yXFL87hRw8rGuZS6G_FOXCSWJrFZOQMzsdlO4&_nc_ohc=Bnw43Guw2B8Q7kNvwGAdhHg&_nc_gid=hBoQQsgtkDJA5cguFSSSrw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8c3Y8qDAY9z4_WSOaTnhj9Wa-zQEvVzszIQPoWa4Kj7w&oe=6A346062&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "We have entered a portal. A season of rebirth is about to begin. Obstacles are falling away and a new path is being forged. Long felt limitations are no longer going to be holding us back.\n\nClaim this energy and prepare for an exciting adventure ✨",
+    "word_count": 45
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "I affirm it and clam this Amen ❤️❤️❤️❤️",
+      "Claimed!",
+      "Amen amen amen 🙏🏼",
+      "I claim this. 🙏🙏",
+      "Amen",
+      "🙏❤️",
+      "I clim this",
+      "✨✨✨Yes! I claim this with joy, love & gratitude! 🦉🦉🦉💖💖💖"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZGaxdGxFSl",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZGaxdGxFSl/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZGaxdGxFSl",
+  "metrics": {
+    "comments": 738,
+    "likes": 39668,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 72878.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-02T22:31:49.000Z",
+  "published_label": null,
+  "rank": 135,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZGaxdGxFSl",
+  "source_url": "https://www.instagram.com/p/DZGaxdGxFSl/"
+}

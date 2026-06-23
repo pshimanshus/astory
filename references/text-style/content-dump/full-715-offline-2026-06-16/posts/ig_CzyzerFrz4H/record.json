@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "The Wild Beauty Foundation",
+    "instagram_user_id": null,
+    "username": "wildbeautyspirit"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:CzyzerFrz4H:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.71878-15/502268002_1884415155730355_5673828967346023005_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gFLSSZArNFzHBpqPl4KvKU9CdKpZEu-cky5ngIIOC0NzHrsWxgORihVLGtj47FL1C0&_nc_ohc=Nje0AaBF9G4Q7kNvwEU3wCT&_nc_gid=4z-tspH_Lj6GlfyOw1baPw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-xKTr0ATCqFNmgFX26M8-IxuFE_sezZztXflgoPTPX0w&oe=6A3464C9&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Very excited to release our new trailer for WILD BEAUTY: MUSTANG SPIRIT OF THE WEST!  The powerful emotional responses that the film has elicited, and the reviews the film has received have been truly profound.  We are so proud to keep going, and to keep fighting, for the preservation of our wild world. \n\nI stand with wild horses. \n\n“A Passionate Cry For the Mystery and the ‘Tonic of Wildness’”\n- Awards Daily\n\n“Will take your breath away.”\n- Bob Verini, Variety\n\n“A masterpiece of investigative reporting.”\n- Elizabeth McCall, Journalist\n\n“Gorgeously shot and passionately directed, Avis provides enough first-hand evidence to infuriate you.”\n- Awards Daily\n\n“Groundbreaking.”\n-Off The Strip\n\n“Daring and inspiring.”\n- Awards Daily\n\n“May provoke a sense of awe… and outrage.”\n-Deadline\n\n“A clarion call to action for everyone who loves the freedom of the West, a must-see for all who want to restore and preserve the wild.”\n— Delia G. Malone, Wildlife Chair, Colorado Sierra Club",
+    "word_count": 156
+  },
+  "communication_seed": {
+    "first_comment": "How do we watch this ?",
+    "latest_comments": [
+      "How do we watch this ?",
+      "Wild animals across the globe are being exterminated because they are viewed as pests by the livestock and fishing industries for either competing with livestock for grazing land (like wild American horses) or for preying on livestock (like wolves) or for eating the feed that's put out for livestock (like birds) or for eating  fish (like seals). Please consider going vegan for all animals and look up vegan recipes to see how easy it is to be vegan.",
+      "The Florida panther was hunted to near extinction because the government on behalf of the livestock industry, especially cattle ranchers, placed a $5 bounty on them in the 1800's to encourage hunters to exterminate them because they prey on livestock.\nToday, ceaseless millions of wild animals across the globe continue to be exterminated because they either compete with livestock for grazing land and water resources (like wild American horses here in the US, kangaroos in Australia, and elephants ",
+      "This must not stand!! Boycott Beef. Starve the ranchers who along with the BLM  who perpetuate this barbaric  crime against nature!",
+      "❤️",
+      "Thank you For reposting it is a monstrous spot on this administration as it can be changed and the horses should continue to represent the spirit of freedom of the United States",
+      "Thank you!!!!!! ❤️❤️❤️❤️❤️❤️❤️❤️",
+      "So Stunning ❤️❤️❤️❤️",
+      "@wildbeautyspirit I watch your documentary last night and I give it a 10/10 all of the things that Ashley said I 100% agree with and did they ever find the chesnut baby and the other white horse",
+      "@warriorforanimals"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you",
+      "first_person",
+      "message_native"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_CzyzerFrz4H",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_CzyzerFrz4H/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:CzyzerFrz4H",
+  "metrics": {
+    "comments": 69,
+    "likes": 1358,
+    "plays": 40612,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 8292,
+    "winner_score": 4753.22
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2023-11-18T16:19:49.000Z",
+  "published_label": null,
+  "rank": 523,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "CzyzerFrz4H",
+  "source_url": "https://www.instagram.com/p/CzyzerFrz4H/"
+}

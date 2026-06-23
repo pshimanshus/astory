@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DXW8rFjBGsV:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/670262002_26097149156634267_1010020052877019328_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFdSb0B3vKGQTR7EIxofE5xscGf5qNBnkKftDIFKszTCrcrunCcpGaQs2Qt1wPKmZE&_nc_ohc=-ggV591FE4AQ7kNvwFNonVP&_nc_gid=gwt1AmRkDnXmSGczVqjolw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8lkF0rSZnGrkqNpRVHEWXPpDsTL7tyX8e3X5R6_hvcew&oe=6A346D78&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Yes, sometimes people leave-but that’s okay, because their lessons always stay, and that is what matters. That is what remains. 🖤 Book: The Strength In Our Scars by Bianca Sparacino.",
+    "word_count": 31
+  },
+  "communication_seed": {
+    "first_comment": "Beautifully said ❤️",
+    "latest_comments": [
+      "Beautifully said ❤️",
+      "This is one of my favourite pieces of writing ever❤️ such a beautiful book too",
+      "Your book shouldn’t stay unseen, it deserves to touch hearts everywhere ❤️📖. I’d love to support your masterpiece with a free spotlight on my page 🌟✨. Would you be open to that",
+      "❤️❤️🙌",
+      "She came in when I needed peace and self love, she came to me without fear even though she knew I didn't know how to love. She taught me all these new feelings and all these wonderful things about life. But like all the others I was just a step on her ladder, but I am glad I was of use to her that time.",
+      "🖤🖤",
+      "❤️",
+      "❤️",
+      "❤️❤️🙌"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXW8rFjBGsV",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DXW8rFjBGsV/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DXW8rFjBGsV",
+  "metrics": {
+    "comments": 10,
+    "likes": 3488,
+    "plays": 88770,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 26562,
+    "winner_score": 4867.67
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-04-20T15:30:00.000Z",
+  "published_label": null,
+  "rank": 522,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DXW8rFjBGsV",
+  "source_url": "https://www.instagram.com/p/DXW8rFjBGsV/"
+}

@@ -1,0 +1,155 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZI70FVkfgL:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-bos5-1.cdninstagram.com/v/t51.82787-15/715406050_18427316179133491_2227081709980859816_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-bos5-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGhvg2FDeJ9gBvUIvTtGUepg8GZC5BGM5A7v7cXITlHnLKdxcToe4YeqasMFHeJK0-_CWj2arW96hF2YE-TSvEu&_nc_ohc=suQEUlJDT5YQ7kNvwGFBPOZ&_nc_gid=2DeYamG-qoCDMJrm9HN6nQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-2iYuWkGqvojDTkw211LBhJMUgcgPzNAAPgWbYBOQHRA&oe=6A346468&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZI70FVkfgL:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZI70FVkfgL:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZI70FVkfgL:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZI70FVkfgL:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "There’s so much goodness coming into your life you don’t know about yet. Some of your happiest days are still ahead of you. ✨\n\nIf you like these types of posts, please consider sharing them and leaving a like and/or comment. \n\nThis helps ensure more of this type of content shows up on people’s feeds on IG :)",
+    "word_count": 60
+  },
+  "communication_seed": {
+    "first_comment": "Yes 🙌",
+    "latest_comments": [
+      "Yes 🙌",
+      "@headbussaa_bg",
+      "@wassim_jouini_1💕",
+      "❤️",
+      "Amen 🙏 I know I got this",
+      "❤️❤️❤️",
+      "❤️❤️",
+      "👏👏👏"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZI70FVkfgL",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZI70FVkfgL/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZI70FVkfgL",
+  "metrics": {
+    "comments": 70,
+    "likes": 30844,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 33994.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-03T21:56:08.000Z",
+  "published_label": null,
+  "rank": 219,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZI70FVkfgL",
+  "source_url": "https://www.instagram.com/p/DZI70FVkfgL/"
+}

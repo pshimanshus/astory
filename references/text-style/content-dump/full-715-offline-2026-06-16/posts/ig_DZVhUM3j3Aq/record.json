@@ -1,0 +1,127 @@
+{
+  "account": {
+    "full_name": "The Wild Beauty Foundation",
+    "instagram_user_id": null,
+    "username": "wildbeautyspirit"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZVhUM3j3Aq:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/719127248_18108948197296666_6159150674580452603_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEOxepnMTeNeSH-CBMxcNDhV_KGDmLQpHGTX_lXsOhf31YWSReragP5GIP5u3QlNTE&_nc_ohc=3r6EsGFsKfUQ7kNvwHXUxre&_nc_gid=HhtuWn5TK2c1F8Y0oFuW0w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_snVHDKVdCOloSMlrFEPVbXKkGIVIGrUvQIeEdUO7bzA&oe=6A34743A&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZVhUM3j3Aq:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "TheLostHorses",
+      "WildBeautyFoundation",
+      "SAFEAct"
+    ],
+    "public_preview": null,
+    "text": "IMPORTANT NEWS.  An immediate halt on equine exports to Mexico due to the New World screwworm situation has been issued by APHIS.\n\nThe suspension includes horses exported for slaughter, breeding, work, sport, exhibition, and transit purposes.\n\nWhile the duration of this measure remains unknown, it means that horses cannot currently be exported from the United States to Mexico through these channels. APHIS has not yet provided a timetable for resumption.\n\nWBF will share updates as additional information becomes available.\n\nAs The Wild Beauty Foundation continues to fight for passage of the SAFE Act, including helping advance core protections through the House Transportation and Infrastructure Committee alongside our partners, this development underscores an important reality: the horse slaughter pipeline can be stopped, should be stopped, and must be stopped.\n\nThank you for being part of this journey, and for standing with The Lost Horses.\n\n#TheLostHorses #WildBeautyFoundation #SAFEAct",
+    "word_count": 146
+  },
+  "communication_seed": {
+    "first_comment": "Thank goodness no more exporting horses or any others animal !!!!",
+    "latest_comments": [
+      "Thank goodness no more exporting horses or any others animal !!!!",
+      "Halt this forever!!!!!",
+      "Should've never been happening anyway",
+      "STOP ✋️ misleading the public with false information to push your agenda - there's NO Such Thing as a Wild Horse, it's a misnomer. Any horses in the wild are FERAL, need human care, otherwise live short and painful lives due the lack of natural predators to thin out the weak.",
+      "So doesn’t it all begin  with the roundups of free healthy beautiful wild horses by the BLM cronies, over which the citizens of this country have no voice.  @potus @repbencline @sentimkaine @senatorwarner 💔💔💔 Follow The BLM trail and see where it all leads.  I am sure no one making the laws of this country has challenged this system, because too many contractors benefit at the expense of the lives of these horses.",
+      "Hope this lasts!!!",
+      "✊🏾✊🏾✊🏾✊🏾✊🏾✊🏾",
+      "The fight to stop this needs to continue to save these wonderful animals we need to fight harder to save those that are left",
+      "Thst great news ban this so curel",
+      "Yasss🔥"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "domestic",
+      "fight_repair"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZVhUM3j3Aq",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZVhUM3j3Aq/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZVhUM3j3Aq",
+  "metrics": {
+    "comments": 150,
+    "likes": 2213,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 8963.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-08T19:14:43.000Z",
+  "published_label": null,
+  "rank": 426,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZVhUM3j3Aq",
+  "source_url": "https://www.instagram.com/p/DZVhUM3j3Aq/"
+}

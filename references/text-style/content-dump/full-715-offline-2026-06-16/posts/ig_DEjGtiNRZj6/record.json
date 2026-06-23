@@ -1,0 +1,99 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DEjGtiNRZj6:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fdet3-1.fna.fbcdn.net/v/t51.82787-15/619677514_17907387795164023_7234560564697615380_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fdet3-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gGloJIxYlpTGStLSxyZfgqIEYwowTku3b6NuGohP_ninQH4O2LNpoqgF8E0Iy1daP4&_nc_ohc=aF8ePXa-KDYQ7kNvwHmlZMv&_nc_gid=j_xpbFDPkkwCQ8BAFp8LDA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8JlYIfZrNz60V9hX3HoM6XHL053gZCGOao7Y7y1uScUw&oe=6A348007&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "THANKS",
+    "word_count": 1
+  },
+  "communication_seed": {
+    "first_comment": "Omg literally I feel as if I was reading my ex",
+    "latest_comments": [
+      "Omg literally I feel as if I was reading my ex",
+      "😂",
+      "@laurarenea_  porque",
+      "lMaosksakoa",
+      "Classic!",
+      "Classic!",
+      "😂😂😂"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DEjGtiNRZj6",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DEjGtiNRZj6/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DEjGtiNRZj6",
+  "metrics": {
+    "comments": 59,
+    "likes": 8707,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 11362.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-08T02:52:20.000Z",
+  "published_label": null,
+  "rank": 386,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DEjGtiNRZj6",
+  "source_url": "https://www.instagram.com/p/DEjGtiNRZj6/"
+}

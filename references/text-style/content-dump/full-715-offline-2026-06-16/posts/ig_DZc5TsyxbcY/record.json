@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZc5TsyxbcY:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/722217811_18050070281782076_8041829634339220448_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFqKNT5htYszdOfnQEdV3EL_e0Ww_0Dnb4f1m7adCDn8IuJFZ9LwE-jU0r2GDUPWzk&_nc_ohc=fvOzMPC0vxIQ7kNvwGmfihJ&_nc_gid=dq3AJBWmsNBYxCmN6pUAXQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8ZfPMxkxB43eS_esrMn_zArHyEswjNyRJMf96x8qBXLg&oe=6A345AE9&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessages",
+      "RelationshipGoals",
+      "CoupleGoals",
+      "ILoveYou",
+      "PassionateLoveMessages"
+    ],
+    "public_preview": null,
+    "text": "💕 FREE KISSES COUPON 💕\n\nNo limits.\nNo expiration date.\nNo special occasion required.\n\nJust redeem whenever you need a reminder that you’re loved. ❤️\n\nTag your partner, best friend, or favorite human and hand them this coupon today. 🥰\n\nAnd be honest…\n\nHow many kisses would you cash in? 😘👇\n\nSave this for someone who deserves unlimited love. 💌\n\n#LoveMessages #RelationshipGoals #CoupleGoals #ILoveYou #PassionateLoveMessages",
+    "word_count": 60
+  },
+  "communication_seed": {
+    "first_comment": "Pusapusapusapusapusa😍😍😍😍😍😍😍😍❤️❤️❤️❤️❤️e da ukupno bi trebal imati 50nocnih....svi pitaju jel to po ZAKONU.....?!?!?!?",
+    "latest_comments": [
+      "Pusapusapusapusapusa😍😍😍😍😍😍😍😍❤️❤️❤️❤️❤️e da ukupno bi trebal imati 50nocnih....svi pitaju jel to po ZAKONU.....?!?!?!?",
+      "Saving this ❤️",
+      "💋❤️🌹",
+      "🫦🫦🫦💋💋💋😘😘😘😘😘Love you very much😚😚😚😚😚😚😚😚😚😚😚😚😘😘😘😘😘😘🤗🤗🤗🤗",
+      "❤️❤️💞☀️🕊",
+      "❤️❤️",
+      "My love... dear artist R ❤ ♾",
+      "My unlimited for you, my love 💋❤️❤️❤️❤️❤️❤️❤️❤️",
+      "❤️❤️",
+      "😍😍😍💋💋💋💋💋💋💋"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZc5TsyxbcY",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZc5TsyxbcY/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZc5TsyxbcY",
+  "metrics": {
+    "comments": 33,
+    "likes": 1064,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2549.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-11T15:59:11.000Z",
+  "published_label": null,
+  "rank": 606,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZc5TsyxbcY",
+  "source_url": "https://www.instagram.com/p/DZc5TsyxbcY/"
+}

@@ -1,0 +1,133 @@
+{
+  "account": {
+    "full_name": "Third Eye Thoughts ™",
+    "instagram_user_id": null,
+    "username": "thirdeyethoughts"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZIY48xkVq3:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fsac1-2.fna.fbcdn.net/v/t51.82787-15/714716636_18427284004133491_1045619897313100722_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fsac1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gHmA99d1EcNrgQqp6nipzgJIS0wA2u6-UmuOJ5hXwutvD57TfZrK4ag-d1Nze__g8A&_nc_ohc=knP7JNKZsFkQ7kNvwEHSqUH&_nc_gid=40rEJKi6GgQTX61C4SvCDA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8ZaDySGmUY1b-QgrSGZ_2rzEaeWHXozmfxRGpPotiDkA&oe=6A346781&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZIY48xkVq3:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DZIY48xkVq3:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Be present with the people you love. Appreciate them while they’re here. Be kind to people and look out for each other. Enjoy the small moments. Forgive easily and laugh often. ❤️",
+    "word_count": 32
+  },
+  "communication_seed": {
+    "first_comment": ":(",
+    "latest_comments": [
+      ":(",
+      "❤️❤️❤️❤️",
+      "🦋❤️🦋",
+      "❤️",
+      "💯❤️🙏🏽",
+      "❤️",
+      "♥️",
+      "❤️",
+      "Yea whatever",
+      "🔥👏"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you",
+      "fight_repair"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZIY48xkVq3",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZIY48xkVq3/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZIY48xkVq3",
+  "metrics": {
+    "comments": 11,
+    "likes": 6019,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 6514.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-03T16:50:58.000Z",
+  "published_label": null,
+  "rank": 482,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZIY48xkVq3",
+  "source_url": "https://www.instagram.com/p/DZIY48xkVq3/"
+}

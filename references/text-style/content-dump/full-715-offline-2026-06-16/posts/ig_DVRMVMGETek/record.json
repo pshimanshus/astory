@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVRMVMGETek:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/642334137_1915876346470201_8396155291063218223_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHRSHdckbqEP6YvrPeBA1Zvw0S-5PS4yIp8i5KkTIl6MGMt2_QmFvlMANMIOFXETQY&_nc_ohc=BY1bBItwKekQ7kNvwHbXDFE&_nc_gid=8QG818utoh-UkMsmUDDnew&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-Hp5G4BrwBGjKM46UC7kOzgaYywXjm4_yz1CFjN0rUoA&oe=6A34697E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "You can be kind. You can be patient. You can do everything “right” — and still feel like you don’t belong. \n\nSometimes the problem isn’t how you’re showing up. It’s where you’re showing up. Not every space is built to receive you. Not every door is yours to walk through. \n\nThe hardest realization is this: you are not rejected — you are misplaced. And peace doesn’t come from knocking harder. It comes from having the courage to walk away. \n\n- If these words resonated with you, read more in the book ‘Detached’ by Sabrina Bendory 📖",
+    "word_count": 98
+  },
+  "communication_seed": {
+    "first_comment": "🤎🤎🤎",
+    "latest_comments": [
+      "🤎🤎🤎",
+      "👏👏",
+      "Needed this ❤️",
+      "Does this also apply to work?",
+      "This reality hurts😢 but the truth is necessary for growth and process.",
+      "Ameen ❤️",
+      "Great 💐",
+      "😮‍💨",
+      "اسلام وعلیکم امید کرتا ہوں مجھے مایوسی نی ہو گی کیوں کہ میں بڑی امید سے پوسٹ کر رہا ہوں  میں نے والدہ کے علاج کے لیے ایزی پیسہ سے لون لیا تھا اب میرے پاس اتنے پیسے نہیں ہیں کہ لون واپس کر دوں ہر ہفتے کا 1700 چارج ہو رہا ہے خدا  کے لیے میری مدد کرو اب لون 47000 ہو گیا ہے\nجس نے میری مدد کرنی وہ مجھے انبکس میں میسج کریں",
+      "❤️"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVRMVMGETek",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DVRMVMGETek/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVRMVMGETek",
+  "metrics": {
+    "comments": 21,
+    "likes": 17008,
+    "plays": 522719,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 117629,
+    "winner_score": 22070.01
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-02-27T16:50:37.000Z",
+  "published_label": null,
+  "rank": 287,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVRMVMGETek",
+  "source_url": "https://www.instagram.com/p/DVRMVMGETek/"
+}

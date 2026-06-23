@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZiXUe5xzlw:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/723162234_18050377895782076_871168929451139222_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGbj50AVDmPVe60cFwpyY2fLMh2QQ9H2SbjppU7DUHY-y3qlfwaIOOo8F-alY8z7so&_nc_ohc=2fPDzOZlUdEQ7kNvwFrR_OE&_nc_gid=aPytvArI5x6cS1eQ0Z4P3w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9jCo0nsgatlQUzdhxCotkZdrpYHeRrTdxrdGl-AP4LJQ&oe=6A3482A0&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveMessage",
+      "RelationshipGoals",
+      "TrueLove",
+      "CuteLove",
+      "PassionateLoveMessages"
+    ],
+    "public_preview": null,
+    "text": "🚨 LOVE CRIME ALERT 🚨\n\nAfter a thorough investigation, we’ve finally found the culprit…\n\nThe one who stole my heart. ❤️\n\nNo complaints though.\nYou can keep it. 😌\n\nTag the person who’s guilty. 👇\n\n#LoveMessage #RelationshipGoals #TrueLove #CuteLove #PassionateLoveMessages",
+    "word_count": 37
+  },
+  "communication_seed": {
+    "first_comment": "🤭♥️💐",
+    "latest_comments": [
+      "🤭♥️💐",
+      "There is no GIF y/n & sexy policeman. I'd surrender such policeman. Stole his heart - let him to arrest me and punish. And if not - I'll do some more mischievous tricks 🦊 😉😁🤣",
+      "He hided himself behind the pole. Nobody sees him 🤣🤣🤣",
+      "Stole my heart and ran like that racoon 🤣🤣🤣",
+      "❤️😍😮😮",
+      "🤷",
+      "😍"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZiXUe5xzlw",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZiXUe5xzlw/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZiXUe5xzlw",
+  "metrics": {
+    "comments": 45,
+    "likes": 1068,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 3093.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-13T18:57:44.000Z",
+  "published_label": null,
+  "rank": 576,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZiXUe5xzlw",
+  "source_url": "https://www.instagram.com/p/DZiXUe5xzlw/"
+}

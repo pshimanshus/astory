@@ -1,0 +1,107 @@
+{
+  "account": {
+    "full_name": "poets of instagram",
+    "instagram_user_id": null,
+    "username": "poets"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZKOsRkTt8x:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.71878-15/716130544_1303618765307399_8794022172710461911_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGAl-aLaAYmJ7dwBMZIaiN0IyWMJ5iRFLwRns1bXD1Q30FAJcoQB5IwC0UmGav0OFo&_nc_ohc=LKtP34Q71UkQ7kNvwGPxwbG&_nc_gid=F3T773RBCqhM3iq-JHFXQQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af95R48EoEixueRZ8hFUoIjNyqjnDTftgOrWP0pUrBL_xg&oe=6A348910&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Remember this",
+    "word_count": 2
+  },
+  "communication_seed": {
+    "first_comment": "Love that 🤍",
+    "latest_comments": [
+      "Love that 🤍",
+      "Im stuck on a roundabout.",
+      "Beautiful 👏",
+      "❤️🙌🔥",
+      "But I will admit I fucked up and now recalculating a new route 😂",
+      "❤️❤️",
+      "It even motivates by saying “you are on the fastest route”",
+      "This hits 🙌👏",
+      "Oh this is a wonderful perspective 🧭"
+    ],
+    "mechanic_tags": [
+      "reel",
+      "nostalgia"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZKOsRkTt8x",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZKOsRkTt8x/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZKOsRkTt8x",
+  "metrics": {
+    "comments": 28,
+    "likes": 21189,
+    "plays": 580445,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 135556,
+    "winner_score": 27193.46
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-04T10:00:10.000Z",
+  "published_label": null,
+  "rank": 250,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZKOsRkTt8x",
+  "source_url": "https://www.instagram.com/p/DZKOsRkTt8x/"
+}

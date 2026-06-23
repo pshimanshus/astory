@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZf21kyRRE5:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/724092453_18050234699782076_3358223795090859891_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFa_xYy-XuPvDfk5ZqMqRbsIu_PU03FR2uauZpRQEelCFAvnnhwtPBsOUZ3S6UtuhM&_nc_ohc=eGGJJuKOK3MQ7kNvwFZ3nr2&_nc_gid=OFLpLw5ZJC6ZWNb0I_joZw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-yIJEwVVHOW9wK29j6oWH_1QZd4zjHzvUkX0_BopZJeg&oe=6A3468A2&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "PassionateLoveMessages",
+      "LoveMessages",
+      "RelationshipGoals",
+      "ILoveYou",
+      "CoupleGoa"
+    ],
+    "public_preview": null,
+    "text": "One heart for every time I thought about you today... ❤️\n\nAnd I’m still counting.\n\nSome people come and go through your mind.\n\nThen there’s that one person who somehow stays there all day, lives in your thoughts, and makes your heart smile for no reason at all.\n\nTag the person who’s been on your mind today. 🐱❄️❤️\n\n#PassionateLoveMessages #LoveMessages #RelationshipGoals #ILoveYou #CoupleGoa",
+    "word_count": 64
+  },
+  "communication_seed": {
+    "first_comment": "❤️",
+    "latest_comments": [
+      "❤️",
+      "🥰",
+      "Slušaš.....pratis..pa i učiš koliko vidim po tvojim pisanjima....DRAGA SI MI JAKO....sorry.  možda si u akciji 😍😍😍😍😍👏👏👏👏👏👏👏👏👏👏👏👏👏👏",
+      "❤️❤️❤️",
+      "My love 💓 ❤️ 😍 💖 ❣️ 💕 i am missing you so so much 💓 💗 💛 💖",
+      "🙆",
+      "❤️🔥",
+      "❤️❤️yes",
+      "Sei il mio amore mio ❤️. Mio ❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZf21kyRRE5",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZf21kyRRE5/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZf21kyRRE5",
+  "metrics": {
+    "comments": 50,
+    "likes": 2769,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 5019.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T19:35:20.000Z",
+  "published_label": null,
+  "rank": 519,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZf21kyRRE5",
+  "source_url": "https://www.instagram.com/p/DZf21kyRRE5/"
+}

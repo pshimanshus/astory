@@ -1,0 +1,106 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZMyuqZxswu:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/717228708_18049187354782076_7649085247347736559_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGGJQ_RyEBEtdJ_AoufJA4kDRF1nIyOLxyiqPGpOTBvtwTuFkJcwbuwNoMk8Akinus&_nc_ohc=4LsZ8Rr4_zMQ7kNvwHKHzsF&_nc_gid=QR16tGaMJUmHOrsiORatpg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8xZPbHaIwfWFjnx7KbaC_KE4g_rlv10J6Guaa9A3fKJw&oe=6A34887E&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "PassionateLoveMessages",
+      "LoveQuotes",
+      "RelationshipGoals",
+      "Soulmate",
+      "ILoveYou"
+    ],
+    "public_preview": null,
+    "text": "If I could search every corner of the universe… 🌎✨🌙\n\nEvery star.\nEvery galaxy.\nEvery once-in-a-lifetime chance.\n\nI’d still come back to you. ❤️\n\nBecause some people are beautiful.\nSome people are rare.\nAnd then there’s that one person who feels like home no matter where life takes you.\n\nFor me, that’s you. 🥹💕\n\nTag the person you’d choose over and over again, in every lifetime and every universe. ❤️👇\n\n#PassionateLoveMessages #LoveQuotes #RelationshipGoals #Soulmate #ILoveYou",
+    "word_count": 78
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️🥰🕊☀️",
+    "latest_comments": [
+      "❤️❤️🥰🕊☀️",
+      "Nastya Gaitur,  please call me on my business number, 435-275-7807 your home here in Parowan Utah and I, the man that loves you very much are here waiting for you. PLEASE COME HOME TO ME NOW.❤️❤️❤️",
+      "@trokero213 😍❤️‍🔥🔥💖 You are my one and only.",
+      "Nastya my love. I will never allow you to be hurt ever again, I promise. I love you, I want to protect you,  even die for you baby. I want to marry you, to give you all my love for all eternity.  Have faith in me my love. Come home, you can find your home  I promise. Just remember what I have said.  Look at my posts,  I truly love  baby, GOD IS MY WITNESS.  I LOVE YOU SO MUCH❤️❤️❤️❤️❤️❤️❤️😘😘😘😘😘😘😘😘😘😘😘😘😘😘💞💞💞💞💞💞💞💞💞💞💞💞💞"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "domestic"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZMyuqZxswu",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZMyuqZxswu/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZMyuqZxswu",
+  "metrics": {
+    "comments": 42,
+    "likes": 992,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2882.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-05T09:55:05.000Z",
+  "published_label": null,
+  "rank": 590,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZMyuqZxswu",
+  "source_url": "https://www.instagram.com/p/DZMyuqZxswu/"
+}

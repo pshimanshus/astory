@@ -6,6 +6,7 @@
     "style",
     "prompt_pattern",
     "run_lesson",
+    "outcome_attribution",
     "failure_mode",
     "reference",
     "procedure"

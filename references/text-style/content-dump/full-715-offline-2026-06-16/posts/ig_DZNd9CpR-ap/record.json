@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZNd9CpR-ap:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/717755241_18049229726782076_1368937062337157145_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gER6dI1-aVKlbAca3w9j95i26ptfeaEnkZljSWcpTMKAwuwx04tIseyL9vFerxkpRs&_nc_ohc=aQua2CQF2qoQ7kNvwE5f3gS&_nc_gid=bXHgHyphjadGy3I58GzrCw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af98eVEWQtQBpb5OnGJYYE7YJWxLK6nI-uEz0L1yj8CZVw&oe=6A345EE7&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "LoveQuotes",
+      "RelationshipGoals",
+      "Soulmate",
+      "CoupleGoals",
+      "TrueLove"
+    ],
+    "public_preview": null,
+    "text": "Some people don’t just make your day better...\n\nThey make everything feel lighter.\n\nThe food tastes better.\nThe music sounds better.\nThe hard days don’t feel quite as hard.\n\nSomehow, just knowing they’re in your life feels like sunshine.\n\nTag the person who brightens your world. ☀️❤️\n\n#LoveQuotes #RelationshipGoals #Soulmate #CoupleGoals #TrueLove LoveMessage RomanticQuotes InLove LoveOfMyLife PassionateLoveMessage",
+    "word_count": 59
+  },
+  "communication_seed": {
+    "first_comment": "❤️❤️",
+    "latest_comments": [
+      "❤️❤️",
+      "❤️❤️❤️❤️",
+      "❤️",
+      "❤️ indeed 🔥❤️🔥❤️",
+      "I miss you ☀️🌸❤️",
+      "❤️",
+      "🫂💖💖✨️😘",
+      "😍😍😍😍😍😍😍😍😍❤️",
+      "✨🦋💝🥰🌈💎✨"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZNd9CpR-ap",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZNd9CpR-ap/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZNd9CpR-ap",
+  "metrics": {
+    "comments": 33,
+    "likes": 550,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 2035.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-05T16:11:42.000Z",
+  "published_label": null,
+  "rank": 631,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZNd9CpR-ap",
+  "source_url": "https://www.instagram.com/p/DZNd9CpR-ap/"
+}

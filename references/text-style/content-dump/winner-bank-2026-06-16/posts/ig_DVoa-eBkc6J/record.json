@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DVoa-eBkc6J:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fsac1-2.fna.fbcdn.net/v/t51.82787-15/649843399_18573801385000418_3604019903119396974_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=instagram.fsac1-2.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2gE93j6JdkUOJKHh9jlp9L9XN4auikK1wqN6JA1p8KtAKgShiFWWcBIQcVXd3E-YH4I&_nc_ohc=OgKTTAXLth0Q7kNvwETW73o&_nc_gid=M3ewrPjY-pyBuyqRLv6fBA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af91bXaMNuXMP02v_OJ4i9Jf6OLhKT7kZ45oMfXoiH9YiA&oe=6A3471D1&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "her <3",
+    "word_count": 2
+  },
+  "communication_seed": {
+    "first_comment": "@rzs.______ 💙",
+    "latest_comments": [
+      "@rzs.______ 💙",
+      "@___.no__one.__ 🤍",
+      "@_val3rie.__ ❤️‍🩹",
+      "@sanpreet_kaur72 🫶🏻",
+      "🥹🥹🥹",
+      "@meleayu",
+      "@thebarefootblondie",
+      "🩷",
+      "@abrillllx3 Happy early birthday Abril. You're the best girl anyone can ask for. I'm proud of you for coming this far. You give my world meaning. There's no one as special as you. I love how mexican you sound, I love how strong you are, I love how you have a soul. Anyone is lucky to have you in their life. There's only one of you in this world, and that's why you mean so much. Ily big dawg, you'll always be my desire. What I yearn for. Stay safe and don't let anything bring you down. P.S there's",
+      "@cyberstephanie"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DVoa-eBkc6J",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DVoa-eBkc6J/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DVoa-eBkc6J/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DVoa-eBkc6J",
+  "metrics": {
+    "comments": 382,
+    "likes": 185207,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 202397.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-03-08T17:20:05.000Z",
+  "published_label": null,
+  "rank": 49,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DVoa-eBkc6J",
+  "source_url": "https://www.instagram.com/p/DVoa-eBkc6J/"
+}

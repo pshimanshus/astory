@@ -1,0 +1,110 @@
+{
+  "account": {
+    "full_name": "Passionate Love Messages",
+    "instagram_user_id": null,
+    "username": "passionatelovemessages"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZgIQ4Fxc4p:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/722666676_18050250821782076_7890600073359555598_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGrk-qpi4q-cGRpqYOpF4dYCrwzo325pPpo2oXOWE71lAAOtayqILuSQKqLsmSB7Fg&_nc_ohc=jIwJnPBJXs0Q7kNvwG9HOAZ&_nc_gid=4RPKRR5wvu3LTVsOYpbmgQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8IS1Mn8q07ePH8QhlRx8cfYc0h72gRfuiPA9JmMgrr2Q&oe=6A346C32&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "PassionateLoveMessages",
+      "LoveMessages",
+      "RelationshipGoals",
+      "CoupleGoals",
+      "ILoveYo"
+    ],
+    "public_preview": null,
+    "text": "Some feelings don’t fade.\n\nSome people don’t leave your heart.\n\nNo matter how much time passes, no matter how many days go by...\n\nI’d still choose you.\nI’d still think about you.\nI’d still smile when your name pops into my mind. ❤️\n\nTag someone you’d still choose all over again. 🐱❄️💕\n\n#PassionateLoveMessages #LoveMessages #RelationshipGoals #CoupleGoals #ILoveYo",
+    "word_count": 61
+  },
+  "communication_seed": {
+    "first_comment": "…🇰🇷K💖…",
+    "latest_comments": [
+      "…🇰🇷K💖…",
+      "❤️❤️❤️",
+      "My meow meow 💜 💕 💖 only❤️❤️❤️",
+      "Me",
+      "❤️❤️❤️",
+      "Me!",
+      "I have no idea who you're talking about. No one has ever told me they love me whilst looking me straight in the eye.",
+      "Hey ❤️Vava❤️...IYKYK. Unlike swinging on a tree branch or a window pane, this time you are holding on sideways to a wall 😘😘😘😘. Just to make you laugh -- Hmmm... Reminds me of a Delulu Moment when Prabendhu Chechi 😉😀😀 is watching a horror flick with Delulu from behind the pole teasing with tongue rolled out in playful mode 😀😀. Guess who still likes you?❤️ I only love Life. Take care, en kannmani kutti-vava ❤️❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZgIQ4Fxc4p",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZgIQ4Fxc4p/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZgIQ4Fxc4p",
+  "metrics": {
+    "comments": 20,
+    "likes": 427,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 1327.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-12T22:07:46.000Z",
+  "published_label": null,
+  "rank": 660,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZgIQ4Fxc4p",
+  "source_url": "https://www.instagram.com/p/DZgIQ4Fxc4p/"
+}

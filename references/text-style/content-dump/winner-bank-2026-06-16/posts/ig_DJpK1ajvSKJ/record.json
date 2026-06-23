@@ -1,0 +1,210 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.2885-15/497557866_18527225308023341_6178331754366961810_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2gEAxRFkn5q2fehmy0MQBYqx9IxQhFV2Kxk90HLV_ZsVcsiHvCtfbTiUmpVlnvZbITdfcKV71Tb_yIQL8q0YOh-l&_nc_ohc=MsMMYzpvx88Q7kNvwHY4I8m&_nc_gid=UPaCOwZMLI97ILtElCCJhw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9bTYl5neAiIFIt7-aQYAnLyNgyYqyhXAYkpSx3QSFj9w&oe=6A345D31&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:05",
+      "index": 5,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:06",
+      "index": 6,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:07",
+      "index": 7,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DJpK1ajvSKJ:asset:08",
+      "index": 8,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Sometimes the most loving thing we can do for ourselves is honour what no longer feels safe.⁠\n It’s not about holding grudges, it’s about holding boundaries.⁠\nLet this be a reminder:⁠\nYou don’t have to shrink to keep the peace.⁠\n⁠\n⁠\nYou don’t have to stay where you are constantly explaining your worth.⁠\n⁠\n⁠\nYou don’t have to apologise for protecting your peace. 🌻⁠\n⁠\n⁠\nThis season is asking you to choose truth over tolerance.⁠\n Let go of what dishonours you.⁠\n Make room for what respects you.⁠\nYou deserve that kind of love, starting with your own.⁠",
+    "word_count": 98
+  },
+  "communication_seed": {
+    "first_comment": "🙌",
+    "latest_comments": [
+      "🙌",
+      "This whole thread 👏🔥",
+      "BRUHHHH… MIC DROP 🎤🎤🎤🎤",
+      "💯 🙌👏",
+      "Yeah. The last strike by judge, jury and executioner",
+      "Needed it so much🙌🙌. Thanks a lot 🙏👏",
+      "Every time",
+      "Facts💯",
+      "True🙌🙌🙌",
+      "shru"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "direct_you"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DJpK1ajvSKJ",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DJpK1ajvSKJ/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DJpK1ajvSKJ/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DJpK1ajvSKJ",
+  "metrics": {
+    "comments": 163,
+    "likes": 66971,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 74306.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-05-14T18:00:49.000Z",
+  "published_label": null,
+  "rank": 103,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DJpK1ajvSKJ",
+  "source_url": "https://www.instagram.com/p/DJpK1ajvSKJ/"
+}

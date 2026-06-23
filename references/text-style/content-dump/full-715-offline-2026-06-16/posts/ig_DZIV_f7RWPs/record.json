@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "we’re not really strangers",
+    "instagram_user_id": null,
+    "username": "werenotreallystrangers"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DZIV_f7RWPs:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/714283661_18597415198000418_6236640623225689261_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gF9dKrVFgoB3KCExXzG3gad_i0avML3Un5RigMEm1W7ZxU1QPsLLde6hJCwNYjLX-c&_nc_ohc=HDNehQr3YBwQ7kNvwHz3V1d&_nc_gid=7hrZ09_Yy0IEYPcYz5mjTA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9v8lNRoAjlo7mh_-RuPnzoyx0dEmD6Y3RInLq6IUtLIQ&oe=6A346063&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "and it’s not even 1pm",
+    "word_count": 6
+  },
+  "communication_seed": {
+    "first_comment": "In a dark corner",
+    "latest_comments": [
+      "In a dark corner",
+      "Same. We got this!",
+      "✌️",
+      "setiap hari sih ini WKWKWKWK",
+      "😔",
+      "Not today But everyday.",
+      "And that’s fine 🙏🏽",
+      "Wait people aren’t crying daily?",
+      "fell asleep crying, then woke up crying! but still, I got up and went to the gym at 6am 🥲 onwards and upwards",
+      "I cry everyday 😂"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZIV_f7RWPs",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DZIV_f7RWPs/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DZIV_f7RWPs",
+  "metrics": {
+    "comments": 86,
+    "likes": 41725,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 45595.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-06-03T16:27:24.000Z",
+  "published_label": null,
+  "rank": 181,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DZIV_f7RWPs",
+  "source_url": "https://www.instagram.com/p/DZIV_f7RWPs/"
+}

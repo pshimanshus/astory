@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "Meggan Roxanne",
+    "instagram_user_id": null,
+    "username": "earthtoroxanne"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:Cd0QPczK7Rf:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/623061911_18090465287003929_4455437315389635278_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHGwr1FzmMF__IiHDcv5G7pG22gSbuKv71Fu6s6nLicpwbhir6v_tP2ZeYzDhtfigU&_nc_ohc=kphW5gaDriMQ7kNvwF1UIeZ&_nc_gid=5_tQ3CGy9jW7uo_2mnhSsA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9jmvz5ZXT8AUtH9qRyXQjhrzdLjdEMSFmdPTB9C5gGkg&oe=6A346BB2&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [
+      "JanettesChild"
+    ],
+    "public_preview": null,
+    "text": "I smile; because I still have the ability to do so. Recently, life has transformed itself into a traumatic accumulation of losses and a magnitude of change. Since October 2020; 15 members of my soul community, including both of my parents, Wale’s Father and 3 Friends all transitioned into the spiritual realm, leaving me behind to adult without the adults who raised me. The hardest and most significant departure was my darling Mother, who passed away in March 2021 from Cancer.\n—\nI smile; because I still have the ability to do so, but mostly because I made it. They thought I would die without my Mother but instead I developed more love and resilience. I endured a lot of abuse in my childhood from family, which trickled its way into adulthood, resulting in my behaviours and habits being deep-rooted in unhealthy coping mechanisms and trauma. I’m no longer honouring their secrets or carrying their shame. \n—\nI was blessed and fortunate enough to have unconditional love for 31 years of my life from my Mother, but ever since she transitioned into the spiritual realm, I was abruptly made aware of how cold this world truly is. Which made the reasons behind why I started this platform more meaningful and intentional. I wanted to create a space online for everyone to experience the beauty of being poured into — with words of encouragement and love; an essence similar to my upbringing. I wanted to create a safe space. Community. Now that’s accomplished, I’m moving towards a higher vision, where I’ll be using my platforms to find healing resources for those with similar experiences, documenting my journey as I return home to myself and relaunching our Publishing House “The Good Publishing” connecting with writers who share a similar message. \n\nThis is how you actively break generational curses. \n—\nI Give Thanks to absolutely everyone who nurtured me during this time. Thank you for your patience. INFINITE INFINITE INFINITE LOVE. Thank You. All praise to the Most High. ❤️\n\n#JanettesChild",
+    "word_count": 339
+  },
+  "communication_seed": {
+    "first_comment": "Alhamdulilah",
+    "latest_comments": [
+      "Alhamdulilah",
+      "😍😍",
+      "Just listened to your podcast with @jayshetty thank you for your vulnerability & transparency ❤️ I cannot wait to read your book.",
+      "💛💫💛",
+      "❤️ from Botswana ❤️",
+      "“I was abruptly made aware of how cold this world truly is.” That resonates with me so deeply. When I lost my Nanny—who was my legal guardian, my mum—the spaces that were supposed to surround me with comfort became the coldest.",
+      "✨✨🤍🤍",
+      "I just finished reading your book - How to stop breaking your own heart.  Loved this book! Thank you ❤️"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "domestic",
+      "message_native",
+      "nostalgia"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_Cd0QPczK7Rf",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_Cd0QPczK7Rf/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:Cd0QPczK7Rf",
+  "metrics": {
+    "comments": 175,
+    "likes": 2713,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 10588.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2022-05-21T10:18:20.000Z",
+  "published_label": null,
+  "rank": 400,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "Cd0QPczK7Rf",
+  "source_url": "https://www.instagram.com/p/Cd0QPczK7Rf/"
+}

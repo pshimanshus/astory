@@ -1,0 +1,108 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DGKHZdqM0Gn:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-2.cdninstagram.com/v/t39.30808-6/480200296_949385007347089_7079738695979639854_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gH9TRvmJn1RwJMNBMgOPUoqOY35PCtCYBu4M50OuSLn6miRAAvOWFbx4N6rnjikJL4&_nc_ohc=DBnKLIE7iXYQ7kNvwExB6kG&_nc_gid=Miy1Xj-Tn92PLf_e9XQ6LA&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af_rJ7jKyznPUoRAih2KUz3pZDVrqM9l1SVvgHpiZ0GGHg&oe=6A345F30&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "It's easy to assume that cutting ties with the people you thought would be in your life forever is easy but in reality, its usually attached with grief, a deep ache of knowing you had to choose yourself at the expense of what was familiar. \n\nHealing sometimes requires us to release, so we can let go off the connections that are weighing us down. \n\nAnd the hardest part is standing firm in that decision when nostalgia tries to pull you back. \n\nBut here’s the truth: your well-being is worth more than any history shared. \n\nYou are allowed to outgrow spaces, even when it hurts.\n\nAffirmation: I release what no longer serves my peace 🌻\n\nDrop a ❤ if this resonates",
+    "word_count": 120
+  },
+  "communication_seed": {
+    "first_comment": "This>",
+    "latest_comments": [
+      "This>",
+      "❤️",
+      "Me literally this weekend",
+      "😢",
+      "👏👏👏",
+      "People always say life is full of choices no-one ever mentions fear."
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "nostalgia"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DGKHZdqM0Gn",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DGKHZdqM0Gn/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DGKHZdqM0Gn/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DGKHZdqM0Gn",
+  "metrics": {
+    "comments": 1111,
+    "likes": 260917,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 310912.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-02-17T03:00:07.000Z",
+  "published_label": null,
+  "rank": 24,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DGKHZdqM0Gn",
+  "source_url": "https://www.instagram.com/p/DGKHZdqM0Gn/"
+}

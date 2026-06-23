@@ -1,0 +1,111 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:C3THOi7Pm0W:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-bos5-1.cdninstagram.com/v/t51.82787-15/624884668_18093365618055958_8970065938367453854_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_ht=scontent-bos5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHN67QllYF4pGBR8uf6Cm9-5d6WKk85G43gnNfa6yEg4ao4y9GHxi00Wq2EW0Q_N44&_nc_ohc=S4LK8Ge99O4Q7kNvwGDDvEU&_nc_gid=W9Vb-fsVjgp9Of0LI4Lx7w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-a4ESWbG1NYtsc-L-7_GaL2QGYjVtxH6UpEid6OR8J6A&oe=6A345A83&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "✨Introduction✨\n\nWelcome to my little corner on the internet. My name is Ron and this is my story. \n\nI left behind my life back home in 2017. Nothing was fundamentally wrong. But I was unhappy and I wanted my life to be more. I didn’t know what “more” meant, but I knew I wasn’t going to find it back home. So I had to leave. \n\nI skipped university and “the system” and made up my own path instead. \n\nAt that time, everyone I knew wanted to travel but they also wanted to be “sensible”. I wanted both. I wanted to travel and experience life, but I also wanted to build a business and be more successful than everyone else while I travel. \n\nI didn’t know where to begin, but I knew what I needed was more exposure in order to figure it out. I saved up a bunch of money for university, and decided to use it to travel instead. \n\nI worked on my business and traveled full time at the same time. For the first 2 years, I mostly backpacked. I’ve worked backpacking jobs, I’ve worked for free in exchange for accommodation, I’d meet people on the road and travel with them together, and I’d work on my phone on the bunk bed of hostels. \n\nEverything was terribly chaotic and confusing. But I wasn’t unhappy anymore. Intuitively, I knew I was on the right path. I just had to keep going through it and I knew things would make sense eventually. \n\nFast forward, it’s been almost 7 years. I started when I was 22. I am on my last year of twenties now. \n\nFor the most part, I am still on the same path. I still want exposure to life, and I am still highly ambitious. I am not where I want to be yet, but I am no longer confused like I was in my early twenties.\n\nI know what I want now. And I know that the “gap” between where I am and where I want to be is simply dedicated efforts in the right direction. I’m confident enough to know that if I keep trying, I will figure it out. \n\nUltimately, what I want is simply a life I feel happy living in. Do things I love doing. Be with people I like being with.\n\nMy Instagram account is really just me trying to document my life as it happens. Live life and write about it. The good, the bad, the lessons learned, and the reflections. That’s all I’m trying to do here.",
+    "word_count": 439
+  },
+  "communication_seed": {
+    "first_comment": "✨",
+    "latest_comments": [
+      "✨",
+      "Your courage to pursue a path that feels true is inspiring—keep sharing your journey!",
+      "Hi.  I have sent you a message",
+      "Introduction 😍🫶",
+      "Hy bro Tarun here I saw your content it's great I'm an editor wants to work with u.",
+      "❤️",
+      "Thank you for sharing your story and your strength and inspiring others. I wish you the best of luck throughout your entire journey!",
+      "Your book looks intriguing. If you’d like it shared with my readers, you can send this post to @infinityprose.",
+      "💚"
+    ],
+    "mechanic_tags": [
+      "static",
+      "explicit_prompt",
+      "first_person",
+      "domestic",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_C3THOi7Pm0W",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_C3THOi7Pm0W/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_C3THOi7Pm0W/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:C3THOi7Pm0W",
+  "metrics": {
+    "comments": 276,
+    "likes": 12733,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 25153.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2024-02-13T19:00:52.000Z",
+  "published_label": null,
+  "rank": 142,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "C3THOi7Pm0W",
+  "source_url": "https://www.instagram.com/p/C3THOi7Pm0W/"
+}

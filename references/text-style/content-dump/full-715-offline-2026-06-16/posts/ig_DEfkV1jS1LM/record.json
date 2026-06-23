@@ -1,0 +1,101 @@
+{
+  "account": {
+    "full_name": "Unspirational",
+    "instagram_user_id": null,
+    "username": "textsfromyourex"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DEfkV1jS1LM:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-bos5-1.cdninstagram.com/v/t51.82787-15/621573506_18054626600688778_2836031643164567912_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-bos5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEZLyge1qFnLz3sPIVk-JBJvdY5RCKxWOzkof0ycQ2SriOJSzRD5V5xE5lfYim_25w&_nc_ohc=1_OE9l9pLZEQ7kNvwGF9N0g&_nc_gid=129-R9C9O5zAJ8SdR84M_Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9GHIZIUuZDN26O24WgV0a8px3Yzj5PYHl0tKyDZv1KfQ&oe=6A34741A&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "alright once in a while they’re good",
+    "word_count": 8
+  },
+  "communication_seed": {
+    "first_comment": "Bazinga!",
+    "latest_comments": [
+      "Bazinga!",
+      "Yeah that’s what they say.. Truth is no one can help feeling (sadly). The harder you try to avoid them the harder the fall. Just chose love your unavoidable end will be softer u guys..",
+      "I need that frog image so bad lmaoo I know reverse image search hatesss to see me coming",
+      "@abels_sarah",
+      "these are the epitome of what our generation is lolol",
+      "If you relate on this please start choosing love over apathy, the world needs bravery desperately",
+      "Both of these are me 😌",
+      "Damn at least they’re honest.",
+      "@fabiobisutti yes it does"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DEfkV1jS1LM",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DEfkV1jS1LM/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DEfkV1jS1LM",
+  "metrics": {
+    "comments": 9,
+    "likes": -1,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 405.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-01-06T17:54:17.000Z",
+  "published_label": null,
+  "rank": 707,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DEfkV1jS1LM",
+  "source_url": "https://www.instagram.com/p/DEfkV1jS1LM/"
+}

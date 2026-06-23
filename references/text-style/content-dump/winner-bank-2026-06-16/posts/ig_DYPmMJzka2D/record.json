@@ -1,0 +1,163 @@
+{
+  "account": {
+    "full_name": "Thought Catalog",
+    "instagram_user_id": null,
+    "username": "thoughtcatalog"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYPmMJzka2D:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://instagram.faus1-1.fna.fbcdn.net/v/t51.82787-15/695774748_18586576687012837_7125793338687401341_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.faus1-1.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2gFMSj1LM9WJDc9eU9IU5xydzBEvuW1t10MIlAmiuKSr31u8vtoDi0F1W-wSprlva0g&_nc_ohc=9CYNgeSIVAYQ7kNvwG3DUJU&_nc_gid=DRGHTM2zLntwetwVcgiDNQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9uCvsW9iGmOkQtyeQeA-H02TsRhzLHgPKoGeePbAVnSw&oe=6A34835D&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYPmMJzka2D:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYPmMJzka2D:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYPmMJzka2D:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYPmMJzka2D:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "One day, all the love you kept pouring into the wrong places will find its way back to you. One day, you will look across the table, or across a crowded station, or across the quiet softness of an ordinary morning, and realize that love was never supposed to feel confusing. It was never supposed to make you question your worth, your heart, or your place in someone’s life.\n\nAnd when that kind of love arrives—the gentle kind, the steady kind—you will understand why your heart survived everything it did. You will understand why some people had to leave, why some stories had to break you open before they could remake you into someone softer, wiser, and more certain of what they deserve.\n\nPlease keep believing in the kind of love that feels safe. The kind that chooses you clearly. The kind that stays. One day, you are going to be so thankful you did not let heartbreak convince you to close your heart forever. 🖤",
+    "word_count": 168
+  },
+  "communication_seed": {
+    "first_comment": "Bakwaas.",
+    "latest_comments": [
+      "Bakwaas.",
+      "Song?",
+      "@annelouie ❤️",
+      "The saddest thing is that exhausted women no longer look for butterflies.\nThey look for peace.",
+      "I’m hoping I don’t crash into anything with these intrusive thoughts",
+      "@krysztynuuuh ikaw naalala ko 💕",
+      "this generation treats emotional safety like a miracle event",
+      "❤️‍🩹",
+      "Yeah, I did once and turned out, he was the biggest destroyer of my life and mental peace with his manipulation till date."
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DYPmMJzka2D",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DYPmMJzka2D/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DYPmMJzka2D/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYPmMJzka2D",
+  "metrics": {
+    "comments": 35,
+    "likes": 20552,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 22127.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2026-05-12T15:30:01.000Z",
+  "published_label": null,
+  "rank": 146,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYPmMJzka2D",
+  "source_url": "https://www.instagram.com/p/DYPmMJzka2D/"
+}

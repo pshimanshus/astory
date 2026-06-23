@@ -165,6 +165,7 @@ def write_learning_artifacts(repo_root: str | Path, report: LearningReport) -> d
 
     claims_json = run_memory_dir / "claim_candidates.json"
     claims_markdown = run_memory_dir / "claim_candidates.md"
+    active_claims = run_memory_dir / "active_claims.md"
     ledger_jsonl = ledger_dir / "events.jsonl"
 
     payload = {
@@ -175,15 +176,14 @@ def write_learning_artifacts(repo_root: str | Path, report: LearningReport) -> d
     }
     claims_json.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     claims_markdown.write_text(_render_claims_markdown(report), encoding="utf-8")
+    active_claims.write_text(_render_active_claims_markdown(report), encoding="utf-8")
 
     events = [_event_for_claim(claim) for claim in report.claims]
-    ledger_jsonl.write_text(
-        "".join(json.dumps(asdict(event), sort_keys=True) + "\n" for event in events),
-        encoding="utf-8",
-    )
+    _write_ledger_events(ledger_jsonl, events)
     return {
         "claims_json": _rel(claims_json, root),
         "claims_markdown": _rel(claims_markdown, root),
+        "active_claims_markdown": _rel(active_claims, root),
         "ledger_jsonl": _rel(ledger_jsonl, root),
     }
 
@@ -288,6 +288,65 @@ def _render_claims_markdown(report: LearningReport) -> str:
             ]
         )
     return "\n".join(lines)
+
+
+def _render_active_claims_markdown(report: LearningReport) -> str:
+    active_claims = [
+        claim
+        for claim in report.claims
+        if claim.promotion_policy == "auto_apply" and claim.status == "candidate"
+    ]
+    lines = [
+        "# Active Runtime Memory Claims",
+        "",
+        f"Run: `{report.run_id}`",
+        "",
+        "These claims may guide workflow behavior, but they are not canonical brain page truth.",
+        "",
+    ]
+    if not active_claims:
+        lines.append("- No active runtime claims.")
+        return "\n".join(lines) + "\n"
+    for claim in active_claims:
+        evidence = ", ".join(f"`{path}`" for path in claim.evidence_paths)
+        lines.append(f"- `{claim.claim_id}`: {claim.text} Evidence: {evidence}.")
+    return "\n".join(lines) + "\n"
+
+
+def _write_ledger_events(ledger_jsonl: Path, events: list[MemoryLedgerEvent]) -> None:
+    existing_rows = _read_jsonl_lines(ledger_jsonl)
+    seen = {
+        str(row.get("event_id"))
+        for row in existing_rows
+        if isinstance(row, dict) and row.get("event_id")
+    }
+    merged_rows = list(existing_rows)
+    for event in events:
+        row = asdict(event)
+        if row["event_id"] in seen:
+            continue
+        merged_rows.append(row)
+        seen.add(row["event_id"])
+    ledger_jsonl.write_text(
+        "".join(json.dumps(row, sort_keys=True) + "\n" for row in merged_rows),
+        encoding="utf-8",
+    )
+
+
+def _read_jsonl_lines(path: Path) -> list[dict[str, Any]]:
+    if not path.exists():
+        return []
+    rows: list[dict[str, Any]] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            row = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(row, dict):
+            rows.append(row)
+    return rows
 
 
 def _dedupe_claims(claims: list[MemoryClaim]) -> list[MemoryClaim]:

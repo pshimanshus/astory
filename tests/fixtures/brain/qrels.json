@@ -3,7 +3,7 @@
     "query": "Aachu face identity references",
     "role": "aachu",
     "expected_paths": [
-      "references/identity/aachu/README.md"
+      "references/brain/pages/characters/aachu.md"
     ],
     "forbidden_paths": [
       "references/identity/zuv/README.md"
@@ -13,7 +13,7 @@
     "query": "Zuv face identity references",
     "role": "zuv",
     "expected_paths": [
-      "references/identity/zuv/README.md"
+      "references/brain/pages/characters/zuv.md"
     ],
     "forbidden_paths": [
       "references/identity/aachu/README.md"
@@ -23,7 +23,7 @@
     "query": "observational intimacy premium watercolor style",
     "role": "style",
     "expected_paths": [
-      "references/style/observational-intimacy-premium/README.md"
+      "references/style/README.md"
     ],
     "forbidden_paths": []
   },

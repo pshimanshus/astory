@@ -1,0 +1,102 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYZaYjiS7wE:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/670888768_18594939568016016_3230553213079852241_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gE1VNp5KXKjq8aArHN9FGEeVzErXmXVyFy7XyVEIQ2cxUp2JwA8BfsHjiaxCecYVG0&_nc_ohc=4LCDMQzDH8gQ7kNvwG22heF&_nc_gid=lcoqmTIX2E7Q0-N90eGhsw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af93ZtS0hmYAcDPi3RaqiZIORrwikaeWBZpvJ4tkt6OWjg&oe=6A347E26&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "set good standards",
+    "word_count": 3
+  },
+  "communication_seed": {
+    "first_comment": "Life bents you. Stay unbent.",
+    "latest_comments": [
+      "Life bents you. Stay unbent.",
+      "This goes especially hard for leaders. The lowest behavior you accept becomes the shared denomination for others - but when we raise the bar, others benefit, too.",
+      "Amen",
+      "Boundaries teach others how to value you",
+      "In a way taking your power back 💭🤍",
+      "Your words act as a gentle anchor in such a fast-paced world",
+      "So true! Set your standards high from the beginning 🙌🏼",
+      "Don't go with what I think",
+      "Food for thought",
+      "👏👏👏wise words!"
+    ],
+    "mechanic_tags": [
+      "static"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYZaYjiS7wE",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYZaYjiS7wE/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYZaYjiS7wE",
+  "metrics": {
+    "comments": 19,
+    "likes": 15599,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 16454.0
+  },
+  "post_type": "image",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-16T10:59:47.000Z",
+  "published_label": null,
+  "rank": 328,
+  "raw_type": "Image",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYZaYjiS7wE",
+  "source_url": "https://www.instagram.com/p/DYZaYjiS7wE/"
+}

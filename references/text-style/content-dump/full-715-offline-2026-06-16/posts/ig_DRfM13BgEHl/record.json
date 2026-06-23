@@ -1,0 +1,109 @@
+{
+  "account": {
+    "full_name": "ATTICUS | Anonymous Poetry",
+    "instagram_user_id": null,
+    "username": "atticuspoetry"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DRfM13BgEHl:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "video_thumbnail",
+      "ocr_text": null,
+      "remote_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/588885001_18551055571031367_5007906620767015213_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gGL45cVpWSBZGOkxbPzInxGiy4M2R9MgEsEsa_BIlSxeVqnzNYqvbadUyqHB-jcyAM&_nc_ohc=-5vzy6r0_IkQ7kNvwHrDn03&_nc_gid=FT3Tv2X9PAqGLCTyDqYR8g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8Hc6JlLsoXYbO2iru5WoBU8hxyPF5733NvFdxol-bblQ&oe=6A346B86&_nc_sid=10d13b",
+      "role": "primary",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "I don’t often share the real stories behind my life — I’ve always preferred the quiet corners, the pseudo-privacy that lets the work speak louder than I do. But something happened recently in the Great Bear Rainforest that I haven’t been able to shake.\n\nI’d been searching for the elusive coastal wolves for years. They’re shy, careful, almost sacred creatures — the kind you don’t find unless they decide to let you. One morning, while kayaking upriver, I got stuck on a shallow patch of rocks. It forced me into stillness, the kind you don’t choose but somehow need. And in that suspended moment, they appeared.\n\nOne wolf stepped out of the trees. Then another. Then an entire pack. They could have vanished as quickly as they came, but instead they moved toward me — curious, cautious, impossibly close. For a few unforgettable minutes, I just existed there with them, breathing the same air, feeling the weight of their presence and their trust. It was one of the most surreal, spiritual encounters of my life. A reminder of how fragile the wild has become, and how much these creatures need us to protect what remains of their world.\n\nI wrote the full story on Substack — the encounter, what it taught me, and how you can help protect wolves in British Columbia.\n It’s called A Moment With Wolves, and it might be the most personal thing I’ve shared. Check it out at the link in bio. \n\nLove from the shadows, Atticus",
+    "word_count": 257
+  },
+  "communication_seed": {
+    "first_comment": "Looook at that puppieee!",
+    "latest_comments": [
+      "Looook at that puppieee!",
+      "🩶🐺",
+      "Legs stretch. Spine uncurls. Neck extends. Mouth gapes.A sharp inhale. Ribs expand. Throat tightens. Breath stills.Air spills. Throat rattles. A guttural howl rips air.Thrashes through conifers. Echoes splinter.Head aloft. Ears pivot. Hoarse rasps carry from crowns.Tail droops. Hips sink. Paws skirt the edge. Gaze skims snowy boughs. If this moment speaks to you, you can find more of the project @Untamedpages",
+      "You were ONE😍",
+      "Tuff",
+      "Look up the photographs from David Yarrow, @davidyarrow",
+      "What incredible footage and gift to see such wonder.",
+      "@parks.canada what are your thoughts on this? Human interaction with wild animals puts animals at risk, does it not?",
+      "This is a story, one has to let sink in for a moment and it includes the many great commends. It's quite beautiful to watch the harmonies and trust presented here. Thank you."
+    ],
+    "mechanic_tags": [
+      "reel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DRfM13BgEHl",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DRfM13BgEHl/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "reel_transcript",
+      "reason": "Transcript extraction needs a video/audio pass.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DRfM13BgEHl",
+  "metrics": {
+    "comments": 1002,
+    "likes": 42466,
+    "plays": 623031,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 259954,
+    "winner_score": 96654.39
+  },
+  "post_type": "reel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2025-11-25T17:24:33.000Z",
+  "published_label": null,
+  "rank": 111,
+  "raw_type": "Video",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DRfM13BgEHl",
+  "source_url": "https://www.instagram.com/p/DRfM13BgEHl/"
+}

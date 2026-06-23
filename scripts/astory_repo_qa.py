@@ -21,6 +21,7 @@ REQUIRED_TEMPLATE_PATHS = [
     ".agents/skills/astory/templates/docs/approvals.md",
     ".agents/skills/astory/templates/logs/trace_event.jsonl",
     ".agents/skills/astory/templates/evals/pre_generation_eval.json",
+    ".agents/skills/astory/templates/evals/pre_imagegen_blocker_check.json",
     ".agents/skills/astory/templates/evals/image_quality_eval.json",
     ".agents/skills/astory/templates/debates/agent_assignment_matrix.md",
     ".agents/skills/astory/templates/agents/story_room_agent_prompt.md",
@@ -28,6 +29,9 @@ REQUIRED_TEMPLATE_PATHS = [
     ".agents/skills/astory/templates/agents/review_room_agent_prompt.md",
     ".agents/skills/astory/templates/prompts/slide_prompt.txt",
     ".agents/skills/astory/templates/planning/memory_recall.md",
+    ".agents/skills/astory/templates/planning/scene_landing_preview.md",
+    ".agents/skills/astory/templates/planning/novelty_candidate_ledger.json",
+    ".agents/skills/astory/templates/planning/source_winner_novelty_model.json",
     ".agents/skills/astory/templates/docs/retro.md",
     ".agents/skills/astory/references/failure-taxonomy.md",
     ".agents/skills/astory/references/house-style-contract.md",
@@ -41,6 +45,90 @@ REQUIRED_APPROVAL_GATES = [
     "Image QA",
     "Final Package",
 ]
+MIN_RAW_FACE_ANCHORS_PER_SUBJECT = 4
+MIN_FACE_VIEW_BUCKETS_PER_SUBJECT = 2
+YELLOW_PRONE_PROMPT_TERMS = [
+    "warm lamplight",
+    "warm glow",
+    "warm ivory",
+    "warm negative space",
+    "warm minimal",
+    "warm watercolor",
+    "warm skin shading",
+    "cream paper",
+    "terracotta",
+    "warm tan",
+    "tan pants",
+    "camel",
+    "vintage palette",
+]
+PROMPT_OVERLOAD_MAX_NONEMPTY_LINES = 115
+PROMPT_OVERLOAD_MAX_MAJOR_SECTIONS = 10
+PROMPT_MAJOR_SECTION_RE = re.compile(r"^[A-Z][A-Z0-9 /_-]{2,}:$")
+PROMPT_CANVAS_SIZE_RE = re.compile(r"\b1080\s*[x×]\s*1350\s*px\b", re.IGNORECASE)
+NON_PORTRAIT_SURFACE_RE = re.compile(
+    r"\b(?:1\s*:\s*1|9\s*:\s*16|1080\s*(?:px)?\s*(?:wide\s+by|x)\s*1080|1080\s*(?:px)?\s*(?:tall|high)|square)\b",
+    re.IGNORECASE,
+)
+HARD_IMAGE_FAILURE_CODES = {
+    "YELLOW_PAPER_CAST",
+    "IDENTITY_DRIFT",
+    "FACE_MERGE",
+    "STYLE_DRIFT",
+    "PROMPT_OVERLOAD",
+    "BRANDMARK_MISSING",
+    "WRONG_CANVAS_SIZE",
+    "VISUAL_SETTING_CONTRADICTION",
+    "TEXT_UNREADABLE",
+    "TEXT_NOT_EXACT",
+    "ANATOMY_FAILURE",
+}
+PRE_IMAGEGEN_BLOCKER_FIELDS = [
+    "emotional_state_check",
+    "identity_reference_collision_check",
+    "fallback_review_check",
+    "creator_prompt_lock_check",
+    "canvas_output_expectation",
+    "imagegen_allowed",
+]
+ACHE_PROMPT_TERMS = (
+    "tere bina",
+    "khaali",
+    "without him",
+    "without them",
+    "missing",
+    "lost",
+    "lonely",
+    "empty",
+    "hollow",
+    "absence",
+    "ache",
+)
+POSITIVE_EXPRESSION_RE = re.compile(
+    r"\b(smile|smiles|smiling|smirk|smirking|pleasant|coy|nostalgic)\b",
+    re.IGNORECASE,
+)
+NEGATED_EXPRESSION_MARKERS = (
+    "no smile",
+    "no smiles",
+    "no smirk",
+    "unsmiling",
+    "not smiling",
+    "must not smile",
+    "must not",
+    "do not smile",
+    "do not copy",
+    "do not use",
+    "not copy",
+    "without smiling",
+    "without a smile",
+    "hard no",
+)
+REFERENCE_SCENE_COLLISION_TERMS = {
+    "cafe": ("cafe", "coffee", "cup", "friends table", "public table"),
+    "club": ("club", "dance floor", "bar"),
+    "party": ("party", "birthday", "gathering"),
+}
 
 
 def run_repo_qa(repo_root: str | Path, run_id: str) -> dict[str, Any]:
@@ -54,15 +142,28 @@ def run_repo_qa(repo_root: str | Path, run_id: str) -> dict[str, Any]:
         _check_master_prompt(root),
         _check_required_templates(root),
         _check_reference_manifest(root, run_dir),
+        _check_reference_active_identity_inputs(root, run_dir),
         _check_memory_recall(root, run_dir, workflow),
         _check_prompt_story_contract(root, run_dir, workflow),
         _check_prompt_reference_gate(root, run_dir, workflow),
         _check_prompt_forbidden_role_reversal(root, run_dir, workflow),
+        _check_prompt_canvas_size(root, run_dir, workflow),
+        _check_prompt_brandmark_gate(root, run_dir, workflow),
+        _check_prompt_palette_conflict(root, run_dir, workflow),
+        _check_prompt_overload(root, run_dir, workflow),
+        _check_pre_imagegen_blocker_check(root, run_dir, workflow),
         _check_reference_visibility_proof(root, run_dir),
+        _check_gold_standard_identity_route_gate(root, run_dir, workflow),
         _check_image_qa_blocks_final_package(run_dir),
+        _check_final_package_has_illustration_proof(run_dir),
         _check_final_package_not_started(run_dir),
         _check_accepted_candidate_filename_guard(run_dir),
+        _check_generation_stops_after_hard_reject(run_dir),
+        _check_prompt_repair_reapproval(run_dir),
         _check_trace_jsonl_valid(run_dir),
+        _check_novelty_candidate_ledger(run_dir),
+        _check_scene_landing_preview(run_dir),
+        _check_source_winner_novelty_model(run_dir),
         _check_hitl_order_before_imagegen(run_dir),
         _check_agent_assignment_gate(run_dir),
         _check_approvals_cover_required_gates(run_dir),
@@ -424,6 +525,52 @@ def _check_legacy_reference_manifest(
     )
 
 
+def _check_reference_active_identity_inputs(root: Path, run_dir: Path) -> dict[str, Any]:
+    manifest_path = run_dir / "references-used/selected_references.json"
+    manifest = _read_json(manifest_path)
+    if not isinstance(manifest, dict) or not manifest.get("reference_groups"):
+        return _check(
+            "reference_active_identity_inputs",
+            "not_applicable",
+            "No active imagegen reference manifest exists for this workflow.",
+            path=_rel(manifest_path, root),
+            failure_code=None,
+            severity="info",
+        )
+
+    active_paths = _manifest_view_image_paths(manifest)
+    errors = _raw_identity_input_errors(active_paths)
+    diversity_errors = _identity_reference_diversity_errors(
+        manifest.get("reference_groups") or {}
+    )
+    all_errors = errors + diversity_errors
+    failure_code = None
+    if diversity_errors and not errors:
+        failure_code = "IDENTITY_REFERENCE_DIVERSITY_MISSING"
+    elif all_errors:
+        failure_code = "IDENTITY_REFERENCE_INPUT_UNPROVEN"
+    return _check(
+        "reference_active_identity_inputs",
+        "pass" if not all_errors else "fail",
+        (
+            "Active imagegen queue includes diverse raw Aachu/Zuv face anchors."
+            if not all_errors
+            else "Active imagegen queue does not prove diverse raw Aachu/Zuv face-anchor inputs."
+        ),
+        path=_rel(manifest_path, root),
+        active_view_image_queue=active_paths,
+        raw_aachu_face_anchor_count=_raw_face_anchor_count(active_paths, "aachu"),
+        raw_zuv_face_anchor_count=_raw_face_anchor_count(active_paths, "zuv"),
+        identity_view_summary=_identity_reference_view_summary(
+            manifest.get("reference_groups") or {}
+        ),
+        identity_input_errors=all_errors,
+        failure_code=failure_code,
+        final_imagegen_allowed=not all_errors,
+        severity="blocker",
+    )
+
+
 def _check_memory_recall(
     root: Path,
     run_dir: Path,
@@ -623,6 +770,494 @@ def _check_prompt_forbidden_role_reversal(
     )
 
 
+def _check_prompt_palette_conflict(
+    root: Path, run_dir: Path, workflow: dict[str, Any]
+) -> dict[str, Any]:
+    prompt_paths = _prompt_files(run_dir)
+    if not prompt_paths:
+        return _prompt_not_applicable("prompt_palette_conflict", run_dir)
+
+    prompt_results = []
+    failed = []
+    for path in prompt_paths:
+        text = _read_text(path)
+        lower = text.lower()
+        yellow_prone_terms = [
+            term for term in YELLOW_PRONE_PROMPT_TERMS if term in lower
+        ]
+        has_no_yellow = "no yellow" in lower or "not yellow" in lower
+        has_neutral_paper = (
+            "neutral off-white" in lower
+            or "neutral white/off-white" in lower
+            or "neutral premium ivory/off-white" in lower
+        )
+        conflict = len(yellow_prone_terms) >= 3 and has_no_yellow
+        result = {
+            "path": _rel(path, root),
+            "status": "fail" if conflict else "pass",
+            "yellow_prone_terms": yellow_prone_terms,
+            "has_no_yellow_constraint": has_no_yellow,
+            "has_neutral_paper_constraint": has_neutral_paper,
+        }
+        prompt_results.append(result)
+        if conflict:
+            failed.append(result)
+
+    return _check(
+        "prompt_palette_conflict",
+        "pass" if not failed else "fail",
+        (
+            "Prompt palette language avoids yellow-prone positive conflicts."
+            if not failed
+            else "Prompt palette language contains yellow-prone positive cues that conflict with the no-yellow rule."
+        ),
+        prompt_results=prompt_results,
+        failed_prompt_count=len(failed),
+        failure_code=None if not failed else "PROMPT_PALETTE_CONFLICT",
+        workflow_type=workflow.get("type"),
+        severity="blocker",
+    )
+
+
+def _check_prompt_canvas_size(
+    root: Path, run_dir: Path, workflow: dict[str, Any]
+) -> dict[str, Any]:
+    prompt_paths = _prompt_files(run_dir)
+    if not prompt_paths:
+        return _prompt_not_applicable("prompt_canvas_size", run_dir)
+
+    prompt_results = []
+    failed = []
+    for path in prompt_paths:
+        text = _read_text(path)
+        has_portrait_gate = bool(PROMPT_CANVAS_SIZE_RE.search(text))
+        has_non_portrait_surface = bool(NON_PORTRAIT_SURFACE_RE.search(text))
+        canvas_size_errors = []
+        if not has_portrait_gate:
+            canvas_size_errors.append("missing_1080x1350_px")
+        if has_non_portrait_surface:
+            canvas_size_errors.append("non_portrait_surface_language")
+
+        result = {
+            "path": _rel(path, root),
+            "status": "fail" if canvas_size_errors else "pass",
+            "has_1080x1350_px_gate": has_portrait_gate,
+            "has_non_portrait_surface_language": has_non_portrait_surface,
+            "canvas_size_errors": canvas_size_errors,
+        }
+        prompt_results.append(result)
+        if canvas_size_errors:
+            failed.append(result)
+
+    return _check(
+        "prompt_canvas_size",
+        "pass" if not failed else "fail",
+        (
+            "Every imagegen prompt explicitly requests a native 1080x1350 px portrait canvas."
+            if not failed
+            else "One or more imagegen prompts are missing the native 1080x1350 px portrait canvas gate."
+        ),
+        prompt_results=prompt_results,
+        failed_prompt_count=len(failed),
+        failure_code=None if not failed else "PROMPT_CANVAS_SIZE_MISSING",
+        workflow_type=workflow.get("type"),
+        severity="blocker",
+    )
+
+
+def _check_prompt_brandmark_gate(
+    root: Path, run_dir: Path, workflow: dict[str, Any]
+) -> dict[str, Any]:
+    prompt_paths = _prompt_files(run_dir)
+    if not prompt_paths:
+        return _prompt_not_applicable("prompt_brandmark_gate", run_dir)
+
+    prompt_results = []
+    failed = []
+    for path in prompt_paths:
+        text = _read_text(path).lower()
+        brandmark_errors = []
+        if "@a.storyof.two" not in text:
+            brandmark_errors.append("missing_at_storyof_two")
+        if "top-right" not in text and "top right" not in text:
+            brandmark_errors.append("missing_top_right_placement")
+
+        result = {
+            "path": _rel(path, root),
+            "status": "fail" if brandmark_errors else "pass",
+            "brandmark_errors": brandmark_errors,
+        }
+        prompt_results.append(result)
+        if brandmark_errors:
+            failed.append(result)
+
+    return _check(
+        "prompt_brandmark_gate",
+        "pass" if not failed else "fail",
+        (
+            "Every imagegen prompt requires the tiny top-right @a.storyof.two brandmark."
+            if not failed
+            else "One or more imagegen prompts are missing the top-right @a.storyof.two brandmark gate."
+        ),
+        prompt_results=prompt_results,
+        failed_prompt_count=len(failed),
+        failure_code=None if not failed else "PROMPT_BRANDMARK_MISSING",
+        workflow_type=workflow.get("type"),
+        severity="blocker",
+    )
+
+
+def _check_prompt_overload(
+    root: Path, run_dir: Path, workflow: dict[str, Any]
+) -> dict[str, Any]:
+    prompt_paths = _prompt_files(run_dir)
+    if not prompt_paths:
+        return _prompt_not_applicable("prompt_overload", run_dir)
+
+    prompt_results = []
+    failed = []
+    for path in prompt_paths:
+        text = _read_text(path)
+        nonempty_lines = [line for line in text.splitlines() if line.strip()]
+        major_sections = [
+            line.strip()
+            for line in text.splitlines()
+            if PROMPT_MAJOR_SECTION_RE.match(line.strip())
+        ]
+        overload_reasons = []
+        if len(nonempty_lines) > PROMPT_OVERLOAD_MAX_NONEMPTY_LINES:
+            overload_reasons.append("too_many_nonempty_lines")
+        if len(major_sections) > PROMPT_OVERLOAD_MAX_MAJOR_SECTIONS:
+            overload_reasons.append("too_many_major_sections")
+
+        result = {
+            "path": _rel(path, root),
+            "status": "fail" if overload_reasons else "pass",
+            "nonempty_line_count": len(nonempty_lines),
+            "max_nonempty_lines": PROMPT_OVERLOAD_MAX_NONEMPTY_LINES,
+            "major_section_count": len(major_sections),
+            "max_major_sections": PROMPT_OVERLOAD_MAX_MAJOR_SECTIONS,
+            "major_sections": major_sections,
+            "overload_reasons": overload_reasons,
+        }
+        prompt_results.append(result)
+        if overload_reasons:
+            failed.append(result)
+
+    return _check(
+        "prompt_overload",
+        "pass" if not failed else "fail",
+        (
+            "Prompt instruction stack is compact enough for imagegen."
+            if not failed
+            else "Prompt instruction stack is overloaded with too many competing constraints."
+        ),
+        prompt_results=prompt_results,
+        failed_prompt_count=len(failed),
+        failure_code=None if not failed else "PROMPT_OVERLOAD",
+        workflow_type=workflow.get("type"),
+        severity="blocker",
+    )
+
+
+def _check_pre_imagegen_blocker_check(
+    root: Path, run_dir: Path, workflow: dict[str, Any]
+) -> dict[str, Any]:
+    artifact_path = run_dir / "evals/pre_imagegen_blocker_check.json"
+    if not _pre_imagegen_blocker_check_required(run_dir, workflow):
+        return _check(
+            "pre_imagegen_blocker_check",
+            "not_applicable",
+            "Pre-imagegen blocker check is not required until prompt/reference loading or imagegen begins.",
+            path=f"runs/{run_dir.name}/evals/pre_imagegen_blocker_check.json",
+            failure_code=None,
+            final_imagegen_allowed=False,
+            severity="info",
+        )
+
+    emotional_state_check = _pre_imagegen_emotional_state_check(root, run_dir)
+    identity_reference_collision_check = _pre_imagegen_identity_collision_check(
+        root, run_dir
+    )
+    fallback_review_check = _pre_imagegen_fallback_review_check(run_dir)
+    creator_prompt_lock_check = _pre_imagegen_creator_prompt_lock_check(run_dir)
+    canvas_output_expectation = _pre_imagegen_canvas_output_expectation(root, run_dir)
+    computed_checks = [
+        emotional_state_check,
+        identity_reference_collision_check,
+        fallback_review_check,
+        creator_prompt_lock_check,
+        canvas_output_expectation,
+    ]
+    computed_failure_codes = [
+        code
+        for check in computed_checks
+        for code in check.get("failure_codes", [])
+        if code
+    ]
+
+    if not artifact_path.exists():
+        return _check(
+            "pre_imagegen_blocker_check",
+            "fail",
+            "Pre-imagegen blocker check artifact is required before imagegen.",
+            path=f"runs/{run_dir.name}/evals/pre_imagegen_blocker_check.json",
+            missing_fields=PRE_IMAGEGEN_BLOCKER_FIELDS,
+            computed_failure_codes=computed_failure_codes,
+            emotional_state_check=emotional_state_check,
+            identity_reference_collision_check=identity_reference_collision_check,
+            fallback_review_check=fallback_review_check,
+            creator_prompt_lock_check=creator_prompt_lock_check,
+            canvas_output_expectation=canvas_output_expectation,
+            failure_code="PRE_IMAGEGEN_BLOCKER_CHECK_MISSING",
+            final_imagegen_allowed=False,
+            severity="blocker",
+        )
+
+    artifact = _read_json(artifact_path)
+    if not isinstance(artifact, dict):
+        return _check(
+            "pre_imagegen_blocker_check",
+            "fail",
+            "Pre-imagegen blocker check artifact is invalid JSON.",
+            path=f"runs/{run_dir.name}/evals/pre_imagegen_blocker_check.json",
+            missing_fields=PRE_IMAGEGEN_BLOCKER_FIELDS,
+            computed_failure_codes=computed_failure_codes,
+            emotional_state_check=emotional_state_check,
+            identity_reference_collision_check=identity_reference_collision_check,
+            fallback_review_check=fallback_review_check,
+            creator_prompt_lock_check=creator_prompt_lock_check,
+            canvas_output_expectation=canvas_output_expectation,
+            failure_code="PRE_IMAGEGEN_BLOCKER_CHECK_INVALID",
+            final_imagegen_allowed=False,
+            severity="blocker",
+        )
+
+    missing_fields = [
+        field for field in PRE_IMAGEGEN_BLOCKER_FIELDS if field not in artifact
+    ]
+    artifact_failure_codes = _pre_imagegen_artifact_failure_codes(artifact)
+    all_failure_codes = list(
+        dict.fromkeys(missing_fields + artifact_failure_codes + computed_failure_codes)
+    )
+    imagegen_allowed = (
+        artifact.get("imagegen_allowed") is True and not all_failure_codes
+    )
+    status = "pass" if imagegen_allowed else "fail"
+    return _check(
+        "pre_imagegen_blocker_check",
+        status,
+        (
+            "Pre-imagegen blocker check allows imagegen."
+            if status == "pass"
+            else "Pre-imagegen blocker check blocks imagegen until emotional, reference, fallback, prompt-lock, and canvas risks are cleared."
+        ),
+        path=f"runs/{run_dir.name}/evals/pre_imagegen_blocker_check.json",
+        missing_fields=missing_fields,
+        artifact_failure_codes=artifact_failure_codes,
+        computed_failure_codes=computed_failure_codes,
+        emotional_state_check=emotional_state_check,
+        identity_reference_collision_check=identity_reference_collision_check,
+        fallback_review_check=fallback_review_check,
+        creator_prompt_lock_check=creator_prompt_lock_check,
+        canvas_output_expectation=canvas_output_expectation,
+        artifact_imagegen_allowed=artifact.get("imagegen_allowed"),
+        failure_code=None if status == "pass" else "PRE_IMAGEGEN_BLOCKER_CHECK_FAILED",
+        final_imagegen_allowed=imagegen_allowed,
+        severity="blocker",
+    )
+
+
+def _pre_imagegen_blocker_check_required(
+    run_dir: Path, workflow: dict[str, Any]
+) -> bool:
+    if workflow.get("type") in {"unknown_run", "local_identity_execution_run"}:
+        return False
+    if not _prompt_files(run_dir) and not _imagegen_was_attempted(run_dir):
+        return False
+    events, _ = _read_jsonl(run_dir / "logs/trace.jsonl")
+    reference_or_generation_started = (
+        (run_dir / "references-used/selected_references.json").exists()
+        or (run_dir / "evals/imagegen_reference_load_plan.json").exists()
+        or _imagegen_was_attempted(run_dir)
+        or any(
+            event.get("state")
+            in {
+                "LOAD_REFERENCE_IMAGES_IN_CONTEXT",
+                "REVIEW_ROOM_IMAGEGEN_BLOCKER_CHECK",
+                "GENERATE_IMAGES_WITH_IMAGEGEN",
+            }
+            for event in events
+        )
+    )
+    return reference_or_generation_started
+
+
+def _pre_imagegen_artifact_failure_codes(artifact: dict[str, Any]) -> list[str]:
+    failures: list[str] = []
+    for field in PRE_IMAGEGEN_BLOCKER_FIELDS:
+        if field == "imagegen_allowed" or field not in artifact:
+            continue
+        value = artifact.get(field)
+        status = str(value.get("status") if isinstance(value, dict) else value).lower()
+        if status not in {"pass", "passed", "ok", "clear"}:
+            if isinstance(value, dict) and value.get("failure_codes"):
+                failures.extend(str(code) for code in value["failure_codes"])
+            else:
+                failures.append(f"{field.upper()}_FAILED")
+    if artifact.get("imagegen_allowed") is not True:
+        failures.append("PRE_IMAGEGEN_BLOCKER_CHECK_NOT_ALLOWED")
+    return failures
+
+
+def _pre_imagegen_emotional_state_check(root: Path, run_dir: Path) -> dict[str, Any]:
+    prompt_results: list[dict[str, Any]] = []
+    failure_codes: list[str] = []
+    for prompt_path in _prompt_files(run_dir):
+        text = _read_text(prompt_path)
+        positive_terms = _positive_expression_terms(text)
+        has_ache_context = any(term in text.lower() for term in ACHE_PROMPT_TERMS)
+        forbids_smile = _prompt_forbids_smile(text)
+        failed = bool(positive_terms and (has_ache_context or forbids_smile))
+        if failed:
+            failure_codes.append("EMOTIONAL_STATE_CONTRADICTION")
+        prompt_results.append(
+            {
+                "path": _rel(prompt_path, root),
+                "status": "fail" if failed else "pass",
+                "positive_expression_terms": positive_terms,
+                "has_ache_context": has_ache_context,
+                "forbids_smile": forbids_smile,
+            }
+        )
+    return {
+        "status": "fail" if failure_codes else "pass",
+        "prompt_results": prompt_results,
+        "failure_codes": list(dict.fromkeys(failure_codes)),
+    }
+
+
+def _positive_expression_terms(prompt_text: str) -> list[str]:
+    terms: list[str] = []
+    for line in prompt_text.splitlines():
+        lower = line.lower()
+        if any(marker in lower for marker in NEGATED_EXPRESSION_MARKERS):
+            continue
+        terms.extend(match.group(0).lower() for match in POSITIVE_EXPRESSION_RE.finditer(line))
+    return list(dict.fromkeys(terms))
+
+
+def _pre_imagegen_identity_collision_check(
+    root: Path, run_dir: Path
+) -> dict[str, Any]:
+    manifest = _read_json(run_dir / "references-used/selected_references.json")
+    active_paths = _manifest_view_image_paths(manifest) if isinstance(manifest, dict) else []
+    policy = _read_reference_policy(run_dir)
+    policy_unsafe = set(policy.get("blocked_active_refs", []))
+    policy_unsafe.update(policy.get("analysis_only_refs", []))
+    policy_unsafe.update(policy.get("emotion_forbidden_refs", []))
+    prompt_text = "\n".join(_read_text(path) for path in _prompt_files(run_dir))
+    scene_terms = _prompt_scene_terms(prompt_text)
+    prompt_forbids_smile = _prompt_forbids_smile(prompt_text)
+    unsafe_active_refs: list[str] = []
+    ref_reasons: dict[str, list[str]] = {}
+
+    for path in active_paths:
+        reasons: list[str] = []
+        if path in policy_unsafe:
+            reasons.append("active_ref_violates_reference_policy")
+        if prompt_forbids_smile and _path_expression_bucket(path) in {"smile", "laugh"}:
+            reasons.append("active_ref_violates_no_smile_beat")
+        for scene_term in scene_terms:
+            if _active_ref_has_scene_collision(path, scene_term):
+                reasons.append(f"active_ref_scene_overlap:{scene_term}")
+        if reasons:
+            unsafe_active_refs.append(path)
+            ref_reasons[path] = reasons
+
+    return {
+        "status": "fail" if unsafe_active_refs else "pass",
+        "unsafe_active_refs": unsafe_active_refs,
+        "reference_reasons": ref_reasons,
+        "scene_terms": scene_terms,
+        "failure_codes": ["IDENTITY_REFERENCE_POSE_COPY"] if unsafe_active_refs else [],
+    }
+
+
+def _pre_imagegen_fallback_review_check(run_dir: Path) -> dict[str, Any]:
+    pregen = _read_json(run_dir / "evals/pre_generation_eval.json")
+    assignment_status = pregen.get("agent_assignment_status") if isinstance(pregen, dict) else None
+    has_major_correction = _has_major_creator_visual_correction(run_dir)
+    failed = (
+        assignment_status == "fallback_local_passes_with_limitation_recorded"
+        and has_major_correction
+    )
+    return {
+        "status": "fail" if failed else "pass",
+        "agent_assignment_status": assignment_status,
+        "major_creator_visual_correction": has_major_correction,
+        "failure_codes": ["FALLBACK_REVIEW_AFTER_CREATOR_CORRECTION"] if failed else [],
+    }
+
+
+def _pre_imagegen_creator_prompt_lock_check(run_dir: Path) -> dict[str, Any]:
+    has_major_correction = _has_major_creator_visual_correction(run_dir)
+    approvals = _read_text(run_dir / "docs/approvals.md")
+    prompt_section = _approval_section(approvals, ["Prompt Lock", "HITL Prompt Lock"])
+    prompt_lock_approved = "status: approved" in prompt_section.lower()
+    has_visible_prompt_summary = any(
+        marker in prompt_section.lower()
+        for marker in (
+            "prompt summary",
+            "slide-by-slide",
+            "slide by slide",
+            "prompt files",
+            "prompts/",
+            "prompt_review.md",
+        )
+    )
+    broad_proceed_only = "proceed" in prompt_section.lower() and not has_visible_prompt_summary
+    failed = has_major_correction and (
+        broad_proceed_only or (prompt_lock_approved and not has_visible_prompt_summary)
+    )
+    return {
+        "status": "fail" if failed else "pass",
+        "major_creator_visual_correction": has_major_correction,
+        "prompt_lock_approved": prompt_lock_approved,
+        "has_visible_prompt_summary": has_visible_prompt_summary,
+        "broad_proceed_only": broad_proceed_only,
+        "failure_codes": ["PROMPT_LOCK_NOT_CREATOR_VISIBLE"] if failed else [],
+    }
+
+
+def _pre_imagegen_canvas_output_expectation(root: Path, run_dir: Path) -> dict[str, Any]:
+    prompt_results: list[dict[str, Any]] = []
+    failure_codes: list[str] = []
+    for prompt_path in _prompt_files(run_dir):
+        text = _read_text(prompt_path)
+        missing_canvas = not PROMPT_CANVAS_SIZE_RE.search(text)
+        non_portrait = bool(NON_PORTRAIT_SURFACE_RE.search(text))
+        errors: list[str] = []
+        if missing_canvas:
+            errors.append("missing_1080x1350_px")
+        if non_portrait:
+            errors.append("non_portrait_surface_language")
+        if errors:
+            failure_codes.append("PROMPT_CANVAS_SIZE_MISSING")
+        prompt_results.append(
+            {
+                "path": _rel(prompt_path, root),
+                "status": "fail" if errors else "pass",
+                "canvas_errors": errors,
+            }
+        )
+    return {
+        "status": "fail" if failure_codes else "pass",
+        "prompt_results": prompt_results,
+        "failure_codes": list(dict.fromkeys(failure_codes)),
+    }
+
+
 def _check_reference_visibility_proof(root: Path, run_dir: Path) -> dict[str, Any]:
     manifest_path = run_dir / "references-used/selected_references.json"
     manifest = _read_json(manifest_path)
@@ -647,22 +1282,28 @@ def _check_reference_visibility_proof(root: Path, run_dir: Path) -> dict[str, An
     imagegen_happened = _imagegen_was_attempted(run_dir)
     if proof_path.exists():
         proof = _read_json(proof_path)
-        status = "pass" if _proof_has_image_roles(proof) else "fail"
+        validation = _validate_reference_visibility_proof(manifest, proof)
+        status = "pass" if validation["valid"] else "fail"
         return _check(
             "reference_visibility_proof",
             status,
-            "Reference visibility proof exists and records image roles.",
+            validation["summary"],
             expected_artifact=proof_rel,
-            failure_code=None if status == "pass" else "REFERENCE_VISIBILITY_PROOF_INVALID",
+            failure_code=validation["failure_code"],
             final_imagegen_allowed=status == "pass",
             view_image_queue_count=_manifest_queue_count(manifest),
+            load_plan_sha256=manifest.get("load_plan_sha256"),
+            proof_load_plan_sha256=proof.get("load_plan_sha256"),
+            missing_loaded_paths=validation.get("missing_loaded_paths", []),
+            unexpected_loaded_paths=validation.get("unexpected_loaded_paths", []),
+            validation_errors=validation.get("validation_errors", []),
             severity="blocker",
         )
 
     if imagegen_happened:
         return _check(
             "reference_visibility_proof",
-            "pass",
+            "fail",
             "Reference load plan requires a visibility proof before final imagegen; final generation remains blocked until it exists.",
             expected_artifact=proof_rel,
             failure_code="REFERENCE_VISIBILITY_PROOF_REQUIRED_BEFORE_FINAL_IMAGEGEN",
@@ -674,13 +1315,174 @@ def _check_reference_visibility_proof(root: Path, run_dir: Path) -> dict[str, An
 
     return _check(
         "reference_visibility_proof",
-        "pass",
+        "fail",
         "Reference load plan requires a visibility proof before final imagegen; final generation remains blocked until it exists.",
         expected_artifact=proof_rel,
         failure_code="REFERENCE_VISIBILITY_PROOF_REQUIRED_BEFORE_FINAL_IMAGEGEN",
         final_imagegen_allowed=False,
         imagegen_attempted_without_proof=False,
         view_image_queue_count=_manifest_queue_count(manifest),
+        severity="blocker",
+    )
+
+
+def _check_gold_standard_identity_route_gate(
+    root: Path, run_dir: Path, workflow: dict[str, Any]
+) -> dict[str, Any]:
+    prompt_paths = _prompt_files(run_dir)
+    if not prompt_paths and not _imagegen_was_attempted(run_dir):
+        return _check(
+            "gold_standard_identity_route_gate",
+            "not_applicable",
+            "Gold-standard identity route is not required until prompt work or imagegen begins.",
+            workflow_type=workflow.get("type"),
+            missing_requirements=[],
+            failure_code=None,
+            severity="info",
+        )
+
+    manifest_path = run_dir / "references-used/selected_references.json"
+    manifest = _read_json(manifest_path)
+    proof_rel = None
+    if isinstance(manifest, dict):
+        proof_rel = ((manifest.get("load_state") or {}).get("proof_artifact"))
+    if not proof_rel:
+        proof_rel = f"runs/{run_dir.name}/evals/imagegen_reference_visibility_proof.json"
+    proof_path = root / proof_rel
+    proof = _read_json(proof_path)
+    pregen_path = run_dir / "evals/pre_generation_eval.json"
+    pregen = _read_json(pregen_path)
+    events, trace_errors = _read_jsonl(run_dir / "logs/trace.jsonl")
+
+    groups = manifest.get("reference_groups") if isinstance(manifest, dict) else {}
+    if not isinstance(groups, dict):
+        groups = {}
+    active_paths = _manifest_view_image_paths(manifest) if isinstance(manifest, dict) else []
+    prompt_text = _normalize_text("\n".join(_read_text(path) for path in prompt_paths))
+    prompt_lower = prompt_text.lower()
+
+    style_count = _gold_standard_style_reference_count(groups)
+    queue_count = _manifest_queue_count(manifest)
+    prompt_outputs = _pregen_prompt_outputs(pregen)
+    prompt_output_paths = [
+        _resolve_run_artifact_path(root, run_dir, path) for path in prompt_outputs
+    ]
+    prompt_outputs_exist = bool(prompt_output_paths) and all(
+        path.exists() for path in prompt_output_paths
+    )
+
+    missing: list[str] = []
+    if not isinstance(manifest, dict):
+        missing.append("references-used/selected_references.json")
+    if len(groups.get("aachu_face_identity") or []) < 4:
+        missing.append("aachu_face_identity_refs_lt_4")
+    if len(groups.get("zuv_face_identity") or []) < 4:
+        missing.append("zuv_face_identity_refs_lt_4")
+    if style_count < 3:
+        missing.append("style_reference_refs_lt_3")
+    if queue_count < 11 or len(active_paths) < 11:
+        missing.append("view_image_queue_lt_11")
+
+    proof_validation = {"valid": False, "validation_errors": ["missing_manifest_or_proof"]}
+    if isinstance(manifest, dict) and isinstance(proof, dict):
+        proof_validation = _validate_reference_visibility_proof(manifest, proof)
+    if not proof_path.exists() or not isinstance(proof, dict):
+        missing.append("evals/imagegen_reference_visibility_proof.json")
+    elif not proof_validation.get("valid"):
+        missing.append("imagegen_reference_visibility_proof_valid")
+    if isinstance(proof, dict):
+        if proof.get("loaded_in_current_conversation") is not True:
+            missing.append("loaded_in_current_conversation_true")
+        if proof.get("loaded_count") != proof.get("expected_count"):
+            missing.append("loaded_count_equals_expected_count")
+        if int(proof.get("expected_count") or 0) < 11:
+            missing.append("expected_count_at_least_11")
+
+    if not isinstance(pregen, dict):
+        missing.append("evals/pre_generation_eval.json")
+    else:
+        if pregen.get("agent_assignment_status") not in {
+            "actual_multi_agent",
+            "fallback_local_passes_with_limitation_recorded",
+        }:
+            missing.append("pre_generation_eval.agent_assignment_status")
+        if not prompt_outputs:
+            missing.append("pre_generation_eval.prompt_room_outputs")
+        elif not prompt_outputs_exist:
+            missing.append("pre_generation_eval.prompt_room_outputs_exist")
+
+    required_files = [
+        "debates/agent_assignment_matrix.md",
+        "debates/prompt_room/prompt_review.md",
+        "planning/scene_landing_preview.md",
+        "planning/scene_options.json",
+        "planning/selected_idea.json",
+        "planning/slide_beat_map.json",
+        "planning/slide_count_decision.md",
+    ]
+    for rel_path in required_files:
+        if not (run_dir / rel_path).exists():
+            missing.append(rel_path)
+
+    prompt_evidence = _gold_standard_prompt_evidence(prompt_lower)
+    for key, passed in prompt_evidence.items():
+        if not passed:
+            missing.append(key)
+
+    required_trace_states = {
+        "CREATE_SCENE_LANDING_PREVIEW": {"ok", "complete", "approved", "pass"},
+        "DISCOVER_AND_ASSIGN_AGENTS": {
+            "ok",
+            "complete",
+            "actual_multi_agent",
+            "fallback_local_passes",
+            "fallback_local_passes_with_limitation_recorded",
+            "revised_pending_creator_approval",
+        },
+        "LOAD_REFERENCE_IMAGES_IN_CONTEXT": {"ok", "complete", "pass"},
+        "PRE_GENERATION_EVAL": {
+            "ok",
+            "complete",
+            "pass",
+            "pass_with_recorded_limitations",
+        },
+    }
+    trace_state_presence = {
+        state: _trace_has_state(events, state, statuses)
+        for state, statuses in required_trace_states.items()
+    }
+    for state, present in trace_state_presence.items():
+        if not present:
+            missing.append(f"logs/trace.jsonl.{state}")
+    if trace_errors:
+        missing.append("logs/trace.jsonl.valid")
+
+    status = "pass" if not missing else "fail"
+    return _check(
+        "gold_standard_identity_route_gate",
+        status,
+        (
+            "Gold-standard identity route is complete before imagegen/final progression."
+            if status == "pass"
+            else "Gold-standard identity route is incomplete; stop before imagegen/final progression."
+        ),
+        workflow_type=workflow.get("type"),
+        path=f"runs/{run_dir.name}/references-used/selected_references.json",
+        proof_artifact=proof_rel,
+        aachu_face_identity_count=len(groups.get("aachu_face_identity") or []),
+        zuv_face_identity_count=len(groups.get("zuv_face_identity") or []),
+        style_reference_count=style_count,
+        view_image_queue_count=queue_count,
+        active_view_image_path_count=len(active_paths),
+        prompt_files=[_rel(path, root) for path in prompt_paths],
+        prompt_evidence=prompt_evidence,
+        prompt_room_outputs=prompt_outputs,
+        trace_state_presence=trace_state_presence,
+        trace_errors=trace_errors,
+        proof_validation_errors=proof_validation.get("validation_errors", []),
+        missing_requirements=missing,
+        failure_code=None if status == "pass" else "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+        final_imagegen_allowed=status == "pass",
         severity="blocker",
     )
 
@@ -715,6 +1517,7 @@ def _check_image_qa_blocks_final_package(run_dir: Path) -> dict[str, Any]:
 
     qa_failed = (
         hard_gate == "failed"
+        or "reject" in str(hard_gate)
         or str(status_text).startswith("fail")
         or "rejection" in str(status_text)
         or "rejected" in str(status_text)
@@ -740,6 +1543,70 @@ def _check_image_qa_blocks_final_package(run_dir: Path) -> dict[str, Any]:
         candidates_reviewed=len(candidates or []),
         final_artifacts=final_artifacts,
         failure_code=failure_code,
+        severity="blocker",
+    )
+
+
+def _check_final_package_has_illustration_proof(run_dir: Path) -> dict[str, Any]:
+    packaged_artifacts = _packaged_illustration_artifacts(run_dir)
+    final_qa_paths = sorted((run_dir / "evals").glob("final*qa*.json"))
+    final_qa = [_read_json(path) for path in final_qa_paths]
+    has_final_ready_claim = any(
+        isinstance(doc, dict)
+        and str(doc.get("decision") or doc.get("status") or "").lower()
+        in {"ready_for_creator_review", "pass", "complete"}
+        for doc in final_qa
+    )
+    if not packaged_artifacts and not has_final_ready_claim:
+        return _check(
+            "final_package_has_illustration_proof",
+            "not_applicable",
+            "No final package or final-ready QA claim exists yet.",
+            packaged_artifacts=[],
+            final_qa_artifacts=[f"runs/{run_dir.name}/{path.relative_to(run_dir)}" for path in final_qa_paths],
+            failure_code=None,
+            severity="info",
+        )
+
+    imagegen_attempted = _imagegen_was_attempted(run_dir)
+    qa_candidates = []
+    for path in sorted((run_dir / "evals").glob("image_quality*.json")):
+        doc = _read_json(path)
+        if not isinstance(doc, dict):
+            continue
+        qa_candidates.append(
+            {
+                "path": f"runs/{run_dir.name}/{path.relative_to(run_dir)}",
+                "status": doc.get("status"),
+                "hard_gate_result": doc.get("hard_gate_result"),
+            }
+        )
+    has_passing_image_qa = any(
+        str(item.get("hard_gate_result") or "").lower()
+        in {"pass", "passed", "approved", "ready_for_creator_review"}
+        or str(item.get("status") or "").lower()
+        in {"pass", "passed", "ready_for_creator_review"}
+        for item in qa_candidates
+    )
+    scene_artifacts_present = all(
+        (run_dir / rel_path).exists()
+        for rel_path in [
+            "planning/scene_landing_preview.md",
+            "planning/scene_options.json",
+            "planning/slide_beat_map.json",
+        ]
+    )
+    passed = imagegen_attempted and has_passing_image_qa and scene_artifacts_present
+    return _check(
+        "final_package_has_illustration_proof",
+        "pass" if passed else "fail",
+        "Final packages must be A Story illustrations, not deterministic quote-card renders; require imagegen attempt, passing Image QA, and scene-proof artifacts.",
+        packaged_artifacts=packaged_artifacts,
+        final_qa_artifacts=[f"runs/{run_dir.name}/{path.relative_to(run_dir)}" for path in final_qa_paths],
+        imagegen_attempted=imagegen_attempted,
+        image_quality_candidates=qa_candidates,
+        scene_artifacts_present=scene_artifacts_present,
+        failure_code=None if passed else "QUOTE_CARD_NOT_ILLUSTRATION",
         severity="blocker",
     )
 
@@ -812,6 +1679,152 @@ def _check_accepted_candidate_filename_guard(run_dir: Path) -> dict[str, Any]:
     )
 
 
+def _check_generation_stops_after_hard_reject(run_dir: Path) -> dict[str, Any]:
+    attempts_path = run_dir / "images/generation_attempts.json"
+    attempts_doc = _read_json(attempts_path)
+    attempts = attempts_doc.get("attempts") if isinstance(attempts_doc, dict) else []
+    if not attempts_path.exists() or not isinstance(attempts, list):
+        return _check(
+            "generation_stops_after_hard_reject",
+            "not_applicable",
+            "No generation attempts artifact exists for sequencing review.",
+            path=f"runs/{run_dir.name}/images/generation_attempts.json",
+            failure_code=None,
+            severity="info",
+        )
+
+    first_hard_reject = None
+    continued_after_hard_reject: list[dict[str, Any]] = []
+    for index, attempt in enumerate(attempts):
+        if not isinstance(attempt, dict):
+            continue
+        if first_hard_reject is None and _attempt_has_hard_reject(attempt):
+            first_hard_reject = {"index": index, **attempt}
+            continue
+        if first_hard_reject is not None:
+            continued_after_hard_reject.append({"index": index, **attempt})
+
+    failed = first_hard_reject is not None and bool(continued_after_hard_reject)
+    acknowledged = failed and _historical_generation_violation_acknowledged(run_dir)
+    return _check(
+        "generation_stops_after_hard_reject",
+        "fail" if failed and not acknowledged else "pass",
+        (
+            "Generation stopped after the first hard-rejected candidate."
+            if not failed
+            else "Historical generation continuation was acknowledged by a repair gate and returned to prompt reapproval."
+            if acknowledged
+            else "Generation continued after a hard-rejected candidate."
+        ),
+        path=f"runs/{run_dir.name}/images/generation_attempts.json",
+        first_hard_reject=first_hard_reject,
+        continued_after_hard_reject=continued_after_hard_reject,
+        historical_violation_acknowledged=acknowledged,
+        failure_code=None
+        if not failed or acknowledged
+        else "GENERATION_CONTINUED_AFTER_HARD_REJECT",
+        severity="blocker",
+    )
+
+
+def _historical_generation_violation_acknowledged(run_dir: Path) -> bool:
+    events, errors = _read_jsonl(run_dir / "logs/trace.jsonl")
+    if errors:
+        return False
+
+    repair_index = None
+    for index, event in enumerate(events):
+        if not isinstance(event, dict):
+            continue
+        failures = event.get("failure") or []
+        if isinstance(failures, str):
+            failures = [failures]
+        failure_codes = {str(code) for code in failures}
+        if (
+            event.get("state") == "RETRY_OR_REVISE_IF_NEEDED"
+            and str(event.get("status"))
+            in {"repair_recorded", "blocked_until_reapproval"}
+            and "GENERATION_CONTINUED_AFTER_HARD_REJECT" in failure_codes
+        ):
+            repair_index = index
+            continue
+        if repair_index is not None and index > repair_index:
+            if event.get("state") == "HITL_PROMPT_LOCK" and str(
+                event.get("status")
+            ) in {"reapproval_required", "pending_reapproval"}:
+                return True
+    return False
+
+
+def _check_prompt_repair_reapproval(run_dir: Path) -> dict[str, Any]:
+    events, errors = _read_jsonl(run_dir / "logs/trace.jsonl")
+    approvals = _read_text(run_dir / "docs/approvals.md")
+    approvals_require_reapproval = (
+        "## HITL Prompt Repair / Reapproval Required" in approvals
+        and "Status: reapproval_required" in approvals
+    )
+
+    if errors:
+        return _check(
+            "prompt_repair_reapproval",
+            "fail",
+            "Cannot verify repaired prompt approval because trace JSONL is invalid.",
+            reapproval_required=approvals_require_reapproval,
+            reapproved_after_repair=False,
+            parse_errors=errors,
+            failure_code="HITL_NOT_APPROVED",
+            severity="blocker",
+        )
+
+    reapproval_indices = [
+        index
+        for index, event in enumerate(events)
+        if isinstance(event, dict)
+        and event.get("state") == "HITL_PROMPT_LOCK"
+        and (
+            str(event.get("status")) in {"reapproval_required", "pending_reapproval"}
+            or str(event.get("decision")) in {"pending_reapproval", "blocked_until_creator_reapproval"}
+        )
+    ]
+    reapproval_required = approvals_require_reapproval or bool(reapproval_indices)
+    if not reapproval_required:
+        return _check(
+            "prompt_repair_reapproval",
+            "not_applicable",
+            "No repaired prompt reapproval gate is active for this run.",
+            reapproval_required=False,
+            reapproved_after_repair=False,
+            failure_code=None,
+            severity="info",
+        )
+
+    last_reapproval_index = max(reapproval_indices) if reapproval_indices else -1
+    reapproved_after_repair = any(
+        isinstance(event, dict)
+        and index > last_reapproval_index
+        and event.get("state") == "HITL_PROMPT_LOCK"
+        and (
+            str(event.get("status")) == "approved"
+            or str(event.get("decision")) == "approved"
+        )
+        for index, event in enumerate(events)
+    )
+
+    return _check(
+        "prompt_repair_reapproval",
+        "pass" if reapproved_after_repair else "fail",
+        (
+            "Repaired prompt/reference setup has fresh creator approval."
+            if reapproved_after_repair
+            else "Repaired prompt/reference setup requires fresh creator approval before imagegen."
+        ),
+        reapproval_required=True,
+        reapproved_after_repair=reapproved_after_repair,
+        failure_code=None if reapproved_after_repair else "HITL_NOT_APPROVED",
+        severity="blocker",
+    )
+
+
 def _check_trace_jsonl_valid(run_dir: Path) -> dict[str, Any]:
     trace_path = run_dir / "logs/trace.jsonl"
     events, errors = _read_jsonl(trace_path)
@@ -822,6 +1835,380 @@ def _check_trace_jsonl_valid(run_dir: Path) -> dict[str, Any]:
         path=f"runs/{run_dir.name}/logs/trace.jsonl",
         event_count=len(events),
         parse_errors=errors,
+        severity="blocker",
+    )
+
+
+def _check_scene_landing_preview(run_dir: Path) -> dict[str, Any]:
+    preview_path = run_dir / "planning/scene_landing_preview.md"
+    approvals = _read_text(run_dir / "docs/approvals.md")
+    events, trace_errors = _read_jsonl(run_dir / "logs/trace.jsonl")
+    idea_lock_approved = _section_contains_any(
+        approvals,
+        ["Idea Lock", "HITL Idea Lock"],
+        "Status: approved",
+    ) or any(
+        event.get("state") == "HITL_IDEA_LOCK"
+        and event.get("status") in {"approved", "approved_with_revision"}
+        for event in events
+    )
+    preview_trace_index = _first_event_index(
+        events, "CREATE_SCENE_LANDING_PREVIEW", {"complete", "approved", "pass"}
+    )
+    idea_lock_index = _first_event_index(
+        events, "HITL_IDEA_LOCK", {"approved", "approved_with_revision"}
+    )
+    preview_started = preview_path.exists() or preview_trace_index is not None
+
+    if not idea_lock_approved and not preview_started:
+        return _check(
+            "scene_landing_preview",
+            "not_applicable",
+            "Scene landing preview is not required until idea lock is presented or approved.",
+            path=f"runs/{run_dir.name}/planning/scene_landing_preview.md",
+            severity="info",
+        )
+
+    missing: list[str] = []
+    text = _read_text(preview_path)
+    lower = text.lower()
+    if not preview_path.exists():
+        missing.append("planning/scene_landing_preview.md")
+    if re.search(r"\{\{[^}]+\}\}", text):
+        missing.append("template_placeholders")
+
+    required_markers = {
+        "exact_hook_text": ("exact first-slide text", "exact hook text"),
+        "first_frame_visual": ("first-frame visual", "first frame visual"),
+        "swipe_reason": ("why the first swipe happens", "swipe reason"),
+        "mini_slide_arc": ("mini slide arc", "3-5 slide", "mini arc"),
+        "payoff_frame": ("payoff frame",),
+        "share_trigger": ("why someone sends it", "share trigger"),
+        "flat_generic_risk": (
+            "what could make it land flat/generic",
+            "flat/generic risk",
+        ),
+        "correction": ("correction if it feels flat", "correction"),
+    }
+    for requirement, markers in required_markers.items():
+        if not any(marker in lower for marker in markers):
+            missing.append(requirement)
+
+    nonempty_lines = [line for line in text.splitlines() if line.strip()]
+    if preview_path.exists() and len(nonempty_lines) < 12:
+        missing.append("preview_too_thin")
+    if idea_lock_approved and "scene_landing_preview.md" not in approvals:
+        missing.append("docs/approvals.md.scene_landing_preview_path")
+    if (
+        idea_lock_index is not None
+        and preview_trace_index is not None
+        and preview_trace_index > idea_lock_index
+    ):
+        missing.append("trace_order_scene_landing_after_idea_lock")
+    if trace_errors and idea_lock_approved:
+        missing.append("logs/trace.jsonl.valid")
+
+    status = "pass" if not missing else "fail"
+    return _check(
+        "scene_landing_preview",
+        status,
+        (
+            "Scene landing preview is concrete before idea lock."
+            if status == "pass"
+            else "Scene landing preview is missing or too abstract before idea lock."
+        ),
+        path=f"runs/{run_dir.name}/planning/scene_landing_preview.md",
+        idea_lock_approved=idea_lock_approved,
+        preview_trace_present=preview_trace_index is not None,
+        missing_requirements=missing,
+        failure_code=None if status == "pass" else "SCENE_LANDING_MISSING",
+        severity="blocker",
+    )
+
+
+def _check_novelty_candidate_ledger(run_dir: Path) -> dict[str, Any]:
+    ledger_path = run_dir / "planning/novelty_candidate_ledger.json"
+    approvals = _read_text(run_dir / "docs/approvals.md")
+    events, trace_errors = _read_jsonl(run_dir / "logs/trace.jsonl")
+    idea_lock_approved = _section_contains_any(
+        approvals,
+        ["Idea Lock", "HITL Idea Lock"],
+        "Status: approved",
+    ) or any(
+        event.get("state") == "HITL_IDEA_LOCK"
+        and event.get("status") in {"approved", "approved_with_revision"}
+        for event in events
+    )
+    score_trace_index = _first_event_index(
+        events, "SCORE_IDEAS", {"complete", "approved", "pass"}
+    )
+    select_trace_index = _first_event_index(
+        events, "SELECT_BEST_IDEA", {"complete", "approved", "pass"}
+    )
+    ledger_started = (
+        ledger_path.exists()
+        or score_trace_index is not None
+        or select_trace_index is not None
+        or (run_dir / "planning/selected_idea.json").exists()
+    )
+
+    if not idea_lock_approved and not ledger_started:
+        return _check(
+            "novelty_candidate_ledger",
+            "not_applicable",
+            "Novelty candidate ledger is not required until idea scoring, selection, or idea lock.",
+            path=f"runs/{run_dir.name}/planning/novelty_candidate_ledger.json",
+            severity="info",
+        )
+
+    missing: list[str] = []
+    raw_text = _read_text(ledger_path)
+    ledger = _read_json(ledger_path)
+    if not ledger_path.exists():
+        missing.append("planning/novelty_candidate_ledger.json")
+    if re.search(r"\{\{[^}]+\}\}", raw_text):
+        missing.append("template_placeholders")
+    if not isinstance(ledger, dict):
+        missing.append("novelty_candidate_ledger.valid_json")
+        ledger = {}
+
+    selected_candidate_id = ledger.get("selected_candidate_id")
+    if not _usable_model_text(selected_candidate_id):
+        missing.append("selected_candidate_id")
+
+    candidates = ledger.get("candidates")
+    if not isinstance(candidates, list) or not candidates:
+        missing.append("candidates")
+        candidates = []
+
+    selected_candidate = None
+    for candidate in candidates:
+        if (
+            isinstance(candidate, dict)
+            and candidate.get("candidate_id") == selected_candidate_id
+        ):
+            selected_candidate = candidate
+            break
+    if _usable_model_text(selected_candidate_id) and selected_candidate is None:
+        missing.append("selected_candidate_id.matches_candidate")
+
+    source_bank_search = ledger.get("source_bank_search")
+    uses_winner_bank = False
+    if isinstance(source_bank_search, dict):
+        uses_winner_bank = source_bank_search.get("used_winner_bank") is True
+        bank_paths = source_bank_search.get("bank_paths")
+        evidence_gap = source_bank_search.get("evidence_gap")
+        if uses_winner_bank and not (
+            isinstance(bank_paths, list)
+            and any(_usable_model_text(path) for path in bank_paths)
+        ):
+            missing.append("source_bank_search.bank_paths")
+        if not uses_winner_bank and not _usable_model_text(evidence_gap):
+            missing.append("source_bank_search.evidence_gap")
+    else:
+        missing.append("source_bank_search")
+
+    for index, candidate in enumerate(candidates):
+        if not isinstance(candidate, dict):
+            missing.append(f"candidates[{index}].valid_object")
+            continue
+        decision = candidate.get("decision")
+        serious_candidate = decision in {"selected", "shortlisted"} or (
+            candidate.get("candidate_id") == selected_candidate_id
+        )
+        if not serious_candidate:
+            continue
+        if candidate.get("candidate_id") == selected_candidate_id and decision != "selected":
+            missing.append(f"candidates[{index}].decision")
+        _collect_required_text_fields(
+            candidate,
+            [
+                ("candidate_id", ["candidate_id"]),
+                ("title", ["title"]),
+                ("source_engine.old_familiar_topic", ["source_engine", "old_familiar_topic"]),
+                ("source_engine.first_frame_stop", ["source_engine", "first_frame_stop"]),
+                ("source_engine.swipe_reason", ["source_engine", "swipe_reason"]),
+                (
+                    "source_engine.send_or_save_trigger",
+                    ["source_engine", "send_or_save_trigger"],
+                ),
+                ("source_engine.what_must_stay", ["source_engine", "what_must_stay"]),
+                ("novelty_model.new_reveal", ["novelty_model", "new_reveal"]),
+                ("novelty_model.viewer_outcome", ["novelty_model", "viewer_outcome"]),
+                ("novelty_model.contrast_frame", ["novelty_model", "contrast_frame"]),
+                ("novelty_model.bullseye_proof", ["novelty_model", "bullseye_proof"]),
+                (
+                    "novelty_model.protect_the_illusion",
+                    ["novelty_model", "protect_the_illusion"],
+                ),
+            ],
+            missing,
+            f"candidates[{index}]",
+        )
+        if uses_winner_bank:
+            _collect_required_text_fields(
+                candidate,
+                [
+                    ("source_winner.source_url", ["source_winner", "source_url"]),
+                    ("source_winner.metric_signal", ["source_winner", "metric_signal"]),
+                ],
+                missing,
+                f"candidates[{index}]",
+            )
+
+        urgency = _nested_value(candidate, ["novelty_model", "urgency"])
+        if not isinstance(urgency, dict):
+            missing.append(f"candidates[{index}].novelty_model.urgency")
+        elif urgency.get("used") not in {True, False}:
+            missing.append(f"candidates[{index}].novelty_model.urgency.used")
+        elif not _usable_model_text(urgency.get("reason")):
+            missing.append(f"candidates[{index}].novelty_model.urgency.reason")
+
+        wrappers = candidate.get("a_story_wrappers")
+        if not isinstance(wrappers, list) or not wrappers:
+            missing.append(f"candidates[{index}].a_story_wrappers")
+        elif not any(_complete_a_story_wrapper(wrapper) for wrapper in wrappers):
+            missing.append(f"candidates[{index}].a_story_wrappers.complete_wrapper")
+
+        scores = candidate.get("selection_scores")
+        if not isinstance(scores, dict):
+            missing.append(f"candidates[{index}].selection_scores")
+        else:
+            required_scores = [
+                "winner_fit",
+                "source_preservation",
+                "novelty_strength",
+                "aachu_zuv_specificity",
+                "send_save_trigger",
+                "anti_slop_risk",
+                "visual_proof_potential",
+                "total",
+            ]
+            for score_name in required_scores:
+                if not isinstance(scores.get(score_name), (int, float)):
+                    missing.append(f"candidates[{index}].selection_scores.{score_name}")
+            if isinstance(scores.get("total"), (int, float)) and scores["total"] <= 0:
+                missing.append(f"candidates[{index}].selection_scores.total")
+
+    if trace_errors and (idea_lock_approved or ledger_started):
+        missing.append("logs/trace.jsonl.valid")
+
+    status = "pass" if not missing else "fail"
+    return _check(
+        "novelty_candidate_ledger",
+        status,
+        (
+            "Novelty candidate ledger proves selection before idea lock."
+            if status == "pass"
+            else "Novelty candidate ledger is missing or too incomplete before idea lock."
+        ),
+        path=f"runs/{run_dir.name}/planning/novelty_candidate_ledger.json",
+        idea_lock_approved=idea_lock_approved,
+        ledger_trace_present=score_trace_index is not None,
+        selected_candidate_id=selected_candidate_id,
+        missing_requirements=missing,
+        failure_code=None if status == "pass" else "NOVELTY_CANDIDATE_LEDGER_MISSING",
+        severity="blocker",
+    )
+
+
+def _check_source_winner_novelty_model(run_dir: Path) -> dict[str, Any]:
+    contract_path = run_dir / "planning/source_winner_remix_contract.json"
+    model_path = run_dir / "planning/source_winner_novelty_model.json"
+    contract = _read_json(contract_path)
+    requires_model = _source_winner_contract_requires_novelty_model(contract)
+
+    if not requires_model:
+        return _check(
+            "source_winner_novelty_model",
+            "not_applicable",
+            "Source-winner novelty modeling is not required without a source-winner remix contract.",
+            path=f"runs/{run_dir.name}/planning/source_winner_novelty_model.json",
+            contract_path=f"runs/{run_dir.name}/planning/source_winner_remix_contract.json",
+            severity="info",
+        )
+
+    missing: list[str] = []
+    raw_text = _read_text(model_path)
+    model = _read_json(model_path)
+    if not model_path.exists():
+        missing.append("planning/source_winner_novelty_model.json")
+    if re.search(r"\{\{[^}]+\}\}", raw_text):
+        missing.append("template_placeholders")
+    if not isinstance(model, dict):
+        missing.append("source_winner_novelty_model.valid_json")
+        model = {}
+
+    framework_path = "references/text-style/illusion-of-novelty-storytelling-2026-06-18.md"
+    if model.get("framework_reference") != framework_path:
+        missing.append("framework_reference")
+
+    required_text_fields = {
+        "source_winner.source_url": _nested_value(model, ["source_winner", "source_url"]),
+        "source_winner.old_familiar_topic": _nested_value(
+            model, ["source_winner", "old_familiar_topic"]
+        ),
+        "illusion_of_novelty_model.new_reveal": _nested_value(
+            model, ["illusion_of_novelty_model", "new_reveal"]
+        ),
+        "illusion_of_novelty_model.viewer_outcome": _nested_value(
+            model, ["illusion_of_novelty_model", "viewer_outcome"]
+        ),
+        "illusion_of_novelty_model.contrast_frame": _nested_value(
+            model, ["illusion_of_novelty_model", "contrast_frame"]
+        ),
+        "illusion_of_novelty_model.bullseye_proof": _nested_value(
+            model, ["illusion_of_novelty_model", "bullseye_proof"]
+        ),
+        "illusion_of_novelty_model.protect_the_illusion": _nested_value(
+            model, ["illusion_of_novelty_model", "protect_the_illusion"]
+        ),
+        "a_story_translation.what_stays_from_source": _nested_value(
+            model, ["a_story_translation", "what_stays_from_source"]
+        ),
+        "a_story_translation.what_changes_for_aachu_zuv": _nested_value(
+            model, ["a_story_translation", "what_changes_for_aachu_zuv"]
+        ),
+        "a_story_translation.lived_scene_wrapper": _nested_value(
+            model, ["a_story_translation", "lived_scene_wrapper"]
+        ),
+    }
+    for field, value in required_text_fields.items():
+        if not _usable_model_text(value):
+            missing.append(field)
+
+    urgency = _nested_value(model, ["illusion_of_novelty_model", "urgency"])
+    if not isinstance(urgency, dict):
+        missing.append("illusion_of_novelty_model.urgency")
+    elif urgency.get("used") not in {True, False}:
+        missing.append("illusion_of_novelty_model.urgency.used")
+    elif not _usable_model_text(urgency.get("reason")):
+        missing.append("illusion_of_novelty_model.urgency.reason")
+
+    removed_lines = _nested_value(
+        model,
+        ["a_story_translation", "lines_to_remove_because_they_explain_the_lesson"],
+    )
+    if not isinstance(removed_lines, list) or not any(
+        _usable_model_text(item) for item in removed_lines
+    ):
+        missing.append(
+            "a_story_translation.lines_to_remove_because_they_explain_the_lesson"
+        )
+
+    status = "pass" if not missing else "fail"
+    return _check(
+        "source_winner_novelty_model",
+        status,
+        (
+            "Source winner has been modeled through the Illusion of Novelty framework."
+            if status == "pass"
+            else "Source winner needs an Illusion of Novelty modeling pass before idea lock."
+        ),
+        path=f"runs/{run_dir.name}/planning/source_winner_novelty_model.json",
+        contract_path=f"runs/{run_dir.name}/planning/source_winner_remix_contract.json",
+        missing_requirements=missing,
+        failure_code=None if status == "pass" else "SOURCE_WINNER_NOVELTY_MODEL_MISSING",
         severity="blocker",
     )
 
@@ -843,18 +2230,33 @@ def _check_hitl_order_before_imagegen(run_dir: Path) -> dict[str, Any]:
         "prompt": _first_event_index(events, "HITL_PROMPT_LOCK", {"approved"}),
         "imagegen": _first_event_index(events, "GENERATE_IMAGES_WITH_IMAGEGEN", None),
     }
-    ordered = (
+    pre_imagegen_ready = (
+        indices["idea"] is not None
+        and indices["story"] is not None
+        and indices["prompt"] is not None
+        and indices["imagegen"] is None
+        and indices["idea"] < indices["story"] < indices["prompt"]
+    )
+    post_imagegen_ordered = (
         indices["idea"] is not None
         and indices["story"] is not None
         and indices["prompt"] is not None
         and indices["imagegen"] is not None
         and indices["idea"] < indices["story"] < indices["prompt"] < indices["imagegen"]
     )
+    ordered = pre_imagegen_ready or post_imagegen_ordered
     return _check(
         "hitl_order_before_imagegen",
         "pass" if ordered else "fail",
         "Idea, story, and prompt locks are recorded before image generation.",
         event_indices=indices,
+        order_state=(
+            "pre_imagegen_ready"
+            if pre_imagegen_ready
+            else "post_imagegen_ordered"
+            if post_imagegen_ordered
+            else "invalid"
+        ),
         failure_code=None if ordered else "HITL_ORDER_BEFORE_IMAGEGEN_MISSING",
         severity="blocker",
     )
@@ -1048,6 +2450,109 @@ def _check_local_identity_execution_report(run_dir: Path) -> dict[str, Any]:
     )
 
 
+def _read_reference_policy(run_dir: Path) -> dict[str, list[str]]:
+    policy_path = run_dir / "references-used/reference_policy.json"
+    policy = _read_json(policy_path)
+    if not isinstance(policy, dict):
+        return {
+            "blocked_active_refs": [],
+            "analysis_only_refs": [],
+            "emotion_forbidden_refs": [],
+        }
+    result: dict[str, list[str]] = {}
+    for field in (
+        "blocked_active_refs",
+        "analysis_only_refs",
+        "emotion_forbidden_refs",
+    ):
+        value = policy.get(field) or []
+        if isinstance(value, str):
+            value = [value]
+        result[field] = [str(item) for item in value if str(item).strip()]
+    return result
+
+
+def _prompt_forbids_smile(prompt_text: str) -> bool:
+    lower = prompt_text.lower()
+    return any(marker in lower for marker in NEGATED_EXPRESSION_MARKERS)
+
+
+def _prompt_scene_terms(prompt_text: str) -> list[str]:
+    lower = prompt_text.lower()
+    return [
+        term
+        for term, markers in REFERENCE_SCENE_COLLISION_TERMS.items()
+        if any(marker in lower for marker in markers)
+    ]
+
+
+def _active_ref_has_scene_collision(path: str, scene_term: str) -> bool:
+    if not str(path).startswith("references/identity/"):
+        return False
+    stem = Path(path).stem.lower()
+    if "crop" in stem:
+        return False
+    return scene_term in stem
+
+
+def _path_expression_bucket(path: str) -> str:
+    stem = Path(path).stem.lower()
+    if "laugh" in stem:
+        return "laugh"
+    if "smile" in stem or "smiling" in stem:
+        return "smile"
+    if "pout" in stem:
+        return "pout"
+    if "glance" in stem:
+        return "glance"
+    return "unknown"
+
+
+def _has_major_creator_visual_correction(run_dir: Path) -> bool:
+    notes = _read_text(run_dir / "planning/creator_direction_notes.md").lower()
+    if any(
+        marker in notes
+        for marker in (
+            "major creator correction",
+            "creator correction",
+            "no smile",
+            "copied cafe",
+            "reference",
+        )
+    ):
+        return True
+
+    process_failure = _read_json(run_dir / "evals/process_failure_audit.json")
+    if isinstance(process_failure, dict) and process_failure.get("status") in {
+        "process_failed",
+        "blocked",
+    }:
+        return True
+
+    events, errors = _read_jsonl(run_dir / "logs/trace.jsonl")
+    if errors:
+        return False
+    return any(
+        event.get("state") == "SESSION_LEARNING_CAPTURE"
+        or str(event.get("correction_type", "")).lower() == "major_visual_correction"
+        for event in events
+        if isinstance(event, dict)
+    )
+
+
+def _approval_section(text: str, headings: list[str]) -> str:
+    for heading in headings:
+        marker = f"## {heading}"
+        if marker not in text:
+            continue
+        body = text.split(marker, 1)[1]
+        next_marker = body.find("\n## ")
+        if next_marker >= 0:
+            body = body[:next_marker]
+        return body
+    return ""
+
+
 def _iter_manifest_refs(manifest: dict[str, Any]) -> list[dict[str, Any]]:
     refs: list[dict[str, Any]] = []
     groups = manifest.get("reference_groups") or {}
@@ -1085,6 +2590,25 @@ def _iter_legacy_manifest_paths(manifest: dict[str, Any]) -> list[str]:
     return sorted(set(paths))
 
 
+def _record_marks_face_identity(ref: dict[str, Any]) -> bool:
+    return (
+        ref.get("dossier_role") == "face_anchor"
+        or ref.get("quality") == "identity"
+        or "face_identity" in str(ref.get("role", ""))
+    )
+
+
+def _is_raw_face_anchor_path(path: str, subject: str) -> bool:
+    text = str(path)
+    if "/reference-binder/" in text:
+        return False
+    subject_prefix = f"references/identity/{subject}/"
+    if not text.startswith(subject_prefix):
+        return False
+    stem = Path(text).stem.lower()
+    return "/face/" in text or "face" in stem or "portrait" in stem
+
+
 def _reference_role_errors(groups: dict[str, Any]) -> list[str]:
     errors: list[str] = []
     for group_name, subject in [
@@ -1097,10 +2621,10 @@ def _reference_role_errors(groups: dict[str, Any]) -> list[str]:
                 errors.append(f"{group_name}[{index}].role")
             if ref.get("subject") != subject:
                 errors.append(f"{group_name}[{index}].subject")
-            if ref.get("dossier_role") != "face_anchor":
-                errors.append(f"{group_name}[{index}].dossier_role")
-            if f"references/identity/{subject}/face/" not in path:
-                errors.append(f"{group_name}[{index}].path_not_face_dir")
+            if not _record_marks_face_identity(ref):
+                errors.append(f"{group_name}[{index}].face_identity_role")
+            if not _is_raw_face_anchor_path(path, subject):
+                errors.append(f"{group_name}[{index}].path_not_raw_face_anchor")
             if ref.get("input_kind") != "local_image_file":
                 errors.append(f"{group_name}[{index}].input_kind")
             if ref.get("delivery_mode") != "view_image_before_imagegen":
@@ -1226,15 +2750,11 @@ def _proof_has_image_roles(proof: Any) -> bool:
         role_text = {str(role) for role in confirmed_roles}
         if {"aachu_face_identity", "zuv_face_identity"}.issubset(role_text):
             return True
-    loaded_paths = proof.get("loaded_reference_paths")
+    loaded_paths = proof.get("loaded_reference_paths") or proof.get("loaded_paths")
     if isinstance(loaded_paths, list):
         path_text = {str(path) for path in loaded_paths}
-        has_aachu_face = any(
-            "references/identity/aachu/face/" in path for path in path_text
-        )
-        has_zuv_face = any(
-            "references/identity/zuv/face/" in path for path in path_text
-        )
+        has_aachu_face = any(_is_raw_face_anchor_path(path, "aachu") for path in path_text)
+        has_zuv_face = any(_is_raw_face_anchor_path(path, "zuv") for path in path_text)
         if has_aachu_face and has_zuv_face:
             return True
     refs = proof.get("references") or proof.get("reference_images") or proof.get("inputs")
@@ -1245,6 +2765,302 @@ def _proof_has_image_roles(proof: Any) -> bool:
         {"aachu_face_identity", "zuv_face_identity"}.issubset(roles)
         or {"aachu_face_anchor", "zuv_face_anchor"}.issubset(roles)
     )
+
+
+def _gold_standard_style_reference_count(groups: dict[str, Any]) -> int:
+    aliases = [
+        "style",
+        "style_reference",
+        "style_references",
+        "best_illustration_style",
+        "best_illustration_references",
+    ]
+    return max(
+        (len(groups.get(alias) or []) for alias in aliases),
+        default=0,
+    )
+
+
+def _pregen_prompt_outputs(pregen: Any) -> list[str]:
+    if not isinstance(pregen, dict):
+        return []
+    value = pregen.get("prompt_room_outputs") or pregen.get("agent_outputs") or []
+    if not isinstance(value, list):
+        return []
+    return [str(item) for item in value if isinstance(item, str)]
+
+
+def _resolve_run_artifact_path(root: Path, run_dir: Path, artifact: str) -> Path:
+    path = Path(artifact)
+    if path.is_absolute():
+        return path
+    if artifact.startswith("runs/"):
+        return root / artifact
+    return run_dir / artifact
+
+
+def _gold_standard_prompt_evidence(prompt_lower: str) -> dict[str, bool]:
+    has_highest_priority = (
+        "highest-priority visual input" in prompt_lower
+        or "highest priority visual input" in prompt_lower
+    )
+    has_raw_named_face_anchors = (
+        "raw" in prompt_lower
+        and "aachu" in prompt_lower
+        and "zuv" in prompt_lower
+        and ("face-anchor" in prompt_lower or "face anchor" in prompt_lower)
+    )
+    blocks_binder_replacement = (
+        "style images" in prompt_lower
+        and "binders" in prompt_lower
+        and "text descriptions" in prompt_lower
+        and "replace raw face anchors" in prompt_lower
+    )
+    face_readability = (
+        ("faces readable" in prompt_lower or "readable faces" in prompt_lower)
+        and ("medium-wide" in prompt_lower or "medium wide" in prompt_lower)
+        and (
+            "front three-quarter" in prompt_lower
+            or "front three quarter" in prompt_lower
+        )
+    )
+    blocks_single_anchor_pose_copy = (
+        ("single anchor" in prompt_lower or "single reference" in prompt_lower)
+        and ("do not copy" in prompt_lower or "not copy" in prompt_lower)
+        and "pose" in prompt_lower
+        and "head angle" in prompt_lower
+        and ("eye state" in prompt_lower or "eye structure" in prompt_lower)
+        and "expression" in prompt_lower
+        and "wardrobe" in prompt_lower
+        and "lighting" in prompt_lower
+        and (
+            "camera position" in prompt_lower
+            or "camera angle" in prompt_lower
+            or "composition" in prompt_lower
+        )
+    )
+    return {
+        "prompt_raw_identity_priority": (
+            has_highest_priority and has_raw_named_face_anchors
+        ),
+        "prompt_blocks_binder_text_replacement": blocks_binder_replacement,
+        "prompt_blocks_single_anchor_pose_copy": blocks_single_anchor_pose_copy,
+        "prompt_face_readable_composition": face_readability,
+    }
+
+
+def _trace_has_state(
+    events: list[dict[str, Any]], state: str, allowed_statuses: set[str]
+) -> bool:
+    return any(
+        event.get("state") == state
+        and str(event.get("status", "")).lower() in allowed_statuses
+        for event in events
+    )
+
+
+def _validate_reference_visibility_proof(
+    manifest: dict[str, Any], proof: dict[str, Any]
+) -> dict[str, Any]:
+    expected_paths = _manifest_view_image_paths(manifest)
+    loaded_paths = proof.get("loaded_paths") or proof.get("loaded_reference_paths") or []
+    if not isinstance(loaded_paths, list):
+        loaded_paths = []
+    loaded_paths = [str(path) for path in loaded_paths]
+
+    expected_set = set(expected_paths)
+    loaded_set = set(loaded_paths)
+    missing_paths = [path for path in expected_paths if path not in loaded_set]
+    unexpected_paths = [path for path in loaded_paths if path not in expected_set]
+    validation_errors: list[str] = []
+
+    manifest_hash = manifest.get("load_plan_sha256")
+    proof_hash = proof.get("load_plan_sha256")
+    if manifest_hash and proof_hash != manifest_hash:
+        return {
+            "valid": False,
+            "summary": "Reference visibility proof is stale for the current load plan.",
+            "failure_code": "REFERENCE_VISIBILITY_PROOF_STALE",
+            "missing_loaded_paths": missing_paths,
+            "unexpected_loaded_paths": unexpected_paths,
+            "validation_errors": ["load_plan_sha256_mismatch"],
+        }
+
+    if proof.get("loaded_in_current_conversation") is not True:
+        validation_errors.append("not_loaded_in_current_conversation")
+    if "view_image" not in str(proof.get("loading_method", "")):
+        validation_errors.append("loading_method_not_view_image")
+    if not _proof_has_image_roles(proof):
+        validation_errors.append("identity_roles_missing")
+    if proof.get("loaded_count") is not None and proof.get("loaded_count") != len(
+        loaded_paths
+    ):
+        validation_errors.append("loaded_count_mismatch")
+    if proof.get("expected_count") is not None and proof.get("expected_count") != len(
+        expected_paths
+    ):
+        validation_errors.append("expected_count_mismatch")
+
+    if missing_paths:
+        return {
+            "valid": False,
+            "summary": "Reference visibility proof is missing required active view_image paths.",
+            "failure_code": "REFERENCE_VISIBILITY_PROOF_INCOMPLETE",
+            "missing_loaded_paths": missing_paths,
+            "unexpected_loaded_paths": unexpected_paths,
+            "validation_errors": validation_errors,
+        }
+    if unexpected_paths:
+        return {
+            "valid": False,
+            "summary": "Reference visibility proof loaded paths outside the active load plan.",
+            "failure_code": "REFERENCE_VISIBILITY_PROOF_PATH_MISMATCH",
+            "missing_loaded_paths": missing_paths,
+            "unexpected_loaded_paths": unexpected_paths,
+            "validation_errors": validation_errors,
+        }
+    identity_errors = _raw_identity_input_errors(expected_paths)
+    diversity_errors = _identity_reference_diversity_errors(
+        manifest.get("reference_groups") or {}
+    )
+    loaded_identity_errors = [
+        error.replace("active_queue", "loaded_paths", 1)
+        for error in _raw_identity_input_errors(loaded_paths)
+    ]
+    if proof.get("active_generation_path_can_use_loaded_image_context") is False:
+        identity_errors.append("active_generation_path_cannot_use_loaded_image_context")
+    if identity_errors or loaded_identity_errors or diversity_errors:
+        failure_code = (
+            "IDENTITY_REFERENCE_DIVERSITY_MISSING"
+            if diversity_errors and not identity_errors and not loaded_identity_errors
+            else "IDENTITY_REFERENCE_INPUT_UNPROVEN"
+        )
+        return {
+            "valid": False,
+            "summary": "Reference visibility proof does not prove diverse raw face-anchor image inputs.",
+            "failure_code": failure_code,
+            "missing_loaded_paths": missing_paths,
+            "unexpected_loaded_paths": unexpected_paths,
+            "validation_errors": validation_errors
+            + identity_errors
+            + loaded_identity_errors
+            + diversity_errors,
+        }
+    if validation_errors:
+        return {
+            "valid": False,
+            "summary": "Reference visibility proof exists but does not prove active image context.",
+            "failure_code": "REFERENCE_VISIBILITY_PROOF_INVALID",
+            "missing_loaded_paths": missing_paths,
+            "unexpected_loaded_paths": unexpected_paths,
+            "validation_errors": validation_errors,
+        }
+    return {
+        "valid": True,
+        "summary": "Reference visibility proof matches the active load plan and records raw face-anchor image roles.",
+        "failure_code": None,
+        "missing_loaded_paths": [],
+        "unexpected_loaded_paths": [],
+        "validation_errors": [],
+    }
+
+
+def _raw_identity_input_errors(paths: list[str]) -> list[str]:
+    errors: list[str] = []
+    if any("/reference-binder/" in path for path in paths):
+        errors.append("active_queue_contains_reference_binder_paths")
+    if _raw_face_anchor_count(paths, "aachu") < MIN_RAW_FACE_ANCHORS_PER_SUBJECT:
+        errors.append("active_queue_missing_raw_aachu_face_anchors")
+    if _raw_face_anchor_count(paths, "zuv") < MIN_RAW_FACE_ANCHORS_PER_SUBJECT:
+        errors.append("active_queue_missing_raw_zuv_face_anchors")
+    return errors
+
+
+def _raw_face_anchor_count(paths: list[str], subject: str) -> int:
+    return sum(1 for path in paths if _is_raw_face_anchor_path(str(path), subject))
+
+
+def _identity_reference_diversity_errors(groups: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+    for group_name in ("aachu_face_identity", "zuv_face_identity"):
+        buckets = _identity_group_view_buckets(groups.get(group_name) or [])
+        informative = [bucket for bucket in buckets if bucket != "unknown"]
+        if len(informative or buckets) < MIN_FACE_VIEW_BUCKETS_PER_SUBJECT:
+            errors.append(f"{group_name}_view_bucket_lt_2")
+    return errors
+
+
+def _identity_reference_view_summary(groups: dict[str, Any]) -> dict[str, Any]:
+    return {
+        group_name: _identity_group_view_buckets(groups.get(group_name) or [])
+        for group_name in ("aachu_face_identity", "zuv_face_identity")
+    }
+
+
+def _identity_group_view_buckets(refs: list[Any]) -> list[str]:
+    buckets = {
+        _identity_reference_view_bucket(ref)
+        for ref in refs
+        if isinstance(ref, dict)
+    }
+    return sorted(buckets)
+
+
+def _identity_reference_view_bucket(ref: dict[str, Any]) -> str:
+    value = str(ref.get("view_bucket") or "").strip().lower()
+    if value:
+        return value
+    path = str(ref.get("path") or "")
+    stem = Path(path).stem.lower()
+    if "side" in stem or "profile" in stem:
+        return "side"
+    if (
+        "three-quarter" in stem
+        or "three_quarter" in stem
+        or "threequarter" in stem
+        or "3q" in stem
+        or "car-purple" in stem
+        or "glance" in stem
+        or "laugh" in stem
+        or "lavender-smile" in stem
+    ):
+        return "three_quarter"
+    if (
+        "front" in stem
+        or "frontal" in stem
+        or "neutral" in stem
+        or "selfie" in stem
+        or "cafe-neutral" in stem
+        or "home-black" in stem
+    ):
+        return "front"
+    return "unknown"
+
+
+def _attempt_has_hard_reject(attempt: dict[str, Any]) -> bool:
+    status = str(attempt.get("status", "")).lower()
+    failure_codes = {
+        str(code)
+        for code in attempt.get("failure_codes", [])
+        if isinstance(code, str)
+    }
+    has_hard_failure = bool(failure_codes & HARD_IMAGE_FAILURE_CODES)
+    return has_hard_failure and (
+        "reject" in status
+        or "fail" in status
+        or "block" in status
+    )
+
+
+def _manifest_view_image_paths(manifest: dict[str, Any]) -> list[str]:
+    queue = manifest.get("active_view_image_queue") or manifest.get("view_image_queue") or []
+    paths: list[str] = []
+    for item in queue:
+        if isinstance(item, dict) and item.get("path"):
+            paths.append(str(item["path"]))
+        elif isinstance(item, str):
+            paths.append(item)
+    return paths
 
 
 def _manifest_queue_count(manifest: Any) -> int:
@@ -1281,6 +3097,9 @@ def _write_review_loop_artifact(run_dir: Path, result: dict[str, Any]) -> Path:
 def _only_human_or_external_blockers(blockers: list[dict[str, Any]]) -> bool:
     human_or_external_codes = {
         "REFERENCE_VISIBILITY_PROOF_REQUIRED_BEFORE_FINAL_IMAGEGEN",
+        "IDENTITY_REFERENCE_INPUT_UNPROVEN",
+        "PROMPT_PALETTE_CONFLICT",
+        "GENERATION_CONTINUED_AFTER_HARD_REJECT",
         "LOCAL_CPU_EXECUTION_STALLED",
         "LOCAL_WORKFLOW_MISSING",
         "IMAGE_QA_FAILED",
@@ -1297,6 +3116,15 @@ def _only_human_or_external_blockers(blockers: list[dict[str, Any]]) -> bool:
 def _final_artifacts(run_dir: Path) -> list[str]:
     candidates: list[Path] = []
     for dirname in ["final", "package"]:
+        path = run_dir / dirname
+        if path.exists():
+            candidates.extend(item for item in path.rglob("*") if item.is_file())
+    return [f"runs/{run_dir.name}/{item.relative_to(run_dir)}" for item in candidates]
+
+
+def _packaged_illustration_artifacts(run_dir: Path) -> list[str]:
+    candidates: list[Path] = []
+    for dirname in ["final", "package", "final-carousel", "corrected-exact-source-carousel", "exports"]:
         path = run_dir / dirname
         if path.exists():
             candidates.extend(item for item in path.rglob("*") if item.is_file())
@@ -1337,6 +3165,65 @@ def _read_jsonl(path: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]
         else:
             errors.append({"line": line_number, "error": "not a JSON object"})
     return events, errors
+
+
+def _source_winner_contract_requires_novelty_model(contract: Any) -> bool:
+    if not isinstance(contract, dict):
+        return False
+    mode = str(contract.get("remix_mode") or contract.get("status") or "").lower()
+    if mode in {"fresh_original", "not_applicable", "none"}:
+        return False
+    if "permissioned_source_preserving_remix" in mode or "premise_only" in mode:
+        return True
+    source_winner = contract.get("source_winner")
+    if isinstance(source_winner, dict):
+        return any(
+            _usable_model_text(source_winner.get(key))
+            for key in ("source_url", "source_shortcode", "source_account")
+        )
+    return False
+
+
+def _nested_value(value: Any, keys: list[str]) -> Any:
+    cursor = value
+    for key in keys:
+        if not isinstance(cursor, dict):
+            return None
+        cursor = cursor.get(key)
+    return cursor
+
+
+def _collect_required_text_fields(
+    value: dict[str, Any],
+    fields: list[tuple[str, list[str]]],
+    missing: list[str],
+    prefix: str,
+) -> None:
+    for field_name, path in fields:
+        if not _usable_model_text(_nested_value(value, path)):
+            missing.append(f"{prefix}.{field_name}")
+
+
+def _complete_a_story_wrapper(wrapper: Any) -> bool:
+    if not isinstance(wrapper, dict):
+        return False
+    required_fields = [
+        "wrapper_id",
+        "wrapper_type",
+        "what_changes_for_aachu_zuv",
+        "lived_scene_wrapper",
+        "visual_proof",
+        "send_or_comment_trigger",
+        "flat_or_generic_risk",
+    ]
+    return all(_usable_model_text(wrapper.get(field)) for field in required_fields)
+
+
+def _usable_model_text(value: Any) -> bool:
+    if not isinstance(value, str):
+        return False
+    text = value.strip()
+    return bool(text) and "{{" not in text and "}}" not in text
 
 
 def _first_event_index(
@@ -1403,12 +3290,25 @@ def _default_failure_code(check_id: str) -> str:
         "prompt_reference_gate": "PROMPT_REFERENCE_GATE_MISSING",
         "prompt_forbidden_role_reversal": "PROMPT_ROLE_REVERSAL_RISK",
         "reference_manifest_integrity": "REFERENCE_MANIFEST_INVALID",
+        "reference_active_identity_inputs": "IDENTITY_REFERENCE_INPUT_UNPROVEN",
+        "prompt_palette_conflict": "PROMPT_PALETTE_CONFLICT",
+        "prompt_canvas_size": "PROMPT_CANVAS_SIZE_MISSING",
+        "prompt_brandmark_gate": "PROMPT_BRANDMARK_MISSING",
+        "prompt_overload": "PROMPT_OVERLOAD",
+        "pre_imagegen_blocker_check": "PRE_IMAGEGEN_BLOCKER_CHECK_FAILED",
+        "gold_standard_identity_route_gate": "GOLD_STANDARD_IDENTITY_ROUTE_MISSING",
+        "final_package_has_illustration_proof": "QUOTE_CARD_NOT_ILLUSTRATION",
+        "generation_stops_after_hard_reject": "GENERATION_CONTINUED_AFTER_HARD_REJECT",
+        "prompt_repair_reapproval": "HITL_NOT_APPROVED",
         "skill_contract_present": "SKILL_CONTRACT_MISSING",
         "master_prompt_present": "MASTER_PROMPT_MISSING",
         "required_templates_present": "REQUIRED_TEMPLATE_MISSING",
         "final_package_not_started": "FINAL_PACKAGE_STARTED_WHILE_BLOCKED",
         "accepted_candidate_filename_guard": "ACCEPTED_CANDIDATE_FILENAME_UNSAFE",
         "trace_jsonl_valid": "TRACE_JSONL_INVALID",
+        "novelty_candidate_ledger": "NOVELTY_CANDIDATE_LEDGER_MISSING",
+        "scene_landing_preview": "SCENE_LANDING_MISSING",
+        "source_winner_novelty_model": "SOURCE_WINNER_NOVELTY_MODEL_MISSING",
         "approvals_cover_required_gates": "HITL_APPROVALS_INCOMPLETE",
     }
     return codes.get(check_id, f"{check_id.upper()}_FAILED")

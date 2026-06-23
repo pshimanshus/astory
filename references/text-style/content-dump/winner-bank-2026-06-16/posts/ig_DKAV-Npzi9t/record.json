@@ -1,0 +1,163 @@
+{
+  "account": {
+    "full_name": "The Good Quote",
+    "instagram_user_id": null,
+    "username": "thegoodquote"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DKAV-Npzi9t:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/500420889_18528901930023341_1707466366805117554_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gFAu5kIbqXkCFpveX0aT7OChBcSg25LGSxZ13aSE4wj9-VzbM_Bt_rhQyQZIRM992g&_nc_ohc=ysUmBBtQ1bcQ7kNvwGNKya-&_nc_gid=eOP1djOa8GBS6CojYT-xUg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-VClqP2oZJJYt9oIznTbLFiSKpA3x_2-b4oLN7ToFjzA&oe=6A345961&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DKAV-Npzi9t:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DKAV-Npzi9t:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DKAV-Npzi9t:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DKAV-Npzi9t:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "Growth has taught me that putting myself first doesn’t always mean choosing isolation. There’s strength in honouring your own needs, but there’s also grace in partnership.⁠\n⁠\n— In learning how to hold space for each other.⁠\n— In taking turns.⁠\nA healthy connection allows room for both people to breathe, to bend, to be human. 🌻⁠\n— It’s not about keeping score.⁠\n— It’s about showing up when it matters most.⁠\n⁠\nAnd not forgetting yourself in the process.⁠\n⁠\nLeave a 💚 if this resonated with you⁠",
+    "word_count": 85
+  },
+  "communication_seed": {
+    "first_comment": "Amazing! ❤️",
+    "latest_comments": [
+      "Amazing! ❤️",
+      "❤️",
+      "True",
+      "❤️‍🩹",
+      "❤️💯",
+      "🤍🤍🤍",
+      "👏🙂‍↕️",
+      "."
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "explicit_prompt",
+      "direct_you",
+      "first_person",
+      "heartbreak"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DKAV-Npzi9t",
+    "public_html": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DKAV-Npzi9t/public_page.html",
+    "record_json": "references/text-style/content-dump/winner-bank-2026-06-16/posts/ig_DKAV-Npzi9t/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Public page fetch did not return parseable Instagram meta tags.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DKAV-Npzi9t",
+  "metrics": {
+    "comments": 68,
+    "likes": 36908,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 39968.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "account_username": null,
+    "canonical_url": null,
+    "caption_preview": null,
+    "comments": null,
+    "instagram_media_id": null,
+    "likes": null,
+    "owner_user_id": null,
+    "primary_image_url": null,
+    "published_label": null,
+    "raw_description": "",
+    "status": "public_meta_missing"
+  },
+  "published_at": "2025-05-23T18:00:41.000Z",
+  "published_label": null,
+  "rank": 127,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DKAV-Npzi9t",
+  "source_url": "https://www.instagram.com/p/DKAV-Npzi9t/"
+}

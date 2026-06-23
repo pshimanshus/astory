@@ -1,0 +1,156 @@
+{
+  "account": {
+    "full_name": "Ron Lim",
+    "instagram_user_id": null,
+    "username": "ronwritings"
+  },
+  "assets": [
+    {
+      "asset_id": "ig:DYComgIEs6N:asset:00",
+      "index": 0,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": "https://scontent-mia5-2.cdninstagram.com/v/t51.82787-15/686363882_18592471174016016_8314591230997956613_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-mia5-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGe7kfYpBiPNpMZVAfI0IS_KESl6FekrFLrq4-R-hZWKPmnh9e9GeJ57tHKgVB7Avk&_nc_ohc=QwdFavON3WwQ7kNvwEawtOK&_nc_gid=jLVu8sh3wyQM371uW2Npxg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_D0ld_KHjYTbjIkbdqvLFYOu8uCRy5EKUESebKNKJxWA&oe=6A3465E3&_nc_sid=10d13b",
+      "role": "slide",
+      "status": "remote_url_present",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYComgIEs6N:asset:01",
+      "index": 1,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYComgIEs6N:asset:02",
+      "index": 2,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYComgIEs6N:asset:03",
+      "index": 3,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    },
+    {
+      "asset_id": "ig:DYComgIEs6N:asset:04",
+      "index": 4,
+      "local_path": null,
+      "media_type": "image",
+      "ocr_text": null,
+      "remote_url": null,
+      "role": "slide",
+      "status": "missing_child_asset_url",
+      "style_notes": null,
+      "visual_notes": null
+    }
+  ],
+  "caption": {
+    "hashtags": [],
+    "public_preview": null,
+    "text": "some reminders from my book “twenty something” 🤍\n\ngrab a copy from the link in my bio or search on Amazon 📚",
+    "word_count": 20
+  },
+  "communication_seed": {
+    "first_comment": "🙌🙌🙌",
+    "latest_comments": [
+      "🙌🙌🙌",
+      "Provocazioni x cerebrolesi CHE FANNO PURE I MORTI DI FAME  MERDUSI LORDAZZI archicep pellaro TEGANO DE STEFANO UN CERTO DOMENICO DETTO TOMAIOLI,  UN CERTO LUCA DETTO CANNIZZARO, UN CERTO SANTO DETTO FRASCATI, UN CERTO MARIO DETTO LIVOTI REGGIO CALABRIA A MORTE",
+      "Provocazioni x cerebrolesi CHE FANNO PURE I MORTI DI FAME MERDUSI LORDAZZI archicep pellaro TEGANO DE STEFANO REGGIO CALABRIA A MORTE",
+      "Seeeee vabbuono🔥",
+      "Yes.\nThis is the quiet revolution no one claps for: choosing to follow the inner compass even when the road looks uncertain, refusing the slow death of a life unlived out of fear. Intuition doesn’t always deliver the destination we imagined — it delivers the one we were meant for.\nThere is a rarely documented limestone fragment from a minor oracle shrine near ancient Mari on the Euphrates (circa 1800 BCE, seen by only a few French archaeologists in the 1930s before the site was damaged and the p",
+      "💙",
+      "❤️",
+      "Yes👏",
+      "Beautiful",
+      "I completed reading this book today and It was amazing 😍I am in my late 20s and it really changed my mind how i feel and think about life . I really enjoyed reading this book and I can read this book again and again 😊 thanks @ronwritings for writing this amazing book . Please keep writing this kind of books more ❤️"
+    ],
+    "mechanic_tags": [
+      "carousel",
+      "first_person"
+    ]
+  },
+  "evidence_paths": {
+    "folder": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYComgIEs6N",
+    "public_html": null,
+    "record_json": "references/text-style/content-dump/full-715-offline-2026-06-16/posts/ig_DYComgIEs6N/record.json"
+  },
+  "gaps": [
+    {
+      "field": "assets[].ocr_text",
+      "reason": "OCR is a separate pass over downloaded images/screenshots.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].visual_notes",
+      "reason": "Visual/style analysis should run after assets are downloaded.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "assets[].remote_url",
+      "reason": "Public unauthenticated Instagram HTML did not expose every carousel child URL.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "public_html",
+      "reason": "Offline mode skipped public Instagram page fetches.",
+      "status": "not_attempted"
+    },
+    {
+      "field": "metrics.saves",
+      "reason": "Third-party saves are not public Instagram metrics.",
+      "status": "not_scraped"
+    },
+    {
+      "field": "metrics.shares",
+      "reason": "Third-party shares are not public Instagram metrics.",
+      "status": "not_scraped"
+    }
+  ],
+  "id": "ig:DYComgIEs6N",
+  "metrics": {
+    "comments": 37,
+    "likes": 9574,
+    "plays": 0,
+    "public_html_comments": null,
+    "public_html_likes": null,
+    "views": 0,
+    "winner_score": 11239.0
+  },
+  "post_type": "carousel",
+  "public_html": {
+    "caption_preview": null,
+    "comments": null,
+    "likes": null,
+    "primary_image_url": null,
+    "status": "not_attempted"
+  },
+  "published_at": "2026-05-07T14:41:25.000Z",
+  "published_label": null,
+  "rank": 389,
+  "raw_type": "Sidecar",
+  "schema_version": "instagram_content_dump.post.v1",
+  "shortcode": "DYComgIEs6N",
+  "source_url": "https://www.instagram.com/p/DYComgIEs6N/"
+}
